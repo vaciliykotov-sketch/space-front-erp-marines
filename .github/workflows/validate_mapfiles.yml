@@ -1,0 +1,21 @@
+name: Map file schema validator
+on:
+  push:
+    branches: [ master, staging, stable, main, spacefront-split ]
+  merge_group:
+  pull_request:
+    types: [ opened, reopened, synchronize, ready_for_review ]
+
+jobs:
+  yaml-schema-validation:
+    name: YAML map schema validator
+    if: github.actor != 'PJBot' && github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4.2.2
+    - uses: PaulRitter/yaml-schema-validator@v1
+      with:
+        schema: RobustToolbox/Schemas/mapfile.yml
+        path_pattern: .*Resources/Maps/.*
+        validators_path: RobustToolbox/Schemas/mapfile_validators.py
+        validators_requirements: .github/Schemas/mapfile_requirements.txt
