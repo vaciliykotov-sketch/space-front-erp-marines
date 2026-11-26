@@ -1,8 +1,114 @@
 SPACE FRONT — ERP MARINES
 (c) 2026 Space Front / ERP Marines.
 
-Сборка предоставляется ТОЛЬКО ДЛЯ ЛИЧНОГО (НЕКОММЕРЧЕСКОГО) ИСПОЛЬЗОВАНИЯ.
-Запрещено без письменного разрешения владельца: публиковать, распространять,
-перепродавать сборку, запускать публичные серверы, использовать в коммерческих целях.
+======================================================================
+РУССКИЙ
+======================================================================
 
-Основано на Space Station 14 (MIT) и RMC-14 (MIT + CC-BY-SA 3.0) — их лицензии сохраняются.
+1. ЧТО ЭТО
+«Сборка» — этот репозиторий целиком: игровой режим «Альфа-Браво против
+Дельта-Чарли» (SquadWar), серверные настройки, карты, озвучка (TTS),
+русская локализация и сопутствующие файлы, собранные на основе
+Space Station 14 и RMC-14.
+
+2. СОБСТВЕННЫЕ МАТЕРИАЛЫ
+Собственные материалы — всё, что создано владельцем сборки и лежит в
+папках _SpaceFront (Content.*/_SpaceFront, Resources/*/_SpaceFront),
+в Modifications/, Tools/server-updater/, в серверных конфигах и
+документах (README.md, PATCHES.md, ИЗМЕНЕНИЯ.md), за исключением
+сторонних частей из пункта 3.
+
+3. СТОРОННИЕ МАТЕРИАЛЫ
+В сборку входят материалы с собственными лицензиями. Они сохраняются
+и настоящей лицензией НЕ ограничиваются:
+ - Space Station 14 — MIT (LICENSE-UPSTREAM.TXT);
+ - RMC-14 — код MIT (LICENSE.TXT); ресурсы в основном CC-BY-SA 3.0,
+   часть — CC-BY-NC-SA 3.0 или иные некоммерческие лицензии (лицензия и
+   авторство указаны в meta.json рядом с ресурсом);
+ - папки _Wega (взаимодействия, ERP, ToysLeash, QueenCarry) — сборка
+   Wega, на условиях её лицензий;
+ - порт TTS из сборки Space Stories, переводы ss14-ru — на условиях
+   лицензий их авторов.
+Ресурсы под CC-BY-SA нужно распространять под той же лицензией с
+указанием авторства. Некоммерческие ресурсы нельзя использовать
+в коммерческих целях.
+
+4. ПРАВА НА СОБСТВЕННЫЕ МАТЕРИАЛЫ
+Разрешено: использовать, изучать, собирать и изменять для себя в
+личных некоммерческих целях.
+Запрещено без письменного разрешения владельца: публиковать,
+распространять (в том числе изменённые версии), перепродавать, запускать
+публичные серверы на основе собственных материалов, использовать их в
+коммерческих целях.
+Запреты не отменяют и не сужают права, которые даны вам лицензиями из
+пункта 3 на сторонние материалы.
+
+5. КОНТЕНТ 18+
+Сборка содержит материалы для взрослых (ERP). Использовать её могут
+только лица, достигшие 18 лет. Вы пользуетесь сборкой на свой риск.
+
+6. БЕЗ ГАРАНТИЙ
+Сборка предоставляется «как есть», без каких-либо гарантий. Владелец не
+отвечает за убытки и претензии, связанные с её использованием.
+
+7. РАЗРЕШЕНИЯ
+Письменное разрешение на то, что запрещено в пункте 4, можно получить
+у владельца: https://discord.gg/PhHV3EeZqs
+
+Русский текст является оригиналом. При расхождении с английским
+переводом действует русский.
+
+======================================================================
+ENGLISH
+======================================================================
+
+1. WHAT THIS IS
+The "Build" is this entire repository: the "Alpha-Bravo vs Delta-Charlie"
+(SquadWar) game mode, server settings, maps, text-to-speech (TTS),
+Russian localization and related files, built on top of Space Station 14
+and RMC-14.
+
+2. OWN MATERIALS
+Own Materials are everything created by the owner of the Build and located
+in the _SpaceFront folders (Content.*/_SpaceFront, Resources/*/_SpaceFront),
+in Modifications/, Tools/server-updater/, in server configs and in
+documents (README.md, PATCHES.md, ИЗМЕНЕНИЯ.md), except the third-party
+parts listed in section 3.
+
+3. THIRD-PARTY MATERIALS
+The Build includes materials under their own licenses. These licenses are
+preserved and are NOT restricted by this license:
+ - Space Station 14 — MIT (LICENSE-UPSTREAM.TXT);
+ - RMC-14 — code under MIT (LICENSE.TXT); assets mostly CC-BY-SA 3.0, some
+   CC-BY-NC-SA 3.0 or other non-commercial licenses (the license and
+   copyright are stated in the meta.json next to the asset);
+ - the _Wega folders (interactions, ERP, ToysLeash, QueenCarry) — the Wega
+   build, under its licenses;
+ - the TTS port from the Space Stories build and the ss14-ru translations —
+   under the licenses of their authors.
+CC-BY-SA assets must be distributed under the same license with
+attribution. Non-commercial assets must not be used commercially.
+
+4. RIGHTS TO OWN MATERIALS
+Allowed: to use, study, build and modify for yourself for personal,
+non-commercial purposes.
+Prohibited without the owner's written permission: to publish, distribute
+(including modified versions), resell, run public servers based on Own
+Materials, or use them commercially.
+These prohibitions do not remove or narrow the rights that the licenses in
+section 3 give you for third-party materials.
+
+5. ADULT CONTENT (18+)
+The Build contains adult content (ERP). It may be used only by persons
+aged 18 or older. You use the Build at your own risk.
+
+6. NO WARRANTY
+The Build is provided "as is", without warranty of any kind. The owner is
+not liable for any damages or claims arising from its use.
+
+7. PERMISSIONS
+Written permission for anything prohibited in section 4 can be requested
+from the owner: https://discord.gg/PhHV3EeZqs
+
+The Russian text is the original. In case of any discrepancy with the
+English translation, the Russian text prevails.

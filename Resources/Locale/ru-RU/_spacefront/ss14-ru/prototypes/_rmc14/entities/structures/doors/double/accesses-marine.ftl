@@ -1,0 +1,12 @@
+ent-CMDoubleDoorPreparationsAlphaLocked = { ent-CMDoubleDoorPreparationsAlpha }
+    .suffix = Подготовка, Альфа, Закрытый
+ent-CMDoublCMDoubleDoorPreparationsBravoLocked = { ent-CMDoubleDoorPreparationsBravo }
+    .suffix = Подготовка, Браво, Закрытый
+ent-CMDoubleDoorPreparationsCharlieLocked = { ent-CMDoubleDoorPreparationsCharlie }
+    .suffix = Подготовка, Чарли, Закрытый
+ent-CMDoublCMDoubleDoorPreparationsDeltaLocked = { ent-CMDoubleDoorPreparationsDelta }
+    .suffix = Подготовка, Дельта, Закрытый
+ent-RMCDoubleDoorPreparationsEchoLocked = { ent-RMCDoubleDoorPreparationsEcho }
+    .suffix = Подготовка, Эхо, Закрытый
+ent-RMCDoubleDoorPreparationsFoxtrotLocked = { ent-RMCDoubleDoorPreparationsFoxtrot }
+    .suffix = Подготовка, Фокстрот, Закрытый

@@ -1,0 +1,55 @@
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseUNMCMarineUnarmed
+  name: "Спавнер трупов — Морпех UNMC Unarmed"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseUNMCUnarmed
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseUNMCMarineRandom
+  name: "Спавнер трупов — Морпех UNMC"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseUNMCRandom
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseUNMCMedicRandom
+  name: "Спавнер трупов - UNMC медик"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseUNMCMedicRandom
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseUNMCMedicalTechnicianRandom
+  name: "Спавнер трупов - UNMC медикal Technician"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseUNMCMedicalTechnicianRandom
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseUNMCMilitaryPoliceRandom
+  name: "Спавнер трупов — Базовая полиция UNMC"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseUNMCMilitaryPoliceRandom
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseUNMCPilot
+  name: "Спавнер трупов - UNMC пилот"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseUNMCPilot
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseUNMCCrewman
+  name: "Спавнер трупов — Член экипажа UNMC"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseUNMCCrewman

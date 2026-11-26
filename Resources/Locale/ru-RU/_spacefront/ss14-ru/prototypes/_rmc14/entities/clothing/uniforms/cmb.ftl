@@ -1,0 +1,11 @@
+ent-RMCCMBUniformBase = { ent-RMCMarineUniformBase }
+ent-RMCSwatCMBUniform = экипировка БКМ для разгона беспорядков
+ent-RMCSwatCMBUniformSpearhead = { ent-RMCSwatCMBUniform }
+ent-RMCSwatLeaderCMBUniform = экипировка маршала БКМ для разгона беспорядков.
+ent-RMCMarshalCMBUniform = экипировка колониального маршала.
+ent-RMCSwatCMBUniformB92FS = { ent-RMCSwatCMBUniform }
+    .suffix = B92FS
+ent-RMCSwatCMBUniformMK45 = { ent-RMCSwatCMBUniform }
+    .suffix = MK45
+ent-RMCSwatCMBUniformM1984 = { ent-RMCSwatCMBUniform }
+    .suffix = M4A3

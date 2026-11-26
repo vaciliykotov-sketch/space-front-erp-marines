@@ -1,0 +1,12 @@
+ent-BaseWeaponRevolver = BaseWeaponRevolver
+ent-WeaponRevolverDeckard = Декард
+ent-WeaponRevolverInspector = Инспектор
+ent-WeaponRevolverMateba = Матеба
+ent-WeaponRevolverMatebaAP = { ent-WeaponRevolverMateba }
+    .suffix = Бронебойные
+ent-WeaponRevolverPython = Питон
+ent-WeaponRevolverPythonAP = { ent-WeaponRevolverPython }
+    .suffix = Револьвер, Бронебойный
+ent-WeaponRevolverPirate = револьвер пирата
+ent-WeaponRevolverPirateEmpty = { ent-WeaponRevolverPirate }
+    .suffix = Пустой

@@ -1,0 +1,10 @@
+ent-CableBase = { "" }
+ent-CableHV = кабель ВВ
+ent-CableHVUncuttable = { ent-CableHV }
+    .suffix = Невозможно перерезать
+ent-CableMV = кабель СВ
+ent-CableMVUncuttable = { ent-CableMV }
+    .suffix = Невозможно перерезать
+ent-CableApcExtension = кабель НВ
+ent-CableApcExtensionUncuttable = { ent-CableApcExtension }
+    .suffix = Невозможно перерезать

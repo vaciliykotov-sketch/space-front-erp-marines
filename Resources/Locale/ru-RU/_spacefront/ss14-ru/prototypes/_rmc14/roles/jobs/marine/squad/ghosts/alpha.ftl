@@ -1,0 +1,14 @@
+ent-RMCRandomHumanoidAlphaCombatTech = роль призрака боевого техника альфа
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidAlphaFireteamLeader = роль призрака главы огневой группы альфа
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidAlphaHospitalCorpsman = роль призрака госпитального санитара альфа
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidAlphaRifleman = роль призрака стрелка альфа
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidAlphaSmartGunOperator = роль призрака оператора смартгана альфа
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidAlphaSquadLeader = роль призрака главы отряда альфа
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidAlphaWeaponsSpecialist = роль призрака оружейного специалиста альфа
+    .suffix = Спавнер, Игрок

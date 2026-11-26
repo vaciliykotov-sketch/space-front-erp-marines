@@ -1,0 +1,16 @@
+ent-DebugGenerator = { ent-BaseGenerator }
+    .suffix = DEBUG
+ent-DebugConsumer = �����������
+    .suffix = DEBUG
+ent-DebugBatteryStorage = ��������� �������
+    .suffix = DEBUG
+ent-DebugBatteryDischarger = ��������� �������
+    .suffix = DEBUG
+ent-DebugSMES = { ent-BaseSMES }
+    .suffix = DEBUG
+ent-DebugSubstation = { ent-BaseSubstation }
+    .suffix = DEBUG
+ent-DebugAPC = { ent-BaseAPC }
+    .suffix = DEBUG
+ent-DebugPowerReceiver = ������� �������
+    .suffix = DEBUG

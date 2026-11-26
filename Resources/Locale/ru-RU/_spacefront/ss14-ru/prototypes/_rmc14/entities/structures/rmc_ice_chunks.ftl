@@ -1,0 +1,9 @@
+ent-RMCIcechunk = образец крупной ледяной глыбы
+ent-RMCIcechunkElsa = образец крупной ледяной глыбы
+    .suffix = Эльза
+ent-RMCIcechunkDroLar = образец крупной ледяной глыбы
+    .suffix = Дрон и личинка
+ent-RMCIcechunkPara = образец крупной ледяной глыбы
+    .suffix = Лицехваты
+ent-RMCIcechunkCaveman = образец крупной ледяной глыбы
+    .suffix = Пещерный человек

@@ -1,0 +1,11 @@
+ent-ColMarTechSLGear = КолМорТех: стойка снаряжения командира отряда
+ent-ColMarTechSLEquipment = КолМорТех: стойка экипировки командира отряда
+ent-RMCVendorBundleCrewLeader = обязательный комплект для командования
+ent-RMCKitRifleM4SPR = снайперский комплект M4RA
+ent-RMCKitCM54C = винтовочный комплект M41A
+ent-RMCKitEngineering = набор инженерных принадлежностей
+ent-RMCKitPyroMini = комплект пиротехника поддержки M240A
+ent-RMCArmorB12Zipties = лидерская броня B12
+    .suffix = Стяжки
+ent-RMCArmorM4Zipties = лидерская броня M4
+    .suffix = Стяжки

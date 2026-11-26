@@ -1,0 +1,16 @@
+ent-CMBaseDefibrillator = прибор для дефибрилляции
+ent-CMDefibrillator = { ent-CMBaseDefibrillator }
+    .suffix = КМ14
+ent-CMDefibrillatorEmpty = { ent-CMDefibrillator }
+    .suffix = КМ14, Пустой
+ent-CMDefibrillatorInfinite = { ent-CMBaseDefibrillator }
+    .suffix = КМ14, Бесконечный
+ent-RMCDefibrillatorCompact = дефибриллятор компактного типа
+    .suffix = { ent-CMDefibrillator.suffix }
+ent-RMCSynthResetKey = ключ для перезагрузки синтетиков Ве-Я
+ent-RMCSynthResetKeySMART = ИИ-ключ для перезагрузки синтетиков Ве-Я
+ent-RMCSynthResetKeyNovaris = ключ для перезагрузки синтетиков Новарис
+ent-RMCSynthResetKeyNovarisSMART = ИИ-ключ для перезагрузки синтетиков Новарис
+ent-RMCSynthResetKeyHalcyon = ключ для перезагрузки синтетиков Халкон
+ent-RMCSynthResetKeyHalcyonSMART = ИИ-ключ для перезагрузки синтетиков Халкон
+ent-RMCSynthResetKeyMakeshift = самодельный ключ для перезагрузки синтетиков

@@ -1,0 +1,11 @@
+ent-RMCEffectXenoTelegraphGreen = { "" }
+ent-RMCEffectXenoTelegraphInvisible = { ent-RMCEffectXenoTelegraphGreen }
+ent-RMCEffectXenoTelegraphRed = { ent-RMCEffectXenoTelegraphGreen }
+ent-RMCEffectXenoTelegraphRedPulse = { ent-RMCEffectXenoTelegraphGreen }
+ent-RMCEffectXenoTelegraphYellowPulse = { ent-RMCEffectXenoTelegraphGreen }
+ent-RMCEffectXenoTelegraphRedSmall = { ent-RMCEffectXenoTelegraphRed }
+ent-RMCEffectXenoTelegraphRedEmpower = { ent-RMCEffectXenoTelegraphRed }
+ent-RMCEffectXenoTelegraphAbduct = { "" }
+ent-RMCEffectXenoTelegraphLash = { "" }
+ent-RMCEffectXenoTelegraphLashAnim = { ent-RMCEffectXenoTelegraphLash }
+ent-RMCEffectXenoTelegraphKing = { "" }

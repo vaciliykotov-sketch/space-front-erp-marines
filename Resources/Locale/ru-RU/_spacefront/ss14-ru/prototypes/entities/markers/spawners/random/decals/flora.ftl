@@ -1,0 +1,15 @@
+ent-DecalSpawnerFloraBase = { ent-DecalSpawnerBase }
+ent-DecalSpawnerGrassyRock = { ent-DecalSpawnerFloraBase }
+    .suffix = Травянистый камень
+ent-DecalSpawnerBasaltRock = { ent-DecalSpawnerFloraBase }
+    .suffix = Базальтовый камень
+ent-DecalSpawnerBushesAC = { ent-DecalSpawnerFloraBase }
+    .suffix = Кусты (а-в)
+ent-DecalSpawnerFlowers = { ent-DecalSpawnerFloraBase }
+    .suffix = Цветы
+ent-DecalSpawnerGrassAB = { ent-DecalSpawnerFloraBase }
+    .suffix = Трава (а-б)
+ent-DecalSpawnerGrassC = { ent-DecalSpawnerFloraBase }
+    .suffix = Трава (в)
+ent-DecalSpawnerGrassDE = { ent-DecalSpawnerFloraBase }
+    .suffix = Трава (г-д)

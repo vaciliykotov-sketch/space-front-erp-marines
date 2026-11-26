@@ -1,0 +1,9 @@
+ent-BaseFenceMetal = ограждение из рабицы
+ent-FenceMetalBroken = повреждённая рабица
+ent-FenceMetalStraight = { ent-BaseFenceMetal }
+    .suffix = Прямой
+ent-FenceMetalCorner = { ent-BaseFenceMetal }
+    .suffix = Угол
+ent-FenceMetalEnd = { ent-BaseFenceMetal }
+    .suffix = Конец
+ent-FenceMetalGate = калитка из рабицы

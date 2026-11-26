@@ -1,0 +1,10 @@
+ent-FoodTacoShell = оболочка для тако
+ent-FoodTacoBase = { ent-FoodInjectableBase }
+ent-FoodTacoBeef = тако с говядиной
+ent-FoodTacoChicken = тако с курицей
+ent-FoodTacoFish = тако с рыбой
+ent-FoodTacoRat = тако с крысой
+ent-FoodTacoBeefSupreme = тако суприм с говядиной
+ent-FoodTacoChickenSupreme = тако суприм с курицей
+ent-FoodTacoDragon = драко-тако
+ent-FoodMealSoftTaco = тако на мягкой лепёшке

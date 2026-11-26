@@ -1,0 +1,1 @@
+ent-ActionMindSwap = Обмен разумами

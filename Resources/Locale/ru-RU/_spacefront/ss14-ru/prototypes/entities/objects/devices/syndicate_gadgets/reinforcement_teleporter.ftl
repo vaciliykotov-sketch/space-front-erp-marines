@@ -1,0 +1,10 @@
+ent-ReinforcementRadio = радиостанция вызова подкрепления Синдиката
+ent-ReinforcementRadioSyndicate = радиостанция подкрепления от Синдиката
+ent-ReinforcementRadioSyndicateNukeops = радио вызова подкрепления ядерного оперативника
+    .suffix = Ядерные оперативники
+ent-ReinforcementRadioSyndicateAncestor = радио подкрепления от генетического предка Синдиката
+ent-ReinforcementRadioSyndicateAncestorNukeops = { ent-ReinforcementRadioSyndicateAncestor }
+    .suffix = NukeOps
+ent-ReinforcementRadioSyndicateSyndiCat = радио вызова подкрепления СиндиКота
+ent-ReinforcementRadioSyndicateCyborgAssault = радио подкрепления для штурмового киборга Синдиката
+    .suffix = Ядерные оперативники

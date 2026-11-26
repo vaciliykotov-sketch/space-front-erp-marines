@@ -1,0 +1,10 @@
+- type: job
+  parent: CMJobXenoBase
+  id: CMXenoCrusher
+  setPreference: false
+  name: cm-job-name-xeno-crusher
+  playTimeTracker: CMJobXenoCrusher
+
+- type: playTimeTracker
+  id: CMJobXenoCrusher
+  isXeno: true

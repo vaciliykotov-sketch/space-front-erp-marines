@@ -1,0 +1,14 @@
+ent-BaseGlassBox = { ent-BaseStructureDynamic }
+ent-GlassBox = короб из стекла
+ent-GlassBoxLaser = { ent-GlassBox }
+    .suffix = Антикварный лазер
+ent-GlassBoxLaserOpen = { ent-GlassBoxLaser }
+    .suffix = Антикварный лазер, Открытый
+ent-GlassBoxLaserFilled = { ent-GlassBoxLaser }
+    .suffix = Антикварный лазер, Заполненный
+ent-GlassBoxLaserFilledOpen = { ent-GlassBoxLaserFilled }
+    .suffix = Антикварный лазер, Заполненный, Открытый
+ent-GlassBoxFrame = стеклянный короб: каркас
+    .suffix = Каркас
+ent-GlassBoxBroken = стеклянный короб в разбитом состоянии
+    .suffix = Разбитый

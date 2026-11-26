@@ -1,0 +1,35 @@
+- type: entity
+  id: CMDistressSignal
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: GameRule
+    minPlayers: 0
+  - type: RandomMetadata
+    nameSegments:
+    - RMCOperationPrefixes
+    - RMCOperationNames
+    - RMCOperationSuffixes
+    nameFormat: name-format-rmc-operation
+  - type: CMDistressSignalRule
+
+- type: entity
+  id: RMC14SquadWar
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: GameRule
+    minPlayers: 0
+  - type: RandomMetadata
+    nameSegments:
+    - RMCOperationPrefixes
+    - RMCOperationNames
+    - RMCOperationSuffixes
+    nameFormat: name-format-rmc-operation
+  - type: CMDistressSignalRule
+    SquadWar: true
+    SpawnXenos: false
+    SpawnSurvivors: false
+    RequireXenoPlayers: false
+    AutoEnd: false
+    DoJobSlotScaling: true

@@ -1,0 +1,10 @@
+ent-CMPaperBin = { ent-PaperBin }
+    .suffix = Пустой
+ent-CMPaperBin5 = { ent-CMPaperBin }
+    .suffix = 5
+ent-CMPaperBin10 = { ent-CMPaperBin }
+    .suffix = 10
+ent-CMPaperBin20 = { ent-CMPaperBin }
+    .suffix = 20
+ent-CMPaperBin30 = { ent-CMPaperBin }
+    .suffix = 30

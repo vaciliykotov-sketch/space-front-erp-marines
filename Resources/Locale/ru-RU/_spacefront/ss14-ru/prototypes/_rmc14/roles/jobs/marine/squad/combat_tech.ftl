@@ -1,0 +1,11 @@
+ent-CMSpawnPointCombatTech = место появления боевого техника
+    .suffix = { ent-CMSpawnPointJobBase.suffix }
+ent-CMSpawnPointCombatTechAlpha = { ent-CMSpawnPointCombatTech }
+    .suffix = Альфа
+ent-CMSpawnPointCombatTechBravo = { ent-CMSpawnPointCombatTech }
+    .suffix = Браво
+ent-CMSpawnPointCombatTechCharlie = { ent-CMSpawnPointCombatTech }
+    .suffix = Чарли
+ent-CMSpawnPointCombatTechDelta = { ent-CMSpawnPointCombatTech }
+    .suffix = Дельта
+ent-RMCGuidebookRoleCT = Техник Боевой

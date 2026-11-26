@@ -1,0 +1,21 @@
+- type: construction
+  parent: RMC
+  name: "колючая проволока"
+  id: Barbedwire
+  graph: BarbedWireGraph
+  startNode: start
+  targetNode: nodeBarbedWire
+  category: construction-category-cm-materials
+  description: Create barbed wire to decorate your barricades.
+  objectType: Item
+
+- type: construction
+  parent: RMC
+  id: CMSheetGlassReinforced
+  name: "армированное стекло"
+  description: A reinforced sheet of glass.
+  graph: CMGlass
+  startNode: start
+  targetNode: SheetGlassReinforced
+  category: construction-category-cm-materials
+  objectType: Item

@@ -1,0 +1,1 @@
+ent-CoordinatesDisk = координатный диск

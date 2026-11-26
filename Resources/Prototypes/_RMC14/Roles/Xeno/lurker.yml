@@ -1,0 +1,10 @@
+- type: job
+  parent: CMJobXenoBase
+  id: CMXenoLurker
+  setPreference: false
+  name: cm-job-name-xeno-lurker
+  playTimeTracker: CMJobXenoLurker
+
+- type: playTimeTracker
+  id: CMJobXenoLurker
+  isXeno: true

@@ -1,0 +1,11 @@
+ent-RMCDropshipMaintsComputer = дропшипный компьютер
+    .suffix = Открыт
+ent-RMCDropshipMaintsComputerOpen = дропшипный компьютер
+    .suffix = Закрыт
+ent-RMCLaptop = портативный компьютер
+    .suffix = закрыт
+ent-RMCLaptopOff = { ent-RMCLaptop }
+    .suffix = Выключен
+ent-RMCLaptopOn = { ent-RMCLaptopOff }
+    .suffix = Включён
+ent-RMCLaptopBudget = портативный компьютер

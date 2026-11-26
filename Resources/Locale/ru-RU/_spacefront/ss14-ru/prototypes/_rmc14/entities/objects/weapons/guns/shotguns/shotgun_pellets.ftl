@@ -1,0 +1,9 @@
+ent-CMPelletShotgunBase = { ent-CMBulletBase }
+ent-CMPelletShotgunBuckshot = картечный заряд
+ent-CMPelletShotgunSlug = пулевой заряд
+ent-CMPelletShotgunIncendiary = зажигательный пулевой заряд
+ent-CMPelletShotgunBeanbag = травматическая пуля-мешок
+ent-CMPelletShotgunFlechette = стреловидный заряд
+ent-CMPelletShotgunIncendiaryBuckshot = зажигательный картечный заряд
+ent-RMCPelletShotgunBreaching = облегченный разрывной заряд
+ent-RMCPelletShotgunL49B = картечь для L49B

@@ -1,0 +1,10 @@
+ent-RMCSpawnerRandomPillBase = спавнер флаконов с пилюлями
+    .suffix = Базовый
+ent-RMCSpawnerRandomPillBottle = { ent-RMCSpawnerRandomPillBase }
+    .suffix = Гарантированный
+ent-RMCSpawnerRandomPillBottleLowChance = { ent-RMCSpawnerRandomPillBottle }
+    .suffix = Низкий шанс
+ent-RMCSpawnerRandomPillBottleMidChance = { ent-RMCSpawnerRandomPillBottle }
+    .suffix = Средний шанс
+ent-RMCSpawnerRandomPillBottleHighChance = { ent-RMCSpawnerRandomPillBottle }
+    .suffix = Высокий шанс

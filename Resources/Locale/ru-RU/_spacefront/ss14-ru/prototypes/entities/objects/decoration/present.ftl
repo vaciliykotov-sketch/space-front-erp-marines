@@ -1,0 +1,14 @@
+ent-PresentBase = подарочная коробка
+ent-Present = { ent-PresentBase }
+    .suffix = Пустой
+ent-PresentRandomUnsafe = { ent-PresentBase }
+    .suffix = Заполненный, Небезопасный
+ent-PresentRandomInsane = { ent-PresentRandomUnsafe }
+    .suffix = Заполненный, Любая сущность
+ent-PresentRandom = { ent-PresentBase }
+    .suffix = Заполненный, Безопасный
+ent-PresentRandomCoal = { ent-PresentBase }
+    .suffix = Заполненный, уголь
+ent-PresentRandomCash = { ent-PresentBase }
+    .suffix = Заполненный, Деньги
+ent-PresentTrash = бумага для обёртки

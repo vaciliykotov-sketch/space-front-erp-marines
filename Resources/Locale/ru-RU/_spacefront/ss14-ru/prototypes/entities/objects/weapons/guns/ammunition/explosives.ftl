@@ -1,0 +1,16 @@
+ent-CartridgeRocket = ракета ПГ-7ВЛ
+ent-CartridgeRocketSlow = ракета ПГ-7ВЛ "Улитка"
+ent-BaseGrenade = стандартный гранатный боеприпас
+ent-GrenadeBaton = шоковая граната-снаряд
+ent-GrenadeBlast = фугасная граната-снаряд
+ent-GrenadeFlash = граната-снаряд со вспышкой
+ent-GrenadeFrag = осколочная граната-снаряд
+ent-GrenadeCleanade = cleanade grenade round
+ent-GrenadeEMP = граната-снаряд ЭМИ
+ent-BaseCannonBall = стандартное ядро для пушки
+ent-CannonBall = ядро для пушки
+    .suffix = Пират
+ent-CannonBallGrapeshot = картечный заряд
+    .suffix = Пираты
+ent-CannonBallGlassshot = картечь из стекла
+    .suffix = Пираты

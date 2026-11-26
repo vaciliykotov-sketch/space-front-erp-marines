@@ -1,0 +1,23 @@
+- type: entity
+  parent: CMIDCardSilver
+  id: CMIDCardChiefEngineer
+  name: ID-карта главного инженера
+  components:
+  - type: PresetIdCard
+    job: CMChiefEngineer
+
+- type: entity
+  parent: CMIDCardBase
+  id: CMIDCardOrdnanceTech
+  name: ID-карта техника-оружейника
+  components:
+  - type: PresetIdCard
+    job: CMOrdnanceTech
+
+- type: entity
+  parent: CMIDCardBase
+  id: CMIDCardMaintTech
+  name: ID-карта техника по обслуживанию
+  components:
+  - type: PresetIdCard
+    job: CMMaintTech

@@ -1,0 +1,52 @@
+- type: job
+  parent: CMSurvivorDoctor
+  id: CMSurvivorLV624MedicalTechnician
+  setPreference: false
+  name: rmc-job-name-survivor-lv624-medical-technician
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorLV624MedicalTechnician
+  spawnMenuRoleName: Medical Technician (LV624 Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorParamedic
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetLV624MedicalTechnician
+  useLoadoutOfJob: CMSurvivorDoctor # for inheritance
+
+- type: startingGear
+  parent: RMCGearSurvivorDoctor
+  id: RMCGearSurvivorLV624MedicalTechnician
+  equipment:
+    head: RMCHeadBlueSoftCap
+    jumpsuit: RMCJumpsuitBlueWorkwear
+    outerClothing: RMCJacketWindbreakerFirstResponder
+    eyes: RMCGlassesMedicalHUDGlasses
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorLV624MedicalTechnician
+  name: "точка появления медицинского техника LV624"
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivor
+  - type: Sprite # TODO: Replace with landmark sprite
+    layers:
+    - sprite: Markers/jobs.rsi
+      state: green
+    - sprite: _RMC14/Markers/cm_jobs.rsi
+      state: survivor
+
+- type: entity
+  parent: RMCSurvivorPresetDoctor
+  id: RMCGearSurvivorPresetLV624MedicalTechnician
+  categories: [ HideSpawnMenu ]
+  name: "пресет колониста-медицинского техника LV624"

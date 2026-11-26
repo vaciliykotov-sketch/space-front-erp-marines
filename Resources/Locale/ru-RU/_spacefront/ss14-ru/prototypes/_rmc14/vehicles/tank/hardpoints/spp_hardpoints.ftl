@@ -1,0 +1,12 @@
+ent-VehicleSPPTankHardpointBase = { ent-BaseItem }
+ent-VehicleSPPTankTurret = башня танка СПН
+ent-VehicleSPPTankP17702 = пушка роторная P-17702
+ent-VehicleSPPTankRailgun = рельсотрон танка СПН
+ent-VehicleSPPTankHJ35TLauncher = HJ35T пусковая установка
+ent-VehicleSPPTankCupola = T60P3M башня
+ent-VehicleSPPTankReactiveArmor = защита динамическая
+ent-VehicleSPPTankRocketLauncher = установка дымовая СПН
+ent-VehicleSPPTankFlareModule = модуль осветительный СПН
+ent-VehicleSPPTankWarningArray = матрица предупреждения танка СПН
+ent-VehicleSPPTankOverdriveEnhancer = модуль форсажа для танка СПН
+ent-VehicleSPPTankArtilleryModule = модуль артиллерии СПН

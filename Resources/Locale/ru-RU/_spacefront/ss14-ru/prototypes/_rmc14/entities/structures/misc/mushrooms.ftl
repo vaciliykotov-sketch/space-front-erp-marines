@@ -1,0 +1,15 @@
+ent-RMCGlowshroom = гриб, который светится
+ent-RMCGlowshroom1 = { ent-RMCGlowshroom }
+ent-RMCGlowshroom0 = { ent-RMCGlowshroom }
+ent-RMCGlowshroom2 = { ent-RMCGlowshroom }
+ent-RMCGlowshroom3 = { ent-RMCGlowshroom }
+ent-RMCMushroom = мухомор обыкновенный
+    .suffix = Реквизит, RMC
+ent-RMCMushroom1 = толстошлемник
+    .suffix = { ent-RMCMushroom.suffix }
+ent-RMCMushroom2 = ангел-истребитель
+    .suffix = { ent-RMCMushroom.suffix }
+ent-RMCMushroom3 = скопление лисичек
+    .suffix = { ent-RMCMushroom.suffix }
+ent-RMCMushroom4 = вольная шляпка
+    .suffix = { ent-RMCMushroom.suffix }

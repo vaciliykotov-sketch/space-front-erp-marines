@@ -1,0 +1,10 @@
+ent-AlwaysPoweredStrobeLight = проблесковый маячок
+    .suffix = Всегда запитанный
+ent-PoweredStrobeLightEmpty = строба
+    .suffix = Пустой
+ent-PoweredStrobeLightPolice = { ent-PoweredStrobeLightEmpty }
+    .suffix = Пустой, Полиция
+ent-PoweredStrobeLightSiren = { ent-PoweredStrobeLightEmpty }
+    .suffix = Пустой, Сирена
+ent-PoweredStrobeLightEpsilon = { ent-PoweredStrobeLightEmpty }
+    .suffix = Пустой, Эпсилон

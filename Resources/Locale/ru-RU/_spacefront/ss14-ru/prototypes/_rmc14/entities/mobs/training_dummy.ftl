@@ -1,0 +1,11 @@
+ent-RMCTrainingDummy = манекен для тренировок
+    .suffix = RMC14
+ent-SpawnRMCTrainingDummy = спавнер тренировочных манекенов RMC
+ent-RMCLockerTrainingDummy = шкаф тренировочного манекена
+    .suffix = Юг, Пустой
+ent-RMCLockerTrainingDummyFilled = { ent-RMCLockerTrainingDummy }
+    .suffix = Юг, Заполненный
+ent-RMCLockerTrainingDummyNorth = { ent-RMCLockerTrainingDummy }
+    .suffix = Север, Пустой
+ent-RMCLockerTrainingDummyNorthFilled = { ent-RMCLockerTrainingDummyNorth }
+    .suffix = Север, Заполненный

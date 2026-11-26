@@ -1,0 +1,11 @@
+ent-RMCHiveBoonBase = дар улья
+ent-RMCHiveBoonFireResistance = Дар устойчивости к огню
+ent-RMCHiveBoonLarvaSurge = Прилив личинок
+ent-RMCHiveBoonEvolution = Дар развития
+ent-RMCHiveBoonEvolutionMajor = Великий дар развития
+ent-RMCHiveBoonAdaptability = Дар адаптации
+ent-RMCHiveBoonAggression = Дар ярости
+ent-RMCHiveBoonAggressionMajor = Великий дар ярости
+ent-RMCHiveBoonFortification = Дар обороны
+ent-RMCHiveBoonKing = Король — его величество
+ent-RMCHiveCocoonKing = кокон ксеноморфа

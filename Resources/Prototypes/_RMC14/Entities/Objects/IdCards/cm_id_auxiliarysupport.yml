@@ -1,0 +1,50 @@
+- type: entity
+  parent: CMIDCardSilver
+  id: CMIDCardASO
+  name: "удостоверение офицера вспомогательной поддержки"
+  components:
+  - type: PresetIdCard
+
+- type: entity
+  parent: CMIDCardBase
+  id: CMIDCardPilotDropship
+  name: ID-карта пилота десантного корабля
+  components:
+  - type: PresetIdCard
+    job: CMPilotDropship
+
+- type: entity
+  parent: CMIDCardBase
+  id: CMIDCardPilotGunship
+  name: ID-карта пилота ганшипа
+  components:
+  - type: PresetIdCard
+    job: CMPilotGunship
+
+- type: entity
+  parent: CMIDCardBase
+  id: CMIDCardDCC
+  name: ID-карта начальника экипажа десантного корабля
+  components:
+  - type: PresetIdCard
+    job: CMDropshipCrewChief
+
+- type: entity
+  parent: CMIDCardSilver
+  id: CMIDCardIntelOfficer
+  name: ID-карта офицера разведки
+  components:
+  - type: PresetIdCard
+
+- type: entity
+  parent: CMIDCardStandardDogtag
+  id: CMDogtagCrewman
+  name: "Жетоны члена экипажа"
+  components:
+  - type: PresetIdCard
+    job: CMVehicleCrewman
+
+- type: entity
+  parent: [ RMCIDCardStandardDogtagHidden, CMDogtagCrewman ]
+  id: RMCDogtagCrewmanHidden
+  categories: [ HideSpawnMenu ]

@@ -1,0 +1,12 @@
+ent-RMCAreaPVE = { ent-RMCAreaBase }
+    .suffix = { ent-RMCAreaBase.suffix }
+ent-RMCAreaPVEOOB = За пределами территории
+    .suffix = { ent-RMCAreaPVE.suffix }
+ent-RMCAreaPVEOutdoors = Открытая местность
+    .suffix = { ent-RMCAreaPVE.suffix }
+ent-RMCAreaPVELZ = Точка высадки
+    .suffix = { ent-RMCAreaPVEOutdoors.suffix }
+ent-RMCAreaPVEIndoors = Закрытое пространство
+    .suffix = { ent-RMCAreaPVE.suffix }
+ent-RMCAreaPVEShuttle = Чечелнок
+    .suffix = { ent-RMCAreaPVEIndoors.suffix }

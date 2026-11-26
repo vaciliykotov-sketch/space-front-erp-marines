@@ -1,0 +1,13 @@
+ent-RMCBaseDeskPlant = растение для стола
+ent-RMCDeskPlantBonsai = растение для стола
+    .suffix = Бонсай
+ent-RMCDeskPlantCactus = растение для стола
+    .suffix = Кактус
+ent-RMCDeskPlantDry = растение для стола
+    .suffix = Сухая трава
+ent-RMCDeskPlantHorizon = растение для стола
+    .suffix = Горизонт
+ent-RMCDeskPlantOrchid = растение для стола
+    .suffix = Орхидея
+ent-RMCDeskPlantPink = растение для стола
+    .suffix = Розовый

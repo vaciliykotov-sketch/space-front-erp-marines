@@ -1,0 +1,12 @@
+ent-MachineParticleAcceleratorEndCapCircuitboard = схема концевой заглушки УЧ
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-MachineParticleAcceleratorFuelChamberCircuitboard = схема топливной камеры УЧ
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-MachineParticleAcceleratorPowerBoxCircuitboard = схема блока питания УЧ
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-MachineParticleAcceleratorEmitterStarboardCircuitboard = схема излучателя УЧ (левый)
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-MachineParticleAcceleratorEmitterForeCircuitboard = схема излучателя УЧ (центральный)
+    .suffix = { ent-BaseMachineCircuitboard.suffix }
+ent-MachineParticleAcceleratorEmitterPortCircuitboard = схема излучателя УЧ (правый)
+    .suffix = { ent-BaseMachineCircuitboard.suffix }

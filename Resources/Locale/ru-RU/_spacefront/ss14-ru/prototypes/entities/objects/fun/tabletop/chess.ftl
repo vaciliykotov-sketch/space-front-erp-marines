@@ -1,0 +1,14 @@
+ent-ChessBoard = доска шахматная
+ent-ChessBoardTabletop = набор для шахмат
+ent-WhiteKing = король белых
+ent-WhiteQueen = ферзь белых
+ent-WhiteRook = ладья белых
+ent-WhiteBishop = слон белых
+ent-WhiteKnight = конь белых
+ent-WhitePawn = пешка белых
+ent-BlackKing = король чёрных
+ent-BlackQueen = ферзь чёрных
+ent-BlackRook = ладья чёрных
+ent-BlackBishop = слон чёрных
+ent-BlackKnight = конь чёрных
+ent-BlackPawn = пешка чёрных

@@ -1,0 +1,12 @@
+ent-BaseAPC = ЛКП
+ent-APCFrame = основа ЛКП
+ent-APCConstructed = { ent-BaseAPC }
+    .suffix = Открыт
+ent-APCBasic = { ent-BaseAPC }
+    .suffix = Базовый, 50кДж
+ent-APCHighCapacity = { ent-BaseAPC }
+    .suffix = Высокая ёмкость, 100кДж
+ent-APCSuperCapacity = { ent-BaseAPC }
+    .suffix = Супер ёмкость, 150кДж
+ent-APCHyperCapacity = { ent-BaseAPC }
+    .suffix = Гипер ёмкость, 200кДж

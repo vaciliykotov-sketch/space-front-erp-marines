@@ -1,0 +1,5 @@
+ent-BaseCartridgeRifle = боеприпас (.20 винтовочного типа)
+ent-CartridgeRifle = боеприпас (.20 винтовочного типа)
+ent-CartridgeRiflePractice = боеприпас (.20 винтовочный тренировочный)
+ent-CartridgeRifleIncendiary = боеприпас (.20 винтовочный поджигающий)
+ent-CartridgeRifleUranium = боеприпас (.20 винтовочный радиоактивный)

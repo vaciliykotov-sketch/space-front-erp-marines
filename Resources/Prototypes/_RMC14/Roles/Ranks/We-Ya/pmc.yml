@@ -1,0 +1,119 @@
+- type: rank
+  id: RMCRankWeYaOperator
+  name: "Оператор"
+  prefix: OPR.
+  paygrade: PMC-OP
+
+- type: rank
+  id: RMCRankWeYaEnforcer
+  name: "Правоприменитель"
+  prefix: ENF.
+  paygrade: PMC-EN
+
+- type: rank
+  id: RMCRankWeYaVehicleSpecialist
+  name: "Специалист по технике"
+  prefix: SPV.
+  paygrade: PMC-VS
+
+- type: rank
+  id: RMCRankWeYaSupportSpecialist
+  name: "Специалист поддержки"
+  prefix: SPS.
+  paygrade: PMC-SS
+
+- type: rank
+  id: RMCRankWeYaMedicalSpecialist
+  name: "Медикal Specialist"
+  prefix: SPM.
+  paygrade: PMC-MS
+
+- type: rank
+  id: RMCRankWeYaWeaponSpecialist
+  name: "Специалист по оружию"
+  prefix: SPW.
+  paygrade: PMC-WS
+
+- type: rank
+  id: RMCRankWeYaXenoSpecialist
+  name: "Ксено-специалист"
+  prefix: SPX.
+  paygrade: PMC-XS
+
+- type: rank
+  id: RMCRankWeYaTraumaSurgeon
+  name: "Травматолог-хирург"
+  prefix: Dr.
+  paygrade: PMC-DOC
+
+- type: rank
+  id: RMCRankWeYaCorporateTechnician
+  name: "Корпоративный техник"
+  prefix: TEC.
+  paygrade: PMC-TEC
+
+- type: rank
+  id: RMCRankWeYaEliteResponder
+  name: "Элита Responder"
+  prefix: ELR.
+  paygrade: PMC-ELR
+
+- type: rank
+  id: RMCRankWeYaEliteMedic
+  name: "Элита Medic"
+  prefix: ELM.
+  paygrade: PMC-ELM
+
+- type: rank
+  id: RMCRankWeYaEliteGunner
+  name: "Элита Gunner"
+  prefix: ELG.
+  paygrade: PMC-ELG
+
+- type: rank
+  id: RMCRankWeYaPMCSynthetic
+  name: "Синтетик"
+  prefix: SYN.
+  paygrade: PMC-SYN
+
+- type: rank
+  id: RMCRankWeYaTeamLeader
+  name: "чайm Leader"
+  prefix: TML.
+  paygrade: PMC-TL
+
+- type: rank
+  id: RMCRankWeYaFieldOperaionsLeader
+  name: "Руководитель полевых операций"
+  prefix: FOL.
+  paygrade: PMC-FOL
+
+- type: rank
+  id: RMCRankWeYaForceLeader
+  name: "Лидер сил"
+  prefix: FL.
+  paygrade: PMC-FL
+
+- type: rank
+  id: RMCRankWeYaEliteTeamLeader
+  name: "Элита Team Leader"
+  prefix: ETML.
+  paygrade: PMC-ETL
+
+- type: rank
+  id: RMCRankWeYaSiteDirector
+  name: "Директор объекта PMC"
+  prefix: Director
+  paygrade: PMC-DIR
+
+- type: rank
+  id: RMCRankWeYaForceCommand
+  name: "Командование сил PMC"
+  prefix: FCO.
+  paygrade: PMC-FCO
+
+- type: rank
+  id: RMCRankWeYaWhiteout
+  name: "Боевое подразделение команды «Уайтаут»"
+  prefix: WO.
+  paygrade: ???

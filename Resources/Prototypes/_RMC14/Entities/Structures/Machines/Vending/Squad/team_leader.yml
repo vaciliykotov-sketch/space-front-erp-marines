@@ -1,0 +1,255 @@
+
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechFLGear
+  name: "Стойка экипировки командира огневой группы ASRS"
+  description: An automated gear rack for fireteam leaders.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessFTLPrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/fireteam_leader_gear.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMFireteamLeader
+    sections:
+    - name: Explosives
+      entries:
+      - id: CMPacketGrenadeHighExplosiveFilled
+        points: 1
+      - id: RMCPacketGrenadeIncendiaryFilled
+        points: 1
+      - id: RMCPacketGrenadeWhitePhosphorusFilled
+        points: 1
+      - id: RMCPacketGrenadeSmokeFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMFFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMIFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMSFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMSHornetFilled
+        points: 1
+      - id: RMCBoxClaymoreMineFilled
+        points: 1
+    - name: Primary Ammunition
+      entries:
+      - id: CMMagazineRifleM4SPRAP
+        points: 1
+      - id: CMMagazineRifleM4SPRExt
+        points: 1
+      - id: CMMagazineSMGM63AP
+        points: 1
+      - id: CMMagazineSMGM63Ext
+        points: 1
+      - id: CMMagazineRifleM54CAP
+        points: 1
+      - id: CMMagazineRifleM54CExt
+        points: 1
+    - name: Sidearm Ammunition
+      entries:
+      - id: RMCMagazinePistolM13Ext
+        points: 1
+      - id: RMCSpeedLoader44Marksman
+        points: 1
+      - id: RMCMagazinePistolM1984HP
+        points: 1
+      - id: RMCMagazinePistolM1984AP
+        points: 1
+      - id: CMMagazinePistolMK80
+        points: 1
+      - id: RMCMagazinePistolSU6
+        points: 1
+    - name: Отдыхricted Firearms
+      entries:
+      - id: RMCGunCasePistolMK80
+        points: 1
+      - id: RMCGunCasePistolSmart
+        points: 1
+      - id: RMCM85A1Case
+        points: 1
+    - name: Броняs
+      entries:
+      - id: CMArmorB12
+        points: 1
+    - name: Clothing Items
+      entries:
+      - id: RMCBackpackRTO
+        points: 1
+      - id: RMCScabbardMacheteFilled
+        points: 1
+        name: "ножны для мачете (полные)"
+      - id: RMCPouchMacheteFilled
+        points: 1
+        name: "подсумок для мачете (полный)"
+      - id: RMCWeldingGoggles
+        points: 1
+      - id: CMBeltUtilityCombat
+        points: 1
+      - id: RMCPouchAutoinjectorFill
+        points: 1
+        name: "автоинъектор pouch (Full)"
+      - id: CMHandsInsulated
+        points: 1
+      - id: CMHandsBlackInsulated
+        points: 1
+    - name: Инженерing Supplies
+      entries:
+      - id: RMCExplosivePlastic
+        points: 1
+      - id: RMCPackFlareCAS
+        points: 1
+      - id: RMCExplosiveBreachingCharge
+        points: 1
+      - id: CMWelderSmall
+        points: 1
+    - name: Utilities
+      entries:
+      - id: RMCMotionDetector
+        points: 1
+        recommended: true
+      - id: CMRollerBedSpawnFolded
+        points: 1
+      - id: RMCFulton20
+        points: 1
+      - id: CMFireExtinguisherPortable
+        points: 1
+      - id: RMCWhistle
+        points: 1
+    - name: Binoculars
+      entries:
+      - id: RMCBinoculars
+        points: 1
+      - id: RMCRangefinder
+        points: 1
+      - id: RMCLaserDesignator
+        points: 1
+    - name: Helmet Optics
+      entries:
+      - id: RMCVisorNightVision
+        points: 1
+        recommended: true
+      - id: RMCVisorMedical
+        points: 1
+      - id: RMCVisorWelding
+        points: 1
+    - name: Radio Keys
+      entries: []
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechFLEquipment
+  name: "Стойка снаряжения командира огневой группы ASRS"
+  description: An automated rack hooked up to a colossal storage of fireteam leader standard-issue equipment.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessFTLPrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMFireteamLeader
+    sections:
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: CMVendorBundleFireteamLeaderApparel
+      - id: RMCBackpackRTO
+        points: 1
+        replaceSlot: back
+      - id: CMMRE
+      - id: RMCVendorBundleCrewFireteamLeader
+    - name: Gloves
+      choices: { CMHands: 1 }
+      entries:
+      - id: CMHandsInsulated
+        points: 1
+      - id: CMHandsBlackInsulated
+        points: 1
+    - name: Броня
+      choices: { CMArmor: 1 }
+      entries:
+      - id: CMArmorM4
+        recommended: true
+      - id: RMCArmorVestSquad
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: RMCBeltUtilityGeneral
+      - id: CMBeltMarine
+        recommended: true
+      - id: RMCBeltHolsterPistol
+      - id: RMCBeltHolsterM13
+      - id: RMCBeltHolsterRevolver
+      - id: RMCBeltHolsterSMG
+      - id: RMCBeltHolsterSMGPouch
+      - id: RMCM82FHolster
+      - id: RMCM276ShotgunShellLoadingRig
+      - id: CMBeltUtilityFilled
+        name: "Снаряжение с поясом для инструментов образца M276 (Full)"
+        recommended: true
+      - id: RMCBeltGrenade
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchFirstAidInjectors
+        name: "аптечка (заправляемые инъекторы)"
+        recommended: true
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "аптечка (марля, мазь)" # TODO RMC14 splints comma
+        recommended: true
+      - id: RMCPouchFirstAidPills
+        name: "аптечка (таблетки)"
+      - id: RMCPouchFirstResponder
+      - id: RMCPouchFlareFilled
+        name: "Фальшфейер pouch (Full)"
+      - id: RMCPouchFuelTank
+      - id: RMCPouchGeneralLarge
+      - id: RMCPouchSling
+      - id: RMCPouchMagazinePistolLarge
+      - id: RMCPouchMagazine
+      - id: RMCPouchShotgun
+      - id: RMCPouchPistol
+      - id: RMCPouchToolsFill
+        recommended: true
+        name: "Сумка для инструментов (полная)"
+    - name: Accessories
+      choices: { CMAccessories: 1 }
+      entries:
+      - id: CMWebbingBlack
+      - id: RMCWebbingLegPouch
+      - id: RMCWebbingLegPouchBlack
+      - id: CMWebbingBrown
+        recommended: true
+      - id: CMWebbing
+      - id: RMCWebbingBlackSmall
+      - id: RMCWebbingDropPouch
+      - id: RMCWebbingDropPouchBlack
+      - id: CMWebbingHolster
+      - id: RMCWebbingHolsterBlack
+    - name: Mask
+      choices: { CMMask: 1 }
+      entries:
+      - id: CMMaskGas
+      - id: CMMaskCoif
+      - id: RMCMaskRebreather
+
+- type: entity
+  parent: CMVendorBundleRiflemanApparel
+  id: RMCVendorBundleCrewFireteamLeader
+  name: "базовое снаряжение лидера огневой группы"
+  categories: [ HideSpawnMenu ]
+  description: Contains a laser designator, and two packs of signal flares.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Devices/binoculars.rsi
+    layers:
+    - state: rangefinder
+    - state: laser_cas
+  - type: CMVendorBundle
+    bundle:
+    - RMCPackFlareCAS
+    - RMCPackFlareCAS
+    - RMCLaserDesignator

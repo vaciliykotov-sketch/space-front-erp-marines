@@ -1,0 +1,12 @@
+ent-RMCRoyalAssaultEngineerVendor = Стойка инженерного снабжения Секции Ве-Я
+    .suffix = PVE, Королевский
+ent-RMCRoyalMedicalAssistantVendor = Стойка медицинского снабжения Секции Ве-Я
+    .suffix = PVE, Королевский
+ent-RMCRoyalBombSpecVendor = Стойка снабжения огневой поддержки Секции Ве-Я
+    .suffix = PVE, Королевский
+ent-RMCRoyalScoutSniperVendor = Стойка снабжения разведчика-снайпера Секции Ве-Я
+    .suffix = PVE, Королевский
+ent-RMCColMarTechSurplusRCMPVE = Ве-Я: раздатчик излишков формы
+    .suffix = PVE, Королевский
+ent-RMCColMarTechUtilitiesRCMPVE = Ве-Я: автораздатчик принадлежностей Секции
+    .suffix = PVE, Королевский

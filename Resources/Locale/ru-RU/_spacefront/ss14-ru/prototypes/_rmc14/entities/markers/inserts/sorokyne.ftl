@@ -1,0 +1,14 @@
+ent-RMCMapInsertSorokyneBase = { ent-RMCMapInsertBase }
+    .suffix = Вставка Сорокин
+ent-RMCMapInsertSorokyneSPPSOF = ССО СПН: десантный борт
+    .suffix = { ent-RMCMapInsertSorokyneBase.suffix }
+ent-RMCMapInsertSorokyneSPPSOFAlt = ССО СПН: судно снабжения
+    .suffix = { ent-RMCMapInsertSorokyneBase.suffix }
+ent-RMCMapInsertSorokyneMedbay = КОФ: лагерь
+    .suffix = { ent-RMCMapInsertSorokyneBase.suffix }
+ent-RMCMapInsertSorokyneFlamerBodypile = Завал тел после огнемёта
+    .suffix = { ent-RMCMapInsertSorokyneBase.suffix }
+ent-RMCMapInsertSorokyneBaseScenario = { ent-RMCMapInsertSorokyneBase }
+    .suffix = Вставка Сорокин
+ent-RMCMapInsertSorokyneSurvSpawnTogether = Общая точка появления выживших
+    .suffix = Вставка Сорокин

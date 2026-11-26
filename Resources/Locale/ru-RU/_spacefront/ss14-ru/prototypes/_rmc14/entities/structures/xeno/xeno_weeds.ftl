@@ -1,0 +1,15 @@
+ent-XenoWeeds = смоляной покров
+ent-XenoWeedsSource = узел смолы
+ent-XenoWeedsSourceHidden = { ent-XenoWeeds }
+    .suffix = Скрытый узел
+ent-XenoHiveWeeds = смола улья
+ent-XenoHiveWeedsCluster = { ent-XenoHiveWeeds }
+ent-XenoHiveWeedsCore = { ent-XenoHiveWeeds }
+ent-XenoHiveWeedsSource = узел ульевой смолы
+ent-XenoHiveWeedsSourceHidden = { ent-XenoHiveWeeds }
+    .suffix = Скрытый узел
+ent-XenoWeedsWall = смоляная стена
+ent-XenoHardyWeeds = { ent-XenoWeeds }
+ent-XenoHardyWeedsSource = сорняковый узел
+ent-XenoHardyWeedsSourceHidden = { ent-XenoHardyWeeds }
+    .suffix = Скрытый узел

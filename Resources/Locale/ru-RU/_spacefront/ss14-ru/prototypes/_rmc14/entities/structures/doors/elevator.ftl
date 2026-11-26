@@ -1,0 +1,12 @@
+ent-RMCElevatorDoor = лифтовая дверь
+    .suffix = Базовый
+ent-RMCElevatorDoorNorth = { ent-RMCElevatorDoor }
+    .suffix = Север
+ent-RMCElevatorDoorSouth = { ent-RMCElevatorDoor }
+    .suffix = Юг
+ent-RMCElevatorDoorEast = { ent-RMCElevatorDoor }
+    .suffix = Восток
+ent-RMCElevatorDoorWest = { ent-RMCElevatorDoor }
+    .suffix = Запад
+ent-RMCElevatorEntranceDoor = лифта входная дверь
+    .suffix = { ent-RMCPodDoorHybrisaIndestructible.suffix }

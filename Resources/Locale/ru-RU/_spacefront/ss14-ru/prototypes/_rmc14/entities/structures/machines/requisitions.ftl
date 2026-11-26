@@ -1,0 +1,12 @@
+ent-RMCASRSAccount = Счет АСПХ
+ent-CMASRSConsole = терминал АСПХ
+    .suffix = Заявки
+ent-RMCCryoRecoveryConsole = терминал выхода из гиперсна
+    .suffix = Поставки
+ent-CMASRSConsolePowered = { ent-CMASRSConsole }
+    .suffix = Запитанный
+ent-CMCargoElevator = лифт для грузов
+    .suffix = Опущен, Реквизиты
+ent-CMRailing = перила выдвижного типа
+    .suffix = Поднято
+ent-CMGear = шестерня

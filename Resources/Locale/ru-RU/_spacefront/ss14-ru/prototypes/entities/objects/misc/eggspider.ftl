@@ -1,0 +1,1 @@
+ent-EggSpider = кладка паука

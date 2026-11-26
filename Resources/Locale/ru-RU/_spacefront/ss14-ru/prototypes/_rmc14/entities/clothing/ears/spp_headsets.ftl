@@ -1,0 +1,15 @@
+ent-RMCEncryptionKeySPP = шифровальный ключ СПН
+ent-RMCEncryptionKeySPPCommand = шифровальный ключ командного состава СПН
+ent-RMCEncryptionKeySPPEngineer = шифровальный ключ инженерного состава СПН
+ent-RMCEncryptionKeySPPMedic = шифровальный ключ медицинского состава СПН
+ent-RMCEncryptionKeyHalcyon = шифровальный ключ радиосети Halcyon
+ent-RMCHeadsetSPPAbstract = { ent-RMCHeadsetIconsSPP }
+ent-RMCHeadsetSPP = гарнитура СПН
+ent-RMCHeadsetSPPCommand = гарнитура командования СПН
+ent-RMCHeadsetSPPEngineer = гарнитура инженеров СПН
+ent-RMCHeadsetSPPMedic = гарнитура медиков СПН
+ent-RMCHeadsetSPPCommando = гарнитура коммандос СПН
+ent-RMCHeadsetDistressSPP = гарнитура колониального подразделения СПН
+ent-RMCHeadsetSPPPCG = гарнитура народной жандармерии СПН
+ent-RMCHeadsetDistressHalcyon = гарнитура корпорации Halcyon
+ent-RMCHeadsetSPPPaP = гарнитура охраны СПН

@@ -1,0 +1,2 @@
+ent-RMCSynthAddComponents = { "" }
+ent-RMCSynthRemoveComponents = { "" }

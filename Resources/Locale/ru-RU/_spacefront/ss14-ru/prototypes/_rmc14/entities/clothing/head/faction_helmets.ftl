@@ -1,0 +1,16 @@
+ent-RMCArmorHelmetMARSOC = шлем бойца sof
+ent-RMCArmorHelmetDutch = шлем голландца
+ent-RMCArmorHelmetDutchCap = голландский шлем-каска
+ent-RMCArmorHelmetDutchBand = повязка голландца
+ent-RMCArmorHelmetBear = шлем "железный медведь"
+ent-RMCArmorHelmetSkullcap = шлем-повязка
+ent-RMCArmorHelmetSkullcapCowl = снайперский шлем M8
+ent-RMCArmorHelmetMercenary = керамический шлем наемника K12
+ent-RMCArmorHelmetMercenaryReinforced = улучшенный керамический шлем наемника K12
+ent-RMCArmorHelmetMercenaryMiner = шахтерская каска-шлем наемника Y8
+ent-RMCArmorHelmetMercenarySupport = шлем поддержки наемника Z7
+ent-RMCArmorHelmetMercenaryEngineer = инженерный шлем наемника Z7
+ent-RMCArmorHelmetHEFA = шлем ОППГ
+ent-RMCArmorHelmetHEFAFilled = { ent-RMCArmorHelmetHEFA }
+    .suffix = ОППГ, Заполненный
+ent-RMCArmorHelmetCBRN = маска M3 от химического оружия

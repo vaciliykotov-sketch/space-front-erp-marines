@@ -1,0 +1,9 @@
+- type: rmcConstruction
+  id: RMCWeaponMountBuild
+  name: "Крепление ML66D"
+  prototype: RMCML66DMount
+  noRotate: true
+  doAfterTime: 1
+  materialCost: 10
+  ignoreBuildRestrictions: true
+  restrictedCollisionGroup: null

@@ -1,0 +1,464 @@
+# default
+- type: rmcConstruction
+  id: RMCCardboardBuildBase
+  prototype: BoxCardboard
+  abstract: true
+  noRotate: true
+  doAfterTime: 0.25
+  doAfterTimeMin: 0.25
+  materialCost: 1
+  ignoreBuildRestrictions: true
+  restrictedCollisionGroup: null
+
+# donut box
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCDonutBoxBuild
+  name: "пончик box"
+  prototype: RMCBoxDonutEmpty
+
+# pizza boxes
+- type: rmcConstruction
+  id: RMCPizzaBoxList
+  name: "коробка для пиццыes (1 cardboard)" # cost named manually since lists won't name costs otherwise
+  prototype: RMCBoxPizza
+  listed:
+  - RMCPizzaBoxBuild
+  - RMCPizzaGalaxyBoxBuild
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCPizzaBoxBuild
+  name: "коробка для пиццы"
+  prototype: RMCBoxPizza
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCPizzaGalaxyBoxBuild
+  name: "Коробка для пиццы Pizza Galaxy"
+  prototype: RMCBoxPizzaGalaxy
+
+# folders
+- type: rmcConstruction
+  id: RMCFolderList
+  name: "папкаs (1 cardboard)" # cost named manually since lists won't name costs otherwise
+  prototype: CMFolderBase
+  listed:
+  - RMCFolderBlueEmptyBuild
+  - RMCFolderBlackEmptyBuild
+  - RMCFolderRedEmptyBuild
+  - RMCFolderWhiteEmptyBuild
+  - RMCFolderYellowEmptyBuild
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCFolderBlueEmptyBuild
+  name: "синяя папка"
+  prototype: CMFolderBlueEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCFolderBlackEmptyBuild
+  name: "чёрная папка"
+  prototype: CMFolderBlackEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCFolderRedEmptyBuild
+  name: "красная папка"
+  prototype: CMFolderRedEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCFolderWhiteEmptyBuild
+  name: "белая папка"
+  prototype: CMFolderWhiteEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCFolderYellowEmptyBuild
+  name: "жёлтая папка"
+  prototype: CMFolderYellowEmpty
+
+# empty ammunition boxes
+- type: rmcConstruction
+  id: RMCEmptyAmmoBoxesList
+  name: "ящики с боеприпасами (1 картонный)" # cost named manually since lists won't name costs otherwise
+  prototype: RMCBoxBulletsBase
+  listed:
+  - RMCBoxBulletsRifleEmptyBuild
+  - RMCBoxBulletsRifleAPEmptyBuild
+  - RMCBoxBulletsSMGEmptyBuild
+  - RMCBoxBulletsSMGAPEmptyBuild
+  - RMCBoxBulletsPistolEmptyBuild
+  - RMCBoxBulletsPistolAPEmptyBuild
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxBulletsRifleEmptyBuild
+  name: "коробка с патронами для винтовки (10x24мм)"
+  prototype: RMCBoxBulletsRifleEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxBulletsRifleAPEmptyBuild
+  name: "коробка с бронебойными патронами для винтовки (10x24мм ББ)"
+  prototype: RMCBoxBulletsRifleAPEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxBulletsSMGEmptyBuild
+  name: "Коробка патронов SMG (10x20мм)"
+  prototype: RMCBoxBulletsSMGEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxBulletsSMGAPEmptyBuild
+  name: "Коробка патронов SMG (10x20мм ББ)"
+  prototype: RMCBoxBulletsSMGAPEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxBulletsPistolEmptyBuild
+  name: "коробка патронов для пистолета (10x20mm-APC)"
+  prototype: RMCBoxBulletsPistolEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxBulletsPistolAPEmptyBuild
+  name: "коробка патронов для пистолета (10x20mm-APC (AP))"
+  prototype: RMCBoxBulletsPistolAPEmpty
+
+# empty rifle magazine boxes
+- type: rmcConstruction
+  id: RMCEmptyRifleMagazineBoxesList
+  name: "коробки с магазинами для винтовки (1 картонная)" # cost named manually since lists won't name costs otherwise
+  prototype: RMCBoxMagazineRifleBase
+  listed:
+  - RMCBoxMagazineRifleM54CEmptyBuild
+  - RMCBoxMagazineRifleM54CAPEmptyBuild
+  - RMCBoxMagazineRifleM54CExtEmptyBuild
+  - RMCDividerConstruction
+  - RMCBoxMagazineRifleM4SPREmptyBuild
+  - RMCBoxMagazineRifleM4SPRAPEmptyBuild
+  - RMCBoxMagazineRifleM4SPRExtEmptyBuild
+  - RMCDividerConstruction
+  - RMCBoxBullets458EmptyBuild
+  - RMCBoxMagazineRifleM16EmptyBuild
+  - RMCBoxMagazineRifleSSG45EmptyBuild
+  - RMCBoxMagazineRifleSSG45APEmptyBuild
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineRifleM54CEmptyBuild
+  name: "Коробка магазинов M54C"
+  prototype: RMCBoxMagazineRifleM54CEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineRifleM54CAPEmptyBuild
+  name: "Коробка магазинов M54C (AP)"
+  prototype: RMCBoxMagazineRifleM54CAPEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineRifleM54CExtEmptyBuild
+  name: "Коробка магазинов M54C (Ext)"
+  prototype: RMCBoxMagazineRifleM54CExtEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineRifleM4SPREmptyBuild
+  name: "Коробка магазинов M4SPR"
+  prototype: RMCBoxMagazineRifleM4SPREmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineRifleM4SPRAPEmptyBuild
+  name: "Коробка магазинов M4SPR (AP)"
+  prototype: RMCBoxMagazineRifleM4SPRAPEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineRifleM4SPRExtEmptyBuild
+  name: "Коробка магазинов M4SPR (Ext)"
+  prototype: RMCBoxMagazineRifleM4SPRExtEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxBullets458EmptyBuild
+  name: .458 SOCOM bullet bundle box
+  prototype: RMCBoxBullets458Empty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineRifleM16EmptyBuild
+  name: "Коробка магазинов M16"
+  prototype: RMCBoxMagazineRifleM16Empty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineRifleSSG45EmptyBuild
+  name: "Ящик магазинов SSG45"
+  prototype: RMCBoxMagazineRifleSSG45Empty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineRifleSSG45APEmptyBuild
+  name: "Ящик магазинов SSG45 (AP)"
+  prototype: RMCBoxMagazineRifleSSG45APEmpty
+
+# empty smg magazine boxes
+- type: rmcConstruction
+  id: RMCEmptySMGMagazineBoxesList
+  name: "Коробки магазинов SMG (1 картонная)" # cost named manually since lists won't name costs otherwise
+  prototype: RMCBoxMagazineSMGBase
+  listed:
+  - RMCBoxMagazineSMGM63EmptyBuild
+  - RMCBoxMagazineSMGM63APEmptyBuild
+  - RMCBoxMagazineSMGM63ExtEmptyBuild
+  - RMCDividerConstruction
+  - RMCBoxMagazineSMGNailgunEmptyBuild
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineSMGM63EmptyBuild
+  name: "Коробка магазинов M63"
+  prototype: RMCBoxMagazineSMGM63Empty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineSMGM63APEmptyBuild
+  name: "Коробка магазинов M63 (AP)"
+  prototype: RMCBoxMagazineSMGM63APEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineSMGM63ExtEmptyBuild
+  name: "Коробка магазинов M63 (Ext)"
+  prototype: RMCBoxMagazineSMGM63ExtEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineSMGNailgunEmptyBuild
+  name: "гвоздомёт magazine box"
+  prototype: RMCBoxMagazineSMGNailgunEmpty
+
+# empty pistol magazine boxes
+- type: rmcConstruction
+  id: RMCEmptyPistolMagazineBoxesList
+  name: "коробки пистолетных магазинов (1 картонная)" # cost named manually since lists won't name costs otherwise
+  prototype: RMCBoxMagazinePistolBase
+  listed:
+  - RMCBoxMagazinePistolM1984EmptyBuild
+  - RMCBoxMagazinePistolM1984APEmptyBuild
+  - RMCBoxMagazinePistolM1984HPEmptyBuild
+  - RMCDividerConstruction
+  - RMCBoxMagazinePistolMK80EmptyBuild
+  - RMCDividerConstruction
+  - RMCBoxMagazinePistolSU6EmptyBuild
+  - RMCDividerConstruction
+  - RMCBoxMagazinePistolM77APEmptyBuild
+  - RMCDividerConstruction
+  - RMCBoxMagazineRevolverM44EmptyBuild
+  - RMCBoxMagazineRevolverM44MarksmanEmptyBuild
+  - RMCDividerConstruction
+  - RMCBoxMagazinePistolM13EmptyBuild
+  - RMCBoxMagazinePistolM13ExtEmptyBuild
+  - RMCBoxMagazinePistolM13DrumEmptyBuild
+  - RMCBoxMagazinePistolM13APEmptyBuild
+  - RMCBoxMagazinePistolM13ExtAPEmptyBuild
+  - RMCBoxMagazinePistolM13DrumAPEmptyBuild
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePistolM1984EmptyBuild
+  name: "Коробка магазинов M1984"
+  prototype: RMCBoxMagazinePistolM1984Empty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePistolM1984APEmptyBuild
+  name: "Коробка магазинов M1984 (AP)"
+  prototype: RMCBoxMagazinePistolM1984APEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePistolM1984HPEmptyBuild
+  name: "Коробка магазинов M1984 (HP)"
+  prototype: RMCBoxMagazinePistolM1984HPEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePistolMK80EmptyBuild
+  name: "Коробка магазинов MK80"
+  prototype: RMCBoxMagazinePistolMK80Empty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+
+  id: RMCBoxMagazinePistolSU6EmptyBuild
+  name: "Ящик магазинов SU-6"
+  prototype: RMCBoxMagazinePistolSU6Empty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePistolM77APEmptyBuild
+  name: "Коробка магазинов M77 (бронебойные)"
+  prototype: RMCBoxMagazinePistolM77APEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineRevolverM44EmptyBuild
+  name: "Коробка спидлоадеров M44"
+  prototype: RMCBoxMagazineRevolverM44Empty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazineRevolverM44MarksmanEmptyBuild
+  name: "Коробка спидлоадеров M44 (Marksman)"
+  prototype: RMCBoxMagazineRevolverM44MarksmanEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePistolM13EmptyBuild
+  name: "Коробка магазинов M13"
+  prototype: RMCBoxMagazinePistolM13Empty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePistolM13ExtEmptyBuild
+  name: "Коробка магазинов M13 (Ext)"
+  prototype: RMCBoxMagazinePistolM13ExtEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePistolM13DrumEmptyBuild
+  name: "Коробка магазинов M13 (Drum)"
+  prototype: RMCBoxMagazinePistolM13DrumEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePistolM13APEmptyBuild
+  name: "Коробка магазинов M13 (AP)"
+  prototype: RMCBoxMagazinePistolM13APEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePistolM13ExtAPEmptyBuild
+  name: "Коробка магазинов M13 (Ext AP)"
+  prototype: RMCBoxMagazinePistolM13ExtAPEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePistolM13DrumAPEmptyBuild
+  name: "Коробка магазинов M13 (Drum AP)"
+  prototype: RMCBoxMagazinePistolM13DrumAPEmpty
+
+# empty shotgun shell boxes
+- type: rmcConstruction
+  id: RMCEmptyShotgunShellBoxesList
+  name: "коробки патронов для дробовика (1 картон)" # cost named manually since lists won't name costs otherwise
+  prototype: RMCBoxMagazineShellBase
+  listed:
+  - RMCBoxShellsBuckshotEmptyBuild
+  - RMCBoxShellsSlugsEmptyBuild
+  - RMCBoxShellsFlechetteEmptyBuild
+  - RMCBoxShellsBreachingEmptyBuild
+  - RMCDividerConstruction
+  - RMCBoxShellsBeanbagEmptyBuild
+  - RMCBoxShellsIncendiaryEmptyBuild
+  - RMCBoxShellsIncendiaryBuckshotEmptyBuild
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxShellsBuckshotEmptyBuild
+  name: "картечь shell box"
+  prototype: RMCBoxShellsBuckshotEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxShellsSlugsEmptyBuild
+  name: "пуля shell box"
+  prototype: RMCBoxShellsSlugsEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxShellsFlechetteEmptyBuild
+  name: "флешеттный патрон box"
+  prototype: RMCBoxShellsFlechetteEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxShellsBreachingEmptyBuild
+  name: "ящик подрывных снарядов"
+  prototype: RMCBoxShellsBreachingEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxShellsBeanbagEmptyBuild
+  name: "коробка патронов с травматической дробью"
+  prototype: RMCBoxShellsBeanbagEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxShellsIncendiaryEmptyBuild
+  name: "коробка зажигательных снарядов"
+  prototype: RMCBoxShellsIncendiaryEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxShellsIncendiaryBuckshotEmptyBuild
+  name: "зажигательный патрон с картечью box"
+  prototype: RMCBoxShellsIncendiaryBuckshotEmpty
+
+# empty supply boxes
+- type: rmcConstruction
+  id: RMCEmptySupplyBoxesList
+  name: "ящики снабжения (1 картонный)" # cost named manually since lists won't name costs otherwise
+  prototype: RMCBoxMagazineSupplyBase
+  listed:
+  - RMCBoxPackFlareEmptyBuild
+  - RMCBoxPackFlareCASEmptyBuild
+  - RMCDividerConstruction
+  - RMCBoxFlamerTankEmptyBuild
+  - RMCDividerConstruction
+  - RMCBoxFlashlightsEmptyBuild
+  - RMCBoxMREEmptyBuild
+  - RMCBoxMagazinePowerCellsHighBuild
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxPackFlareEmptyBuild
+  name: "Коробка наборов сигнальных ракет M94"
+  prototype: RMCBoxPackFlareEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxPackFlareCASEmptyBuild
+  name: "Коробка наборов сигнальных ракет M89-S"
+  prototype: RMCBoxPackFlareCASEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxFlamerTankEmptyBuild
+  name: "Ящик топливных баков UT-Napthal"
+  prototype: RMCBoxFlamerTankEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxFlashlightsEmptyBuild
+  name: "вспышкаlights box"
+  prototype: RMCBoxFlashlightsEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMREEmptyBuild
+  name: "ИРПs box"
+  prototype: RMCBoxMREEmpty
+
+- type: rmcConstruction
+  parent: RMCCardboardBuildBase
+  id: RMCBoxMagazinePowerCellsHighBuild
+  name: "энергоэлемент повышенной ёмкостиs box"
+  prototype: RMCBoxMagazinePowerCellsHigh

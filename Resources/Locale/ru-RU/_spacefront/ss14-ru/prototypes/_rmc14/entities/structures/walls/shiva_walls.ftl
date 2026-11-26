@@ -1,0 +1,10 @@
+ent-RCMWallShivaIce = чёрные ледяные плиты
+ent-RCMWallShivaInvincibleFab = собранная усиленная конструкция стены
+    .suffix = Обшивка
+ent-RCMWallShivaFab = собранная конструкция стены
+ent-RCMWallShivaReinforcedFab = собранная конструкция стены с усилением
+ent-RCMWallShivaReinforcedFabOrange = { ent-RCMWallShivaFab }
+ent-RCMWallShivaReinforcedFabBlue = { ent-RCMWallShivaFab }
+ent-RCMWallShivaReinforcedFabPink = { ent-RCMWallShivaFab }
+ent-RCMWallShivaReinforcedFabWhite = { ent-RCMWallShivaFab }
+ent-RCMWallShivaReinforcedFabRed = { ent-RCMWallShivaFab }

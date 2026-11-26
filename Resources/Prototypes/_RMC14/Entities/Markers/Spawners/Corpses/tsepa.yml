@@ -1,0 +1,17 @@
+# constable
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseConstable
+  name: "Спавнер трупов — Констебль TSEPA"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseTSEPAConstable
+
+- type: entity
+  parent: RMCSpawnerCorpseConstable
+  id: RMCSpawnerCorpseConstableBurst
+  name: "Спавнер трупов — Констебль TSEPA"
+  suffix: RMC14, Burst
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseTSEPAConstableBurst

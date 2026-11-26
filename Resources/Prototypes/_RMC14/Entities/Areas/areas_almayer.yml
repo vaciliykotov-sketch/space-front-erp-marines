@@ -1,0 +1,1619 @@
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaAlmayer
+  suffix: Almayer Area
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_almayer.rsi
+    state: almayer
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: false # TODO RMC14 true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+    powerNet: almayer
+    hijackEvacuationArea: false
+    hijackEvacuationWeight: 0
+    hijackEvacuationType: None
+  - type: IntelRescueSurvivorArea
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerCommand
+  components:
+  - type: Area
+    minimapColor: '#2D3FA2EE'
+
+- type: entity
+  parent: RMCAreaAlmayerCommand
+  id: RMCAreaAlmayerCommandCic
+  name: "Боевой информационный центр"
+  components:
+  - type: Sprite
+    state: cic
+  - type: Area
+    zLevel: 1
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaAlmayerCommand
+  id: RMCAreaAlmayerCommandCichallway
+  name: "Охраняемый командный коридор"
+  components:
+  - type: Sprite
+    state: airoom
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerCommand
+  id: RMCAreaAlmayerCommandAiroom
+  name: "Ядро ИИ"
+  components:
+  - type: Sprite
+    state: airoom
+  - type: Area
+    zLevel: 1
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: true
+    buildSpecial: false
+    resinAllowed: false
+    resinConstructionAllowed: false
+
+- type: entity
+  parent: RMCAreaAlmayerCommand
+  id: RMCAreaAlmayerCommandSecurestorage
+  name: "Защищённое хранилище верхней палубы"
+  components:
+  - type: Sprite
+    state: corporatespace
+  - type: Area
+    zLevel: 1
+    retrieveItemObjective: true
+
+- type: entity
+  parent: RMCAreaAlmayerCommand
+  id: RMCAreaAlmayerCommandComputerlab
+  name: "Верхняя палуба: компьютерная лаборатория"
+  components:
+  - type: Sprite
+    state: ceroom
+  - type: Area
+    zLevel: 1
+    retrieveItemObjective: true
+
+- type: entity
+  parent: RMCAreaAlmayerCommand
+  id: RMCAreaAlmayerCommandTelecomms
+  name: "Телекоммуникации верхней палубы"
+  components:
+  - type: Sprite
+    state: tcomms
+  - type: Area
+    zLevel: 1
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaAlmayerCommand
+  id: RMCAreaAlmayerCommandSelfDestruct
+  name: "Помещение ядра самоуничтожения верхней палубы"
+  components:
+  - type: Sprite
+    state: selfdestruct
+  - type: Area
+    zLevel: 1
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaAlmayerCommand
+  id: RMCAreaAlmayerCommandCorporateliaison
+  name: "Корпоративный представитель Office"
+  components:
+  - type: Sprite
+    state: corporatespace
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerCommand
+  id: RMCAreaAlmayerCommandCombatCorrespondent
+  name: "Верхняя палуба: кабинет военного корреспондента"
+  components:
+  - type: Sprite
+    state: selfdestruct
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerEngineering
+  components:
+  - type: Area
+    minimapColor: '#C19504E7'
+
+- type: entity
+  parent: RMCAreaAlmayerEngineering
+  id: RMCAreaAlmayerEngineeringLower
+  name: "Инженерный отсек нижней палубы"
+  components:
+  - type: Sprite
+    state: lowerengineering
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerEngineeringLower
+  id: RMCAreaAlmayerEngineeringLowerEngine
+
+- type: entity
+  parent: RMCAreaAlmayerEngineeringLowerEngine
+  id: RMCAreaAlmayerEngineeringLowerEngineMonitoring
+  name: "Мониторинг реактора двигателя нижней палубы"
+  components:
+  - type: Sprite
+    state: lowermonitoring
+
+- type: entity
+  parent: RMCAreaAlmayerEngineeringLower
+  id: RMCAreaAlmayerEngineeringLowerWorkshop
+  name: "Инженерный отсек нижней палубы Workshop"
+  components:
+  - type: Sprite
+    state: workshop
+
+- type: entity
+  parent: RMCAreaAlmayerEngineeringLowerWorkshop
+  id: RMCAreaAlmayerEngineeringLowerWorkshopHangar
+  name: "Боеприпасы Workshop"
+
+- type: entity
+  parent: RMCAreaAlmayerEngineeringLower
+  id: RMCAreaAlmayerEngineeringLowerEngineCore
+  name: "Реакторное ядро двигателя"
+  components:
+  - type: Sprite
+    state: coreroom
+  - type: Area
+    hijackEvacuationArea: true
+    hijackEvacuationWeight: 0.2
+    hijackEvacuationType: Add
+
+- type: entity
+  parent: RMCAreaAlmayerEngineering
+  id: RMCAreaAlmayerEngineeringUpperEngineering
+  name: "Верхняя палуба: инженерный отсек"
+  components:
+  - type: Sprite
+    state: upperengineering
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerEngineeringUpperEngineering
+  id: RMCAreaAlmayerEngineeringUpperEngineeringStarboard
+  name: "Инженерный отсек верхней палубы, правый борт"
+
+- type: entity
+  parent: RMCAreaAlmayerEngineeringUpperEngineering
+  id: RMCAreaAlmayerEngineeringUpperEngineeringPort
+  name: "Верхняя палуба: инженерный отсек левого борта"
+
+- type: entity
+  parent: RMCAreaAlmayerEngineeringUpperEngineering
+  id: RMCAreaAlmayerEngineeringUpperEngineeringNotunnel
+  components:
+  - type: Area
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaAlmayerEngineering
+  id: RMCAreaAlmayerEngineeringCeRoom
+  name: "Верхняя палуба: кабинет главного инженера"
+  components:
+  - type: Sprite
+    state: ceroom
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerEngineering
+  id: RMCAreaAlmayerEngineeringStarboardAtmos
+  name: "Атмосферный отсек верхней палубы, правый борт"
+  components:
+  - type: Sprite
+    state: starboardatmos
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerEngineering
+  id: RMCAreaAlmayerEngineeringPortAtmos
+  name: "Верхняя палуба: атмосферная система левого борта"
+  components:
+  - type: Sprite
+    state: portatmos
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerEngineering
+  id: RMCAreaAlmayerEngineeringLaundry
+  name: "Верхняя палуба: прачечная"
+  components:
+  - type: Sprite
+    state: laundry
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerShipboard
+  components:
+  - type: Area
+    minimapColor: '#A22D2DEE'
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardNavigation
+  name: "Астронавигационная палуба"
+  components:
+  - type: Sprite
+    state: astronavigation
+  - type: Area
+    zLevel: 2
+    hijackEvacuationArea: true
+    hijackEvacuationWeight: 1.1
+    hijackEvacuationType: Multiply
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardPanic
+  name: "ангар Panic Room"
+  components:
+  - type: Sprite
+    state: brig
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardStarboardMissiles
+  name: "Ракетные шахты верхней палубы, правый борт"
+  components:
+  - type: Sprite
+    state: starboardmissile
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardPortMissiles
+  name: "Верхняя палуба: ракетные шахты левого борта"
+  components:
+  - type: Sprite
+    state: portmissile
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardWeaponRoom
+  name: "Управление вооружением нижней палубы"
+  components:
+  - type: Sprite
+    state: weaponroom
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardWeaponRoom
+  id: RMCAreaAlmayerShipboardWeaponRoomNotunnel
+  components:
+  - type: Area
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardStarboardPointDefense
+  name: "Точечная оборона правого борта нижней палубы"
+  components:
+  - type: Sprite
+    state: starboardpd
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardPortPointDefense
+  name: "Точечная оборона левого борта нижней палубы"
+  components:
+  - type: Sprite
+    state: portpd
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardSternPointDefense
+  name: "Точечная оборона кормы нижней палубы"
+  components:
+  - type: Sprite
+    state: portpd
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardBrig
+  name: "Бриг"
+  components:
+  - type: Sprite
+    state: brig
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigLobby
+  name: "Бриг Lobby"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigArmory
+  name: "Бриг Armory"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigMpBunks
+  name: "Бриг MP Bunks"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigStarboardHallway
+  name: "Бриг Starboard Hallway"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigPerma
+  name: "Бриг Perma Cells"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigCryo
+  name: "Бриг Cryo Pods"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigMedical
+  name: "Бриг Medical"
+  components:
+  - type: Area
+    alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigInterrogation
+  name: "Бриг Interrogation Room"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigGeneralEquipment
+  name: "Бриг General Equipment"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigEvidenceStorage
+  name: "Бриг Evidence Storage"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigExecution
+  name: "Бриг Execution Room"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigExecutionStorage
+  name: "Бриг Execution Storage"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigCicHallway
+  name: "Бриг CiC Hallway"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigDress
+  name: "Комната парадной формы CIC"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigProcessing
+  name: "Бриг Processing and Holding"
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigCells
+  name: "Бриг Cells"
+  components:
+  - type: Sprite
+    state: brigcells
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigChiefMpOffice
+  name: "Бриг Chief MP Office"
+  components:
+  - type: Sprite
+    state: chiefmpoffice
+
+- type: entity
+  parent: RMCAreaAlmayerShipboardBrig
+  id: RMCAreaAlmayerShipboardBrigWardenOffice
+  name: "Бриг Warden Office"
+  components:
+  - type: Sprite
+    state: chiefmpoffice
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardSeaOffice
+  name: "Кабинет старшего военного советника нижней палубы"
+  components:
+  - type: Sprite
+    state: chiefmpoffice
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardFiringRangeNorth
+  name: "Правый стрелковый тир"
+  components:
+  - type: Sprite
+    state: firingrange
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerShipboard
+  id: RMCAreaAlmayerShipboardFiringRangeSouth
+  name: "Порт — стрельбище"
+  components:
+  - type: Sprite
+    state: firingrange
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  abstract: true
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerHallways
+
+- type: entity
+  parent: RMCAreaAlmayerHallways
+  id: RMCAreaAlmayerHallwaysHangar
+  name: "ангар"
+  components:
+  - type: Sprite
+    state: hangar
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerHallways
+  id: RMCAreaAlmayerHallwaysLower
+  components:
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysLower
+  id: RMCAreaAlmayerHallwaysLowerVehiclehangar
+  name: "Хранилище техники нижней палубы"
+  components:
+  - type: Sprite
+    state: exoarmor
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysLower
+  id: RMCAreaAlmayerHallwaysLowerRepairBay
+  name: "Мастерская развёртывания нижней палубы"
+  components:
+  - type: Sprite
+    state: dropshiprepair
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysLower
+  id: RMCAreaAlmayerHallwaysLowerStarboardUmbilical
+  name: "Коридор шлюзовых соединений правого борта нижней палубы"
+  components:
+  - type: Sprite
+    state: starboardumbilical
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysLower
+  id: RMCAreaAlmayerHallwaysLowerPortUmbilical
+  name: "Коридор шлюзовых соединений левого борта нижней палубы"
+  components:
+  - type: Sprite
+    state: portumbilical
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysLower
+  id: RMCAreaAlmayerHallwaysLowerPortForeHallway
+  name: "Коридор левого борта-носа нижней палубы"
+  components:
+  - type: Sprite
+    state: port
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysLower
+  id: RMCAreaAlmayerHallwaysLowerPortMidshipHallway
+  name: "Коридор левого борта-миделя нижней палубы"
+  components:
+  - type: Sprite
+    state: port
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysLower
+  id: RMCAreaAlmayerHallwaysLowerPortAftHallway
+  name: "Коридор левого борта-кормы нижней палубы"
+  components:
+  - type: Sprite
+    state: port
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysLower
+  id: RMCAreaAlmayerHallwaysLowerStarboardForeHallway
+  name: "Коридор правого борта-носа нижней палубы"
+  components:
+  - type: Sprite
+    state: starboard
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysLower
+  id: RMCAreaAlmayerHallwaysLowerStarboardMidshipHallway
+  name: "Коридор правого борта-миделя нижней палубы"
+  components:
+  - type: Sprite
+    state: starboard
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysLower
+  id: RMCAreaAlmayerHallwaysLowerStarboardAftHallway
+  name: "Коридор правого борта-кормы нижней палубы"
+  components:
+  - type: Sprite
+    state: starboard
+
+- type: entity
+  parent: RMCAreaAlmayerHallways
+  id: RMCAreaAlmayerHallwaysUpper
+  components:
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysUpper
+  id: RMCAreaAlmayerHallwaysUpperAftHallway
+  name: "Верхняя палуба: коридор в кормовой части"
+  components:
+  - type: Sprite
+    state: aft
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysUpper
+  id: RMCAreaAlmayerHallwaysUpperForeHallway
+  name: "Верхняя палуба: коридор в носовой части"
+  components:
+  - type: Sprite
+    state: stern
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysUpper
+  id: RMCAreaAlmayerHallwaysUpperMidshipHallway
+  name: "Верхняя палуба: коридор в средней части"
+  components:
+  - type: Sprite
+    state: stern
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysUpper
+  id: RMCAreaAlmayerHallwaysUpperPort
+  name: "Верхняя палуба: коридор левого борта"
+  components:
+  - type: Sprite
+    state: port
+
+- type: entity
+  parent: RMCAreaAlmayerHallwaysUpper
+  id: RMCAreaAlmayerHallwaysUpperStarboard
+  name: "Коридор верхней палубы, правый борт"
+  components:
+  - type: Sprite
+    state: starboard
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerStairClone
+  name: "Лестница нижней палубы"
+  components:
+  - type: Sprite
+    state: stairs_lowerdeck
+  - type: Area
+    zLevel: 2
+    resinConstructionAllowed: false
+
+- type: entity
+  parent: RMCAreaAlmayerStairClone
+  id: RMCAreaAlmayerStairCloneUpper
+  name: "Лестница верхней палубы"
+  components:
+  - type: Sprite
+    state: stairs_upperdeck
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerMaint
+
+- type: entity
+  parent: RMCAreaAlmayerMaint
+  id: RMCAreaAlmayerMaintLower
+  name: "Техническое обслуживание нижней палубы"
+  components:
+  - type: Sprite
+    state: lowerhull
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerMaintLower
+  id: RMCAreaAlmayerMaintLowerConstr
+  name: "Строительная площадка нижней палубы"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintLower
+  id: RMCAreaAlmayerMaintLowerSBow
+  name: "Техническое обслуживание правого борта-носа нижней палубы"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintLower
+  id: RMCAreaAlmayerMaintLowerCryoCells
+  name: "Криокамеры нижней палубы Maintenance"
+
+- type: entity
+  parent: RMCAreaAlmayerMaint
+  id: RMCAreaAlmayerMaintUpper
+  name: "Верхняя палуба: техническое помещение"
+  components:
+  - type: Sprite
+    state: upperhull
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerMaintUpper
+  id: RMCAreaAlmayerMaintUpperMess
+  name: "Верхняя палуба: техпомещение столовой"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintUpper
+  id: RMCAreaAlmayerMaintUpperUMP
+  name: "Техническое помещение верхней палубы, левый борт-мидель"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintUpper
+  id: RMCAreaAlmayerMaintUpperUMS
+  name: "Техническое помещение верхней палубы, правый борт-мидель"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintUpper
+  id: RMCAreaAlmayerMaintUpperUFP
+  name: "Техническое помещение верхней палубы, левый борт-нос"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintUpper
+  id: RMCAreaAlmayerMaintUpperUFS
+  name: "Техническое помещение верхней палубы, правый борт-нос"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintUpper
+  id: RMCAreaAlmayerMaintUpperUAP
+  name: "Верхняя палуба: техпомещение левого борта в кормовой части"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintUpper
+  id: RMCAreaAlmayerMaintUpperUAS
+  name: "Техническое помещение верхней палубы, правый борт-корма"
+
+- type: entity
+  parent: RMCAreaAlmayerMaint
+  id: RMCAreaAlmayerMaintHull
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHull
+  id: RMCAreaAlmayerMaintHullLower
+  name: "Корпус нижней палубы"
+  components:
+  - type: Sprite
+    state: lowerhull
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullLower
+  id: RMCAreaAlmayerMaintHullLowerStairs
+  name: "Лестница нижней палубы Hull"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullLower
+  id: RMCAreaAlmayerMaintHullLowerStern
+  name: "Корпус кормы нижней палубы"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullLower
+  id: RMCAreaAlmayerMaintHullLowerPBow
+  name: "Корпус левого борта-носа нижней палубы"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullLower
+  id: RMCAreaAlmayerMaintHullLowerSBow
+  name: "Корпус правого борта-носа нижней палубы"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullLower
+  id: RMCAreaAlmayerMaintHullLowerLFS
+  name: "Корпус правого борта-носа нижней палубы"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullLower
+  id: RMCAreaAlmayerMaintHullLowerLMS
+  name: "Корпус правого борта-миделя нижней палубы"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullLower
+  id: RMCAreaAlmayerMaintHullLowerLAS
+  name: "Корпус правого борта-кормы нижней палубы"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullLower
+  id: RMCAreaAlmayerMaintHullLowerLFP
+  name: "Корпус левого борта-носа нижней палубы"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullLower
+  id: RMCAreaAlmayerMaintHullLowerLMP
+  name: "Корпус левого борта-миделя нижней палубы"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullLower
+  id: RMCAreaAlmayerMaintHullLowerLAP
+  name: "Корпус левого борта-кормы нижней палубы"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHull
+  id: RMCAreaAlmayerMaintHullUpper
+  name: "Верхняя палуба: корпус"
+  components:
+  - type: Sprite
+    state: upperhull
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullUpper
+  id: RMCAreaAlmayerMaintHullUpperStairs
+  name: "Лестница верхней палубы Hull"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullUpper
+  id: RMCAreaAlmayerMaintHullUpperPBow
+  name: "Верхняя палуба: корпус левого борта в носовой части"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullUpper
+  id: RMCAreaAlmayerMaintHullUpperSBow
+  name: "Корпус верхней палубы, правый борт-нос"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullUpper
+  id: RMCAreaAlmayerMaintHullUpperPStern
+  name: "Корпус верхней палубы, левый борт-корма"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullUpper
+  id: RMCAreaAlmayerMaintHullUpperSStern
+  name: "Корпус верхней палубы, правый борт-корма"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullUpper
+  id: RMCAreaAlmayerMaintHullUpperUFS
+  name: "Корпус верхней палубы, правый борт-нос"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullUpper
+  id: RMCAreaAlmayerMaintHullUpperUMS
+  name: "Корпус верхней палубы, правый борт-мидель"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullUpper
+  id: RMCAreaAlmayerMaintHullUpperUAS
+  name: "Корпус верхней палубы, правый борт-корма"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullUpper
+  id: RMCAreaAlmayerMaintHullUpperUFP
+  name: "Верхняя палуба: корпус левого борта в носовой части"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullUpper
+  id: RMCAreaAlmayerMaintHullUpperUMP
+  name: "Корпус верхней палубы, левый борт-мидель"
+
+- type: entity
+  parent: RMCAreaAlmayerMaintHullUpper
+  id: RMCAreaAlmayerMaintHullUpperUAP
+  name: "Верхняя палуба: корпус левого борта в кормовой части"
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerLiving
+  components:
+  - type: Area
+    minimapColor: '#6C6767D8'
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingTankerbunks
+  name: "Койки экипажа техники нижней палубы"
+  components:
+  - type: Sprite
+    state: livingspace
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingAuxiliaryOfficerOffice
+  name: "Кабинет офицера вспомогательного обеспечения нижней палубы"
+  components:
+  - type: Sprite
+    state: livingspace
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingCryoCells
+  name: "Криокамеры нижней палубы"
+  components:
+  - type: Sprite
+    state: cryo
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingBriefing
+  name: "Брифинг Area"
+  components:
+  - type: Sprite
+    state: briefing
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingPortEmb
+  name: "Койки длительных миссий левого борта нижней палубы"
+  components:
+  - type: Sprite
+    state: portemb
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingStarboardEmb
+  name: "Койки длительных миссий правого борта нижней палубы"
+  components:
+  - type: Sprite
+    state: starboardemb
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingPortGarden
+  name: "Порт — сад"
+  components:
+  - type: Sprite
+    state: portemb
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingStarboardGarden
+  name: "Правый сад"
+  components:
+  - type: Sprite
+    state: starboardemb
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingBasketball
+  name: "баскетбольная площадка"
+  components:
+  - type: Sprite
+    state: basketball
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingGruntRnr
+  name: "Лаунж"
+  components:
+  - type: Sprite
+    state: gruntrnr
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingOfficerRnr
+  name: "Верхняя палуба: офицерская комната отдыха"
+  components:
+  - type: Sprite
+    state: officerrnr
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingOfficerStudy
+  name: "Верхняя палуба: офицерский кабинет"
+  components:
+  - type: Sprite
+    state: officerstudy
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingCafeteriaPort
+  name: "Кафетерий Port"
+  components:
+  - type: Sprite
+    state: food
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingCafeteriaStarboard
+  name: "Кафетерий Starboard"
+  components:
+  - type: Sprite
+    state: food
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingGym
+  name: "Спортзал нижней палубы"
+  components:
+  - type: Sprite
+    state: officerrnr
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingCafeteriaOfficer
+  name: "Верхняя палуба: офицерская столовая"
+  components:
+  - type: Sprite
+    state: food
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingOffices
+  name: "Конференц-кабинет нижней палубы"
+  components:
+  - type: Sprite
+    state: briefing
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerLivingOffices
+  id: RMCAreaAlmayerLivingOfficesFlight
+  name: "Офис полётов"
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingCaptainMess
+  name: "Капитан's Mess"
+  components:
+  - type: Sprite
+    state: briefing
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingPilotbunks
+  name: "Пилот's Bunks"
+  components:
+  - type: Sprite
+    state: livingspace
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingBridgebunks
+  name: "Офицер штаба Bunks"
+  components:
+  - type: Sprite
+    state: livingspace
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingCommandbunks
+  name: "Командующий офицер's Bunk"
+  components:
+  - type: Sprite
+    state: livingspace
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingSynthcloset
+  name: "Чулан хранения синтетиков верхней палубы"
+  components:
+  - type: Sprite
+    state: livingspace
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingNumbertwobunks
+  name: "Руководитель Officer's Bunk"
+  components:
+  - type: Sprite
+    state: livingspace
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerLiving
+  id: RMCAreaAlmayerLivingChapel
+  name: "Часовня «Алмайер»"
+  components:
+  - type: Sprite
+    state: officerrnr
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerMedical
+  components:
+  - type: Area
+    minimapColor: '#3DBF75EE'
+    alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalLowerMedicalLobby
+  name: "Медикal Lower Lobby"
+  components:
+  - type: Sprite
+    state: medical
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalUpperMedical
+  name: "Медикal Upper"
+  components:
+  - type: Sprite
+    state: medical
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalMorgue
+  name: "Морг"
+  components:
+  - type: Sprite
+    state: operating
+  - type: Area
+    zLevel: 1
+  - type: IntelRecoverCorpsesArea
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalOperatingRoomOne
+  name: "Медикal Operating Room 1"
+  components:
+  - type: Sprite
+    state: operating
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalOperatingRoomTwo
+  name: "Медикal Operating Room 2"
+  components:
+  - type: Sprite
+    state: operating
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalOperatingRoomThree
+  name: "Медикal Operating Room 3"
+  components:
+  - type: Sprite
+    state: operating
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalOperatingRoomFour
+  name: "Медикal Operating Room 4"
+  components:
+  - type: Sprite
+    state: operating
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalMedicalScience
+  name: "Медикal Research laboratories"
+  components:
+  - type: Sprite
+    state: science
+  - type: Area
+    zLevel: 1
+    retrieveItemObjective: true
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalHydroponics
+  name: "Медикal Research hydroponics"
+  components:
+  - type: Sprite
+    state: science
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalContainment
+  name: "Медикal Research containment"
+  components:
+  - type: Sprite
+    state: science
+  - type: Area
+    zLevel: 1
+  - type: IntelRecoverCorpsesArea
+
+- type: entity
+  parent: RMCAreaAlmayerMedicalContainment
+  id: RMCAreaAlmayerMedicalContainmentCell
+  name: "Медикal Research containment cells"
+  components:
+  - type: Sprite
+    state: science
+  - type: Area
+    zLevel: 1
+    avoidBioscan: true
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaAlmayerMedicalContainmentCell
+  id: RMCAreaAlmayerMedicalContainmentCellCl
+  name: "Изоляция"
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalChemistry
+  name: "Медикal Chemical laboratory"
+  components:
+  - type: Sprite
+    state: chemistry
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalLockerroom
+  name: "Медикal Locker Room"
+  components:
+  - type: Sprite
+    state: science
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalCryoTubes
+  name: "Медикal Cryogenics Tubes"
+  components:
+  - type: Sprite
+    state: medical
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerMedical
+  id: RMCAreaAlmayerMedicalLowerMedicalMedbay
+  name: "Медикal Lower Medbay"
+  components:
+  - type: Sprite
+    state: medical
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerSquads
+
+- type: entity
+  parent: RMCAreaAlmayerSquads
+  id: RMCAreaAlmayerSquadsAlpha
+  name: "Подготовка отряда Альфа"
+  components:
+  - type: Sprite
+    state: alpha
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerSquads
+  id: RMCAreaAlmayerSquadsBravo
+  name: "Подготовка отряда Браво"
+  components:
+  - type: Sprite
+    state: bravo
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerSquads
+  id: RMCAreaAlmayerSquadsCharlie
+  name: "Подготовка отряда Чарли"
+  components:
+  - type: Sprite
+    state: charlie
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerSquads
+  id: RMCAreaAlmayerSquadsDelta
+  name: "Подготовка отряда Дельта"
+  components:
+  - type: Sprite
+    state: delta
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerSquads
+  id: RMCAreaAlmayerSquadsAlphaBravoShared
+  name: "Альфа Bravo Equipment Preparation"
+  components:
+  - type: Sprite
+    state: ab_shared
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerSquads
+  id: RMCAreaAlmayerSquadsCharlieDeltaShared
+  name: "Чарли Delta Equipment Preparation"
+  components:
+  - type: Sprite
+    state: cd_shared
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayerSquads
+  id: RMCAreaAlmayerSquadsReq
+  name: "Снабжение"
+  components:
+  - type: Sprite
+    state: req
+  - type: Area
+    zLevel: 2
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerPowered
+
+- type: entity
+  parent: RMCAreaAlmayerPowered
+  id: RMCAreaAlmayerPoweredAgent
+  name: "Неизвестно Area"
+  components:
+  - type: Sprite
+    state: selfdestruct
+  - type: Area
+    zLevel: 2
+    avoidBioscan: true
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaAlmayerEngineering
+  id: RMCAreaAlmayerEngineeringAirmix
+  components:
+  - type: Sprite
+    state: selfdestruct
+  - type: Area
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerLifeboatPumps
+  name: "Спасательная шлюпка Fuel Pumps"
+  components:
+  - type: Sprite
+    state: lifeboat_pump
+  - type: Area
+    zLevel: 1
+    hijackEvacuationArea: true
+    hijackEvacuationWeight: 0.1
+    hijackEvacuationType: Add
+
+- type: entity
+  parent: RMCAreaAlmayerLifeboatPumps
+  id: RMCAreaAlmayerLifeboatPumpsNorth1
+  name: "Правый носовой топливный насос спасательной шлюпки"
+
+- type: entity
+  parent: RMCAreaAlmayerLifeboatPumps
+  id: RMCAreaAlmayerLifeboatPumpsNorth2
+  name: "Правый кормовой топливный насос спасательной шлюпки"
+
+- type: entity
+  parent: RMCAreaAlmayerLifeboatPumps
+  id: RMCAreaAlmayerLifeboatPumpsSouth1
+  name: "Топливный насос носовой спасательной шлюпки левого борта"
+
+- type: entity
+  parent: RMCAreaAlmayerLifeboatPumps
+  id: RMCAreaAlmayerLifeboatPumpsSouth2
+  name: "Топливный насос кормовой спасательной шлюпки левого борта"
+
+- type: entity
+  parent: RMCAreaAlmayerCommand
+  id: RMCAreaAlmayerCommandLifeboat
+  name: "Спасательная шлюпка Docking Port"
+  components:
+  - type: Sprite
+    state: selfdestruct
+  - type: Area
+    zLevel: 1
+
+- type: entity
+  abstract: true
+  parent: RMCAreaSpace
+  id: RMCAreaSpaceAlmayer
+
+- type: entity
+  parent: RMCAreaSpaceAlmayer
+  id: RMCAreaSpaceAlmayerLifeboatDock
+  name: "Порт — стыковка спасательных шлюпок"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_almayer.rsi
+    state: lifeboat
+  - type: Area
+    zLevel: 1
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaAlmayer
+  id: RMCAreaAlmayerEvacuation
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas.rsi
+    state: shuttle2
+  - type: Area
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod1
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod2
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod3
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod4
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod5
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod6
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod7
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod8
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod9
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod10
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod11
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod12
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod13
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod14
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod15
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod16
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod17
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationPod18
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuation
+  id: RMCAreaAlmayerEvacuationStranded
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod1
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod2
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod3
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod4
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod5
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod6
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod7
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod8
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod9
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod10
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod11
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod12
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod13
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod14
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod15
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod16
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod17
+
+- type: entity
+  parent: RMCAreaAlmayerEvacuationStranded
+  id: RMCAreaAlmayerEvacuationStrandedPod18

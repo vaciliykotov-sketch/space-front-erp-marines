@@ -1,0 +1,10 @@
+ent-CMSpawnPointWeaponsSpecialist = место возрождения оружейного специалиста
+    .suffix = { ent-CMSpawnPointJobBase.suffix }
+ent-CMSpawnPointWeaponsSpecialistAlpha = { ent-CMSpawnPointWeaponsSpecialist }
+    .suffix = Альфа
+ent-CMSpawnPointWeaponsSpecialistBravo = { ent-CMSpawnPointWeaponsSpecialist }
+    .suffix = Браво
+ent-CMSpawnPointWeaponsSpecialistCharlie = { ent-CMSpawnPointWeaponsSpecialist }
+    .suffix = Чарли
+ent-CMSpawnPointWeaponsSpecialistDelta = { ent-CMSpawnPointWeaponsSpecialist }
+    .suffix = Дельта

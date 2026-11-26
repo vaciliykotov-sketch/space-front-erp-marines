@@ -1,0 +1,15 @@
+ent-RMCHeadCapBureau = шапка бюро
+ent-RMCHeadBeretProvost = берет провоста морпехов США
+ent-RMCHeadBeretProvostSenior = берет старшего провоста морпехов США
+ent-RMCArmorCapProvost = фуражка провост-маршала
+ent-RMCHeadBeretAgent = берет спецагента
+ent-RMCHeadBeretAgentIvan = берет чёрного цвета
+ent-RMCHeadCapFreelancer = кепка фрилансера бронированная
+ent-RMCHeadBeretFreelancer = берет фрилансера бронированный
+ent-RMCHeadMilitiaHood = колпак ополченца бронированный
+ent-RMCHeadMilitiaBucket = ведро ополченца
+ent-RMCHeadCapGeneral = фуражка генерала
+ent-RMCHeadBeretGeneral = броневой берет генерала
+ent-RMCHeadCapQuartermaster = кепка интенданта КМП
+ent-RMCHeadBeretQuartermaster = берет интенданта КМП
+ent-RMCHeadUNMCHeadset = наушники КМП

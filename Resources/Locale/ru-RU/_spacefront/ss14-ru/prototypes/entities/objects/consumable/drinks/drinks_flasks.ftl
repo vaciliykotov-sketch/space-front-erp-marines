@@ -1,0 +1,12 @@
+ent-FlaskBase = { ent-DrinkBase }
+ent-DrinkFlaskVisualsOpenable = { "" }
+ent-DrinkShinyFlask = фляжка с блеском
+ent-DrinkMREFlask = фляжка из ИРП
+    .suffix = Full
+ent-DrinkDetFlask = инспекторская фляжка
+ent-DrinkHosFlask = фляжка главы службы безопасности
+ent-DrinkFlask = капитанская фляжка
+ent-DrinkFlaskBar = фляжка для бара
+ent-DrinkFlaskOld = фляжка постарше
+ent-DrinkLithiumFlask = фляжка с литием
+ent-DrinkVacuumFlask = сосуд-термос

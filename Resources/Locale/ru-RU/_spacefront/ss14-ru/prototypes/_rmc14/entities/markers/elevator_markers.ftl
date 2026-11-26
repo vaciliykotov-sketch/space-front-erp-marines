@@ -1,0 +1,9 @@
+ent-RMCElevatorDestination = точка прибытия лифта
+ent-RMCElevatorDestinationVisible = точка прибытия лифта
+    .suffix = Видно призракам
+ent-RMCElevatorDestinationMarker = точка прибытия лифта
+    .suffix = Маппинг
+ent-RMCElevatorDestinationMarkerSpawner = точка отправления лифта
+    .suffix = { ent-RMCElevatorDestinationMarker.suffix }
+ent-RMCElevatorDestinationVisibleSpawner = точка отправления лифта
+    .suffix = { ent-RMCElevatorDestinationVisible.suffix }

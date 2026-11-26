@@ -1,0 +1,2 @@
+ent-DrinkVisualizerTestCut = ������������ ���������� �������� �����
+ent-DrinkVisualizerTestNot = ������������ ���������� �������� ��-�����

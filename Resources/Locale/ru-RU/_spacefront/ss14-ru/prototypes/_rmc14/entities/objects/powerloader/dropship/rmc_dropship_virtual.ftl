@@ -1,0 +1,16 @@
+ent-RMCVirtualPowerLoaderRight = погрузчик: правая гидроклешня
+ent-RMCVirtualPowerLoaderLeft = погрузчик: левая гидроклешня
+ent-RMCVirtualDropshipGearRight = { ent-RMCVirtualPowerLoaderRight }
+ent-RMCVirtualDropshipGearLeft = { ent-RMCVirtualPowerLoaderLeft }
+ent-RMCVirtualDropshipAmmoRight = { ent-RMCVirtualPowerLoaderRight }
+ent-RMCVirtualDropshipAmmoLeft = { ent-RMCVirtualPowerLoaderLeft }
+ent-RMCVirtualCrateRight = { ent-RMCVirtualPowerLoaderRight }
+ent-RMCVirtualCrateLeft = { ent-RMCVirtualPowerLoaderLeft }
+ent-RMCVirtualFuelRight = { ent-RMCVirtualPowerLoaderRight }
+ent-RMCVirtualFuelLeft = { ent-RMCVirtualPowerLoaderLeft }
+ent-RMCVirtualWarheadRight = { ent-RMCVirtualPowerLoaderRight }
+ent-RMCVirtualWarheadLeft = { ent-RMCVirtualPowerLoaderLeft }
+ent-RMCVirtualWarheadLeftAegis = { ent-RMCVirtualPowerLoaderLeft }
+ent-RMCVirtualChairStackLeft = { ent-RMCVirtualPowerLoaderLeft }
+ent-RMCVirtualChairStackRight = { ent-RMCVirtualPowerLoaderRight }
+ent-RMCVirtualWarheadRightAegis = { ent-RMCVirtualPowerLoaderRight }

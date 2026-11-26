@@ -1,0 +1,10 @@
+ent-BaseMobBehonker = бехонкер (базовый)
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
+ent-MobBehonkerElectrical = электрический бехонкер
+    .suffix = Электро
+ent-MobBehonkerPyro = пиро-бехонкер
+    .suffix = Пиро
+ent-MobBehonkerGrav = гравитационный бехонкер
+    .suffix = Гравитация
+ent-MobBehonkerIce = ледяной бехонкер
+    .suffix = Лёд

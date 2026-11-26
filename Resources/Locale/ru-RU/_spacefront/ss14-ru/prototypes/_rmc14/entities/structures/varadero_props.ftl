@@ -1,0 +1,12 @@
+ent-RMCPropVaraderoCannon = орудие ПВО M2168A2 — 200-дюймовый рельсотрон холодного запуска
+ent-RMCPropVaraderoCannon1 = ствол орудия ПВО M2168A2 (200-дюймовый рельсотрон холодного запуска)
+    .suffix = Ствол
+ent-RMCPropVaraderoAACannon = { "" }
+ent-RMCPropVaraderoAACannon1 = установка M83 «Скайсвипер»
+ent-RMCPropVaraderoAACannon2 = { ent-RMCPropVaraderoAACannon1 }
+    .suffix = Уничтоженный
+ent-RMCPropVaraderoAACannon3 = M83 «Скайсвипер»
+ent-RMCPropVaraderoAACannon4 = { ent-RMCPropVaraderoAACannon3 }
+    .suffix = Вверх
+ent-RMCPropVaraderoAACannon5 = { ent-RMCPropVaraderoAACannon3 }
+    .suffix = Уничтоженный

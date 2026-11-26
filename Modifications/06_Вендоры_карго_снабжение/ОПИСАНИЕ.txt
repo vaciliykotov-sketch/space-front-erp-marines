@@ -1,0 +1,20 @@
+МОДИФИКАЦИЯ: 06 Вендоры карго снабжение
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Бесплатные вендоры, карго по 1$, поинты КолМорТех, снабжение отрядов
+
+ЗАЧЕМ:
+Что делает: всё в вендорах бесплатно; заказы карго по 1$; SquadWar-поинты КолМорТех; выдача снаряжения отрядам. Зачем: снабжение в бою не должно упираться в деньги.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Shared/_SpaceFront/Vendors/SquadWarFreeVendorComponent.cs
+- Content.Shared/_SpaceFront/_RMC14/Vendors/SharedCMAutomatedVendorSystem.cs
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Чужие файлы с маркерами:
+- Content.Server/_RMC14/Requisitions/RequisitionsSystem.cs — цены/заказы
+- Content.Shared/_RMC14/Vendors/SharedCMAutomatedVendorSystem.cs — вендорная логика
+Ресурсы: Resources/Prototypes/_RMC14/Catalog, Vendors, Roles/Jobs — цены и ассортимент
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

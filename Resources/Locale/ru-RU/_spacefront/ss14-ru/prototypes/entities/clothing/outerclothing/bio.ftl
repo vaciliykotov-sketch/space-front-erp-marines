@@ -1,0 +1,12 @@
+ent-ClothingOuterBioGeneral = костюм биологической защиты
+    .suffix = Обычный
+ent-ClothingOuterBioCmo = костюм биозащиты
+    .suffix = Главрач
+ent-ClothingOuterBioJanitor = биозащитный комбинезон
+    .suffix = Уборщик
+ent-ClothingOuterBioScientist = костюм биоизоляции
+    .suffix = Научный
+ent-ClothingOuterBioSecurity = защитный био-костюм
+    .suffix = Охранный
+ent-ClothingOuterBioVirology = костюм биологической защиты
+    .suffix = Вирусология

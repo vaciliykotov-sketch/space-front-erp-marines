@@ -1,0 +1,13 @@
+ent-RMCBoulderLarge = большой валун
+ent-RMCBoulderLarge1 = { ent-RMCBoulderLarge }
+ent-RMCBoulderLargeDark1 = { ent-RMCBoulderLarge }
+    .suffix = Темный
+ent-RMCBoulderLargeDark2 = { ent-RMCBoulderLargeDark1 }
+    .suffix = { ent-RMCBoulderLargeDark1.suffix }
+ent-RMCBoulderLargeDark3 = { ent-RMCBoulderLargeDark1 }
+    .suffix = { ent-RMCBoulderLargeDark1.suffix }
+ent-RMCBoulderWide = { ent-RMCBoulderLarge }
+ent-RMCBoulderWideDark1 = { ent-RMCBoulderWide }
+    .suffix = Темный
+ent-RMCBoulderWideDark2 = { ent-RMCBoulderWideDark1 }
+    .suffix = { ent-RMCBoulderWideDark1.suffix }

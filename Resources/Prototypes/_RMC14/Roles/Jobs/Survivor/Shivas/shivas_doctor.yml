@@ -1,0 +1,32 @@
+- type: job
+  parent: CMSurvivorDoctor
+  id: RMCSurvivorShivasDoctor
+  name: rmc-job-name-survivor-shivas-doctor
+  playTimeTracker: CMJobSurvivorDoctor
+  setPreference: false
+  startingGear: RMCGearSurvivorShivasDoctor
+  spawnMenuRoleName: Doctor (Shivas Survivor)
+  camouflageStartingGear: null
+
+- type: startingGear
+  parent: RMCGearSurvivorDoctor
+  id: RMCGearSurvivorShivasDoctor
+  equipment:
+    head: RMCHeadUshanka
+    mask: CMMaskCoif
+    outerClothing: RMCCoatSnowSurvivorGreen
+    gloves: CMHandsWhite
+    shoes: RMCShoesSnow
+    jumpsuit: CMScrubsGreen
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorShivasDoctor
+  name: "точка появления врача Шивы"
+  components:
+  - type: SpawnPoint
+    job_id: RMCSurvivorShivasDoctor
+  - type: Sprite
+    layers:
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv

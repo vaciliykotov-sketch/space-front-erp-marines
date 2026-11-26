@@ -1,0 +1,278 @@
+# Trijent
+- type: entity
+  abstract: true
+  parent: RMCMapInsertBase
+  id: RMCMapInsertTrijentBase
+  suffix: Insert Trijent
+  components:
+  - type: MapInsert
+    clearEntities: true
+    clearDecals: true
+    replaceAreas: true
+
+
+# Standalones
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentCaveInEngineering
+  name: "Обвал в инженерном отсеке"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/cave_in_engineering.yml"
+      probability: 0.1
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentArmory
+  name: "Безупречный/боевой арсенал"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/pristine.yml"
+      probability: 0.1
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/battle.yml"
+      probability: 0.2
+    replaceAreas: false
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentSouthbridge
+  name: "Гражданский/корпоративный трюм Саутбридж"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/corphold.yml"
+      probability: 0.1
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/civhold.yml"
+      probability: 0.1
+    replaceAreas: false
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentWorkshop
+  name: "Мастерская снаряжения/оружия"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/gear.yml"
+      probability: 0.1
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/guns.yml"
+      probability: 0.1
+    replaceAreas: false
+
+
+# Sprinkles
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentTempleIntact
+  name: "Храм невредим"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/temple_intact.yml"
+      probability: 0.1
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentShipGone
+  name: "Корабль улетел"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/ship_gone.yml"
+      probability: 0.15
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentMiniEvacWestResearch
+  name: "Мини-эвакуация западных исследований"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/minievac_westresearch.yml"
+      probability: 0.2
+    clearDecals: false
+    replaceAreas: false
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentLoaderdude
+  name: "Грузчик"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/loaderdude.yml"
+      probability: 0.25
+    replaceAreas: false
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentGreenBridge
+  name: "Новый мост Зелёной реки"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/green_river_new_bridge.yml"
+      probability: 0.25
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentPurpleBridge
+  name: "Новый мост через Пурпурную реку"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/purple_river_new_bridge.yml"
+      probability: 0.25
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentAdminFight
+  name: "Админ-бой"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/admin_fight.yml"
+      probability: 0.3
+    replaceAreas: false
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentCMBEngi
+  name: "Мёртвый инженер CMB"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/cmb_engi.yml"
+      probability: 0.3
+    replaceAreas: false
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentHoldGenwest
+  name: "Удержать Genwest"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/hold_genwest.yml"
+      probability: 0.3
+    replaceAreas: false
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentHydroBreakroomHold
+  name: "Гидравлический отсек комнаты отдыха"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/hydro_breakroom_hold.yml"
+      probability: 0.3
+    replaceAreas: false
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentMetalGeneast
+  name: "Металлический генеаст"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/metal_geneast.yml"
+      probability: 0.3
+    replaceAreas: false
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentSensorhold
+  name: "Отсек сенсоров"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/sensorhold.yml"
+      probability: 0.5
+    replaceAreas: false
+
+- type: entity
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentEngiCentralRepaired
+  name: "Инженер Central Repaired"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/engi_central_repaired.yml"
+      probability: 0.7
+    replaceAreas: false
+
+
+# Survivor Scenario Inserts
+- type: entity
+  abstract: true
+  parent: RMCMapInsertTrijentBase
+  id: RMCMapInsertTrijentBaseScenario
+  suffix: Insert Trijent
+  components:
+  - type: MapInsert
+    replaceAreas: false
+
+# SPP Crashlanding
+- type: entity
+  parent: RMCMapInsertTrijentBaseScenario
+  id: RMCMapInsertTrijentCrashlandingSPPBar
+  name: "Аварийная посадка СПП бар"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/crashlanding-spp-bar.yml"
+      probability: 1
+      offset: 0,-2.0
+      nightmareScenario: spp_bar
+
+- type: entity
+  parent: RMCMapInsertTrijentBaseScenario
+  id: RMCMapInsertTrijentCrashlandingSPPAlt
+  name: "Аварийная посадка СПП альт"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/crashlanding-spp-alt.yml"
+      probability: 1
+      offset: 0,-2
+      nightmareScenario: spp_bar
+
+# CLF Pods
+- type: entity
+  parent: RMCMapInsertTrijentBaseScenario
+  id: RMCMapInsertTrijentCLFPods
+  name: "Капсулы CLF"
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/clfpods.yml"
+      probability: 1
+      offset: 0,-2.0
+      nightmareScenario: clf_pods
+
+# Regular Surv Spawns
+- type: entity
+  parent: RMCMapInsertTrijentBaseScenario
+  id: RMCMapInsertTrijentSurvSpawnTogether
+  name: "Совместное выживание: точка появления"
+  suffix: Insert Trijent
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/surv_spawn_bar.yml"
+      probability: 0.25
+      nightmareScenario: none
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/surv_spawn_dam.yml"
+      probability: 0.25
+      nightmareScenario: none
+      offset: 61,59
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/surv_spawn_hospital.yml"
+      probability: 0.25
+      nightmareScenario: none
+      offset: 69,-3
+    - spawn: "/Maps/_RMC14/Inserts/Trijent/surv_spawn_tunneldorm.yml"
+      probability: 0.25
+      nightmareScenario: none
+      offset: 14,29

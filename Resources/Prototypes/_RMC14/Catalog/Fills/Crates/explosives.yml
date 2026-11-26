@@ -1,0 +1,225 @@
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesHighExplosive
+  name: "ящик 30-мм фугасных гранат HEDP (x6)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMPacketGrenadeHighExplosiveFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesIncendiary
+  name: 30-мм зажигательная граната HIDPs crate (x6)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCPacketGrenadeIncendiaryFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesFrag
+  name: "ящик 30-мм осколочных гранат HEFA (x6)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMPacketGrenadeFragFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesSmoke
+  name: 30-мм дымовая граната HSDPs crate (x6)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCPacketGrenadeSmokeFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesFragOld
+  name: "Осколочная граната M15s crate (x6)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMPacketGrenadeFragOldFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCratePlasticExplosives
+  name: "пластик explosives crate (x3)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCExplosivePlastic
+      amount: 3
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateBreachingCharges
+  name: "подрывной зарядs crate (x4)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCExplosiveBreachingCharge
+      amount: 4
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesHighExplosiveBox
+  name: "ящик с коробками 30-мм фугасных гранат HEDP (x25)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxHEDP
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesBoxHEFA
+  name: "ящик с коробками 30-мм осколочных гранат HEFA (x25)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxHEFA
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesAirburstFragBox
+  name: 40-мм осколочная граната M74 AGM-Fs crate (x25)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxAGMF
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateBoxAGMI
+  name: 40-мм зажигательная граната M74 AGM-Is crate (x25)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxAGMI
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesAirburstFrag
+  name: 40-мм осколочная граната M74 AGM-Fs crate (x6)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCPacketGrenadeM74AGMFFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesAirburstIncendiary
+  name: 40-мм зажигательная граната M74 AGM-Is crate (x6)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCPacketGrenadeM74AGMIFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesAirburstSmoke
+  name: 40-мм дымовая граната M74 AGM-Ss crate (x6)
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCPacketGrenadeM74AGMSFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesAirburstHornet
+  name: "Ящик 40-мм гранат «Шершень» M74 AGM-H (x6)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCPacketGrenadeM74AGMSHornetFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesAirburstStarShell
+  name: "Ящик 40-мм осветительных гранат M74 AGM-H (x6)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCPacketGrenadeM74AGMSStarShellFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateGrenadesBatonSlug
+  name: "Ящик дубинчатых пуль HIRR (x6)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCPacketGrenadeBatonSlugHIRRFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateExplosiveClaymoreMine
+  name: "Ящик мин M20 «Клеймор» (x10)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxClaymoreMineFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateExplosivesSurplus
+  name: "ящик излишков взрывчатки (мина «Клеймор» x5, 30mm HEDP x2, 30mm HIDP x2, M15 Frag x2, M12 Blast x2)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxClaymoreMineFilled
+      amount: 1
+    - id: CMGrenadeHighExplosive
+      amount: 2
+    - id: RMCGrenadeIncendiary
+      amount: 2
+    - id: CMGrenadeFragOld
+      amount: 2
+    - id: RMCGrenadeBlastM12
+      amount: 2
+    # - id: M40 MFHS Metal Foam Grenade
+    #   amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateExplosiveWhitePhosphorus
+  name: "ящик 30-мм гранат WPDP с белым фосфором (x25)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxWPDP
+      amount: 1
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateExplosiveWhitePhosphorusCompound
+  name: "ящик 30-мм гранат CCDP с химическим составом (x6)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCPacketGrenadeWhitePhosphorusCompoundFilled
+      amount: 2
+
+- type: entity
+  parent: RMCCrateExplosives
+  id: RMCCrateExplosiveWhitePhosphorusCompoundBox
+  name: "ящик 30-мм гранат CCDP с химическим составом (x25)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxCCDP
+      amount: 1

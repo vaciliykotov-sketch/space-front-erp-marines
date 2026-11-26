@@ -1,0 +1,9 @@
+ent-RMCDirtBandageProp = бинты в грязи
+ent-RMCDirtBandageProp2 = { ent-RMCDirtBandageProp }
+ent-RMCDirtBandageProp3 = { ent-RMCDirtBandageProp }
+ent-RMCDirtBandageProp4 = { ent-RMCDirtBandageProp }
+ent-RMCDirtBandageProp5 = { ent-RMCDirtBandageProp }
+ent-RMCDirtBandageProp6 = { ent-RMCDirtBandageProp }
+ent-RMCDirtBandageProp7 = { ent-RMCDirtBandageProp }
+ent-RMCDirtBandageProp8 = { ent-RMCDirtBandageProp }
+ent-RMCPaperScrapProp = обрывок бумаги

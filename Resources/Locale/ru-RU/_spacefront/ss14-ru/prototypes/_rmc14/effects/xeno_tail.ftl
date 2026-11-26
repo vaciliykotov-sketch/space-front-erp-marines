@@ -1,0 +1,1 @@
+ent-RMCOppressorTail = хвост Угнетателя

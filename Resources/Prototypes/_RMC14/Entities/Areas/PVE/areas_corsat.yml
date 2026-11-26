@@ -1,0 +1,1270 @@
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaCorsat
+  name: CORSAT
+  suffix: CORSAT Area
+  components:
+    - type: Sprite
+      sprite: _RMC14/Areas/areas_corsat.rsi
+      state: corsat_hull
+    - type: Area
+      buildSpecial: true
+      CAS: true
+      fulton: true
+      mortarPlacement: true
+      mortarFire: true
+      lasing: true
+      medevac: true
+      OB: true
+      supplyDrop: true
+      weatherEnabled: true
+      minimapColor: "#6C6767D8"
+
+- type: entity
+  parent: RMCAreaCorsat
+  id: RMCAreaCorsatLandingConsole
+  name: "LZ1 'Gamma'"
+  components:
+    - type: Sprite
+      state: corsat_telecomms
+    - type: Area
+      alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaCorsat
+  id: RMCAreaCorsatLandingConsole2
+  name: "LZ2 'Sigma'"
+  components:
+    - type: Sprite
+      state: corsat_telecomms
+    - type: Area
+      alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaCorsat
+  id: RMCAreaCorsatEmergencyAccess
+  name: "Неизвестно Area"
+  components:
+    - type: Sprite
+      state: corsat_hull
+    - type: Area
+      CAS: false
+      fulton: false
+      lasing: false
+      mortarPlacement: false
+      mortarFire: false
+      medevac: false
+      OB: false
+      supplyDrop: false
+      weatherEnabled: false
+      alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaCorsat
+  id: RMCAreaCorsatSigma
+  name: "Сектор «Сигма»"
+  components:
+    - type: Sprite
+      state: corsat_hull
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaNorth
+  name: "Сектор «Сигма» North Hallway"
+  components:
+    - type: Sprite
+      state: sigma_hallway_north
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaHangar
+  name: "Посадочный отсек Сигма"
+  components:
+    - type: Sprite
+      state: sigma_hangar
+    - type: Area
+      linkedLz: dropship_lz2
+      minimapColor: "#ebe5e5e3"
+
+- type: entity
+  parent: RMCAreaCorsatSigmaHangar
+  id: RMCAreaCorsatSigmaHangarMonorail
+  name: "Станция монорельса «Сигма»"
+  components:
+    - type: Sprite
+      state: monorail
+
+- type: entity
+  parent: RMCAreaCorsatSigmaHangarMonorail
+  id: RMCAreaCorsatSigmaHangarMonorailControl
+  name: "Управление монорельсом «Сигма»"
+  components:
+    - type: Sprite
+      state: monorail
+
+- type: entity
+  parent: RMCAreaCorsatSigmaHangarMonorail
+  id: RMCAreaCorsatSigmaHangarMonorailRailcart
+  name: "Монорельс CORSAT"
+  components:
+    - type: Sprite
+      state: railcart
+    - type: Area
+      CAS: false
+      fulton: false
+      lasing: false
+      mortarPlacement: false
+      mortarFire: false
+      medevac: false
+      OB: false
+      supplyDrop: false
+      weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaCorsatSigmaHangarMonorail
+  id: RMCAreaCorsatSigmaHangarMonorailRailcart_transit
+  name: "Монорельс CORSAT transit"
+  components:
+    - type: Sprite
+      state: railcart
+    - type: Area
+      CAS: false
+      fulton: false
+      lasing: false
+      mortarPlacement: false
+      mortarFire: false
+      medevac: false
+      OB: false
+      supplyDrop: false
+      weatherEnabled: false
+      noTunnel: true
+
+- type: entity
+  parent: RMCAreaCorsatSigmaHangar
+  id: RMCAreaCorsatSigmaHangarCargo
+  name: "Грузовой КПП ангара «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_hangar
+
+- type: entity
+  parent: RMCAreaCorsatSigmaHangar
+  id: RMCAreaCorsatSigmaHangarCheckpoint
+  name: "КПП ангара «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_hangar
+
+- type: entity
+  parent: RMCAreaCorsatSigmaHangar
+  id: RMCAreaCorsatSigmaHangarId
+  name: "КПП ангара «Сигма»"
+  components:
+    - type: Sprite
+      state: corsat_id
+
+- type: entity
+  parent: RMCAreaCorsatSigmaHangar
+  id: RMCAreaCorsatSigmaHangarArrivals
+  name: "Прибытие в Сигму"
+  components:
+    - type: Sprite
+      state: sigma_arrivals
+
+- type: entity
+  parent: RMCAreaCorsatSigmaHangar
+  id: RMCAreaCorsatSigmaHangarOffice
+  name: "Офис ангара «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_hangar_office
+
+- type: entity
+  parent: RMCAreaCorsatSigmaHangar
+  id: RMCAreaCorsatSigmaHangarSecurity
+  name: "Охрана ангара «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_hangar_security
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaAirlockEast
+  name: "Восточный шлюз купола «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_airlock_east
+
+- type: entity
+  parent: RMCAreaCorsatSigmaAirlockEast
+  id: RMCAreaCorsatSigmaAirlockEastId
+  name: "Восточный КПП «Сигма»"
+  components:
+    - type: Sprite
+      state: corsat_id
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaAirlockSouth
+  name: "Южный шлюз купола «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_airlock_south
+
+- type: entity
+  parent: RMCAreaCorsatSigmaAirlockSouth
+  id: RMCAreaCorsatSigmaAirlockSouthId
+  name: "Южный КПП «Сигма»"
+  components:
+    - type: Sprite
+      state: corsat_id
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaAirlockControl
+  name: "Модуль управления куполом «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_control
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaCargo
+  name: "Грузовой отсек «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_cargo
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaLaundry
+  name: "Прачечная «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_laundry
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaLavatory
+  name: "Уборная «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_lavatory
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaCafe
+  name: "Кафе «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_cafe
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaDorms
+  name: "Жилой модуль «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_residential
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaCheckpoint
+  name: "КПП службы безопасности «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_security_checkpoint
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaSoutheast
+  name: "Сектор «Сигма» Southeast Hallways"
+  components:
+    - type: Sprite
+      state: sigma_hallway_southeast
+
+- type: entity
+  parent: RMCAreaCorsatSigmaSoutheast
+  id: RMCAreaCorsatSigmaSoutheastGenerator
+  name: "Вспомогательные генераторы CORSAT"
+  components:
+    - type: Sprite
+      state: secondary_core
+    - type: Area
+      CAS: true
+      fulton: true
+      mortarPlacement: false
+      mortarFire: true
+      lasing: false
+      medevac: false
+      OB: true
+      supplyDrop: true
+      weatherEnabled: false
+      minimapColor: "#c19504e7"
+
+- type: entity
+  parent: RMCAreaCorsatSigmaSoutheast
+  id: RMCAreaCorsatSigmaSoutheastTelecomm
+  name: "Телекоммуникации CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_telecomms
+    - type: Area
+      CAS: true
+      fulton: true
+      mortarPlacement: false
+      mortarFire: true
+      lasing: false
+      medevac: false
+      OB: true
+      supplyDrop: true
+      weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaCorsatSigmaSoutheast
+  id: RMCAreaCorsatSigmaSoutheastDatalab
+  name: "Лаборатория данных «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_data_lab
+    - type: Area
+      CAS: true
+      fulton: true
+      mortarPlacement: false
+      mortarFire: true
+      lasing: false
+      medevac: false
+      OB: true
+      supplyDrop: true
+      weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaCorsatSigmaSoutheast
+  id: RMCAreaCorsatSigmaSoutheastDataoffice
+  name: "Офис данных «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_data_offices
+
+- type: entity
+  parent: RMCAreaCorsatSigmaSoutheast
+  id: RMCAreaCorsatSigmaSoutheastDatamaint
+  name: "Техническое обслуживание данных «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_data_lab
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaSouth
+  name: "Сектор «Сигма» South Hallways"
+  components:
+    - type: Sprite
+      state: sigma_hallway_south
+
+- type: entity
+  parent: RMCAreaCorsatSigmaSouth
+  id: RMCAreaCorsatSigmaSouthComplex
+  name: "Исследовательский комплекс «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_complex
+    - type: Area
+      minimapColor: "#812da2ee"
+
+- type: entity
+  parent: RMCAreaCorsatSigmaSouthComplex
+  id: RMCAreaCorsatSigmaSouthComplexTeleporter
+  name: "Телепорт «Сигма»"
+  components:
+    - type: Sprite
+      sprite: _RMC14/Areas/areas.rsi
+      state: shuttle
+    - type: Area
+      CAS: true
+      fulton: true
+      mortarPlacement: false
+      mortarFire: true
+      lasing: false
+      medevac: false
+      OB: true
+      supplyDrop: true
+      weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaCorsatSigmaSouth
+  id: RMCAreaCorsatSigmaSouthRobotics
+  name: "Лаборатория робототехники «Сигма»"
+  components:
+    - type: Sprite
+      state: robotics
+    - type: Area
+      minimapColor: "#c19504e7"
+
+- type: entity
+  parent: RMCAreaCorsatSigmaSouth
+  id: RMCAreaCorsatSigmaSouthEngineering
+  name: "Инженерный отсек «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_engineering
+    - type: Area
+      minimapColor: "#c19504e7"
+
+- type: entity
+  parent: RMCAreaCorsatSigmaSouth
+  id: RMCAreaCorsatSigmaSouthSecurity
+  name: "Центр безопасности «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_security
+    - type: Area
+      minimapColor: "#a22d2dee"
+
+- type: entity
+  parent: RMCAreaCorsatSigmaSouth
+  id: RMCAreaCorsatSigmaSouthOffices
+  name: "Офисы «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_offices
+
+- type: entity
+  parent: RMCAreaCorsatSigma
+  id: RMCAreaCorsatSigmaBiodome
+  name: "Биокупол Сигма"
+  components:
+    - type: Sprite
+      state: sigma_biodome
+
+- type: entity
+  parent: RMCAreaCorsatSigmaBiodome
+  id: RMCAreaCorsatSigmaBiodomeIce
+  name: "Биокупол Сигма"
+  components:
+    - type: Sprite
+      state: sigma_biodome
+
+- type: entity
+  parent: RMCAreaCorsatSigmaBiodome
+  id: RMCAreaCorsatSigmaBiodomeTestgrounds
+  name: "Испытательный полигон биокупола Сигма"
+  components:
+    - type: Sprite
+      state: sigma_testgrounds
+
+- type: entity
+  parent: RMCAreaCorsatSigmaBiodome
+  id: RMCAreaCorsatSigmaBiodomeGunrange
+  name: "Стрельбище биокупола Сигма"
+  components:
+    - type: Sprite
+      state: sigma_gunrange
+
+- type: entity
+  parent: RMCAreaCorsatSigmaBiodome
+  id: RMCAreaCorsatSigmaBiodomeScrapyard
+  name: "Свалка биокупола Сигма"
+  components:
+    - type: Sprite
+      state: sigma_scrapyard
+
+- type: entity
+  parent: RMCAreaCorsat
+  id: RMCAreaCorsatGamma
+  name: "Сектор Гамма"
+  components:
+    - type: Sprite
+      state: corsat_hull
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaHangar
+  name: "Посадочный отсек Гамма"
+  components:
+    - type: Sprite
+      state: gamma_hangar
+    - type: Area
+      linkedLz: dropship_lz1
+      minimapColor: "#ebe5e5e3"
+
+- type: entity
+  parent: RMCAreaCorsatGammaHangar
+  id: RMCAreaCorsatGammaHangarMonorail
+  name: "Станция монорельса Гамма"
+  components:
+    - type: Sprite
+      state: monorail
+
+- type: entity
+  parent: RMCAreaCorsatGammaHangarMonorail
+  id: RMCAreaCorsatGammaHangarMonorailControl
+  name: "Управление монорельса Гамма"
+  components:
+    - type: Sprite
+      state: monorail
+
+- type: entity
+  parent: RMCAreaCorsatGammaHangarMonorail
+  id: RMCAreaCorsatGammaHangarMonorailRailcart
+  name: "Рельсовая тележка CORSAT"
+  components:
+    - type: Sprite
+      state: railcart
+    - type: Area
+      CAS: false
+      fulton: false
+      lasing: false
+      mortarPlacement: false
+      mortarFire: false
+      medevac: false
+      OB: false
+      supplyDrop: false
+      weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaCorsatGammaHangar
+  id: RMCAreaCorsatGammaHangarCargo
+  name: "Грузовой КПП ангара Гамма"
+  components:
+    - type: Sprite
+      state: gamma_hangar
+
+- type: entity
+  parent: RMCAreaCorsatGammaHangar
+  id: RMCAreaCorsatGammaHangarCheckpoint
+  name: "КПП ангара Гамма"
+  components:
+    - type: Sprite
+      state: gamma_hangar
+
+- type: entity
+  parent: RMCAreaCorsatGammaHangar
+  id: RMCAreaCorsatGammaHangarOffice
+  name: "Офис ангара Гамма"
+  components:
+    - type: Sprite
+      state: gamma_hangar_office
+
+- type: entity
+  parent: RMCAreaCorsatGammaHangar
+  id: RMCAreaCorsatGammaHangarFlightcontrol
+  name: "Центр управления полётами CORSAT"
+  components:
+    - type: Sprite
+      state: flight_center
+
+- type: entity
+  parent: RMCAreaCorsatGammaHangar
+  id: RMCAreaCorsatGammaHangarSecurity
+  name: "Охрана ангара Гамма"
+  components:
+    - type: Sprite
+      state: gamma_hangar_security
+
+- type: entity
+  parent: RMCAreaCorsatGammaHangar
+  id: RMCAreaCorsatGammaHangarArrivals
+  name: "Прибытие «Гамма»"
+  components:
+    - type: Sprite
+      state: gamma_arrivals
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaFoyer
+  name: "Фойе Гамма"
+  components:
+    - type: Sprite
+      state: gamma_foyer
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaHallwaymain
+  name: "Сектор Гамма West Hallway"
+  components:
+    - type: Sprite
+      state: gamma_hallway_main
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaHallwaysouth
+  name: "Сектор Гамма South Hallways"
+  components:
+    - type: Sprite
+      state: gamma_hallway_south
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaResidential
+  name: "Жилой коридор Гамма"
+  components:
+    - type: Sprite
+      state: gamma_hallway_main
+
+- type: entity
+  parent: RMCAreaCorsatGammaResidential
+  id: RMCAreaCorsatGammaResidentialWest
+  name: "Академия CORSAT"
+  components:
+    - type: Sprite
+      state: gamma_residential_west
+
+- type: entity
+  parent: RMCAreaCorsatGammaResidential
+  id: RMCAreaCorsatGammaResidentialEast
+  name: "Северный жилой сектор Гамма"
+  components:
+    - type: Sprite
+      state: gamma_residential_east
+
+- type: entity
+  parent: RMCAreaCorsatGammaResidential
+  id: RMCAreaCorsatGammaResidentialMaint
+  name: "Техобслуживание жилого сектора Гамма"
+  components:
+    - type: Sprite
+      state: gamma_residential_maint
+
+- type: entity
+  parent: RMCAreaCorsatGammaResidential
+  id: RMCAreaCorsatGammaResidentialResearcher
+  name: "Исследованияer Quarters"
+  components:
+    - type: Sprite
+      state: researcher_quarters
+
+- type: entity
+  parent: RMCAreaCorsatGammaResidential
+  id: RMCAreaCorsatGammaResidentialLounge
+  name: "Исследованияer Lounge"
+  components:
+    - type: Sprite
+      state: researcher_lounge
+
+- type: entity
+  parent: RMCAreaCorsatGammaResidential
+  id: RMCAreaCorsatGammaResidentialLavatory
+  name: "Уборная Гамма"
+  components:
+    - type: Sprite
+      state: gamma_lavatory
+
+- type: entity
+  parent: RMCAreaCorsatGammaResidential
+  id: RMCAreaCorsatGammaResidentialShowers
+  name: "Душевые Гамма"
+  components:
+    - type: Sprite
+      state: gamma_showers
+
+- type: entity
+  parent: RMCAreaCorsatGammaResidential
+  id: RMCAreaCorsatGammaResidentialLaundry
+  name: "Прачечная Гамма"
+  components:
+    - type: Sprite
+      state: gamma_laundry
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaCargo
+  name: "Грузовой отсек «Гамма»"
+  components:
+    - type: Sprite
+      state: gamma_cargo
+
+- type: entity
+  parent: RMCAreaCorsatGammaCargo
+  id: RMCAreaCorsatGammaCargoLobby
+  name: "Грузовой отсек «Гамма» Lobby"
+  components:
+    - type: Sprite
+      state: gamma_cargo_lobby
+
+- type: entity
+  parent: RMCAreaCorsatGammaCargo
+  id: RMCAreaCorsatGammaCargoDisposal
+  name: "Утилизация «Гамма»"
+  components:
+    - type: Sprite
+      state: gamma_disposals
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaMedbay
+  name: "Медбей CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_medbay
+    - type: Area
+      minimapColor: "#3dbf75ee"
+
+- type: entity
+  parent: RMCAreaCorsatGammaMedbay
+  id: RMCAreaCorsatGammaMedbayMorgue
+  name: "Морг CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_morgue
+
+- type: entity
+  parent: RMCAreaCorsatGammaMedbay
+  id: RMCAreaCorsatGammaMedbayChemistry
+  name: "Химия CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_chemistry
+
+- type: entity
+  parent: RMCAreaCorsatGammaMedbay
+  id: RMCAreaCorsatGammaMedbaySurgery
+  name: "Операционная CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_surgery
+
+- type: entity
+  parent: RMCAreaCorsatGammaMedbay
+  id: RMCAreaCorsatGammaMedbayLobby
+  name: "Медбей CORSAT Lobby"
+  components:
+    - type: Sprite
+      state: medbay_lobby
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaHydroponics
+  name: "Гидропоника CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_hydroponics
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaCanteen
+  name: "Столовая CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_canteen
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaKitchen
+  name: "Кухня CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_kitchen
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaFreezer
+  name: "Пищевой склад CORSAT"
+  components:
+    - type: Sprite
+      state: food_storage
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaAdministration
+  name: "Административный центр CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_administration
+    - type: Area
+      minimapColor: "#2d3fa2ee"
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaSecurity
+  name: "Узел безопасности CORSAT"
+  components:
+    - type: Sprite
+      state: gamma_security
+    - type: Area
+      minimapColor: "#a22d2dee"
+
+- type: entity
+  parent: RMCAreaCorsatGammaSecurity
+  id: RMCAreaCorsatGammaSecurityCells
+  name: "Карцер CORSAT"
+  components:
+    - type: Sprite
+      state: security_cell
+
+- type: entity
+  parent: RMCAreaCorsatGammaSecurity
+  id: RMCAreaCorsatGammaSecurityArmory
+  name: "Оружейная CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_armory
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaRnr
+  name: "Зона отдыха CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_rnr
+
+- type: entity
+  parent: RMCAreaCorsatGammaRnr
+  id: RMCAreaCorsatGammaRnrBar
+  name: "Бар CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_bar
+
+- type: entity
+  parent: RMCAreaCorsatGammaRnr
+  id: RMCAreaCorsatGammaRnrArcade
+  name: "Аркада CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_arcade
+
+- type: entity
+  parent: RMCAreaCorsatGammaRnr
+  id: RMCAreaCorsatGammaRnrLibrary
+  name: "Библиотека CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_library
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaEngineering
+  name: "Инженерный отсек «Гамма»"
+  components:
+    - type: Sprite
+      state: gamma_engineering
+    - type: Area
+      minimapColor: "#c19504e7"
+
+- type: entity
+  parent: RMCAreaCorsatGammaEngineering
+  id: RMCAreaCorsatGammaEngineeringLobby
+  name: "Вестибюль инженерного отдела Гамма"
+  components:
+    - type: Sprite
+      state: gamma_engineering
+
+- type: entity
+  parent: RMCAreaCorsatGammaEngineering
+  id: RMCAreaCorsatGammaEngineeringAtmos
+  name: "Атмосферика CORSAT"
+  components:
+    - type: Sprite
+      state: gamma_atmos
+
+- type: entity
+  parent: RMCAreaCorsatGammaEngineering
+  id: RMCAreaCorsatGammaEngineeringCore
+  name: "Ядро генератора CORSAT"
+  components:
+    - type: Sprite
+      state: corsat_core
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaSigmaremote
+  name: "Отдалённый комплекс «Сигма»"
+  components:
+    - type: Sprite
+      state: sigma_complex_remote
+    - type: Area
+      minimapColor: "#812da2ee"
+
+- type: entity
+  parent: RMCAreaCorsatGammaSigmaremote
+  id: RMCAreaCorsatGammaSigmaremoteTeleporter
+  name: "Отдалённый телепорт «Сигма»"
+  components:
+    - type: Sprite
+      sprite: _RMC14/Areas/areas.rsi
+      state: shuttle
+    - type: Area
+      CAS: false
+      fulton: false
+      lasing: false
+      mortarPlacement: false
+      mortarFire: false
+      medevac: false
+      OB: false
+      supplyDrop: false
+      weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaAirlockNorth
+  name: "Северный шлюз купола «Гамма»"
+  components:
+    - type: Sprite
+      state: gamma_airlock_north
+    - type: Area
+      CAS: true
+      fulton: true
+      mortarPlacement: true
+      mortarFire: true
+      lasing: true
+      medevac: true
+      OB: true
+      supplyDrop: true
+      weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaCorsatGammaAirlockNorth
+  id: RMCAreaCorsatGammaAirlockNorthId
+  name: "Северный КПП Гамма"
+  components:
+    - type: Sprite
+      state: corsat_id
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaAirlockSouth
+  name: "Южный шлюз купола «Гамма»"
+  components:
+    - type: Sprite
+      state: gamma_airlock_south
+
+- type: entity
+  parent: RMCAreaCorsatGammaAirlockSouth
+  id: RMCAreaCorsatGammaAirlockSouthId
+  name: "Южный КПП Гамма"
+  components:
+    - type: Sprite
+      state: corsat_id
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaAirlockControl
+  name: "Модуль управления куполом «Гамма»"
+  components:
+    - type: Sprite
+      state: gamma_control
+    - type: Area
+      CAS: true
+      fulton: true
+      mortarPlacement: true
+      mortarFire: true
+      lasing: true
+      medevac: true
+      OB: true
+      supplyDrop: true
+      weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaCorsatGamma
+  id: RMCAreaCorsatGammaBiodome
+  name: "Биокупол Гамма"
+  components:
+    - type: Sprite
+      state: gamma_biodome
+    - type: Area
+      CAS: true
+      fulton: true
+      mortarPlacement: true
+      mortarFire: true
+      lasing: true
+      medevac: true
+      OB: true
+      supplyDrop: true
+      weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaCorsatGammaBiodome
+  id: RMCAreaCorsatGammaBiodomeComplex
+  name: "Исследовательский комплекс Гамма"
+  components:
+    - type: Sprite
+      state: gamma_complex
+    - type: Area
+      minimapColor: "#812da2ee"
+
+- type: entity
+  parent: RMCAreaCorsatGammaBiodome
+  id: RMCAreaCorsatGammaBiodomeVirology
+  name: "Вирусологическое крыло Гамма"
+  components:
+    - type: Sprite
+      state: gamma_virology
+    - type: Area
+      minimapColor: "#812da2ee"
+
+- type: entity
+  parent: RMCAreaCorsatGammaBiodome
+  id: RMCAreaCorsatGammaBiodomeToxins
+  name: "Крыло токсинов Гамма"
+  components:
+    - type: Sprite
+      state: gamma_toxin
+    - type: Area
+      minimapColor: "#812da2ee"
+
+- type: entity
+  parent: RMCAreaCorsat
+  id: RMCAreaCorsatTheta
+  name: "Сектор Тета"
+  components:
+    - type: Sprite
+      state: corsat_hull
+    - type: Area
+      CAS: true
+      fulton: true
+      mortarPlacement: true
+      mortarFire: true
+      lasing: true
+      medevac: true
+      OB: true
+      supplyDrop: true
+      weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaCorsatTheta
+  id: RMCAreaCorsatThetaBiodome
+  name: "Биокупол Тета"
+  components:
+    - type: Sprite
+      state: theta_biodome
+
+- type: entity
+  parent: RMCAreaCorsatThetaBiodome
+  id: RMCAreaCorsatThetaBiodomeComplex
+  name: "Исследовательский комплекс Тета"
+  components:
+    - type: Sprite
+      state: theta_complex
+    - type: Area
+      minimapColor: "#812da2ee"
+
+- type: entity
+  parent: RMCAreaCorsatThetaBiodome
+  id: RMCAreaCorsatThetaBiodomeHydroeast
+  name: "Восточное крыло гидропоники Тета"
+  components:
+    - type: Sprite
+      state: theta_hydro_east
+    - type: Area
+      minimapColor: "#812da2ee"
+
+- type: entity
+  parent: RMCAreaCorsatThetaBiodome
+  id: RMCAreaCorsatThetaBiodomeHydrowest
+  name: "Гидропонное крыло Тета-Запад"
+  components:
+    - type: Sprite
+      state: theta_hydro_west
+
+- type: entity
+  parent: RMCAreaCorsatTheta
+  id: RMCAreaCorsatThetaAirlockWest
+  name: "Западный шлюз купола Тета"
+  components:
+    - type: Sprite
+      state: theta_airlock_west
+
+- type: entity
+  parent: RMCAreaCorsatThetaAirlockWest
+  id: RMCAreaCorsatThetaAirlockWestId
+  name: "Контрольно-пропускной пункт Тета-Запад"
+  components:
+    - type: Sprite
+      state: corsat_id
+
+- type: entity
+  parent: RMCAreaCorsatTheta
+  id: RMCAreaCorsatThetaAirlockEast
+  name: "Восточный шлюз купола Тета"
+  components:
+    - type: Sprite
+      state: theta_airlock_east
+
+- type: entity
+  parent: RMCAreaCorsatThetaAirlockEast
+  id: RMCAreaCorsatThetaAirlockEastId
+  name: "Восточный КПП Тета"
+  components:
+    - type: Sprite
+      state: corsat_id
+
+- type: entity
+  parent: RMCAreaCorsatTheta
+  id: RMCAreaCorsatThetaAirlockControl
+  name: "Модуль управления куполом Тета"
+  components:
+    - type: Sprite
+      state: theta_control
+
+- type: entity
+  parent: RMCAreaCorsat
+  id: RMCAreaCorsatOmega
+  name: "Сектор Омега"
+  components:
+    - type: Sprite
+      state: corsat_hull
+    - type: Area
+      CAS: false
+      fulton: false
+      lasing: false
+      mortarPlacement: false
+      mortarFire: false
+      medevac: false
+      OB: false
+      supplyDrop: false
+      weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaBiodome
+  name: "Биокупол Омега"
+  components:
+    - type: Sprite
+      state: omega_biodome
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaHangar
+  name: "Посадочный отсек Омега"
+  components:
+    - type: Sprite
+      state: omega_hangar
+
+- type: entity
+  parent: RMCAreaCorsatOmegaHangar
+  id: RMCAreaCorsatOmegaHangarOffice
+  name: "Офис ангара Омега"
+  components:
+    - type: Sprite
+      state: omega_hangar_office
+
+- type: entity
+  parent: RMCAreaCorsatOmegaHangar
+  id: RMCAreaCorsatOmegaHangarSecurity
+  name: "Охрана ангара Омега"
+  components:
+    - type: Sprite
+      state: omega_hangar_security
+
+- type: entity
+  parent: RMCAreaCorsatOmegaHangar
+  id: RMCAreaCorsatOmegaHangarCorporate_shuttle
+  name: "Корпоративный шаттл ангара Омега"
+  components:
+    - type: Sprite
+      state: corporate_shuttle
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaHallways
+  name: "Коридоры сектора Омега"
+  components:
+    - type: Sprite
+      state: omega_hallway
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaComplex
+  name: "Исследовательский комплекс Омега"
+  components:
+    - type: Sprite
+      state: omega_complex
+    - type: Area
+      minimapColor: "#812da2ee"
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaContainment
+  name: "Изолятор исследований Омега"
+  components:
+    - type: Sprite
+      state: omega_containment
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaSecurity
+  name: "Центр безопасности Омега"
+  components:
+    - type: Sprite
+      state: omega_security
+    - type: Area
+      minimapColor: "#a22d2dee"
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaCheckpoint
+  name: "Контрольный пункт доступа Омега"
+  components:
+    - type: Sprite
+      state: omega_checkpoint
+    - type: Area
+      minimapColor: "#a22d2dee"
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaOffices
+  name: "Офисы Омега"
+  components:
+    - type: Sprite
+      state: omega_offices
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaCargo
+  name: "Грузовой отсек Омега"
+  components:
+    - type: Sprite
+      state: omega_cargo
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaMaint
+  name: "Техническое обслуживание Омега"
+  components:
+    - type: Sprite
+      state: omega_maintenance
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaAirlocknorth
+  name: "Северный шлюз купола Омега"
+  components:
+    - type: Sprite
+      state: omega_airlock
+
+- type: entity
+  parent: RMCAreaCorsatOmegaAirlocknorth
+  id: RMCAreaCorsatOmegaAirlocknorthId
+  name: "Северный КПП Омега"
+  components:
+    - type: Sprite
+      state: corsat_id
+
+- type: entity
+  parent: RMCAreaCorsatOmega
+  id: RMCAreaCorsatOmegaControl
+  name: "Модуль управления куполом Омега"
+  components:
+    - type: Sprite
+      state: omega_control
+
+- type: entity
+  parent: RMCAreaCorsat
+  id: RMCAreaCorsatInaccessible
+  name: "Неизвестно Location"
+  components:
+    - type: Sprite
+      state: corsat_hull
+    - type: Area
+      CAS: false
+      fulton: false
+      lasing: false
+      mortarPlacement: false
+      mortarFire: false
+      medevac: false
+      OB: false
+      supplyDrop: false
+      weatherEnabled: false
+      noTunnel: true
+      alwaysPowered: true

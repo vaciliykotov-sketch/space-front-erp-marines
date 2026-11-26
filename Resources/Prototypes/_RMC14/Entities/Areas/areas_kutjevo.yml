@@ -1,0 +1,802 @@
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaKutjevo
+  name: Kutjevo - НПЗ
+  suffix: Kutjevo Area
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_kutjevo.rsi
+    state: kutjevo
+  - type: Area
+    buildSpecial: true
+    powerNet: ground
+    minimapColor: '#C19504E7'
+
+- type: entity
+  parent: RMCAreaShuttleDrop1
+  id: RMCAreaShuttleDrop1Kutjevo
+  name: "Кутьево — Зона посадки десантного корабля «Аламо»"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_kutjevo.rsi
+    state: shuttle
+  - type: Area
+    linkedLz: dropship_lz1
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaShuttleDrop2
+  id: RMCAreaShuttleDrop2Kutjevo
+  name: "Кутьево — Зона посадки десантного корабля «Нормандия»"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_kutjevo.rsi
+    state: shuttle2
+  - type: Area
+    linkedLz: dropship_lz2
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaKutjevo
+  id: RMCAreaKutjevoExterior
+  name: "Кутьево — Снаружи"
+  components:
+  - type: Sprite
+    state: ext
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaKutjevo
+  id: RMCAreaKutjevoInterior
+  name: "Кутьево — Внутри"
+  components:
+  - type: Sprite
+    state: int
+  - type: Area
+    CAS: true
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorOob
+  name: "Кутьево — За пределами карты"
+  components:
+  - type: Sprite
+    state: oob
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: false
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: true
+    alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorOob
+  id: RMCAreaKutjevoInteriorOobDevRoom
+  name: "Кутьево — Комната кредитов"
+  components:
+  - type: Sprite
+    state: kutjevo
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorLzPad
+  name: Kutjevo - Вспомогательная зона посадки
+  components:
+  - type: Sprite
+    state: lz_pad
+  - type: Area
+    landingZone: true
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorLzDunes
+  name: "Кутьево — Дюны зоны посадки"
+  components:
+  - type: Sprite
+    state: lz_dunes
+  - type: Area
+    landingZone: true
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorLzRiver
+  name: "Кутьево — Река у электростанции"
+  components:
+  - type: Sprite
+    state: lz_river
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorSpring
+  name: Kutjevo - Южный источник
+  components:
+  - type: Sprite
+    state: lz_river
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorScrubland
+  name: "Кутьево — Северные заросли"
+  components:
+  - type: Sprite
+    state: scrubland
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaKutjevoExteriorScrubland
+  id: RMCAreaKutjevoExteriorScrublandSouth
+  name: Kutjevo - Южные заросли
+  components:
+  - type: Area
+    linkedLz: dropship_lz1, dropship_lz2
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorStonyfields
+  name: Kutjevo - Каменистые поля
+  components:
+  - type: Sprite
+    state: stone_fields
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorNorthwestColony
+  name: "Кутьево — Территория северо-западной колонии"
+  components:
+  - type: Sprite
+    state: rf_dunes
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorRunoffDunes
+  name: Kutjevo - Дюны стока
+  components:
+  - type: Sprite
+    state: rf_dunes
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorRunoffRiver
+  name: Kutjevo - Река стока
+  components:
+  - type: Sprite
+    state: rf_river
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorRunoffBridge
+  name: "Кутьево — Мост через сток"
+  components:
+  - type: Sprite
+    state: rf_bridge
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorOverlook
+  name: Kutjevo - Река стока Overlook
+  components:
+  - type: Sprite
+    state: rf_overlook
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorBotanyBayExt
+  name: Kutjevo - Внешняя часть фермы космической травы
+  components:
+  - type: Sprite
+    state: weed_ext
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorConstruction
+  name: "Кутьево — Заброшенная стройка"
+  components:
+  - type: Sprite
+    state: construction
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorComplexBorder
+  name: Kutjevo - Комплекс - Exterior
+  components:
+  - type: Sprite
+    state: kutjevo
+
+- type: entity
+  parent: RMCAreaKutjevoExteriorComplexBorder
+  id: RMCAreaKutjevoExteriorComplexBorderBotanyMedicalCave
+  name: Kutjevo - Комплекс - Botany - Medical Cave
+  components:
+  - type: Sprite
+    state: med_ext
+
+- type: entity
+  parent: RMCAreaKutjevoExteriorComplexBorder
+  id: RMCAreaKutjevoExteriorComplexBorderMedPark
+  name: Kutjevo - Комплекс - Medical Park
+  components:
+  - type: Sprite
+    state: med_ext
+
+- type: entity
+  parent: RMCAreaKutjevoExteriorComplexBorder
+  id: RMCAreaKutjevoExteriorComplexBorderMedRec
+  name: Kutjevo - Комплекс - Water Tank Cave
+  components:
+  - type: Sprite
+    state: construction2
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorTelecomm
+  name: "Кутьево — Ретранслятор связи"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas.rsi
+    state: ass_line
+
+- type: entity
+  parent: RMCAreaKutjevoExteriorTelecomm
+  id: RMCAreaKutjevoExteriorTelecommLz1North
+  name: "Кутьево — Ретранслятор связи северной ЗП1"
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaKutjevoExteriorTelecomm
+  id: RMCAreaKutjevoExteriorTelecommLz1South
+  name: Kutjevo - Ретранслятор связи южной LZ1
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaKutjevoExteriorTelecomm
+  id: RMCAreaKutjevoExteriorTelecommLz2North
+  name: "Кутьево — Ретранслятор связи северной ЗП2"
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaKutjevoExteriorTelecomm
+  id: RMCAreaKutjevoExteriorTelecommLz2South
+  name: Kutjevo - Ретранслятор связи южной LZ2
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorComplex
+  name: Kutjevo - Комплекс
+  components:
+  - type: Sprite
+    state: kutjevo
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplex
+  id: RMCAreaKutjevoInteriorComplexBotany
+  name: Kutjevo - Комплекс - Botany Bay
+  components:
+  - type: Sprite
+    state: botany0
+  - type: Area
+    minimapColor: '#812DA2EE'
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplexBotany
+  id: RMCAreaKutjevoInteriorComplexBotanyEast
+  name: Kutjevo - Комплекс - Botany East Hall
+  components:
+  - type: Sprite
+    state: botany1
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplexBotany
+  id: RMCAreaKutjevoInteriorComplexBotanyEastTech
+  name: Kutjevo - Комплекс - Powerplant Access Hall
+  components:
+  - type: Sprite
+    state: botany1
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplexBotany
+  id: RMCAreaKutjevoInteriorComplexBotanyLocks
+  name: Kutjevo - Комплекс - Botany Stormlocks
+  components:
+  - type: Sprite
+    state: botany0
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplex
+  id: RMCAreaKutjevoInteriorComplexMed
+  name: Kutjevo - Комплекс - Medical Foyer
+  components:
+  - type: Sprite
+    state: med0
+  - type: Area
+    minimapColor: '#3DBF75EE'
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplexMed
+  id: RMCAreaKutjevoInteriorComplexMedAutoDoc
+  name: Kutjevo - Комплекс - Medical Autodoc Hallway
+  components:
+  - type: Sprite
+    state: med2
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplexMed
+  id: RMCAreaKutjevoInteriorComplexMedOperating
+  name: Kutjevo - Комплекс - Medical Operation Hallway
+  components:
+  - type: Sprite
+    state: med3
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplexMed
+  id: RMCAreaKutjevoInteriorComplexMedTriage
+  name: Kutjevo - Комплекс - Medical Triage Hallway
+  components:
+  - type: Sprite
+    state: med4
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplexMed
+  id: RMCAreaKutjevoInteriorComplexMedCells
+  name: Kutjevo - Комплекс - Medical Cryocells
+  components:
+  - type: Sprite
+    state: med5
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplexMed
+  id: RMCAreaKutjevoInteriorComplexMedPano
+  name: Kutjevo - Комплекс - Medical Panopticon
+  components:
+  - type: Sprite
+    state: med3
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplexMed
+  id: RMCAreaKutjevoInteriorComplexMedLocks
+  name: Kutjevo - Комплекс - Medical Stormlocks
+  components:
+  - type: Sprite
+    state: med1
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplex
+  id: RMCAreaKutjevoInteriorComplexNorthwestDorms
+  name: Kutjevo - Комплекс - Northwest Colony Dorms
+  components:
+  - type: Sprite
+    state: colony_int
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+    linkedLz: dropship_lz2
+    landingZone: true
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplex
+  id: RMCAreaKutjevoInteriorComplexNorthwestFlightControl
+  name: Kutjevo - Комплекс - Northwest Flight Control Room
+  components:
+  - type: Sprite
+    state: colony_int
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+    linkedLz: dropship_lz2
+    landingZone: true
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorComplex
+  id: RMCAreaKutjevoInteriorComplexNorthwestSecurityCheckpoint
+  name: Kutjevo - Комплекс - Northwest Security Checkpoint
+  components:
+  - type: Sprite
+    state: colony_int
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+    linkedLz: dropship_lz2
+    minimapColor: '#A22D2DEE'
+    landingZone: true
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorPower
+  name: "Кутьево — Подстанция гидроэлектростанции"
+  components:
+  - type: Sprite
+    state: power
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+    minimapColor: '#C19504E7'
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorPower
+  id: RMCAreaKutjevoInteriorPowerComms
+  name: "Кутьево — Ретранслятор связи гидроэлектростанции"
+  components:
+  - type: Sprite
+    state: power
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorConstruction
+  name: "Кутьево — Заброшенная стройка Interior"
+  components:
+  - type: Sprite
+    state: construction_int
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorConstruction
+  id: RMCAreaKutjevoInteriorConstructionNorth
+  name: "Кутьево — Внутренняя часть северной заброшенной стройки"
+  components:
+  - type: Sprite
+    state: construction
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorConstruction
+  id: RMCAreaKutjevoInteriorConstructionEast
+  name: "Кутьево — Внутренняя часть восточной заброшенной стройки"
+  components:
+  - type: Sprite
+    state: construction
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorConstruction
+  id: RMCAreaKutjevoInteriorConstructionSignalTower
+  name: "Кутьево — Заброшенная сигнальная башня"
+  components:
+  - type: Sprite
+    state: construction2
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorForemansOffice
+  name: "Кутьево — Кабинет бригадира"
+  components:
+  - type: Sprite
+    state: foremans
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorBotanyBayInt
+  name: Kutjevo - Внутренняя часть фермы космической травы
+  components:
+  - type: Sprite
+    state: weed_int
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorPowerPt2ElectricBoogaloo
+  name: "Кутьево — Электростанция"
+  components:
+  - type: Sprite
+    state: power_2
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorColony
+  name: "Кутьево — Внутренняя часть здания колонии"
+  components:
+  - type: Sprite
+    state: colony_int
+  - type: Area
+    CAS: true
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorColonyCentral
+  name: "Кутьево — Пещеры центральной колонии"
+  components:
+  - type: Sprite
+    state: colony_caves_0
+  - type: Area
+    CAS: true
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+    minimapColor: '#3F3C3CEF'
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorColonyCentral
+  id: RMCAreaKutjevoInteriorColonyCentralMineElevator
+  name: "Кутьево — Лифт центральной колонии"
+  components:
+  - type: Sprite
+    state: colony_caves_0
+  - type: Area
+    CAS: true
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorColonyNorth
+  name: "Кутьево — Пещеры северной колонии"
+  components:
+  - type: Sprite
+    state: colony_caves_1
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorColonySEast
+  name: Kutjevo - Пещеры юго-восточной колонии
+  components:
+  - type: Sprite
+    state: colony_caves_2
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorColonyNEast
+  name: "Кутьево — Пещеры северо-восточной колонии"
+  components:
+  - type: Sprite
+    state: colony_caves_2
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaKutjevoInterior
+  id: RMCAreaKutjevoInteriorColonySouth
+  name: Kutjevo - Пещеры южной колонии
+  components:
+  - type: Sprite
+    state: colony_caves_3
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorColonySouth
+  id: RMCAreaKutjevoInteriorColonySouthPower2
+  name: Kutjevo - Очистные сооружения южной колонии - Север
+  components:
+  - type: Sprite
+    state: colony_caves_3
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+    minimapColor: '#5A4501E7'
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorColonySouth
+  id: RMCAreaKutjevoInteriorColonySouthPower2South
+  name: Kutjevo - Очистные сооружения южной колонии - Юг
+  components:
+  - type: Sprite
+    state: colony_caves_3
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+    minimapColor: '#5A4501E7'
+
+# CLF insert areas
+- type: entity
+  parent: RMCAreaKutjevoInteriorColony
+  id: RMCAreaKutjevoInteriorColonyLandingZoneCheckpoint
+  name: "Кутьево — КПП зоны посадки"
+  components:
+  - type: Sprite
+    state: colony_int
+
+- type: entity
+  parent: RMCAreaKutjevoInteriorColony
+  id: RMCAreaKutjevoInteriorColonyCLFShuttle
+  name: Kutjevo - Незарегистрированный грузовой корабль
+  components:
+  - type: Sprite
+    state: colony_int
+
+- type: entity
+  parent: RMCAreaKutjevoExterior
+  id: RMCAreaKutjevoExteriorCLFLZ
+  name: Kutjevo - Третичная зона посадки
+  components:
+  - type: Sprite
+    state: ext

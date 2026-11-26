@@ -1,0 +1,12 @@
+ent-WeaponTurretSyndicate = { ent-BaseWeaponBallisticTurret }
+    .suffix = Синдикат
+ent-WeaponTurretSyndicateDisposable = турель баллистическая одноразового применения
+    .suffix = Синдикат, Одноразовый
+ent-WeaponTurretNanoTrasen = { ent-BaseWeaponBallisticTurret }
+    .suffix = Nanotrasen
+ent-WeaponTurretHostile = { ent-BaseWeaponBallisticTurret }
+    .suffix = Враждебная
+ent-WeaponTurretAllHostile = { ent-BaseWeaponBallisticTurret }
+    .suffix = Враждебная всем
+ent-WeaponTurretXeno = турель ксеносов
+    .suffix = Ксено

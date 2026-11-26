@@ -1,0 +1,11 @@
+ent-CargoGiftsBase = { ent-BaseGameRule }
+ent-GiftsPizzaPartySmall = { ent-CargoGiftsBase }
+ent-GiftsPizzaPartyLarge = { ent-CargoGiftsBase }
+ent-GiftsEngineering = { ent-CargoGiftsBase }
+ent-GiftsVendingRestock = { ent-CargoGiftsBase }
+ent-GiftsJanitor = { ent-CargoGiftsBase }
+ent-GiftsMedical = { ent-CargoGiftsBase }
+ent-GiftsSpacingSupplies = { ent-CargoGiftsBase }
+ent-GiftsFireProtection = { ent-CargoGiftsBase }
+ent-GiftsSecurityGuns = { ent-CargoGiftsBase }
+ent-GiftsSecurityRiot = { ent-CargoGiftsBase }

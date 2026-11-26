@@ -1,0 +1,11 @@
+ent-ClothingHeadsetAlt = гарнитура полного размера
+ent-ClothingHeadsetAltCargo = полноразмерные наушники КМ
+ent-ClothingHeadsetAltCentCom = наушники Центком полного размера
+ent-ClothingHeadsetAltCommand = полноразмерные наушники командования
+ent-ClothingHeadsetAltEngineering = полноразмерные наушники СИ
+ent-ClothingHeadsetAltMedical = полноразмерные наушники ГВ
+ent-ClothingHeadsetAltSecurity = полноразмерные наушники ГСБ
+ent-ClothingHeadsetAltScience = полноразмерные наушники НР
+ent-ClothingHeadsetAltSyndicate = кроваво-красные наушники полного размера
+ent-ClothingHeadsetAltFreelancer = наушники фрилансера полного размера
+ent-ClothingHeadsetAltWizard = наушники чародея полного размера

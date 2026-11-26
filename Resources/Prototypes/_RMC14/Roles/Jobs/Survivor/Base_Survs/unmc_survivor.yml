@@ -1,0 +1,52 @@
+- type: job
+  parent: RMCSurvivorMilitary
+  id: CMSurvivorUNMC
+  setPreference: false
+  name: cm-job-name-survivor-unmc
+  description: cm-job-description-survivor
+  spawnMenuRoleName: UNMC Remnant (Survivor)
+  ranks:
+    RMCRankPrivateFirstClass: []
+  accessGroups:
+  - Colonist
+  startingGear: RMCGearSurvivorUNMC
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorMarshal
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetCivilian
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+  useLoadoutOfJob: CMSurvivor # for inheritance
+
+- type: startingGear
+  parent: RMCGearSurvivorBaseNoBackpack
+  id: RMCGearSurvivorUNMC
+  equipment:
+    id: CMDogtagRifleman
+    jumpsuit: JumpsuitMarine
+    outerClothing: RMCArmorM3LightVariants
+    shoes: CMBootsBlackFilled
+    back: CMSatchelFillSurvivor # remake to be marine satchel
+    head: ArmorHelmetM10
+    gloves: CMHandsBlackMarine
+    pocket2: RMCPouchFlareFilled
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorUNMC
+  name: "точка появления выжившего UNMC"
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivorUNMC
+  - type: Sprite
+    layers:
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv

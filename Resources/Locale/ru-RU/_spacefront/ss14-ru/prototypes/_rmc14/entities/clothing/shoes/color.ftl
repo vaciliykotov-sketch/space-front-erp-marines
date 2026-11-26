@@ -1,0 +1,12 @@
+ent-RMCShoesBlack = туфли чёрного цвета
+ent-RMCShoesBrown = туфли коричневого цвета
+ent-RMCShoesBlue = туфли синего цвета
+ent-RMCShoesGreen = туфли зелёного цвета
+ent-RMCShoesYellow = туфли жёлтого цвета
+ent-RMCShoesPurple = туфли фиолетового цвета
+ent-RMCShoesRed = туфли красного цвета
+ent-RMCShoesRedKnife = { ent-RMCShoesRed }
+    .suffix = Заполненный, Синтетик разведки
+ent-RMCShoesOrange = туфли оранжевого цвета
+ent-RMCShoesWhite = туфли белого цвета
+ent-RMCShoesLeather = туфли из кожи

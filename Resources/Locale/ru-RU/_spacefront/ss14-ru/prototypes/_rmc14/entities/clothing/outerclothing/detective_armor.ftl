@@ -1,0 +1,1 @@
+ent-RMCArmorDetective = детективный бронежилет

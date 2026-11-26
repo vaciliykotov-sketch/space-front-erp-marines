@@ -1,0 +1,9 @@
+ent-LootSpawnerMaterials = генератор появления материалов
+    .suffix = Строительные материалы
+ent-LootSpawnerMaterialsSupplementary = генератор появления материалов
+    .suffix = Вспомогательные материалы
+ent-LootSpawnerMaterialsHighValueConstruction = генератор появления ценных стройматериалов
+    .suffix = Строительные материалы
+ent-LootSpawnerMaterialsHighValue = генератор появления ценных материалов
+ent-LootSpawnerMaterialsSurplus = точка появления запасных материалов
+ent-LootSpawnerCableCoil = точка появления катушки кабеля

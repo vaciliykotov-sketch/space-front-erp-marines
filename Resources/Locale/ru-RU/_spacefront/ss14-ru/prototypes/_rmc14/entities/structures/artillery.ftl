@@ -1,0 +1,12 @@
+ent-RMCAntiAirProp = Зенитка IX-50 MGAD
+    .suffix = Установка
+ent-RMCAntiAirPropFlipped = { ent-RMCAntiAirProp }
+    .suffix = Установка, Перевернутая
+ent-RMCRailgunProp = Орбитальная пушка MAC "ВЗРЫВ"
+    .suffix = { ent-RMCAntiAirProp.suffix }
+ent-RMCRailgunPropFlipped = { ent-RMCRailgunProp }
+    .suffix = Установка, Перевернутая
+ent-RMCMissileTubeProp = Пусковой комплекс Mk 33 ASAT
+    .suffix = Проп
+ent-RMCMissileTubePropFlipped = { ent-RMCMissileTubeProp }
+    .suffix = Проп, Перевернутый

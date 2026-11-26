@@ -1,0 +1,10 @@
+ent-BaseChemistryEmptyVial = пустая пробирка
+ent-BorgVial = пробирка со встроенным креплением
+ent-VestineChemistryVial = { ent-BaseChemistryEmptyVial }
+    .suffix = Вестин
+ent-RadiumChemistryVial = { ent-BaseChemistryEmptyVial }
+    .suffix = Радий
+ent-ChlorineChemistryVial = { ent-BaseChemistryEmptyVial }
+    .suffix = Хлор
+ent-PlasmaChemistryVial = { ent-BaseChemistryEmptyVial }
+    .suffix = Плазма

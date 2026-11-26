@@ -1,0 +1,16 @@
+ent-CMCatwalk = пешеходный мостик
+ent-RMCCatwalkAI = { ent-CMCatwalk }
+ent-RMCCatwalkAIWhite = { ent-CMCatwalk }
+ent-CMCatwalkShiva = { ent-CMCatwalk }
+ent-CMCatwalkPrison = { ent-CMCatwalk }
+ent-RMCCatwalkKutjevo = { ent-CMCatwalk }
+ent-RMCCatwalkStrata = { ent-CMCatwalk }
+ent-RMCCatwalkHybrisa = цельная металлическая решётка
+ent-RMCCatwalkHybrisaLattice = решётчатая структура
+ent-RMCCatwalkHybrisaElevator = цельная металлическая решётка
+ent-RMCCatwalkHybrisaReinforcedGlass = пол из армированного стекла
+ent-RMCMonorailStraight = путь монорельса
+ent-RMCMonorailBend = { ent-RMCMonorailStraight }
+ent-RMCRailroadStraight = железнодорожное полотно
+ent-RMCRailroadBend = { ent-RMCRailroadStraight }
+ent-RMCRailroadBumper = железнодорожные упоры

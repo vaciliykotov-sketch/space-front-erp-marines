@@ -1,0 +1,13 @@
+ent-RMCWeaponPistolMK45 = автомагнум MK-45 'мощный'
+    .suffix = Заполненный
+ent-RMCWeaponPistolHG45Marina = HG-45 "Марина" пистолет
+    .suffix = { ent-RMCWeaponPistolMK45.suffix }
+ent-RMCWeaponPistolHG45Aguila = HG-45 "Аквила" пистолет
+    .suffix = { ent-RMCWeaponPistolMK45.suffix }
+ent-RMCMagazinePistolMK45 = автомагнумный магазин MK-45 (.45)
+ent-CMCartridgePistolMK45 = патрон .45 автомагнум
+ent-CMBulletPistolMK45 = пистолетная пуля повышенной мощности (.45)
+ent-RMCWeaponPistolMK45Black = { ent-RMCWeaponPistolMK45 }
+    .suffix = Чёрный, Заполненный
+ent-RMCMagazinePistolMK45Black = { ent-RMCMagazinePistolMK45 }
+    .suffix = Чёрный

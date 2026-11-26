@@ -1,0 +1,10 @@
+ent-RMCEffectHeal = { ent-RMCBaseEffect }
+ent-RMCEffectHealBusy = { ent-RMCEffectHeal }
+ent-RMCEffectHealPlasma = { ent-RMCEffectHeal }
+ent-RMCEffectHealHealer = { ent-RMCEffectHeal }
+ent-RMCEffectHealSacrifice = { ent-RMCEffectHeal }
+ent-RMCEffectHealAilments = { ent-RMCEffectHeal }
+ent-RMCEffectHealQueen = { ent-RMCEffectHeal }
+ent-RMCEffectHealFlurry = { ent-RMCEffectHeal }
+ent-RMCEffectHealHeadbite = { ent-RMCEffectHeal }
+ent-RMCEffectHealSoak = { ent-RMCEffectHeal }

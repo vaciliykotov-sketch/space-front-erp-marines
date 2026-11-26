@@ -1,0 +1,15 @@
+ent-RMCBannerBase = { ent-BaseFlag }
+ent-RMCBannerCLF = знамя КОФ
+ent-RMCBannerCLFAltDraw = { ent-RMCBannerCLF }
+    .suffix = Над шлюзами капсул
+ent-RMCBannerCLFWorn = изношенное знамя КОФ
+ent-RMCBannerCM = знамя КМП США
+ent-RMCBannerCMWorn = изношенное знамя КМП США
+ent-RMCBannerSPP = знамя СПН
+ent-RMCBannerSPPWorn = изношенное знамя СПН
+ent-RMCBannerTSE = знамя Империи Трех Солнц
+ent-RMCBannerTSEWorn = изношенное знамя Империи Трех Солнц
+ent-RMCBannerUN = знамя СА
+ent-RMCBannerUNWorn = изношенное знамя СА
+ent-RMCBannerWEYA = знамя Ве-Я
+ent-RMCBannerTSEAlt = старое знамя ИТС

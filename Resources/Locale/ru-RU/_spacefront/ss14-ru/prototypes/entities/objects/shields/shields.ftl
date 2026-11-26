@@ -1,0 +1,12 @@
+ent-BaseShield = щит базового типа
+ent-RiotShield = щит против ударов
+ent-RiotLaserShield = щит от лазеров
+ent-RiotBulletShield = щит от пуль
+ent-WoodenBuckler = баклер из дерева
+ent-MakeshiftShield = самодельный щит
+ent-WebShield = щит из паутины
+ent-ClockworkShield = щит с часовым механизмом
+ent-MirrorShield = щит-зеркало
+ent-EnergyShield = щит на энергии
+ent-BrokenEnergyShield = энергощит в неисправном состоянии
+ent-TelescopicShield = щит складной конструкции

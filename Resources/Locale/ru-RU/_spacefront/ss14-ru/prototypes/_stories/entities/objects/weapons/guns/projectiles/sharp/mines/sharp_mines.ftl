@@ -1,0 +1,9 @@
+ent-STSharpTileFireL1 = { ent-RMCTileFire }
+ent-STSharpTileFireGreen = { ent-RMCTileFireGreen }
+ent-STSharpTileFireNapalmL3 = { ent-RMCTileFireNapalm }
+ent-STSharpTileFireNapalmL4 = { ent-STSharpTileFireNapalmL3 }
+ent-STSharpMineDisarmedExplosive = дротик SHARP обезврежен (взрывной)
+ent-STSharpMineDisarmedIncendiary = дротик SHARP обезврежен (зажигательный)
+ent-STSharpMineBase = SHARP-мина
+ent-STSharpMineExplosive = взрывная мина SHARP
+ent-STSharpMineIncendiary = зажигательная мина SHARP

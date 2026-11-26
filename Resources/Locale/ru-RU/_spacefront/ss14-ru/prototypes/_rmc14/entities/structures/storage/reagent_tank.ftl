@@ -1,0 +1,16 @@
+ent-RMCTankReagentEmpty = ёмкость под реагенты
+    .suffix = Пустой
+ent-RMCTankReagentWater = { ent-RMCTankReagentEmpty }
+    .suffix = Полный
+ent-RMCTankReagentWaterLocked = { ent-RMCTankReagentWater }
+    .suffix = Вода, Заперто
+ent-RMCTankReagentFuel = бак под топливо
+    .suffix = Полный
+ent-RMCTankReagentMeralyne = { ent-RMCTankReagentEmpty }
+    .suffix = Мералин
+ent-RMCTankReagentDermaline = { ent-RMCTankReagentEmpty }
+    .suffix = Дермалин
+ent-RMCTankReagentPhoron = { ent-RMCTankReagentEmpty }
+    .suffix = Форон
+ent-RMCTankReagentSulphuricAcid = { ent-RMCTankReagentEmpty }
+    .suffix = Серная кислота

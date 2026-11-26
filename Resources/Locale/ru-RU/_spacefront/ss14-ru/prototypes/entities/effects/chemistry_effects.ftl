@@ -1,0 +1,13 @@
+ent-BaseFoam = { "" }
+ent-Smoke = дымок
+ent-TearGasSmoke = газ слезоточивого действия
+ent-TearGasSmokeWhite = { ent-TearGasSmoke }
+ent-WizardSmoke = дымок
+ent-Foam = пенка
+ent-MetalFoam = пена из металла
+ent-IronMetalFoam = пена из железа
+ent-AluminiumMetalFoam = пена из алюминия
+ent-BaseFoamedMetal = base foamed metal
+ent-FoamedIronMetal = железо вспененное
+ent-FoamedAluminiumMetal = алюминий в пене
+ent-ReactionFlash = { "" }

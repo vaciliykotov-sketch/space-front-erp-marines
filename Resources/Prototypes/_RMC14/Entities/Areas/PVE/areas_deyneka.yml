@@ -1,0 +1,124 @@
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaDeynekaCryo
+  name: "Криокамеры Дейнеки"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_deyneka.rsi
+    state: cryo
+  - type: Area
+    buildSpecial: true
+    powerNet: ground
+    minimapColor: '#91BDCFE7'
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: true
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaAI
+  name: "Ядро ИИ Дейнека"
+  components:
+  - type: Sprite
+    state: aicore
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaArmory
+  name: "Арсенал Дейнека"
+  components:
+  - type: Sprite
+    state: armory
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaBridge
+  name: "Мост Дейнеки"
+  components:
+  - type: Sprite
+    state: bridge
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaCargo
+  name: "Грузовой отсек Дейнеки"
+  components:
+  - type: Sprite
+    state: cargo
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaDorm
+  name: "Казарма Дейнеки"
+  components:
+  - type: Sprite
+    state: dorm
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaEngi
+  name: "Инженерный отсек Дейнеки"
+  components:
+  - type: Sprite
+    state: engi
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaHanger
+  name: "Ангар Дейнеки"
+  components:
+  - type: Sprite
+    state: hanger
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaKitchen
+  name: "Кухня Дейнеки"
+  components:
+  - type: Sprite
+    state: kitchen
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaLowerHall
+  name: "Нижний зал Дейнеки"
+  components:
+  - type: Sprite
+    state: lowerhall
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaMed
+  name: "Медотсек Дейнеки"
+  components:
+  - type: Sprite
+    state: med
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaOOB
+  name: "ООВ Дейнеки"
+  components:
+  - type: Sprite
+    state: oob
+  - type: Area
+    alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaDeynekaCryo
+  id: RMCAreaDeynekaUpperHall
+  name: "Верхний зал Дейнеки"
+  components:
+  - type: Sprite
+    state: upperhall

@@ -1,0 +1,15 @@
+- type: entity
+  parent: CMIDCardSilver
+  id: CMIDCardQuartermaster
+  name: "Офицер снабжения ID card"
+  components:
+  - type: PresetIdCard
+    job: CMQuartermaster
+
+- type: entity
+  parent: CMIDCardBase
+  id: CMIDCardCargoTech
+  name: ID-карта техника снабжения
+  components:
+  - type: PresetIdCard
+    job: CMCargoTech

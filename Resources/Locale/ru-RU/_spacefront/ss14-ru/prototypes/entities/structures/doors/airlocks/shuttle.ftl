@@ -1,0 +1,10 @@
+ent-AirlockShuttle = шлюз для стыковки
+    .suffix = Стыковочный
+ent-AirlockGlassShuttle = шлюз для стыковки
+    .suffix = Стыковочный, Стеклянный
+ent-AirlockShuttleAssembly = основа стыковочного шлюза
+    .suffix = Стыковочный
+ent-AirlockGlassShuttleSyndicate = шлюз для стыковки
+    .suffix = Стыковочный, Стеклянный
+ent-AirlockShuttleSyndicate = шлюз для стыковки
+    .suffix = Стыковочный

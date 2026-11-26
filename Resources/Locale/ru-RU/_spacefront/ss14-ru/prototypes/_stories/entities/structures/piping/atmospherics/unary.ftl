@@ -1,0 +1,1 @@
+ent-STFreezerHunter = газоохлаждающая установка

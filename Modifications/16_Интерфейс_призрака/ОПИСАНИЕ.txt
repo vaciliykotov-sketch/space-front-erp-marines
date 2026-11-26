@@ -1,0 +1,19 @@
+МОДИФИКАЦИЯ: 16 Интерфейс призрака
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Кнопка возрождения с таймером в интерфейсе призрака
+
+ЗАЧЕМ:
+Что делает: кнопка «Возрождение» в интерфейсе призрака с обратным отсчётом, связка с окном смерти. Зачем: призраку нужен понятный путь обратно в лобби/тело.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Client/_SpaceFront/UserInterface/Systems/Ghost/GhostUIController.cs
+- Content.Client/_SpaceFront/UserInterface/Systems/Ghost/Widgets/GhostGui.xaml.cs
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Чужие файлы с маркерами:
+- Content.Client/UserInterface/Systems/Ghost/GhostUIController.cs (LoadGui/UnloadGui/OnPlayerAttached)
+- Content.Client/UserInterface/Systems/Ghost/Widgets/GhostGui.xaml.cs (ctor/Hide)
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

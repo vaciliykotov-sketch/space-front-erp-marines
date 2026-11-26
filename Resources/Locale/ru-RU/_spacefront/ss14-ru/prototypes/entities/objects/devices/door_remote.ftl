@@ -1,0 +1,13 @@
+ent-DoorRemoteDefault = шлюзовой пульт
+ent-DoorRemoteCommand = шлюзовой пульт командования
+ent-DoorRemoteCustom = пульт шлюзов с настройкой
+ent-DoorRemoteSecurity = шлюзовой пульт брига
+ent-DoorRemoteArmory = шлюзовой пульт оружейной
+ent-DoorRemoteService = шлюзовой пульт сервисного отдела
+ent-DoorRemoteResearch = шлюзовой пульт научного отдела
+ent-DoorRemoteCargo = шлюзовой пульт снабжения
+ent-DoorRemoteMedical = шлюзовой пульт медотсека
+ent-DoorRemoteEngineering = шлюзовой пульт инженерного отдела
+ent-DoorRemoteAll = универсальный шлюзовой пульт
+    .suffix = Адмемы
+ent-DoorRemoteXenoborg = шлюзовой пульт ксеноборгов

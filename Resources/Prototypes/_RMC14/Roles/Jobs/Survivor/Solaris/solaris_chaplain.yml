@@ -1,0 +1,26 @@
+- type: job
+  parent: CMSurvivorPriest
+  id: CMSurvivorSolarisChaplain
+  setPreference: false
+  name: rmc-job-name-survivor-solaris-chaplain
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorSolarisChaplain
+  spawnMenuRoleName: Chaplain (Solaris Survivor)
+
+- type: startingGear
+  parent: RMCGearSurvivorPriest
+  id: RMCGearSurvivorSolarisChaplain
+  equipment:
+    outerClothing: RMCClothingHolidayRobes
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorSolarisChaplain
+  name: "точка появления капеллана выжившего на Соларисе"
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivorSolarisChaplain
+  - type: Sprite
+    layers:
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv

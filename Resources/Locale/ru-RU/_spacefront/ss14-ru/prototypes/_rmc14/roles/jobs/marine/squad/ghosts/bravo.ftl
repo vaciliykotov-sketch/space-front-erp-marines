@@ -1,0 +1,14 @@
+ent-RMCRandomHumanoidBravoCombatTech = роль призрака боевого техника браво
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidBravoFireteamLeader = роль призрака главы огневой группы браво
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidBravoHospitalCorpsman = роль призрака госпитального санитара браво
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidBravoRifleman = роль призрака стрелка браво
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidBravoSmartGunOperator = роль призрака оператора смартгана браво
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidBravoSquadLeader = роль призрака главы отряда браво
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidBravoWeaponsSpecialist = роль призрака оружейного специалиста браво
+    .suffix = Спавнер, Игрок

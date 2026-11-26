@@ -1,0 +1,12 @@
+ent-RMCBaseRockStalagmite = каменный сталагмит
+    .suffix = { ent-RMCBaseRockNonCollide.suffix }
+ent-RMCBaseRockStalagmite1 = { ent-RMCBaseRockStalagmite }
+    .suffix = { ent-RMCBaseRockStalagmite.suffix }
+ent-RMCBaseRockStalagmite2 = { ent-RMCBaseRockStalagmite }
+    .suffix = { ent-RMCBaseRockStalagmite.suffix }
+ent-RMCBaseRockStalagmite3 = { ent-RMCBaseRockStalagmite }
+    .suffix = { ent-RMCBaseRockStalagmite.suffix }
+ent-RMCBaseRockStalagmite4 = { ent-RMCBaseRockStalagmite }
+    .suffix = { ent-RMCBaseRockStalagmite.suffix }
+ent-RMCBaseRockStalagmite5 = { ent-RMCBaseRockStalagmite }
+    .suffix = { ent-RMCBaseRockStalagmite.suffix }

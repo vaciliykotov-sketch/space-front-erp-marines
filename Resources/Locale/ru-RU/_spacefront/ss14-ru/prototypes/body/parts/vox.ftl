@@ -1,0 +1,11 @@
+ent-PartVox = фрагмент тела вокса
+ent-TorsoVox = корпус вокса
+ent-HeadVox = череп вокса
+ent-LeftArmVox = левая рука вокса
+ent-RightArmVox = правая рука вокса
+ent-LeftHandVox = левая кисть вокса
+ent-RightHandVox = правая кисть вокса
+ent-LeftLegVox = левая нога вокса
+ent-RightLegVox = правая нога вокса
+ent-LeftFootVox = левая стопа вокса
+ent-RightFootVox = правая стопа вокса

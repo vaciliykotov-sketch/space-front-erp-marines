@@ -1,0 +1,1 @@
+ent-SingularityBeacon = сингулярностный маяк

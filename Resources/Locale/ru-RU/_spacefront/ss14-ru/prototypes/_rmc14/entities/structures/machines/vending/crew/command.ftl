@@ -1,0 +1,11 @@
+ent-ColMarTechStaffOfficerEquipment = стойка экипировки штабного офицера КолМорТех
+ent-ColMarTechStaffOfficerWeapon = оружейная стойка штабного офицера КолМорТех
+ent-ColMarTechExecutiveOfficerWeapon = стойка с оружием исполнительного офицера КолМорТех
+ent-ColMarTechCommandingOfficerClothing = стойка одежды командующего офицера КолМорТех
+ent-ColMarTechCommandingOfficerEquipment = стойка экипировки командующего офицера КолМорТех
+ent-ColMarTechCommandingOfficerWeapon = оружейная стойка командующего офицера КолМорТех
+ent-RMCVendorBundleXOFormal = парадный комплект формы
+ent-RMCVendorBundleXOShotgun = тактический дробовик M890
+ent-RMCVendorBundleMilitaryPoliceApparelCMP = набор первой необходимости для военной полиции
+ent-ColMarTechSeniorOfficerEquipment = стойка экипировки старшего офицера КолМорТех
+ent-ColMarTechExecutiveOfficerEquipment = стойка экипировки исполнительного офицера КолМорТех

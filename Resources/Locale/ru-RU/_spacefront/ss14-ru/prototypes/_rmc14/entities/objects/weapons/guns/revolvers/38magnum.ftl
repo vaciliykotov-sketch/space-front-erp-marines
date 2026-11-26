@@ -1,0 +1,9 @@
+ent-RMCWeaponRevolver38Magnum = револьвер под .38 магнум
+ent-RMCWeaponRevolver38Empty = { ent-RMCWeaponRevolver38Magnum }
+    .suffix = Пустой
+ent-RMCBaseSpeedLoader38 = спидлоадер под .38
+ent-RMCSpeedLoader38 = спидлоадер под .38
+ent-RMCCartridgeRevolver38 = патрон .38
+ent-RMCBulletRevolver38 = пуля .38
+ent-RMCWeaponRevolverM37 = револьвер M37 под .38
+ent-RMCSpeedLoaderM37 = спидлоадер M37 под .38

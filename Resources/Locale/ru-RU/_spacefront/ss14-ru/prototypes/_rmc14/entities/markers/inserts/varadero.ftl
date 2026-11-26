@@ -1,0 +1,16 @@
+ent-RMCMapInsertVaraderoBase = { ent-RMCMapInsertBase }
+    .suffix = Вставка Варадеро
+ent-RMCMapInsertVaraderoCLFRaid = КОФ
+    .suffix = Вставка Варадеро
+ent-RMCMapInsertVaraderoArmoryToGallery = Галерея вместо оружейной
+    .suffix = Вставка Варадеро
+ent-RMCMapInsertVaraderoAltHospital = Больница (альтернатива)
+    .suffix = Вставка Варадеро
+ent-RMCMapInsertVaraderoEngiHold = Защита инженерного отдела
+    .suffix = Вставка Варадеро
+ent-RMCMapInsertVaraderoBaseScenario = { ent-RMCMapInsertVaraderoBase }
+    .suffix = Вставка Варадеро
+ent-RMCMapInsertVaraderoSurvSpawnTogether = Общий спавн выживших
+    .suffix = Вставка Варадеро
+ent-RMCMapInsertVaraderoResturant = Ресторан
+    .suffix = Вставка Варадеро

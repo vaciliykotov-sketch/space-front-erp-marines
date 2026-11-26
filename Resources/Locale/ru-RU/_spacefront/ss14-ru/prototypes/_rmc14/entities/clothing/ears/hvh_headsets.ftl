@@ -1,0 +1,10 @@
+ent-RMCHeadsetHvHWeYaPMC = гарнитура корпорации Ве-Я
+    .suffix = Ве-Я, ЧВК, HvH
+ent-RMCHeadsetHvHWeYaPMCMedic = гарнитура ЧВК-МЕД
+    .suffix = { ent-RMCHeadsetHvHWeYaPMC.suffix }
+ent-RMCHeadsetHvHWeYaPMCEngineer = гарнитура ЧВК-ТЕХ
+    .suffix = { ent-RMCHeadsetHvHWeYaPMC.suffix }
+ent-RMCHeadsetHvHWeYaPMCLeader = гарнитура ЧВК-КОМ
+    .suffix = { ent-RMCHeadsetHvHWeYaPMC.suffix }
+ent-RMCHeadsetHvHWeYaPMCCommando = гарнитура коммандос корпорации Ве-Я
+    .suffix = Ве-Я, Коммандос ЧВК, HvH

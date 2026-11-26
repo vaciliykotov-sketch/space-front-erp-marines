@@ -1,0 +1,14 @@
+ent-ClothingOuterSuitBomb = костюм для сапёра
+ent-ClothingOuterSuitJanitorBomb = костюм сапёра-уборщика
+ent-ClothingOuterSuitFire = костюм для тушения пожаров
+ent-ClothingOuterSuitAtmosFire = пожарный костюм атмос-службы
+ent-ClothingOuterSuitRad = костюм от радиации
+ent-ClothingOuterSuitSpaceNinja = наряд космического ниндзя
+ent-ClothingOuterSuitChicken = наряд в виде цыплёнка
+ent-ClothingOuterSuitShrineMaiden = одеяние храмовой служительницы
+ent-ClothingOuterSuitWitchRobes = ведьминские одежды
+ent-ClothingOuterSuitMonkey = наряд обезьяны
+ent-ClothingOuterSuitIan = наряд для Иана
+ent-ClothingOuterSuitCarp = наряд карпа
+ent-ClothingOuterHardsuitCarp = { ent-ClothingOuterSuitCarp }
+    .suffix = Скафандр, НЕ МАППИТЬ

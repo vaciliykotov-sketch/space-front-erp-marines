@@ -1,0 +1,10 @@
+ent-RMCPropTigerRugOrange = ковёр с тигром
+    .suffix = Оранжевый
+ent-RMCPropTigerRugGrey = { ent-RMCPropTigerRugOrange }
+    .suffix = Серый
+ent-RMCPropTigerRugWhite = { ent-RMCPropTigerRugOrange }
+    .suffix = Белый
+ent-RMCPropTigerRugSkin = { ent-RMCPropTigerRugOrange }
+    .suffix = Шкура
+ent-RMCPropTigerRugHotline = { ent-RMCPropTigerRugOrange }
+    .suffix = Hotline

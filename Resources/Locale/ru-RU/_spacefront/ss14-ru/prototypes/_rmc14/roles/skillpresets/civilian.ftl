@@ -1,0 +1,13 @@
+ent-RMCSkillPresetSurvivor = Навыки выжившего
+ent-RMCSkillPresetSurvivorResearcher = Навыки выжившего научного работника
+ent-RMCSkillPresetSurvivorDoctor = Навыки выжившего врача
+ent-RMCSkillPresetSurvivorEngineer = Навыки выжившего техника
+ent-RMCSkillPresetSurvivorChaplain = Навыки выжившего священнослужителя
+ent-RMCSkillPresetSurvivorGangLeader = Навыки выжившего главаря банды
+ent-RMCSkillPresetSurvivorPrisoner = Навыки выжившего узника
+ent-RMCSkillPresetSurvivorTrucker = Навыки выжившего дальнобойщика
+ent-RMCSkillPresetSurvivorMiner = Навыки выжившего горняка
+ent-RMCSkillPresetSurvivorPizzaGalaxyDriver = Навыки выжившего курьера пиццерии Galaxy
+ent-RMCSkillPresetSurvivorCommercialPilot = Навыки выжившего гражданского лётчика
+ent-RMCSkillPresetSurvivorParamedic = Навыки выжившего фельдшера
+ent-RMCSkillPresetSurvivorFireProtectionSpecialist = Специалист по противопожарной защите из выживших

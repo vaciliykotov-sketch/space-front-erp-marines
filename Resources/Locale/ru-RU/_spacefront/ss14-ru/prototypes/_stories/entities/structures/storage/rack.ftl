@@ -1,0 +1,1 @@
+ent-STRackHunter = { ent-CMRack }

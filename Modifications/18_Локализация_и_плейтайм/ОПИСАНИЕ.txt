@@ -1,0 +1,18 @@
+МОДИФИКАЦИЯ: 18 Локализация и плейтайм
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Русская локализация и формат плейтайма в званиях
+
+ЗАЧЕМ:
+Что делает: полный русский перевод (4545 ftl-файлов), формат плейтайма. Зачем: сервер русскоязычный.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Shared/_SpaceFront/Localizations/ContentLocalizationManager.cs
+- Content.Shared/_SpaceFront/Preferences/HumanoidCharacterProfile.cs
+- Content.Shared/_SpaceFront/Verbs/VerbCategory.cs
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Ресурсы: Resources/Locale/ru-RU/_spacefront/** — вся русская локализация
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

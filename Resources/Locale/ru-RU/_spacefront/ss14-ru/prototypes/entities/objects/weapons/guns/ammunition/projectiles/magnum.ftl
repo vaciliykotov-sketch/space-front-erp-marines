@@ -1,0 +1,5 @@
+ent-BulletMagnum = пуля (магнум .45)
+ent-BulletMagnumPractice = пуля (магнум .45, для тренировок)
+ent-BulletMagnumIncendiary = пуля (магнум .45, зажигательная)
+ent-BulletMagnumAP = пуля (магнум .45, пробивная)
+ent-BulletMagnumUranium = пуля (магнум .45, из урана)

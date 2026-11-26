@@ -1,0 +1,11 @@
+ent-GlowstickBase = химсвет зелёного цвета
+ent-GlowstickRed = химсвет красного цвета
+ent-GlowstickPurple = химсвет фиолетового цвета
+ent-GlowstickYellow = химсвет жёлтого цвета
+ent-GlowstickBlue = химсвет синего цвета
+ent-LightBehaviourTest1 = light pulse test
+ent-LightBehaviourTest2 = color cycle test
+ent-LightBehaviourTest3 = multi-behaviour light test
+ent-LightBehaviourTest4 = light fade in test
+ent-LightBehaviourTest5 = light pulse radius test
+ent-LightBehaviourTest6 = light randomize radius test

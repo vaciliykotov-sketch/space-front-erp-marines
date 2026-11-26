@@ -1,0 +1,11 @@
+ent-EvidenceMarker = метка для улик
+ent-EvidenceMarkerOne = { ent-EvidenceMarker }
+ent-EvidenceMarkerTwo = { ent-EvidenceMarker }
+ent-EvidenceMarkerThree = { ent-EvidenceMarker }
+ent-EvidenceMarkerFour = { ent-EvidenceMarker }
+ent-EvidenceMarkerFive = { ent-EvidenceMarker }
+ent-EvidenceMarkerSix = { ent-EvidenceMarker }
+ent-EvidenceMarkerSeven = { ent-EvidenceMarker }
+ent-EvidenceMarkerEight = { ent-EvidenceMarker }
+ent-EvidenceMarkerNine = { ent-EvidenceMarker }
+ent-BoxEvidenceMarkers = упаковка меток для улик

@@ -1,0 +1,14 @@
+ent-RMCPVEArmorPadsKestrel = Kestrel: погоны
+    .suffix = { ent-RMCPVEArmorPadsBase.suffix }
+ent-RMCPVEArmorBracersKestrel = Kestrel: наручи
+    .suffix = { ent-RMCPVEArmorBracersBase.suffix }
+ent-RMCPVEArmorNeckGuardKestrel = Kestrel: горжет
+    .suffix = { ent-RMCPVEArmorNeckGuardBase.suffix }
+ent-RMCPVEArmorGroinPlateKestrel = Kestrel: пластина на пах
+    .suffix = { ent-RMCPVEArmorGroinPlateBase.suffix }
+ent-RMCPVEArmorShinGuardKestrel = Защита голени Kestrel
+    .suffix = { ent-RMCPVEArmorShinGuardBase.suffix }
+ent-RMCPVEArmorKneeGuardKestrel = Защита колена Kestrel
+    .suffix = { ent-RMCPVEArmorKneeGuardBase.suffix }
+ent-RMCPVEArmorPaintTSE = Покраска брони в цвета флага Трёх Солнц
+    .suffix = { ent-RMCPVEArmorPaintBase.suffix }

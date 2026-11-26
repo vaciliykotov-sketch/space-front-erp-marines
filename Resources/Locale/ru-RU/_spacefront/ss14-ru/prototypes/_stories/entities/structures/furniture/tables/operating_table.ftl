@@ -1,0 +1,1 @@
+ent-STHunterOperatingTable = { ent-CMOperatingTable }

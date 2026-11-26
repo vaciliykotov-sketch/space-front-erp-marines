@@ -1,0 +1,1 @@
+ent-RMCDropshipAttachmentBase = { ent-CMBaseStructure }

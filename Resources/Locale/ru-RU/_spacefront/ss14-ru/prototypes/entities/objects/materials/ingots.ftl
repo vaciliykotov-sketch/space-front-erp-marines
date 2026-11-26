@@ -1,0 +1,9 @@
+ent-IngotBase = { ent-BaseItem }
+ent-IngotGold = слиток золота
+    .suffix = Полный
+ent-IngotGold1 = слиток золота
+    .suffix = Один
+ent-IngotSilver = слиток серебра
+    .suffix = Полный
+ent-IngotSilver1 = слиток серебра
+    .suffix = Один

@@ -1,0 +1,10 @@
+ent-RMCCassettePlayer = плеер кассет
+ent-RMCCassetteTapeBase = кассетная лента
+ent-RMCCassetteTapeCustom = кассета на заказ
+ent-RMCCassetteTapeWigWoo1 = WigWoo1 (кассета)
+ent-RMCCassetteTapeMendax = Mendax (кассета)
+ent-RMCCassetteTapeNighty = Nighty (кассета)
+ent-RMCCassetteTapeGoodShowOldChap = GoodShowOldChap (кассета)
+ent-RMCCassetteTapeRedQwesta = Qwesta (кассета)
+ent-RMCCassetteTapeBolgarich = Bolgarich (кассета)
+ent-RMCCassetteTapePigeonBeans = PigeonBeans (кассета)

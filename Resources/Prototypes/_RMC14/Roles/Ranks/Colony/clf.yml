@@ -1,0 +1,9 @@
+- type: rank
+  id: RMCRankCLFRebel
+  name: "Мятежник"
+  prefix: REB.
+
+- type: rank
+  id: RMCRankCLFRebelCommander
+  name: "Мятежник Commander"
+  prefix: REBC.

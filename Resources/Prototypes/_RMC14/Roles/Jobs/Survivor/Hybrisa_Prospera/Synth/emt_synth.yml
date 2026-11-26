@@ -1,0 +1,46 @@
+- type: job
+  parent: RMCSyntheticColony
+  id: RMCSyntheticColonyHybrisaEMT
+  startingGear: RMCGearSyntheticColonistHybrisaEMT
+  spawnMenuRoleName: EMT Synthetic (Hybrisa Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Language
+      preset: RMCLanguagePresetSynth
+    - type: LanguageLearning
+      preset: RMCLanguageLearningPresetSynthColonist
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: synth
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetHybrisaSynthEMT
+    - type: Synth
+  useLoadoutOfJob: RMCSyntheticColony # for inheritance
+
+- type: startingGear
+  parent: RMCGearSyntheticColonistBase
+  id: RMCGearSyntheticColonistHybrisaEMT
+  equipment:
+    back: CMSatchelMedical
+    shoes: RMCShoesWhite
+
+- type: entity
+  id: RMCSurvivorPresetHybrisaSynthEMT
+  setPreference: false
+  name: "пресет синтета-выжившего EMT Хибриса"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomOutfits:
+    - [ RMCCoatParamedic, RMCJumpsuitEMT, RMCPouchMedkit, CMHandsLatex ]
+    - [ RMCCoatParamedicGreen, RMCJumpsuitEMTGreen, CMHandsLatex ]
+    - [ RMCJumpsuitEMTGreen, RMCHazardVestEMTGreen, RMCBeltMedicalDefibAnalyzerFilled, CMHandsLatex ]
+    - [ RMCCoatParamedic, RMCJumpsuitEMT, RMCArmorHelmetParamedic, RMCBeltMedicalDefibAnalyzerFilled, RMCHandsCombat ]

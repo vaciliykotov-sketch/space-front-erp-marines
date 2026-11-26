@@ -1,0 +1,50 @@
+- type: job
+  parent: CMSurvivor
+  id: RMCSurvivorHybrisaGrindBarista
+  setPreference: false
+  name: rmc-job-name-survivor-grind-barista
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorHybrisaGrindBarista
+  spawnMenuRoleName: Daily Grind Barista (Hybrisa Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivor
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetHybrisaGrindBarista
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+  useLoadoutOfJob: CMSurvivor # for inheritance
+
+- type: startingGear
+  parent: RMCGearSurvivorBaseNoBackpack
+  id: RMCGearSurvivorHybrisaGrindBarista
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorHybrisaGrindBarista
+  name: "точка появления бариста Daily Grind"
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivor
+  - type: Sprite
+    layers:
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv
+
+- type: entity
+  parent: RMCSurvivorPresetCivilian
+  id: RMCGearSurvivorPresetHybrisaGrindBarista
+  name: "пресет бариста Daily Grind"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomOutfits:
+    - [ RMCDailyGrindApron, RMCJumpsuitDailyGrind, RMCShoesLaceup, CMSatchel]
+    - [ RMCDailyGrindApron, RMCJumpsuitDailyGrind, RMCShoesLaceup, CMSatchel, CMGrenadeFragOld, CMGrenadeFragOld, RMCHipsterGlasses]

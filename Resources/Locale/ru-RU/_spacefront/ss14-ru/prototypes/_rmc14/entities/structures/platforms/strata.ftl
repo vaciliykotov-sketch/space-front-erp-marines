@@ -1,0 +1,14 @@
+ent-RMCPlatformStrata = металлический край с рельефом
+ent-RMCPlatformStrataBroken = { ent-CMPlatformBroken }
+ent-RMCPlatformStrataStair = { ent-RMCPlatformStrata }
+ent-RMCPlatformStrataStairAlt = { ent-RMCPlatformStrata }
+ent-RMCPlatformStrataCornerSmall = уголок из металла
+ent-RMCPlatformStrataTwo = металлический край на возвышении
+ent-RMCPlatformStrata2Broken = { ent-CMPlatformBroken }
+ent-RMCPlatformStrataTwoCornerSmall = угол из металла на возвышении
+ent-RMCPlatformStrataThree = металлический край с рельефом
+ent-RMCPlatformStrata3Broken = { ent-CMPlatformBroken }
+ent-RMCPlatformStrataThreeCornerSmall = угол из металла на возвышении
+ent-RMCPlatformStrataRock = ледяной скальный край
+ent-RMCPlatformStrataRockBroken = разрушенная кромка ледяной скалы
+ent-RMCPlatformStrataRockCornerSmall = ледяной скальный уголок

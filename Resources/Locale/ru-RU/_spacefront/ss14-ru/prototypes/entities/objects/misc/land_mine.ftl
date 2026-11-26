@@ -1,0 +1,10 @@
+ent-BaseLandMine = { "" }
+ent-LandMineKickUnarmed = мина-пинок без взведения
+ent-LandMineKick = { ent-LandMineKickUnarmed }
+    .suffix = активирован
+ent-LandMineModularUnarmed = мина модульной сборки
+ent-LandMineModular = { ent-LandMineModularUnarmed }
+    .suffix = активирован
+ent-LandMineExplosiveUnarmed = мина взрывного действия
+ent-LandMineExplosive = { ent-LandMineExplosiveUnarmed }
+    .suffix = активирован

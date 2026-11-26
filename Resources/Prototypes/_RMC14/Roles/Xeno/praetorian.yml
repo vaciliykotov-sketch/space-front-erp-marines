@@ -1,0 +1,10 @@
+- type: job
+  parent: CMJobXenoBase
+  id: CMXenoPraetorian
+  setPreference: false
+  name: cm-job-name-xeno-praetorian
+  playTimeTracker: CMJobXenoPraetorian
+
+- type: playTimeTracker
+  id: CMJobXenoPraetorian
+  isXeno: true

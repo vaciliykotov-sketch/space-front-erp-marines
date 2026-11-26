@@ -1,0 +1,11 @@
+ent-CMWindowDirectional = оконный блок
+ent-RMCWindowDirectionalAltDrawDepth = { ent-CMWindowDirectional }
+    .suffix = Альт. глубина отрисовки
+ent-CMWindowReinforcedDirectional = окно с усилением
+ent-CMWindowStrongReinforcedDirectional = усиленное прочное окно
+ent-CMWindowTintedDirectional = окно с тонировкой
+ent-RMCWindowTintedDirectionalBlue = { ent-CMWindowTintedDirectional }
+    .suffix = Синее
+ent-RMCWindowDirectionalBlue = { ent-CMWindowDirectional }
+    .suffix = Синее
+ent-CMWindowUltraDirectional = окно с ультраусилением

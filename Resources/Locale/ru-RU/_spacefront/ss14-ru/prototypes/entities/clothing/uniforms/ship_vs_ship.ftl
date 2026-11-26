@@ -1,0 +1,8 @@
+ent-ClothingUniformJumpsuitRecruitNT = комбинезон новобранца
+ent-ClothingUniformJumpsuitRecruitSyndie = комбинезон новобранца Синдиката
+ent-ClothingUniformJumpsuitRepairmanNT = комбинезон техника-ремонтника
+ent-ClothingUniformJumpsuitRepairmanSyndie = комбинезон ремонтника Синдиката
+ent-ClothingUniformJumpsuitParamedicNT = комбинезон фельдшера
+ent-ClothingUniformJumpsuitParamedicSyndie = комбинезон фельдшера Синдиката
+ent-ClothingUniformJumpsuitChiefEngineerNT = комбинезон главного инженера
+ent-ClothingUniformJumpsuitChiefEngineerSyndie = комбинезон главного инженера Синдиката

@@ -1,0 +1,10 @@
+ent-RMCSpawnerRandomClothingBase = спаунер для оружия
+    .suffix = Базовый
+ent-RMCSpawnerRandomGoggles = спаунер лута очков
+    .suffix = Гарантированно
+ent-RMCSpawnerRandomGogglesLowChance = { ent-RMCSpawnerRandomGoggles }
+    .suffix = Низкий шанс
+ent-RMCSpawnerRandomGogglesMidChance = { ent-RMCSpawnerRandomGoggles }
+    .suffix = Средний шанс
+ent-RMCSpawnerRandomGogglesHighChance = { ent-RMCSpawnerRandomGoggles }
+    .suffix = Высокий шанс

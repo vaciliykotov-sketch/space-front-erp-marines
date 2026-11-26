@@ -1,0 +1,7 @@
+ent-RMCCrateGearBinoculars = смешанные бинокли в ящике (x2 каждого, x6 всего)
+ent-RMCCrateGearPackFlare = сигнальные ракеты в ящике (x20)
+ent-RMCCrateGearMotionDetector = детекторы движения в ящике (x2)
+ent-RMCCrateGearOverwatchCameraTripod = штативы полевой камеры в ящике (x3)
+ent-RMCCrateGearPackFlareCAS = сигнальные ракеты в ящике (x4, CAS)
+ent-RMCCrateGearFulton = фултоны в ящике (x4)
+ent-RMCCrateGearParachute = парашюты в ящике (x20)

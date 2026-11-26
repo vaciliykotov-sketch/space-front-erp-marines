@@ -1,0 +1,1 @@
+ent-GeigerCounter = дозиметр Гейгера

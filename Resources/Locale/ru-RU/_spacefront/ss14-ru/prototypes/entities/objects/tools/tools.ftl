@@ -1,0 +1,17 @@
+ent-Wirecutter = резак для проводов
+ent-Screwdriver = шуруповёрт-отвёртка
+ent-Wrench = ключ гаечный
+ent-Multitool = многофункциональный инструмент
+ent-NetworkConfigurator = настройщик сетей
+ent-PowerDrill = дрель электрическая
+ent-RCD = РСУ
+ent-RCDEmpty = { ent-RCD }
+    .suffix = Пустой
+ent-RCDRecharging = РСУ экспериментальное
+    .suffix = Автозарядка
+ent-RCDExperimental = РСУ экспериментальное
+    .suffix = Адмемы
+ent-RCDAmmo = материя в сжатом виде
+ent-Omnitool = универсальный инструмент
+ent-Shovel = инструмент для копания
+ent-RollingPin = кухонная скалка

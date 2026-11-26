@@ -1,0 +1,11 @@
+ent-RMCPoliceConsoleBase = терминал военной полиции
+    .suffix = { "" }
+ent-RMCSentencingConsole = { ent-RMCSecurityRecordsConsole }
+    .suffix = { "" }
+ent-RMCPoliceRecordsConsole = { ent-RMCSecurityRecordsConsoleAlt }
+    .suffix = { "" }
+ent-RMCIncidentReportPaper = зашифрованная сводка о происшествии
+ent-RMCPoliceForensicScanner = сканер для криминалистики
+ent-RMCPoliceClue = подозрительные следы пальцев
+ent-RMCForensicSpray = спрей для криминалистики
+    .suffix = { "" }

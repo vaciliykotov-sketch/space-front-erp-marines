@@ -1,0 +1,7 @@
+ent-BaseSpeedLoaderMagnum = ускоритель заряжания (.45 магнум)
+ent-SpeedLoaderMagnum = ускоритель заряжания (.45 магнум)
+ent-SpeedLoaderMagnumEmpty = ускоритель заряжания (.45 магнум, под любые патроны)
+ent-SpeedLoaderMagnumIncendiary = зажигательный спидлоадер (.45 магнум)
+ent-SpeedLoaderMagnumPractice = учебный спидлоадер (.45 магнум)
+ent-SpeedLoaderMagnumAP = бронебойный спидлоадер (.45 магнум)
+ent-SpeedLoaderMagnumUranium = урановый спидлоадер (.45 магнум)

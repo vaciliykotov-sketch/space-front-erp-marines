@@ -1,0 +1,14 @@
+ent-RMCHoodBioGeneral = капюшон биологической защиты
+    .suffix = Общий, ЧВК
+ent-RMCHoodBioMedical = { ent-RMCHoodBioGeneral }
+    .suffix = Медицинский, RMC
+ent-RMCHoodBioScientist = { ent-RMCHoodBioGeneral }
+    .suffix = Учёный, RMC
+ent-RMCHoodBioSecurity = { ent-RMCHoodBioGeneral }
+    .suffix = Охрана, RMC
+ent-RMCHoodBioVirology = { ent-RMCHoodBioGeneral }
+    .suffix = Вирусология, RMC
+ent-RMCHoodBioWeYa = био-капюшон ВеЯ-TSS MK II
+    .suffix = Общий, ВеЯ
+ent-RMCHoodBioWeYaAlt = био-капюшон ВеЯ-TSS MK I
+    .suffix = Общий, ВеЯ, Альтернативный

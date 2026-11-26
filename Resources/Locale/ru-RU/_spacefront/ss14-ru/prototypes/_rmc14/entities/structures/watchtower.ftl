@@ -1,0 +1,1 @@
+ent-RMCPropWatchtower = Вышка наблюдательная

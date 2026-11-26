@@ -1,0 +1,16 @@
+ent-BaseMobAdultSlimes = взрослый слайм (база)
+    .suffix = { ent-SimpleMobBase.suffix }
+ent-MobAdultSlimes = взрослый слайм
+    .suffix = { ent-BaseMobAdultSlimes.suffix }
+ent-MobAdultSlimesBlue = слайм синего цвета
+    .suffix = { ent-MobAdultSlimes.suffix }
+ent-MobAdultSlimesBlueAngry = слайм синий (злой)
+    .suffix = Злой
+ent-MobAdultSlimesGreen = слайм зелёного цвета
+    .suffix = { ent-MobAdultSlimes.suffix }
+ent-MobAdultSlimesGreenAngry = слайм зелёный (злой)
+    .suffix = Злой
+ent-MobAdultSlimesYellow = слайм жёлтого цвета
+    .suffix = { ent-MobAdultSlimes.suffix }
+ent-MobAdultSlimesYellowAngry = слайм жёлтый (злой)
+    .suffix = Злой

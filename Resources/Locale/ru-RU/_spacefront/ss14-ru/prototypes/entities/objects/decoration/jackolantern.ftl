@@ -1,0 +1,10 @@
+ent-CarvedPumpkin = тыква с вырезами
+ent-PumpkinLantern = фонарь из тыквы
+ent-CarvedPumpkinSmall = { ent-CarvedPumpkin }
+    .suffix = Маленький
+ent-CarvedPumpkinLarge = { ent-CarvedPumpkin }
+    .suffix = Большой
+ent-PumpkinLanternSmall = { ent-PumpkinLantern }
+    .suffix = Маленький
+ent-PumpkinLanternLarge = { ent-PumpkinLantern }
+    .suffix = Большой

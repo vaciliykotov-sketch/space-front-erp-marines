@@ -1,0 +1,12 @@
+ent-RMCSuitEVABase = EVA-костюм
+ent-RMCHelmetEVABase = EVA-шлем
+ent-RMCSuitEVASGO = EVA-костюм спецотряда
+    .suffix = Ремень Smart Gun
+ent-RMCSuitEVAUNMC = EVA-костюм MK.35 морпехов США
+ent-RMCSuitEVAUNMCSGO = EVA-костюм MK.35 морпехов США под M56B
+    .suffix = { ent-RMCSuitEVASGO.suffix }
+ent-RMCHelmetEVAUNMC = EVA-шлем MK.35 морпехов США
+ent-RMCSuitEVASPP = EVA-костюм «Тип 2» СПН
+ent-RMCHelmetEVASPP = EVA-шлем «Тип 2» СПН
+ent-RMCSuitEVACivilian = EVA-костюм гражданский белый
+ent-RMCHelmetEVACivilian = EVA-шлем гражданский белый

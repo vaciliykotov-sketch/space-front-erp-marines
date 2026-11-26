@@ -1,0 +1,13 @@
+ent-RMCOverheadCraneTracks = пути мостового крана
+ent-RMCOverheadCraneTrack1 = { ent-RMCOverheadCraneTracks }
+ent-RMCOverheadCraneTrack2 = { ent-RMCOverheadCraneTracks }
+ent-RMCOverheadCraneTrack3 = { ent-RMCOverheadCraneTracks }
+ent-RMCOverheadCraneTrack4 = { ent-RMCOverheadCraneTracks }
+ent-RMCOverheadCraneTrack5 = { ent-RMCOverheadCraneTracks }
+ent-RMCOverheadCraneTrack6 = { ent-RMCOverheadCraneTracks }
+ent-RMCOverheadCraneTrack7 = { ent-RMCOverheadCraneTracks }
+ent-RMCOverheadCraneTrack8 = { ent-RMCOverheadCraneTracks }
+ent-RMCOverheadCraneTrack9 = { ent-RMCOverheadCraneTracks }
+ent-RMCOverheadCraneTrack10 = { ent-RMCOverheadCraneTracks }
+ent-RMCOverheadCraneTrack11 = { ent-RMCOverheadCraneTracks }
+ent-RMCOverheadCraneTrack12 = { ent-RMCOverheadCraneTracks }

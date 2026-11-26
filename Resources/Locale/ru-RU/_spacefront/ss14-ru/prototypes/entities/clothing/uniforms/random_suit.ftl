@@ -1,0 +1,14 @@
+ent-ClothingUniformRandom = { ent-ClothingUniformBase }
+    .suffix = Случайный вид
+ent-ClothingRandomSpawner = произвольный яркий костюм
+    .suffix = { ent-ClothingUniformRandom.suffix }
+ent-ClothingUniformRandomArmless = яркий костюм с жилетом без рукавов
+    .suffix = { ent-ClothingUniformRandom.suffix }
+ent-ClothingUniformRandomStandard = костюм яркой расцветки
+    .suffix = { ent-ClothingUniformRandom.suffix }
+ent-ClothingUniformRandomBra = яркий костюм вместе с бюстгальтером
+    .suffix = { ent-ClothingUniformRandom.suffix }
+ent-ClothingUniformRandomShorts = штаны яркой расцветки
+    .suffix = { ent-ClothingUniformRandom.suffix }
+ent-ClothingUniformRandomShirt = костюм ярких цветов
+    .suffix = { ent-ClothingUniformRandom.suffix }

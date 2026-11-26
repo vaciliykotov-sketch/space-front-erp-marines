@@ -1,0 +1,11 @@
+ent-CMWeaponPistolM1984 = пистолет служебный M4A3
+ent-CMWeaponPistolM1984Custom = пистолет служебный M4A3 индивидуальный
+ent-CMWeaponPistolM1984Empty = { ent-CMWeaponPistolM1984 }
+    .suffix = Пустой
+ent-CMMagazinePistolM1984 = магазин для M4A3 (калибр 9 мм)
+ent-CMBulletPistol9mm = пуля калибра 9 мм
+ent-CMCartridgePistol9mm = боеприпас (9 мм)
+ent-RMCMagazinePistolM1984AP = магазин M4A3 ББ (калибр 9 мм)
+ent-RMCMagazinePistolM1984HP = магазин M4A3 экспансивный (калибр 9 мм)
+ent-RMCCartridgePistol9mmHP = боеприпас (9 мм экспансивный)
+ent-RMCBulletPistol9mmHP = пуля (9 мм экспансивная)

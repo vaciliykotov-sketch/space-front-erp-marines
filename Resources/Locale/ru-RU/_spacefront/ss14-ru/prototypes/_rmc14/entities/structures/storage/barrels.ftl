@@ -1,0 +1,13 @@
+ent-RMCBarrelPileBase = нагромождение бочек
+ent-RMCBarrelPileYard = { ent-RMCBarrelPileBase }
+ent-RMCBarrelBase = бочкотара
+ent-RMCBarrelBlue = бочка в синем цвете
+ent-RMCBarrelGreen = бочка зелёного цвета
+ent-RMCBarrelRed = бочка красного цвета
+ent-RMCBarrelWhite = бочка белого цвета
+ent-RMCBarrelYellow = бочка жёлтого цвета
+ent-RMCBarrelPureWhite = { ent-RMCBarrelWhite }
+ent-RMCBarrelBlack = бочка чёрного цвета
+ent-RMCBarrelBrown = бочка коричневого цвета
+ent-RMCBarrelFire = пожарная бочка
+    .suffix = Огонь

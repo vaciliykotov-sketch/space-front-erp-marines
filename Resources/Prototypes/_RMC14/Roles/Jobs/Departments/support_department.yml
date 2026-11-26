@@ -1,0 +1,13 @@
+- type: department
+  parent: CMDepartmentBase
+  id: CMAuxiliarySupport
+  name: "отдел-CMВспомогательнаяПоддержка"
+  description: cm-department-AuxiliarySupport-description
+  color: "#C38312"
+  roles:
+  - CMPilotDropship
+  - CMPilotGunship
+  - CMDropshipCrewChief
+  - CMVehicleCrewman
+  - CMSeniorEnlistedAdvisor
+  departmentRadio: MarineJTAC

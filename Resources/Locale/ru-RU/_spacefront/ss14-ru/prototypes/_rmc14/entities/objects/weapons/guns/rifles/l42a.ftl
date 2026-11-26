@@ -1,0 +1,13 @@
+ent-RMCWeaponRifleL42A = винтовка боевая L42A
+    .suffix = Заполненный
+ent-RMCMagazineRifleL42A = магазин для L42A (10x24 мм)
+ent-RMCMagazineRifleL42AEmpty = { ent-RMCMagazineRifleL42A }
+    .suffix = Пустой
+ent-RMCMagazineRifleL42AExtended = магазин L42A повышенной ёмкости (10x24 мм)
+ent-RMCMagazineRifleL42AExtendedEmpty = { ent-RMCMagazineRifleL42AExtended }
+    .suffix = Пустой
+ent-RMCMagazineRifleL42AAP = магазин L42A с бронебойными (10x24 мм)
+ent-RMCMagazineRifleL42AWP = магазин L42A с WP (10x24 мм)
+ent-RMCMagazineRifleL42AIncendiary = магазин L42A с зажигательными (10x24 мм)
+ent-RMCMagazineRifleL42AAPEmpty = { ent-RMCMagazineRifleL42AAP }
+    .suffix = Пустой

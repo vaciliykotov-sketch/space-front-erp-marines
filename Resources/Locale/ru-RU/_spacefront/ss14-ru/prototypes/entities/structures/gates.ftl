@@ -1,0 +1,17 @@
+ent-LogicEmptyCircuit = плата без схемы
+ent-BaseLogicItem = { ent-LogicEmptyCircuit }
+ent-LogicGateOr = логический вентиль
+    .suffix = Or, ИЛИ
+ent-LogicGateAnd = { ent-LogicGateOr }
+    .suffix = And, И
+ent-LogicGateXor = { ent-LogicGateOr }
+    .suffix = Xor, Исключающее ИЛИ
+ent-LogicGateNor = { ent-LogicGateOr }
+    .suffix = Nor, ИЛИ-НЕ
+ent-LogicGateNand = { ent-LogicGateOr }
+    .suffix = Nand, И-НЕ
+ent-LogicGateXnor = { ent-LogicGateOr }
+    .suffix = Xnor, Исключающее ИЛИ-НЕ
+ent-EdgeDetector = сенсор сигнала
+ent-PowerSensor = сенсор питания
+ent-MemoryCell = модуль памяти

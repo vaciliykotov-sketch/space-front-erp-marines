@@ -1,0 +1,11 @@
+ent-RandomDildo = моё устройство
+ent-DildoAvian = дилдо в птичьем стиле
+ent-DildoCanine = дилдо собачьего типа
+ent-DildoDragon = дилдо в драконьем стиле
+ent-DildoEquine = дилдо лошадиного типа
+ent-DildoHuman = дилдо человеческого типа
+ent-DildoTentacle = дилдо с тентаклями
+ent-PolyDildoSmall = полидилдо малого размера
+ent-PolyDildoMedium = полидилдо среднего размера
+ent-PolyDildoBig = полидилдо крупного размера
+ent-DildoDouble = дилдо с двумя концами

@@ -1,0 +1,1 @@
+ent-NoticeBoard = доска объявлений

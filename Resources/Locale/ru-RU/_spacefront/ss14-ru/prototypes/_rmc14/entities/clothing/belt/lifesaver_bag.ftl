@@ -1,0 +1,14 @@
+ent-CMBeltMedicBag = медицинский пояс M276
+ent-RMCBeltMedicBagERTFilled = { ent-CMBeltMedicBag }
+ent-RMCBeltMedicBagSPP = сумка медика Тип 41
+ent-RMCBeltMedicBagSPPCommandoFilled = { ent-RMCBeltMedicBagSPP }
+    .suffix = Коммандос, Заполненный
+ent-RMCBeltMedicBagSPPCrashland = { ent-RMCBeltMedicBagSPP }
+    .suffix = Выживший, Заполненный
+ent-RMCBeltMedicBagSPPSynthFilled = { ent-RMCBeltMedicBagSPP }
+    .suffix = Синтетик, Заполненный
+ent-RMCBeltMedicBagPMC = медсумка WY-TM625
+ent-RMCBeltMedicBagPMCFilled = { ent-RMCBeltMedicBagPMC }
+    .suffix = Заполненная
+ent-RMCBeltMedicBagRoyal = { ent-CMBeltMedicBag }
+    .suffix = Заполненный, Королевский

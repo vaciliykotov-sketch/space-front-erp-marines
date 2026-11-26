@@ -1,0 +1,20 @@
+МОДИФИКАЦИЯ: 15 Лобби правила гайд
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Окно правил при входе, строки режима в лобби, гайдбук Space Front
+
+ЗАЧЕМ:
+Что делает: обязательное окно правил (2 страницы), строки режима в лобби, страница гайда SpaceFrontRules. Зачем: правила — обязательный шаг входа, гайд — справка для игроков.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Client/_SpaceFront/Info/RulesPopup.xaml.cs
+- Content.Client/_SpaceFront/Lobby/LobbyGui.xaml.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Чужие файлы с маркерами:
+- Content.Client/Info/RulesPopup.xaml.cs, Content.Client/Lobby/UI/LobbyGui.xaml.cs
+- Content.Server/Info/RulesManager.cs
+Ресурсы: Resources/ServerInfo/Guidebook/_SpaceFront/SpaceFrontRules.xml
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

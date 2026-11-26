@@ -1,0 +1,15 @@
+ent-BaseKnife = { ent-BaseItem }
+ent-KitchenKnife = нож для кухни
+ent-ButchCleaver = секач мясника
+ent-CombatKnife = нож боевого назначения
+ent-SurvivalKnife = нож выживальщика
+ent-KukriKnife = клинок кукри
+ent-BladedFlatcapGrey = плоская кепка с лезвием, серая
+    .suffix = Лезвие
+ent-BladedFlatcapBrown = плоская кепка с лезвием, коричневая
+    .suffix = { ent-BladedFlatcapGrey.suffix }
+ent-Shiv = самодельная заточка
+ent-ReinforcedShiv = заточка с усилением
+ent-PlasmaShiv = заточка из плазмы
+ent-UraniumShiv = заточка из урана
+ent-ThrowingKnife = нож для метания

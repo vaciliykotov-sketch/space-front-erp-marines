@@ -1,0 +1,11 @@
+ent-BaseObjective = { "" }
+ent-BaseLivingObjective = { ent-BaseObjective }
+ent-BaseTargetObjective = { ent-BaseObjective }
+ent-BaseKillObjective = { ent-BaseTargetObjective }
+ent-BaseSocialObjective = { ent-BaseTargetObjective }
+ent-BaseKeepAliveObjective = { ent-BaseSocialObjective }
+ent-BaseHelpProgressObjective = { ent-BaseSocialObjective }
+ent-BaseStealObjective = { ent-BaseLivingObjective }
+ent-BaseSurviveObjective = { ent-BaseObjective }
+ent-BaseCodeObjective = { ent-BaseObjective }
+ent-BaseFreeObjective = { ent-BaseObjective }

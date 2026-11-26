@@ -1,0 +1,10 @@
+ent-LootSpawnerSecurityBasic = точка появления базовой добычи СБ
+    .suffix = Снаряжение, Простое
+ent-LootSpawnerSecurity = точка появления добычи СБ
+    .suffix = Снаряжение, Лучше
+ent-LootSpawnerArmory = точка появления добычи в оружейной
+    .suffix = Оружие, Броня
+ent-LootSpawnerArmoryGunsOnly = точка появления оружейной добычи (только пушки)
+    .suffix = Оружие
+ent-LootSpawnerArmoryArmorOnly = точка появления оружейной добычи (только броня)
+    .suffix = Броня

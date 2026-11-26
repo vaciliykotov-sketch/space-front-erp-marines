@@ -1,0 +1,12 @@
+ent-BorgChassisSelectable = { ent-BaseBorgChassisNT }
+ent-BorgChassisGeneric = стандартный киборг
+    .suffix = Выбранный тип
+ent-BorgChassisMining = шахтёрский киборг
+ent-BorgChassisEngineer = киборг-техник
+ent-BorgChassisJanitor = киборг-дворник
+ent-BorgChassisMedical = киборг-медик
+ent-BorgChassisService = киборг-обслуживающий
+ent-BorgChassisSyndicateAssault = киборг-штурмовик Синдиката
+ent-BorgChassisSyndicateMedical = киборг-медик Синдиката
+ent-BorgChassisSyndicateSaboteur = киборг-диверсант Синдиката
+ent-BorgChassisDerelict = покинутый киборг

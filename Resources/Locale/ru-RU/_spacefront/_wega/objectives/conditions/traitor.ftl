@@ -1,0 +1,1 @@
+ent-BadgeSecStealObjective = { ent-BaseTraitorStealObjective }

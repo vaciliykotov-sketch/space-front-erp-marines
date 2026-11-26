@@ -1,0 +1,31 @@
+МОДИФИКАЦИЯ: 01 SquadWar АБ против ДЧ
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Режим Space Front: две команды (Альфа-Браво и Дельта-Чарли) на двух Алмаерах сражаются за планету
+
+ЗАЧЕМ:
+Что делает: запускает раунд с двумя кораблями и двумя командами; делит планету линией тумана с проходами у LZ1/LZ2; разделяет радио на 2 канала на команду; даёт каждой команде свой шаттл «Аврора»; ведёт подсчёт живых по отрядам; при захвате планеты отправляет победителя на вражеский Алмаер; фиксирует победу/поражение/ничью. Зачем: это ядро всего сервера — без него Space Front не работает.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Server/_SpaceFront/Rules/CMDistressSignalRuleComponent.SquadWar.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Shared/_SpaceFront/Rules/CMDistressSignalRuleComponent.SquadWar.cs
+- Content.Server/_SpaceFront/Rules/CMDistressSignalRuleSystem.SquadWar.cs
+- Content.Server/_SpaceFront/Rules/CMDistressSignalRuleSystem.Spawning.cs
+- Content.Server/_SpaceFront/Rules/CMDistressSignalRuleSystem.Helpers.cs
+- Content.Server/_SpaceFront/Rules/CMDistressSignalRuleSystem.Planet.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Server/_SpaceFront/Rules/CMDistressSignalRuleSystem.Hijack.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Server/_SpaceFront/Rules/CMDistressSignalRuleSystem.Scuttle.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Server/_SpaceFront/Rules/CMDistressSignalRuleSystem.RoundEnd.cs
+- Content.Shared/_SpaceFront/Rules/SquadWarTeamComponent.cs
+- Content.Shared/_SpaceFront/Rules/SquadWarShipTwoComponent.cs
+- Content.Shared/_SpaceFront/Rules/SquadWarTestMarionetteComponent.cs
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Чужие файлы с маркированными правками (Stories-start/end):
+- Content.Server/_RMC14/Rules/DistressSignal/CMDistressSignalRuleSystem.cs — форс-включение режима SquadWar, публичный доступ ActiveRule
+- Content.Shared/_RMC14/Rules/CMDistressSignalRuleComponent.cs — поля SquadWar
+- Content.Shared/_RMC14/Rules/CMDistressSignalRuleSystem.cs — константы SquadWar
+Ресурсы: Resources/Maps/_SpaceFront/almayer_ab.yml, almayer_dch.yml (корабли); карты планет в Maps/_SpaceFront/_RMC14; прототипы ролей режима
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

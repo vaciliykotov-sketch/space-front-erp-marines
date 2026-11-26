@@ -1,0 +1,1 @@
+ent-ActionKnock = Открывающий стук

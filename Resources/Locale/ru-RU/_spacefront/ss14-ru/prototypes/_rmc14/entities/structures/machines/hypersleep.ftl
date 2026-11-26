@@ -1,0 +1,15 @@
+ent-CMHyperSleepChamber = гиперсонная капсула
+ent-CMHyperSleepChamberAlpha = { ent-CMHyperSleepChamber }
+    .suffix = Альфа
+ent-CMHyperSleepChamberBravo = { ent-CMHyperSleepChamber }
+    .suffix = Браво
+ent-CMHyperSleepChamberCharlie = { ent-CMHyperSleepChamber }
+    .suffix = Чарли
+ent-CMHyperSleepChamberDelta = { ent-CMHyperSleepChamber }
+    .suffix = Дельта
+ent-RMCHyperSleepChamberPVE = { ent-CMHyperSleepChamber }
+    .suffix = PVE
+ent-RMCHyperSleepChamberPVEWest = { ent-RMCHyperSleepChamberPVE }
+    .suffix = PVE, Запад
+ent-RMCHyperSleepChamberPVEAltRot = { ent-RMCHyperSleepChamberPVE }
+    .suffix = PVE, Север/Юг

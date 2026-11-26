@@ -1,0 +1,1 @@
+ent-BrokenBottle = бутылка разбитая

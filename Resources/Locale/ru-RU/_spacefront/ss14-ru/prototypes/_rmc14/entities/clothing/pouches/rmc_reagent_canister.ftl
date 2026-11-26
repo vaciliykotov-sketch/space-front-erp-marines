@@ -1,0 +1,13 @@
+ent-RMCPouchReagentCanister = чехол под канистру с реагентами высокого давления
+ent-RMCPouchReagentCanisterBicaridine = { ent-RMCPouchReagentCanister }
+    .suffix = Бикаридин
+ent-RMCPouchReagentCanisterKelotane = { ent-RMCPouchReagentCanister }
+    .suffix = Келотан
+ent-RMCPouchReagentCanisterTricordrazineRevival = { ent-RMCPouchReagentCanister }
+    .suffix = Трикордразин — Возрождение
+ent-RMCPouchReagentCanisterTricordrazine = { ent-RMCPouchReagentCanister }
+    .suffix = Трикордразин
+ent-RMCPouchReagentCanisterMeraBic = { ent-RMCPouchReagentCanister }
+    .suffix = Мерабик
+ent-RMCPouchReagentCanisterKeloDerm = { ent-RMCPouchReagentCanister }
+    .suffix = Келодерма

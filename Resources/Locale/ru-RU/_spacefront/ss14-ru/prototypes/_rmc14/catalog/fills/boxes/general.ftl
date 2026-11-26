@@ -1,0 +1,11 @@
+ent-RMCBoxCardboard = коробка из картона
+ent-RMCBoxAttachmentsFilled = набор насадок в комплекте
+ent-RMCBoxPrescriptionGlasses = коробка очков по рецепту
+ent-RMCBoxCompanyCaps = коробка кепок компании
+ent-RMCBoxDrinkingGlasses = коробка бокалов для питья
+ent-RMCBoxPaperCups = бумажные стаканчики в коробке
+ent-RMCBoxMousetraps = коробка с мышеловками от вредителей
+ent-RMCBoxInflatableWallsSmall = коробка надувных барьеров малого размера
+    .suffix = Маленький
+ent-RMCBoxInflatableWallsNormal = { ent-RMCBoxInflatableWallsSmall }
+    .suffix = Обычный

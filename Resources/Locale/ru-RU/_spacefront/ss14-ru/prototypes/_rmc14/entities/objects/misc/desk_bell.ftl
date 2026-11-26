@@ -1,0 +1,1 @@
+ent-RMCDeskBell = звонок настольный

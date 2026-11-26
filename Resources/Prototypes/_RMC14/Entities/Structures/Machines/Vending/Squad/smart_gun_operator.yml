@@ -1,0 +1,178 @@
+
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechSGGear
+  name: "Стойка экипировки оператора Smart Gun отряда ASRS"
+  description: An automated gear rack for Squad Smart Gun Operators.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessSmartPrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/smart_gun_operator_gear.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMSmartGunOperator
+    sections:
+    - name: Умный пулемёт Set (Mandatory)
+      takeAll: CMSmartGunSet
+      entries:
+      - id: CMSmartGunOperatorEquipmentCase
+    - name: Gun Attachments
+      choices: { CMGunAttachments: 1 }
+      entries:
+      - id: RMCAttachmentLaserSight
+      - id: RMCAttachmentS5RedDotSight
+      - id: RMCAttachmentS5MicroRedDotSight
+      - id: RMCAttachmentS6ReflexSight
+    - name: Explosives
+      entries:
+      - id: CMPacketGrenadeHighExplosiveFilled
+        points: 1
+      - id: RMCPacketGrenadeIncendiaryFilled
+        points: 1
+      - id: RMCPacketGrenadeWhitePhosphorusFilled
+        points: 1
+      - id: RMCPacketGrenadeSmokeFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMFFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMIFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMSFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMSHornetFilled
+        points: 1
+      - id: RMCBoxClaymoreMineFilled
+        points: 1
+    - name: Sidearm Ammunitions
+      entries:
+      - id: RMCMagazinePistolM13Ext
+        points: 1
+      - id: RMCSpeedLoader44Marksman
+        points: 1
+      - id: RMCMagazinePistolM1984HP
+        points: 1
+      - id: RMCMagazinePistolM1984AP
+        points: 1
+      - id: CMMagazinePistolMK80
+        points: 1
+      - id: RMCMagazinePistolSU6
+        points: 1
+    - name: Отдыхricted Firearms
+      entries:
+      - id: RMCGunCasePistolMK80
+        points: 1
+      - id: RMCGunCasePistolSmart
+        points: 1
+    - name: Clothing Items
+      entries:
+      - id: RMCScabbardMacheteSGFilled
+        points: 1
+      - id: RMCPouchFuelTank
+        points: 1
+      - id: RMCPouchGeneralLarge
+        points: 1
+    - name: Utilities
+      entries:
+      - id: CMFireExtinguisherPortable
+        points: 1
+      - id: RMCWhistle
+        points: 1
+      - id: CMRollerBedSpawnFolded
+        points: 1
+      - id: RMCFulton20
+        points: 1
+      - id: RMCPowerCellSmartgun
+        points: 1
+    - name: Binoculars
+      entries:
+      - id: RMCBinoculars
+        points: 1
+      - id: RMCRangefinder
+        points: 1
+      - id: RMCLaserDesignator
+        points: 1
+    - name: Helmet Optics
+      entries:
+      - id: RMCVisorMedical
+        points: 1
+      - id: RMCVisorWelding
+        points: 1
+    - name: Pamphlets
+      entries:
+      - id: CMPamphletJTAC
+        points: 1
+      - id: CMPamphletEngineer
+        points: 1
+    - name: Radio Keys
+      entries: []
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechSGEquipment
+  name: "Стойка снаряжения отряда для Smart Gun ASRS"
+  description: An automated rack hooked up to a colossal storage of Squad Smart Gun standard-issue equipment.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessSmartPrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMSmartGunOperator
+    sections:
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: CMVendorBundleRiflemanApparel
+      - id: CMMRE
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: CMBeltSmartGunOperatorFilled
+      - id: RMCBeltSmartGunOperatorPistolFilled
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchFlareFilled
+        name: "Фальшфейер pouch (Full)"
+      - id: RMCPouchElectronics
+      - id: RMCPouchFirstAidInjectors
+        name: "аптечка (заправляемые инъекторы)"
+        recommended: true
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "аптечка (марля, мазь)" # TODO RMC14 splints comma
+        recommended: true
+      - id: RMCPouchFirstAidPills
+        name: "аптечка (таблетки)"
+        recommended: true
+      - id: RMCPouchMagazinePistolLarge
+        recommended: true
+      - id: RMCPouchMagazine
+      - id: RMCPouchShotgun
+      - id: RMCPouchGeneralMedium
+      - id: RMCPouchPistol
+      - id: RMCPouchMacheteFilled
+        name: "подсумок для мачете (полный)"
+      - id: RMCPouchSling
+    - name: Accessories
+      choices: { CMAccessories: 1 }
+      entries:
+      - id: CMWebbingBrown
+        recommended: true
+      - id: CMWebbingBlack
+      - id: RMCWebbingLegPouch
+      - id: RMCWebbingLegPouchBlack
+      - id: CMWebbing
+      - id: RMCWebbingBlackSmall
+      - id: RMCWebbingDropPouch
+      - id: RMCWebbingDropPouchBlack
+      - id: CMWebbingHolster
+      - id: RMCWebbingHolsterBlack
+    - name: Mask
+      choices: { CMMask: 1 }
+      entries:
+      - id: CMMaskGas
+      - id: CMMaskCoif
+      - id: RMCMaskRebreather

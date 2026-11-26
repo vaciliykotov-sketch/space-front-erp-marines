@@ -1,0 +1,13 @@
+ent-ShelfBase = стеллаж
+ent-ShelfBaseReinforced = усиленный стеллаж
+ent-ShelfWood = стеллаж из дерева
+ent-ShelfMetal = стеллаж из металла
+ent-ShelfGlass = стеллаж из стекла
+ent-ShelfRWood = крепкий деревянный стеллаж
+ent-ShelfRMetal = крепкий металлический стеллаж
+ent-ShelfRGlass = крепкий стеклянный стеллаж
+ent-ShelfBar = стеллаж для бара
+ent-ShelfKitchen = стеллаж для кухни
+ent-ShelfChemistry = стеллаж для химии
+ent-ShelfChemistryChemistrySecure = { ent-ShelfChemistry }
+    .suffix = Химия, Защищённый

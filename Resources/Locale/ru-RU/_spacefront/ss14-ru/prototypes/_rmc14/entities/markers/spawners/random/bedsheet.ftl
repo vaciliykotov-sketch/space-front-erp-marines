@@ -1,0 +1,1 @@
+ent-CMBedsheetSpawner = рандомный стак

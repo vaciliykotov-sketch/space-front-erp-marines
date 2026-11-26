@@ -1,0 +1,11 @@
+ent-STSilverBeaker = крупная мензурка из серебра
+ent-STBeakerLargePotassiumChloride = мензурка с хлоридом калия
+    .suffix = Хлорид Калия
+ent-STBeakerLargeTableSalt = мензурка с хлоридом натрия
+    .suffix = Поваренная Соль
+ent-STBeakerLargeLithium = мензурка с литием
+    .suffix = Литий
+ent-STBeakerLargePhosphorus = мензурка с фосфором
+    .suffix = Фосфор
+ent-STBeakerEthanol = мензурка с этанолом
+    .suffix = Этанол

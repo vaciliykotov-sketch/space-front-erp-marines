@@ -1,0 +1,839 @@
+- type: entity
+  abstract: true
+  parent: ColMarTechBase
+  id: ColMarTechCargo
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessRequisitions" ]
+  - type: CMAutomatedVendor
+    canManualRestock: true
+    sound:
+      path: /Audio/_RMC14/Machines/vending_drop.ogg
+      params:
+        maxDistance: 2
+        volume: -4
+
+- type: entity
+  parent: ColMarTechCargo
+  id: ColMarTechCargoGuns
+  name: "Автоматизированный торговый автомат вооружения ASRS"
+  description: An automated supply rack hooked up to a big storage of various firearms, explosives, load carrying equipment, and other miscellaneous items. Can be accessed by the Logistics Officer and Requisitions Technicians.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/guns.rsi
+  - type: RMCRequisitionsVendor
+  - type: CMAutomatedVendor
+    baseSprite:
+      sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/guns.rsi
+      state: base
+    animationSprite:
+      sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/guns.rsi
+      state: vend
+    sections:
+    - name: Основное оружие
+      entries:
+      - id: WeaponShotgunM42A2
+        amount: 30
+      - id: WeaponSMGM63
+        amount: 60
+      - id: RMCWeaponRifleM54C
+        amount: 60
+      - id: WeaponRifleM4SPR
+        amount: 20
+    - name: Пистолеты
+      entries:
+      - id: RMCWeaponPistolM77Empty
+        amount: 50
+      - id: RMCWeaponRevolverM44Empty
+        amount: 50
+      - id: CMWeaponPistolM1984Empty
+        amount: 50
+      - id: RMCWeaponPistolM13Empty
+        amount: 50
+      - id: RMCWeaponPistolM82FEmpty
+        amount: 20
+    - name: Оружие ограниченного доступа
+      entries:
+      - id: RMCGunCasePistolMK80
+        amount: 4
+      - id: RMCGunCasePistolSmart
+        amount: 3
+      - id: RMCMOU53Case
+        amount: 2
+      - id: RMCCaseXM88
+        amount: 3
+      - id: RMCGunCaseRifleM54CE2
+        amount: 3
+      - id: RMCM54CMK1Case
+        amount: 3
+      - id: RMCML66DCase
+        amount: 2
+      - id: RMCM2CCase
+        amount: 2
+      - id: RMCCaseFlamer
+        amount: 2
+      - id: RMCM85A1Case
+        amount: 3
+      - id: RMCGunCasePistolM13
+        amount: 3
+      - id: RMCXM51Case
+        amount: 3
+    - name: Взрывчатка
+      entries:
+      - id: CMGrenadeFragOld
+        amount: 2
+      - id: RMCExplosiveClaymoreMine
+        amount: 4
+      - id: CMGrenadeHighExplosive
+        amount: 25
+      - id: RMCGrenadeIncendiary
+        amount: 4
+      - id: RMCGrenadeWhitePhosphorusCompound
+        amount: 4
+      - id: CMGrenadeSmoke
+        amount: 5
+      - id: RMC40MMGrenadeM74AGMF
+        amount: 4
+      - id: RMC40MMGrenadeM74AGMI
+        amount: 4
+      - id: RMC40MMGrenadeM74AGMS
+        amount: 4
+      - id: RMCStarShellM74AGMS
+        amount: 2
+      - id: RMCHornetShellM74AGMS
+        amount: 4
+      - id: RMCBatonSlugHIRR
+        amount: 8
+      - id: RMCExplosivePlastic
+        amount: 3
+      - id: RMCExplosiveBreachingCharge
+        amount: 2
+    - name: Разгрузки
+      entries:
+      - id: CMWebbingBrown
+        amount: 2
+      - id: CMWebbingBlack
+        amount: 2
+      - id: RMCWebbingLegPouch
+        amount: 2
+      - id: RMCWebbingLegPouchBlack
+        amount: 2
+      - id: CMWebbing
+        amount: 5
+      - id: RMCWebbingBlackSmall
+        amount: 5
+      - id: RMCWebbingDropPouch
+        amount: 2
+      - id: RMCWebbingDropPouchBlack
+        amount: 2
+      - id: CMWebbingHolster
+        amount: 2
+      - id: RMCWebbingHolsterBlack
+        amount: 2
+      - id: CMWebbingKnivesFilled
+        amount: 1
+      - id: RMCOuterClothingExternalWebbing
+        amount: 2
+    - name: Рюкзаки
+      entries:
+      - id: CMBackpackMarine
+        amount: 15
+      - id: RMCScabbardShotgun
+        amount: 10
+      - id: RMCBackpackFlamer
+        amount: 2
+      - id: CMBackpackWelder
+        amount: 2
+      - id: CMBackpackMortar
+        amount: 1
+      - id: RMCSatchelWelder
+        amount: 5
+      - id: RMCBackpackAmmo
+        amount: 2
+      - id: RMCBackpackRTO
+        amount: 2
+      - id: RMCParachute
+        amount: 20
+      - id: RMCSatchelGrenadeSpec
+        amount: 2
+    - name: Ремни
+      entries:
+      - id: RMCBeltUtilityGeneral
+        amount: 2
+      - id: CMBeltMarine
+        amount: 15
+      - id: RMCBeltHolsterPistol
+        amount: 10
+      - id: RMCBeltHolsterM13
+        amount: 10
+      - id: CMBeltKnifeFilled
+        amount: 5
+        name: "Снаряжение с ножом M276 (полное)"
+      - id: RMCBeltHolsterSMG
+        amount: 5
+      - id: RMCBeltHolsterSMGPouch
+        amount: 5
+      - id: RMCBeltGrenade
+        amount: 2
+      - id: RMCBeltHolsterRevolver
+        amount: 5
+      - id: RMCM82FHolster
+        amount: 2
+      - id: RMCM276ShotgunShellLoadingRig
+        amount: 10
+      - id: CMBeltMortar
+        amount: 2
+    - name: Подсумки
+      entries:
+      - id: RMCPouchAutoinjector
+        amount: 1
+      - id: RMCPouchMedkit
+        amount: 2
+      - id: RMCPouchFirstAidInjectors
+        amount: 5
+      - id: RMCPouchFirstResponder
+        amount: 2
+        name: "Сумка первой помощи (пустая)"
+      - id: RMCPouchSyringe
+        amount: 2
+      - id: RMCPouchToolsFill
+        amount: 2
+        name: "Сумка для инструментов (полная)"
+      - id: RMCPouchConstruction
+        amount: 2
+      - id: RMCPouchElectronics
+        amount: 2
+      - id: RMCPouchExplosive
+        amount: 2
+      - id: RMCPouchFlareFilled
+        amount: 5
+        name: "сигнальная ракета pouch (Full)"
+      - id: RMCPouchDocumentSmall
+        amount: 2
+      - id: RMCPouchSling
+        amount: 2
+      - id: RMCPouchMacheteFilled
+        amount: 1
+        name: "подсумок для мачете (полный)"
+      - id: RMCPouchBayonetFill
+        amount: 2
+        name: "Штыковые ножны (полные)"
+      - id: RMCPouchGeneralMedium
+        amount: 2
+      - id: RMCPouchMagazine
+        amount: 5
+      - id: RMCPouchShotgun
+        amount: 5
+      - id: RMCPouchPistol
+        amount: 5
+      - id: RMCPouchMagazinePistolLarge
+        amount: 5
+      - id: RMCPouchFuelTank
+        amount: 4
+      - id: RMCPouchGeneralLarge
+        amount: 1
+      - id: RMCPouchMagazineLarge
+        amount: 1
+      - id: RMCPouchShotgunLarge
+        amount: 1
+    - name: Основные устройства
+      entries:
+      - id: RMCMotionDetector
+        amount: 4
+      - id: RMCIntelDetector
+        amount: 4
+      - id: RMCBinoculars
+        amount: 2
+      - id: RMCRangefinder
+        amount: 1
+      - id: RMCLaserDesignator
+        amount: 1
+      - id: RMCFulton20
+        amount: 1
+      - id: RMCSentryLaptop
+        amount: 4
+      - id: CMSparePDTLBattleBuddyKit
+        amount: 4
+    - name: Фальшфейеры и свет
+      entries:
+      - id: RMCFlashlight # Combat Flashlight
+        amount: 8
+      - id: RMCPackFlareCAS
+        amount: 2
+      - id: CMPackFlare
+        amount: 10
+    - name: Разное
+      entries:
+      - id: CMEntrenchingTool
+        amount: 4
+      - id: CMMaskGas
+        amount: 10
+      - id: RMCScabbardMacheteFilled
+        amount: 6
+      - id: CMFoldingBarricadesMB6x3
+        amount: 3
+      - id: RMCWeldingGoggles
+        amount: 3
+      - id: CMFireExtinguisherPortable
+        amount: 3
+      - id: RMCPowerCellHigh
+        amount: 1
+      - id: RMCPowerCellCrap
+        amount: 10
+      - id: RMCMagazineSMGNailgun
+        amount: 4
+    - name: Брошюры
+      entries:
+      - id: CMPamphletJTAC
+        amount: 1
+      - id: CMPamphletEngineer
+        amount: 1
+      - id: CMPamphletPowerloader
+        amount: 1
+    - name: Ящики со взрывчаткой
+      hasBoxes: true
+      entries:
+      - id: CMPacketGrenadeFragOldFilled
+        name: "Пачка осколочных гранат M15"
+        box: CMGrenadeFragOld
+        boxAmount: 3
+        boxSlots: 3
+      - id: RMCBoxClaymoreMineFilled
+        name: "Ящик противопехотных мин M20 «Клеймор»"
+        box: RMCExplosiveClaymoreMine
+        boxAmount: 5
+        boxSlots: 5
+      - id: CMPacketGrenadeHighExplosiveFilled
+        name: "Пачка гранат 30мм HEDP"
+        box: CMGrenadeHighExplosive
+        boxAmount: 3
+        boxSlots: 3
+      - id: RMCPacketGrenadeIncendiaryFilled
+        name: "Пачка гранат 30мм HIDP"
+        box: RMCGrenadeIncendiary
+        boxAmount: 3
+        boxSlots: 3
+      - id: RMCPacketGrenadeWhitePhosphorusCompoundFilled
+        name: "Пачка гранат 30мм CCDP"
+        box: RMCGrenadeWhitePhosphorusCompound
+        boxAmount: 3
+        boxSlots: 3
+      - id: RMCPacketGrenadeSmokeFilled
+        name: "Пачка гранат 30мм HSDP"
+        box: CMGrenadeSmoke
+        boxAmount: 3
+        boxSlots: 3
+      - id: RMCPacketGrenadeM74AGMFFilled
+        name: "Пачка осколочных гранат M74 AGM-F"
+        box: RMC40MMGrenadeM74AGMF
+        boxAmount: 3
+        boxSlots: 3
+      - id: RMCPacketGrenadeM74AGMIFilled
+        name: "Пачка зажигательных гранат M74 AGM-I"
+        box: RMC40MMGrenadeM74AGMI
+        boxAmount: 3
+        boxSlots: 3
+      - id: RMCPacketGrenadeM74AGMSFilled
+        name: "Пачка дымовых гранат M74 AGM-S"
+        box: RMC40MMGrenadeM74AGMS
+        boxAmount: 3
+        boxSlots: 3
+      - id: RMCPacketGrenadeM74AGMSStarShellFilled
+        name: "Пачка осветительных гранат M74 AGM-S «Старшелл»"
+        box: RMCStarShellM74AGMS
+        boxAmount: 3
+        boxSlots: 3
+      - id: RMCPacketGrenadeM74AGMSHornetFilled
+        name: "Пачка осколочных гранат M74 AGM-S «Хорнет»"
+        box: RMCHornetShellM74AGMS
+        boxAmount: 3
+        boxSlots: 3
+      - id: RMCPacketGrenadeBatonSlugHIRRFilled
+        name: "Пачка травматических патронов HIRR"
+        box: RMCBatonSlugHIRR
+        boxAmount: 3
+        boxSlots: 3
+  - type: GuideHelp
+    guides:
+    - RMCRequisitions
+
+- type: entity
+  parent: ColMarTechCargo
+  id: ColMarTechCargoAmmo
+  name: "Автомат излишков боеприпасов ASRS"
+  description: An automated supply rack hooked up to a big storage of various ammunition types. Can be accessed by the Logistics Officer and Requisitions Technicians.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/ammo.rsi
+  - type: RMCRequisitionsVendor
+  - type: CMAutomatedVendor
+    ignoreBulkRestockById:
+    - RMCBoxShotgunBuckshot
+    - RMCBoxShotgunFlechette
+    - RMCBoxShotgunSlugs
+    - RMCBoxShotgunBreaching
+    - RMCBox458SOCOM
+    baseSprite:
+      sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/ammo.rsi
+      state: base
+    animationSprite:
+      sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/ammo.rsi
+      state: vend
+    sections:
+    - name: Обычные боеприпасы
+      entries:
+      - id: RMCBoxShotgunBuckshot
+        amount: 56
+      - id: RMCBoxShotgunFlechette
+        amount: 56
+      - id: RMCBoxShotgunSlugs
+        amount: 56
+      - id: RMCBoxShotgunBreaching
+        amount: 4
+      - id: CMMagazineRifleM4SPR
+        amount: 60
+      - id: CMMagazineRifleM54C
+        amount: 100
+      - id: CMMagazineSMGM63
+        amount: 100
+      - id: RMCSpeedLoaderM44
+        amount: 80
+      - id: CMMagazinePistolM1984
+        amount: 100
+      - id: RMCMagazinePistolM13
+        amount: 100
+    - name: Бронебойные боеприпасы
+      entries:
+      - id: CMMagazinePistolM77AP
+        amount: 50
+      - id: CMMagazineRifleM4SPRAP
+        amount: 16
+      - id: CMMagazineSMGM63AP
+        amount: 12
+      - id: CMMagazineRifleM54CAP
+        amount: 10
+      - id: RMCMagazinePistolM1984AP
+        amount: 2
+    - name: Увеличенные магазины
+      entries:
+      - id: CMMagazineSMGM63Ext
+        amount: 10
+      - id: CMMagazineRifleM4SPRExt
+        amount: 10
+      - id: CMMagazineRifleM54CExt
+        amount: 8
+      - id: RMCMagazinePistolM13Ext
+        amount: 5
+    - name: Специальные боеприпасы
+      entries:
+      - id: RMCPowerCellSmartgun
+        amount: 4
+      - id: RMCMagazineSmartGun
+        amount: 4
+      - id: RMCSpeedLoader44Marksman
+        amount: 16 # TODO RMC14 6 once heavy is in
+      - id: RMCMagazinePistolM1984HP
+        amount: 2
+      - id: CMMagazineRifleM54CE2HT
+        amount: 2
+      - id: RMCBox458SOCOM
+        amount: 4
+    - name: Боеприпасы ограниченного доступа
+      entries:
+      - id: CMMagazinePistolMK80
+        amount: 11
+      - id: RMCMagazinePistolSU6
+        amount: 13
+      - id: RMCTankFlamer
+        amount: 3
+      - id: CMMagazineRifleM54CE2
+        amount: 3
+      - id: CMMagazineRifleM54CMK1
+        amount: 5
+      - id: CMMagazineRifleM54CMK1AP
+        amount: 2
+      - id: RMCMagazineML66D
+        amount: 2
+      - id: RMCMagazineM2C
+        amount: 2
+      - id: RMCMagazineShotgunXM51
+        amount: 3
+    - name: Ящики с магазинами
+      hasBoxes: true
+      entries:
+      - id: RMCBoxMagazinePistolM13
+        name: "Магазин Box (M13 x 16)"
+        box: RMCMagazinePistolM13
+
+      - id: RMCBoxMagazinePistolM13Ext
+        name: "Магазин Box (Ext M13 x 10)"
+        box: RMCMagazinePistolM13Ext
+
+      - id: RMCBoxMagazineSMGM63
+        name: "Магазин Box (M63 x 12)"
+        box: CMMagazineSMGM63
+
+      - id: RMCBoxMagazineSMGM63AP
+        name: "Магазин Box (AP M63 x 12)"
+        box: CMMagazineSMGM63AP
+
+      - id: RMCBoxMagazineSMGM63Ext
+        name: "Магазин Box (Ext M63 x 10)"
+        box: CMMagazineSMGM63Ext
+
+      - id: RMCBoxMagazineRifleM54C
+        name: "Магазин Box (M54C x 10)"
+        box: CMMagazineRifleM54C
+
+      - id: RMCBoxMagazineRifleM54CAP
+        name: "Магазин Box (AP M54C x 10)"
+        box: CMMagazineRifleM54CAP
+
+      - id: RMCBoxMagazineRifleM54CExt
+        name: "Магазин Box (Ext M54C x 8)"
+        box: CMMagazineRifleM54CExt
+
+      - id: RMCBoxMagazinePistolM1984
+        name: "Магазин Box (M1984 x 16)"
+        box: CMMagazinePistolM1984
+
+      - id: RMCBoxMagazinePistolM1984AP
+        name: "Магазин Box (AP M1984 x 16)"
+        box: RMCMagazinePistolM1984AP
+
+      - id: RMCBoxMagazinePistolM1984HP
+        name: "Магазин Box (HP M1984 x 16)"
+        box: RMCMagazinePistolM1984HP
+
+      - id: RMCBoxMagazineRifleM4SPR
+        name: "Магазин Box (M4SPR x 16)"
+        box: CMMagazineRifleM4SPR
+
+      - id: RMCBoxMagazineRifleM4SPRAP
+        name: "Магазин Box (AP M4SPR x 16)"
+        box: CMMagazineRifleM4SPRAP
+
+      - id: RMCBoxMagazineRifleM4SPRExt
+        name: "Магазин Box (Ext M4SPR x 16)"
+        box: CMMagazineRifleM4SPRExt
+
+      - id: RMCBoxShellsBuckshot
+        name: "Магазин Box (Buckshot x 100)"
+        box: RMCBoxShotgunBuckshot
+        boxAmount: 4
+
+      - id: RMCBoxShellsFlechette
+        name: "Магазин Box (Flechette x 100)"
+        box: RMCBoxShotgunFlechette
+        boxAmount: 4
+
+      - id: RMCBoxShellsSlugs
+        name: "Магазин Box (Slugs x 100)"
+        box: RMCBoxShotgunSlugs
+        boxAmount: 4
+
+      - id: RMCBoxShellsBreaching
+        name: "Магазин Box (16g) (Breaching x 120)"
+        box: RMCBoxShotgunBreaching
+        boxAmount: 4
+
+      - id: RMCBoxMagazinePistolM77AP
+        name: "Магазин Box (M77 AP x 16)"
+        box: CMMagazinePistolM77AP
+
+      - id: RMCBoxMagazinePistolSU6
+        name: "Магазин Box (SU-6 x 16)"
+        box: RMCMagazinePistolSU6
+
+      - id: RMCBoxMagazinePistolMK80
+        name: "Магазин Box (MK80 x 16)"
+        box: CMMagazinePistolMK80
+
+      - id: RMCBoxBullets458
+        box: RMCBox458SOCOM
+        boxAmount: 3
+        boxSlots: 3
+
+      - id: RMCBoxMagazineRevolverM44
+        name: "Магазин Box (M44 x 16)"
+        box: RMCSpeedLoaderM44
+
+      - id: RMCBoxMagazineRevolverM44Marksman
+        name: "Магазин Box (Marksman M44 x 16)"
+        box: RMCSpeedLoader44Marksman
+
+
+    - name: Ящики с боеприпасами
+      hasBoxes: true
+      entries:
+      - id: RMCBoxBulletsSMG
+        name: "Коробка патронов SMG HV (10x20мм) (M63)"
+        box: CMMagazineSMGM63
+        boxSlots: 13 # 600 / 48, yes we lose half a mag to the void
+      - id: RMCBoxBulletsSMGAP
+        name: "Коробка патронов SMG (10x20мм ББ) (M63)"
+        box: CMMagazineSMGM63AP
+        boxSlots: 13 # 600 / 48, yes we lose half a mag to the void
+      - id: RMCBoxBulletsRifle
+        name: "коробка с патронами для винтовки (10x24мм) (M4SPR)"
+        box: CMMagazineRifleM4SPR
+        boxSlots: 24 # 600 / 25
+      - id: RMCBoxBulletsRifleAP
+        name: "коробка с бронебойными патронами для винтовки (10x24мм ББ) (M4SPR)"
+        box: CMMagazineRifleM4SPRAP
+        boxSlots: 24 # 600 / 25
+      - id: RMCBoxBulletsRifle
+        name: "коробка с патронами для винтовки (10x24мм) (M54C)"
+        box: CMMagazineRifleM54C
+        boxSlots: 15 # 600 / 40
+      - id: RMCBoxBulletsRifleAP
+        name: "коробка с бронебойными патронами для винтовки (10x24мм ББ) (M54C)"
+        box: CMMagazineRifleM54CAP
+        boxSlots: 15 # 600 / 40
+  - type: GuideHelp
+    guides:
+    - RMCRequisitions
+
+- type: entity
+  parent: ColMarTechCargo
+  id: ColMarTechCargoAttachments
+  name: "Автомат излишков обвесов ASRS"
+  description: An automated supply rack hooked up to a big storage of weapons attachments. Can be accessed by the Logistics Officer and Requisitions Technicians.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/attachments.rsi
+  - type: RMCRequisitionsVendor
+  - type: CMAutomatedVendor
+    baseSprite:
+      sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/attachments.rsi
+      state: base
+    animationSprite:
+      sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/requisitions_wall/attachments.rsi
+      state: vend
+    sections:
+    - name: Стволы
+      entries:
+      - id: RMCAttachmentExtendedBarrel
+        amount: 7
+      - id: RMCM5Bayonet
+        amount: 11
+      - id: RMCAttachmentRecoilCompensator
+        amount: 7
+      - id: RMCAttachmentRecoilCompensatorM13
+        amount: 7
+      - id: RMCAttachmentSuppressor
+        amount: 7
+      - id: RMCAttachmentSuppressorCompact
+        amount: 7
+      - id: RMCAttachmentShotgunChoke
+        amount: 5
+    - name: Планки
+      entries:
+      - id: RMCAttachmentB8SmartScope
+        amount: 4
+      - id: RMCAttachmentMagneticHarness
+        amount: 9
+      - id: RMCAttachmentRailFlashlight
+        amount: 11
+      - id: RMCAttachmentS42xTelescopicMiniscope
+        amount: 5
+      - id: RMCAttachmentS5RedDotSight
+        amount: 10
+      - id: RMCAttachmentS5MicroRedDotSight
+        amount: 10
+      - id: RMCAttachmentS6ReflexSight
+        amount: 10
+      - id: RMCAttachmentS84xTelescopicScope
+        amount: 5
+    - name: Подствольные модули
+      entries:
+      - id: RMCAttachmentAngledGrip
+        amount: 7
+      - id: RMCAttachmentBipod
+        amount: 7
+      - id: RMCAttachmentBurstFireAssembly
+        amount: 5
+      - id: RMCAttachmentGyroscopicStabilizer
+        amount: 5
+      - id: RMCAttachmentLaserSight
+        amount: 10
+      - id: RMCAttachmentMicroLaserSight
+        amount: 4
+      - id: RMCAttachmentMiniFlamethrower
+        amount: 5
+      - id: RMCAttachmentXMVESG1FlamerNozzle
+        amount: 5
+      - id: RMCAttachmentU7UnderbarrelShotgun
+        amount: 5
+      - id: RMCAttachmentUnderbarrelExtinguisher
+        amount: 5
+      - id: RMCAttachmentFlashlightGrip
+        amount: 10
+      - id: RMCAttachmentU1GrenadeLauncher
+        amount: 10
+      - id: RMCAttachmentVerticalGrip
+        amount: 10
+    - name: Приклады
+      entries:
+      - id: RMCAttachmentM13StockSolid
+        amount: 3
+      - id: RMCAttachmentM13StockCollapsible
+        amount: 2
+      - id: RMCAttachmentM42A2CollapsibleStock
+        amount: 5
+      - id: RMCAttachmentM63ArmBrace
+        amount: 5
+      - id: RMCAttachmentM63Stock
+        amount: 5
+      - id: RMCAttachmentM63StockCollapsible
+        amount: 5
+      - id: RMCAttachmentM54CStockSolid
+        amount: 5
+      - id: RMCAttachmentM54CStockCollapsible
+        amount: 5
+      - id: RMCAttachmentM44MagnumSharpshooterStock
+        amount: 5
+  - type: GuideHelp
+    guides:
+    - RMCRequisitions
+
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechCargoUniform
+  name: "Автомат излишков униформы ASRS"
+  description: An automated supply rack hooked up to a big storage of standard marine uniforms. Can be accessed by the Logistics Officer and Requisitions Technicians.
+  suffix: Requisitions
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessRequisitions" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+  - type: CMAutomatedVendor
+    canManualRestock: true
+    sections:
+    - name: Униформа
+      entries:
+      - id: JumpsuitMarine
+        amount: 20
+      - id: CMJumpsuitMarineEngineer
+        amount: 5
+      - id: CMJumpsuitMarineMedic
+        amount: 5
+    - name: Ботинки
+      entries:
+      - id: CMBootsBlack
+        amount: 20
+      - id: CMBootsBrown
+        amount: 5
+      - id: CMBootsGrey
+        amount: 5
+    - name: Рюкзаки
+      entries:
+      - id: CMBackpackMarine
+        amount: 20
+      - id: CMSatchelMarine
+        amount: 20
+      - id: CMBackpackMarineTech
+        amount: 10
+      - id: CMSatchelMarineTech
+        amount: 10
+      - id: CMBackpackMarineMedic
+        amount: 10
+      - id: CMSatchelMarineMedic
+        amount: 10
+    - name: Броня
+      entries:
+      - id: ArmorHelmetM10
+        amount: 20
+      - id: CMArmorHelmetM10Tech
+        amount: 20
+      - id: CMArmorHelmetM10Medic
+        amount: 20
+      - id: RMCArmorVestSquad
+        amount: 15
+      - id: RMCArmorM3MediumCarrier
+        amount: 15
+      - id: RMCArmorM3MediumPadded
+        amount: 15
+      - id: RMCArmorM3MediumPadless
+        amount: 15
+      - id: RMCArmorM3MediumRidged
+        amount: 15
+      - id: RMCArmorM3MediumSkull
+        amount: 15
+      - id: RMCArmorM3MediumSmooth
+        amount: 15
+      - id: RMCArmorM3HeavyPadded
+        amount: 10
+      - id: RMCArmorM3LightPadded
+        amount: 10
+    - name: Перчатки
+      entries:
+      - id: RMCHandsBrownMarine
+        amount: 40
+      - id: RMCHandsGreyMarine
+        amount: 40
+      - id: CMHandsBlackMarine
+        amount: 40
+    - name: Рации
+      entries:
+      - id: RMCHeadsetShip
+        amount: 5
+      - id: RMCHeadsetMarine
+        amount: 5
+    - name: Маски
+      entries:
+      - id: CMMaskGas
+        amount: 20
+      - id: CMMaskCoif
+        amount: 10
+      - id: RMCMaskRebreather
+        amount: 20
+    - name: Очки
+      entries:
+      - id: RMCGogglesBallistic
+        amount: 10
+      - id: RMCGogglesM1A1Ballistic
+        amount: 10
+      - id: RMCGogglesPrescriptionBallistic
+        amount: 10
+      - id: RMCGlassesMarineRpg
+        amount: 10
+    - name: Разное
+      entries:
+      - id: BedrollFolded
+        amount: 30
+      - id: RMCM5CameraGear
+        amount: 5
+      - id: RMCHelmetGarbNetting
+        amount: 10
+      - id: RMCHelmetGarbRainCover
+        amount: 10
+      - id: RMCPatchFallingFalcons
+        amount: 15
+      - id: RMCPatchFallingFalconsAlt
+        amount: 15
+        name: "Нарукавная нашивка ООН «Падающие соколы»"
+      - id: RMCPatchFallingFalconsLarge
+        amount: 15
+        name: "Большая нагрудная нашивка «Падающие соколы»"
+      - id: RMCPatchUNMC
+        amount: 15
+        name: "Наплечная нашивка UNMC"
+      - id: RMCPatchUnitedNations
+        amount: 15
+        name: "Наплечная нашивка ООН"
+      - id: RMCPatchUnitedNationsSquare
+        amount: 15
+        name: "Наплечная нашивка с флагом ООН"
+    - name: Книги
+      entries:
+      - id: RMCGuidebookLawMarine
+        amount: 10
+      - id: RMCGuidebookSOP
+        amount: 10
+  - type: GuideHelp
+    guides:
+    - RMCRequisitions

@@ -1,0 +1,281 @@
+- type: entity
+  id: RMCBaseMapIcon
+  parent: BaseItem
+  name: "Иконка"
+  abstract: true
+  suffix: GuideBookEntity
+  components:
+  - type: Sprite
+    sprite: /Textures/_RMC14/Interface/map_blips.rsi
+
+# Tier 0
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCLesserMapIcon
+  name: "Малый"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: lesser_drone
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCParasiteMapIcon
+  name: "Паразит"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: parasite
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCLarvaMapIcon
+  name: "Личинка"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: larva
+
+# Drone Castes
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCDroneMapIcon
+  name: "Дрон"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: drone
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCHivelordMapIcon
+  name: "Владыка улья"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: hivelord
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCBurrowerMapIcon
+  name: "Нораer"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: burrower
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCCarrierMapIcon
+  name: "Носитель"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: carrier
+
+# Defender Castes
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCDefenderMapIcon
+  name: "Защитник"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: defender
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCWarriorMapIcon
+  name: "Воин"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: warrior
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCCrusherMapIcon
+  name: "Крушитель"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: crusher
+# Sentinel Castes
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCSentinelMapIcon
+  name: "Страж"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: sentinel
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCSpitterMapIcon
+  name: "Плеватель"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: spitter
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCBoilerMapIcon
+  name: "Бойлер"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: boiler
+
+# Runner Castes
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCRunnerMapIcon
+  name: "Бегун"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: runner
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCLurkerMapIcon
+  name: "Скрытень"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: lurker
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCRavagerMapIcon
+  name: "Опустошитель"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: ravager
+
+# Special Castes
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCPraetorianMapIcon
+  name: "Преторианец"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: praetorian
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCQueenMapIcon
+  name: "Королева"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: xeno_ruler
+    - state: xenoqueen
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCLeaderMapIcon
+  name: "Лидер Crown"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - state: background_xeno
+    - state: xeno
+    - state: xenoleader
+
+# Structures
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCHiveCoreMapIcon
+  name: "Ядро улья"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    state: core
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCMorpherMapIcon
+  name: "Яйцеморф"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    state: morpher
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCClusterMapIcon
+  name: "Скопление улья"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    state: cluster
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCTunnelMapIcon
+  name: "Туннель"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    state: xenotunnel
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCRecovNodeMapIcon
+  name: "Узел восстановления"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    state: recovery_node
+
+- type: entity
+  parent: RMCBaseMapIcon
+  id: RMCPylonMapIcon
+  name: "пилон улья"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    state: pylon

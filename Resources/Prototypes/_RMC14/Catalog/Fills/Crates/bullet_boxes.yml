@@ -1,0 +1,35 @@
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateBoxBulletsRifle
+  name: "ящик с патронами для винтовки (10x24мм) (x600 патронов)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxBulletsRifle
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateBoxBulletsRifleAP
+  name: "ящик с бронебойными патронами для винтовки (10x24мм ББ) (x600 патронов)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxBulletsRifleAP
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateBoxBulletsSMG
+  name: "ящик с патронами для ПП (10x20мм) (x600 патронов)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxBulletsSMG
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateBoxBulletsSMGAP
+  name: "ящик с бронебойными патронами для ПП (10x20мм ББ) (x600 патронов)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxBulletsSMGAP

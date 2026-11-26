@@ -1,0 +1,1 @@
+ent-RMCSurvivorPresetHybrisaSynthDetective = набор выжившего синтетика-детектива Гибриса

@@ -1,0 +1,21 @@
+ent-RMCSpaceCash = космические доллары
+ent-RMCSpaceCash1 = купюра в 1 доллар
+ent-RMCSpaceCash10 = { ent-RMCSpaceCash1 }
+    .suffix = 10
+ent-RMCSpaceCash20 = { ent-RMCSpaceCash1 }
+    .suffix = 20
+ent-RMCSpaceCash50 = { ent-RMCSpaceCash1 }
+    .suffix = 50
+ent-RMCSpaceCash100 = { ent-RMCSpaceCash1 }
+    .suffix = 100
+ent-RMCSpaceCash200 = { ent-RMCSpaceCash1 }
+    .suffix = 200
+ent-RMCSpaceCash500 = { ent-RMCSpaceCash1 }
+    .suffix = 500
+ent-RMCSpaceCash1000 = { ent-RMCSpaceCash1 }
+    .suffix = 1000
+ent-RMCSpaceCash1000Counterfeit = { ent-RMCSpaceCash1000 }
+    .suffix = Поддельные
+
+ent-STSpaceCash1Counterfeit = { ent-RMCSpaceCash1 }
+    .suffix = Поддельные

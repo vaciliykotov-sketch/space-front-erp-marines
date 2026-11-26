@@ -1,0 +1,14 @@
+ent-BaseMeleeWeaponEnergy = { ent-BaseItem }
+ent-EnergySword = меч с энергетическим клинком
+ent-EnergyDaggerLoud = громкий энергокинжал
+ent-EnergyDagger = ручка-клинок
+    .suffix = Энергокинжал
+ent-EnergyDaggerBox = пенал для энергокинжала
+    .suffix = Энергокинжал
+ent-EnergyCutlass = энергетическая сабля для абордажа
+ent-EnergySwordDouble = энергомеч с двумя клинками
+ent-HyperEutacticBlade = клинок гиперэвтектического сплава
+ent-CyborgEnergySwordDouble = { ent-EnergySwordDouble }
+    .suffix = Одноручное, Для боргов
+ent-EnergyDaggerLoudBlue = { ent-EnergyDaggerLoud }
+    .suffix = синий

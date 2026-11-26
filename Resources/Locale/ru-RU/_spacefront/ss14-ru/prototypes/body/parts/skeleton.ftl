@@ -1,0 +1,11 @@
+ent-PartSkeleton = фрагмент скелета
+ent-TorsoSkeleton = скелетный корпус
+ent-HeadSkeleton = скелетный череп
+ent-LeftArmSkeleton = скелетная левая рука
+ent-RightArmSkeleton = скелетная правая рука
+ent-LeftHandSkeleton = левая скелетная кисть
+ent-RightHandSkeleton = правая скелетная кисть
+ent-LeftLegSkeleton = левая скелетная нога
+ent-RightLegSkeleton = правая скелетная нога
+ent-LeftFootSkeleton = левая скелетная стопа
+ent-RightFootSkeleton = правая скелетная стопа

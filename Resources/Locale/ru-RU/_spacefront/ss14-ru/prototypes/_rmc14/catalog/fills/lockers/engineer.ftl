@@ -1,0 +1,10 @@
+ent-CMClosetToolFilled = { ent-CMClosetTool }
+    .suffix = Заполненный
+ent-CMClosetRadiationFilled = { ent-CMClosetRadiation }
+    .suffix = Заполненный
+ent-CMClosetRadiationFilledTycho = шкаф для радиационной защиты
+    .suffix = Заполненный, костюм Тихо 4000
+ent-RMCLockerEngineerFilled = { ent-CMLockerEngineer }
+    .suffix = Заполненный
+ent-RMCLockerEngineerWelderFilled = { ent-CMLockerEngineerWelder }
+    .suffix = Заполненный

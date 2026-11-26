@@ -1,0 +1,1 @@
+ent-ActionAnimateSpell = Оживление предметов

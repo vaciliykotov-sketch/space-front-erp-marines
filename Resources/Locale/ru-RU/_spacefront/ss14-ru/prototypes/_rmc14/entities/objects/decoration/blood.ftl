@@ -1,0 +1,15 @@
+ent-RMCBlackMarketMendozaBloodBase = кровь
+ent-RMCBlackMarketMendozaHumanBlood1 = { ent-RMCBlackMarketMendozaBloodBase }
+ent-RMCBlackMarketMendozaHumanBlood2 = { ent-RMCBlackMarketMendozaBloodBase }
+ent-RMCBlackMarketMendozaHumanBlood3 = { ent-RMCBlackMarketMendozaBloodBase }
+ent-RMCBlackMarketMendozaHumanBlood4 = { ent-RMCBlackMarketMendozaBloodBase }
+ent-RMCBlackMarketMendozaHumanBlood5 = { ent-RMCBlackMarketMendozaBloodBase }
+ent-RMCBlackMarketMendozaHumanBlood6 = { ent-RMCBlackMarketMendozaBloodBase }
+ent-RMCBlackMarketMendozaHumanBlood7 = { ent-RMCBlackMarketMendozaBloodBase }
+ent-RMCBlackMarketMendozaXenoBlood1 = кровь ксеноса
+ent-RMCBlackMarketMendozaXenoBlood2 = кровь ксеноса
+ent-RMCBlackMarketMendozaXenoBlood3 = кровь ксеноса
+ent-RMCBlackMarketMendozaXenoBlood4 = кровь ксеноса
+ent-RMCBlackMarketMendozaXenoBlood5 = кровь ксеноса
+ent-RMCBlackMarketMendozaXenoBlood6 = кровь ксеноса
+ent-RMCBlackMarketMendozaXenoBlood7 = кровь ксеноса

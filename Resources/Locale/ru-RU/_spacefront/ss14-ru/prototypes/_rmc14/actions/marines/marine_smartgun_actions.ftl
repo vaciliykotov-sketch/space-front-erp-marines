@@ -1,0 +1,9 @@
+ent-ActionMarineToggleable = { ent-ActionMarineBase }
+ent-RMCGuidebookActionSmartGunBase = { "" }
+ent-RMCActionToggleAmmo = Сменить боеприпасы
+ent-RMCActionToggleRecoil = Вкл/выкл подавление отдачи
+ent-RMCActionToggleAutoFire = Режим автоогня вкл/выкл
+ent-RMCActionToggleFarSight = Дальнее прицеливание вкл/выкл
+ent-RMCActionToggleMotionDetector = Детектор движения вкл/выкл
+ent-RMCGuidebookActionIFF = { ent-RMCGuidebookActionSmartGunBase }
+ent-RMCGuidebookActionMotionDetector = { ent-RMCGuidebookActionSmartGunBase }

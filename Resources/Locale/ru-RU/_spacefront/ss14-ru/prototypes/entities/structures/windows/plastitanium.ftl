@@ -1,0 +1,11 @@
+ent-PlastitaniumWindowBase = окно из пластитана
+ent-PlastitaniumWindowSquareBase = окно пластитановое квадратное
+ent-PlastitaniumWindowIndestructible = окно пластитановое неразрушимое
+    .suffix = Неразрушимое
+ent-PlastitaniumWindow = окно пластитановое (обычное)
+ent-PlastitaniumWindowDiagonalBase = окно пластитановое диагональное
+    .suffix = Дигональ
+ent-PlastitaniumWindowDiagonalIndestructible = окно пластитановое диагональное неразрушимое
+    .suffix = Дигональ, Неразрушимое
+ent-PlastitaniumWindowDiagonal = окно пластитановое диагональное (обычное)
+    .suffix = Дигональ

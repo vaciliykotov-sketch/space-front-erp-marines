@@ -1,0 +1,35 @@
+ent-BaseAction = { "" }
+ent-BaseMentalAction = { ent-BaseAction }
+ent-BaseSuicideAction = { ent-BaseMentalAction }
+ent-BaseImplantAction = { ent-BaseAction }
+ent-BaseToggleAction = { ent-BaseAction }
+ent-ActionScream = Закричать
+ent-ActionTurnUndead = В зомби обратиться
+ent-ActionToggleLight = Фонарь вкл/выкл
+ent-ActionOpenStorageImplant = Имплант Хранилище вкл/выкл
+ent-ActionActivateMicroBomb = Запустить имплант Микробомба
+ent-ActionActivateDeathAcidifier = Запустить имплант Посмертный растворитель
+ent-ActionActivateFreedomImplant = Запустить имплант Свобода
+ent-ActionOpenUplinkImplant = Аплинк открыть
+ent-ActionActivateEmpImplant = ЭМИ запустить
+ent-ActionActivateScramImplant = СБЕЖАТЬ!
+ent-ActionActivateDnaScramblerImplant = ДНК перемешать
+ent-ActionToggleSuitPiece = Элементы костюма вкл/выкл
+ent-ActionCombatModeToggle = [color=red]Режим боя[/color]
+ent-ActionCombatModeToggleOff = { ent-ActionCombatModeToggle }
+ent-ActionChangeVoiceMask = Имя сменить
+ent-ActionVendingThrow = Предмет выдать
+ent-ActionToggleBlock = Блок
+ent-ActionClearNetworkLinkOverlays = Сетевые соединения: оверлей очистить
+ent-ActionAnimalLayEgg = Яйцо снести
+ent-ActionSleep = Заснуть
+ent-ActionWake = Очнуться
+ent-ActionActivateHonkImplant = Хонк!
+ent-ActionFireStarter = Воспламенить
+ent-ActionToggleEyes = Сомкнуть/разомкнуть веки
+ent-ActionToggleWagging = Вилять хвостом
+ent-FakeMindShieldToggleAction = [color=green]Вкл/выкл поддельный Щит разума[/color]
+ent-ActionToggleParamedicSiren = Вкл/выкл сирену парамедика
+ent-ActionGravityJump = Jump
+ent-ActionToggleRootable = Пустить корни
+ent-ActionChameleonController = Контроль над одеждой

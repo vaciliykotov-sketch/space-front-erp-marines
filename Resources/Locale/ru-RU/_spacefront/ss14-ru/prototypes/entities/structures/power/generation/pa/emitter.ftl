@@ -1,0 +1,9 @@
+ent-ParticleAcceleratorEmitterPort = излучатель сдерживающий левый УЧ
+ent-ParticleAcceleratorEmitterFore = излучатель сдерживающий центральный УЧ
+ent-ParticleAcceleratorEmitterStarboard = излучатель сдерживающий правый УЧ
+ent-ParticleAcceleratorEmitterPortUnfinished = излучатель сдерживающий левый УЧ
+    .suffix = Незаконченный, Левый
+ent-ParticleAcceleratorEmitterForeUnfinished = излучатель сдерживающий центральный УЧ
+    .suffix = Незаконченный, Центральный
+ent-ParticleAcceleratorEmitterStarboardUnfinished = излучатель сдерживающий правый УЧ
+    .suffix = Незаконченный, Правый

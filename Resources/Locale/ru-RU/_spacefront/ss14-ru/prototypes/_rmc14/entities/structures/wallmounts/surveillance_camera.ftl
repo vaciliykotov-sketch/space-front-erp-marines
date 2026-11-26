@@ -1,0 +1,9 @@
+ent-RMCSurveillanceCameraAlmayer = камера слежения на корабле
+ent-RMCMonitorCameraAlmayer = камера наблюдения на судне
+    .suffix = Алмайер
+ent-RMCMonitorCameraAlamo = { ent-RMCSurveillanceCameraAlmayer }
+    .suffix = Аламо
+ent-RMCMonitorCameraNormandy = { ent-RMCSurveillanceCameraAlmayer }
+    .suffix = Нормандия
+ent-RMCMonitorCameraLandingZone = камера наблюдения за зоной высадки
+    .suffix = Зона высадки

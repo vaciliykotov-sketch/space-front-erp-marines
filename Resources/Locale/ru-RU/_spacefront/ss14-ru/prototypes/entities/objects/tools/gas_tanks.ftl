@@ -1,0 +1,14 @@
+ent-GasTankBase = { ent-BaseItem }
+ent-GasTankRoundBase = { ent-GasTankBase }
+ent-OxygenTank = баллон с кислородом
+ent-NitrogenTank = баллон с азотом
+ent-EmergencyOxygenTank = кислородный баллон для экстренных случаев
+ent-EmergencyNitrogenTank = азотный баллон для экстренных случаев
+ent-ExtendedEmergencyOxygenTank = аварийный кислородный баллон с увеличенным объёмом
+ent-ExtendedEmergencyNitrogenTank = аварийный азотный баллон с увеличенным объёмом
+ent-DoubleEmergencyOxygenTank = сдвоенный кислородный баллон для аварийных ситуаций
+ent-DoubleEmergencyNitrogenTank = сдвоенный азотный баллон для аварийных ситуаций
+ent-EmergencyFunnyOxygenTank = забавный аварийный кислородный баллон
+ent-AirTank = баллон с воздухом
+ent-NitrousOxideTank = баллон с оксидом азота
+ent-PlasmaTank = плазменный баллон

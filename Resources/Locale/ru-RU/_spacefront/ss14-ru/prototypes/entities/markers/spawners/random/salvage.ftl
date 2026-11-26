@@ -1,0 +1,14 @@
+ent-SalvageMaterialCrateSpawner = точка появления обломочного ящика с материалами
+ent-SalvageLootSpawner = точка появления обломочной добычи
+ent-SalvageMobSpawner = точка появления обломочного существа
+    .suffix = 25
+ent-SpaceTickSpawner = точка появления космического клеща
+    .suffix = 100
+ent-SpawnMobBearSalvage = точка появления обломочного космического медведя
+ent-SalvageMobSpawner75 = { ent-SalvageMobSpawner }
+    .suffix = 75
+ent-SpawnMobKangarooSalvage = точка появления обломочного космического кенгуру
+ent-SpawnMobSpiderSalvage = точка появления обломочного космического паука
+ent-SpawnMobCobraSalvage = точка появления обломочной космической кобры
+ent-SalvageFleshSpawner = точка появления обломочной плоти
+    .suffix = 100

@@ -1,0 +1,11 @@
+ent-ClothingUniformDressVintage = платье в винтажном стиле
+ent-ClothingUniformSwimBlack = купальник чёрного цвета
+ent-ClothingUniformSwimBlue = купальник синего цвета
+ent-ClothingUniformSwimDarkGreen = купальник тёмно-зелёного цвета
+ent-ClothingUniformSwimGreen = купальник зелёного цвета
+ent-ClothingUniformSwimPurple = купальник фиолетового цвета
+ent-ClothingUniformSwimRed = купальник красного цвета
+ent-ClothingUniformTangoDressBlack = платье для танго чёрного цвета
+ent-ClothingUniformTangoDressWhite = платье для танго белого цвета
+ent-ClothingUniformJumpskirtBartenderRed = барменская униформа красного цвета
+ent-ClothingUniformJumpskirtBartenderGreen = барменская униформа зелёного цвета

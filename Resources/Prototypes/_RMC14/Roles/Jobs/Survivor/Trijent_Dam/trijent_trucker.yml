@@ -1,0 +1,49 @@
+- type: job
+  parent: CMSurvivorTrucker
+  id: CMSurvivorTrijentTrucker
+  setPreference: false
+  name: cm-job-name-survivor-trijent-trucker
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorTrijentTrucker
+  spawnMenuRoleName: Trijent Heavy Vehicle Operator (Trijent Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorTrucker
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetTrijentTrucker
+  useLoadoutOfJob: CMSurvivor # for inheritance
+
+- type: startingGear
+  parent: RMCGearSurvivorTrucker
+  id: RMCGearSurvivorTrijentTrucker
+  equipment:
+    head: RMCHeadCapTruckerBlue
+    jumpsuit: RMCJumpsuitLiaisonGreenWorkwear
+    outerClothing: RMCCoatBomberGrey
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorTrijentTrucker
+  name: "точка появления дальнобойщика Трийента"
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivor
+  - type: Sprite
+    layers:
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv
+
+- type: entity
+  parent: RMCSurvivorPresetTrucker
+  id: RMCGearSurvivorPresetTrijentTrucker
+  name: "пресет колониста-дальнобойщика Трийента"
+  categories: [ HideSpawnMenu ]

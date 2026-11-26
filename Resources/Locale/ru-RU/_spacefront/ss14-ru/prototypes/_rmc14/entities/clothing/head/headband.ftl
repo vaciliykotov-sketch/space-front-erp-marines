@@ -1,0 +1,15 @@
+ent-CMHeadBandGreen = повязка на голову зеленого цвета
+ent-CMHeadBandBrown = повязка на голову коричневого цвета
+ent-CMHeadBandGray = повязка серого цвета
+ent-CMHeadBandRed = повязка красного цвета
+ent-CMHeadBandTan = загарная повязка
+ent-RMCHeadBandSquad = повязка отряда КМП США
+    .suffix = НЕ МАППИТЬ
+ent-CMHeadBandAlpha = повязка отряда альфа
+ent-CMHeadBandBravo = повязка отряда браво
+ent-CMHeadBandCharlie = повязка отряда чарли
+ent-CMHeadBandDelta = повязка отряда дельта
+ent-CMHeadBandEcho = повязка отряда эхо
+ent-CMHeadBandFoxtrot = повязка отряда фокстрот
+ent-CMHeadBandIntel = разведповязка
+ent-CMHeadBandRebel = повязка повстанца

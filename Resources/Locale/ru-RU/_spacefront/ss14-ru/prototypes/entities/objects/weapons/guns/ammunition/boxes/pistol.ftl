@@ -1,0 +1,5 @@
+ent-BaseMagazineBoxPistol = патронная коробка (.35 авто)
+ent-MagazineBoxPistol = патронная коробка (.35 авто)
+ent-MagazineBoxPistolPractice = патронная коробка (.35 авто учебные)
+ent-MagazineBoxPistolIncendiary = патронная коробка (.35 авто зажигательные)
+ent-MagazineBoxPistolUranium = патронная коробка (.35 авто урановые)

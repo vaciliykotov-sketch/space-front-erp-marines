@@ -1,0 +1,1 @@
+ent-STHunterTeleporterBeacon = маяк-ретранслятор

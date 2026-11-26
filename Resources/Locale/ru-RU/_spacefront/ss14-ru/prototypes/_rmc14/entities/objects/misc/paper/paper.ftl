@@ -1,0 +1,15 @@
+ent-CMBasePaper = лист бумаги
+ent-CMBasePaperFaxable = { ent-CMBasePaper }
+ent-CMPaper = лист бумаги
+ent-CMPaperWritten = { ent-CMPaper }
+ent-CMPaperJudgement = вердикт суда
+ent-CMPaperAlmayerStorage = памятка о нештатном хранении на «Алмайере»
+ent-RMCPaperAegisInfoFax = Сообщение от Высшего Командования
+ent-RMCPaperAegisLobbyInfoFax = { ent-RMCPaperAegisInfoFax }
+ent-RMCPaperRequisitionInvoice = инвойс на снабжение
+ent-RMCPaperWeYa = служебная бумага «Вестон-Ямада»
+ent-RMCPaperWeYaLiaison = бумага «Вестон-Ямада»
+ent-RMCPaperBodyguardInstructions = памятка корпоративному охраннику (прочесть в обязательном порядке)
+ent-RMCPaperBlackMarketASRSFailureBase = { ent-CMPaperWritten }
+ent-RMCPaperBlackMarketPonchoFailure = записка от ASRS (автоматическая)
+ent-RMCPaperBlackMarketHEAPFailure = автоматически сформированная записка ASRS

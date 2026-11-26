@@ -1,0 +1,16 @@
+ent-STWeaponPlasmaCaster = плазменный лив
+ent-STWeaponPlasmaCasterEbony = { ent-STWeaponPlasmaCaster }
+ent-STWeaponPlasmaCasterBronze = { ent-STWeaponPlasmaCaster }
+ent-STWeaponPlasmaCasterSilver = { ent-STWeaponPlasmaCaster }
+ent-STWeaponPlasmaCasterCrimson = { ent-STWeaponPlasmaCaster }
+ent-STWeaponPlasmaCasterBone = { ent-STWeaponPlasmaCaster }
+ent-STWeaponPlasmaCasterGold = { ent-STWeaponPlasmaCaster }
+ent-STWeaponPlasmaCasterWild = { ent-STWeaponPlasmaCaster }
+ent-STWeaponPlasmaCasterOutcast = { ent-STWeaponPlasmaCaster }
+ent-STWeaponPlasmaCasterLeader = { ent-STWeaponPlasmaCaster }
+ent-STWeaponPlasmaCasterSamurai = { ent-STWeaponPlasmaCaster }
+ent-STPlasmaBoltBaseProjectile = { ent-BaseBullet }
+ent-STPlasmaBoltStunProjectile = заряд для оглушения
+ent-STPlasmaBoltImmobilizerProjectile = плазменный обездвиживатель
+ent-STPlasmaBoltLethalProjectile = смертельный плазменный заряд
+ent-STPlasmaBoltOverchargeProjectile = плазменный ликвидатор

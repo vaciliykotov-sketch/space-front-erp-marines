@@ -1,0 +1,9 @@
+ent-BaseMob = { "" }
+ent-MobPolymorphable = { "" }
+ent-MobDamageable = { "" }
+ent-MobCombat = { "" }
+ent-MobAtmosExposed = { "" }
+ent-MobAtmosStandard = { ent-MobAtmosExposed }
+ent-MobFlammable = { "" }
+ent-MobRespirator = { "" }
+ent-MobBloodstream = { "" }

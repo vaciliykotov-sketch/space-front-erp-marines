@@ -1,0 +1,12 @@
+ent-BaseStringInstrument = { ent-BaseHandheldInstrument }
+ent-BaseStringInstrumentClothing = { ent-BaseStringInstrument }
+ent-ElectricGuitarInstrument = гитара электрическая
+ent-BassGuitarInstrument = гитара басовая
+ent-RockGuitarInstrument = гитара роковая
+ent-AcousticGuitarInstrument = гитара акустическая
+ent-GuitarlessFretsInstrument = лады без гитары
+    .suffix = Адмемы
+ent-BanjoInstrument = банджо
+ent-ViolinInstrument = скрипка
+ent-ViolaInstrument = виола
+ent-CelloInstrument = виолончель

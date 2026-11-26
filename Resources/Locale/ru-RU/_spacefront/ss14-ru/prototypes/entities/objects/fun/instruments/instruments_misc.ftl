@@ -1,0 +1,10 @@
+ent-MusicalLungInstrument = лёгкое музыкальное
+ent-SeashellInstrument = морская ракушка
+ent-BirdToyInstrument = свисток птичий
+ent-PhoneInstrument = телефон красного цвета
+ent-PhoneInstrumentSyndicate = телефон кроваво-красного оттенка
+ent-HelicopterInstrument = вертолётик игрушечный
+ent-CannedApplauseInstrument = аплодисменты в консерве
+ent-GunpetInstrument = писольлет
+ent-BikeHornInstrument = клаксон с позолотой
+ent-BananaPhoneInstrument = бананафон

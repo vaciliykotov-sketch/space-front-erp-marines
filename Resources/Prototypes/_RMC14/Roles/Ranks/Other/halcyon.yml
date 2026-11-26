@@ -1,0 +1,65 @@
+- type: rank
+  id: RMCRankHalcyonTrainee
+  name: "Стажёр"
+  prefix: Trn.
+  paygrade: HC1
+
+- type: rank
+  id: RMCRankHalcyonJuniorExecutive
+  name: "Младший руководитель"
+  prefix: Jr. Exec.
+  paygrade: HC2
+
+- type: rank
+  id: RMCRankHalcyonExecutive
+  name: "Руководитель"
+  prefix: Exec.
+  paygrade: HC3
+
+- type: rank
+  id: RMCRankHalcyonSeniorExecutive
+  name: "Старший исполнитель"
+  prefix: Sr. Exec.
+  paygrade: HC4
+
+- type: rank
+  id: RMCRankHalcyonExecutiveSpecialist
+  name: "Руководитель Specialist"
+  prefix: Exec. Spc.
+  paygrade: HC5
+
+- type: rank
+  id: RMCRankHalcyonExecutiveSupervisor
+  name: "Руководитель Supervisor"
+  prefix: Exec. Spvsr.
+  paygrade: HC6
+
+- type: rank
+  id: RMCRankHalcyonAssistantManager
+  name: "Помощник менеджера"
+  prefix: Assis. Mng.
+  paygrade: HC7
+
+- type: rank
+  id: RMCRankHalcyonDivisionManager
+  name: "Менеджер дивизии"
+  prefix: Div. Mng.
+  paygrade: HC8
+
+- type: rank
+  id: RMCRankHalcyonChiefExecutive
+  name: "Главный исполнительный директор"
+  prefix: Chief. Exec.
+  paygrade: HC9
+
+- type: rank
+  id: RMCRankHalcyonDeputyDirector
+  name: "Заместитель Director"
+  prefix: Dep. Director
+  paygrade: HC10
+
+- type: rank
+  id: RMCRankHalcyonDirector
+  name: "Директор"
+  prefix: Director
+  paygrade: HC11

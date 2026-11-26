@@ -1,0 +1,16 @@
+ent-MobHuman = Урист МакЧеловек
+ent-MobHumanSyndicateAgentBase = агент Синдиката
+    .suffix = Человек, Базовый
+ent-MobHumanSyndicateAgent = агент Синдиката
+    .suffix = Человек, Предатель
+ent-MobHumanSyndicateAgentMedic = медик Синдиката
+    .suffix = { ent-MobHumanSyndicateAgent.suffix }
+ent-MobHumanSyndicateAgentSpy = шпион Синдиката
+    .suffix = { ent-MobHumanSyndicateAgent.suffix }
+ent-MobHumanSyndicateAgentThief = вор Синдиката
+    .suffix = { ent-MobHumanSyndicateAgent.suffix }
+ent-MobHumanSyndicateAgentNukeops = { ent-MobHumanSyndicateAgentBase }
+    .suffix = Человек, Ядерный оперативник
+ent-MobHumanNukeOp = Оперативник ядерного отряда
+ent-MobHumanLoneNuclearOperative = Оперативник-одиночка с ядерным оружием
+ent-MobHumanWizard = Чародей

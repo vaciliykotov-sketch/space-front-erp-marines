@@ -1,0 +1,9 @@
+ent-RMCUniversalRecorderBase = { ent-BaseItem }
+ent-RMCUniversalRecorderEmpty = рекордер универсального типа
+    .suffix = Пустой
+ent-RMCUniversalRecorder = рекордер универсального назначения
+ent-RMCUniversalRecorderTapeBase = { ent-BaseItem }
+ent-RMCUniversalRecorderTape = кассета стандартного образца
+ent-RMCBoxRegulationTapesEmpty = набор стандартных кассет (5 шт.)
+ent-RMCBoxRegulationTapes = { ent-RMCBoxRegulationTapesEmpty }
+    .suffix = Заполнено

@@ -1,0 +1,11 @@
+ent-CMSpawnPointHospitalCorpsman = место появления госпитального санитара
+    .suffix = { ent-CMSpawnPointJobBase.suffix }
+ent-CMSpawnPointHospitalCorpsmanAlpha = { ent-CMSpawnPointHospitalCorpsman }
+    .suffix = Альфа
+ent-CMSpawnPointHospitalCorpsmanBravo = { ent-CMSpawnPointHospitalCorpsman }
+    .suffix = Браво
+ent-CMSpawnPointHospitalCorpsmanCharlie = { ent-CMSpawnPointHospitalCorpsman }
+    .suffix = Чарли
+ent-CMSpawnPointHospitalCorpsmanDelta = { ent-CMSpawnPointHospitalCorpsman }
+    .suffix = Дельта
+ent-RMCGuidebookRoleHM = Госпитальный Санитар

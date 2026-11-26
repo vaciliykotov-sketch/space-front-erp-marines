@@ -1,0 +1,16 @@
+ent-STHunterFeed1 = импульс
+    .suffix = Зелёный
+ent-STHunterFeed2 = { ent-STHunterFeed1 }
+    .suffix = Зелёный, Альт
+ent-STHunterFeed3 = { ent-STHunterFeed1 }
+    .suffix = Красный
+ent-STHunterFeed4 = { ent-STHunterFeed1 }
+    .suffix = Красный, Альт
+ent-STHunterFeed5 = { ent-STHunterFeed1 }
+    .suffix = Зелёный/Красный
+ent-STHunterFeed6 = { ent-STHunterFeed1 }
+    .suffix = Зелёный/Красный, Альт
+ent-STHunterFeed7 = { ent-STHunterFeed1 }
+    .suffix = Синий
+ent-STHunterFeed8 = { ent-STHunterFeed1 }
+    .suffix = Синий, Альт

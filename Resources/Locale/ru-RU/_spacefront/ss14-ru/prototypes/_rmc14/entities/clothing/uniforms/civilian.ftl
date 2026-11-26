@@ -1,0 +1,9 @@
+ent-RMCJumpsuitDispatcherUniform = диспетчерская форма
+ent-RMCJumpsuitBlueWorkwear = рабочий костюм синего цвета
+ent-RMCJumpsuitBlueWorkwearChancesGoon = { ent-RMCJumpsuitBlueWorkwear }
+ent-RMCJumpsuitKhakiWorkwear = рабочая униформа цвета хаки
+ent-RMCJumpsuitKhakiWorkwearJacketless = { ent-RMCJumpsuitKhakiWorkwear }
+ent-RMCJumpsuitBluePjs = пижама синего цвета
+ent-RMCJumpsuitRedPjs = пижама красного цвета
+ent-RMCJumpsuitWaiter = форма для официантов
+ent-RMCJumpsuitCheckeredSuit = костюм в клетку

@@ -1,0 +1,17 @@
+ent-RMCBoxShotgunBase = коробка патронов для дробовика
+ent-RMCBoxShotgunBuckshot = коробка с патронами для дробовика
+ent-RMCBoxShotgunSlugs = коробка пуль
+ent-RMCBoxShotgunIncendiary = коробка пуль зажигательных
+ent-RMCBoxShotgunBeanbag = упаковка с травматическими пулями-мешками для дробовика
+ent-RMCBoxShotgunFlechette = упаковка флешеттных боеприпасов
+ent-RMCBoxShotgunIncendiaryBuckshot = упаковка зажигательной картечи
+ent-RMCBoxShotgunBreaching = упаковка разрывных дробовых патронов
+ent-RMCBoxShotgunBuckshot8g = упаковка картечных патронов
+    .suffix = 8 Калибр
+ent-RMCBoxShotgunHeavyBuckshot = упаковка усиленных картечных боеприпасов
+ent-RMCBoxShotgunHeavySlugs = упаковка усиленных пулевых патронов
+ent-RMCBoxShotgunHeavyBeanbagSlugs = упаковка усиленных пластиковых пуль-мешков
+ent-RMCBoxShotgunHeavyFlechette = упаковка усиленных стреловидных боеприпасов
+ent-RMCBoxShotgunHeavyDragonbreath = упаковка усиленных патронов "драконье дыхание"
+ent-RMCBoxShotgunL49B = упаковка боеприпасов L49B
+    .suffix = PVE, Королевский

@@ -1,0 +1,11 @@
+ent-VehicleHumveeHardpointBase = { ent-BaseItem }
+ent-VehicleHumveeWheel = колёса для Хамви
+ent-VehicleHumveeTurret = турельная установка Хамви
+ent-VehicleHumveeTurretArmed = турельная установка Хамви
+ent-VehicleHumveeARCTurret = турельная установка Хамви
+ent-VehicleHumveeCannon = орудие Хамви
+ent-VehicleHumveeARCCannon = орудие ARC
+ent-VehicleHumveeLauncher = установка для запуска Хамви
+ent-VehicleHumveeSnowplow = снегоуборочный отвал Хамви
+ent-VehicleHumveeOverlight = маяк-проблеск Хамви
+ent-VehicleHumveeHatch = люковой затвор Хамви

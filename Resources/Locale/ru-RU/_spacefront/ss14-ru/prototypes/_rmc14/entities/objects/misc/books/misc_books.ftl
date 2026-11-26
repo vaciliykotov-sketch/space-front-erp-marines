@@ -1,0 +1,15 @@
+ent-RMCBookBrokenArrow = Доклад о боевых действиях №55: операция «Справедливость»
+ent-RMCBookSPP = Роберт Мендес: как возник и окреп Союз Прогрессивных Народов
+ent-RMCBookPaperwork = Всё о бюрократии и бумажной волоките: необходимое знание
+ent-RMCBookWEYA = Вестон и Ямада: будущее наступило.
+ent-RMCBookIllandalBridge = Воин Илландала: Мост ужаса.
+ent-RMCBookIllandalNecromancer = Воин Илландала: Некромант Тетара.
+ent-RMCBookXenobiology = Живая Вселенная: ксенобиология для начинающих!
+ent-RMCBookStarHunter = THE STAR-HUNTER.
+ent-RMCBookManga = Внезапно я переродился лучшим учеником Старшей школы проклятий мехо-магических девочек со сверхъестественными силами великого мага?! №1308.
+ent-RMCBookDarkLight = Тёмный свет: Мучительный день
+ent-RMCBookInterstellarLogistics = Планирование и межзвёздная логистика в XXII веке.
+ent-RMCBookCyrusAutobiography = Восхождение Сайруса Солары: будущее, ради которого стоит жить
+ent-RMCBookAnodicMusic = Анодные синусоиды и ВЫ! Будущее ФАНКА!
+ent-RMCBookPrendergastMoor = Иэн Прендергаст и убийство на болотах
+ent-RMCBookPrendergastShuttle = Иэн Прендергаст и пропавший шаттл

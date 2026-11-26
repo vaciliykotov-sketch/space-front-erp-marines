@@ -1,0 +1,11 @@
+ent-RMCSkillPresetReconRifleman = Стрелок ФОРКОН из выживших
+ent-RMCSkillPresetReconSpecialist = Специалист ФОРКОН среди выживших
+ent-RMCSkillPresetReconSmartGunOperator = Оператор смартгана ФОРКОН из выживших
+ent-RMCSkillPresetReconSquadLeader = Командир отряда ФОРКОН среди выживших
+ent-RMCSkillPresetReconSupportTechnician = Техник поддержки ФОРКОН, переживший катастрофу
+ent-RMCSkillPresetSurvivorUNMCRifleman = Уцелевший пехотинец КМП США
+ent-RMCSkillPresetSurvivorUNMCVeteranRifleman = Стрелок КМП США со стажем, оставшийся в живых
+ent-RMCSkillPresetSurvivorUNMCGroundCrew = Уцелевший наземный специалист КМП США
+ent-RMCSkillPresetSurvivorUNMCVehicleCrewman = Оставшийся в живых оператор бронетехники КМП США
+ent-RMCSkillPresetSurvivorUNMCFighterPilot = Уцелевший лётчик-истребитель КМП США
+ent-RMCSkillPresetReconSynth = Синтетик ФОРКОН, переживший катастрофу

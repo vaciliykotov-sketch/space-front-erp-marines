@@ -1,0 +1,169 @@
+
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechMilitaryPoliceEquipment
+  name: "Стойка снаряжения военной полиции ASRS"
+  description: An automated rack hooked up to a colossal storage of Military Police standard-issue equipment.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessBrig" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMMilitaryPolice
+    sections:
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: CMHeadsetMPO
+      - id: CMGlassesSecurity
+      - id: RMCVisorMedical
+    - name: Helmet
+      choices: { CMHelmet: 1 }
+      entries:
+      - id: CMArmorHelmetM10MP
+    - name: Броня
+      choices: { CMArmor: 1 }
+      entries:
+      - id: CMArmorM2MP
+      - id: RMCArmorVestMP
+    - name: Handgun Case
+      choices: { CMGunCase: 1 }
+      entries:
+      - id: RMCGunCasePistolM77
+      - id: RMCGunCasePistolM44
+      - id: RMCGunCasePistolM1984
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: RMCBeltHolsterPistol
+      - id: RMCBeltHolsterRevolver
+      - id: RMCBeltUtilityGeneral
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchGeneralMedium
+      - id: RMCPouchFirstAidInjectors
+        name: "сумка первой помощи (refillable injectors)"
+        recommended: true
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "сумка первой помощи (gauze, ointment)" # TODO RMC14 add 'splints,'
+        recommended: true
+      - id: RMCPouchFirstAidPills
+        name: "сумка первой помощи (pills)"
+        recommended: true
+      - id: RMCPouchMagazinePistol
+      - id: RMCPouchPistol
+    - name: Mask
+      choices: { CMMask: 1 }
+      entries:
+      - id: CMMaskGas
+      - id: CMMaskCoif
+      - id: RMCMaskRebreather
+    - name: Accessories
+      choices: { CMAccessories: 1 }
+      entries:
+      - id: CMWebbingBrown
+        recommended: true
+      - id: CMWebbingBlack
+        recommended: true
+      - id: RMCWebbingLegPouch
+      - id: RMCWebbingLegPouchBlack
+      - id: RMCWebbingDropPouch
+      - id: RMCWebbingDropPouchBlack
+      - id: CMWebbingHolster
+      - id: RMCWebbingHolsterBlack
+      - id: CMWebbing
+      - id: RMCWebbingBlackSmall
+    - name: Books
+      entries:
+      - id: RMCGuidebookLawMarine
+        amount: 10
+      - id: RMCGuidebookSOP
+        amount: 10
+        
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechWardenEquipment
+  name: "Стойка снаряжения военного надзирателя ASRS"
+  description: An automated rack hooked up to a colossal storage of Military Police standard-issue equipment.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessArmory" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMMilitaryWarden
+    sections:
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: RMCHeadsetMW
+      - id: RMCVisorMedical
+    - name: Helmet
+      choices: { CMHelmet: 1 }
+      entries:
+      - id: CMArmorHelmetM10MP
+    - name: Броня
+      choices: { CMArmor: 1 }
+      entries:
+      - id: CMArmorM3Warden
+      - id: RMCArmorVestMP
+    - name: Handgun Case
+      choices: { CMGunCase: 1 }
+      entries:
+      - id: RMCGunCasePistolM77
+      - id: RMCGunCasePistolM44
+      - id: RMCGunCasePistolM1984
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: RMCBeltHolsterPistol
+      - id: RMCBeltHolsterRevolver
+      - id: RMCBeltUtilityGeneral
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchGeneralMedium
+      - id: RMCPouchFirstAidInjectors
+        name: "сумка первой помощи (refillable injectors)"
+        recommended: true
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "сумка первой помощи (gauze, ointment)" # TODO RMC14 add 'splints,'
+        recommended: true
+      - id: RMCPouchFirstAidPills
+        name: "сумка первой помощи (pills)"
+        recommended: true
+      - id: RMCPouchMagazinePistol
+      - id: RMCPouchPistol
+    - name: Mask
+      choices: { CMMask: 1 }
+      entries:
+      - id: CMMaskGas
+      - id: CMMaskCoif
+      - id: RMCMaskRebreather
+    - name: Accessories
+      choices: { CMAccessories: 1 }
+      entries:
+      - id: CMWebbingBrown
+        recommended: true
+      - id: CMWebbingBlack
+        recommended: true
+      - id: RMCWebbingLegPouch
+      - id: RMCWebbingLegPouchBlack
+      - id: RMCWebbingDropPouch
+      - id: RMCWebbingDropPouchBlack
+      - id: CMWebbingHolster
+      - id: RMCWebbingHolsterBlack
+      - id: CMWebbing
+      - id: RMCWebbingBlackSmall
+    - name: Books
+      entries:
+      - id: RMCGuidebookLawMarine
+        amount: 10
+      - id: RMCGuidebookSOP
+        amount: 10

@@ -1,0 +1,11 @@
+ent-PartGingerbread = фрагмент тела пряничного человечка
+ent-TorsoGingerbread = корпус пряничного человечка
+ent-HeadGingerbread = череп пряничного человечка
+ent-LeftArmGingerbread = рука левая пряничного человечка
+ent-RightArmGingerbread = рука правая пряничного человечка
+ent-LeftHandGingerbread = кисть левая пряничного человечка
+ent-RightHandGingerbread = кисть правая пряничного человечка
+ent-LeftLegGingerbread = нога левая пряничного человечка
+ent-RightLegGingerbread = нога правая пряничного человечка
+ent-LeftFootGingerbread = стопа левая пряничного человечка
+ent-RightFootGingerbread = стопа правая пряничного человечка

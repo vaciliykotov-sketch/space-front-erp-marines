@@ -1,0 +1,14 @@
+ent-BaseMagazineMagnum = магазин магнума (.45)
+ent-BaseMagazineMagnumSubMachineGun = магазин для ПП под магнум (.45)
+ent-MagazineMagnumEmpty = магазин магнума под любые (.45)
+    .suffix = Пустой
+ent-MagazineMagnum = магазин магнума (.45)
+ent-MagazineMagnumPractice = магазин магнума с учебными (.45)
+ent-MagazineMagnumUranium = магазин магнума с урановыми (.45)
+ent-MagazineMagnumAP = магазин магнума с бронебойными (.45)
+ent-MagazineMagnumSubMachineGunEmpty = магазин ПП под магнум, любые (.45)
+    .suffix = Пустой
+ent-MagazineMagnumSubMachineGun = магазин для ПП (.45 магнум)
+ent-MagazineMagnumSubMachineGunPractice = магазин ПП под магнум с учебными (.45)
+ent-MagazineMagnumSubMachineGunUranium = урановый магазин для ПП (.45 магнум)
+ent-MagazineMagnumSubMachineGunPiercing = бронебойный магазин для ПП (.45 магнум)

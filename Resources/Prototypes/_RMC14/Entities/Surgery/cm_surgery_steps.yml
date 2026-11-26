@@ -1,0 +1,218 @@
+- type: entity
+  id: CMSurgeryStepBase
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: CMSurgeryStep
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: CMSurgeryStepOpenIncisionScalpel
+  name: "Разрезать скальпелем"
+  components:
+  - type: CMSurgeryStep
+    tool:
+    - type: CMScalpel
+    add:
+    - type: CMIncisionOpen
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/scalpel.rsi
+    state: scalpel
+  - type: CMSurgeryStepBleedEffect
+    damage: 10
+  - type: CMSurgeryStepEmoteEffect
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: CMSurgeryStepClampBleeders
+  name: "Пережать кровоточащие сосуды"
+  components:
+  - type: CMSurgeryStep
+    tool:
+    - type: CMHemostat
+    add:
+    - type: CMBleedersClamped
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/hemostat.rsi
+    state: hemostat
+  - type: CMSurgeryClampBleedEffect
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: CMSurgeryStepRetractSkin
+  name: "Втянуть кожу"
+  components:
+  - type: CMSurgeryStep
+    tool:
+    - type: CMRetractor
+    add:
+    - type: CMSkinRetracted
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/retractor.rsi
+    state: retractor
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: CMSurgeryStepSawBones
+  name: "Перепилить кости"
+  components:
+  - type: CMSurgeryStep
+    tool:
+    - type: CMBoneSaw
+    add:
+    - type: CMRibcageSawed
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/saw.rsi
+    state: saw
+  - type: CMSurgeryStepEmoteEffect
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: CMSurgeryStepPriseOpenBones
+  name: "Раздвинь кости"
+  components:
+  - type: CMSurgeryStep
+    tool:
+    - type: CMRetractor
+    add:
+    - type: CMRibcageOpen
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/retractor.rsi
+    state: retractor
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: CMSurgeryStepCutLarvaRoots
+  name: "Разрезать корни личинки"
+  components:
+  - type: CMSurgeryStep
+    skill: 2
+    tool:
+    - type: CMScalpel
+  - type: CMSurgeryCutLarvaRootsStep
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/scalpel.rsi
+    state: scalpel
+  - type: CMSurgeryOperatingTableCondition
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: CMSurgeryStepRemoveLarva
+  name: "Удалить личинку"
+  components:
+  - type: CMSurgeryStep
+    skill: 2
+    tool:
+    - type: CMHemostat
+    bodyRemove:
+    - type: VictimInfected
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/hemostat.rsi
+    state: hemostat
+  - type: CMSurgeryOperatingTableCondition
+  - type: RMCSurgeryStepLarvaEffect
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: CMSurgeryStepCloseBones
+  name: "Закрыть кости"
+  components:
+  - type: CMSurgeryStep
+    tool:
+    - type: CMRetractor
+    remove:
+    - type: CMRibcageOpen
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/retractor.rsi
+    state: retractor
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: CMSurgeryStepMendRibcage
+  name: "Починить грудную клетку"
+  components:
+  - type: CMSurgeryStep
+    tool:
+    - type: CMBoneGel
+    remove:
+    - type: CMRibcageSawed
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/bone_gel.rsi
+    state: bone-gel
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: CMSurgeryStepCloseIncision
+  name: "Закрыть разрез"
+  components:
+  - type: CMSurgeryStep
+    tool:
+    - type: CMCautery
+    remove:
+    - type: CMSkinRetracted
+    - type: CMBleedersClamped
+    - type: CMIncisionOpen
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/cautery.rsi
+    state: cautery
+  - type: CMSurgeryStepEmoteEffect
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: RMCSurgeryCutExoskeleton
+  name: "Разрезать панцирь экзоскелета"
+  components:
+  - type: CMSurgeryStep
+    skill: 2
+    tool:
+    - type: CMBoneSaw
+    add:
+    - type: RMCXenoOpen
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/saw.rsi
+    state: saw
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: RMCSurgeryOpenExoskeleton
+  name: "Вскрыть экзоскелет"
+  components:
+  - type: CMSurgeryStep
+    skill: 2
+    tool:
+    - type: CMRetractor
+    add:
+    - type: RMCXenoPryed
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/retractor.rsi
+    state: retractor
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: RMCSurgerySevereXenoConnections
+  name: "Перерезать связи органов"
+  components:
+  - type: CMSurgeryStep
+    skill: 2
+    tool:
+    - type: CMScalpel
+    add:
+    - type: RMCXenoCut
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/scalpel.rsi
+    state: scalpel
+
+- type: entity
+  parent: CMSurgeryStepBase
+  id: RMCSurgeryRemoveXenoOrgan
+  name: "Удалить орган ксенонда"
+  components:
+  - type: CMSurgeryStep
+    skill: 2
+    tool:
+    - type: CMHemostat
+    add:
+    - type: RMCXenoRemoved
+  - type: Sprite
+    sprite: _RMC14/Objects/Medical/Surgery/hemostat.rsi
+    state: hemostat
+  - type: RMCSurgeryStepXenoHeartEffect

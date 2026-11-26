@@ -1,0 +1,42 @@
+- type: entity
+  name: "Коробка наручников"
+  parent: RMCBoxCardboard
+  id: RMCBoxHandcuffs
+  description: A box full of handcuffs
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCHandcuffs
+        amount: 7
+  - type: Sprite
+    state: handcuff
+
+- type: entity
+  name: "коробка стяжек"
+  parent: RMCBoxHandcuffs
+  id: RMCBoxZiptie
+  description: A box full of zipties.
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCZipties
+        amount: 10
+  - type: Storage
+    maxItemSize: Small
+    whitelist:
+      tags:
+      - RMCZipties
+  - type: IgnoreContentsSize
+    items:
+      tags:
+      - RMCZipties
+  - type: FixedItemSizeStorage
+  - type: Item
+    size: Small
+    shape: null
+  - type: Tag
+    tags:
+    - RMCBoxZipties
+
+- type: Tag
+  id: RMCBoxZipties

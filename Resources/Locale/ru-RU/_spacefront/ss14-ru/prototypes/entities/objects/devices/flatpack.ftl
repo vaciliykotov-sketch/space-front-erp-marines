@@ -1,0 +1,17 @@
+ent-BaseFlatpack = упаковка базовая
+ent-SolarAssemblyFlatpack = упаковка каркаса для солнечной панели
+ent-AmePartFlatpack = упаковка ДАМ
+ent-SingularityGeneratorFlatpack = упаковка генератора сингулярности
+ent-RadiationCollectorFlatpack = упаковка коллектора радиации
+ent-ContainmentFieldGeneratorFlatpack = упаковка генератора сдерживающего поля
+ent-EmitterFlatpack = эмиттер в разобранном виде
+ent-TeslaGeneratorFlatpack = генератор Теслы в упаковке
+ent-TeslaCoilFlatpack = катушка Теслы в разобранном комплекте
+ent-TeslaGroundingRodFlatpack = комплект заземляющего стержня
+ent-GyroscopeFlatpack = гироскоп в упаковке
+ent-ThrusterFlatpack = ракетный двигатель в разобранном виде
+ent-SpaceHeaterFlatpack = термостат в комплекте
+ent-FaxMachineFlatpack = факсимильный аппарат в упаковке
+ent-CrewMonitoringServerFlatpack = сервер слежения за экипажем в разобранном виде
+ent-CrewMonitoringComputerFlatpack = консоль слежения за экипажем в упаковке
+ent-HydroponicsTrayFlatpack = гидропонный лоток в комплекте

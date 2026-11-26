@@ -1,0 +1,39 @@
+- type: entity
+  parent: CMIDCardSilver
+  id: CMIDCardChiefMP
+  name: ID-карта главного MP
+  components:
+  - type: PresetIdCard
+    job: CMChiefMP
+
+- type: entity
+  parent: CMIDCardBase
+  id: CMIDCardMilitaryWarden
+  name: ID-карта надзирателя
+  components:
+  - type: PresetIdCard
+    job: CMMilitaryWarden
+
+- type: entity
+  parent: CMIDCardBase
+  id: CMIDCardMilitaryPolice
+  name: "удостоверение военной полиции"
+  components:
+  - type: PresetIdCard
+    job: CMMilitaryPolice
+
+- type: entity
+  parent: CMIDCardBase
+  id: RMCIDCardRiotControl
+  name: "удостоверение службы контроля беспорядков"
+  components:
+  - type: PresetIdCard
+    job: CMRiotControl
+
+- type: entity
+  parent: CMIDCardBase
+  id: RMCIDCardRiotControlLeader
+  name: ID-карта лидера подавления беспорядков
+  components:
+  - type: PresetIdCard
+    job: CMRiotControlLeader

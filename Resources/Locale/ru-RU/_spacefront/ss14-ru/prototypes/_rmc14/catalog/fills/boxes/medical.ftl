@@ -1,0 +1,9 @@
+ent-RMCBoxSterileMask = стерильные маски в коробке
+ent-RMCBoxLatexGloves = латексные перчатки в коробке
+ent-RMCBoxBodyBag = мешки для тела в коробке
+ent-RMCBoxPillCanister = таблетницы в коробке
+ent-RMCBoxSyringe = шприцы в коробке
+ent-RMCBoxSyringeCBRN = шприцы в коробке
+    .suffix = РХБЗ, Маленький
+ent-RMCBoxBeaker = мензурки в коробке
+ent-RMCBoxVialCardboard = пробирки в коробке

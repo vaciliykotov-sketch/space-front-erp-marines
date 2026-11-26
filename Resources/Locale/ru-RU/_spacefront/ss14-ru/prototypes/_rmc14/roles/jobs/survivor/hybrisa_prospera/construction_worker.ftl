@@ -1,0 +1,1 @@
+ent-RMCGearSurvivorPresetHybrisaConstructionWorker = пресет рабочего-колониста с Гибрисы

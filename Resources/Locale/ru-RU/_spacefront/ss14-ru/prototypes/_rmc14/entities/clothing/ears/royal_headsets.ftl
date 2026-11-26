@@ -1,0 +1,9 @@
+ent-RMCHeadsetRoyalMarine = гарнитура связи королевских морпехов
+ent-RMCHeadsetRoyalMarineLeader = гарнитура связи командира королевских морпехов
+ent-RMCHeadsetRoyalMarineOfficer = гарнитура связи офицера королевских морпехов
+ent-RMCHeadsetRoyalMarinePVE = гарнитура связи королевских морпехов
+    .suffix = PVE
+ent-RMCHeadsetRoyalMarineLeaderPVE = гарнитура связи командира королевских морпехов
+    .suffix = PVE
+ent-RMCEncryptionKeyRoyalMarine = ключ шифрования для рации королевских морпехов
+ent-RMCEncryptionKeyRoyalMarineCommand = ключ шифрования командной рации королевских морпехов

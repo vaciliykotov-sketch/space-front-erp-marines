@@ -1,0 +1,443 @@
+
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechSLGear
+  name: "Стойка экипировки командира отряда ASRS"
+  description: An automated gear rack for Squad Leaders.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessSquadLeaderPrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/gear.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMSquadLeader
+    sections:
+    - name: Командир отряда Kit
+      takeAll: CMStandard
+      entries:
+      - id: RMCVendorBundleCrewLeader
+    - name: Squad Kit (for yourself or your squad)
+      choices: { RMCKitBase: 1 }
+      entries:
+      - id: RMCKitEngineering
+        recommended: true
+      - id: RMCKitRifleM4SPR
+      - id: RMCKitCM54C
+      - id: RMCKitPyroMini
+      - id: RMCM2CCase
+      - id: RMCML66DCase
+      - id: RMCM85A1Case
+        points: 1
+      - id: RMCMOU53Case
+      - id: RMCCaseXM88
+    - name: Clothing Items
+      entries:
+      - id: RMCBackpackRTO
+        points: 1
+      - id: RMCScabbardMacheteFilled
+        points: 1
+        name: "ножны для мачете (полные)"
+      - id: RMCPouchMacheteFilled
+        points: 1
+        name: "подсумок для мачете (полный)"
+      - id: CMBeltUtilityCombat
+        points: 1
+    - name: Utilities
+      entries:
+      - id: RMCWhistle
+        points: 1
+      - id: CMFireExtinguisherPortable
+        points: 1
+      - id: RMCMotionDetector
+        points: 1
+      - id: RMCFulton20
+        points: 1
+    - name: Binoculars
+      entries:
+      - id: RMCRangefinder
+        points: 1
+      - id: RMCLaserDesignator
+        points: 1
+    - name: Helmet Optics
+      entries:
+      - id: RMCVisorWelding
+        points: 1
+      - id: RMCVisorMedical
+        points: 1
+        recommended: true
+      - id: RMCVisorNightVision
+        points: 1
+        recommended: true
+    - name: Инженерing Supplies
+      entries:
+      - id: CMHandsInsulated
+        points: 1
+      - id: CMHandsBlackInsulated
+        points: 1
+      - id: CMSheetMetal10
+        points: 1
+        name: "металл x10"
+        recommended: true
+      - id: CMSheetPlasteel10
+        points: 1
+        name: "пласталь x10"
+        recommended: true
+      - id: RMCExplosivePlastic
+        points: 1
+        recommended: true
+      - id: RMCExplosiveBreachingCharge
+        points: 1
+        recommended: true
+      - id: CMSandbagEmpty25
+        points: 1
+        name: "песокbags x25"
+        recommended: true
+      - id: RMCPackFlareCAS
+        points: 1
+      - id: RMCPouchToolsFill
+        points: 1
+      - id: RMCWeldingGoggles
+        points: 1
+    - name: Explosives
+      entries:
+      - id: CMPacketGrenadeHighExplosiveFilled
+        points: 1
+      - id: RMCPacketGrenadeIncendiaryFilled
+        points: 1
+      - id: RMCPacketGrenadeWhitePhosphorusFilled
+        points: 1
+      - id: RMCPacketGrenadeSmokeFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMFFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMIFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMSFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMSHornetFilled
+        points: 1
+      - id: RMCBoxClaymoreMineFilled
+        points: 1
+    - name: Медикal Supplies
+      entries:
+      - id: CMBurnKit10
+        points: 1
+      - id: CMTraumaKit10
+        points: 1
+      - id: CMAdvFirstAidKitFilled
+        points: 1
+      - id: CMBicaridineAutoInjector
+        points: 1
+      - id: CMDexalinPlusAutoInjector
+        points: 1
+      - id: CMInaprovalineAutoInjector
+        points: 1
+      - id: CMKelotaneAutoInjector
+        points: 1
+      - id: CMTricordrazineAutoInjector
+        points: 1
+      - id: CMHealthAnalyzer
+        points: 1
+      - id: CMRollerBedSpawnFolded
+        points: 1
+    - name: Primary Ammunition
+      entries:
+      - id: CMMagazineRifleM4SPRAP
+        points: 1
+      - id: CMMagazineRifleM4SPRExt
+        points: 1
+      - id: CMMagazineSMGM63AP
+        points: 1
+      - id: CMMagazineSMGM63Ext
+        points: 1
+      - id: CMMagazineRifleM54CAP
+        points: 1
+      - id: CMMagazineRifleM54CExt
+        points: 1
+    - name: Sidearm Ammunition
+      entries:
+      - id: RMCMagazinePistolM13Ext
+        points: 1
+      - id: RMCSpeedLoader44Marksman
+        points: 1
+      - id: RMCMagazinePistolM1984HP
+        points: 1
+      - id: RMCMagazinePistolM1984AP
+        points: 1
+      - id: CMMagazinePistolMK80
+        points: 1
+      - id: RMCMagazinePistolSU6
+        points: 1
+    - name: Special Ammunition
+      entries:
+      - id: RMCTankFlamer
+        points: 1
+        name: "бак инсинератора (UT-Napthal)"
+      - id: RMCTankFlamerBGel
+        points: 1
+        name: "бак инсинератора (B-Gel)"
+    - name: Отдыхricted Firearms
+      entries:
+      - id: RMCCaseFlamer
+        points: 1
+      - id: RMCGunCasePistolMK80
+        points: 1
+      - id: RMCGunCasePistolSmart
+        points: 1
+      - id: RMCM85A1Case
+        points: 1
+    - name: Radio Keys
+      entries: []
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechSLEquipment
+  name: "Стойка снаряжения командира отряда ASRS"
+  description: An automated rack hooked up to a colossal storage of Squad Leader standard-issue equipment.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessSquadLeaderPrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMSquadLeader
+    sections:
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: CMVendorBundleSquadLeaderApparel
+      - id: RMCBackpackRTO
+        points: 1
+        replaceSlot: back
+      - id: CMMRE
+    - name: Броня
+      choices: { CMArmour: 1 }
+      entries:
+      - id: RMCArmorB12Zipties
+        name: "командирская броня морпеха образца B12 (zipties)"
+        recommended: true
+      - id: RMCArmorM4Zipties
+        name: "командирская броня морпеха образца M4 (zipties)"
+      - id: RMCArmorVestSquadLeader
+        name: "командирский бронежилет образца M3-XL (стяжки)"
+    - name: Backpack
+      choices: { CMBackpack: 1 }
+      entries:
+      - id: CMBackpackMarine
+      - id: RMCScabbardMacheteFilled
+        points: 1
+      - id: CMSatchelMarine
+        recommended: true
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: RMCBeltUtilityGeneral
+      - id: CMBeltMarine
+        recommended: true
+      - id: CMBeltMedicBag
+      - id: CMBeltMedical
+      - id: RMCBeltHolsterPistol
+      - id: RMCBeltHolsterM13
+      - id: RMCBeltHolsterRevolver
+      - id: RMCBeltHolsterSMG
+      - id: RMCBeltHolsterSMGPouch
+      - id: RMCM82FHolster
+      - id: RMCM276ShotgunShellLoadingRig
+      - id: CMBeltUtilityFilled
+        name: "Снаряжение с поясом для инструментов образца M276 (Full)"
+      - id: RMCBeltGrenade
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchAutoinjectorFill
+        recommended: true
+      - id: RMCPouchFirstAidInjectors
+        name: "аптечка (заправляемые инъекторы)"
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "аптечка (марля, мазь)" # TODO RMC14 splints comma
+      - id: RMCPouchFirstAidPills
+        name: "аптечка (таблетки)"
+        recommended: true
+      - id: RMCPouchFlareFilled
+        name: "Фальшфейер pouch (Full)"
+      - id: RMCPouchFuelTank
+      - id: RMCPouchGeneralLarge
+        recommended: true
+      - id: RMCPouchSling
+      - id: RMCPouchMagazineLarge
+      - id: RMCPouchShotgunLarge
+      - id: RMCPouchMagazinePistolLarge
+      - id: RMCPouchPistol
+    - name: Accessories
+      choices: { CMAccessories: 1 }
+      entries:
+      - id: CMWebbingBlack
+      - id: CMWebbingBrown
+        recommended: true
+      - id: RMCWebbingLegPouch
+      - id: RMCWebbingLegPouchBlack
+      - id: CMWebbing
+      - id: RMCWebbingBlackSmall
+      - id: RMCWebbingDropPouch
+      - id: RMCWebbingDropPouchBlack
+      - id: CMWebbingHolster
+      - id: RMCWebbingHolsterBlack
+    - name: Mask
+      choices: { CMMask: 1 }
+      entries:
+      - id: CMMaskGas
+      - id: CMMaskCoif
+      - id: RMCMaskRebreather
+
+- type: entity
+  parent: CMVendorBundleRiflemanApparel
+  id: RMCVendorBundleCrewLeader
+  categories: [ HideSpawnMenu ]
+  name: "базовый набор командира отряда"
+  description: Contains a laser designator, a pack of signal flares, a breaching charge and a fire extinguisher.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/Explosives/plastic_explosives.rsi
+    state: icon
+  - type: CMVendorBundle
+    bundle:
+    - RMCExplosivePlastic
+    - RMCPackFlareCAS
+    - RMCLaserDesignator
+    - CMFireExtinguisherPortable
+
+- type: entity
+  parent: RMCKitBase
+  id: RMCKitRifleM4SPR
+  name: "Набор марксмана M4SPR"
+  description: Contains a M4SPR rifle, a 4x telescopic scope, a suppressor, an extended barrel and 2 AP magazines.
+  components:
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,9,1
+  - type: StorageFill
+    contents:
+    - id: WeaponRifleM4SPR
+    - id: RMCAttachmentS84xTelescopicScope
+    - id: RMCAttachmentSuppressor
+    - id: RMCAttachmentExtendedBarrel
+    - id: CMMagazineRifleM4SPRAP
+      amount: 2
+
+- type: entity
+  parent: RMCKitBase
+  id: RMCKitCM54C
+  name: "Набор винтовки M54C"
+  description: Contains a M54C rifle, an angled grip, a suppressor, an extended barrel and 2 AP magazines.
+  components:
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,9,1
+  - type: StorageFill
+    contents:
+    - id: RMCWeaponRifleM54C
+    - id: RMCAttachmentAngledGrip
+    - id: RMCAttachmentSuppressor
+    - id: RMCAttachmentExtendedBarrel
+    - id: CMMagazineRifleM54CAP
+      amount: 2
+
+- type: entity
+  parent: RMCKitBase
+  id: RMCKitEngineering
+  name: "двигательering supply kit"
+  description: Contains a construction pouch with 50 metal, 30 plasteel and 15 barbed wire, and an electronics pouch with three high-capacity power cells.
+  components:
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,9,1
+  - type: Sprite
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: Icon
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: StorageFill
+    contents:
+    - id: RMCPouchConstructionFillLowGrade
+    - id: RMCPouchElectronicsFill
+    - id: RMCWeldingGoggles
+      points: 1
+
+- type: entity
+  parent: RMCKitBase
+  id: RMCKitPyroMini
+  name: "Набор поддержки пиротехника M34"
+  description: Contains a M34 incinerator unit, a G4-1 fueltank, 3 incinerator tanks, and a portable fire extinguisher.
+  components:
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,11,1
+  - type: Sprite
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+    layers:
+    - state: closed
+      map: [ base ]
+    - state: flamer
+      map: [ label ]
+  - type: Icon
+    sprite: _RMC14/Objects/Storage/procase_mini.rsi
+  - type: StorageFill
+    contents:
+    - id: RMCBackpackFlamer
+    - id: RMCWeaponFlamerExtinguisher
+    - id: RMCTankFlamer
+      amount: 2
+    - id: RMCTankFlamerBGel
+      points: 1
+    - id: CMFireExtinguisherPortable
+      points: 1
+
+- type: entity
+  parent: CMArmorB12
+  id: RMCArmorB12Zipties
+  name: "командирская броня морпеха образца B12"
+  description: A lightweight suit of carbon fiber body armor built for quick movement. Designed in a lovely forest green. Use it to toggle the built-in flashlight. This one has a separate pouch for a ziptie box.
+  suffix: Zipties
+  components:
+  - type: Storage
+    grid:
+    - 0,0,7,1
+  - type: StorageFill
+    contents:
+    - id: RMCBoxZiptie
+  - type: LimitedStorage
+    limits:
+    - popup: rmc-storage-limit-not-ziptie-box
+      blacklist:
+        tags:
+        - RMCBoxZipties
+      whitelist: null
+      count: 3
+
+- type: entity
+  parent: CMArmorM4
+  id: RMCArmorM4Zipties
+  name: "командирская броня морпеха образца M4"
+  description: A well tinkered and crafted hybrid of Smart-Gunner mesh and M3 pattern plates. Robust, yet nimble, with room for all your pouches. This one has a separate pouch for a ziptie box.
+  suffix: Zipties
+  components:
+  - type: Storage
+    grid:
+    - 0,0,9,1
+  - type: StorageFill
+    contents:
+    - id: RMCBoxZiptie
+  - type: LimitedStorage
+    limits:
+    - popup: rmc-storage-limit-not-ziptie-box
+      blacklist:
+        tags:
+        - RMCBoxZipties
+      whitelist: null
+      count: 4

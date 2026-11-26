@@ -1,0 +1,13 @@
+ent-RMCRotaryPhone = телефон стационарного типа
+ent-RMCRotaryPhoneWallmount = телефон, крепящийся на стену
+ent-RMCTelephone = аппарат телефонной связи
+ent-RMCTelephoneScout = микрофон, встроенный в шлем
+ent-RMCRotaryPhoneCommandTent = палатка командования
+ent-RMCRotaryPhoneReqTent = палатка отдела снабжения
+ent-RMCRotaryPhoneMessTent = палатка-столовая
+ent-RMCRotaryPhoneMPTent = палатка военной полиции
+ent-RMCRotaryPhoneCorrespondentTent = палатка для корреспондента
+ent-RMCRotaryPhoneAdmin = { ent-RMCRotaryPhone }
+    .suffix = Административная
+ent-RMCRotaryPhoneWallmountAdmin = { ent-RMCRotaryPhoneWallmount }
+    .suffix = Административная

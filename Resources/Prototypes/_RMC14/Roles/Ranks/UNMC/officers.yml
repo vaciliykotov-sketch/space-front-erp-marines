@@ -1,0 +1,59 @@
+- type: rank
+  id: RMCRankMajorGeneral
+  name: "Майор General"
+  prefix: MajGen.
+  paygrade: O8
+
+- type: rank
+  id: RMCRankBrigadierGeneral
+  name: "Бригadier General"
+  prefix: BGen.
+  paygrade: O7
+
+- type: rank
+  id: RMCRankColonel
+  name: "Полковник"
+  prefix: Col.
+  paygrade: O6
+
+- type: rank
+  id: RMCRankLieutenantColonel
+  name: "Лейтенант Colonel"
+  prefix: LtCol.
+  paygrade: O5
+
+- type: rank
+  id: RMCRankMajor
+  name: "Майор"
+  prefix: Maj.
+  paygrade: O4
+
+- type: rank
+  id: RMCRankCaptain
+  name: "Капитан"
+  prefix: Capt.
+  paygrade: O3
+
+- type: rank
+  id: RMCRankFirstLT
+  name: "Старший лейтенант"
+  prefix: 1stLt.
+  paygrade: O2
+
+- type: rank
+  id: RMCRankSecondLT
+  name: "Второй лейтенант"
+  prefix: 2ndLt.
+  paygrade: O1
+
+- type: rank
+  id: RMCRankChiefWarrantOfficer
+  name: "Главный уорент-офицер"
+  prefix: CWarOff.
+  paygrade: O0-2
+
+- type: rank
+  id: RMCRankWarrantOfficer
+  name: "Уорент-офицер"
+  prefix: WarOff.
+  paygrade: O0-1

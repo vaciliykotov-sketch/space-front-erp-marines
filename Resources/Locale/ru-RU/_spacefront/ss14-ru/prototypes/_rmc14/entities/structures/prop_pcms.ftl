@@ -1,0 +1,11 @@
+ent-RMCPropPCMS = портативный дисплей для сменных надписей
+ent-RMCPropPCMS1 = { ent-RMCPropPCMS }
+    .suffix = Сбавьте скорость
+ent-RMCPropPCMS2 = { ent-RMCPropPCMS }
+    .suffix = Настройтесь
+ent-RMCPropPCMS3 = { ent-RMCPropPCMS }
+    .suffix = Выполняйте приказы
+ent-RMCPropPCMS4 = { ent-RMCPropPCMS }
+    .suffix = Впереди КПП
+ent-RMCPropPCMS5 = { ent-RMCPropPCMS }
+    .suffix = Эвакуационный центр

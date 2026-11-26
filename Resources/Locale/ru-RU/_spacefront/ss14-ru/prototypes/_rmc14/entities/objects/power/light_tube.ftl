@@ -1,0 +1,16 @@
+ent-RMCLightTubeBase = { ent-RMCLightBulbBase }
+ent-RMCLightTube = трубчатая лампа
+    .suffix = Теплая
+ent-RMCLightTubeBlue = { ent-RMCLightTube }
+    .suffix = Синяя
+ent-RMCLightTubeWarm = { ent-RMCLightTube }
+    .suffix = Оранжевая
+ent-RMCLightTubeRed = { ent-RMCLightTube }
+    .suffix = Красная
+ent-RMCLightTubeBroken = разбитая трубчатая лампа
+    .suffix = Сломанная
+ent-CMLightTubeBase = { ent-CMLightBulbBase }
+ent-CMLightTube = трубчатая лампа
+    .suffix = Теплая
+ent-CMLightTubeBroken = разбитая трубчатая лампа
+    .suffix = Сломанный

@@ -1,0 +1,10 @@
+ent-MaintenanceFluffSpawner = генератор добычи в техтоннелях
+    .suffix = Разное+Одежда
+ent-MaintenanceToolSpawner = генератор добычи в техтоннелях
+    .suffix = Инструменты+Батареи+Материалы
+ent-MaintenanceWeaponSpawner = генератор добычи в техтоннелях
+    .suffix = Хлам+Оружие
+ent-MaintenancePlantSpawner = генератор добычи в техтоннелях
+    .suffix = Растения
+ent-MaintenanceInsulsSpawner = генератор добычи в техтоннелях
+    .suffix = Изольки, безопасный

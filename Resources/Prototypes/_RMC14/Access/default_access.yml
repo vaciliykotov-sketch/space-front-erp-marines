@@ -1,0 +1,56 @@
+#base accesses
+#anything defined with protobaseaccess in the name will become a new "list" of accesses
+#all of their children will be listed inside them
+- type: accessLevel
+  id: RMCMarineDefaultAccess
+  name: "Морпех Default"
+  hidden: true
+
+- type: accessLevel
+  id: RMCBaseHidden
+  name: "протодоступ базы UNMC скрытый"
+  faction: FactionMarine
+  accessGroup: UNMC Hidden
+  hidden: true
+
+- type: accessLevel
+  id: RMCBaseCommandAccess
+  name: "протодоступ базы UNMC командование"
+  faction: FactionMarine
+  accessGroup: UNMC Command
+
+- type: accessLevel
+  id: RMCBaseMPAccess
+  name: "протодоступ базы UNMC военная полиция"
+  faction: FactionMarine
+  accessGroup: UNMC Military Police
+
+- type: accessLevel
+  id: RMCBaseMedicalAccess
+  name: "протодоступ базы UNMC медицина"
+  faction: FactionMarine
+  accessGroup: UNMC Medical
+
+- type: accessLevel
+  id: RMCBaseEngineeringAccess
+  name: "протодоступ базы UNMC инженерия"
+  faction: FactionMarine
+  accessGroup: UNMC Engineering
+
+- type: accessLevel
+  id: RMCBaseMarineAccess
+  name: "протодоступ базы UNMC морпех"
+  faction: FactionMarine
+  accessGroup: UNMC Marine Access
+
+- type: accessLevel
+  id: RMCBaseSquadAccess
+  name: "протодоступ базы UNMC отряд"
+  faction: FactionMarine
+  accessGroup: UNMC Squad
+
+- type: accessLevel
+  id: RMCBaseARESAccess
+  name: "протодоступ базы UNMC ARES"
+  faction: FactionMarine
+  accessGroup: UNMC ARES

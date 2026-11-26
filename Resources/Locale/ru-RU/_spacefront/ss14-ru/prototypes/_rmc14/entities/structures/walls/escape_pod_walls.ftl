@@ -1,0 +1,16 @@
+ent-RMCWallEscapePod0 = стенка
+ent-RMCWallEscapePod1 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod2 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod3 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod4 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod5 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod6 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod7 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod8 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod9 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod10 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod11 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod12 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod13 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod14 = { ent-RMCWallEscapePod0 }
+ent-RMCWallEscapePod15 = { ent-RMCWallEscapePod0 }

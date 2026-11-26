@@ -1,0 +1,11 @@
+ent-LeavesCannabis = конопляные листья
+ent-LeavesCannabisDried = высушенные конопляные листья
+ent-GroundCannabis = молотая конопля
+ent-LeavesCannabisRainbow = листья радужной конопли
+ent-LeavesCannabisRainbowDried = высушенные листья радужной конопли
+ent-GroundCannabisRainbow = молотая радужная конопля
+ent-LeavesTea = листовой чай
+ent-LeavesTeaDried = высушенный листовой чай
+ent-LeavesTobacco = табачные листья
+ent-LeavesTobaccoDried = высушенные табачные листья
+ent-GroundTobacco = молотый табак

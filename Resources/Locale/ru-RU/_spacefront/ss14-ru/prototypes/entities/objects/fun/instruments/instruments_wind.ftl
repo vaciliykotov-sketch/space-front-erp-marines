@@ -1,0 +1,9 @@
+ent-BaseWoodwindInstrument = { ent-BaseHandheldInstrument }
+ent-SaxophoneInstrument = инструмент саксофон
+ent-HarmonicaInstrument = гармоника губная
+ent-ClarinetInstrument = музыкальный инструмент кларнет
+ent-FluteInstrument = духовой инструмент флейта
+ent-RecorderInstrument = продольная флейта
+ent-PanFluteInstrument = многоствольная флейта Пана
+ent-OcarinaInstrument = глиняная окарина
+ent-BagpipeInstrument = шотландская волынка

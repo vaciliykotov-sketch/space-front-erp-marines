@@ -1,0 +1,12 @@
+ent-MobRatKing = король крыс
+    .suffix = { ent-SimpleMobBase.suffix }
+ent-MobRatKingBuff = { ent-MobRatKing }
+    .suffix = Качок
+ent-MobRatServant = слуга крысиного короля
+    .suffix = { ent-SimpleMobBase.suffix }
+ent-ActionRatKingRaiseArmy = Собрать армию
+ent-ActionRatKingDomain = Королевство крыс
+ent-ActionRatKingOrderStay = Стоять на месте
+ent-ActionRatKingOrderFollow = Идти следом
+ent-ActionRatKingOrderCheeseEm = В атаку
+ent-ActionRatKingOrderLoose = Разойтись

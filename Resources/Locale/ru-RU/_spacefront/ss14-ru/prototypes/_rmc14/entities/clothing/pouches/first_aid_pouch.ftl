@@ -1,0 +1,17 @@
+ent-RMCPouchFirstAid = подсумок для первой помощи
+ent-RMCPouchFirstAidInjectors = { ent-RMCPouchFirstAid }
+    .suffix = Инъекторы
+ent-RMCPouchFirstAidSplintsGauzeOintment = { ent-RMCPouchFirstAid }
+    .suffix = Шины, марля, мазь
+ent-RMCPouchFirstAidPills = { ent-RMCPouchFirstAid }
+    .suffix = Таблетки
+ent-RMCPouchFirstAidWEYA = подсумок для первой помощи
+ent-RMCPouchFirstAidERT = { ent-RMCPouchFirstAid }
+    .suffix = ОБР
+ent-RMCPouchFirstAidERTFill = { ent-RMCPouchFirstAidERT }
+    .suffix = ОБР, Заполненный
+ent-RMCPouchFirstAidPMC = подсумок первой помощи от Ве-Я
+ent-RMCPouchFirstAidPMCFill = { ent-RMCPouchFirstAidPMC }
+    .suffix = Заполненный
+ent-RMCPouchFirstAidSPPArmyFill = подсумок для первой помощи
+    .suffix = Заполненный

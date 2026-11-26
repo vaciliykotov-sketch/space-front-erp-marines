@@ -1,0 +1,15 @@
+ent-BaseMeteor = метеорит
+ent-MeteorSpaceDust = пыль космическая
+ent-MeteorSmall = { ent-BaseMeteor }
+    .suffix = Маленький
+ent-MeteorMedium = { ent-BaseMeteor }
+    .suffix = Средний
+ent-MeteorLarge = { ent-BaseMeteor }
+    .suffix = Большой
+ent-MeteorUrist = Урист МакМетеор
+    .suffix = Метеор
+ent-MeteorCow = корова космическая
+    .suffix = Метеор
+ent-MeteorClown = Хонкстероид
+    .suffix = Метеор
+ent-MeteorPotato = картошка космическая

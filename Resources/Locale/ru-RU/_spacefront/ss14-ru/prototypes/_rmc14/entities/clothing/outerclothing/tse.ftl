@@ -1,0 +1,12 @@
+ent-RMCArmorVestTSEPA = жилет броневой ИТСПД
+ent-RMCBaseTSEArmor = { "" }
+ent-RMCArmourM4TSEPA = броня M4 ИТСПД лёгкого типа
+ent-RMCArmourM4TSEPAChief = броня M4 ИТСПД инспекторская
+ent-RMCJacketParaCombatJacket = куртка боевая парамарина
+ent-RMCJacketParaCOJacket = куртка служебная командира парамаринов
+    .suffix = Выживший, Парамарин, Командир
+ent-RMCJacketParaCOJacketAlt = куртка служебная командира парамаринов
+    .suffix = Выживший, Парамарин, Командир, альт.
+ent-RMCJacketParaCOJacketFilled = { ent-RMCJacketParaCOJacket }
+    .suffix = Выживший, Парамарин, Заполненный, Командир
+ent-RMCJacketEIAFCombatJacket = куртка боевая ВИВДС

@@ -1,0 +1,12 @@
+ent-FoodTinBase = жестяная банка
+ent-FoodTinBaseTrash = банка пустая жестяная
+ent-FoodTinPeaches = персики в консервах
+ent-FoodTinPeachesTrash = персики консервированные
+ent-FoodTinPeachesMaint = персики из техтуннелей
+ent-FoodTinPeachesMaintOpen = { ent-FoodTinPeachesMaint }
+    .suffix = Открыт
+ent-FoodTinPeachesMaintTrash = персики техтуннельные
+ent-FoodTinBeans = фасоль в консервах
+ent-FoodTinBeansTrash = фасоль консервированная
+ent-FoodTinMRE = консерва с мясом
+ent-FoodTinMRETrash = мясная консерва жестяная

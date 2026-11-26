@@ -1,0 +1,9 @@
+ent-BaseSMES = СМЭС
+ent-SMESBasic = { ent-BaseSMES }
+    .suffix = Базовая, 8МДж
+ent-SMESBasicEmpty = { ent-SMESBasic }
+    .suffix = Пустой
+ent-SMESAdvanced = усовершенствованный СМЭС
+    .suffix = Продвинутый, 16МДж
+ent-SMESAdvancedEmpty = { ent-SMESAdvanced }
+    .suffix = Пустой

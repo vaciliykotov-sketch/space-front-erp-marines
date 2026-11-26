@@ -1,0 +1,9 @@
+ent-NotekeeperCartridge = картридж для заметок
+ent-NanoTaskCartridge = картридж НаноДел
+ent-NewsReaderCartridge = картридж для чтения новостей
+ent-CrewManifestCartridge = картридж манифеста экипажа
+ent-NetProbeCartridge = картридж сетевого зонда
+ent-LogProbeCartridge = картридж зонда логов
+ent-WantedListCartridge = картридж со списком разыскиваемых
+ent-MedTekCartridge = картридж МедТека
+ent-AstroNavCartridge = картридж АстроНава

@@ -1,0 +1,12 @@
+ent-RMCSmartGunMounted = M56D — крупнокалиберный пулемёт на станке
+ent-RMCSmartGunMountedLoaded = { ent-RMCSmartGunMounted }
+    .suffix = Заряженный
+ent-RMCSmartGunMountedStatic = пулемёт M56D, установленный на станке
+    .suffix = С прицелом
+ent-RMCMagazineML66D = патронный короб M56D (10x28мм)
+ent-RMCMagazineML66DEmpty = { ent-RMCMagazineML66D }
+    .suffix = Пустой
+ent-RMCMagazineML66DLarge = увеличенный патронный короб M56D (10x28мм)
+ent-RMCCartridgeHMG10x28mm = боеприпас 10x28мм
+ent-RMCCartridgeHMG10x28mmOffset = боеприпас калибра 10x28мм
+ent-RMCBulletHMG10x28mm = снаряд 10x28мм

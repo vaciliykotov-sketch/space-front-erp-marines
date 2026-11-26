@@ -1,0 +1,9 @@
+ent-AtmosFixBlockerMarker = маркер атмос-фикса: вакуум
+ent-AtmosFixOxygenMarker = маркер атмос-фикса: кислород
+ent-AtmosFixNitrogenMarker = маркер атмос-фикса: азот
+ent-AtmosFixPlasmaMarker = маркер атмос-фикса: плазма
+ent-AtmosFixInstantPlasmaFireMarker = маркер атмос-фикса: мгновенный плазменный пожар
+ent-AtmosFixFreezerMarker = маркер атмос-фикса: морозильник
+ent-AtmosFixVoxMarker = { ent-AtmosFixNitrogenMarker }
+    .suffix = Vox Atmosphere
+ent-AtmosFixAirMarker = маркер атмос-фикса: воздух

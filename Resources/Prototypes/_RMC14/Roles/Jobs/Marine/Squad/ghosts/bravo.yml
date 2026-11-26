@@ -1,0 +1,118 @@
+# combat technician
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidBravoCombatTech
+  name: "роль призрака «Браво»: боевой техник"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCBravoCombatTech
+
+- type: randomHumanoidSettings
+  parent: [RMCCombatTech, RMCBravoBase]
+  id: RMCBravoCombatTech
+
+# fireteam leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidBravoFireteamLeader
+  name: "роль призрака «Браво»: командир отделения"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCBravoFireteamLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCFireteamLeader, RMCBravoBase]
+  id: RMCBravoFireteamLeader
+
+# hospital corpsman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidBravoHospitalCorpsman
+  name: "роль призрака «Браво»: санитар"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCBravoHospitalCorpsman
+
+- type: randomHumanoidSettings
+  parent: [RMCHospitalCorpsman, RMCBravoBase]
+  id: RMCBravoHospitalCorpsman
+
+# rifleman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidBravoRifleman
+  name: "роль призрака «Браво»: стрелок"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCBravoRifleman
+
+- type: randomHumanoidSettings
+  parent: [RMCRifleman, RMCBravoBase]
+  id: RMCBravoRifleman
+
+# smart gun operator
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidBravoSmartGunOperator
+  name: "роль призрака «Браво»: оператор смартгана"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCBravoSmartGunOperator
+
+- type: randomHumanoidSettings
+  parent: [RMCSmartGunOperator, RMCBravoBase]
+  id: RMCBravoSmartGunOperator
+
+# squad leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidBravoSquadLeader
+  name: "роль призрака «Браво»: командир отряда"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCBravoSquadLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCSquadLeader, RMCBravoBase]
+  id: RMCBravoSquadLeader
+
+# weapons specialist
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidBravoWeaponsSpecialist
+  name: "роль призрака «Браво»: специалист по вооружению"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCBravoWeaponsSpecialist
+
+- type: randomHumanoidSettings
+  parent: [RMCWeaponsSpecialist, RMCBravoBase]
+  id: RMCBravoWeaponsSpecialist

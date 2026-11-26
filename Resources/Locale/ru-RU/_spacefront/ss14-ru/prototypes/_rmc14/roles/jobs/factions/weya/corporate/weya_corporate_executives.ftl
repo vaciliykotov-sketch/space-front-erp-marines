@@ -1,0 +1,16 @@
+ent-RMCRandomHumanoidCorporateExecutiveSupervisorLegal = призрачная роль: глава юридического департамента корпорации
+    .suffix = Спавнер, Игрок, Нейтральный
+ent-RMCRandomHumanoidCorporateExecutiveSpecialistLegal = призрачная роль: корпоративный правовой специалист
+    .suffix = Спавнер, Игрок, Нейтральный
+ent-RMCRandomHumanoidCorporateExecutiveSupervisor = призрачная роль: корпоративный супервайзер
+    .suffix = Спавнер, Игрок, Нейтральный
+ent-RMCRandomHumanoidCorporateAssistantManager = призрачная роль: ассистент менеджера корпорации
+    .suffix = Спавнер, Игрок, Нейтральный
+ent-RMCRandomHumanoidCorporateDivisionManager = призрачная роль: управляющий подразделением корпорации
+    .suffix = Спавнер, Игрок, Нейтральный
+ent-RMCRandomHumanoidCorporateChiefExecutive = призрачная роль: главный исполнительный директор корпорации
+    .suffix = Спавнер, Игрок, Нейтральный
+ent-RMCRandomHumanoidCorporateDeputyDirector = призрачная роль: замдиректора Ве-Я
+    .suffix = Спавнер, Игрок, Нейтральный
+ent-RMCRandomHumanoidCorporateDirector = призрачная роль: директор Ве-Я
+    .suffix = Спавнер, Игрок, Нейтральный

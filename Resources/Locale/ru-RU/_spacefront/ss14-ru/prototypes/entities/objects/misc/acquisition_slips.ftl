@@ -1,0 +1,13 @@
+ent-PaperAcquisitionSlip = документ о получении
+ent-PaperAcquisitionSlipMedical = { ent-PaperAcquisitionSlip }
+    .suffix = Медицинский
+ent-PaperAcquisitionSlipScience = { ent-PaperAcquisitionSlip }
+    .suffix = Научный
+ent-PaperAcquisitionSlipSecurity = { ent-PaperAcquisitionSlip }
+    .suffix = СБ
+ent-PaperAcquisitionSlipService = { ent-PaperAcquisitionSlip }
+    .suffix = Сервис
+ent-PaperAcquisitionSlipCargo = { ent-PaperAcquisitionSlip }
+    .suffix = Снабжение
+ent-PaperAcquisitionSlipEngineering = { ent-PaperAcquisitionSlip }
+    .suffix = Инженерный

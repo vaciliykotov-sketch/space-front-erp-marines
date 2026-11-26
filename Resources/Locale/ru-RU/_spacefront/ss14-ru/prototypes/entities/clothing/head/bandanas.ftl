@@ -1,0 +1,11 @@
+ent-ClothingHeadBandBase = { ent-ClothingHeadBaseButcherable }
+ent-ClothingHeadBandBlack = бандана чёрного цвета
+ent-ClothingHeadBandBlue = бандана синего цвета
+ent-ClothingHeadBandBotany = бандана ботаника
+ent-ClothingHeadBandGold = бандана золотого цвета
+ent-ClothingHeadBandGreen = бандана зелёного цвета
+ent-ClothingHeadBandGrey = бандана серого цвета
+ent-ClothingHeadBandRed = бандана красного цвета
+ent-ClothingHeadBandSkull = бандана с изображением черепа
+ent-ClothingHeadBandMerc = бандана наёмника
+ent-ClothingHeadBandBrown = бандана коричневого цвета

@@ -1,0 +1,17 @@
+ent-RMCWallRiverBase = { "" }
+ent-RMCWallRiver = перегородочная речная стена
+ent-RMCWallRiver2 = { ent-RMCWallRiver }
+ent-RMCWallRiver3 = { ent-RMCWallRiver }
+ent-RMCWallRiver4 = { ent-RMCWallRiver }
+ent-RMCWallRiver5 = { ent-RMCWallRiver }
+ent-RMCWallRiver6 = { ent-RMCWallRiver }
+ent-RMCWallRiver7 = { ent-RMCWallRiver }
+ent-RMCWallRiver8 = { ent-RMCWallRiver }
+    .suffix = альтернативный
+ent-RMCWallRiver9 = { ent-RMCWallRiver }
+    .suffix = альтернативный
+ent-RMCWallRiver10 = { ent-RMCWallRiver }
+ent-RMCWallRiver11 = { ent-RMCWallRiver }
+ent-RMCWallRiver12 = { ent-RMCWallRiver }
+ent-RMCWallRiver13 = { ent-RMCWallRiver }
+ent-RMCWallRiver14 = { ent-RMCWallRiver }

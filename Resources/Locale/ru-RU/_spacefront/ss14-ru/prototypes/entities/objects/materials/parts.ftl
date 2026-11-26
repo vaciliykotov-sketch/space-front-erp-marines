@@ -1,0 +1,15 @@
+ent-PartBase = { ent-BaseItem }
+ent-PartRodMetal = стержень из металла
+    .suffix = Полный
+ent-PartRodMetal10 = стержень из металла
+    .suffix = 10
+ent-PartRodMetal1 = стержень из металла
+    .suffix = Один
+ent-PartRodMetalLingering0 = { ent-PartRodMetal }
+    .suffix = 0, Не исчезают закончившись
+ent-FloorTileItemSteelLingering0 = { ent-FloorTileItemSteel }
+    .suffix = 0, Не исчезают закончившись
+ent-FloorTileItemWhiteLingering0 = { ent-FloorTileItemWhite }
+    .suffix = 0, Не исчезают закончившись
+ent-FloorTileItemDarkLingering0 = { ent-FloorTileItemDark }
+    .suffix = 0, Не исчезают закончившись

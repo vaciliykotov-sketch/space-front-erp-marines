@@ -1,0 +1,1 @@
+ent-HiveAcidPillarXeno = столб кислоты

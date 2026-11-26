@@ -1,0 +1,9 @@
+ent-RMCMortarKit = комплект миномёта M402 в переносном варианте
+    .suffix = Классический
+ent-RMCMortarShellBase = мина для миномёта калибра 80-мм
+ent-RMCMortarShellHE = 80-мм миномётный боеприпас с мощной взрывчаткой
+ent-RMCMortarShellFrag = снаряд осколочного типа 80-мм для миномёта
+ent-RMCMortarShellIncendiary = зажигательный 80-мм миномётный боеприпас
+ent-RMCMortarShellFlare = 80-мм миномётный боеприпас осветительно-камерного назначения
+ent-RMCMortarFlare = блик осветительного типа
+ent-RMCMortarCamera = устройство паракам

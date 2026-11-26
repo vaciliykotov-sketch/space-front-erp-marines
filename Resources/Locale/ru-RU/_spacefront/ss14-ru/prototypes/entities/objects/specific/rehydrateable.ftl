@@ -1,0 +1,17 @@
+ent-RehydratableItem = { ent-BaseItem }
+ent-RehydratableAnimalCube = { ent-RehydratableItem }
+ent-MonkeyCube = кубик с обезьяной
+ent-KoboldCube = кубик с кобольдом
+ent-CowCube = кубик с коровой
+ent-GoatCube = кубик с козой
+ent-MothroachCube = кубик с таракамолью
+ent-MouseCube = кубик с мышью
+ent-CockroachCube = кубик с тараканом
+ent-SpaceCarpCube = кубик с космическим карпом
+ent-SpaceTickCube = кубик с космическим клещом
+ent-AbominationCube = кубик с мерзостью
+ent-DehydratedSpaceCarp = высушенный космический карп
+ent-SyndicateSponge = { ent-MonkeyCube }
+    .suffix = Синдикат
+ent-MopBucketCube = куб-ведро со шваброй
+ent-MoproachCube = moproach cube

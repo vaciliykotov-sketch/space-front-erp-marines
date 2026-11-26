@@ -1,0 +1,27 @@
+МОДИФИКАЦИЯ: 02 Окно смерти и респавн
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Окно смерти призрака: принудительное выкидывание в лобби через 30 секунд + запрет повторного входа тем же персонажем
+
+ЗАЧЕМ:
+Что делает: после смерти показывает неотключаемое окно с таймером 30 секунд («Вернуться в тело!» / «Уйти сразу в лобби!»); через 30 секунд призрак принудительно возвращается в лобби; повторно зайти за персонажа с тем же именем в этом раунде нельзя. Зачем: чтобы умершие не подсматривали за живыми (анти-метагейминг) и не мешали респавн-циклу режима.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Server/_SpaceFront/Respawn/RespawnSystem.cs
+- Content.Server/_SpaceFront/Respawn/RespawnUsedNamesCommand.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Client/_SpaceFront/Respawn/RespawnSystem.cs
+- Content.Client/_SpaceFront/Respawn/SquadWarDeathWindow.xaml.cs
+- Content.Client/_SpaceFront/Respawn/SquadWarDeathWindow.xaml
+- Content.Client/_SpaceFront/Respawn/SquadWarDeathWindowSystem.cs
+- Content.Shared/_SpaceFront/Respawn/RespawnResetEvent.cs
+- Content.Shared/_SpaceFront/Respawn/SquadWarLeaveNowEvent.cs
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Чужие файлы с маркерами:
+- Content.Server/_RMC14/Mobs/CMGhostSystem.cs — вызов RespawnSystem.OnPlayerDied при смерти
+- Content.Server/GameTicking/GameTicker.Spawning.cs — запрет имени (IsNameBlocked)
+- Content.Server/GameTicking/GameTicker.RoundFlow.cs — расписание лобби
+- Content.Shared/CCVar/CCVars.Server.cs — RespawnTime
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

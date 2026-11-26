@@ -1,0 +1,16 @@
+ent-Lighter = обычная зажигалка
+ent-CheapLighter = зажигалка-дешёвка
+ent-FlippoLighter = зажигалка «Флиппо»
+ent-FlippoEngravedLighter = зажигалка «Флиппо» с гравировкой
+ent-BaseBrandedLighter = { ent-BaseItem }
+ent-SyndicateFlippo = Blood-red flippo
+ent-DiscountDanLighter = Discount Dan's lighter
+ent-CybersunFlippo = CyberSun Flippo
+ent-InterdyneFlippo = Interdyne Flippo
+ent-NanotrasenFlippo = Nanotrasen Flippo
+ent-CentCommFlippo = Gilded CentComm Flippo
+    .suffix = DO NOT MAP
+ent-SpiderclanFlippo = Spider-Clan lighter
+ent-WaffleCoFlippo = Waffle Co. flippo
+ent-HonkCoFlippo = Honk Co. flippo
+ent-DonkcoLighter = Donk Co. flippo

@@ -1,0 +1,11 @@
+ent-BaseKudzu = { "" }
+ent-Kudzu = растение кудзу
+ent-WeakKudzu = { ent-Kudzu }
+    .suffix = Слабый
+ent-KudzuFlowerFriendly = цветочный покров
+    .suffix = Аномалия Флора, Дружелюбный
+ent-KudzuFlowerAngry = { ent-KudzuFlowerFriendly }
+    .suffix = Аномалия Флора, Злой
+ent-FleshKudzu = жилистые волокна
+ent-ShadowKudzu = сумрачная пелена
+ent-ShadowKudzuWeak = лёгкая пелена

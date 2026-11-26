@@ -1,0 +1,12 @@
+ent-Crayon = восковой мелок
+ent-CrayonWhite = мелок белого цвета
+ent-CrayonMime = мелок мима
+ent-CrayonRainbow = мелок всех цветов радуги
+ent-CrayonBlack = мелок чёрного цвета
+ent-CrayonRed = мелок красного цвета
+ent-CrayonOrange = мелок оранжевого цвета
+ent-CrayonYellow = мелок жёлтого цвета
+ent-CrayonGreen = мелок зелёного цвета
+ent-CrayonBlue = мелок синего цвета
+ent-CrayonPurple = мелок фиолетового цвета
+ent-CrayonBox = коробка с мелками

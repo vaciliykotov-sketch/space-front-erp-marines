@@ -1,0 +1,175 @@
+- type: entity
+  id: RMCCrateEmptySandbags
+  parent: RMCCrateConstruction
+  name: "пустые мешки с песком crate"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMSandbagEmpty50
+
+- type: entity
+  id: RMCCrateSandbagsConstructionKit
+  parent: RMCCrateConstruction
+  name: "песокbags construction kit"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMSandbagFull50
+      - id: CMEntrenchingTool
+        amount: 2
+
+- type: entity
+  id: RMCCrateMetalSheets
+  parent: RMCCrateConstruction
+  name: "металл sheets crate"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMSheetMetal
+
+- type: entity
+  id: RMCCratePlasteelSheets
+  parent: RMCCrateConstruction
+  name: "пласталь sheets crate"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMSheetPlasteel
+
+- type: entity
+  id: RMCCrateGlassSheets
+  parent: RMCCrateConstruction
+  name: "ящик листов стекла"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMSheetGlass
+
+- type: entity
+  id: RMCCrateWoodenPlanks
+  parent: RMCCrateConstruction
+  name: "деревянная доскаs crate"
+  components:
+  - type: StorageFill
+    contents:
+     - id: RMCPlankWood
+
+- type: entity
+  id: RMCCrateFoldingBarricades
+  parent: RMCCrateConstruction
+  name: "Складная баррикада MB-6s crate"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMFoldingBarricadesMB6x3
+
+- type: entity
+  parent: RMCCrateConstruction
+  id: RMCCrateSuperconductingMagneticCoil
+  name: "сверхпроводящая магнитная катушка crate"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMStockPartSMESCoil
+
+- type: entity
+  id: RMCCrateElectricalMaintenance
+  parent: RMCCrateConstruction
+  name: "ящик для электротехнического обслуживания"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCToolboxElectricalFilled
+        amount: 2
+      - id: CMHandsInsulated
+        amount: 2
+      - id: RMCPowerCell
+        amount: 2
+      - id: RMCPowerCellHigh
+        amount: 2
+
+- type: entity
+  id: RMCCrateMechanicalMaintenance
+  parent: RMCCrateConstruction
+  name: "ящик механического обслуживания"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMBeltUtilityFilled
+        amount: 3
+      - id: RMCHazardVest
+        amount: 3
+      - id: RMCHelmetWelding
+        amount: 2
+      - id: RMCHardHat
+        amount: 1
+
+- type: entity
+  id: RMCCrateInflatableBarriers
+  parent: RMCCrateConstruction
+  name: "ящик надувных барьеров"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCInflatableDoorFolded
+      amount: 2
+    - id: RMCInflatableWallFolded
+      amount: 1
+
+- type: entity
+  id: RMCCrateReplacementLights
+  parent: RMCCrateConstruction
+  name: "ящик с запасными лампами"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBoxLightsMixed
+      amount: 3
+
+- type: entity
+  id: RMCCratePacmanParts
+  parent: RMCCrateConstruction
+  name: "детали портативного генератора Pacman"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCPortableGeneratorPacmanMachineCircuitBoard
+        amount: 1
+#  TODO RMC14 material requirements
+#  /obj/item/stock_parts/micro_laser,
+#  /obj/item/stock_parts/capacitor,
+#  /obj/item/stock_parts/matter_bin,
+
+- type: entity
+  id: RMCCrateSuperPacmanParts
+  parent: RMCCrateConstruction
+  name: "детали портативного генератора Super Pacman"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCPortableGeneratorSuperPacmanMachineCircuitboard
+        amount: 1
+#  TODO RMC14 material requirements
+#  /obj/item/stock_parts/micro_laser,
+#  /obj/item/stock_parts/capacitor,
+#  /obj/item/stock_parts/matter_bin,
+
+- type: entity
+  id: RMCCrateFlashlights
+  parent: RMCCrateConstruction
+  name: "вспышкаlights crate"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCFlashlight
+        amount: 8
+
+- type: entity
+  id: RMCCrateHighCapacityPowerCell
+  parent: RMCCrateConstruction
+  name: "энергоэлемент повышенной ёмкости crate"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCPowerCellHigh
+        amount: 8

@@ -1,0 +1,56 @@
+- type: accessGroup
+  id: CMCMO
+  parent: RMCBaseMedicalJob
+  name: "Главный врач"
+  tags:
+  - CMAccessCMO
+  - CMAccessMedical
+  - RMCAccessMorgue
+  - CMAccessResearch
+  - RMCAccessFieldDoctor
+  - RMCAccessCommand
+  - CMAccessChemistry
+  - RMCAccessDatabase
+  - RMCAccessSeniorCommand
+  - RMCAccessLogs
+
+- type: accessGroup
+  id: CMMedbay
+  parent: RMCBaseMedicalJob
+  name: "Докtor"
+  tags:
+  - CMAccessMedical
+  - RMCAccessMorgue
+  - CMAccessChemistry
+  - RMCAccessDatabase
+
+- type: accessGroup
+  id: Nurse
+  parent: RMCBaseMedicalJob
+  name: "Медсестра"
+  tags:
+  - CMAccessMedical
+  - RMCAccessMorgue
+  - CMAccessChemistry
+  - RMCAccessDatabase
+
+- type: accessGroup
+  id: Researcher
+  parent: RMCBaseMedicalJob
+  name: "Исследованияer"
+  tags:
+  - CMAccessMedical
+  - CMAccessResearch
+  - CMAccessChemistry
+  - RMCAccessMorgue
+
+- type: accessGroup
+  id: RMCFieldDoctor
+  parent: RMCBaseMedicalJob
+  name: "Полевой врач"
+  tags:
+  - CMAccessMedical
+  - RMCAccessMorgue
+  - CMAccessChemistry
+  - RMCAccessDatabase
+  - RMCAccessFieldDoctor

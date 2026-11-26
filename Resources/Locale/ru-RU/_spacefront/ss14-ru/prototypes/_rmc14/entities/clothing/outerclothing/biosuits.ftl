@@ -1,0 +1,16 @@
+ent-RMCBaseBioSuit = { ent-RMCBaseArmor }
+ent-RMCSuitBioGeneral = универсальный биозащитный костюм
+    .suffix = Стандартный, RMC
+ent-RMCSuitBioMedical = { ent-RMCSuitBioGeneral }
+    .suffix = Медицинский, RMC
+ent-RMCSuitBioScientist = { ent-RMCSuitBioGeneral }
+    .suffix = Учёный, RMC
+ent-RMCSuitBioSecurity = { ent-RMCSuitBioGeneral }
+    .suffix = Охрана, RMC
+ent-RMCSuitBioVirology = { ent-RMCSuitBioGeneral }
+    .suffix = Вирусология, RMC
+ent-RMCArmorFirefighter = костюм PT-LT для защиты от огня
+ent-RMCSuitFirefighter = костюм для борьбы с пожарами
+ent-RMCArmorSPPFirefighter = куртка T-20 для пожарных
+ent-RMCSuitBioWeYa = костюм биозащиты ВеЯ-TSS MK I
+    .suffix = Стандартный, ВеЯ

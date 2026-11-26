@@ -1,0 +1,13 @@
+ent-SprayBottle = пульверизатор
+    .suffix = Пустой
+ent-MegaSprayBottle = пульверизатор мега
+    .suffix = Пустой
+ent-SprayBottleWater = пульверизатор с водой
+    .suffix = Полный
+ent-SprayBottleSpaceCleaner = очиститель для космоса
+ent-BorgSprayBottle = встроенный пульверизатор
+    .suffix = Заполненный
+ent-BorgMegaSprayBottle = улучшенный встроенный пульверизатор
+    .suffix = Заполненный
+ent-Vapor = испарение
+ent-BigVapor = { ent-Vapor }

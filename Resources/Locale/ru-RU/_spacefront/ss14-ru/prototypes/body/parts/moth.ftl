@@ -1,0 +1,11 @@
+ent-PartMoth = тело моли (часть)
+ent-TorsoMoth = туловище моли
+ent-HeadMoth = моли голова
+ent-LeftArmMoth = рука моли с левой стороны
+ent-RightArmMoth = рука моли с правой стороны
+ent-LeftHandMoth = левая кисть у моли
+ent-RightHandMoth = правая кисть у моли
+ent-LeftLegMoth = левая нога у моли
+ent-RightLegMoth = правая нога у моли
+ent-LeftFootMoth = левая стопа у моли
+ent-RightFootMoth = правая стопа у моли

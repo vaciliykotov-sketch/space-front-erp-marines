@@ -1,0 +1,9 @@
+ent-STTigerRubsBengal = животная шкура
+ent-STTigerRubsGray = { ent-STTigerRubsBengal }
+ent-STTigerRubsHotline = { ent-STTigerRubsBengal }
+ent-STTigerRubsPlain = { ent-STTigerRubsBengal }
+ent-STTigerRubsWhite = { ent-STTigerRubsBengal }
+ent-STTigerRubsPlainHunter = { ent-STTigerRubsPlain }
+ent-STTigerRubsPlainHunterAlt = { ent-STTigerRubsPlain }
+ent-STTigerRubsWhiteHunter = { ent-STTigerRubsWhite }
+ent-STTigerRubsWhiteHunterAlt = { ent-STTigerRubsWhite }

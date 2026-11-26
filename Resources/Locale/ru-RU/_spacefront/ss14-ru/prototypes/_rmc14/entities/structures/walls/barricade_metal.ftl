@@ -1,0 +1,1 @@
+ent-RMCBarricadeSmallWire = { ent-RMCBarricadeHandrail }

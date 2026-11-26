@@ -1,0 +1,16 @@
+ent-CMWindoorKitchen = { ent-CMWindoor }
+    .suffix = Кухня, Закрытый
+ent-CMWindoorSecureBrig = { ent-CMWindoorSecure }
+    .suffix = Бриг, Закрытый
+ent-CMWindoorSecurerRequisitions = { ent-CMWindoorSecure }
+    .suffix = Поставки, Закрытый
+ent-CMWindoorSecureMedical = { ent-CMWindoorSecure }
+    .suffix = Медицинский, Закрытый
+ent-CMWindoorSecureEngineering = { ent-CMWindoorSecure }
+    .suffix = Инженерный, Закрытый
+ent-CMWindoorSecureCommand = { ent-CMWindoorSecure }
+    .suffix = Командный, Закрытый
+ent-RMCWindoorSecureTSEPABrig = { ent-CMWindoorSecure }
+    .suffix = ИТСПД, Бриг, Закрытый
+ent-CMWindoorSecureBrigPowered = { ent-CMWindoorSecure }
+    .suffix = Бриг, Закрытый, Запитанный

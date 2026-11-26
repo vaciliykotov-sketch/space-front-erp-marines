@@ -1,0 +1,1 @@
+ent-STDemolitionsScanner = сканер взрывчатки

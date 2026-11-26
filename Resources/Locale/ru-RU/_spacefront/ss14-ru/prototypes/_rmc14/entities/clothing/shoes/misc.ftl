@@ -1,0 +1,15 @@
+ent-RMCShoesLaceup = шнурованные ботинки
+ent-RMCShoesLaceupDress = шнурованные туфли
+ent-RMCShoesLaceupBrown = { ent-RMCShoesLaceup }
+ent-RMCShoesFancyLeather = элегантные туфли из кожи
+ent-RMCShoesJackboots = высокие сапоги
+ent-RMCShoesJackbootsFilled = { ent-RMCShoesJackboots }
+    .suffix = Заполненный
+ent-RMCShoesPrisoner = тюремная обувь
+ent-RMCShoesGaloshes = резиновые галоши
+ent-RMCShoesWeYaStompers = топталки от Вестона-Ямады
+ent-RMCShoesSandals = сандальная обувь
+    .suffix = RMC
+ent-RMCShoesSnow = сапоги для зимы
+ent-RMCShoesSlippers = комнатные заячьи тапки
+ent-RMCShoesSlippersWorn = заячьи тапки, бывшие в употреблении

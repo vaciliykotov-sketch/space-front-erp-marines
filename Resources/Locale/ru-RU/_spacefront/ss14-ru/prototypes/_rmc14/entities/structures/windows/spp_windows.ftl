@@ -1,0 +1,15 @@
+ent-RMCWindowFrameSPPReinforced = { ent-RMCWindowFrameColonyReinforced }
+ent-RMCWindowFrameSPPReinforcedGrey = { ent-RMCWindowFrameSPPReinforced }
+    .suffix = Серый
+ent-RMCWindowFrameSPPReinforcedWhite = { ent-RMCWindowFrameSPPReinforced }
+    .suffix = Белый
+ent-RMCWindowSPPReinforced = окно с бронированием
+ent-RMCWindowSPPReinforcedGrey = { ent-RMCWindowSPPReinforced }
+    .suffix = Серый
+ent-RMCWindowSPPReinforcedWhite = { ent-RMCWindowSPPReinforced }
+    .suffix = Белый
+ent-RMCWindowSPPHull = корпусное окно
+ent-RMCWindowSPPHullGrey = { ent-RMCWindowSPPHull }
+    .suffix = Серый
+ent-RMCWindowSPPHullWhite = { ent-RMCWindowSPPHull }
+    .suffix = Белый

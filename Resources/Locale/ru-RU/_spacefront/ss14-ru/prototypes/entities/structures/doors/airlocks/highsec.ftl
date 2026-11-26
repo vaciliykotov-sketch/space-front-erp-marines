@@ -1,0 +1,1 @@
+ent-HighSecDoor = укреплённая дверь

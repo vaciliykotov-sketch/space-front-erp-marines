@@ -1,0 +1,14 @@
+ent-RMCRandomHumanoidEchoCombatTech = роль призрака боевого техника "Эхо"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidEchoFireteamLeader = роль призрака лидера огневой группы "Эхо"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidEchoHospitalCorpsman = роль призрака госпитального санитара "Эхо"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidEchoRifleman = роль призрака рядового стрелка "Эхо"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidEchoSmartGunOperator = роль призрака оператора смартгана "Эхо"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidEchoSquadLeader = роль призрака лидера отряда "Эхо"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidEchoWeaponsSpecialist = роль призрака оружейного специалиста "Эхо"
+    .suffix = Спавнер, Игрок

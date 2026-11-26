@@ -1,0 +1,16 @@
+ent-CMClosetBombFilled = { ent-CMClosetBomb }
+    .suffix = Заполненный
+ent-RMCArmoryLockerBlueFilled = { ent-RMCLockerGunBlue }
+    .suffix = Заполненный
+ent-RMCArmoryLockerRedM890Filled = { ent-RMCLockerGunRed }
+    .suffix = Заполненный 890Tactical
+ent-RMCArmoryLockerRedM890FilledSingle = { ent-RMCLockerGunRed }
+    .suffix = Заполненный 890Tactical, Single
+ent-RMCArmoryLockerRedM4SPRFilled = { ent-RMCLockerGunRed }
+    .suffix = Заполненный M4RA
+ent-RMCArmoryLockerRedM63Filled = { ent-RMCLockerGunRed }
+    .suffix = Заполненный M39
+ent-RMCArmoryLockerRedM54CMK1AP = { ent-RMCLockerGunRed }
+    .suffix = Заполненный M41A MK1 ББ
+ent-RMCArmoryLockerRedM1984 = { ent-RMCLockerGunRed }
+    .suffix = Заполненный M4A3

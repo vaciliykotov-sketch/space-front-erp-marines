@@ -1,0 +1,1 @@
+ent-STUnlitTorch = факел (незажжённый)

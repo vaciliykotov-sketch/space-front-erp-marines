@@ -1,0 +1,12 @@
+ent-AnomalyInjectionBase = { "" }
+ent-AnomalyInjectionPyroclastic = { ent-AnomalyInjectionBase }
+ent-AnomalyInjectionElectric = { ent-AnomalyInjectionBase }
+ent-AnomalyInjectionShadow = { ent-AnomalyInjectionBase }
+ent-AnomalyInjectionIce = { ent-AnomalyInjectionBase }
+ent-AnomalyInjectionFlora = { ent-AnomalyInjectionBase }
+ent-AnomalyInjectionBluespace = { ent-AnomalyInjectionBase }
+ent-AnomalyInjectionFlesh = { ent-AnomalyInjectionBase }
+ent-AnomalyInjectionGravity = { ent-AnomalyInjectionBase }
+ent-AnomalyInjectionTech = { ent-AnomalyInjectionBase }
+ent-AnomalyInjectionRock = { ent-AnomalyInjectionBase }
+ent-AnomalyInjectionSanta = { ent-AnomalyInjectionBase }

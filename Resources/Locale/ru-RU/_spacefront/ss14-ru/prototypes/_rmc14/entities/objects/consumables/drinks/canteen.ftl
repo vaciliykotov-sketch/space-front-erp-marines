@@ -1,0 +1,12 @@
+ent-CMCanteenBase = { ent-DrinkBase }
+ent-CMCanteen = фляжка
+ent-CMMetalFlask = фляга из металла
+    .suffix = Пустая
+ent-CMMarineFlask = фляга морпеха
+ent-CMWEYAFlask = фляжка Ве-Я
+ent-RMCWeYaThermos = термос марки Ве-Я
+ent-CMUSCMFlask = фляжка КМП США
+ent-CMWYFlask = фляжка Вестон-Ямада
+ent-RMCDrinkFlaskWeYaPoisoned = { ent-CMWEYAFlask }
+ent-RMCDrinkFlaskHippieWater = фляжка с водой хиппи
+    .suffix = Заполненный

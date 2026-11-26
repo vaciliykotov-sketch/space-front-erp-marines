@@ -1,0 +1,486 @@
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaFiorina
+  name: Fiorina Орбитальная тюрьма - Научное крыло
+  suffix: Fiorina Area
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_fiorina.rsi
+    state: fiorina
+  - type: Area
+    buildSpecial: true
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+    minimapColor: '#6C6767D8'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaFiorina
+  id: RMCAreaFiorinaOob
+  name: Fiorina - За пределами доступа
+  components:
+  - type: Sprite
+    state: oob
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: false
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: true
+    alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaFiorina
+  id: RMCAreaFiorinaMaintenance
+  name: Fiorina - Техническое обслуживание
+  components:
+  - type: Sprite
+    state: maints
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaFiorina
+  id: RMCAreaFiorinaTumor
+  name: Fiorina - Смоляная опухоль
+  components:
+  - type: Sprite
+    state: tumor0
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaFiorinaTumor
+  id: RMCAreaFiorinaTumorDeep
+  components:
+  - type: Sprite
+    state: tumor0-deep
+
+- type: entity
+  parent: RMCAreaFiorinaTumor
+  id: RMCAreaFiorinaTumorFiberbush
+  name: "Фиорина - Заражение волокнистым кустарником"
+  components:
+  - type: Sprite
+    state: tumor-fiberbush
+
+- type: entity
+  parent: RMCAreaFiorinaTumor
+  id: RMCAreaFiorinaTumorShip
+  name: Fiorina - Корабль-мусорщик 'NSV Renault'
+  components:
+  - type: Sprite
+    state: tumor1
+  - type: Area
+    minimapColor: '#885A04E7'
+
+- type: entity
+  parent: RMCAreaFiorinaTumor
+  id: RMCAreaFiorinaTumorCivres
+  name: Fiorina - Жилые помещения зелёного блока
+  components:
+  - type: Sprite
+    state: tumor0
+
+- type: entity
+  parent: RMCAreaFiorinaTumor
+  id: RMCAreaFiorinaTumorAuxEngi
+  name: "Фиорина - Инженерный сектор"
+  components:
+  - type: Sprite
+    state: tumor2
+  - type: Area
+    minimapColor: '#C19504E7'
+
+- type: entity
+  parent: RMCAreaFiorinaTumor
+  id: RMCAreaFiorinaTumorServers
+  name: Fiorina - Исследовательские серверы
+  components:
+  - type: Sprite
+    state: tumor2
+  - type: Area
+    minimapColor: '#812DA2EE'
+
+- type: entity
+  parent: RMCAreaFiorinaTumor
+  id: RMCAreaFiorinaTumorIceLab
+  name: "Фиорина - Криогенные исследовательские лаборатории"
+  components:
+  - type: Sprite
+    state: tumor3
+  - type: Area
+    minimapColor: '#812DA2EE'
+
+- type: entity
+  parent: RMCAreaFiorina
+  id: RMCAreaFiorinaLz
+  name: Fiorina - Зона посадки
+  components:
+  - type: Sprite
+    state: lz
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+    landingZone: true
+    minimapColor: '#EBE5E5E3'
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaFiorinaLz
+  id: RMCAreaFiorinaLzNearLzI
+  name: Fiorina - Зона посадки1 Aux Port
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaFiorinaLz
+  id: RMCAreaFiorinaLzNearLzII
+  name: Fiorina - Зона посадки2 Prison Port
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaFiorinaLz
+  id: RMCAreaFiorinaLzConsoleI
+  name: Fiorina - Зона посадки1 Control Console
+  components:
+  - type: Sprite
+    state: lz1
+  - type: Area
+    alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaFiorinaLz
+  id: RMCAreaFiorinaLzConsoleII
+  name: Fiorina - Зона посадки2 Control Console
+  components:
+  - type: Sprite
+    state: lz2
+  - type: Area
+    alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaShuttleDrop1
+  id: RMCAreaShuttleDrop1PrisonV3
+  name: "Фиорина - Зона посадки десантного корабля «Аламо»"
+  components:
+  - type: Sprite
+    state: shuttle
+  - type: Area
+    linkedLz: dropship_lz1
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaShuttleDrop2
+  id: RMCAreaShuttleDrop2PrisonV3
+  name: Fiorina - Зона посадки Normandy
+  components:
+  - type: Sprite
+    state: shuttle2
+  - type: Area
+    linkedLz: dropship_lz2
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaFiorina
+  id: RMCAreaFiorinaStation
+  name: Fiorina - Внутренние помещения станции
+  components:
+  - type: Sprite
+    state: station0
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationLowsec
+  name: Fiorina - Камеры минимальной безопасности
+  components:
+  - type: Sprite
+    state: station1
+
+- type: entity
+  parent: RMCAreaFiorinaStationLowsec
+  id: RMCAreaFiorinaStationLowsecShowersLaundry
+  name: Fiorina - Душевые и прачечная минимальной безопасности
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaFiorinaStationLowsec
+  id: RMCAreaFiorinaStationLowsecEast
+  name: Fiorina - Восточная сторона минимальной безопасности
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationPowerRing
+  name: "Фиорина - Инженерное кольцо"
+  components:
+  - type: Sprite
+    state: power0
+  - type: Area
+    minimapColor: '#C19504E7'
+    linkedLz: dropship_lz2, dropship_lz1
+
+- type: entity
+  parent: RMCAreaFiorinaStationPowerRing
+  id: RMCAreaFiorinaStationPowerRingReactor
+  name: "Фиорина - Инженерный реактор"
+  components:
+  - type: Area
+    linkedLz: null
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationDisco
+  name: Fiorina - Западный склад дискотеки
+  components:
+  - type: Sprite
+    state: disco
+
+- type: entity
+  parent: RMCAreaFiorinaStationDisco
+  id: RMCAreaFiorinaStationDiscoEastDisco
+  name: "Фиорина - Восточное хранилище диско"
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationFlightDeck
+  name: Fiorina - Полётная палуба
+  components:
+  - type: Sprite
+    state: police_line
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationSecurity
+  name: Fiorina - Центр безопасности
+  components:
+  - type: Sprite
+    state: security_hub
+  - type: Area
+    minimapColor: '#A22D2DEE'
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaFiorinaStationSecurity
+  id: RMCAreaFiorinaStationSecurityWardens
+  name: Fiorina - Кабинет начальника тюрьмы
+  components:
+  - type: Sprite
+    state: wardens
+  - type: Area
+    minimapColor: '#A22D2DEE'
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationBotany
+  name: "Фиорина - Ботанические лотки"
+  components:
+  - type: Sprite
+    state: botany
+  - type: Area
+    minimapColor: '#812DA2EE'
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationPark
+  name: Fiorina - Парк
+  components:
+  - type: Sprite
+    state: station0
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationTransitHub
+  name: Fiorina - Транзитный узел
+  components:
+  - type: Sprite
+    state: station1
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationCentralRing
+  name: "Фиорина - Центральное кольцо"
+  components:
+  - type: Sprite
+    state: station2
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationChapel
+  name: "Фиорина - Часовня"
+  components:
+  - type: Sprite
+    state: station3
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationCivresBlue
+  name: "Фиорина - Жилые блоки «Синий блок»"
+  components:
+  - type: Sprite
+    state: station1
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationMedbay
+  name: Fiorina - Медицинский отсек
+  components:
+  - type: Sprite
+    state: station4
+  - type: Area
+    minimapColor: '#3DBF75EE'
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationResearchCells
+  name: Fiorina - Исследовательский блок камер
+  components:
+  - type: Sprite
+    state: station0
+  - type: Area
+    minimapColor: '#812DA2EE'
+
+- type: entity
+  parent: RMCAreaFiorinaStationResearchCells
+  id: RMCAreaFiorinaStationResearchCellsWest
+  name: Fiorina - Западный исследовательский блок камер
+
+- type: entity
+  parent: RMCAreaFiorinaStationResearchCells
+  id: RMCAreaFiorinaStationResearchCellsEast
+  name: "Фиорина - Восточный исследовательский блок камер"
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaFiorinaStationResearchCells
+  id: RMCAreaFiorinaStationResearchCellsBasketball
+  name: "Фиорина - Баскетбольная площадка"
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaFiorinaStation
+  id: RMCAreaFiorinaStationTelecomm
+  name: "Фиорина - Ретранслятор связи"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas.rsi
+    state: ass_line
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaFiorinaStationTelecomm
+  id: RMCAreaFiorinaStationTelecommLz1Cargo
+  name: Fiorina - Зона посадки1 Cargo Communications Relay
+
+- type: entity
+  parent: RMCAreaFiorinaStationTelecomm
+  id: RMCAreaFiorinaStationTelecommLz1Containers
+  name: Fiorina - Зона посадки1 Containers Communications Relay
+
+- type: entity
+  parent: RMCAreaFiorinaStationTelecomm
+  id: RMCAreaFiorinaStationTelecommLz1Tram
+  name: Fiorina - Зона посадки1 Aux Port Engineering Passage
+  components:
+  - type: Area
+    landingZone: true
+
+- type: entity
+  parent: RMCAreaFiorinaStationTelecomm
+  id: RMCAreaFiorinaStationTelecommLz1Engineering
+  name: "Фиорина - Основной ретранслятор связи инженерного сектора"
+
+- type: entity
+  parent: RMCAreaFiorinaStationTelecomm
+  id: RMCAreaFiorinaStationTelecommLz2Engineering
+  name: "Фиорина - Вторичный ретранслятор связи инженерного сектора"
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaFiorinaStationTelecomm
+  id: RMCAreaFiorinaStationTelecommLz2North
+  name: Fiorina - Зона посадки2 North Communications Relay
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaFiorinaStationTelecomm
+  id: RMCAreaFiorinaStationTelecommLz2Maint
+  name: "Фиорина - Резервный ретранслятор связи"
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaFiorinaMaintenance
+  id: RMCAreaFiorinaStationRocinante
+  name: "Бродячий грузовой корабль «Росинант»"
+  components:
+  - type: Sprite
+    state: security_hub

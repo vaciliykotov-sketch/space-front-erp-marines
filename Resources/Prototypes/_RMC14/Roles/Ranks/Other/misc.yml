@@ -1,0 +1,26 @@
+- type: rank
+  id: RMCRankOperator
+  name: "Оператор"
+  prefix: OPR.
+
+- type: rank
+  id: RMCRankOperative
+  name: "Оперативник"
+  prefix: OPR.
+
+- type: rank
+  id: RMCRankSynthetic
+  name: "Синтетик"
+  prefix: Syn.
+  paygrade: E8
+
+- type: rank
+  id: RMCRankSyntheticMG
+  name: "Синтетик"
+  prefix: Syn.
+  paygrade: E9
+
+- type: rank
+  id: RMCRankSyntheticColonist
+  name: "Синтетик"
+  prefix: Syn.

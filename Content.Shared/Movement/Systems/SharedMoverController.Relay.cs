@@ -1,0 +1,134 @@
+using Content.Shared.ActionBlocker;
+using Content.Shared.Movement.Components;
+using Content.Shared.Movement.Events;
+
+namespace Content.Shared.Movement.Systems;
+
+public abstract partial class SharedMoverController
+{
+    private void InitializeRelay()
+    {
+        SubscribeLocalEvent<RelayInputMoverComponent, ComponentShutdown>(OnRelayShutdown);
+        SubscribeLocalEvent<MovementRelayTargetComponent, ComponentShutdown>(OnTargetRelayShutdown);
+        SubscribeLocalEvent<MovementRelayTargetComponent, AfterAutoHandleStateEvent>(OnAfterRelayTargetState);
+        SubscribeLocalEvent<RelayInputMoverComponent, AfterAutoHandleStateEvent>(OnAfterRelayState);
+        // RMC14
+        SubscribeLocalEvent<RelayInputMoverComponent, CanMoveUpdatedEvent>(OnRelayCanMoveUpdated);
+        // RMC14
+    }
+
+    private void OnAfterRelayTargetState(Entity<MovementRelayTargetComponent> entity, ref AfterAutoHandleStateEvent args)
+    {
+        PhysicsSystem.UpdateIsPredicted(entity.Owner);
+        // RMC14
+        EnsureValidRelayTarget(entity.Owner, entity.Comp);
+        // RMC14
+    }
+
+    private void OnAfterRelayState(Entity<RelayInputMoverComponent> entity, ref AfterAutoHandleStateEvent args)
+    {
+        PhysicsSystem.UpdateIsPredicted(entity.Owner);
+    }
+
+    // RMC14
+    private void OnRelayCanMoveUpdated(Entity<RelayInputMoverComponent> ent, ref CanMoveUpdatedEvent args)
+    {
+        if (args.CanMove)
+            return;
+
+        if (MoverQuery.TryComp(ent.Comp.RelayEntity, out var inputMoverComponent))
+            SetMoveInput((ent.Comp.RelayEntity, inputMoverComponent), MoveButtons.None);
+    }
+    // RMC14
+
+    /// <summary>
+    ///     Sets the relay entity and marks the component as dirty. This only exists because people have previously
+    ///     forgotten to Dirty(), so fuck you, you have to use this method now.
+    /// </summary>
+    public void SetRelay(EntityUid uid, EntityUid relayEntity)
+    {
+        if (uid == relayEntity)
+        {
+            Log.Error($"An entity attempted to relay movement to itself. Entity:{ToPrettyString(uid)}");
+            return;
+        }
+
+        var component = EnsureComp<RelayInputMoverComponent>(uid);
+        if (component.RelayEntity == relayEntity)
+            return;
+
+        if (TryComp(component.RelayEntity, out MovementRelayTargetComponent? oldTarget))
+        {
+            oldTarget.Source = EntityUid.Invalid;
+            RemComp(component.RelayEntity, oldTarget);
+            PhysicsSystem.UpdateIsPredicted(component.RelayEntity);
+        }
+
+        var targetComp = EnsureComp<MovementRelayTargetComponent>(relayEntity);
+        if (TryComp(targetComp.Source, out RelayInputMoverComponent? oldRelay))
+        {
+            oldRelay.RelayEntity = EntityUid.Invalid;
+            RemComp(targetComp.Source, oldRelay);
+            PhysicsSystem.UpdateIsPredicted(targetComp.Source);
+        }
+
+        PhysicsSystem.UpdateIsPredicted(uid);
+        PhysicsSystem.UpdateIsPredicted(relayEntity);
+        component.RelayEntity = relayEntity;
+        targetComp.Source = uid;
+        Dirty(uid, component);
+        Dirty(relayEntity, targetComp);
+        _blocker.UpdateCanMove(uid);
+    }
+
+    private void OnRelayShutdown(Entity<RelayInputMoverComponent> entity, ref ComponentShutdown args)
+    {
+        PhysicsSystem.UpdateIsPredicted(entity.Owner);
+        PhysicsSystem.UpdateIsPredicted(entity.Comp.RelayEntity);
+
+        if (TryComp<InputMoverComponent>(entity.Comp.RelayEntity, out var inputMover))
+            SetMoveInput((entity.Comp.RelayEntity, inputMover), MoveButtons.None);
+
+        if (Timing.ApplyingState)
+            return;
+
+        if (TryComp(entity.Comp.RelayEntity, out MovementRelayTargetComponent? target) && target.LifeStage <= ComponentLifeStage.Running)
+            RemComp(entity.Comp.RelayEntity, target);
+
+        _blocker.UpdateCanMove(entity.Owner);
+    }
+
+    private void OnTargetRelayShutdown(Entity<MovementRelayTargetComponent> entity, ref ComponentShutdown args)
+    {
+        PhysicsSystem.UpdateIsPredicted(entity.Owner);
+        PhysicsSystem.UpdateIsPredicted(entity.Comp.Source);
+
+        if (Timing.ApplyingState)
+            return;
+
+        if (TryComp(entity.Comp.Source, out RelayInputMoverComponent? relay) && relay.LifeStage <= ComponentLifeStage.Running)
+            RemComp(entity.Comp.Source, relay);
+    }
+
+    // RMC14
+    private bool EnsureValidRelayTarget(EntityUid uid, MovementRelayTargetComponent relayTarget)
+    {
+        var source = relayTarget.Source;
+        var valid =
+            source.IsValid() &&
+            RelayQuery.TryComp(source, out var sourceRelay) &&
+            sourceRelay.RelayEntity == uid;
+
+        if (valid)
+            return true;
+
+        if (MoverQuery.TryComp(uid, out var mover))
+            SetMoveInput((uid, mover), MoveButtons.None);
+
+        if (!Timing.ApplyingState)
+            RemCompDeferred<MovementRelayTargetComponent>(uid);
+
+        return false;
+    }
+    // RMC14
+}

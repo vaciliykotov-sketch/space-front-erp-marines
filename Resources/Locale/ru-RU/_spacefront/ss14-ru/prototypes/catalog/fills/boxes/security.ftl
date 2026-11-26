@@ -1,0 +1,9 @@
+ent-BoxHandcuff = коробка с наручниками
+ent-BoxZiptie = коробка со стяжками
+ent-BoxFlashbang = коробка со светошумовыми гранатами
+ent-BoxStinger = коробка с травматическими гранатами
+ent-BoxTearGas = коробка с гранатами слезоточивого газа
+ent-BoxSechud = коробка с визорами охраны
+ent-BoxSecglasses = коробка с очками охраны
+ent-BoxSunglasses = коробка с очками от солнца
+ent-BoxForensicPad = коробка с криминалистическими пластинками

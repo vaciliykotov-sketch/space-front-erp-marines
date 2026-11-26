@@ -1,0 +1,14 @@
+ent-RMCRandomHumanoidDeltaCombatTech = роль призрака боевого техника "Дельта"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidDeltaFireteamLeader = роль призрака лидера огневой группы "Дельта"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidDeltaHospitalCorpsman = роль призрака госпитального санитара "Дельта"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidDeltaRifleman = роль призрака рядового стрелка "Дельта"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidDeltaSmartGunOperator = роль призрака оператора смартгана "Дельта"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidDeltaSquadLeader = роль призрака лидера отряда "Дельта"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidDeltaWeaponsSpecialist = роль призрака оружейного специалиста "Дельта"
+    .suffix = Спавнер, Игрок

@@ -1,0 +1,11 @@
+ent-PartReptilian = рептилии часть тела
+ent-TorsoReptilian = рептилии туловище
+ent-HeadReptilian = рептилии голова
+ent-LeftArmReptilian = левая рука у рептилии
+ent-RightArmReptilian = правая рука у рептилии
+ent-LeftHandReptilian = кисть левой руки рептилии
+ent-RightHandReptilian = кисть правой руки рептилии
+ent-LeftLegReptilian = левая нога рептилии
+ent-RightLegReptilian = правая нога рептилии
+ent-LeftFootReptilian = стопа левой ноги рептилии
+ent-RightFootReptilian = стопа правой ноги рептилии

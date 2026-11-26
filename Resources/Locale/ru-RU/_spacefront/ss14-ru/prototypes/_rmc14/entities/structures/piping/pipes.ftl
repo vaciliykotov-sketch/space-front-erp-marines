@@ -1,0 +1,11 @@
+ent-RMCBasePipe = { "" }
+ent-RMCGasPipeHalf = { ent-GasPipeHalf }
+    .suffix = RMC Половина
+ent-RMCGasPipeStraight = { ent-GasPipeStraight }
+    .suffix = RMC Прямой участок
+ent-RMCGasPipeBend = { ent-GasPipeBend }
+    .suffix = RMC Изгиб
+ent-RMCGasPipeTJunction = { ent-GasPipeTJunction }
+    .suffix = RMC Т-образный перекресток
+ent-RMCGasPipeFourway = { ent-GasPipeFourway }
+    .suffix = RMC Четырехсторонний

@@ -1,0 +1,1 @@
+ent-RMCMegaphone = громкоговоритель

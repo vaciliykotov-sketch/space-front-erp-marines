@@ -1,0 +1,14 @@
+ent-CMXenoBase = { "" }
+ent-CMXenoPrying = { "" }
+ent-CMXenoPuller = { "" }
+ent-CMXenoMelee = { "" }
+ent-CMXenoLarge = { "" }
+ent-CMXenoUndeveloped = { ent-CMXenoBase }
+ent-CMXenoAI = { ent-CMXenoBase }
+ent-RMCXenoVentCrawler = { "" }
+ent-CMXenoDeveloped = { ent-CMXenoBase }
+ent-CMXenoTail = { "" }
+ent-CMXenoFlammable = { "" }
+ent-RMCXenoCommendationReceiver = { "" }
+ent-RMCXenoSpeechSounds = { "" }
+ent-RMCXenoMobCollision = { "" }

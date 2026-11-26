@@ -1,0 +1,134 @@
+- type: entity
+  parent: CMHandsBlackMarine
+  id: RMCHandsBlack
+  name: "чёрные перчатки"
+  description: A simple pair of black gloves.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/black.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/black.rsi
+  - type: Fiber
+    fiberColor: fibers-black
+
+- type: entity
+  parent: RMCHandsBlack
+  id: RMCHandsCombat
+  name: "боевые перчатки"
+  description: These tactical gloves are somewhat fire and impact resistant.
+  components:
+  - type: Insulated
+
+- type: entity
+  parent: CMHandsBlackMarine
+  id: CMHandsInsulated
+  name: "изолированные перчатки"
+  description: These gloves will protect the wearer from electric shocks.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+    fiberColor: fibers-brown
+
+- type: entity
+  parent: CMHandsInsulated
+  id: CMHandsInsulatedPilot
+  suffix: Pilot
+  name: "лётные перчатки"
+  description: These gloves are made from a fire-resistant and insulated material.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated_pilot.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated_pilot.rsi
+
+- type: entity
+  parent: ClothingHandsBase
+  id: CMHandsBrown
+  name: "коричневые перчатки"
+  description: A pair of brown gloves.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/brown.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/brown.rsi
+  - type: Fiber
+    fiberColor: fibers-brown
+
+- type: entity
+  parent: ClothingHandsBase
+  id: CMHandsLightBrown
+  name: "светло-коричневые перчатки"
+  description: A pair of light brown gloves.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/light_brown.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/light_brown.rsi
+  - type: Fiber
+    fiberColor: fibers-brown
+
+- type: entity
+  parent: ClothingHandsBase
+  id: CMHandsWhite
+  name: "белые перчатки"
+  description: A pair of white gloves.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi
+  - type: Fiber
+    fiberColor: fibers-white
+
+- type: entity
+  parent: CMHandsWhite
+  id: CMHandsWhiteDress
+  name: "парадные перчатки"
+  description: A pair of fashionable white gloves, worn by marines in dress.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/white.rsi
+
+- type: entity
+  parent: CMHandsWhite
+  id: RMCHandsPurple
+  name: "фиолетовые перчатки"
+  description: A pair of gloves, they don't look special in any way.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/purple.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/purple.rsi
+
+- type: entity
+  parent: CMHandsInsulated
+  id: CMHandsBlackInsulated
+  name: "чёрные изолированные перчатки"
+  description: These gloves will protect the wearer from electric shocks. Now in black.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated_black.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated_black.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+    fiberColor: fibers-black
+
+- type: entity
+  parent: RMCHandsBlack
+  id: RMCHandsLeatherBlack
+  name: "чёрные кожаные перчатки"
+  description: Supple, black leather gloves crafted from the finest leather. Stylish, durable, and ready for work or play.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/leather_black.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Hands/Gloves/leather_black.rsi

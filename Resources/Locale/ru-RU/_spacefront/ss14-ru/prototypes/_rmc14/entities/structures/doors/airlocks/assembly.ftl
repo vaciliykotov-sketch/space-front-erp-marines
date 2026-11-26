@@ -1,0 +1,1 @@
+ent-CMAirlockAssembly = { ent-AirlockAssembly }

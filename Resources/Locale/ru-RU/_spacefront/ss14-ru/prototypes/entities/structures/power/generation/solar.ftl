@@ -1,0 +1,12 @@
+ent-SolarPanelBasePhysSprite = панель солнечная
+ent-SolarPanelPlasma = панель солнечная на плазме
+ent-SolarPanelUranium = панель солнечная на уране
+ent-SolarPanel = панель солнечная
+ent-SolarPanelBroken = панель солнечная
+    .suffix = Сломанная
+ent-SolarPanelPlasmaBroken = панель солнечная на плазме
+    .suffix = Сломанная
+ent-SolarPanelUraniumBroken = панель солнечная на уране
+    .suffix = Сломанная
+ent-SolarAssembly = каркас для солнечной панели
+ent-SolarTracker = трекер солнечный

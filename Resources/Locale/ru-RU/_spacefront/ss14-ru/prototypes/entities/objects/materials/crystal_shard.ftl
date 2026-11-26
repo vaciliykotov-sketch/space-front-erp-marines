@@ -1,0 +1,10 @@
+ent-ShardCrystalBase = кристальный осколок
+ent-ShardCrystalCyan = осколок кристалла голубого цвета
+ent-ShardCrystalBlue = осколок кристалла синего цвета
+ent-ShardCrystalYellow = осколок кристалла жёлтого цвета
+ent-ShardCrystalOrange = осколок кристалла оранжевого цвета
+ent-ShardCrystalBlack = осколок кристалла чёрного цвета
+ent-ShardCrystalPink = осколок кристалла розового цвета
+ent-ShardCrystalGreen = осколок кристалла зелёного цвета
+ent-ShardCrystalRed = осколок кристалла красного цвета
+ent-ShardCrystalRandom = осколок кристалла случайного цвета

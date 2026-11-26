@@ -1,0 +1,15 @@
+ent-Holoprojector = устройство для проецирования голознаков
+ent-HoloprojectorEmpty = { ent-Holoprojector }
+    .suffix = Пустой
+ent-HoloprojectorBorg = проектор голографических символов
+    .suffix = Борг
+ent-HolofanProjector = голопроектор атмосферы
+ent-HolofanProjectorEmpty = { ent-HolofanProjector }
+    .suffix = Пустой
+ent-HolofanProjectorBorg = встроенный проектор атмос-голограмм
+ent-HoloprojectorField = устройство проекции силового поля
+ent-HoloprojectorFieldEmpty = { ent-HoloprojectorField }
+    .suffix = Пустой
+ent-HoloprojectorSecurity = проектор голографического барьера
+ent-HoloprojectorSecurityEmpty = { ent-HoloprojectorSecurity }
+    .suffix = Пустой

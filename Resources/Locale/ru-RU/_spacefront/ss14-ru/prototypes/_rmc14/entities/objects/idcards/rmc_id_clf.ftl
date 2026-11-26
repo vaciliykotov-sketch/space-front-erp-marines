@@ -1,0 +1,11 @@
+ent-RMCIDCardCLFBase = { ent-CMIDCardBase }
+ent-RMCIDCardCLFSoldier = ID солдата КОФ
+ent-RMCIDCardCLFEngineer = ID инженера КОФ
+ent-RMCIDCardCLFMedic = ID медика КОФ
+ent-RMCIDCardCLFSpecialist = ID специалиста КОФ
+ent-RMCIDCardCLFCellLeader = ID главы ячейки КОФ
+ent-RMCIDCardCLFCellCommander = ID командира ячейки КОФ
+ent-RMCIDCardCLFCommanderPVE = ID командира КЛФ
+ent-RMCIDCardCLFDoctorPVE = ID доктора КЛФ
+ent-RMCIDCardCLFHeavyGunnerPVE = ID пулемётчика КЛФ
+ent-RMCIDCardCLFStandardPVE = ID бойца КЛФ

@@ -1,0 +1,12 @@
+ent-RMCDrinkCoffee = кофейный напиток
+    .suffix = { ent-DrinkBottlePlasticBaseFull.suffix }
+ent-RMCDrinkCoffeeGrind = помол на каждый день
+    .suffix = { ent-RMCDrinkCoffee.suffix }
+ent-RMCDrinkTea = чай «Дюк Пёрпл»
+    .suffix = { ent-RMCDrinkCoffee.suffix }
+ent-RMCDrinkTeaSPP = термос для чая
+    .suffix = Чай
+ent-RMCDrinkWaterSPP = термос для воды
+    .suffix = вода
+ent-RMCDrinkHotCocoa = горячий шоколад по-голландски
+    .suffix = { ent-RMCDrinkCoffee.suffix }

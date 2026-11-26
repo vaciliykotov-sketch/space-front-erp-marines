@@ -1,0 +1,130 @@
+- type: rank
+  id: RMCRankWeYaTrainee
+  name: "Стажёр"
+  prefix: Trn.
+  paygrade: WYC1
+
+- type: rank
+  id: RMCRankWeYaJuniorExecutive
+  name: "Младший руководитель"
+  prefix: Jr. Exec.
+  paygrade: WYC2
+
+- type: rank
+  id: RMCRankWeYaExecutive
+  name: "Руководитель"
+  prefix: Exec.
+  paygrade: WYC3
+
+- type: rank
+  id: RMCRankWeYaSeniorExecutive
+  name: "Старший исполнитель"
+  prefix: Sr. Exec.
+  paygrade: WYC4
+
+- type: rank
+  id: RMCRankWeYaExecutiveSpecialist
+  name: "Руководитель Specialist"
+  prefix: Exec. Spc.
+  paygrade: WYC5
+
+- type: rank
+  id: RMCRankWeYaExecutiveSupervisor
+  name: "Руководитель Supervisor"
+  prefix: Exec. Spvsr.
+  paygrade: WYC6
+
+- type: rank
+  id: RMCRankWeYaAssistantManager
+  name: "Помощник менеджера"
+  prefix: Assis. Mng.
+  paygrade: WYC7
+
+- type: rank
+  id: RMCRankWeYaDivisionManager
+  name: "Менеджер дивизии"
+  prefix: Div. Mng.
+  paygrade: WYC8
+
+- type: rank
+  id: RMCRankWeYaChiefExecutive
+  name: "Главный исполнительный директор"
+  prefix: Chief. Exec.
+  paygrade: WYC9
+
+- type: rank
+  id: RMCRankWeYaDeputyDirector
+  name: "Заместитель Director"
+  prefix: Dep. Director
+  paygrade: WYC10
+
+- type: rank
+  id: RMCRankWeYaDirector
+  name: "Директор"
+  prefix: Director
+  paygrade: WYC11
+
+# Lawyers
+- type: rank
+  id: RMCRankWeYaLegalSpecialist
+  name: "Юридический специалист"
+  prefix: Legal Spc.
+  paygrade: WYC5
+
+- type: rank
+  id: RMCRankWeYaLegalSupervisor
+  name: "Юридический руководитель"
+  prefix: Legal Spvsr.
+  paygrade: WYC6
+
+# Pilots
+- type: rank
+  id: RMCRankWeYaPilotOfficer
+  name: "Капитан"
+  prefix: Capt
+  paygrade: WYPO2
+
+# Synthetics
+# A/N: probably not particularly useful, but I want some variety
+- type: rank
+  id: RMCRankWeYaUtilitySynth # Simple labor synths (drivers, cargo haulers, repairmen)
+  name: "Служебный синтетик"
+  prefix: U. Syn.
+  paygrade: WYS1
+
+- type: rank
+  id: RMCRankWeYaAssistantSynth # Secretaries, data entry, analysis, PR, etc.
+  name: "Ассистент-синтетик"
+  prefix: Assis. Syn.
+  paygrade: WYS2
+
+- type: rank
+  id: RMCRankWeYaAdministrativeSynth # Project managers, directors, overseers (with organic oversight obv)
+  name: "Административный синтетик"
+  prefix: Adm. Syn.
+  paygrade: WYS3
+
+# Executive Bodyguard
+- type: rank
+  id: RMCRankWeYaBodyguardTPPO
+  name: "Стажёр Personal Protection Officer"
+  prefix: TPPO.
+  paygrade: WY-SEC-1
+
+- type: rank
+  id: RMCRankWeYaBodyguardPPO
+  name: "Офицер личной охраны"
+  prefix: PPO.
+  paygrade: WY-SEC-2
+
+- type: rank
+  id: RMCRankWeYaBodyguardPPS
+  name: "Специалист по личной охране"
+  prefix: PPS.
+  paygrade: WY-SEC-3
+
+- type: rank
+  id: RMCRankWeYaBodyguardPPC
+  name: "Координатор личной охраны"
+  prefix: PPC.
+  paygrade: WY-SEC-4

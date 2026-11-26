@@ -1,0 +1,184 @@
+# Bases
+- type: entity
+  parent: RMCBaseArmor
+  id: RMCSuitEVABase
+  name: "скафандр"
+  description: A heavy and bulky space suit.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/unmc.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/unmc.rsi
+    equipDelay: 2
+    unequipDelay: 2
+  - type: ToggleableClothing
+    clothingPrototype: RMCHelmetEVAUNMC
+  - type: Tag
+    tags:
+    - Hardsuit
+  - type: CMArmor
+    bio: 30 # RMC14 TODO: 30 rads aswell
+    melee: 15
+    bullet: 20
+    explosionArmor: 10
+  - type: ClothingSpeedModifier
+    walkModifier: .5
+    sprintModifier: .5
+  - type: CMHardArmor
+  - type: RMCBulkyArmor
+  - type: RMCMagneticArmor
+  - type: RMCArmorSpeedTier
+    speedTier: heavy
+
+- type: entity
+  parent: RMCHardHat
+  id: RMCHelmetEVABase
+  categories: [ HideSpawnMenu ]
+  name: "гермошлем"
+  description: A heavy space helmet, designed to be coupled with a pressure suit.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/unmc.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/unmc.rsi
+    equipSound: /Audio/Mecha/mechmove03.ogg
+    unequipSound: /Audio/Mecha/mechmove03.ogg
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
+    - HeadTop
+    - HeadSide
+  - type: CMArmor
+    bio: 30
+    melee: 15
+    bullet: 20
+    explosionArmor: 10
+  - type: BreathMask
+  - type: IdentityBlocker
+  - type: IngestionBlocker
+  - type: PointLight
+    enabled: false
+    radius: 5
+    offset: 0,-0.85
+    rotation: 90
+    softness: 5
+    autoRot: true
+    netsync: false
+    color: "#FFFFFF"
+    mask: /Textures/_RMC14/Effects/LightMasks/wide_ellipsis.png
+  - type: RemoveComponents
+    components:
+    - type: Storage
+    - type: LimitedStorage
+
+- type: entity
+  parent: RMCSuitEVABase
+  id: RMCSuitEVASGO
+  name: "совместимый с умным оружием компрессионный костюм"
+  suffix: Smart Gun harness
+  description: A heavy and bulky space suit. For whatever reason, it seems this suit has the fittings for a smart weapon system.
+  abstract: true
+  components:
+  - type: ClothingBlockBackpack
+  - type: SmartGunArmor
+
+# UNMC
+- type: entity
+  parent: RMCSuitEVABase
+  id: RMCSuitEVAUNMC
+  name: "Скафандр MK.35 UNMC"
+  description: A heavy and bulky military-grade space suit utilized by the United Nations Marine Corps and a few other UN organizations.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/unmc.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/unmc.rsi
+    equipDelay: 2
+    unequipDelay: 2
+  - type: ToggleableClothing
+    clothingPrototype: RMCHelmetEVAUNMC
+
+- type: entity
+  parent: RMCSuitEVASGO
+  id: RMCSuitEVAUNMCSGO
+  name: "Совместимый с ML66A скафандр MK.35 UNMC"
+  description: A heavy and bulky military-grade space suit utilized by the United Nations Marine Corps and a few other UN organizations. Seems this suit has the required fittings to be compatable with an ML66A Smart Gun.
+
+- type: entity
+  parent: RMCHelmetEVABase
+  id: RMCHelmetEVAUNMC
+  categories: [ HideSpawnMenu ]
+  name: "Герметичный шлем MK.35 UNMC"
+  description: A heavy space helmet, designed to be coupled with the MK.35 pressure suit utilized by the United Nations Marine Corps and a few other UN organizations.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/unmc.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/unmc.rsi
+    equipSound: /Audio/Mecha/mechmove03.ogg
+    unequipSound: /Audio/Mecha/mechmove03.ogg
+
+# SPP
+- type: entity
+  parent: RMCSuitEVABase
+  id: RMCSuitEVASPP
+  name: "СПП Type 2 pressure suit"
+  description: A heavy and bulky military-grade space suit utilized by the Socialist Progressive People and a few other SPP organizations.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/spp.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/spp.rsi
+    equipDelay: 2
+    unequipDelay: 2
+  - type: ToggleableClothing
+    clothingPrototype: RMCHelmetEVASPP
+
+- type: entity
+  parent: RMCHelmetEVABase
+  id: RMCHelmetEVASPP
+  categories: [ HideSpawnMenu ]
+  name: "СПП Type 2 pressure helmet"
+  description: A heavy space helmet, designed to be coupled with the Type 2 pressure suit utilized by the Socialist Progressive People and a few other SPP organizations.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/spp.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/spp.rsi
+    equipSound: /Audio/Mecha/mechmove03.ogg
+    unequipSound: /Audio/Mecha/mechmove03.ogg
+
+# Civilian/Generic
+- type: entity
+  parent: RMCSuitEVABase
+  id: RMCSuitEVACivilian
+  name: "белый гермокостюм"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/white.rsi # TODO
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/EVA/white.rsi # TODO
+    equipDelay: 2
+    unequipDelay: 2
+  - type: ToggleableClothing
+    clothingPrototype: RMCHelmetEVACivilian
+  - type: RMCBulkyArmor
+    isBulky: false
+
+- type: entity
+  parent: RMCHelmetEVABase
+  id: RMCHelmetEVACivilian
+  categories: [ HideSpawnMenu ]
+  name: "белый гермошлем"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/white.rsi # TODO
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Head/Helmets/EVA/white.rsi # TODO
+    equipSound: /Audio/Mecha/mechmove03.ogg
+    unequipSound: /Audio/Mecha/mechmove03.ogg
+
+# RMC14 TODO: Port the other colored hardsuits (Orange, Yellow, Cyan, Red)

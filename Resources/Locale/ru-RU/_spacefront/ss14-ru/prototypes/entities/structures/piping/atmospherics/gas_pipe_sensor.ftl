@@ -1,0 +1,11 @@
+ent-GasPipeSensor = сенсор на газовой трубе
+ent-GasPipeSensorDistribution = { ent-GasPipeSensor }
+    .suffix = Распределение
+ent-GasPipeSensorWaste = { ent-GasPipeSensor }
+    .suffix = Отходы
+ent-GasPipeSensorMixedAir = { ent-GasPipeSensor }
+    .suffix = Воздушная смесь
+ent-GasPipeSensorTEGHot = { ent-GasPipeSensor }
+    .suffix = ТЭГ горячая
+ent-GasPipeSensorTEGCold = { ent-GasPipeSensor }
+    .suffix = ТЭГ холодная

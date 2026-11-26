@@ -1,0 +1,154 @@
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpsePrisoner
+  name: "Спавнер трупов — Заключённый"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpsePrisoner
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseChef
+  name: "Спавнер трупов — Повар"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseChef
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseDoctor
+  name: "Спавнер трупов — Врач"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseDoctor
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseEngineer
+  name: "Спавнер трупов — Инженер"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseEngineer
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseScientist
+  name: "Спавнер трупов — Учёный"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseScientist
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseScientistAegis
+  name: "Спавнер трупов — Учёный Aegis"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseScientistAegis
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseMiner
+  name: "Спавнер трупов — Шахтёр"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseMiner
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseSecurity
+  name: "Спавнер трупов — Офицер безопасности"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseSecurity
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseLiaison
+  name: "Спавнер трупов — Корпоративный представитель"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseLiaison
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpsePrisonGuard
+  name: "Спавнер трупов — Тюремный охранник"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpsePrisonGuard
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseColonist
+  name: "Спавнер трупов — Колонист"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseColonist
+
+- type: entity
+  parent: RMCSpawnerCorpseColonist
+  id: RMCSpawnerCorpseColonistBust
+  name: "Спавнер трупов — Колонист"
+  suffix: RMC14, Burst
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseColonistBurst
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseColonistKutjevo
+  name: "Спавнер трупов — Колонист Kutjevo"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseColonistKutjevo
+
+- type: entity
+  parent: RMCSpawnerCorpseColonist
+  id: RMCSpawnerCorpseColonistKutjevoBust
+  name: "Спавнер трупов — Колонист Kutjevo"
+  suffix: RMC14, Burst
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseColonistKutjevoBurst
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseUNRiotOfficer
+  name: "Спавнер трупов — Офицер по борьбе с беспорядками CMB"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseUnitedNationsRiotOfficer
+
+- type: entity
+  parent: RMCSpawnerCorpseUNRiotOfficer
+  id: RMCSpawnerCorpseUNRiotOfficerBurst
+  name: "Спавнер трупов — Офицер по борьбе с беспорядками CMB"
+  suffix: RMC14, Burst
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseUnitedNationsRiotOfficerBurst
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseWeYaManager
+  name: "Спавнер трупов — Корпоративный супервайзер"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseWeYaManager
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseCLF
+  name: "Спавнер трупов — Солдат CLF"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseCLF
+
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseRussian
+  name: "Спавнер трупов — Русский"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseRussian

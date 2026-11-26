@@ -1,0 +1,12 @@
+ent-CMSpawnPointRifleman = место появления стрелка
+    .suffix = { ent-CMSpawnPointJobBase.suffix }
+ent-CMSpawnPointRiflemanAlpha = { ent-CMSpawnPointRifleman }
+    .suffix = Альфа
+ent-CMSpawnPointRiflemanBravo = { ent-CMSpawnPointRifleman }
+    .suffix = Браво
+ent-CMSpawnPointRiflemanCharlie = { ent-CMSpawnPointRifleman }
+    .suffix = Чарли
+ent-CMSpawnPointRiflemanDelta = { ent-CMSpawnPointRifleman }
+    .suffix = Дельта
+ent-CMGuidebookRoleYou = Это ты?
+ent-RMCGuidebookCorpseMarine = Морпех в тяжёлом состоянии

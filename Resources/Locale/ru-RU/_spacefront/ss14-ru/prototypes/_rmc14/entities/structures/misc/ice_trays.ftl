@@ -1,0 +1,9 @@
+ent-RMCIceSlabTrayBase = поддон под ледяные плиты
+ent-RMCIceSlabTray1 = { ent-RMCIceSlabTrayBase }
+ent-RMCIceSlabTray2 = { ent-RMCIceSlabTrayBase }
+ent-RMCIceSlabTray3 = { ent-RMCIceSlabTrayBase }
+ent-RMCIceSlabTray4 = { ent-RMCIceSlabTrayBase }
+ent-RMCIceSlabTray5 = { ent-RMCIceSlabTrayBase }
+ent-RMCIceSlabTray6 = { ent-RMCIceSlabTrayBase }
+ent-RMCIceSlabTray7 = { ent-RMCIceSlabTrayBase }
+ent-RMCIceSlabTray8 = { ent-RMCIceSlabTrayBase }

@@ -1,0 +1,12 @@
+ent-RMCWelderBase = аппарат для сварки
+ent-CMWelder = { ent-RMCWelderBase }
+ent-RMCWelderEmpty = { ent-CMWelder }
+    .suffix = Пустой
+ent-RMCWelderAdmin = аппарат для сварки (админский)
+    .suffix = Админ, НЕ МАППИТЬ
+ent-CMWelderSmall = ME3 в виде ручного сварочника
+ent-RMCWelderIndustrial = горелка для промышленных работ
+ent-RMCWelderIndustrialHighCapacity = промышленного класса горелка с увеличенным объёмом
+ent-RMCWelderPVE = горелка в модифицированном исполнении
+    .suffix = PVE, НЕ МАППИТЬ
+ent-RMCWelderExperimental = сварочный аппарат экспериментального типа

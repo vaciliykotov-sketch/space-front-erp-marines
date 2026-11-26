@@ -1,0 +1,12 @@
+ent-STHunterTraumaKit = травы для заживления
+    .suffix = Десять
+ent-STHunterTraumaKit1 = { ent-STHunterTraumaKit }
+    .suffix = Одна
+ent-STHunterTraumaKit10 = { ent-STHunterTraumaKit }
+    .suffix = Десять
+ent-STHunterBurnKit = травы для успокоения
+    .suffix = Десять
+ent-STHunterBurnKit1 = { ent-STHunterBurnKit }
+    .suffix = Одна
+ent-STHunterBurnKit10 = { ent-STHunterBurnKit }
+    .suffix = Десять

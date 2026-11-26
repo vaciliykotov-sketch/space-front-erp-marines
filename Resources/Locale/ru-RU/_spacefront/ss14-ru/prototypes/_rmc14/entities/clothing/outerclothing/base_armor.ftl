@@ -1,0 +1,14 @@
+ent-RMCBaseArmorNoAccessory = { ent-ClothingOuterBaseMedium }
+ent-RMCBaseArmor = { ent-RMCBaseArmorNoAccessory }
+ent-RMCAllowSuitStorageClothingArmor = { "" }
+ent-RMCAllowSuitStorageClothingArmorVest = { "" }
+ent-RMCAllowSuitStorageClothingArmorPMC = { "" }
+ent-RMCAllowSuitStorageClothingSmartgunner = { "" }
+ent-RMCAllowSuitStorageClothingArmorMP = { "" }
+ent-RMCAllowSuitStorageClothingArmorRoyal = { "" }
+ent-RMCBaseMarineArmorNoAccessory = { ent-RMCBaseArmorNoAccessory }
+ent-RMCBaseArmorPVE = { ent-RMCBaseArmorNoAccessory }
+ent-RMCBaseMarineArmor = { ent-RMCBaseMarineArmorNoAccessory }
+ent-RMCBaseMarineArmorLightNoAccessory = { ent-RMCBaseMarineArmorNoAccessory }
+ent-RMCBaseMarineArmorLight = { ent-RMCBaseMarineArmorLightNoAccessory }
+ent-RMCBasePMCArmorLight = { ent-RMCBaseMarineArmorLight }

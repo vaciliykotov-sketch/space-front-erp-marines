@@ -1,0 +1,120 @@
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaEndeavour
+  name: UNS Endeavour
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_endeavour.rsi
+    state: base_icon
+  - type: Area
+    buildSpecial: true
+    powerNet: ground
+    minimapColor: '#91BDCFE7'
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: true
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourBrief
+  name: "Брифинг Hall"
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourDormitory
+  name: "Общежитие"
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourCommandDeck
+  name: "Командная палуба"
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourMess
+  name: "Столовая"
+  components:
+  - type: Sprite
+    state: food
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourHypersleepStorage
+  name: "Хранилище гиперсна"
+  components:
+  - type: Sprite
+    state: hypersleep
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourMaintenance
+  name: "Техническое обслуживание"
+  components:
+  - type: Sprite
+    state: engineering
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourPrep
+  name: "Стойки со снаряжением"
+  components:
+  - type: Sprite
+    state: prep
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourMedical
+  name: "Лазарет"
+  components:
+  - type: Sprite
+    state: medical
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourHangar
+  name: "ангар"
+  components:
+  - type: Sprite
+    state: hangar
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourSupply
+  name: "Припасы Bay"
+  components:
+  - type: Sprite
+    state: cargo
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourAICore
+  name: "Ядро ИИ ARES"
+  components:
+  - type: Sprite
+    state: ai
+
+- type: entity
+  parent: RMCAreaEndeavourAICore
+  id: RMCAreaEndeavourSyntheticStorage
+  name: "Синтетик Storage"
+
+- type: entity
+  parent: RMCAreaEndeavour
+  id: RMCAreaEndeavourOOB
+  name: "За пределами игровой зоны"
+  components:
+  - type: Sprite
+    state: oob
+  - type: Area
+    alwaysPowered: true

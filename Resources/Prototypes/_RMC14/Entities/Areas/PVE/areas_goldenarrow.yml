@@ -1,0 +1,212 @@
+# This file exists in junction with the UNS Endeavour file to prevent test fails on master. These areas should not be used anywhere.
+# Each entity has been hidden from the spawn menu to prevent its use.
+
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaGA
+  name: "Золотая стрела"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/hybrisareas.rsi
+    state: base_icon
+  - type: Area
+    buildSpecial: true
+    powerNet: ground
+    minimapColor: '#91BDCFE7'
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: true
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGAHypersleepStorageA
+  categories: [ HideSpawnMenu ]
+  name: "Хранилище гиперсна A"
+  components:
+  - type: Sprite
+    state: medical
+
+- type: entity
+  parent: RMCAreaGAHypersleepStorageA
+  id: RMCAreaGAHypersleepStorageB
+  categories: [ HideSpawnMenu ]
+  name: "Хранилище гиперсна B"
+
+- type: entity
+  parent: RMCAreaGAHypersleepStorageA
+  id: RMCAreaGAHypersleepStorageC
+  categories: [ HideSpawnMenu ]
+  name: "Хранилище гиперсна C"
+
+- type: entity
+  parent: RMCAreaGAHypersleepStorageA
+  id: RMCAreaGAHypersleepStorageD
+  categories: [ HideSpawnMenu ]
+  name: "Хранилище гиперсна D"
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGAHypersleepGearLockers
+  name: "Шкафчики для снаряжения гиперсна"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    state: derelictship
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGAMessHall
+  categories: [ HideSpawnMenu ]
+  name: "Столовая"
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGABathroom
+  categories: [ HideSpawnMenu ]
+  name: "Ванная комната"
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGADisposals
+  categories: [ HideSpawnMenu ]
+  name: "Утилизация отходов"
+  components:
+  - type: Sprite
+    state: recycling
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGAMedical
+  categories: [ HideSpawnMenu ]
+  name: "Медикal"
+  components:
+  - type: Sprite
+    state: medical
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGABriefRoom
+  categories: [ HideSpawnMenu ]
+  name: "Брифинг Room"
+  components:
+  - type: Sprite
+    state: caves_central
+
+- type: entity
+  parent: RMCAreaGABriefRoom
+  id: RMCAreaGACommandDeck
+  categories: [ HideSpawnMenu ]
+  name: "Командная палуба взвода"
+
+- type: entity
+  parent: RMCAreaGABriefRoom
+  id: RMCAreaGACommandRooms
+  categories: [ HideSpawnMenu ]
+  name: "Командные помещения взвода"
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGAPrep
+  categories: [ HideSpawnMenu ]
+  name: "Подготовка взвода"
+  components:
+  - type: Sprite
+    state: security_hub
+
+- type: entity
+  parent: RMCAreaGAPrep
+  id: RMCAreaGAArmoury
+  categories: [ HideSpawnMenu ]
+  name: "Оружейная взвода"
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGAHangar
+  categories: [ HideSpawnMenu ]
+  name: "ангар"
+  components:
+  - type: Sprite
+    state: lz
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGASupply
+  categories: [ HideSpawnMenu ]
+  name: "Припасы"
+  components:
+  - type: Sprite
+    state: maints
+
+- type: entity
+  parent: RMCAreaGASupply
+  id: RMCAreaGAMaint
+  categories: [ HideSpawnMenu ]
+  name: "Техническое обслуживание"
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGAEngineering
+  categories: [ HideSpawnMenu ]
+  name: "Инженерing"
+  components:
+  - type: Sprite
+    state: power0
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGASynth
+  categories: [ HideSpawnMenu ]
+  name: "Синтетик Storage Closet"
+  components:
+  - type: Sprite
+    state: synthetic
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGAAI
+  categories: [ HideSpawnMenu ]
+  name: "Интерфейс ИИ"
+  components:
+  - type: Sprite
+    state: wylab
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGALiaisonOffice
+  categories: [ HideSpawnMenu ]
+  name: "Офис связи"
+  components:
+  - type: Sprite
+    state: wyoffice
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGASupplyDrop
+  categories: [ HideSpawnMenu ]
+  name: "Припасы Drop Bay"
+  components:
+  - type: Sprite
+    state: wyspaceportcargo
+
+- type: entity
+  parent: RMCAreaGA
+  id: RMCAreaGAOOB
+  categories: [ HideSpawnMenu ]
+  name: "За пределами игровой зоны"
+  components:
+  - type: Sprite
+    state: oob
+  - type: Area
+    alwaysPowered: true

@@ -1,0 +1,55 @@
+- type: job
+  parent: CMSurvivorEngineer
+  id: CMSurvivorLV624CargoTechnician
+  setPreference: false
+  name: rmc-job-name-survivor-lv624-cargo-technician
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorLV624CargoTechnician
+  spawnMenuRoleName: Cargo Technician (LV624 Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorTrucker
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetLV624CargoTechnician
+  useLoadoutOfJob: CMSurvivorEngineer # for inheritance
+
+- type: startingGear
+  parent: RMCGearSurvivorTrucker
+  id: RMCGearSurvivorLV624CargoTechnician
+  equipment:
+    jumpsuit: RMCJumpsuitKhakiWorkwearJacketless
+    back: CMSatchelEngineerSurvivorFill
+    head: RMCHeadYellowSoftCap
+    shoes: RMCShoesLaceup
+    id: CMIDCardColonistEngineer
+    ears: CMHeadsetColony
+    pocket1: RMCPouchSurvivalFill
+    pocket2: RMCPouchToolsFill
+# TODO RMC Meson Goggles
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorLV624CargoTechnician
+  name: "точка появления археолога LV624"
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivor
+  - type: Sprite
+    layers:
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv
+
+- type: entity
+  parent: RMCSurvivorPresetTrucker
+  id: RMCGearSurvivorPresetLV624CargoTechnician
+  categories: [ HideSpawnMenu ]
+  name: "пресет колониста-грузового техника LV624"

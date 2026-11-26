@@ -1,0 +1,39 @@
+- type: entity
+  parent: RMCCrateWeapons
+  id: RMCCrateMortarKit
+  name: "Миномёт M402 crate (Mortar x1, Mortar shell backpack x1)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMortarKit
+    - id: CMBackpackMortar
+
+- type: entity
+  parent: RMCCrateMortarAmmo
+  id: RMCCrateMortarShellHE
+  name: "Миномёт M402 shells crate (x6 HE)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMortarShellHE
+      amount: 6
+
+- type: entity
+  parent: RMCCrateMortarAmmo
+  id: RMCCrateMortarShellIncendiary
+  name: "Миномёт M402 shells crate (x6 Incend)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMortarShellIncendiary
+      amount: 6
+
+- type: entity
+  parent: RMCCrateMortarAmmo
+  id: RMCCrateMortarShellFlare
+  name: "Миномёт M402 shells crate (x6 Flare/Camera)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMortarShellFlare
+      amount: 6

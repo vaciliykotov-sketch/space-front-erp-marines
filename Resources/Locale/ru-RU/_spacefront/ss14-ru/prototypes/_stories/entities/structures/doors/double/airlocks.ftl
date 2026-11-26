@@ -1,0 +1,1 @@
+ent-STDoubleDoorInvincible = { ent-RMCBaseDoorInvincible }

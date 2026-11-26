@@ -1,0 +1,157 @@
+# Ui
+surgery-menu-title = Хирургическое меню
+surgery-menu-area = Область операций
+surgery-menu-steps = Шаги операции
+surgery-parallel = (П)
+surgery-tool-required = Требуется инструмент: {$tool}
+surgery-condition-required = Требуется часть тела: {$condition}
+
+surgery-sterility-percent = Стерильность: {$percent}%
+surgery-sterility-negative-header = Факторы риска:
+surgery-sterility-positive-header = Положительные факторы:
+
+# Negative
+surgery-sterility-no-gloves = Нет перчаток
+surgery-sterility-no-mask = Нет маски
+surgery-sterility-no-head = Нет головного убора
+surgery-sterility-no-jumpsuit = Нет комбинезона
+surgery-sterility-no-outerClothing = Нет верхней одежды
+surgery-sterility-no-back = Рюкзак создаёт помехи
+surgery-sterility-no-belt = Пояс мешает
+surgery-sterility-non-sterile-gloves = Нестерильные перчатки
+surgery-sterility-non-sterile-mask = Нестерильная маска
+surgery-sterility-non-sterile-head = Нестерильная шапочка
+surgery-sterility-non-sterile-jumpsuit = Нестерильный комбинезон
+surgery-sterility-non-sterile-outerClothing = Нестерильный халат
+surgery-sterility-non-sterile-back = Грязный рюкзак
+surgery-sterility-non-sterile-belt = Грязный пояс
+surgery-sterility-no-sterile-gloves = Нет стерильных перчаток
+surgery-sterility-no-sterile-mask = Нет стерильной маски
+surgery-sterility-no-sterile-head = Нет стерильной шапочки
+surgery-sterility-no-sterile-jumpsuit = Нет стерильного комбинезона
+surgery-sterility-no-sterile-outerClothing = Нет стерильного халата
+surgery-sterility-no-sterile-back = Нет стерильного рюкзака
+surgery-sterility-no-sterile-belt = Нет стерильного пояса
+surgery-sterility-non-sterile-tool = Нестерильный инструмент
+surgery-sterility-mask-off = Маска опущена
+surgery-sterility-garbage = Мусор рядом ({$count})
+surgery-sterility-bystanders = Зеваки ({$count})
+surgery-sterility-corpses = Трупы рядом ({$count})
+
+# Positive
+surgery-sterility-sterile-gloves = Стерильные перчатки
+surgery-sterility-sterile-mask = Стерильная маска
+surgery-sterility-sterile-head = Стерильная шапочка
+surgery-sterility-sterile-jumpsuit = Стерильный комбинезон
+surgery-sterility-sterile-outerClothing = Стерильный халат
+surgery-sterility-sterile-back = Стерильный рюкзак
+surgery-sterility-sterile-belt = Стерильный пояс
+surgery-sterility-sterile-tool = Стерильный инструмент
+surgery-sterility-operating-table = Операционный стол
+
+surgery-condition-required-head = голова
+surgery-condition-required-tooth = зубы
+surgery-condition-required-torso = тело
+surgery-condition-required-armleft = левая рука
+surgery-condition-required-armright = правая рука
+surgery-condition-required-handleft = левая кисть
+surgery-condition-required-handright = правая кисть
+surgery-condition-required-legleft = левая нога
+surgery-condition-required-legright = правая нога
+surgery-condition-required-footleft = левая стопа
+surgery-condition-required-footright = правая стопа
+surgery-condition-required-hands = руки
+surgery-condition-required-legs = ноги
+surgery-condition-required-feet = стопы
+surgery-condition-required-heart = сердце
+surgery-condition-required-lungs = лёгкие
+surgery-condition-required-stomach = желудок
+surgery-condition-required-liver = печень
+surgery-condition-required-kidneys = почки
+surgery-condition-required-brain = мозг
+surgery-condition-required-eyes = глаза
+surgery-condition-required-slimecore = слаймовое ядро
+
+body-scanner-title = Сканер тела
+body-scanner-connected = Подключен к операционному столу
+body-scanner-disconnected = Не подключен к операционному столу
+body-scanner-patient-name = Пациент:
+body-scanner-patient-status = Статус:
+body-scanner-no-patient = Пациент не обнаружен
+body-scanner-status-unknown = Неизвестно
+body-scanner-status-alive = В норме
+body-scanner-status-critical = Критическое состояние
+body-scanner-status-dead = Мертв
+body-scanner-damages-header = Внутренние повреждения:
+body-scanner-no-damages = Внутренних повреждений не обнаружено.
+body-scanner-affected-parts = Поврежденные части: {$parts}
+
+body-scanner-part-head = Голова
+body-scanner-part-torso = Тело
+body-scanner-part-armleft = Левая рука
+body-scanner-part-armright = Правая рука
+body-scanner-part-handleft = Левая кисть
+body-scanner-part-handright = Правая кисть
+body-scanner-part-legleft = Левая нога
+body-scanner-part-legright = Правая нога
+body-scanner-part-footleft = Левая стопа
+body-scanner-part-footright = Правая стопа
+
+# System
+surgery-action-empty = ...
+surgery-action-cut = Надрез
+surgery-action-retract = Втянуть
+surgery-action-clampbleeding = Остановить кровотечение
+surgery-action-drillthrough = Просверлить отверстие
+surgery-action-healinternaldamage = Вылечить повреждение
+surgery-action-removeorgan = Извлечь часть тела
+surgery-action-insertorgan = Имплантировать часть тела
+surgery-action-implanting = Имплантировать имплант
+surgery-action-removeimplant = Удалить имплант
+surgery-action-storeitem = Вшить предмет
+surgery-action-retrieveitems = Достать вшитые предметы
+surgery-action-veilcultistdeconvertation = Вытянуть шестерню
+surgery-action-surgicalheal = Вылечить
+surgery-action-unscrew = Открутить
+surgery-action-screw = Закрутить
+surgery-action-pulse = Импульс
+surgery-action-weld = Заварить
+surgery-action-cutwire = Перерезать провод
+surgery-action-stripwire = Зачистить провод
+surgery-action-mendwire = Починить провод
+surgery-action-pry = Вскрыть панель
+surgery-action-anchor = Закрепить
+surgery-action-unanchor = Открепить
+
+surgery-procedure = Процедура: {$label}
+surgery-missing-tool = Нету правильного инструмента!
+surgery-implant-already-exists = У пациента уже установлен {$implant}
+surgery-incorrect-insert = Неправильное место имплантации
+surgery-welder-failed = Не получается включить инструмент
+
+surgery-limb-torn-off = {$limb} отрезало
+surgery-decapitated = ГОЛОВА СПАЛА С ПЛЕЧ
+surgery-explosion-limb-torn-off = {$limb} ОТОРВАЛО
+surgery-limb-regenerated = Ваша конечность снова отросла
+
+surgery-organ-removed = Часть тела успешно извлечена
+surgery-organ-inserted = Часть тела успешно присоединена
+surgery-store-item-failed = Не удалось поместить предмет внутрь тела
+surgery-retrieve-items-failed = Не удалось извлечь предметы
+
+surgery-sterile-examined = [color=#a0d2eb]Предмет стерилен для использования.[/color]
+
+surgery-handle-failed-cut = Ошибка! У {$patient} глубокий порез
+surgery-handle-failed-bleeding = Ошибка! У {$patient} началось кровотечение
+surgery-handle-failed-burn = Ошибка! У {$patient} ожог тканей
+surgery-handle-failed-fracture = Ошибка! У {$patient} перелом кости
+surgery-handle-failed-pain = Ошибка! {$patient} испытывает острую боль
+
+surgery-muscle-tears = физические повреждения
+surgery-mild-burns = легкие ожоги
+surgery-closed-fracture = закрытый перелом
+surgery-open-fracture = открытый перелом
+surgery-open-fracture-visuals = Кость торчит наружу
+surgery-arterial-bleeding = внутреннее кровотечение
+surgery-deep-burns = тяжелые ожоги
+surgery-bullet-wound = пулевые осколки

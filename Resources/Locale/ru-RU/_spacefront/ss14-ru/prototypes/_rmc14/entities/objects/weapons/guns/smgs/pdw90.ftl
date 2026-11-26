@@ -1,0 +1,10 @@
+ent-RMCWeaponSMGPDW90 = FN PDW90 (пистолет-пулемёт)
+    .suffix = Заполненный
+ent-RMCWeaponSMGPDW90TSE = L57 (пистолет-пулемёт)
+    .suffix = Заполненный
+ent-RMCMagazineSMGPDW90 = магазин для PDW90 (калибр 5,7×28 мм)
+ent-RMCMagazineSMGPDW90AP = магазин PDW90 с бронебойными (калибр 5,7×28 мм)
+ent-RMCCartridge57x28mm = боеприпас 5,7×28 мм
+ent-RMCCartridge57x28mmAP = боеприпас бронебойный 5,7×28 мм
+ent-RMCBullet57x28mm = { ent-Bullet10x20mm }
+ent-RMCBullet57x28mmAP = { ent-Bullet10x20mm }

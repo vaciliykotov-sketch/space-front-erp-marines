@@ -1,0 +1,11 @@
+ent-STPartHunter = фрагмент охотника
+ent-STTorsoHunter = охотничий торс
+ent-STHeadHunter = охотничья голова
+ent-STLeftArmHunter = рука охотника (левая)
+ent-STRightArmHunter = рука охотника (правая)
+ent-STLeftHandHunter = кисть охотника (левая)
+ent-STRightHandHunter = кисть охотника (правая)
+ent-STLeftLegHunter = нога охотника (левая)
+ent-STRightLegHunter = нога охотника (правая)
+ent-STLeftFootHunter = ступня охотника (левая)
+ent-STRightFootHunter = ступня охотника (правая)

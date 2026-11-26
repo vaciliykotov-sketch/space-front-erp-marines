@@ -1,0 +1,13 @@
+ent-RMCSpawnerEvacuationPodSouth = спавнер эвакуационных капсул
+    .suffix = Юг
+ent-RMCSpawnerEvacuationPodEast = { ent-RMCSpawnerEvacuationPodSouth }
+    .suffix = Восток
+ent-RMCSpawnerEvacuationPodNorth = { ent-RMCSpawnerEvacuationPodSouth }
+    .suffix = Север
+ent-RMCSpawnerEvacuationPodWest = { ent-RMCSpawnerEvacuationPodSouth }
+    .suffix = Запад
+ent-RMCSpawnerEvacuationPodEastLiaison = { ent-RMCSpawnerEvacuationPodSouth }
+    .suffix = Восток, Корпоративный связной
+ent-RMCSpawnerLifeboat = спавнер спасательной шлюпки
+ent-RMCSpawnerLifeboatAthena = спавнер спасательных шлюпок
+ent-RMCCrashLandingBlocker = блокиратор аварийного приземления

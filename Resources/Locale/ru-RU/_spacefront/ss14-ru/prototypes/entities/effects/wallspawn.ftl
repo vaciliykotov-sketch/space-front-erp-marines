@@ -1,0 +1,15 @@
+ent-WallSpawnAsteroid = { "" }
+ent-WallSpawnAsteroidUraniumCrab = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidBananium = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidBananiumCrab = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidUranium = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidQuartzCrab = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidQuartz = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidSilverCrab = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidSilver = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidGoldCrab = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidGold = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidIronCrab = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidIron = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidCoalCrab = { ent-WallSpawnAsteroid }
+ent-WallSpawnAsteroidCoal = { ent-WallSpawnAsteroid }

@@ -1,0 +1,9 @@
+ent-ToolboxBase = { ent-BaseStorageItem }
+ent-ToolboxEmergency = ящик с аварийными инструментами
+ent-ToolboxMechanical = ящик для механических инструментов
+ent-ToolboxElectrical = ящик с электроинструментами
+ent-ToolboxElectricalTurret = ящик с электроинструментами
+    .suffix = Синдикат, Турель
+ent-ToolboxArtistic = ящик с художественными инструментами
+ent-ToolboxSyndicate = ящик с подозрительными инструментами
+ent-ToolboxGolden = ящик с золотыми инструментами

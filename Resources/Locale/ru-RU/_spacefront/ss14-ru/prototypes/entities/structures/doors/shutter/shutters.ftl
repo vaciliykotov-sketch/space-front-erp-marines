@@ -1,0 +1,11 @@
+ent-BaseShutter = створки-ставни
+ent-ShuttersNormal = { ent-BaseShutter }
+ent-ShuttersNormalOpen = { ent-ShuttersNormal }
+    .suffix = Открытые
+ent-ShuttersRadiation = ставни от радиации
+ent-ShuttersRadiationOpen = { ent-ShuttersRadiation }
+    .suffix = Открытые
+ent-ShuttersWindow = ставни для окон
+ent-ShuttersWindowOpen = { ent-ShuttersWindow }
+    .suffix = Открытые
+ent-ShuttersFrame = основа ставней

@@ -1,0 +1,36 @@
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaERT
+  name: "Станция ERT"
+  components:
+  - type: Sprite
+    state: green
+  - type: Area
+    powerNet: ert
+    avoidBioscan: true
+
+# Fax Responder Outpost
+
+- type: entity
+  parent: RMCAreaERT
+  id: RMCAreaERTFax
+  name: "Ретранслятор связи сектора"
+  suffix: Fax Responder Outpost, Interior
+  components:
+  - type: Sprite
+    state: green
+  - type: Area
+    powerNet: fax
+    avoidBioscan: true
+
+- type: entity
+  parent: RMCAreaERT
+  id: RMCAreaERTFaxExterior
+  name: "Ретранслятор связи сектора"
+  suffix: Fax Responder Outpost, Exterior
+  components:
+  - type: Sprite
+    state: red
+  - type: Area
+    powerNet: faxexterior
+    avoidBioscan: true

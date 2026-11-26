@@ -1,0 +1,10 @@
+ent-CMFloorShallowWaterEntity = вода мелкая
+ent-CMFloorDeepWaterEntity = вода глубокая
+ent-RMCRiverSorokyne = речной поток
+ent-RMCRiverSorokyneBoiling = река кипящая
+ent-RMCFloorShallowWaterEntityRed = { ent-CMFloorShallowWaterEntity }
+    .suffix = Красный
+ent-RMCFloorShallowWaterEntityDarkRed = { ent-RMCFloorShallowWaterEntityRed }
+    .suffix = Темно-красный
+ent-RMCFloorShallowWaterEntityBelowPipes = { ent-CMFloorShallowWaterEntity }
+    .suffix = Ниже Труб

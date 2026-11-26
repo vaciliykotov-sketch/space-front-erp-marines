@@ -1,0 +1,22 @@
+МОДИФИКАЦИЯ: 10 Тактическая карта и миномёт
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Раздельная тактическая карта команд, туман на карте, миномёт
+
+ЗАЧЕМ:
+Что делает: тактическая карта отдельная для каждой команды; линия тумана серыми метками; миномёт с диалом и разбросом. Зачем: командование должно видеть свою команду и туман.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Shared/_SpaceFront/_RMC14/TacticalMap/TacticalMapComponent.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Shared/_SpaceFront/_RMC14/TacticalMap/SharedTacticalMapSystem.cs
+- Content.Shared/_SpaceFront/_RMC14/TacticalMap/TacticalMapLabelsComponent.cs
+- Content.Shared/_SpaceFront/_RMC14/Mortar/MortarComponent.cs
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Чужие файлы с маркерами:
+- Content.Shared/_RMC14/TacticalMap/SharedTacticalMapSystem.cs, TacticalMapLabelsComponent.cs
+- Content.Shared/_RMC14/Mortar/MortarComponent.cs
+- Content.Server/_RMC14/TacticalMap/TacticalMapSystem.cs — отрисовка тумана
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

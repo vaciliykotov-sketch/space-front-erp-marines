@@ -1,0 +1,11 @@
+ent-STHunterBridgeBorder = бордюрная окантовка
+ent-STHunterBridgeBorderCorner = { ent-STHunterBridgeBorder }
+    .suffix = Угловая
+ent-STHunterBridgeBorderEdge = { ent-STHunterBridgeBorder }
+    .suffix = Край
+ent-STHunterBridgeBorderBrown = { ent-STHunterBridgeBorder }
+    .suffix = Коричневая
+ent-STHunterBridgeBorderBrownCorner = { ent-STHunterBridgeBorder }
+    .suffix = Коричневая, Угловая
+ent-STHunterBridgeBorderBrownEdge = { ent-STHunterBridgeBorder }
+    .suffix = Коричневая, Край

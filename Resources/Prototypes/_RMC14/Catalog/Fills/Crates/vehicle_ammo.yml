@@ -1,0 +1,129 @@
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoLTBCannon
+  name: LTB пушка magazines crate (x6)
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxLTBCannon
+      amount: 6
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoLTAAAP
+  name: LTAA-AP ящик с магазинами для минигана (x3)
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxLTAA
+      amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoAceAutocannon
+  name: "Ящик магазинов автопушки AC3-E (x5)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxAceAutocannon
+      amount: 5
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoDragonFlamer
+  name: "Ящик топливных баков наступательного огнемётного блока DRG-N (x3)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxDragonFlameTank
+      amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoBoyarsDualCannon
+  name: "Ящик магазинов для спаренных пушек PARS-159 «Бояры» (x5)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxAceAutocannon
+      amount: 5
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoGrenadeLauncher
+  name: "Ящик магазинов для гранатомёта M92T (x5)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxGrenadeLauncher
+      amount: 5
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoSmokeLauncher
+  name: "Ящик с магазинами дымовой завесы многоцелевой башни M34A2-A (x4)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxSmokeLauncher
+      amount: 4
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoTowLauncher
+  name: "Ящик с магазинами для пусковой установки TOW (x3)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxRocketLauncher
+      amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoCupola
+  name: "Башенка M56 magazines crate (x2)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxCupola
+      amount: 2
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoLZRNFlamer
+  name: LZR-N ящик топливных баков огнемётного модуля (x2)
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleFlamerTankLZRN
+      amount: 2
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoFrontalCannon
+  name: "Ящик магазинов фронтальной пушки RE-RE700 (x2)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxFrontal
+      amount: 2
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoFlareLauncher
+  name: "Ящик с магазинами для гранатомёта сигнальных ракет M-87F (x4)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxFlareLauncher
+      amount: 4
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAmmoRotaryCannon
+  name: "Ящик магазинов роторной пушки RE700 (x3)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: VehicleAmmoBoxRERotaryCannon
+      amount: 3

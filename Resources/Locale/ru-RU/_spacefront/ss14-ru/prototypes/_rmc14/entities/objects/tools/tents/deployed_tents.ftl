@@ -1,0 +1,10 @@
+ent-RMCTentBase = палатка полевого типа морской пехоты США
+ent-RMCTentUNMCStandard = { ent-RMCTentBase }
+ent-RMCTentUNMCBig = палатка КМП США крупногабаритная
+ent-RMCTentUNMCStandardCommand = палатка командного назначения КМП США
+ent-RMCTentUNMCStandardMedical = палатка медицинского профиля КМП США
+ent-RMCTentUNMCExtended = полевая палатка КМП США увеличенного размера
+ent-RMCTentUNMCExtendedReq = палатка снабжения КМП США
+ent-RMCTentUNMCExtendedMess = столовая палатка КМП США
+ent-RMCTentUNMCExtendedMP = палатка для военной полиции КМП США
+ent-RMCTentUNMCExtendedCorrespondent = палатка корреспондента в полевых условиях

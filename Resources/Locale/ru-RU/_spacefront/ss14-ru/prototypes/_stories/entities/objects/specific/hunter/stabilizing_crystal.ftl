@@ -1,0 +1,1 @@
+ent-STStabilizingCrystal = кристалл стабилизации

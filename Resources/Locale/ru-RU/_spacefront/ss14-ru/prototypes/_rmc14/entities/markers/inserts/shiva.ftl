@@ -1,0 +1,12 @@
+ent-RMCMapInsertShivaBase = { ent-RMCMapInsertBase }
+    .suffix = Вставка Шива
+ent-RMCMapInsertShivaSouthCaves = Пещеры на юге ЗП2
+    .suffix = Вставка Шива
+ent-RMCMapInsertShivaBaseScenario = { ent-RMCMapInsertShivaBase }
+    .suffix = Вставка Шива
+ent-RMCMapInsertShivaPanicRoomHold = Удержание тревожной комнаты
+    .suffix = Вставка Шива
+ent-RMCMapInsertShivaCLFRaid = КОФ
+    .suffix = Вставка Шива
+ent-RMCMapInsertShivaSurvSpawnTogether = Выжившие: общий спавн
+    .suffix = Вставка Шива

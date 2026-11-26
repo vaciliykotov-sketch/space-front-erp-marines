@@ -1,0 +1,12 @@
+ent-RMCSupplyDropConsole = пульт снабжения
+ent-RMCSupplyDropPadBase = платформа сброса припасов
+ent-RMCSupplyDropPadAlpha = { ent-RMCSupplyDropPadBase }
+    .suffix = Альфа
+ent-RMCSupplyDropPadBravo = { ent-RMCSupplyDropPadBase }
+    .suffix = Браво
+ent-RMCSupplyDropPadCharlie = { ent-RMCSupplyDropPadBase }
+    .suffix = Чарли
+ent-RMCSupplyDropPadDelta = { ent-RMCSupplyDropPadBase }
+    .suffix = Дельта
+ent-RMCSupplyDropPadEcho = { ent-RMCSupplyDropPadBase }
+    .suffix = Эхо

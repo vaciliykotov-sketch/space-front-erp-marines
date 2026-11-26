@@ -1,0 +1,234 @@
+
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechEquipment
+  name: "Стойка снаряжения морпеха ASRS"
+  description: An automated rack hooked up to a colossal storage of Marine Rifleman standard-issue equipment.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessMarineRifleman" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/equipment.rsi
+  - type: CMAutomatedVendor
+    sections:
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: CMVendorBundleRiflemanApparel
+      - id: CMMRE
+        name: "ИРП"
+    - name: Броня
+      choices: { CMArmour: 1 }
+      entries:
+      - id: RMCArmorVestSquad
+        name: "бронежилет"
+      - id: RMCArmorM3LightVariants
+        name: "лёгкая броня"
+      - id: RMCArmorM3MediumVariants
+        name: "средняя броня"
+        recommended: true
+      - id: RMCArmorM3HeavyVariants
+        name: "тяжёлая броня"
+    - name: Backpack
+      choices: { CMBackpack: 1 }
+      entries:
+      - id: CMBackpackMarine
+        replaceSlot: back
+        name: "рюкзак"
+      - id: CMSatchelMarine
+        replaceSlot: back
+        name: "ранец"
+        recommended: true
+      - id: RMCScabbardShotgun
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: CMBeltMarine
+        recommended: true
+      - id: CMBeltKnifeFilled
+        name: "разгрузка M276 под ножи (полная)"
+      - id: RMCBeltHolsterPistol
+      - id: RMCBeltHolsterRevolver
+      - id: RMCBeltHolsterSMG
+      - id: RMCBeltHolsterSMGPouch
+      - id: RMCM82FHolster
+      - id: RMCM276ShotgunShellLoadingRig
+      - id: CMBeltUtility
+      - id: RMCBeltUtilityGeneral
+      - id: RMCBeltGrenade
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchBayonetFill
+        name: "ножны для штык-ножа (полные)"
+      - id: RMCPouchFirstAidInjectors
+        name: "аптечка (заправляемые инъекторы)"
+        recommended: true
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "аптечка (марля, мазь)" # TODO RMC14 splints comma
+        recommended: true
+      - id: RMCPouchFirstAidPills
+        name: "аптечка (таблетки)"
+        recommended: true
+      - id: RMCPouchFlareFilled
+        name: "Фальшфейер pouch (Full)"
+        recommended: true
+      - id: RMCPouchDocumentSmall
+      - id: RMCPouchMagazine
+      - id: RMCPouchShotgun
+      - id: RMCPouchGeneral
+      - id: RMCPouchMagazinePistol
+      - id: RMCPouchPistol
+    - name: Mask
+      choices: { CMMask: 1 }
+      entries:
+      - id: CMMaskGas
+      - id: CMMaskCoif
+      - id: RMCMaskRebreather
+    - name: Инженерing Supplies
+      entries:
+      - id: CMEntrenchingTool
+        points: 1
+      - id: CMSandbagEmpty25
+        points: 1
+        name: "песокbags x25"
+      - id: CMWelderSmall
+        points: 1
+    - name: Отдыхricted Firearms
+      entries:
+      - id: RMCGunCasePistolMK80
+        points: 1
+      - id: RMCGunCasePistolSmart
+        points: 1
+      - id: RMCM85A1Case
+        points: 1
+    - name: Explosives
+      entries:
+      - id: CMPacketGrenadeHighExplosiveFilled
+        points: 1
+      - id: RMCPacketGrenadeIncendiaryFilled
+        points: 1
+      - id: RMCPacketGrenadeWhitePhosphorusFilled
+        points: 1
+      - id: RMCPacketGrenadeSmokeFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMFFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMIFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMSFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMSHornetFilled
+        points: 1
+      - id: RMCBoxClaymoreMineFilled
+        points: 1
+    - name: Primary Ammunition
+      entries:
+      - id: CMMagazineRifleM4SPRAP
+        points: 1
+      - id: CMMagazineRifleM4SPRExt
+        points: 1
+      - id: CMMagazineSMGM63AP
+        points: 1
+      - id: CMMagazineSMGM63Ext
+        points: 1
+      - id: CMMagazineRifleM54CAP
+        points: 1
+      - id: CMMagazineRifleM54CExt
+        points: 1
+    - name: Sidearm Ammunition
+      entries:
+      - id: RMCMagazinePistolM13Ext
+        points: 1
+      - id: RMCSpeedLoader44Marksman
+        points: 1
+      - id: RMCMagazinePistolM1984HP
+        points: 1
+      - id: RMCMagazinePistolM1984AP
+        points: 1
+      - id: CMMagazinePistolMK80
+        points: 1
+      - id: RMCMagazinePistolSU6
+        points: 1
+    - name: Броняs
+      entries:
+      - id: CMArmorB12
+        points: 1
+      - id: CMArmorM4
+        points: 1
+    - name: Clothing Items
+      entries:
+      - id: CMWebbing
+        points: 1
+      - id: RMCWebbingBlackSmall
+        points: 1
+      - id: CMWebbingBrown
+        points: 1
+      - id: CMWebbingBlack
+        points: 1
+      - id: RMCWebbingLegPouch
+        points: 1
+      - id: RMCWebbingLegPouchBlack
+        points: 1
+      - id: RMCWebbingDropPouch
+        points: 1
+      - id: RMCWebbingDropPouchBlack
+        points: 1
+      - id: CMWebbingHolster
+        points: 1
+      - id: RMCWebbingHolsterBlack
+        points: 1
+      - id: RMCScabbardMacheteFilled
+        points: 1
+        name: "ножны для мачете (полные)"
+      - id: RMCPouchMacheteFilled
+        points: 1
+        name: "подсумок для мачете (полный)"
+      - id: RMCBackpackRTO
+        points: 1
+        replaceSlot: back
+      - id: RMCPouchFuelTank
+        points: 1
+      - id: RMCWeldingGoggles
+        points: 1
+      - id: RMCPouchSling
+        points: 1
+      - id: RMCPouchGeneralLarge
+        points: 1
+    - name: Utilities
+      entries:
+      - id: CMRollerBedSpawnFolded
+        points: 1
+      - id: RMCFulton20
+        points: 1
+      - id: CMFireExtinguisherPortable
+        points: 1
+      - id: RMCMotionDetector
+        points: 1
+      - id: RMCIntelDetector
+        points: 1
+      - id: RMCWhistle
+        points: 1
+    - name: Binoculars
+      entries:
+      - id: RMCBinoculars
+        points: 1
+      - id: RMCRangefinder
+        points: 1
+      - id: RMCLaserDesignator
+        points: 1
+    - name: Helmet Optics
+      entries:
+      - id: RMCVisorMedical
+        points: 1
+      - id: RMCVisorWelding
+        points: 1
+    - name: Pamphlets
+      entries:
+      - id: CMPamphletJTAC
+        points: 1
+      - id: CMPamphletEngineer
+        points: 1
+    - name: Radio Keys
+      entries: []

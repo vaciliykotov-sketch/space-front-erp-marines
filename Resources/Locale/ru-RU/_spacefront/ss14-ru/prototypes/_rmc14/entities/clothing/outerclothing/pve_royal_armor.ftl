@@ -1,0 +1,16 @@
+ent-RMCArmorRoyalPVE = бронежилет модульный L3A «Сокол»
+    .suffix = PVE, Королевский
+ent-RMCArmorRoyalLightPVE = бронежилет модульный облегчённый L3S «Сокол»
+    .suffix = PVE, Королевский
+ent-RMCArmorRoyalPointmanPVE = бронежилет модульный L3T «Сокол» для разведки
+    .suffix = PVE, Королевский
+ent-RMCArmorRoyalHarnessPVE = упряжь модульная L3H «Сокол»
+    .suffix = PVE, Королевский
+ent-RMCPVEArmorCaseRoyal = набор модульной брони L3A «Сокол»
+    .suffix = { ent-RMCPVEArmorCaseBase.suffix }
+ent-RMCPVEArmorCaseRoyalLight = набор облегчённой модульной брони L3S «Сокол»
+    .suffix = { ent-RMCPVEArmorCaseRoyal.suffix }
+ent-RMCPVEArmorCaseRoyalPointman = набор модульной брони L3T «Сокол» для разведки
+    .suffix = { ent-RMCPVEArmorCaseRoyal.suffix }
+ent-RMCPVEArmorCaseRoyalHarness = набор модульной упряжи L3H «Сокол»
+    .suffix = { ent-RMCPVEArmorCaseRoyal.suffix }

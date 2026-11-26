@@ -1,0 +1,16 @@
+ent-CrateMaterialGlass = коробка со стеклом
+ent-CrateMaterialSteel = коробка со сталью
+ent-CrateMaterialTextiles = коробка с текстилем
+ent-CrateMaterialPlastic = коробка с пластиком
+ent-CrateMaterialWood = коробка с деревом
+ent-CrateMaterialBrass = коробка с латунью
+ent-CrateMaterialPlasteel = коробка с пласталью
+ent-CrateMaterialPlasma = коробка с твёрдой плазмой
+    .suffix = { ent-CratePlasma.suffix }
+ent-CrateMaterialGold = коробка с золотом
+ent-CrateMaterialSilver = коробка с серебром
+ent-CrateMaterialCardboard = коробка с картоном
+ent-CrateMaterialPaper = коробка с бумагой
+ent-CrateMaterialRandom = остатки материалов
+ent-CrateMaterialSilo = коробка хранилища материалов
+ent-CrateMaterialBasicResource = коробка с базовыми материалами

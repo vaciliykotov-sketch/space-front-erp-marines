@@ -1,0 +1,13 @@
+ent-BaseToolSurgery = { ent-BaseItem }
+ent-Cautery = инструмент для прижигания
+ent-Drill = бормашина
+ent-Scalpel = хирургический нож
+ent-ScalpelShiv = самодельный нож
+ent-ScalpelAdvanced = скальпель повышенного класса
+ent-ScalpelLaser = скальпель на лазере
+ent-Retractor = хирургический расширитель
+ent-Hemostat = зажим для сосудов
+ent-Saw = ножовка по металлу
+ent-SawImprov = самодельная пила
+ent-SawElectric = электрическая дисковая пила
+ent-SawAdvanced = усовершенствованная дисковая пила

@@ -1,0 +1,10 @@
+ent-MineralScannerUnpowered = сканер для минералов
+    .suffix = Всегда запитан
+ent-MineralScanner = { ent-MineralScannerUnpowered }
+ent-MineralScannerEmpty = { ent-MineralScanner }
+    .suffix = Пустой
+ent-AdvancedMineralScannerUnpowered = сканер минералов повышенного класса
+    .suffix = Всегда запитан
+ent-AdvancedMineralScanner = { ent-AdvancedMineralScannerUnpowered }
+ent-AdvancedMineralScannerEmpty = { ent-AdvancedMineralScanner }
+    .suffix = Пустой

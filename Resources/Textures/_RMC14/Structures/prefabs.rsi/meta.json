@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/3ec1c912b94ec64ad2f754ef3d9ccef907372b04/icons/obj/structures/props/ice_colony/fabs_64.dmi",
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "orange"
+    },
+    {
+      "name": "orange_trim"
+    },
+    {
+      "name": "pink"
+    },
+    {
+      "name": "pink_trim"
+    },
+    {
+      "name": "blu"
+    },
+    {
+      "name": "blu_trim"
+    },
+    {
+      "name": "white"
+    },
+    {
+      "name": "white_trim"
+    },
+    {
+      "name": "red"
+    },
+    {
+      "name": "red_trim"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+ent-RMCPouchMedical = подсумок медицинского назначения
+ent-RMCPouchMedicalFill = { ent-RMCPouchMedical }
+    .suffix = Заполненный
+ent-RMCPouchMedicalPills = { ent-RMCPouchMedical }
+    .suffix = Таблетки
+ent-RMCPouchMedicalERT = { ent-RMCPouchMedical }
+    .suffix = ОБР
+ent-RMCPouchMedicalSPPSynth = { ent-RMCPouchMedical }
+    .suffix = ОБР

@@ -1,0 +1,9 @@
+ent-RMCHeadCapTSEPA = ИТСПД: фуражка
+ent-RMCHeadBeretTSE = ИТС: берет
+ent-RMCHeadBeretTSEPA = ИТСПД: берет
+ent-RMCHeadCapTSEPAPeaked = для инспекторов ИТСПД кепка с козырьком
+    .suffix = Серебро и золото
+ent-RMCHeadCapTSEPAPeakedGoldSilver = { ent-RMCHeadCapTSEPAPeaked }
+    .suffix = Серебро и золото
+ent-RMCHeadCapTSEPAPeakedGold = { ent-RMCHeadCapTSEPAPeaked }
+    .suffix = Золото

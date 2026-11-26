@@ -1,0 +1,302 @@
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerLarge
+  name: "большой компьютер"
+  components:
+  - type: Sprite
+    state: largecomp
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerLarge0
+  name: "большой компьютер"
+  suffix: Prop, 0
+  components:
+  - type: Sprite
+    state: largecomp0
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerLargeDark
+  name: "тёмный большой компьютер"
+  components:
+  - type: Sprite
+    state: largecomp_dark
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerLargeDark0
+  name: "тёмный большой компьютер"
+  suffix: Prop, 0
+  components:
+  - type: Sprite
+    state: largecomp_dark0
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerMap
+  name: "компьютер с картой"
+  components:
+  - type: Sprite
+    state: map
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerMap0
+  name: "компьютер с картой"
+  suffix: Prop, 0
+  components:
+  - type: Sprite
+    state: map0
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerEmbedded
+  name: "встроенный компьютерный блок"
+  components:
+  - type: Sprite
+    state: embedded computers
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropAIWallMonitor
+  name: "Настенный монитор ИИ"
+  components:
+  - type: Sprite
+    state: ai_wallmonitor
+
+- type: entity
+  parent: RMCPropAIWallMonitor
+  id: RMCPropAIWallMonitorEast
+  suffix: Prop, East
+  components:
+  - type: Sprite
+    state: ai_wallmonitor_e
+
+- type: entity
+  parent: RMCPropAIWallMonitor
+  id: RMCPropAIWallMonitorWest
+  suffix: Prop, West
+  components:
+  - type: Sprite
+    state: ai_wallmonitor_w
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropRemoteFlightComputer
+  name: "дистанционный полётный компьютер"
+  components:
+  - type: Sprite
+    state: remoteflightcomp
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropRemoteFlightComputer0
+  name: "дистанционный полётный компьютер"
+  suffix: Prop, 0
+  components:
+  - type: Sprite
+    state: remoteflightcomp0
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropRemoteFlightComputerClosed
+  name: "дистанционный полётный компьютер"
+  suffix: Prop, Closed
+  components:
+  - type: Sprite
+    state: remoteflightcomp_cl
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropElevatorHandrail
+  name: "консоль на поручне лифта"
+  components:
+  - type: Sprite
+    state: elevator_handrail
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropElevatorHandrail0
+  name: "консоль на поручне лифта"
+  suffix: Prop, 0
+  components:
+  - type: Sprite
+    state: elevator_handrail0
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropElevatorHandrailB
+  name: "консоль на поручне лифта"
+  suffix: Prop, B
+  components:
+  - type: Sprite
+    state: elevator_handrailb
+
+- type: entity
+  parent: RMCOverwatchConsoleBase
+  id: RMCOverwatchConsoleTOCShuttle
+  name: "консоль тактических операций шаттла"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/computer.rsi
+    layers:
+    - map: ["base"]
+      state: "toc_shuttle0"
+    - map: ["enum.PowerDeviceVisualLayers.Powered"]
+      state: "toc_shuttle"
+    overrideDir: West
+    enableOverrideDir: true
+
+- type: entity
+  parent: RMCOverwatchConsoleTOCShuttle
+  id: RMCOverwatchConsoleTOCShuttleRotating
+  suffix: Rotating
+  components:
+  - type: Sprite
+    overrideDir: South
+    enableOverrideDir: false
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerTOCShuttle0
+  name: "консоль тактических операций шаттла"
+  suffix: Prop, 0
+  components:
+  - type: Sprite
+    state: toc_shuttle0
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerTOCShuttleB
+  name: "консоль тактических операций шаттла"
+  suffix: Prop, B
+  components:
+  - type: Sprite
+    state: toc_shuttleb
+
+- type: entity
+  parent: RMCOverwatchConsoleBase
+  id: RMCOverwatchConsoleTOCMap
+  name: "тактическая консоль картографических операций"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/computer.rsi
+    layers:
+    - map: ["base"]
+      state: "toc_map0"
+    - map: ["enum.PowerDeviceVisualLayers.Powered"]
+      state: "toc_map"
+    overrideDir: West
+    enableOverrideDir: true
+
+- type: entity
+  parent: RMCOverwatchConsoleTOCMap
+  id: RMCOverwatchConsoleTOCMapRotating
+  suffix: Rotating
+  components:
+  - type: Sprite
+    overrideDir: South
+    enableOverrideDir: false
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerTOCMap0
+  name: "тактическая консоль картографических операций"
+  suffix: Prop, 0
+  components:
+  - type: Sprite
+    state: toc_map0
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerTOCMapB
+  name: "тактическая консоль картографических операций"
+  suffix: Prop, B
+  components:
+  - type: Sprite
+    state: toc_mapb
+
+- type: entity
+  parent: RMCOverwatchConsoleBase
+  id: RMCOverwatchConsoleTOCRailgun
+  name: "консоль тактических операций рельсотрона"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/computer.rsi
+    layers:
+    - map: ["base"]
+      state: "toc_railgun0"
+    - map: ["enum.PowerDeviceVisualLayers.Powered"]
+      state: "toc_railgun"
+    overrideDir: West
+    enableOverrideDir: true
+
+- type: entity
+  parent: RMCOverwatchConsoleTOCRailgun
+  id: RMCOverwatchConsoleTOCRailgunRotating
+  suffix: Rotating
+  components:
+  - type: Sprite
+    overrideDir: South
+    enableOverrideDir: false
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerTOCRailgun0
+  name: "консоль тактических операций рельсотрона"
+  suffix: Prop, 0
+  components:
+  - type: Sprite
+    state: toc_railgun0
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerTOCRailgunB
+  name: "консоль тактических операций рельсотрона"
+  suffix: Prop, B
+  components:
+  - type: Sprite
+    state: toc_railgunb
+
+- type: entity
+  parent: RMCOverwatchConsoleBase
+  id: RMCOverwatchConsoleTOCRailcannon
+  name: "консоль тактических операций рельсовой пушки"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/computer.rsi
+    layers:
+    - map: ["base"]
+      state: "toc_railcannon0"
+    - map: ["enum.PowerDeviceVisualLayers.Powered"]
+      state: "toc_railcannon"
+    overrideDir: West
+    enableOverrideDir: true
+
+- type: entity
+  parent: RMCOverwatchConsoleTOCRailcannon
+  id: RMCOverwatchConsoleTOCRailcannonRotating
+  suffix: Rotating
+  components:
+  - type: Sprite
+    overrideDir: South
+    enableOverrideDir: false
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerTOCRailcannon0
+  name: "консоль тактических операций рельсовой пушки"
+  suffix: Prop, 0
+  components:
+  - type: Sprite
+    state: toc_railcannon0
+
+- type: entity
+  parent: RMCPropComputerBase
+  id: RMCPropComputerTOCRailcannonB
+  name: "консоль тактических операций рельсовой пушки"
+  suffix: Prop, B
+  components:
+  - type: Sprite
+    state: toc_railcannonb

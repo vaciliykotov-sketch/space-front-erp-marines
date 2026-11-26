@@ -1,0 +1,10 @@
+ent-MobWatcherBase = страж
+    .suffix = { ent-SimpleSpaceMobBase.suffix }
+ent-MobWatcherLavaland = { ent-MobWatcherBase }
+    .suffix = { ent-MobWatcherBase.suffix }
+ent-MobWatcherIcewing = страж с ледяными крыльями
+    .suffix = { ent-MobWatcherBase.suffix }
+ent-MobWatcherMagmawing = страж с магмовыми крыльями
+    .suffix = { ent-MobWatcherBase.suffix }
+ent-MobWatcherPride = страж-гордец
+    .suffix = Адмемы

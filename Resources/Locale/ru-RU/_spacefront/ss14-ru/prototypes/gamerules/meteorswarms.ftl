@@ -1,0 +1,15 @@
+ent-MeteorSwarmScheduler = { ent-BaseGameRule }
+ent-MeteorSwarmMildScheduler = { ent-BaseGameRule }
+ent-KesslerSyndromeScheduler = { ent-BaseGameRule }
+ent-GameRuleMeteorSwarm = { ent-BaseGameRule }
+ent-GameRuleSpaceDustMinor = { ent-GameRuleMeteorSwarm }
+ent-GameRuleSpaceDustMajor = { ent-GameRuleMeteorSwarm }
+ent-GameRuleMeteorSwarmSmall = { ent-GameRuleMeteorSwarm }
+ent-GameRuleMeteorSwarmMedium = { ent-GameRuleMeteorSwarm }
+ent-GameRuleMeteorSwarmLarge = { ent-GameRuleMeteorSwarm }
+ent-GameRuleUristSwarm = { ent-GameRuleMeteorSwarm }
+ent-ImmovableRodSpawn = { ent-BaseGameRule }
+ent-GameRuleCowSwarm = { ent-GameRuleMeteorSwarm }
+ent-GameRuleClownSwarm = { ent-GameRuleMeteorSwarm }
+ent-GameRulePotatoSwarm = { ent-GameRuleMeteorSwarm }
+ent-GameRuleFunSwarm = { ent-GameRuleMeteorSwarm }

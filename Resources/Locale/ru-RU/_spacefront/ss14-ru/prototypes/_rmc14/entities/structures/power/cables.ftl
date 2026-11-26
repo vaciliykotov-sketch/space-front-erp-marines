@@ -1,0 +1,10 @@
+ent-RMCCableBase = { ent-CableHV }
+ent-RMCCableHeavy = тяжелый силовой кабель
+ent-RMCCableBlue = питающий кабель
+    .suffix = Синий
+ent-RMCCableRed = питающий кабель
+    .suffix = Красный
+ent-RMCCableYellow = питающий кабель
+    .suffix = Желтый
+ent-RMCCableTerminal = { ent-CableTerminal }
+    .suffix = RMC

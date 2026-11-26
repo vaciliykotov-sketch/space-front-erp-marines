@@ -1,0 +1,13 @@
+ent-MonkeyCubeBox = коробка с кубиками обезьян
+ent-BaseWrappedCube = { ent-BaseItem }
+    .suffix = Завёрнутый
+ent-MonkeyCubeWrapped = обезьяний кубик
+    .suffix = { ent-BaseWrappedCube.suffix }
+ent-KoboldCubeBox = коробка кубиков кобольда
+ent-VariantCubeBox = коробка кубиков-ассорти
+ent-KoboldCubeWrapped = кобольдий кубик
+    .suffix = { ent-BaseWrappedCube.suffix }
+ent-SyndicateSpongeBox = коробка обезьяньих кубиков
+    .suffix = Синдикат
+ent-SyndicateSpongeWrapped = обезьяний кубик
+    .suffix = Завёрнутый, Синдикат

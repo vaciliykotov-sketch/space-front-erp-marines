@@ -1,0 +1,16 @@
+ent-SpawnMobXenoBurrower = точка появления ксено
+    .suffix = Бурильщик
+ent-SpawnMobXenoDrone = точка появления ксено
+    .suffix = Дрон
+ent-SpawnMobXenoPraetorian = точка появления ксено
+    .suffix = Преторианец
+ent-SpawnMobXenoQueen = точка появления ксено
+    .suffix = Королева
+ent-SpawnMobXenoRavager = точка появления ксено
+    .suffix = Разрушитель
+ent-SpawnMobXenoRunner = генератор появления ксеноморфа-бегуна
+    .suffix = Бегун
+ent-SpawnMobXenoSpitter = генератор появления ксеноморфа-плевуна
+    .suffix = Плевальщик
+ent-SpawnMobXenoLonePraetorian = генератор появления одинокого преторианца-ксено
+    .suffix = Одинокий Преторианец, Exo Station

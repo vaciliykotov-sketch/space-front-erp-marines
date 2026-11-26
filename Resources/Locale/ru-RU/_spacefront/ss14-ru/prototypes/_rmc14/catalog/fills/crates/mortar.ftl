@@ -1,0 +1,5 @@
+ent-RMCCrateMortarKit = ящик миномётного комплекта M402 (1 миномёт + 1 ранец для миномётных снарядов)
+ent-RMCCrateMortarShellHE = ящик со снарядами для миномёта M402 (6 фугасных)
+ent-RMCCrateMortarShellIncendiary = ящик со снарядами для миномёта M402 (6 зажигательных)
+ent-RMCCrateMortarShellFlare = ящик со снарядами для миномёта M402 (6 сигнальных ракет/камер)
+ent-RMCCrateMortarShellFrag = ящик со снарядами для миномёта M402 (6 осколочных)

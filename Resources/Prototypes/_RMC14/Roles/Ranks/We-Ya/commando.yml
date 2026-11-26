@@ -1,0 +1,5 @@
+- type: rank
+  id: RMCRankWeYaCommando
+  name: "Корпоративный коммандос"
+  prefix: OPR.
+  paygrade: WY-COM

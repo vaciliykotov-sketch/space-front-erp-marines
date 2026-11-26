@@ -1,0 +1,153 @@
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaSpace
+  name: "Космос"
+  suffix: Space Area
+  components:
+  - type: Area
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaEngine
+
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaAdmin
+  name: "Комната администратора"
+  components:
+  - type: Sprite
+    state: start
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaAdmin
+  id: RMCAreaAdminDroppod
+
+- type: entity
+  parent: RMCAreaAdminDroppod
+  id: RMCAreaAdminDroppodHolding
+  name: "Капсула админского груза"
+
+- type: entity
+  parent: RMCAreaAdminDroppod
+  id: RMCAreaAdminDroppodLoading
+  name: "Загрузка админского груза"
+
+- type: entity
+  parent: RMCAreaSpace
+  id: RMCAreaSpaceHighalt
+  name: "Большая высота"
+  components:
+  - type: Sprite
+    state: blue
+
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaStart
+  name: "стартовая зона"
+  components:
+  - type: Sprite
+    state: start
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaCentcom
+  name: "заброшенный Центком"
+  components:
+  - type: Sprite
+    state: centcom
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaCentcom
+  id: RMCAreaCentcomControl
+  name: "заброшенный Центком Control"
+
+- type: entity
+  parent: RMCAreaCentcom
+  id: RMCAreaCentcomLiving
+  name: "заброшенный Центком Living Quarters"
+
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaTdome
+  name: "заброшенный Громовой купол"
+  components:
+  - type: Sprite
+    state: thunder
+  - type: Area
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaTdome
+  id: RMCAreaTdomeTdome1
+  name: "заброшенный Громовой купол (Team 1)"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaTdome
+  id: RMCAreaTdomeTdome2
+  name: "заброшенный Громовой купол (Team 2)"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaTdome
+  id: RMCAreaTdomeTdomeadmin
+  name: "заброшенный Громовой купол (Admin.)"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaTdome
+  id: RMCAreaTdomeTdomeobserve
+  name: "заброшенный Громовой купол (Observer.)"
+  components:
+  - type: Sprite
+    state: purple

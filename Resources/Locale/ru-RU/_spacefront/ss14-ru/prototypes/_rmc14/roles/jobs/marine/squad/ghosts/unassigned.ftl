@@ -1,0 +1,14 @@
+ent-RMCRandomHumanoidUnassignedCombatTech = роль призрака боевого техника без назначения
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidUnassignedFireteamLeader = роль призрака лидера огневой группы без назначения
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidUnassignedHospitalCorpsman = роль призрака госпитального санитара без назначения
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidUnassignedRifleman = роль призрака рядового стрелка без назначения
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidUnassignedSmartGunOperator = роль призрака оператора смартгана без назначения
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidUnassignedSquadLeader = роль призрака лидера отряда без назначения
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidUnassignedWeaponsSpecialist = роль-призрак специалиста по оружию без назначения
+    .suffix = Спавнер, Игрок

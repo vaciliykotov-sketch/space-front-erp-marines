@@ -1,0 +1,10 @@
+ent-ColMarTechFood = КолМорТех: продовольственный поставщик
+ent-RMCNutriCoVendor = АвтоШеф от НутриКо
+ent-RMCNutriCoVendorRCM = АвтоШеф Секции Ве-Я
+    .suffix = PVE
+ent-RMCVendorNutriCoFoodSPP = еда-раздатчик
+    .suffix = СПН
+ent-RMCVendorNutriCoFoodPMC = раздатчик провизии
+    .suffix = ЧВК
+ent-CMVendorBooze = автомат с алкоголем
+ent-CMVendorChess = шахматный автомат

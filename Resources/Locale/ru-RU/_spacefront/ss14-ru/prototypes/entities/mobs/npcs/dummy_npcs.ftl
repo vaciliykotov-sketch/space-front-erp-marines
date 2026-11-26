@@ -1,0 +1,2 @@
+ent-MobHumanPathDummy = ������� ��� ������ ����
+    .suffix = ИИ

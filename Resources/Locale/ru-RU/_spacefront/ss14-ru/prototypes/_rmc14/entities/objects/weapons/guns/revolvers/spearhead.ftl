@@ -1,0 +1,12 @@
+ent-RMCWeaponRevolverSpearhead = револьвер автоматический БКМ "Острие Копья"
+ent-RMCWeaponRevolverSpearheadTactitcal = { ent-RMCWeaponRevolverSpearhead }
+ent-RMCWeaponRevolverSpearheadCustom = револьвер автоматический БКМ "Острие Копья" (тюнингованный)
+ent-RMCWeaponRevolverSpearheadEmpty = { ent-RMCWeaponRevolverSpearhead }
+    .suffix = Пустой
+ent-RMCBaseSpeedLoader357 = ускоритель заряжания (.357)
+ent-RMCSpeedLoader357 = ускоритель заряжания (.357)
+ent-RMCSpeedLoader357Hollowpoint = ускоритель заряжания с экспансивными боеприпасами (.357)
+ent-RMCCartridgeRevolver357 = боеприпас (.357)
+ent-RMCCartridgeRevolver357Hollowpoint = боеприпас (.357) экспансивного действия
+ent-RMCBulletRevolver357 = снаряд (.357)
+ent-RMCBulletRevolver357Hollowpoint = снаряд (.357) экспансивного действия

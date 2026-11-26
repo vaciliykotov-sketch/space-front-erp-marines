@@ -1,0 +1,10 @@
+ent-CrateFoodPizza = срочная пицца на дом
+ent-CrateFoodMRE = контейнер с ИРП
+ent-CrateFoodCooking = коробка с продуктами для готовки
+ent-CrateFoodDinnerware = контейнер с посудой
+ent-CrateFoodBarSupply = коробка с товарами для бара
+ent-CrateFoodSoftdrinks = контейнер с безалкогольными напитками
+ent-CrateFoodGetMore = коробка "Выпечки побольше"
+ent-CrateFoodIceCream = мороженое с доставкой
+ent-CrateFoodSnowcone = снежные конусы на дом
+ent-CrateFoodHappyHonkBigBite = доставка обедов от Хэппи Хонк

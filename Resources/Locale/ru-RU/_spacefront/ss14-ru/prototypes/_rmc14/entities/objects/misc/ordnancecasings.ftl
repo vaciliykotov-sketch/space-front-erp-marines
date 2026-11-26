@@ -1,0 +1,13 @@
+ent-RMCCasingBase = основа для взрывного заряда
+ent-RMCM40GrenadeCasing = корпус гранаты M40
+ent-RMCM15GrenadeCasing = граната M15
+ent-RMCM20MineCasing = мина M20
+ent-RMCC4PlasticCasing = взрывчатка C4
+ent-RMC88mmRocketTube = ракета калибра 84 мм
+ent-RMC80mmMortarShell = миномётный снаряд 80-мм
+ent-RMC88mmRocketWarhead = боеголовка ракеты 84-мм
+ent-RMC80mmMortarWarhead = боеголовка миномётного снаряда 80-мм
+ent-RMC80mmMortarCameraWarhead = 80-мм миномётная боеголовка, оснащённая камерой
+ent-RMCCustomM34A1SmokeTankCase = бак с дымом M240A1
+ent-RMCCustomM34A1FuelTankCase = бак для топлива M240A1
+ent-RMCCustomM34TFuelTankCase = бак для горючего M240-T

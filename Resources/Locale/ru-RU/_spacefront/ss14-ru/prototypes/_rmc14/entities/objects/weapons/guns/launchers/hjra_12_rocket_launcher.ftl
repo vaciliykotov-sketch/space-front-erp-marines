@@ -1,0 +1,9 @@
+ent-RMCWeaponLauncherHJRA12 = СРПГ-12 — ручной гранатомёт противотанковый
+ent-RMCRocketHJRA12AT = СРПГ-12: ракета противотанковая
+ent-RMCRocketHJRA12HE = СРПГ-12: ракета осколочно-фугасная
+ent-RMCRocketHJRA12Incen = СРПГ-12: зажигательная ракета повышенной интенсивности
+ent-RMCProjectileRocketHJRA12AT = СРПГ-12: противотанковый снаряд-ракета
+ent-RMCProjectileRocketHJRA12HE = СРПГ-12: осколочно-фугасный снаряд-ракета
+ent-RMCProjectileRocketHJRA12Incen = СРПГ-12: зажигательный снаряд-ракета высокой интенсивности
+ent-RMCRocketHJRA12 = СРПГ-12: 84-мм противотанковая ракета
+ent-RMCProjectileRocketHJRA12 = СРПГ-12: 84-мм фугасная ракета

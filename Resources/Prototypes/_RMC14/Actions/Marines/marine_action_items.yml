@@ -1,0 +1,260 @@
+- type: entity
+  parent: ActionMarineBase
+  id: CMActionToggleScope
+  name: "Переключить оптику"
+  description: Scope in or out with your optics.
+  components:
+  - type: Action
+    icon:
+      sprite: _RMC14/Actions/scope_actions.rsi
+      state: sniperscope
+    useDelay: 0.25
+  - type: InstantAction
+    event: !type:ToggleActionEvent
+
+- type: entity
+  parent: ActionMarineBase
+  id: RMCActionCycleZoomLevel
+  name: "Переключить уровень увеличения"
+  description: Change the level of magnification of your optics.
+  components:
+  - type: Action
+    icon:
+      sprite: _RMC14/Actions/scope_actions.rsi
+      state: sniperscope
+    useDelay: 0.25
+  - type: InstantAction
+    event: !type:ScopeCycleZoomLevelEvent
+  - type: Tag
+    tags:
+    - RMCActionCycleZoomLevel
+
+- type: entity
+  parent: ActionMarineBase
+  id: CMActionToggleScoutVision
+  name: "Переключить разведывательный прицел M42"
+  description: Allows you to see even in complete darkness.
+  components:
+  - type: Action
+    icon:
+      sprite: _RMC14/Objects/Clothing/Eyes/Glasses/m42_scoutsight.rsi
+      state: icon
+    iconOn:
+      sprite: _RMC14/Objects/Clothing/Eyes/Glasses/m42_scoutsight.rsi
+      state: icon_on
+    useDelay: 0.25
+  - type: InstantAction
+    event: !type:ToggleActionEvent
+
+- type: entity
+  parent: ActionMarineToggleable
+  id: RMCActionToggleIDLock
+  name: "Переключить блокировку ID"
+  description: Toggles the ID lock on the gun, allowing anyone to use it.
+  components:
+  - type: Action
+    icon:
+      sprite: _RMC14/Actions/id_lock_actions.rsi
+      state: id_lock_locked
+  - type: InstantAction
+    event: !type:ToggleActionEvent
+
+- type: entity
+  parent: ActionMarineToggleable
+  id: RMCActionToggleIFF
+  name: "Переключить систему свой-чужой"
+  description: Toggles the IFF on the gun.
+  components:
+  - type: Action
+    icon:
+      sprite: _RMC14/Actions/iff_toggle_actions.rsi
+      state: iff_toggle_on
+  - type: InstantAction
+    event: !type:ToggleActionEvent
+
+- type: entity
+  parent: ActionMarineBase
+  id: CMActionToggleAttachable
+  name: "Переключить навесное оборудование"
+  description: Toggle an attachable. If you're seeing this, someone forgot to set the description properly.
+  components:
+  - type: Action
+    icon:
+      sprite: _RMC14/Actions/scope_actions.rsi
+      state: sniperscope
+  - type: InstantAction
+    event: !type:AttachableToggleActionEvent
+
+- type: entity
+  parent: ActionMarineBase
+  id: RMCActionWhistle
+  name: "Свисток"
+  description: Blow the whistle.
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Objects/Devices/whistle.rsi
+      state: whistle
+    useDelay: 10
+  - type: InstantAction
+    event: !type:SoundActionEvent
+
+- type: entity
+  parent: ActionMarineBase
+  id: RMCActionTelephone
+  name: "Использовать телефон"
+  description: Used to call another phone.
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Objects/phone.rsi
+      state: rpb_phone
+    useDelay: 0.5
+  - type: InstantAction
+    event: !type:RMCTelephoneActionEvent
+
+- type: entity
+  parent: RMCActionTelephone
+  id: RMCActionTelephoneScout
+  name: "Использовать микрофон шлема"
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Objects/phone.rsi
+      state: scout_microphone
+    useDelay: 0.5
+
+- type: Tag
+  id: RMCActionCycleZoomLevel
+
+- type: entity
+  parent: ActionMarineBase
+  id: RMCActionToggleMedhud
+  name: "Переключить медицинский HUD"
+  description: Toggle the optical matrix of the medical HUD.
+  components:
+  - type: Action
+    itemIconStyle: BigItem
+  - type: InstantAction
+    event: !type:ToggleActionEvent
+
+- type: entity
+  parent: ActionMarineBase
+  id: RMCActionToggleSechud
+  name: "Переключить охранный HUD"
+  description: Toggle the optical matrix of the security HUD.
+  components:
+  - type: Action
+    itemIconStyle: BigItem
+  - type: InstantAction
+    event: !type:ToggleActionEvent
+
+- type: entity
+  parent: ActionMarineBase
+  id: RMCActionToggleWeldingGoggles
+  name: "Переключить сварочные очки"
+  description: Change the positions of the welding goggles on your forehead.
+  components:
+  - type: Action
+    itemIconStyle: BigItem
+  - type: InstantAction
+    event: !type:ToggleActionEvent
+
+- type: entity
+  parent: ActionMarineBase
+  id: RMCActionCycleVisor
+  name: "Переключить HUD шлема"
+  description: Cycles the currently active visor.
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Objects/Clothing/helmet_visors.rsi
+      state: sight_up
+    useDelay: 0.5
+  - type: InstantAction
+    event: !type:CycleVisorActionEvent
+
+- type: entity
+  parent: ActionMarineToggleable
+  id: RMCActionSpotTarget
+  description: Hover your mouse over a target and press the unique action key to start spotting.
+  name: "Засечь цель"
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Actions/marine_sniper_actions.rsi
+      state: spotter_target
+  - type: InstantAction
+    event: !type:SpotTargetActionEvent
+
+- type: entity
+  parent: ActionMarineBase
+  id: RMCActionToggleLaser
+  name: "Переключить лазер"
+  description: Toggles your laser on or off
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Actions/marine_sniper_actions.rsi
+      state: sniper_toggle_laser_on
+    useDelay: 0.25
+  - type: InstantAction
+    event: !type:GunToggleLaserActionEvent
+
+- type: entity
+  parent: ActionMarineToggleable
+  id: RMCActionAimedShot
+  name: "Прицельный выстрел"
+  description: While in combat mode and hovering your mouse over a target, press the unique action key to begin aiming.
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Actions/marine_sniper_actions.rsi
+      state: sniper_aim
+  - type: InstantAction
+    event: !type:AimedShotActionEvent
+
+- type: entity
+  parent: ActionMarineBase
+  id: RMCActionBroiler
+  name: "Переключить танк"
+  description: Switch to a different fuel tank.
+  components:
+  - type: Action
+  - type: InstantAction
+    event: !type:RMCBroilerActionEvent
+
+- type: entity
+  parent: ActionMarineBase
+  id: RMCActionDismount
+  name: "Спешиться"
+  description: Stop using the weapon
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _RMC14/Actions/marine_emplacement_actions.rsi
+      state: cancel_view
+  - type: InstantAction
+    event: !type:DismountActionEvent
+
+# CBRN
+- type: entity
+  parent: BaseAction
+  id: ActionToggleCBRNHelmet
+  name: "Переключить маску РХБЗ"
+  description: Raise or lower the integrated MOPP mask to toggle full fire protection.
+  components:
+  - type: Action
+    icon:
+      sprite: _RMC14/Actions/marine_firewalk_actions.rsi
+      state: firewalk
+  - type: InstantAction
+    event: !type:ToggleClothingEvent { }

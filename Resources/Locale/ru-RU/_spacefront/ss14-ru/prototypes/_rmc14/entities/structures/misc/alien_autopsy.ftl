@@ -1,0 +1,16 @@
+ent-RMCResearchThingies = штуковины для исследований
+ent-RMCBaseAlienTank = резервуар криогенный
+ent-RMCAlienTankEmpty = { ent-RMCBaseAlienTank }
+    .suffix = Пустой
+ent-RMCAlienTankBroken = { ent-RMCBaseAlienTank }
+    .suffix = Сломанный
+ent-RMCAlienTank = { ent-RMCAlienTankEmpty }
+    .suffix = Инопланетянин
+ent-RMCAlienTankParasite = { ent-RMCAlienTank }
+    .suffix = Паразит
+ent-RMCAlienTankLarva = { ent-RMCAlienTank }
+    .suffix = Личинка
+ent-RMCAlienLabcageBroken = клетка для игрушек из лаборатории
+    .suffix = Сломана
+ent-RMCAlienLabcage = клетка для игрушек из лаборатории
+    .suffix = { ent-RMCAlienTankEmpty.suffix }

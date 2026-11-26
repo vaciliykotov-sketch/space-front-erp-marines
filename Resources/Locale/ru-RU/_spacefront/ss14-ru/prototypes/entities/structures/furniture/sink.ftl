@@ -1,0 +1,10 @@
+ent-SinkEmpty = умывальник
+    .suffix = Пустой
+ent-Sink = умывальник
+    .suffix = Вода
+ent-SinkWide = умывальник широкий
+    .suffix = { ent-Sink.suffix }
+ent-SinkStemless = умывальник без смесителя
+    .suffix = { ent-SinkEmpty.suffix }
+ent-SinkStemlessWater = умывальник без крана
+    .suffix = Вода

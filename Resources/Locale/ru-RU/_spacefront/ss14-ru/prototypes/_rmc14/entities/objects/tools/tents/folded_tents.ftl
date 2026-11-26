@@ -1,0 +1,9 @@
+ent-RMCTentUNMCStandardFolded = палатка полевая КМП США в сложенном виде
+ent-RMCTentUNMCBigFolded = крупногабаритная палатка КМП США в сложенном состоянии
+ent-RMCTentUNMCStandardCommandFolded = командная палатка КМП США сложенная
+ent-RMCTentUNMCStandardMedicalFolded = медицинская палатка КМП США в сложенном виде
+ent-RMCTentUNMCExtendedFolded = увеличенная полевая палатка КМП США сложенная
+ent-RMCTentUNMCExtendedReqFolded = палатка снабжения КМП США в сложенном виде
+ent-RMCTentUNMCExtendedMessFolded = столовая палатка КМП США сложенная
+ent-RMCTentUNMCExtendedMPFolded = сложенная палатка военной полиции КМП США
+ent-RMCTentUNMCExtendedCorrespondentFolded = палатка корреспондента полевая в сложенном виде

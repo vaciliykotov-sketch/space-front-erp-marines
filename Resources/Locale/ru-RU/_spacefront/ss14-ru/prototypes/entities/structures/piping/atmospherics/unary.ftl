@@ -1,0 +1,15 @@
+ent-GasUnaryBase = { ent-GasPipeBase }
+ent-GasVentPump = вентиляционная система
+ent-GasPassiveVent = вентиляция пассивного типа
+ent-GasVentScrubber = устройство скруббера
+ent-GasOutletInjector = инжекторное устройство
+ent-BaseGasThermoMachine = термальная машина
+ent-GasThermoMachineFreezer = устройство охлаждения
+ent-GasThermoMachineFreezerEnabled = { ent-GasThermoMachineFreezer }
+    .suffix = Включено
+ent-GasThermoMachineHeater = устройство нагрева
+ent-GasThermoMachineHeaterEnabled = { ent-GasThermoMachineHeater }
+    .suffix = Включено
+ent-GasThermoMachineHellfireFreezer = охладитель адского пламени
+ent-GasThermoMachineHellfireHeater = нагреватель адского пламени
+ent-BaseGasCondenser = газовый конденсатор

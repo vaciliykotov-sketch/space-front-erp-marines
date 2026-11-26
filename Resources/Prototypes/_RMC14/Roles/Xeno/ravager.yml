@@ -1,0 +1,10 @@
+- type: job
+  parent: CMJobXenoBase
+  id: CMXenoRavager
+  setPreference: false
+  name: cm-job-name-xeno-ravager
+  playTimeTracker: CMJobXenoRavager
+
+- type: playTimeTracker
+  id: CMJobXenoRavager
+  isXeno: true

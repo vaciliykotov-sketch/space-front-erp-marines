@@ -1,0 +1,17 @@
+ent-RMCBaseStorageBag = мешок-хранилище
+ent-CMBodyBag = пакет для тел
+ent-CMBodyBagFolded = { ent-CMBodyBag }
+    .suffix = Сложенный
+ent-RMCBodyBagOpen = { ent-CMBodyBag }
+    .suffix = Открытый
+ent-CMStasisBag = мешок стазиса
+ent-CMStasisBagFolded = { ent-CMStasisBag }
+    .suffix = Сложенный
+ent-RMCStasisBagUsed = стазисный мешок б/у
+    .suffix = мусор
+ent-RMCThermalTarpV2 = термоодеяло реактивное V2
+ent-RMCThermalTarpV2Folded = { ent-RMCThermalTarpV2 }
+    .suffix = сложенный
+ent-RMCThermalTarp = термоодеяло реактивное V3
+ent-RMCThermalTarpFolded = { ent-RMCThermalTarp }
+    .suffix = Сложенный

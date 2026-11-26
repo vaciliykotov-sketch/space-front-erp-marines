@@ -1,0 +1,16 @@
+ent-RMCWeaponRevolverM44 = боевой револьвер M44
+ent-RMCWeaponRevolverM44Custom = боевой револьвер M44 (кастомный)
+ent-RMCWeaponRevolverM44Marksman = { ent-RMCWeaponRevolverM44 }
+    .suffix = Марксманский
+ent-RMCWeaponRevolverM44Empty = { ent-RMCWeaponRevolverM44 }
+    .suffix = Пустой
+ent-RMCBaseSpeedLoader44 = спидлоадер M44 под .44
+ent-RMCSpeedLoaderM44 = спидлоадер M44 под .44
+ent-RMCSpeedLoader44Marksman = снайперский спидлоадер M44 под .44
+ent-RMCSpeedLoader44Heavy = спидлоадер M44 под .44 (тяжёлый)
+ent-RMCCartridgeRevolver44 = патрон .44
+ent-RMCCartridgeRevolver44Marksman = патрон .44 (снайперский)
+ent-RMCCartridgeRevolver44Heavy = патрон .44 (тяжёлый)
+ent-CMBulletRevolver44 = пуля .44
+ent-RMCBulletRevolver44Marksman = снайперская пуля .44
+ent-RMCBulletRevolver44Heavy = тяжёлая пуля .44

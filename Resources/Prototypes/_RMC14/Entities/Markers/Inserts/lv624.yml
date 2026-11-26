@@ -1,0 +1,257 @@
+# LV624 Base
+- type: entity
+  abstract: true
+  parent: RMCMapInsertBase
+  id: RMCMapInsertLV624Base
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    clearEntities: true
+    clearDecals: true
+    replaceAreas: true
+
+# Sprinkles
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624Armory
+  name: "Броняy"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/armory_looted.yml"
+      probability: 0.10
+    - spawn: "/Maps/_RMC14/Inserts/LV624/armory_extra.yml"
+      probability: 0.10
+    - spawn: "/Maps/_RMC14/Inserts/LV624/armory_cheese.yml"
+      probability: 0.10
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624Gym
+  name: "Спортзал"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/gym_alternate.yml"
+      probability: 0.30
+    - spawn: "/Maps/_RMC14/Inserts/LV624/gym_pool.yml"
+      probability: 0.20
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624NexusCenter
+  name: "Нексус - Баррикада"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/nexuscenter_barricaded.yml"
+      probability: 0.3
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624SandtempleSE
+  name: "Зона посадки Песчаного храма 1"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/sandtemple-se.yml"
+      probability: 0.25
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624SandtempleJungle
+  name: "Джунгли Песчаного храма"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/sandtemple-jungle.yml"
+      probability: 0.25
+    clearEntities: true
+    clearDecals: true
+    replaceAreas: true
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624CargoSpecial1
+  name: "Груз Special Mines"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/cargospecial_mines.yml"
+      probability: 0.1
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624CargoSpecial2
+  name: "Груз Special Weapons"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/cargospecial_weapons.yml"
+      probability: 0.1
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624CargoSpecial3
+  name: "Груз Special Gear"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/cargospecial_gear.yml"
+      probability: 0.1
+      offset: -2,-3
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624Hydro
+  name: "Гидравлический отсек разрушен"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/hydro_destroyed.yml"
+      probability: 0.3
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624Bridge
+  name: "Мостик"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/bridge_east.yml"
+      probability: 0.1
+    - spawn: "/Maps/_RMC14/Inserts/LV624/bridge_restored.yml"
+      probability: 0.1
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624CentralCaves
+  name: "Центральные пещеры"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/centralcaves_T.yml"
+      probability: 0.1
+    - spawn: "/Maps/_RMC14/Inserts/LV624/centralcaves_qc.yml"
+      probability: 0.1
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624Medbay
+  name: "Медбей"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/medbay_destroyed.yml"
+      probability: 0.1
+    clearEntities: true
+    clearDecals: true
+
+- type: entity
+  parent: RMCMapInsertBase
+  id: RMCMapInsertLV624SandTempleIntactFlooded
+  name: "Песчаный храм intact/flooded"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn:  "/Maps/_RMC14/Inserts/LV624/maintemple_intact.yml"
+      probability: 0.1
+      offset: 1,0
+    - spawn: "/Maps/_RMC14/Inserts/LV624/maintemple_flooded.yml"
+      probability: 0.2
+      offset: 1,0
+    replaceAreas: false
+    clearEntities: true
+    clearDecals: true
+
+# Survivor Scenario Inserts
+- type: entity
+  abstract: true
+  parent: RMCMapInsertLV624Base
+  id: RMCMapInsertLV624BaseScenario
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    replaceAreas: false
+
+# Asset Protection
+- type: entity
+  parent: RMCMapInsertLV624BaseScenario
+  id: RMCMapInsertLV624CorporateDome
+  name: "Корпоративный купол"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/corporate_dome.yml"
+      probability: 1
+      nightmareScenario: asset_protection
+    clearEntities: true
+    clearDecals: true
+
+# Asset Protection
+- type: entity
+  parent: RMCMapInsertLV624BaseScenario
+  id: RMCMapInsertLV624CLFShip
+  name: "Корабль CLF"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_SpaceFront/_RMC14/Inserts/LV624/clf_ship.yml"
+      probability: 1
+      nightmareScenario: clf_ship
+    replaceAreas: true
+    clearEntities: true
+    clearDecals: true
+
+# Regular Surv Spawns
+- type: entity
+  parent: RMCMapInsertLV624BaseScenario
+  id: RMCMapInsertLV624SurvSpawnTogether
+  name: "Совместное выживание: точка появления"
+  suffix: Insert LV624
+  components:
+  - type: MapInsert
+    variations:
+    - spawn: "/Maps/_RMC14/Inserts/LV624/surv_spawn_powerplant.yml"
+      probability: 0.5
+      nightmareScenario: none
+    - spawn: "/Maps/_RMC14/Inserts/LV624/surv_spawn_nexus.yml"
+      probability: 0.5
+      nightmareScenario: none
+      offset: 23,27

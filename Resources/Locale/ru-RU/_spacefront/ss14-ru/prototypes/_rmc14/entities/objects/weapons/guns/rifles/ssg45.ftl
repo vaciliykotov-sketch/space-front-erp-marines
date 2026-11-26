@@ -1,0 +1,17 @@
+ent-RMCWeaponRifleSSG45NoLock = винтовка штурмовая SSG-45
+    .suffix = Без ID блокировки
+ent-RMCWeaponRifleSSG45 = { ent-RMCWeaponRifleSSG45NoLock }
+    .suffix = С ID блокировкой
+ent-RMCWeaponRifleSSG45NoLockStripped = { ent-RMCWeaponRifleSSG45NoLock }
+    .suffix = Без ID блокировки, Разряжена
+ent-RMCWeaponRifleSSG45Stripped = { ent-RMCWeaponRifleSSG45NoLockStripped }
+    .suffix = С ID блокировкой, Разряжена
+ent-RMCMagazineRifleSSG45 = магазин для SSG45 (7x62 мм)
+ent-RMCMagazineRifleSSG45Extended = магазин SSG45 повышенной емкости (7x62 мм)
+ent-RMCMagazineRifleSSG45AP = магазин SSG45 с бронебойными (7x62 мм)
+ent-RMCMagazineRifleSSG45HEAP = магазин SSG45 HEAP (7x62 мм)
+ent-RMCMagazineRifleSSG45HEAPEmpty = { ent-RMCMagazineRifleSSG45HEAP }
+    .suffix = HEAP, Пустой
+ent-RMCMagazineRifleSSG45Incend = магазин SSG45 с зажигательными (7x62 мм)
+ent-WeaponRifleSSG45 = винтовка штурмовая SSG-45
+    .suffix = С ID блокировкой

@@ -1,0 +1,8 @@
+# CMB Deputy
+- type: entity
+  parent: RMCSpawnerCorpse
+  id: RMCSpawnerCorpseDeputy
+  name: "Спавнер трупов — Заместитель CMB"
+  components:
+  - type: CorpseSpawner
+    spawn: RMCCorpseDeputy

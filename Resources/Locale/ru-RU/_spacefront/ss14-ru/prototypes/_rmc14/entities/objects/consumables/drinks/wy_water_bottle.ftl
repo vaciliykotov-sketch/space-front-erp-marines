@@ -1,0 +1,9 @@
+ent-CMDrinkWEYAWaterBottle30 = вода из родника в бутылке от Ве-Я
+    .suffix = { ent-DrinkBottlePlasticBaseFull.suffix }
+ent-RMCDrinkWEYABugJuice = напиток из белка «Жучиный сок» от Вестон-Ямада
+    .suffix = { ent-CMDrinkWEYAWaterBottle30.suffix }
+ent-RMCDrinkWEYACocoMilk = бутылка кокосового молока Вестон-Ямада
+    .suffix = { ent-CMDrinkWEYAWaterBottle30.suffix }
+ent-RMCDrinkWEYASoylent = «Премиум» шоколадный сойлент от Вестон-Ямада
+    .suffix = { ent-CMDrinkWEYAWaterBottle30.suffix }
+ent-CMDrinkWYWaterBottle30 = вода в бутылке от Вестон Ямада

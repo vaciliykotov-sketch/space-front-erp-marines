@@ -1,0 +1,10 @@
+ent-RMCOuterClothingExternalWebbingForeconSurvivorFill = { ent-RMCOuterClothingExternalWebbing }
+    .suffix = ФОРКОН, Заполненный
+ent-RMCArmorUDEPForeconFilled = { ent-RMCArmorUDEPForecon }
+    .suffix = ФОРКОН, Заполненный
+ent-RMCJacketWindbreakerForeconFilled = { ent-RMCJacketWindbreaker }
+    .suffix = ФОРКОН, Заполненный
+ent-CMArmorM4TyrargoSurvivorFill = { ent-CMArmorM4Tyrargo }
+    .suffix = Выживший, Заполненный
+ent-CMArmorM4TyrargoSynthSurvivorFill = { ent-CMArmorM4TyrargoSynth }
+    .suffix = Выживший, Заполненный, Синтетик

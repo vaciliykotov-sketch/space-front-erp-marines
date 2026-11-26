@@ -1,0 +1,10 @@
+ent-RMCCableCoil = моток провода
+    .suffix = Полный
+ent-RMCCableCoil30 = { ent-RMCCableCoil }
+    .suffix = 30
+ent-RMCCableCoil20 = { ent-RMCCableCoil }
+    .suffix = 20
+ent-RMCCableCoil10 = { ent-RMCCableCoil }
+    .suffix = 10
+ent-RMCCableCoil1 = { ent-RMCCableCoil }
+    .suffix = Один

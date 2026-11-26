@@ -1,0 +1,14 @@
+ent-BaseVariationPass = { ent-BaseGameRule }
+ent-BasicPoweredLightVariationPass = { ent-BaseVariationPass }
+ent-SolidWallRustingVariationPass = { ent-BaseVariationPass }
+ent-ReinforcedWallRustingVariationPass = { ent-BaseVariationPass }
+ent-BasicTrashVariationPass = { ent-BaseVariationPass }
+ent-BasicDecalDirtVariationPass = { ent-BaseVariationPass }
+ent-BasicDecalGraffitiVariationPass = { ent-BaseVariationPass }
+ent-BasicDecalBrunsVariationPass = { ent-BaseVariationPass }
+ent-BasicDecalDirtMonospaceVariationPass = { ent-BaseVariationPass }
+ent-BasicPuddleMessVariationPass = { ent-BaseVariationPass }
+ent-BloodbathPuddleMessVariationPass = { ent-BaseVariationPass }
+ent-CutWireVariationPass = { ent-BaseVariationPass }
+ent-SolarPanelDamageVariationPass = { ent-BaseVariationPass }
+ent-SolarPanelEmptyVariationPass = { ent-BaseVariationPass }

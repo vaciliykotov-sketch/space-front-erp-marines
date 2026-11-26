@@ -1,0 +1,222 @@
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaPRT
+  name: "Пратчетт"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_pratchett.rsi
+    state: medical
+  - type: Area
+    buildSpecial: true
+    powerNet: ground
+    minimapColor: '#91BDCFE7'
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: true
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTHypersleep
+  name: "Хранилище гиперсна"
+  components:
+  - type: Sprite
+    state: medical
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTGalley
+  name: "Камбуз"
+  components:
+  - type: Sprite
+    state: public
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTCanteen
+  name: "Столовая"
+  components:
+  - type: Sprite
+    state: public1
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTLounge
+  name: "Общая комната отдыха"
+  components:
+  - type: Sprite
+    state: public
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTMedbay
+  name: "Медикal Bay"
+  components:
+  - type: Sprite
+    state: medical
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTOffice
+  name: "Кабинет командира подразделения"
+  components:
+  - type: Sprite
+    state: medical
+
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTCargoBayUpper
+  name: "Верхняя палуба: грузовой отсек"
+  components:
+  - type: Sprite
+    state: cargo
+
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTCargoBayLower
+  name: "Вспомогательная станция перегрузки грузов нижней палубы"
+  components:
+  - type: Sprite
+    state: cargo
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTMaintenaceLower
+  name: "Техническое обслуживание нижней палубы"
+  components:
+  - type: Sprite
+    state: maints
+
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTMaintenanceUpper
+  name: "Верхняя палуба: техническое помещение"
+  components:
+  - type: Sprite
+    state: maints
+
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTEngineering
+  name: "Инженерing Bay"
+  components:
+  - type: Sprite
+    state: engi
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTHangar
+  name: "ангар Bay"
+  components:
+  - type: Sprite
+    state: hangar
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTHangarCargo
+  name: "ангар Storage"
+  components:
+  - type: Sprite
+    state: cargo
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTHallways
+  name: "Верхняя палуба: коридоры"
+  components:
+  - type: Sprite
+    state: public2
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTDisposalsLower
+  name: "Шахта первичного сброса переработанных отходов"
+  components:
+  - type: Sprite
+    state: public1
+
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTDisposalsUpper
+  name: "Предварительная переработка отходов верхней палубы"
+  components:
+  - type: Sprite
+    state: public
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTSurgicalBay
+  name: "Хирургический отсек"
+  components:
+  - type: Sprite
+    state: medical
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTArmory
+  name: "Оружейный склад"
+  components:
+  - type: Sprite
+    state: public2
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTSynth
+  name: "Синтетик Storage"
+  components:
+  - type: Sprite
+    state: public
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTAICoreOuter
+  name: "Внешняя камера ядра SHIVA"
+  components:
+  - type: Sprite
+    state: engi
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTAICoreInner
+  name: "Внутренняя камера ядра SHIVA"
+  components:
+  - type: Sprite
+    state: hangar
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTBunks
+  name: "Казарма"
+  components:
+  - type: Sprite
+    state: medical
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTBriefing
+  name: "Брифинг Room"
+  components:
+  - type: Sprite
+    state: public2
+
+- type: entity
+  parent: RMCAreaPRT
+  id: RMCAreaPRTCraneTunnel
+  name: "Груз Transit Shaft"
+  components:
+  - type: Sprite
+    state: maints

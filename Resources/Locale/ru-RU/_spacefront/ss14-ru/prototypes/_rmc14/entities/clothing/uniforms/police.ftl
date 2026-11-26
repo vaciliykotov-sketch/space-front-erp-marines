@@ -1,0 +1,12 @@
+ent-CMJumpsuitMP = форма военной полиции
+ent-RMCJumpsuitMPCorporate = комбинезон корпоративного офицера безопасности
+ent-CMJumpsuitWarden = форма надзирателя
+ent-CMJumpsuitWardenBlue = надзирательская форма синего цвета
+ent-CMJumpsuitWardenRed = надзирательская форма красного цвета
+ent-CMJumpsuitWardenCorporate = надзирательская корпоративная форма
+ent-CMJumpsuitWardenNavy = надзирательская форма ВМС
+ent-CMJumpsuitWardenTan = надзирательская форма песочного цвета
+ent-CMJumpsuitWO = форма старшины полиции
+ent-RMCScrubsPrisonMedsec = роба заключённых медсектора средней тяжести
+ent-RMCScrubsPrisonMaxsec = тюремная роба для осуждённых на максимальный срок
+ent-CMJumpsuitMPBlack = чёрный комбинезон военной полиции

@@ -1,0 +1,76 @@
+#base access groups
+#anything defined with protobaseaccess in the name will become a new "list" of accesses
+#all of their children will be listed inside them
+
+- type: accessGroup
+  id: RMCBaseHidden
+  name: "протодоступ базы UNMC скрытый"
+  faction: FactionMarine
+  accessGroup: UNMC Hidden
+  hidden: true
+  tags:
+  - RMCMarineDefaultAccess
+
+- type: accessGroup
+  id: RMCBaseCommandJob
+  name: "протодоступ базы UNMC командование"
+  faction: FactionMarine
+  accessGroup: UNMC Command
+  tags:
+  - RMCMarineDefaultAccess
+
+- type: accessGroup
+  id: RMCBaseAuxiliaryJob
+  name: "протодоступ базы UNMC вспомогательный"
+  faction: FactionMarine
+  accessGroup: UNMC Auxiliary
+  tags:
+  - RMCMarineDefaultAccess
+
+- type: accessGroup
+  id: RMCBaseMiscellaneousJob
+  name: "протодоступ базы UNMC прочее"
+  faction: FactionMarine
+  accessGroup: UNMC Miscellaneous
+  tags:
+  - RMCMarineDefaultAccess
+
+- type: accessGroup
+  id: RMCBaseMPJob
+  name: "протодоступ базы UNMC военная полиция"
+  faction: FactionMarine
+  accessGroup: UNMC Military Police
+  tags:
+  - RMCMarineDefaultAccess
+
+- type: accessGroup
+  id: RMCBaseEngineeringJob
+  name: "протодоступ базы UNMC инженерия"
+  faction: FactionMarine
+  accessGroup: UNMC Engineering
+  tags:
+  - RMCMarineDefaultAccess
+
+- type: accessGroup
+  id: RMCBaseRequisitionsJob
+  name: "протодоступ базы UNMC снабжение"
+  faction: FactionMarine
+  accessGroup: UNMC Requisitions
+  tags:
+  - RMCMarineDefaultAccess
+
+- type: accessGroup
+  id: RMCBaseMedicalJob
+  name: "протодоступ базы UNMC медицина"
+  faction: FactionMarine
+  accessGroup: UNMC Medical
+  tags:
+  - RMCMarineDefaultAccess
+
+- type: accessGroup
+  id: RMCBaseMarinesJob
+  name: "протодоступ базы UNMC морпехs"
+  faction: FactionMarine
+  accessGroup: UNMC Marines
+  tags:
+  - RMCMarineDefaultAccess

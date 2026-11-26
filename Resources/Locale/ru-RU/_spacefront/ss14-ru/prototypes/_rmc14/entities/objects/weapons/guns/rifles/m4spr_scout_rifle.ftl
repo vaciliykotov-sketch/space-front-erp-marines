@@ -1,0 +1,10 @@
+ent-WeaponRifleM4SPRCustom = M4RA боевая винтовка (модифицированная)
+ent-RMCMagazineRifleM4SPRA19 = M4RA A19: магазин высокоскоростной
+ent-RMCMagazineRifleM4SPRA19Impact = M4RA A19: магазин ударный
+ent-RMCMagazineRifleM4SPRA19Incendiary = M4RA A19: магазин зажигательный
+ent-RMCCartridgeRifleM4SPRA19 = A19: патрон высокоскоростной
+ent-RMCCartridgeRifleM4SPRA19Impact = A19: патрон ударный
+ent-RMCCartridgeRifleM4SPRA19Incendiary = A19: патрон зажигательный
+ent-BulletRifleM4SPRA19 = { ent-RMCBaseBullet }
+ent-BulletRifleM4SPRA19Impact = { ent-RMCBaseBullet }
+ent-BulletRifleM4SPRA19Incendiary = { ent-RMCBaseBullet }

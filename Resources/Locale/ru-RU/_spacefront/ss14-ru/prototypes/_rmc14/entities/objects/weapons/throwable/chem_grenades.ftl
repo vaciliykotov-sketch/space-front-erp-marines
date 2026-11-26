@@ -1,0 +1,14 @@
+ent-RMCCustomGrenade = граната на заказ
+ent-RMCGrenadeCustomMetalFoam = граната на заказ с металлопеной
+    .suffix = RMC
+ent-RMCChemicalPayloadMetalFoam = химзаряд с металлопеной
+    .suffix = RMC
+ent-RMCBeakerMetalFoamAluminum = { ent-CMBeaker }
+ent-RMCBeakerMetalFoamingAgent = { ent-CMBeaker }
+ent-RMCGrenadeCustomWeedkiller = граната на заказ с гербицидом
+    .suffix = RMC
+ent-RMCChemicalPayloadWeedkiller = химзаряд с гербицидом
+    .suffix = { ent-RMCChemicalPayloadMetalFoam.suffix }
+ent-RMCBeakerWeedkillerPlantBGone = { ent-CMBeaker }
+ent-RMCBeakerWeedkillerPhosphorus = { ent-CMBeaker }
+ent-RMCSmokeChemical = дым (химический)

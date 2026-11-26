@@ -1,0 +1,14 @@
+ent-RMCRandomHumanoidIntelCombatTech = роль призрака боевого техника "Разведка"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidIntelFireteamLeader = роль призрака лидера огневой группы "Разведка"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidIntelHospitalCorpsman = роль призрака госпитального санитара "Разведка"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidIntelRifleman = роль призрака рядового стрелка "Разведка"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidIntelSmartGunOperator = роль призрака оператора смартгана "Разведка"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidIntelSquadLeader = роль призрака лидера отряда "Разведка"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidIntelWeaponsSpecialist = роль призрака оружейного специалиста "Разведка"
+    .suffix = Спавнер, Игрок

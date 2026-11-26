@@ -1,0 +1,11 @@
+# Stories-start: роль разведки удалена у нас (скрыта), но ID оставлен пустышкой,
+# чтобы старые профили в БД не падали с «invalid ProtoId<JobPrototype>: CMIntelOfficer».
+- type: job
+  parent: CMJobBase
+  id: CMIntelOfficer
+  name: cm-job-name-intel
+  description: cm-job-description-intel
+  playTimeTracker: CMJobSquadLeader
+  setPreference: false
+  hideConsoleVisibility: true
+# Stories-end

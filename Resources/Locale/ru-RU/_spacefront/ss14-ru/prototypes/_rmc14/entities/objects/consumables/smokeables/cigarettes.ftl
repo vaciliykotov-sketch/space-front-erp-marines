@@ -1,0 +1,14 @@
+ent-CMCigarettePackLuckySlothsMini = маленькая упаковка "Счастливые ленивцы"
+ent-RMCCigarettePackLuckySloths = упаковка "Счастливых ленивцев"
+ent-RMCCigarette = { ent-Cigarette }
+ent-RMCCigaretteSpent = { ent-RMCCigarette }
+    .suffix = Потраченный
+ent-RMCCigarettePackWeYaGold = пачка "Ве-Я" золотая
+ent-RMCCigarettePackExecutiveSelect = упаковка "Выбор руководителя"
+ent-RMCCigarettePackArcturianAce = туз с Арктура
+ent-RMCCigarettePackLadyFingers = "Леди Фингерс"
+ent-RMCCigarettePackElectroGolds = киерландские электро-золотые сигареты
+ent-RMCCigarettePackEmeraldGreens = зелёные изумрудные
+ent-RMCCigarettePackSolRedsTurquoise = "Сол Рэдс" бирюзового цвета
+ent-RMCCigarettePackSolRedsYellow = "Сол Рэдс" жёлтого цвета
+ent-RMCCigarettePackKoorlanderGold = упаковка «Курлендер Голд»

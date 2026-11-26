@@ -1,0 +1,14 @@
+ent-RMCWeaponPistolHandcannon = "Перегрин" пистолет-пушка
+ent-RMCWeaponPistolHandcannonGold = "Перегрин" пистолет-пушка из золота
+ent-RMCWeaponPistolHandcannonCustom = "Перегрин" пистолет-пушка ручной сборки
+ent-RMCWeaponPistolHandcannonPolished = "Перегрин" пистолет-пушка полированный
+ent-RMCMagazinePistolHandcannon = магазин пистолета-пушки "Перегрин" ( .50 )
+ent-RMCMagazinePistolHandcannonHI = усиленный магазин пистолета-пушки "Перегрин" ( .50 )
+ent-RMCMagazinePistolHandcannonHIAP = усиленный бронебойный магазин пистолета-пушки "Перегрин" ( .50 )
+ent-RMCCartridgePistolHandcannon = патрон ( .50 )
+ent-RMCCartridgePistolHandcannonHI = патрон ( .50 повышенной мощности )
+ent-RMCCartridgePistolHandcannonHIAP = патрон ( .50 бронебойный повышенной мощности )
+ent-RMCBulletPistolHandcannon = пуля ( .50 )
+ent-RMCBulletPistolHandcannonHI = пуля ( .50 повышенной мощности )
+ent-RMCBulletPistolHandcannonHIAP = пуля ( .50 бронебойная повышенной мощности )
+ent-RMCWeaponPistolHandcannonWinterWyvern = пистолет-пушка "Зимний виверн"

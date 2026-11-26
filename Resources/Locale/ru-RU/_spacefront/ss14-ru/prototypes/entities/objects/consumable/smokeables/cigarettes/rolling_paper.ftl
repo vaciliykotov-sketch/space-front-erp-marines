@@ -1,0 +1,10 @@
+ent-PackPaperRolling = упаковка бумаги для сигарет
+ent-PackPaperRollingFilters = упаковка сигаретной бумаги, с фильтрами
+ent-PaperRolling = бумага для скручивания сигарет
+    .suffix = Полный
+ent-PaperRolling1 = { ent-PaperRolling }
+    .suffix = Один
+ent-CigaretteFilter = фильтр для сигарет
+    .suffix = Полный
+ent-CigaretteFilter1 = { ent-CigaretteFilter }
+    .suffix = Один

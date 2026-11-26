@@ -1,0 +1,11 @@
+ent-STHunterTeleporter = устройство телепортации охотника
+ent-STHunterTeleporterYoungblood = { ent-STHunterTeleporter }
+    .suffix = Молодая кровь
+ent-STHunterTeleportDestination = точка назначения телепорта охотника
+    .suffix = Планета
+ent-STHunterTeleportDestinationAlmayer = точка назначения телепорта охотника
+    .suffix = Корабль Людей
+ent-STHunterTeleportDestinationMoon = точка назначения телепорта охотника
+    .suffix = Луна Охотников
+ent-STHunterTeleportDestinationMoonYoungblood = точка назначения телепорта охотника
+    .suffix = Луна Охотников, Молодая кровь

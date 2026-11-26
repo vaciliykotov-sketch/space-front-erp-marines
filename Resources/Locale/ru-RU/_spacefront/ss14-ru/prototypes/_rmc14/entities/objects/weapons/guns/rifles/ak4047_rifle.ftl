@@ -1,0 +1,12 @@
+ent-RMCWeaponRifleAK4047 = автомат АК-4047
+ent-RMCWeaponRifleAK4047Tactical = { ent-RMCWeaponRifleAK4047 }
+    .suffix = Тактическая
+ent-RMCMagazineRifleAK4047 = магазин для АК4047 (10x24мм)
+ent-RMCMagazineRifleAK4047Empty = { ent-RMCMagazineRifleAK4047 }
+    .suffix = Пустой
+ent-RMCMagazineRifleAK4047AP = магазин с бронебойными для АК4047 (10x24мм)
+    .suffix = ББ
+ent-RMCMagazineRifleAK4047Incendiary = магазин с зажигательными для АК4047 (10x24мм)
+    .suffix = Зажигательный
+ent-RMCMagazineRifleAK4047HEAP = магазин HEAP для АК4047 (10x24мм)
+    .suffix = HEAP

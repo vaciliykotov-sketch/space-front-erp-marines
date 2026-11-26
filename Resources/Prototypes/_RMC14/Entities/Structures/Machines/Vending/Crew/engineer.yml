@@ -1,0 +1,122 @@
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechCrewMaintTech
+  name: "Стойка снаряжения техника по обслуживанию ASRS"
+  description: An automated rack hooked up to a colossal storage of Maintenance Technician standard-issue equipment.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessEngineering" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMMaintTech
+    sections:
+    - name: Техническое обслуживание Set (Mandatory)
+      takeAll: CMMaintenanceSet
+      entries:
+      - id: CMVendorBundleCrewMaintenanceEssentials
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: CMHeadsetEngineer
+      - id: CMMRE
+        name: "ИРП"
+    - name: Gloves
+      choices: { CMHands: 1 }
+      entries:
+      - id: CMHandsInsulated
+      - id: CMHandsBlackInsulated
+    - name: Helmet
+      choices: { CMHelmet: 1 }
+      entries:
+      - id: CMHeadBeretEngineer
+      - id: RMCHardhatWhite
+      - id: RMCHardhatOrange
+      - id: RMCHardhatBlue
+      - id: RMCHelmetWelding
+    - name: Suit
+      choices: { CMSuit: 1 }
+      entries:
+      - id: RMCHazardVestBlack
+      - id: RMCHazardVestBlue
+      - id: RMCHazardVest
+      - id: RMCHazardVestYellow
+    - name: Backpack
+      choices: { CMBackpack: 1 }
+      entries:
+      - id: CMBackpackMarineTech
+        replaceSlot: back
+      - id: CMBackpackWelder
+        replaceSlot: back
+      - id: RMCSatchelWelder
+        replaceSlot: back
+        recommended: true
+      - id: RMCSatchelWelderChestrig
+        replaceSlot: back
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: RMCBeltUtilityGeneral
+      - id: CMBeltUtilityFilled
+        name: "Снаряжение с поясом для инструментов M276 (полное)"
+        recommended: true
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchGeneralMedium
+      - id: RMCPouchFirstAidInjectors
+        name: "сумка первой помощи (refillable injectors)"
+        recommended: true
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "сумка первой помощи (gauze, ointment)" # TODO RMC14 splints comma
+        recommended: true
+      - id: RMCPouchFirstAidPills
+        name: "сумка первой помощи (pill packets)"
+        recommended: true
+      - id: RMCPouchConstruction
+        recommended: true
+      - id: RMCPouchElectronicsFill
+        name: "Подсумок для электроники (полный)"
+      - id: RMCPouchToolsFill
+        name: "Сумка для инструментов (заполненная)"
+      - id: RMCPouchFlareFilled
+        name: "Фальшфейер pouch (Full)"
+    - name: Mask
+      choices: { CMMask: 1 }
+      entries:
+      - id: CMMaskGas
+      - id: CMMaskCoif
+      - id: RMCMaskRebreather
+    - name: Accessories
+      choices: { CMAccessory: 1 }
+      entries:
+      - id: CMWebbingBrown
+        recommended: true
+      - id: CMWebbingBlack
+      - id: RMCWebbingLegPouch
+      - id: RMCWebbingLegPouchBlack
+      - id: CMWebbing
+      - id: RMCWebbingBlackSmall
+    - name: Spare Gear
+      entries:
+      - id: RMCSynthResetKey
+        points: 1
+
+- type: entity
+  parent: CMVendorBundleRiflemanApparel
+  id: CMVendorBundleCrewMaintenanceEssentials
+  categories: [ HideSpawnMenu ]
+  name: "базовый набор техобслуживания"
+  description: Contains a flashlight and a light replacer.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Misc/Janitorial/light_replacer.rsi
+    state: lightreplacer0
+  - type: CMVendorBundle
+    bundle:
+    - RMCLightReplacer
+    - TrashBag
+    - RMCToolboxMechanicalFilled
+    - RMCFlashlight

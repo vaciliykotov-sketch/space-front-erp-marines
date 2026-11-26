@@ -1,0 +1,1 @@
+ent-FleshBlocker = сгусток плоти

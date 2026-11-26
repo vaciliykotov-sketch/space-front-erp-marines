@@ -1,0 +1,16 @@
+ent-RMCCrateEmptySandbags = мешки для песка в ящике
+ent-RMCCrateSandbagsConstructionKit = набор мешков для песка в ящике
+ent-RMCCrateMetalSheets = металл в ящике
+ent-RMCCratePlasteelSheets = пласталь в ящике
+ent-RMCCrateGlassSheets = стекло в ящике
+ent-RMCCrateWoodenPlanks = доски в ящике
+ent-RMCCrateFoldingBarricades = складные баррикады MB-6 в ящике
+ent-RMCCrateSuperconductingMagneticCoil = сверхпроводящие магнитные катушки в ящике
+ent-RMCCrateElectricalMaintenance = электрическое обслуживание в ящике
+ent-RMCCrateMechanicalMaintenance = механическое обслуживание в ящике
+ent-RMCCrateInflatableBarriers = надувные стены в ящике
+ent-RMCCrateReplacementLights = сменные лампы в ящике
+ent-RMCCratePacmanParts = портативный генератор в ящике
+ent-RMCCrateSuperPacmanParts = портативный генератор S.U.P.E.R. P.A.C.K.M.A.N. в ящике
+ent-RMCCrateFlashlights = фонарики в ящике
+ent-RMCCrateHighCapacityPowerCell = батарейки высокой ёмкости в ящике

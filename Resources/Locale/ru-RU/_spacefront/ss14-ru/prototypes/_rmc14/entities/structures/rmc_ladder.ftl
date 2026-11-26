@@ -1,0 +1,10 @@
+ent-RMCLadder = лестница
+ent-RMCLadderUp = { ent-RMCLadder }
+    .suffix = Вверх
+ent-RMCLadderThrough = { ent-RMCLadder }
+    .suffix = Сквозь
+ent-RMCLadderHatch = { ent-RMCLadder }
+    .suffix = Люк
+ent-RMCLadderRope = верёвка
+ent-RMCLadderRopeAltDrawdepth = { ent-RMCLadderRope }
+    .suffix = Слои поверх платформ.

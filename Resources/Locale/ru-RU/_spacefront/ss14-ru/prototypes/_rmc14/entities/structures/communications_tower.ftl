@@ -1,0 +1,11 @@
+ent-RMCCommunicationsTower = стационарная вышка связи TC-3T
+ent-RMCCommunicationsTowerOn = { ent-RMCCommunicationsTower }
+    .suffix = Вкл, КМП США, Колония, Ве-Я
+ent-RMCSpawnerCommunicationsTowerBase = стационарная связь
+ent-RMCSpawnerCommunicationsTowerOne = { ent-RMCSpawnerCommunicationsTowerBase }
+    .suffix = Один
+ent-RMCSpawnerCommunicationsTowerTwo = { ent-RMCSpawnerCommunicationsTowerBase }
+    .suffix = Два
+ent-RMCCommunicationsTowerProp = вышка связи в руинах
+ent-RMCCommunicationsTowerPropAlt0 = вышка связи в руинах
+ent-RMCCommunicationsTowerPropAlt1 = вышка связи в руинах

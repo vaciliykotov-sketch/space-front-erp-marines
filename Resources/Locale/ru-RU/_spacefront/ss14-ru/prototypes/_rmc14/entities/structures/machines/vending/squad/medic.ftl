@@ -1,0 +1,12 @@
+ent-ColMarTechMedicalGear = Стойка снаряжения полевых санитаров КолМорТех
+ent-ColMarTechMedicalEquipment = Стойка экипировки полевых санитаров КолМорТех
+ent-RMCColMarTechMedicalEquipmentPVE = Стойка экипировки полевых санитаров от КолМорТех
+    .suffix = PVE
+ent-RMCPMCMedicalEquipmentPVE = Стойка медснаряжения отряда Ве-Я
+    .suffix = PVE, ЧВК
+ent-RMCSPPMedicalEquipmentPVE = Стойка медснаряжения отряда Эйч-Тек
+    .suffix = PVE, СПН
+ent-ColMarTechMedicalChemicalPVE = Стойка медхимикатов отряда КолМорТех
+    .suffix = PVE
+ent-RMCRCMMedicalChemicalPVE = Медхимикаты на стойке секции Ве-Я
+    .suffix = PVE, Королевский

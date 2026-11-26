@@ -1,0 +1,30 @@
+- type: accessGroup
+  id: QuarterMaster
+  parent: RMCBaseRequisitionsJob
+  name: "Офицер снабжения"
+  tags:
+  - CMAccessRequisitions
+  - CMAccessQM
+  - RMCAccessCommand
+  - CMAccessAlpha
+  - CMAccessBravo
+  - CMAccessCharlie
+  - CMAccessDelta
+  - CMAccessMarinePrep
+  - RMCAccessDatabase
+  - RMCAccessLogs
+  - RMCAccessSeniorCommand
+
+- type: accessGroup
+  id: CMCargoTech
+  parent: RMCBaseRequisitionsJob
+  name: "Снабжение Technician"
+  tags:
+  - CMAccessRequisitions
+
+- type: accessGroup
+  id: MessTech
+  parent: RMCBaseRequisitionsJob
+  name: "Техник столовой"
+  tags:
+  - CMAccessKitchen

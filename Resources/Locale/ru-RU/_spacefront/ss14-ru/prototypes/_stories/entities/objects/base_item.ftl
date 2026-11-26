@@ -1,0 +1,1 @@
+ent-STHunterBaseItem = { ent-BaseItem }

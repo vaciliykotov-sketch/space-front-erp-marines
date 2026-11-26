@@ -1,0 +1,15 @@
+- type: entity
+  id: SFXenoNightVision
+  name: Ночное зрение
+  description: Подсветка окружения как у прицела разведчика M42.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: /Textures/_RMC14/Interface/Alerts/xeno_night_vision.rsi
+    state: nightvision_full
+  - type: InstantAction
+    useDelay: 1
+    icon:
+      sprite: /Textures/_RMC14/Interface/Alerts/xeno_night_vision.rsi
+      state: nightvision_full
+    event: !type:SFXenoNightVisionActionEvent

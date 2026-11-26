@@ -1,0 +1,11 @@
+ent-RMCWallSandstone = песчаниковая стена
+ent-RMCWallSandstoneTemple = песчаниковая стена храма
+ent-RMCWallSandstoneTempleTimed = { ent-RMCWallSandstoneTemple }
+    .suffix = Временная
+ent-RMCWallSandstoneTempleRuned = храмовая стена из песчаника, покрытая рунами
+ent-RMCWallSandstoneTempleGrey = { ent-RMCWallSandstoneTemple }
+ent-RMCWallSandstoneMemorial = стена-мемориал
+ent-RMCWallUranium = стена из урана
+ent-RMCWallUraniumBroken = повреждённая урановая стена
+ent-RMCWallGold = стена из золота
+ent-RMCWallSandstoneRuned = песчаниковая стена, украшенная рунами

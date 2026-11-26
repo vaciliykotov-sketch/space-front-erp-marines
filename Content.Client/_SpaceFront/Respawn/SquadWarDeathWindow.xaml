@@ -1,0 +1,23 @@
+<Control xmlns="https://spacestation14.io"
+         MouseFilter="Stop">
+    <PanelContainer Name="Panel"
+                    StyleClasses="windowPanel">
+        <BoxContainer Orientation="Vertical" SeparationOverride="10" Margin="20 16 20 16" MinSize="460 130">
+            <Label Name="TitleLabel"
+                   Text="Вы стали призраком!"
+                   StyleClasses="LabelBig"
+                   HorizontalAlignment="Center" />
+            <Label Name="TextLabel"
+                   Text="Будучи призраком, нельзя подсматривать за другими игроками.&#10;Вы будете принудительно выкинуты в лобби через 30 секунд."
+                   HorizontalAlignment="Center" />
+            <BoxContainer Orientation="Horizontal" SeparationOverride="10" HorizontalAlignment="Center">
+                <Button Name="ReturnButton"
+                        Text="Вернуться в тело!"
+                        StyleClasses="OpenRight" />
+                <Button Name="LeaveNowButton"
+                        Text="Уйти сразу в лобби!"
+                        StyleClasses="Caution" />
+            </BoxContainer>
+        </BoxContainer>
+    </PanelContainer>
+</Control>

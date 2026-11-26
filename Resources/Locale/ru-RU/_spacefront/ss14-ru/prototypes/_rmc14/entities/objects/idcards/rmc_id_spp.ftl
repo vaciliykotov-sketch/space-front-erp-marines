@@ -1,0 +1,10 @@
+ent-FactionHalcyon = { "" }
+ent-RMCIDSPP = жетон бойца СПН
+ent-RMCIDSPPCard = удостоверение СПН
+ent-RMCIDSPPHidden = { ent-RMCIDCardStandardDogtagHidden }
+ent-RMCIDSPPRifleman = { ent-RMCIDSPP }
+ent-RMCIDSPPRiflemanHidden = { ent-RMCIDCardStandardDogtagHidden }
+ent-RMCIDCardPCG = голо-удостоверение нарродной жандармерии
+ent-RMCIDCardHalcyon = голо-пропуск корпорации
+    .suffix = Халькон
+ent-RMCIDCardPaP = голо-удостоверение НВП

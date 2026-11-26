@@ -1,0 +1,12 @@
+ent-RMCMagazineRifleM54CMK1Rubber = магазин M41A MK1 с резиновыми пулями (10x24 мм)
+ent-RMCMagazineRifleM54CRubber = магазин M41A с резиновыми пулями (10x24 мм)
+ent-RMCMagazineRifleM4SPRRubber = магазин M4RA с резиновыми пулями (10x24 мм)
+ent-RMCCartridgeRifle10x24mmRubber = патрон с резиновой пулей (10x24 мм)
+ent-BulletRifle10x24mmRubber = { ent-RMCBaseBullet }
+ent-RMCMagazineSMGM63Rubber = магазин M39 с резиновыми пулями (10x20 мм)
+ent-RMCCartridge10x20mmRubber = патрон с резиновой пулей (10x20 мм)
+ent-Bullet10x20mmRubber = { ent-RMCBaseBullet }
+ent-RMCMagazinePistolM1984Rubber = магазин M4A3 с резиновыми пулями (9 мм)
+ent-RMCMagazinePistolM77Rubber = магазин 88 Мод 4 с резиновыми пулями (9 мм)
+ent-RMCCartridgePistol9mmRubber = патрон с резиновой пулей (9 мм)
+ent-RMCBulletPistol9mmRubber = пуля резиновая (9 мм)

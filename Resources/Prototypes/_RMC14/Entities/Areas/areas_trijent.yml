@@ -1,0 +1,1966 @@
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaDesertDam
+  name: "Пустынная плотина"
+  suffix: Trijent Dam
+  components:
+  - type: Sprite
+    state: cliff_blocked
+  - type: Area
+    buildSpecial: true
+    powerNet: ground
+    minimapColor: '#6C6767D8'
+
+- type: entity
+  parent: RMCAreaDesertDam
+  id: RMCAreaDesertDamInterior
+  components:
+  - type: Area
+    CAS: true
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaDesertDamInterior
+  id: RMCAreaDesertDamInteriorLabNortheast
+  name: "Северо-восточная лаборатория"
+  components:
+  - type: Sprite
+    state: purple
+  - type: Area
+    minimapColor: '#812DA2EE'
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabLobby
+  name: "Восточная лаборатория — вестибюль"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabWestHallway
+  name: "Восточная лаборатория — западный коридор"
+  components:
+  - type: Sprite
+    state: blue
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabCentralHallway
+  name: "Восточная лаборатория — центральный коридор"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabEastHallway
+  name: "Восточная лаборатория — восточный коридор"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabWorkshop
+  name: "Восточная лаборатория — мастерская"
+  components:
+  - type: Sprite
+    state: ass_line
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabStorage
+  name: "Восточная лаборатория — склад"
+  components:
+  - type: Sprite
+    state: storage
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabRDOffice
+  name: "Восточная лаборатория — кабинет директора по исследованиям"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabMaintenence
+  name: "Восточная лаборатория — техобслуживание"
+  components:
+  - type: Sprite
+    state: maintcentral
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabContainment
+  name: "Восточная лаборатория — изолятор"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabRND
+  name: "Восточная лаборатория — исследования и разработки"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabBiology
+  name: "Восточная лаборатория — биология"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabSurgery
+  name: "Восточная лаборатория — операционная"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabExcavation
+  name: "Восточная лаборатория — подготовка раскопок"
+  components:
+  - type: Sprite
+    state: blue
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabWestEntrance
+  name: "Восточная лаборатория — западный вход"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabEastEntrance
+  name: "Восточная лаборатория — вход"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabSecurityCheckpoint
+  name: "Восточная лаборатория — пост охраны"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabSecurityOffice
+  name: "Восточная лаборатория — офис охраны"
+  components:
+  - type: Sprite
+    state: security
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabSecurityArmory
+  name: "Восточная лаборатория — оружейная"
+  components:
+  - type: Sprite
+    state: armory
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorLabNortheast
+  id: RMCAreaDesertDamInteriorLabNortheastEastLabXenobiology
+  name: "Восточная лаборатория — ксенобиология"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInterior
+  id: RMCAreaDesertDamInteriorDamInterior
+  name: "Инженерing"
+  components:
+  - type: Area
+    minimapColor: '#C19504E7'
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorEngineRoom
+  name: "Инженерing Generator Room"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorControlRoom
+  name: "Инженерing Control Room"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorSmesMain
+  name: "Инженерing Main Substation"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorSmesBackup
+  name: "Инженерing Secondary Backup Substation"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorEngineEastWing
+  name: "Инженерing East Engine Wing"
+  components:
+  - type: Sprite
+    state: blue-red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorEngineWestWing
+  name: "Инженерing West Engine Wing"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorLobby
+  name: "Инженерing Lobby"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorAtmosStorage
+  name: "Инженерing Atmospheric Storage"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorNorthwesternTunnel
+  name: "Инженерing Northwestern Tunnel"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorNorthTunnel
+  name: "Инженерing Northern Tunnel"
+  components:
+  - type: Sprite
+    state: blue-red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorWestTunnel
+  name: "Инженерing Western Tunnel"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorCentralTunnel
+  name: "Инженерing Central Tunnel"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorSouthTunnel
+  name: "Инженерing Southern Tunnel"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorNortheasternTunnel
+  name: "Инженерing Northeastern Tunnel"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorCEOffice
+  name: "Инженерing Chief Engineer's Office"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorWorkshop
+  name: "Инженерing Workshop"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorHanger
+  name: "Инженерing Hangar"
+  components:
+  - type: Sprite
+    state: hangar
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorHangarStorage
+  name: "Инженерing Hangar Storage"
+  components:
+  - type: Sprite
+    state: storage
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorAuxilaryToolStorage
+  name: "Инженерing Auxiliary Tool Storage"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorPrimaryToolStorage
+  name: "Инженерing Primary Tool Storage"
+  components:
+  - type: Sprite
+    state: blue
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorTechStorage
+  name: "Инженерing Secure Tech Storage"
+  components:
+  - type: Sprite
+    state: dark
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorBreakRoom
+  name: "Инженерing Breakroom"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorDisposals
+  name: "Инженерing Disposals"
+  components:
+  - type: Sprite
+    state: disposal
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorWesternDamCave
+  name: "Инженерing West Entrance"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorOffice
+  name: "Инженерing Office"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorNorthTunnelEntrance
+  name: "Инженерing North Tunnel Entrance"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorEastTunnelEntrance
+  name: "Инженерing East Tunnel Entrance"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorSouthTunnelEntrance
+  name: "Инженерing South Tunnel Entrance"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorDamInterior
+  id: RMCAreaDesertDamInteriorDamInteriorGarage
+  name: "Гараж"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamInterior
+  id: RMCAreaDesertDamInteriorCaves
+  name: "Пещеры"
+  components:
+  - type: Sprite
+    state: red
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+    minimapColor: '#3F3C3CEF'
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorCaves
+  id: RMCAreaDesertDamInteriorCavesNorthernCaves
+  name: "Северные пещеры"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorCaves
+  id: RMCAreaDesertDamInteriorCavesEastCaves
+  name: "Восточные пещеры"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorCaves
+  id: RMCAreaDesertDamInteriorCavesCentralCaves
+  name: "Центральные пещеры"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  abstract: true
+  parent: RMCAreaDesertDamInteriorCavesCentralCaves
+  id: RMCAreaDesertDamInteriorCavesCentralCavesEntrances
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorCavesCentralCavesEntrances
+  id: RMCAreaDesertDamInteriorCavesCentralCavesEntrancesEastTunnelEntrance
+  name: "Восточный вход в центральный туннель"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorCavesCentralCavesEntrances
+  id: RMCAreaDesertDamInteriorCavesCentralCavesEntrancesSouthTunnelEntrance
+  name: "Южно-центральный вход в туннель"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorCavesCentralCavesEntrances
+  id: RMCAreaDesertDamInteriorCavesCentralCavesEntrancesWestTunnelEntrance
+  name: "Западный вход в центральный туннель"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamInteriorCaves
+  id: RMCAreaDesertDamInteriorCavesTemple
+  name: "Песчаный храм"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDam
+  id: RMCAreaDesertDamBuilding
+  components:
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingSubstation
+  name: "Подстанция"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_dam.rsi
+    state: central_ss
+  - type: Area
+    minimapColor: '#C19504E7'
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSubstation
+  id: RMCAreaDesertDamBuildingSubstationNorthwest
+  name: "Подстанция командования"
+  components:
+  - type: Sprite
+    state: northewestern_ss
+  - type: Area
+    landingZone: true
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSubstation
+  id: RMCAreaDesertDamBuildingSubstationNortheast
+  name: "Подстанция командования"
+  components:
+  - type: Sprite
+    state: northeastern_ss
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSubstation
+  id: RMCAreaDesertDamBuildingSubstationEast
+  name: "Подстанция командования"
+  components:
+  - type: Sprite
+    state: eastern_ss
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSubstation
+  id: RMCAreaDesertDamBuildingSubstationSoutheast
+  name: "Подстанция командования"
+  components:
+  - type: Sprite
+    state: southeastern_ss
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSubstation
+  id: RMCAreaDesertDamBuildingSubstationCentral
+  name: "Подстанция командования"
+  components:
+  - type: Sprite
+    state: central_ss
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSubstation
+  id: RMCAreaDesertDamBuildingSubstationSouthwest
+  name: "Подстанция командования"
+  components:
+  - type: Sprite
+    state: southwestern_ss
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSubstation
+  id: RMCAreaDesertDamBuildingSubstationWest
+  name: "Подстанция командования"
+  components:
+  - type: Sprite
+    state: western_ss
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingAdministration
+  components:
+  - type: Area
+    minimapColor: '#2D3FA2EE'
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingAdministration
+  id: RMCAreaDesertDamBuildingAdministrationControlRoom
+  name: "Администрация Landing Control Room"
+  components:
+  - type: Sprite
+    state: yellow
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingAdministration
+  id: RMCAreaDesertDamBuildingAdministrationLobby
+  name: "Администрация Lobby"
+  components:
+  - type: Sprite
+    state: green
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingAdministration
+  id: RMCAreaDesertDamBuildingAdministrationHallway
+  name: "Администрация Hallway"
+  components:
+  - type: Sprite
+    state: purple
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingAdministration
+  id: RMCAreaDesertDamBuildingAdministrationOffice
+  name: "Администрация Office"
+  components:
+  - type: Sprite
+    state: blue-red
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingAdministration
+  id: RMCAreaDesertDamBuildingAdministrationOverseerOffice
+  name: "Администрация Overseer's Office"
+  components:
+  - type: Sprite
+    state: red
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingAdministration
+  id: RMCAreaDesertDamBuildingAdministrationMeetingrooom
+  name: "Администрация Meeting Room"
+  components:
+  - type: Sprite
+    state: yellow
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingAdministration
+  id: RMCAreaDesertDamBuildingAdministrationArchives
+  name: "Администрация Archives"
+  components:
+  - type: Sprite
+    state: green
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  abstract: true
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingBar
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingBar
+  id: RMCAreaDesertDamBuildingBarBar
+  name: "бар"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingBar
+  id: RMCAreaDesertDamBuildingBarBackroom
+  name: "бар Backroom"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingBar
+  id: RMCAreaDesertDamBuildingBarBarRestroom
+  name: "бар Restroom"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  abstract: true
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingCafeteria
+  name: "НЕ ИСПОЛЬЗОВАТЬ"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingCafeteria
+  id: RMCAreaDesertDamBuildingCafeteriaCafeteria
+  name: "Кафетерий"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingCafeteria
+  id: RMCAreaDesertDamBuildingCafeteriaBackroom
+  name: "Кафетерий Backroom"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingCafeteria
+  id: RMCAreaDesertDamBuildingCafeteriaRestroom
+  name: "Кафетерий Restroom"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingCafeteria
+  id: RMCAreaDesertDamBuildingCafeteriaLoading
+  name: "Кафетерий Loading Room"
+  components:
+  - type: Sprite
+    state: blue-red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingCafeteria
+  id: RMCAreaDesertDamBuildingCafeteriaColdRoom
+  name: "Кафетерий Coldroom"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  abstract: true
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingDorms
+  name: "НЕ ИСПОЛЬЗОВАТЬ"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingDorms
+  id: RMCAreaDesertDamBuildingDormsHallwayNorthwing
+  name: "Общежитие North Wing"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingDorms
+  id: RMCAreaDesertDamBuildingDormsHallwayWestwing
+  name: "Общежитие West Wing"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingDorms
+  id: RMCAreaDesertDamBuildingDormsHallwayEastwing
+  name: "Общежитие East Wing"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingDorms
+  id: RMCAreaDesertDamBuildingDormsRestroom
+  name: "Общежитие Showers"
+  components:
+  - type: Sprite
+    state: blue-red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingDorms
+  id: RMCAreaDesertDamBuildingDormsPool
+  name: "Общежитие Pool Room"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalGarage
+  name: "Медикal Garage"
+  components:
+  - type: Sprite
+    state: garage
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalEmergencyRoom
+  name: "Медикal Emergency Room"
+  components:
+  - type: Sprite
+    state: medbay
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalTreatmentRoom
+  name: "Медикal Treatment Room"
+  components:
+  - type: Sprite
+    state: medbay2
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalLobby
+  name: "Медикal Lobby"
+  components:
+  - type: Sprite
+    state: medbay3
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalChemistry
+  name: "Медикal Pharmacy"
+  components:
+  - type: Sprite
+    state: medbay
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalWestWingHallway
+  name: "Медикal West Wing"
+  components:
+  - type: Sprite
+    state: medbay2
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalNorthWingHallway
+  name: "Медикal North Wing"
+  components:
+  - type: Sprite
+    state: medbay3
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalEastWingHallway
+  name: "Медикal East Wing"
+  components:
+  - type: Sprite
+    state: medbay
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalPrimaryStorage
+  name: "Медикal Primary Storage"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalSurgeryRoomOne
+  name: "Медикal Surgery Room One"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalSurgeryRoomTwo
+  name: "Медикal Surgery Room Two"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalSurguryObservation
+  name: "Медикal Surgery Observation"
+  components:
+  - type: Sprite
+    state: medbay2
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalMorgue
+  name: "Медикal Morgue"
+  components:
+  - type: Sprite
+    state: blue
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalBreakRoom
+  name: "Медикal Breakroom"
+  components:
+  - type: Sprite
+    state: medbay
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalCMO
+  name: "Медикal CMO's Office"
+  components:
+  - type: Sprite
+    state: cmo
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalOffice1
+  name: "Медикal Office One"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalOffice2
+  name: "Медикal Office Two"
+  components:
+  - type: Sprite
+    state: blue
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalPatientWing
+  name: "Медикal Patient Wing"
+  components:
+  - type: Sprite
+    state: medbay2
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalVirologyWing
+  name: "Медикal Virology Wing"
+  components:
+  - type: Sprite
+    state: medbay3
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMedical
+  id: RMCAreaDesertDamBuildingMedicalVirologyIsolation
+  name: "Медикal Virology Isolation"
+  components:
+  - type: Sprite
+    state: medbay
+
+- type: entity
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingMedical
+  name: "Медикal"
+  components:
+  - type: Sprite
+    state: medbay2
+  - type: Area
+    minimapColor: '#3DBF75EE'
+
+- type: entity
+  abstract: true
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingWarehouse
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWarehouse
+  id: RMCAreaDesertDamBuildingWarehouseWarehouse
+  name: "Склад"
+  components:
+  - type: Sprite
+    state: yellow
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWarehouse
+  id: RMCAreaDesertDamBuildingWarehouseLoading
+  name: "Склад Loading Room"
+  components:
+  - type: Sprite
+    state: red
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWarehouse
+  id: RMCAreaDesertDamBuildingWarehouseBreakroom
+  name: "Склад Breakroom"
+  components:
+  - type: Sprite
+    state: green
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingHydroponics
+  components:
+  - type: Area
+    minimapColor: '#812DA2EE'
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingHydroponics
+  id: RMCAreaDesertDamBuildingHydroponicsHydroponics
+  name: "Гидропоника"
+  components:
+  - type: Sprite
+    state: hydro
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingHydroponics
+  id: RMCAreaDesertDamBuildingHydroponicsHydroponicsStorage
+  name: "Гидропоника Storage"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingHydroponics
+  id: RMCAreaDesertDamBuildingHydroponicsHydroponicsLoading
+  name: "Гидропоника Loading Room"
+  components:
+  - type: Sprite
+    state: garage
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingHydroponics
+  id: RMCAreaDesertDamBuildingHydroponicsHydroponicsBreakroom
+  name: "Гидропоника Breakroom"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingWaterTreatmentOne
+  components:
+  - type: Sprite
+    state: yellow
+  - type: Area
+    minimapColor: '#C19504E7'
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentOne
+  id: RMCAreaDesertDamBuildingWaterTreatmentOneLobby
+  name: "Вода Treatment One Lobby"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentOne
+  id: RMCAreaDesertDamBuildingWaterTreatmentOneBreakroom
+  name: "Вода Treatment One Breakroom"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentOne
+  id: RMCAreaDesertDamBuildingWaterTreatmentOneGarage
+  name: "Вода Treatment One Garage"
+  components:
+  - type: Sprite
+    state: garage
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentOne
+  id: RMCAreaDesertDamBuildingWaterTreatmentOneSedimentation
+  name: "Вода Treatment One Sedimentation"
+  components:
+  - type: Sprite
+    state: blue
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentOne
+  id: RMCAreaDesertDamBuildingWaterTreatmentOneEquipment
+  name: "Вода Treatment One Equipment Room"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentOne
+  id: RMCAreaDesertDamBuildingWaterTreatmentOneHallway
+  name: "Вода Treatment One Hallway"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentOne
+  id: RMCAreaDesertDamBuildingWaterTreatmentOneControlRoom
+  name: "Вода Treatment One Control Room"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentOne
+  id: RMCAreaDesertDamBuildingWaterTreatmentOnePurification
+  name: "Вода Treatment One Purification"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentOne
+  id: RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControl
+  name: "Вода Treatment One Floodgate Control"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControl
+  id: RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControlCentral
+  name: "Центральное управление шлюзом"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControl
+  id: RMCAreaDesertDamBuildingWaterTreatmentOneFloodgateControlCentral2
+  name: "Центральное управление шлюзом Storage"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingWaterTreatmentTwo
+  name: "Вода Treatment Two"
+  components:
+  - type: Sprite
+    state: yellow
+  - type: Area
+    minimapColor: '#C19504E7'
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
+  id: RMCAreaDesertDamBuildingWaterTreatmentTwoLobby
+  name: "Вода Treatment Two Lobby"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
+  id: RMCAreaDesertDamBuildingWaterTreatmentTwoBreakroom
+  name: "Вода Treatment Two Breakroom"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
+  id: RMCAreaDesertDamBuildingWaterTreatmentTwoGarage
+  name: "Вода Treatment Two Garage"
+  components:
+  - type: Sprite
+    state: garage
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
+  id: RMCAreaDesertDamBuildingWaterTreatmentTwoSedimentation
+  name: "Вода Treatment Two Sedimentation"
+  components:
+  - type: Sprite
+    state: blue
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
+  id: RMCAreaDesertDamBuildingWaterTreatmentTwoEquipment
+  name: "Вода Treatment Two Equipment"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
+  id: RMCAreaDesertDamBuildingWaterTreatmentTwoHallway
+  name: "Вода Treatment Two Hallway"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
+  id: RMCAreaDesertDamBuildingWaterTreatmentTwoControlRoom
+  name: "Вода Treatment Two Control Room"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
+  id: RMCAreaDesertDamBuildingWaterTreatmentTwoPurification
+  name: "Вода Treatment Two Purification"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingWaterTreatmentTwo
+  id: RMCAreaDesertDamBuildingWaterTreatmentTwoFloodgateControl
+  name: "Вода Treatment Two Floodgate Control"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  abstract: true
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingLibrary
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLibrary
+  id: RMCAreaDesertDamBuildingLibraryLibrary
+  name: "Библиотека"
+  components:
+  - type: Sprite
+    state: library
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLibrary
+  id: RMCAreaDesertDamBuildingLibraryRestroom
+  name: "Библиотека Restroom"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLibrary
+  id: RMCAreaDesertDamBuildingLibraryStudyroom
+  name: "Библиотека Study Room"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingSecurity
+  components:
+  - type: Area
+    minimapColor: '#A22D2DEE'
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityPrison
+  name: "Служба безопасности Prison"
+  components:
+  - type: Sprite
+    state: sec_prison
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityMarshalsOffice
+  name: "Служба безопасности Marshal's Office"
+  components:
+  - type: Sprite
+    state: sec_hos
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityArmory
+  name: "Служба безопасности Armory"
+  components:
+  - type: Sprite
+    state: armory
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityWarden
+  name: "Служба безопасности Warden's Office"
+  components:
+  - type: Sprite
+    state: warden
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityInterrogation
+  name: "Служба безопасности Interrogation"
+  components:
+  - type: Sprite
+    state: interrogation
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityBackroom
+  name: "Служба безопасности Interrogation"
+  components:
+  - type: Sprite
+    state: sec_backroom
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityObservation
+  name: "Служба безопасности Observation"
+  components:
+  - type: Sprite
+    state: observatory
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityDetective
+  name: "Служба безопасности Detective's Office"
+  components:
+  - type: Sprite
+    state: detective
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityOffice
+  name: "Служба безопасности Office"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityLobby
+  name: "Служба безопасности Lobby"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityNorthernHallway
+  name: "Служба безопасности North Hallway"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityCourtroom
+  name: "Служба безопасности Courtroom"
+  components:
+  - type: Sprite
+    state: courtroom
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityEvidence
+  name: "Служба безопасности Evidence"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityHolding
+  name: "Служба безопасности Holding Room"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecuritySouthernHallway
+  name: "Служба безопасности South Hallway"
+  components:
+  - type: Sprite
+    state: green
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityDeathrow
+  name: "Служба безопасности Death Row"
+  components:
+  - type: Sprite
+    state: cells_max_n
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityExecutionChamber
+  name: "Служба безопасности Execution Chamber"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingSecurity
+  id: RMCAreaDesertDamBuildingSecurityStaffroom
+  name: "Служба безопасности Staffroom"
+  components:
+  - type: Sprite
+    state: security
+
+- type: entity
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingChurch
+  name: "Церковь"
+  components:
+  - type: Sprite
+    state: courtroom
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  abstract: true
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingMining
+  name: "НЕ ИСПОЛЬЗОВАТЬ"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMining
+  id: RMCAreaDesertDamBuildingMiningWorkshop
+  name: "Шахтёрская мастерская"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingMining
+  id: RMCAreaDesertDamBuildingMiningWorkshopFoyer
+  name: "Шахтёрская мастерская Foyer"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingLabNorthwest
+  components:
+  - type: Area
+    minimapColor: '#812DA2EE'
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNorthwest
+  id: RMCAreaDesertDamBuildingLabNorthwestWestLabRobotics
+  name: "Западная лаборатория - робототехника"
+  components:
+  - type: Sprite
+    state: ass_line
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNorthwest
+  id: RMCAreaDesertDamBuildingLabNorthwestWestLabRoboticsMechbay
+  name: "Западная лаборатория - ангар техники"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNorthwest
+  id: RMCAreaDesertDamBuildingLabNorthwestWestLabEastHallway
+  name: "Западная лаборатория - коридор"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNorthwest
+  id: RMCAreaDesertDamBuildingLabNorthwestWestLabWestHallway
+  name: "Западная лаборатория - коридор"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNorthwest
+  id: RMCAreaDesertDamBuildingLabNorthwestWestLabMaintenance
+  name: "Западная лаборатория - техобслуживание"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNorthwest
+  id: RMCAreaDesertDamBuildingLabNorthwestWestLabChemistry
+  name: "Западная лаборатория - химия"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNorthwest
+  id: RMCAreaDesertDamBuildingLabNorthwestWestLabCafeteria
+  name: "Западная лаборатория - столовая"
+  components:
+  - type: Sprite
+    state: blue
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNorthwest
+  id: RMCAreaDesertDamBuildingLabNorthwestWestLabKitchen
+  name: "Западная лаборатория - кухня"
+  components:
+  - type: Sprite
+    state: kitchen
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNorthwest
+  id: RMCAreaDesertDamBuildingLabNorthwestWestLabDormitory
+  name: "Западная лаборатория - спальня"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNorthwest
+  id: RMCAreaDesertDamBuildingLabNorthwestWestLabMeetingRoom
+  name: "Западная лаборатория - переговорная"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNorthwest
+  id: RMCAreaDesertDamBuildingLabNorthwestWestLabXenoflora
+  name: "Западная лаборатория - ксенофлора"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  abstract: true
+  parent: RMCAreaDesertDamBuilding
+  id: RMCAreaDesertDamBuildingLabNortheast
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNortheast
+  id: RMCAreaDesertDamBuildingLabNortheastCheckpoint
+  name: "Восточная лаборатория — контрольно-пропускной пункт"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamBuildingLabNortheast
+  id: RMCAreaDesertDamBuildingLabNortheastGarage
+  name: "Восточная лаборатория — гараж"
+  components:
+  - type: Sprite
+    state: garage
+
+- type: entity
+  parent: RMCAreaDesertDam
+  id: RMCAreaDesertDamExterior
+
+- type: entity
+  parent: RMCAreaDesertDamExterior
+  id: RMCAreaDesertDamExteriorRock
+  name: "Камень"
+  components:
+  - type: Sprite
+    state: cave
+
+- type: entity
+  parent: RMCAreaDesertDamExterior
+  id: RMCAreaDesertDamExteriorLandingPadOne
+  name: "Посадочная площадка взлётной полосы"
+  components:
+  - type: Sprite
+    state: landing_pad
+  - type: Area
+    linkedLz: dropship_lz1
+    landingZone: true
+    minimapColor: '#EBE5E5E3'
+
+- type: entity
+  parent: RMCAreaDesertDamExterior
+  id: RMCAreaDesertDamExteriorLandingPadOneExternal
+  name: "Долина посадки взлётной полосы"
+  components:
+  - type: Sprite
+    state: landing_pad_ext
+  - type: Area
+    resinAllowed: false
+    minimapColor: '#EBE5E5E3'
+
+- type: entity
+  parent: RMCAreaDesertDamExterior
+  id: RMCAreaDesertDamExteriorLandingPadTwo
+  name: "Посадочная площадка аэродрома"
+  components:
+  - type: Sprite
+    state: landing_pad
+  - type: Area
+    linkedLz: dropship_lz2
+    landingZone: true
+    minimapColor: '#EBE5E5E3'
+
+- type: entity
+  parent: RMCAreaDesertDamExterior
+  id: RMCAreaDesertDamExteriorLandingPadTwoExternal
+  name: "Долина посадки аэродрома"
+  components:
+  - type: Sprite
+    state: landing_pad_ext
+  - type: Area
+    resinAllowed: false
+    minimapColor: '#EBE5E5E3'
+
+- type: entity
+  parent: RMCAreaDesertDamExterior
+  id: RMCAreaDesertDamExteriorValley
+  name: "Долина"
+  components:
+  - type: Sprite
+    state: red
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleyNorthwest
+  name: "Северо-западная долина"
+  components:
+  - type: Sprite
+    state: valley_north_west
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleyCargo
+  name: "Долина доставки"
+  components:
+  - type: Sprite
+    state: valley_south_west
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleyTelecoms
+  name: "Долина связи"
+  components:
+  - type: Sprite
+    state: valley_west
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleySecurity
+  name: "Служба безопасности Valley"
+  components:
+  - type: Sprite
+    state: valley_west
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleyBridge
+  name: "Долина Bridge"
+  components:
+  - type: Sprite
+    state: valley
+
+- type: entity
+  parent: RMCAreaDesertDamExterior
+  id: RMCAreaDesertDamExteriorTelecomm
+  name: "Плотина Trijent Communications Relay"
+  components:
+  - type: Sprite
+    state: ass_line
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorTelecomm
+  id: RMCAreaDesertDamExteriorTelecommLz2Containers
+  name: "Контейнеры Communications Relay"
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorTelecomm
+  id: RMCAreaDesertDamExteriorTelecommLz2Tcomms
+  name: "ретранслятор связи телекоммуникаций"
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorTelecomm
+  id: RMCAreaDesertDamExteriorTelecommLz2Storage
+  name: "Восточная LZ2 — ретранслятор связи"
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorTelecomm
+  id: RMCAreaDesertDamExteriorTelecommLz1South
+  name: "Южный ретранслятор связи ЗП1"
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorTelecomm
+  id: RMCAreaDesertDamExteriorTelecommLz1Valley
+  name: LZ1 Ретранслятор связи в долине
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorTelecomm
+  id: RMCAreaDesertDamExteriorTelecommLz1Xenoflora
+  name: "Реле связи ксенофлоры"
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleyLabs
+  name: "Лабораторная долина"
+  components:
+  - type: Sprite
+    state: valley_north
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleyMining
+  name: "Шахтёрская долина"
+  components:
+  - type: Sprite
+    state: valley_east
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleyCivilian
+  name: "Гражданский Valley"
+  components:
+  - type: Sprite
+    state: valley_south_excv
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleyMedical
+  name: "Медикal Valley"
+  components:
+  - type: Sprite
+    state: valley
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleyHydro
+  name: "Гидравлическая долина"
+  components:
+  - type: Sprite
+    state: valley
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleyCrashsite
+  name: "Долина места крушения"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyNorthValleyDam
+  name: "Долина Северной дамбы"
+  components:
+  - type: Sprite
+    state: valley
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleySouthValleyDam
+  name: "Долина южной плотины"
+  components:
+  - type: Sprite
+    state: valley
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyBarValleyDam
+  name: "бар Valley"
+  components:
+  - type: Sprite
+    state: yellow
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorValley
+  id: RMCAreaDesertDamExteriorValleyValleyWilderness
+  name: "Долина Дикой Природы"
+  components:
+  - type: Sprite
+    state: central
+
+- type: entity
+  parent: RMCAreaDesertDamExterior
+  id: RMCAreaDesertDamExteriorRiver
+  name: "Река"
+  components:
+  - type: Sprite
+    state: bluenew
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorRiver
+  id: RMCAreaDesertDamExteriorRiverRiversideNorthwest
+  name: "Северо-западное русло реки"
+  components:
+  - type: Sprite
+    state: bluenew
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorRiver
+  id: RMCAreaDesertDamExteriorRiverRiversideCentralNorth
+  name: "Северо-центральное русло реки"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorRiver
+  id: RMCAreaDesertDamExteriorRiverRiversideCentralSouth
+  name: "Южно-центральное русло реки"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorRiver
+  id: RMCAreaDesertDamExteriorRiverRiversideSouth
+  name: "Южное русло реки"
+  components:
+  - type: Sprite
+    state: bluenew
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorRiver
+  id: RMCAreaDesertDamExteriorRiverRiversideEast
+  name: "Восточная рекаbed"
+  components:
+  - type: Sprite
+    state: bluenew
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorRiver
+  id: RMCAreaDesertDamExteriorRiverRiversideNortheast
+  name: "Северо-восточное русло реки"
+  components:
+  - type: Sprite
+    state: bluenew
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorRiver
+  id: RMCAreaDesertDamExteriorRiverFiltrationA
+  name: "Фильтрационная установка A"
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorRiver
+  id: RMCAreaDesertDamExteriorRiverFiltrationB
+  name: "Фильтрационная установка B"
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorRiverMouth
+  id: RMCAreaDesertDamExteriorRiverMouthSouthern
+  name: "Южное устье реки"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  abstract: true
+  parent: RMCAreaDesertDamExterior
+  id: RMCAreaDesertDamExteriorRiverMouth
+
+- type: entity
+  parent: RMCAreaDesertDamExteriorRiverMouth
+  id: RMCAreaDesertDamExteriorRiverMouthEastern
+  name: "Восточная река Mouth"
+  components:
+  - type: Sprite
+    state: purple
+
+- type: entity
+  abstract: true
+  parent: RMCAreaDesertDam
+  id: RMCAreaDesertDamLanding
+
+- type: entity
+  parent: RMCAreaDesertDamLanding
+  id: RMCAreaDesertDamLandingConsole
+  name: LZ1 «Администрация»
+  components:
+  - type: Sprite
+    state: tcomsatcham
+
+- type: entity
+  parent: RMCAreaDesertDamLanding
+  id: RMCAreaDesertDamLandingConsole2
+  name: LZ2 «Снабжение»
+  components:
+  - type: Sprite
+    state: tcomsatcham
+
+- type: entity
+  parent: RMCAreaShuttleTriTrans1
+  id: RMCAreaShuttleTriTrans1Alpha
+  components:
+  - type: Sprite
+    state: shuttle
+
+- type: entity
+  abstract: true
+  parent: RMCAreaShuttle
+  id: RMCAreaShuttleTriTrans1
+
+- type: entity
+  parent: RMCAreaShuttleTriTrans1
+  id: RMCAreaShuttleTriTrans1Away
+  components:
+  - type: Sprite
+    state: away1
+
+- type: entity
+  parent: RMCAreaShuttleTriTrans1
+  id: RMCAreaShuttleTriTrans1Omega
+  components:
+  - type: Sprite
+    state: shuttle2
+
+- type: entity
+  abstract: true
+  parent: RMCAreaShuttle
+  id: RMCAreaShuttleTriTrans2
+
+- type: entity
+  parent: RMCAreaShuttleTriTrans2
+  id: RMCAreaShuttleTriTrans2Alpha
+  components:
+  - type: Sprite
+    state: shuttlered
+
+- type: entity
+  parent: RMCAreaShuttleTriTrans2
+  id: RMCAreaShuttleTriTrans2Away
+  components:
+  - type: Sprite
+    state: away2
+
+- type: entity
+  parent: RMCAreaShuttleTriTrans2
+  id: RMCAreaShuttleTriTrans2Omega
+  components:
+  - type: Sprite
+    state: shuttle2

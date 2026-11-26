@@ -1,0 +1,11 @@
+ent-RMCCalendarBase = календарь настенного типа
+ent-RMCCalendarColonist = { ent-RMCCalendarBase }
+    .suffix = Колония
+ent-RMCCalendarWeYa = { ent-RMCCalendarBase }
+    .suffix = Ве-Я
+ent-RMCCalendarUNMC = { ent-RMCCalendarBase }
+    .suffix = КМП США
+ent-RMCCalendarTWE = { ent-RMCCalendarBase }
+    .suffix = ИТМ
+ent-RMCCalendarSPP = { ent-RMCCalendarBase }
+    .suffix = СПН

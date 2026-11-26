@@ -1,0 +1,9 @@
+ent-Pen = шариковая ручка
+ent-PenEmbeddable = { ent-Pen }
+ent-LuxuryPen = ручка класса люкс
+ent-BaseAdvancedPen = { ent-PenEmbeddable }
+ent-CyberPen = ручка от Cybersun
+ent-PenCentcom = ручка от Центком
+ent-PenCap = капитанская перьевая ручка
+ent-PenHop = ручка главы персонала, перьевая
+ent-PenWiz = ручка волшебника, магическая

@@ -1,0 +1,16 @@
+ent-RMCWeaponFlamer = M240A1 огнеметная установка
+ent-RMCWeaponFlamerPVE = { ent-RMCWeaponFlamer }
+    .suffix = PVE
+ent-RMCWeaponFlamerUnloaded = { ent-RMCWeaponFlamer }
+    .suffix = Незагруженный
+ent-RMCWeaponFlamerExtinguisher = { ent-RMCWeaponFlamer }
+    .suffix = Огнетушитель
+ent-RMCBaseTankFlamer = { ent-BaseItem }
+ent-RMCTankFlamer = огнеметный бак
+ent-RMCTankFlamerCustom = M240 баллон кастомный
+ent-RMCTankFlamerBGel = M240A1 баллон (Б-Гель)
+ent-RMCTankFlamerUpgraded = M34 баллон улучшенного типа
+ent-VehicleFlamerTankLZRN = LZR-N топливный бак
+ent-RMCCaseFlamer = M240A1 огнемета кейс
+ent-RMCWeaponFlamerExt = { ent-RMCWeaponFlamer }
+    .suffix = С огнетушителем

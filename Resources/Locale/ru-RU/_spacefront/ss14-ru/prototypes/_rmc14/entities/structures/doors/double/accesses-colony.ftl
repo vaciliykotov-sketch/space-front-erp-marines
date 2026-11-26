@@ -1,0 +1,12 @@
+ent-CMDoubleDoorColonyCommandGlassLocked = { ent-CMDoubleDoorCommandGlass }
+    .suffix = Командование, Колония, Стекло, Закрыт
+ent-CMDoubleDoorColonyCommandSolidLocked = { ent-CMDoubleDoorCommandSolid }
+    .suffix = Командование, Колония, Сплошной, Закрыт
+ent-CMDoubleDoorColonyEngineerGlassLocked = { ent-CMDoubleDoorEngineerGlass }
+    .suffix = Инженер, Колония, Стекло, Закрыт
+ent-CMDoubleDoorColonyEngineerSolidLocked = { ent-CMDoubleDoorEngineerSolid }
+    .suffix = Инженер, Колония, Сплошной, Закрыт
+ent-CMDoubleDoorColonySecurityGlassLocked = { ent-CMDoubleDoorSecurityGlass }
+    .suffix = Служба безопасности, Колония, Стекло, Закрыт
+ent-CMDoubleDoorColonySecuritySolidLocked = { ent-CMDoubleDoorSecuritySolid }
+    .suffix = Служба безопасности, Колония, Сплошной, Закрыт

@@ -1,0 +1,1 @@
+ent-Fireplace = печь-камин

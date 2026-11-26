@@ -1,0 +1,10 @@
+ent-RMCBaseWeaponMount = опора-тренога
+ent-RMCML66DNestSandbag = пулемёт M56D с оптикой в песчаном мешке
+ent-RMCML66DNestMetal = M566D крупнокалиберный с оптическим прицелом
+ent-RMCML66DMount = опора для M56D
+    .suffix = Сложенный
+ent-RMCML66DMountAssembled = M56D в сборе на станке
+    .suffix = Сложенный, собранный
+ent-RMCML66DMountWeaponAssembledLoaded = { ent-RMCML66DMountAssembled }
+    .suffix = Сложенный, собранный, заряженный
+ent-RMCM2CMount = M2C на станковой опоре

@@ -1,0 +1,11 @@
+ent-RMCHandsVeteran = бронированные перчатки ветерана
+ent-RMCHandsVeteranSPP = { ent-RMCHandsVeteran }
+ent-RMCHandsVeteranInsulated = бронированные перчатки с утеплением
+ent-RMCHandsVeteranPMC = перчатки ЧВК ВеЯ
+ent-RMCHandsVeteranPMCCommandoSurvivor = перчатки коммандос корпорации Ве-Я
+ent-RMCHandsVeteranPMCCommando = перчатки M5X
+ent-RMCHandsVeteranExecutiveBodyguard = перчатки телохранителя корпорации
+ent-RMCHandsVeteranRoyalMarine = боевые перчатки с узором L6
+ent-RMCHandsVeteranCBRN = перчатки M3 MOPP
+ent-RMCHandsVeteranCBRNLessArmored = { ent-RMCHandsVeteranCBRN }
+    .suffix = Облегчённый

@@ -1,0 +1,10 @@
+ent-CoreSubstation = { "" }
+ent-BaseSubstation = электрическая подстанция
+ent-BaseSubstationWall = подстанция настенного типа
+ent-SubstationBasic = { ent-BaseSubstation }
+    .suffix = Базовая, 2,5МДж
+ent-SubstationBasicEmpty = { ent-SubstationBasic }
+    .suffix = Пустой
+ent-SubstationWallBasic = { ent-BaseSubstationWall }
+    .suffix = Базовая, 2МДж
+ent-BaseSubstationWallFrame = каркас подстанции настенного типа

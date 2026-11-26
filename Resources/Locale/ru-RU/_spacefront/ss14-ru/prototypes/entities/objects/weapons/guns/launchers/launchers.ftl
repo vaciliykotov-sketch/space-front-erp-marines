@@ -1,0 +1,17 @@
+ent-BaseWeaponLauncher = BaseWeaponLauncher
+ent-WeaponLauncherChinaLake = China Lake
+ent-WeaponLauncherHydra = пусковая установка «Гидра»
+ent-WeaponLauncherRocket = РПГ-7
+ent-WeaponLauncherMultipleRocket = установка залпового пуска
+ent-WeaponLauncherPirateCannon = корабельная пушка пиратов
+ent-WeaponTetherGun = пушка гравитационная
+ent-WeaponForceGun = пушка силового поля
+ent-WeaponGrapplingGun = пушка-крюк
+ent-WeaponTetherGunAdmin = пушка гравитационная
+    .suffix = Адмемы
+ent-WeaponForceGunAdmin = пушка силового поля
+    .suffix = Адмемы
+ent-WeaponLauncherAdmemeMeteorLarge = установка запуска метеоритов
+    .suffix = Адмемы
+ent-WeaponLauncherAdmemeImmovableRodSlow = установка запуска неподвижного жезла
+    .suffix = Адмемы

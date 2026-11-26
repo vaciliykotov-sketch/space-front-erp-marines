@@ -1,0 +1,10 @@
+ent-RMCWeaponPistolL54 = L54 служебный пистолет
+ent-RMCWeaponPistolL54Empty = { ent-RMCWeaponPistolL54 }
+    .suffix = Пустой
+ent-RMCWeaponPistolL54Custom = L54 служебный пистолет доработанный
+ent-RMCWeaponPistolL54CustomAlt = { ent-RMCWeaponPistolL54Custom }
+    .suffix = Альт.
+ent-RMCMagazinePistolL54 = магазин для L54 (калибр 9 мм)
+ent-RMCMagazinePistolL54Custom = магазин для L54-S (калибр 9x20 мм)
+ent-RMCCartridge9x20mm = боеприпас (9×20 мм)
+ent-RMCBullet9x20mm = { ent-CMBulletPistol9mm }

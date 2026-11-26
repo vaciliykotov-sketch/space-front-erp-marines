@@ -1,0 +1,1 @@
+ent-RMCEffectTailHit = { ent-RMCBaseEffect }

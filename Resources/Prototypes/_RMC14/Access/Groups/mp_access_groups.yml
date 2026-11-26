@@ -1,0 +1,65 @@
+- type: accessGroup
+  id: CMP
+  parent: RMCBaseMPJob
+  name: "Главный военный полицейский"
+  tags:
+  - CMAccessBrig
+  - CMAccessArmory
+  - RMCAccessCommand
+  - CMAccessDropship
+  - CMAccessMarinePrep
+  - CMAccessCMP
+  - CMAccessMedical
+  - RMCAccessMorgue
+  - CMAccessAlpha
+  - CMAccessBravo
+  - CMAccessCharlie
+  - CMAccessDelta
+  - CMAccessEngineering
+  - CMAccessMaint
+  - CMAccessOT
+  - RMCAccessDatabase
+  - RMCAccessSeniorCommand
+  - RMCAccessLogs
+
+- type: accessGroup
+  id: MP
+  parent: RMCBaseMPJob
+  name: "Военная полиция"
+  tags:
+  - CMAccessBrig
+  - RMCAccessCommand
+  - CMAccessDropship
+  - CMAccessMarinePrep
+  - CMAccessMedical
+  - RMCAccessMorgue
+  - CMAccessAlpha
+  - CMAccessBravo
+  - CMAccessCharlie
+  - CMAccessDelta
+  - CMAccessEngineering
+  - CMAccessMaint
+  - CMAccessOT
+  - RMCAccessDatabase
+
+- type: accessGroup
+  id: CMWarden
+  parent: RMCBaseMPJob
+  name: "Военный надзиратель"
+  tags:
+  - CMAccessBrig
+  - RMCAccessCommand
+  - CMAccessDropship
+  - CMAccessMarinePrep
+  - CMAccessArmory
+  - CMAccessMedical
+  - RMCAccessMorgue
+  - CMAccessAlpha
+  - CMAccessBravo
+  - CMAccessCharlie
+  - CMAccessDelta
+  - CMAccessEngineering
+  - CMAccessMaint
+  - CMAccessOT
+  - RMCAccessDatabase
+  - RMCAccessLogs

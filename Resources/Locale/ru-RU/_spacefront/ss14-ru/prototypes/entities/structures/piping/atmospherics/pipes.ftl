@@ -1,0 +1,14 @@
+ent-GasPipeSansLayers = труба для газа
+ent-GasPipeBase = { ent-GasPipeSansLayers }
+ent-GasPipeHalf = { ent-GasPipeBase }
+    .suffix = Половинная
+ent-GasPipeStraight = { ent-GasPipeBase }
+    .suffix = Прямая
+ent-GasPipeBend = { ent-GasPipeBase }
+    .suffix = Угловая
+ent-GasPipeTJunction = { ent-GasPipeBase }
+    .suffix = Т-образная
+ent-GasPipeFourway = { ent-GasPipeBase }
+    .suffix = Четверная
+ent-GasPipeBroken = повреждённая труба
+ent-GasPipeManifold = коллектор для газа

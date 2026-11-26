@@ -1,0 +1,16 @@
+ent-RMCPaperExecutionOrder = распоряжение на исполнение казни
+ent-RMCPaperP304 = бланк P-304: заявка в оружейную комнату
+ent-RMCPaperP399 = бланк P-399: конфискация снаряжения
+ent-RMCPaperP401 = P-401: рапорт о происшествии
+ent-RMCPaperP402 = P-402: корреспонденция военной полиции
+ent-RMCPaperP403 = P-403: документ о задержании
+ent-RMCPaperP404 = P-404: свидетельские показания
+ent-RMCPaperP415 = P-415: акт о злоупотреблении полномочиями
+ent-RMCPaperP508 = P-508: разрешение на обыск
+ent-RMCPaperP509 = P-509: постановление об аресте
+ent-RMCPaperP512 = P-512: заявка на развёртывание
+ent-RMCPaperP605 = P-605: рапорт о происшествии
+ent-RMCPaperP701 = P-701: список для отправки на гауптвахту
+ent-RMCPaperP702 = P-702: список оформления
+ent-RMCPaperCLFVaradero = сигнал бедствия!
+ent-RMCPaperCLFRocinante = судовой журнал капитана

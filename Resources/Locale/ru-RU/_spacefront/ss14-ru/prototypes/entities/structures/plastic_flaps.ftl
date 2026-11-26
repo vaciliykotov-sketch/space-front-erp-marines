@@ -1,0 +1,9 @@
+ent-PlasticFlapsBase = { ent-BaseStructureDynamic }
+ent-PlasticFlapsClear = прозрачные пластиковые шторки
+    .suffix = Прозрачные
+ent-PlasticFlapsOpaque = непрозрачные пластиковые шторки
+    .suffix = Непрозрачные
+ent-PlasticFlapsAirtightClear = прозрачные герметичные пластиковые шторки
+    .suffix = Прозрачные герметичные
+ent-PlasticFlapsAirtightOpaque = непрозрачные герметичные пластиковые шторки
+    .suffix = Непрозрачные герметичные

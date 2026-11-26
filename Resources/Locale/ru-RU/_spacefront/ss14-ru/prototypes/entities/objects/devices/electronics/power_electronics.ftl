@@ -1,0 +1,10 @@
+ent-APCElectronics = электронная плата ЛКП
+    .suffix = { ent-BaseElectronics.suffix }
+ent-WallmountSubstationElectronics = плата настенной подстанции
+    .suffix = { ent-BaseElectronics.suffix }
+ent-WallmountGeneratorElectronics = плата настенного генератора
+    .suffix = { ent-BaseElectronics.suffix }
+ent-WallmountGeneratorAPUElectronics = настенная ВСУ: электронная плата
+    .suffix = { ent-BaseElectronics.suffix }
+ent-SolarTrackerElectronics = электроника для слежения за солнцем
+    .suffix = { ent-BaseElectronics.suffix }

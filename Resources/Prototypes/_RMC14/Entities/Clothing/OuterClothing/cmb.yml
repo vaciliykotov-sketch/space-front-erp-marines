@@ -1,0 +1,98 @@
+- type: entity
+  id: RMCBaseCMBArmor
+  abstract: true
+
+- type: entity
+  parent: [RMCBaseCMBArmor, RMCBaseMarineArmorLight]
+  id: RMCArmorM4RLight
+  name: "Лёгкая броня CMB образца M4R"
+  description: A dark set of armor, which is a modification of the security variant of AEGIS Armaments M3 armor. Designed for riot control and protest suppression in mind. The side of it has a metallic insignia with 'CMB RIOT CONTROL' on it.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/CMB/cmb_light_armor.rsi
+  - type: CMArmor
+    melee: 20
+    bullet: 25
+    bio: 15
+    explosionArmor: 20
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier # light armor speed
+    walkModifier: .725
+    sprintModifier: .725
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+  - type: ItemCamouflage
+    camouflageVariations: { }
+
+- type: entity
+  parent: [RMCBaseCMBArmor, RMCBaseMarineArmorLight]
+  id: RMCArmorM4RMedium
+  name: "Броня CMB образца M4R"
+  description: A dark set of armor, which is a modification of the security variant of AEGIS Armaments M3 armor. Designed for riot control and protest suppression in mind. The side of it has a metallic insignia with 'CMB RIOT CONTROL' on it.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/CMB/cmb_heavy_armor.rsi
+  - type: CMArmor
+    melee: 25
+    bullet: 25
+    bio: 15
+    explosionArmor: 25
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+  - type: ItemCamouflage
+    camouflageVariations: { }
+
+- type: entity
+  parent: [RMCBaseCMBArmor, RMCBaseMarineArmorLight]
+  id: RMCArmorM4RMarshallMedium
+  name: "Броня маршала CMB образца M4R"
+  description: A custom fit variation of the CMB Riot armor, intended to be worn the Marshals themselves, has a golden lining with rank insignia. Has additional layer of lightweight protective materials.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/CMB/cmb_sheriff_armor.rsi
+  - type: CMArmor
+    melee: 25
+    bullet: 30
+    bio: 15
+    explosionArmor: 30
+  - type: RMCArmorSpeedTier
+    speedTier: medium
+  - type: ClothingSpeedModifier
+    walkModifier: 0.666
+    sprintModifier: 0.666
+  - type: ExplosionResistance
+    damageCoefficient: 0
+    worn: false
+  - type: ItemCamouflage
+    camouflageVariations: { }
+
+# CMB versions of the UN-M1 riot armor - Identical to riot armor except for sprites
+- type: entity
+  parent: RMCArmorPMCRiot
+  id: RMCArmorPMCRiotCMB
+  name: "Броня CMB образца M4Red vest"
+  description: A dark set of armor, which is a modification of the security variant of AEGIS Armaments M3 armor. This version is reinforced with strike resistant polyethylene and ceramic plates, providing robust protection to the vital organs while granting an impressive amount of mobility to officers in the field. The side of it has a metallic insignia with 'CMB RIOT CONTROL' on it.
+  suffix: ""
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/CMB/cmb_mobility_armor.rsi
+
+- type: entity
+  parent: CMArmorM3VLSynth
+  id: RMCArmorPMCRiotCMBSynth
+  name: "Синтетический жилет CMB образца M4R"
+  description: A dark set of armor, which is a modification of the security variant of AEGIS Armaments M3 armor. This variant was designed for CMB Riot Control synthetics, and has had all its' armor inserts removed. The side of it has a metallic insignia with 'CMB RIOT CONTROL' on it.
+  suffix: ""
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/CMB/cmb_mobility_armor.rsi
+  - type: ItemCamouflage
+    camouflageVariations: { }

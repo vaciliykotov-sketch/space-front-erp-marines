@@ -1,0 +1,119 @@
+# Ящики заказа техники: при доставке машина появляется по центру грузовой платформы,
+# модули лежат в ящике. Всё по 1 доллару.
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleHumvee
+  name: "Заказ техники: Хамви"
+  description: Доставка Хамви на грузовую платформу вместе с полным комплектом модулей.
+  components:
+  - type: RMCSpawnVehicleOnOrder
+    vehicle: VehicleHumvee
+    hardpoints:
+    - VehicleHumveeTurret
+    - VehicleHumveeCannon
+    - VehicleHumveeLauncher
+    - VehicleHumveeSnowplow
+    - VehicleHumveeOverlight
+    - VehicleHumveeHatch
+    - VehicleHumveeWheel
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleHumveeMedical
+  name: "Заказ техники: Хамви (медицинский)"
+  description: Доставка медицинского Хамви на грузовую платформу вместе с полным комплектом модулей.
+  components:
+  - type: RMCSpawnVehicleOnOrder
+    vehicle: VehicleHumveeMedical
+    hardpoints:
+    - VehicleHumveeSnowplow
+    - VehicleHumveeOverlight
+    - VehicleHumveeHatch
+    - VehicleHumveeWheel
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleHumveeTransport
+  name: "Заказ техники: Хамви (транспортный)"
+  description: Доставка транспортного Хамви на грузовую платформу вместе с полным комплектом модулей.
+  components:
+  - type: RMCSpawnVehicleOnOrder
+    vehicle: VehicleHumveeTransport
+    hardpoints:
+    - VehicleHumveeSnowplow
+    - VehicleHumveeOverlight
+    - VehicleHumveeHatch
+    - VehicleHumveeWheel
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAPC
+  name: "Заказ техники: БТР"
+  description: Доставка БТР на грузовую платформу вместе с полным комплектом модулей.
+  components:
+  - type: RMCSpawnVehicleOnOrder
+    vehicle: VehicleAPCTracked
+    hardpoints:
+    - RMCAPCDualCannon
+    - RMCAPCFrontCannon
+    - RMCAPCCommsRelay
+    - RMCAPCFlareLauncher
+    - RMCAPCFreightStorage
+    - RMCAPCWheel
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAPCMed
+  name: "Заказ техники: БТР (медицинский)"
+  description: Доставка медицинского БТР на грузовую платформу вместе с полным комплектом модулей.
+  components:
+  - type: RMCSpawnVehicleOnOrder
+    vehicle: VehicleAPCMed
+    hardpoints:
+    - RMCAPCDualCannon
+    - RMCAPCFrontCannon
+    - RMCAPCCommsRelay
+    - RMCAPCFlareLauncher
+    - RMCAPCFreightStorage
+    - RMCAPCWheel
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleAPCCommand
+  name: "Заказ техники: БТР (командный)"
+  description: Доставка командного БТР на грузовую платформу вместе с полным комплектом модулей.
+  components:
+  - type: RMCSpawnVehicleOnOrder
+    vehicle: VehicleAPCCommand
+    hardpoints:
+    - RMCAPCDualCannon
+    - RMCAPCFrontCannon
+    - RMCAPCCommsRelay
+    - RMCAPCFlareLauncher
+    - RMCAPCFreightStorage
+    - RMCAPCWheel
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateVehicleTank
+  name: "Заказ техники: Танк"
+  description: Доставка танка на грузовую платформу вместе с полным комплектом модулей.
+  components:
+  - type: RMCSpawnVehicleOnOrder
+    vehicle: VehicleTank
+    hardpoints:
+    - VehicleTankSnowplow
+    - VehicleTankLTAAAPMinigun
+    - VehicleTankAceAutocannon
+    - VehicleTankDragonFlamer
+    - VehicleTankFlamer
+    - VehicleTankGrenadeLauncher
+    - VehicleTankM56Cupola
+    - VehicleTankWarningArray
+    - VehicleTankOverdriveEnhancer
+    - VehicleTankRocketLauncher
+    - VehicleTankFlareModule
+    - VehicleTankArtilleryModule
+    - VehicleTankReinforcedTreads
+    - VehicleTankTreads

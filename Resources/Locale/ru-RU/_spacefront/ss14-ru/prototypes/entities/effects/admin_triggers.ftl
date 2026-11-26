@@ -1,0 +1,17 @@
+ent-AdminInstantEffectBase = эффект мгновенного действия
+ent-AdminInstantEffectEMP = { ent-AdminInstantEffectBase }
+    .suffix = ЭМИ
+ent-AdminInstantEffectBluespace = { ent-AdminInstantEffectBase }
+    .suffix = БлюспейсВспышка
+ent-AdminInstantEffectFlash = { ent-AdminInstantEffectBase }
+    .suffix = Вспышка
+ent-AdminInstantEffectSmoke3 = { ent-AdminInstantEffectBase }
+    .suffix = Дым (03 сек)
+ent-AdminInstantEffectSmoke10 = { ent-AdminInstantEffectBase }
+    .suffix = Дым (10 сек)
+ent-AdminInstantEffectSmoke30 = { ent-AdminInstantEffectBase }
+    .suffix = Дым (30 сек)
+ent-AdminInstantEffectTearGas = { ent-AdminInstantEffectBase }
+    .suffix = Слезоточивый газ
+ent-AdminInstantEffectGravityWell = { ent-AdminInstantEffectBase }
+    .suffix = Гравитационный колодец

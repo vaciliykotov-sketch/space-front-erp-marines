@@ -1,0 +1,46 @@
+# Space Front: королевский набор (заказ владельца 23.11.2026)
+- type: entity
+  parent: RMCCrateWeapons
+  id: RMCCrateRoyalSet
+  name: "Королевский набор"
+  description: "Полный комплект экипировки королевской морской пехоты."
+  components:
+  - type: Storage
+    capacity: 40
+  - type: StorageFill
+    contents:
+    - id: RMCBootsRoyalFilled
+      amount: 1
+    - id: RMCCrateRoyalSmartGunSet
+      amount: 1
+    - id: RMCHeadRoyalHelmetBallistic
+      amount: 1
+    - id: RMCArmorRoyalHarnessFilled
+      amount: 1
+    - id: RMCHandsVeteranRoyalMarine
+      amount: 1
+    - id: RMCSmartGunRCMPVE
+      amount: 1
+    - id: RMCWebbingLegPouchBlackFilled
+      amount: 1
+    - id: RMCPouchDrumPMCFill
+      amount: 4
+    - id: RMCPouchMedicalFill
+      amount: 1
+
+# Переименованный ящик умного пулемёта
+- type: entity
+  parent: RMCCrateSmartGunSet
+  id: RMCCrateRoyalSmartGunSet
+  name: "ящик комплекта умного пулемёта ML66C"
+
+# Разгрузка на бедро с противогазом внутри
+- type: entity
+  parent: RMCWebbingLegPouchBlack
+  id: RMCWebbingLegPouchBlackFilled
+  name: "разгрузка на бедро (чёрная)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: GasMaskRoyalRMC
+      amount: 1

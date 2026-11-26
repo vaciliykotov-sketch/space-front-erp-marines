@@ -1,0 +1,2 @@
+ent-CMStandardStation = ""
+ent-CMStandardPlanet = ""

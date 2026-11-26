@@ -1,0 +1,12 @@
+ent-STStairsHunter = { ent-RMCStairs }
+    .suffix = Маленькая
+ent-STStairsHunterLarge = { ent-RMCStairs }
+    .suffix = Большая
+ent-STStairsHunterLeft = { ent-RMCStairs }
+    .suffix = Левая
+ent-STStairsHunterRight = { ent-RMCStairs }
+    .suffix = Правая
+ent-STStairsHunterBrownLeft = { ent-RMCStairs }
+    .suffix = Левая, Коричневая
+ent-STStairsHunterBrownRight = { ent-RMCStairs }
+    .suffix = Правая, Коричневая

@@ -1,0 +1,14 @@
+ent-RipleyCentralElectronics = модуль центрального управления Рипли
+    .suffix = { ent-BaseElectronics.suffix }
+ent-RipleyPeripheralsElectronics = плата периферийного управления Рипли
+    .suffix = { ent-BaseElectronics.suffix }
+ent-HonkerCentralElectronics = модуль центрального управления Х.О.Н.К.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-HonkerPeripheralsElectronics = плата периферийного управления Х.О.Н.К.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-HonkerTargetingElectronics = плата управления огнём Х.О.Н.К.
+    .suffix = { ent-BaseElectronics.suffix }
+ent-HamtrCentralElectronics = модуль центрального управления ХАМЯК
+    .suffix = { ent-BaseElectronics.suffix }
+ent-HamtrPeripheralsElectronics = плата периферийного управления ХАМЯК
+    .suffix = { ent-BaseElectronics.suffix }

@@ -1,0 +1,11 @@
+ent-WeaponArcStatic = { "" }
+ent-WeaponArcAnimated = { "" }
+ent-WeaponArcThrust = { ent-WeaponArcStatic }
+ent-WeaponArcSlash = { ent-WeaponArcStatic }
+ent-WeaponArcBite = { ent-WeaponArcStatic }
+ent-WeaponArcClaw = { ent-WeaponArcStatic }
+ent-WeaponArcDisarm = { ent-WeaponArcAnimated }
+ent-WeaponArcFist = { ent-WeaponArcStatic }
+ent-WeaponArcPunch = { ent-WeaponArcStatic }
+ent-WeaponArcKick = { ent-WeaponArcStatic }
+ent-WeaponArcSmash = { ent-WeaponArcStatic }

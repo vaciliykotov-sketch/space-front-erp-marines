@@ -1,0 +1,118 @@
+# combat technician
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidDeltaCombatTech
+  name: "роль призрака «Дельта»: боевой техник"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCDeltaCombatTech
+
+- type: randomHumanoidSettings
+  parent: [RMCCombatTech, RMCDeltaBase]
+  id: RMCDeltaCombatTech
+
+# fireteam leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidDeltaFireteamLeader
+  name: "роль призрака «Дельта»: командир отделения"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCDeltaFireteamLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCFireteamLeader, RMCDeltaBase]
+  id: RMCDeltaFireteamLeader
+
+# hospital corpsman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidDeltaHospitalCorpsman
+  name: "роль призрака «Дельта»: санитар"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCDeltaHospitalCorpsman
+
+- type: randomHumanoidSettings
+  parent: [RMCHospitalCorpsman, RMCDeltaBase]
+  id: RMCDeltaHospitalCorpsman
+
+# rifleman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidDeltaRifleman
+  name: "роль призрака «Дельта»: стрелок"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCDeltaRifleman
+
+- type: randomHumanoidSettings
+  parent: [RMCRifleman, RMCDeltaBase]
+  id: RMCDeltaRifleman
+
+# smart gun operator
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidDeltaSmartGunOperator
+  name: "дельта-роль призрака оператор умного пулемёта"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCDeltaSmartGunOperator
+
+- type: randomHumanoidSettings
+  parent: [RMCSmartGunOperator, RMCDeltaBase]
+  id: RMCDeltaSmartGunOperator
+
+# squad leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidDeltaSquadLeader
+  name: "дельта-роль призрака командир отряда"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCDeltaSquadLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCSquadLeader, RMCDeltaBase]
+  id: RMCDeltaSquadLeader
+
+# weapons specialist
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidDeltaWeaponsSpecialist
+  name: "дельта-роль призрака специалист по оружию"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCDeltaWeaponsSpecialist
+
+- type: randomHumanoidSettings
+  parent: [RMCWeaponsSpecialist, RMCDeltaBase]
+  id: RMCDeltaWeaponsSpecialist

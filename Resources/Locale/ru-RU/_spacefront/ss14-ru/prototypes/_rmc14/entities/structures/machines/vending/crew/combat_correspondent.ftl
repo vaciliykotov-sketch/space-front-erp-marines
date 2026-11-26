@@ -1,0 +1,1 @@
+ent-ColMarTechCrewCombatCorrespondent = стойка снаряжения боевого корреспондента КолМорТех

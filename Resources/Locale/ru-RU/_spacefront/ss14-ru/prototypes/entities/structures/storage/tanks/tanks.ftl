@@ -1,0 +1,15 @@
+ent-WeldingFuelTank = бак для сварочного топлива
+    .suffix = Пустой
+ent-WeldingFuelTankFull = { ent-WeldingFuelTank }
+    .suffix = Заполненный
+ent-WeldingFuelTankHighCapacity = резервуар для топлива повышенной вместимости
+    .suffix = Заполненный
+ent-WaterTank = резервуар с водой
+    .suffix = Пустой
+ent-WaterTankFull = { ent-WaterTank }
+    .suffix = Заполненный
+ent-WaterCooler = охладитель питьевой воды
+ent-WaterTankHighCapacity = резервуар для воды увеличенной ёмкости
+    .suffix = Заполненный
+ent-GenericTank = { ent-StorageTank }
+    .suffix = Пустой

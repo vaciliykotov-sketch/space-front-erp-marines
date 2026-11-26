@@ -1,0 +1,32 @@
+# Разведка вырезана из режима: прототипы оставлены как пустышки,
+# чтобы карты (almayer.yml и др.) загружались без ошибок.
+
+- type: entity
+  parent: MarkerBase
+  id: CMSpawnPointIntelOfficer
+  name: "точка появления офицера разведки (удалена)"
+  suffix: Removed
+
+- type: entity
+  parent: MarkerBase
+  id: ColMarTechIntelGear
+  name: "торговец снаряжением разведки (удалён)"
+  suffix: Removed
+
+- type: entity
+  parent: MarkerBase
+  id: ColMarTechIntelWeapons
+  name: "торговец оружием разведки (удалён)"
+  suffix: Removed
+
+- type: entity
+  parent: MarkerBase
+  id: ColMarTechIntelEquipment
+  name: "торговец снаряжением разведки (удалён)"
+  suffix: Removed
+
+- type: entity
+  parent: MarkerBase
+  id: CMSpawnPointASO
+  name: "точка появления ASO (удалена)"
+  suffix: Removed

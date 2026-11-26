@@ -1,0 +1,17 @@
+ent-RMCSyringeCase = шприцевый пенал
+ent-RMCSyringeCaseFilled = { ent-RMCSyringeCase }
+    .suffix = Заполнен
+ent-RMCSyringeCaseFilledBurn = { ent-RMCSyringeCase }
+    .suffix = Ожог, Заполнен
+ent-RMCSyringeCaseFilledToxin = { ent-RMCSyringeCase }
+    .suffix = Токсин, Заполнен
+ent-RMCSyringeCaseFilledOxygen = { ent-RMCSyringeCase }
+    .suffix = Кислород, Заполнен
+ent-RMCSyringeCaseFilledRCM = { ent-RMCSyringeCase }
+    .suffix = RCM, Заполнен
+ent-RMCSyringeCaseFilledWhiteout = { ent-RMCSyringeCase }
+    .suffix = Белая мгла, Заполнен
+ent-RMCSyringeCaseFilledPMC = { ent-RMCSyringeCase }
+    .suffix = ЧВК, Заполнен
+ent-RMCSyringeCaseFilledPMCLooted = { ent-RMCSyringeCase }
+    .suffix = ЧВК, Разграблен

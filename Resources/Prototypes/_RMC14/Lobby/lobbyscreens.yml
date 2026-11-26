@@ -1,0 +1,19 @@
+- type: lobbyBackground
+  id: Pyro
+  background: /Textures/_RMC14/Lobby/PyrotechnicianXeno.png
+
+- type: lobbyBackground
+  id: smartgunoperator
+  background: /Textures/_RMC14/Lobby/smart_gun.png
+
+- type: lobbyBackground
+  id: Cornered
+  background: /Textures/_RMC14/Lobby/Cornered.png
+
+- type: lobbyBackground
+  id: Intelligence
+  background: /Textures/_RMC14/Lobby/Intelligence.png
+
+- type: lobbyBackground
+  id: WEYALobby
+  background: /Textures/_RMC14/Lobby/WEYALobby.png

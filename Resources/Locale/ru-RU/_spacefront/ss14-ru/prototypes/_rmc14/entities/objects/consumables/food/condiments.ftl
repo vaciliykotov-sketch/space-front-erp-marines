@@ -1,0 +1,15 @@
+ent-RMCCondiment = ёмкость под приправы
+ent-RMCCondimentSmall = { ent-RMCCondiment }
+ent-RMCCondimentHotsauce = базовый объект острого соуса
+ent-RMCCondimentEnzyme = фермент универсального действия
+ent-RMCCondimentSugar = сахарный песок
+ent-RMCCondimentKetchup = томатный соус кетчуп
+ent-RMCCondimentSoysauce = соус из сои
+ent-RMCCondimentCornOil = масло из кукурузы
+ent-RMCCondimentSmallSalt = ёмкость для соли
+ent-RMCCondimentSmallPepper = мельница для перца
+ent-RMCCondimentHotsauceCholula = бутылка соуса Чолула
+ent-RMCCondimentHotsauceFranks = бутылка красного острого соуса
+ent-RMCCondimentHotsauceSriracha = бутылка соуса шрирача
+ent-RMCCondimentHotsauceTabasco = бутылка соуса табаско
+ent-RMCCondimentHotsauceFranksMacho = бутылка «Фрэнк УЛЬТРА Острый» соуса

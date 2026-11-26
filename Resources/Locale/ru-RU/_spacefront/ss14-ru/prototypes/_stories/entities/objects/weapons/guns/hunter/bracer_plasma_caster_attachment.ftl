@@ -1,0 +1,11 @@
+ent-STBracerAttachmentPlasmaCasterBase = накладка на предплечье для плазмалива
+ent-STBracerAttachmentPlasmaCasterEbony = { ent-STBracerAttachmentPlasmaCasterBase }
+ent-STBracerAttachmentPlasmaCasterBronze = { ent-STBracerAttachmentPlasmaCasterBase }
+ent-STBracerAttachmentPlasmaCasterSilver = { ent-STBracerAttachmentPlasmaCasterBase }
+ent-STBracerAttachmentPlasmaCasterCrimson = { ent-STBracerAttachmentPlasmaCasterBase }
+ent-STBracerAttachmentPlasmaCasterBone = { ent-STBracerAttachmentPlasmaCasterBase }
+ent-STBracerAttachmentPlasmaCasterGold = { ent-STBracerAttachmentPlasmaCasterBase }
+ent-STBracerAttachmentPlasmaCasterWild = { ent-STBracerAttachmentPlasmaCasterBase }
+ent-STBracerAttachmentPlasmaCasterOutcast = { ent-STBracerAttachmentPlasmaCasterBase }
+ent-STBracerAttachmentPlasmaCasterLeader = { ent-STBracerAttachmentPlasmaCasterBase }
+ent-STBracerAttachmentPlasmaCasterSamurai = { ent-STBracerAttachmentPlasmaCasterBase }

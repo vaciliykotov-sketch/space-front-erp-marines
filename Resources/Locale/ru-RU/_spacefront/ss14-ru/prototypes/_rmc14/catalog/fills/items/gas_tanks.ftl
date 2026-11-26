@@ -1,0 +1,12 @@
+ent-CMAnestheticTankFilled = { ent-CMAnestheticTank }
+    .suffix = Заполненный
+ent-RMCGasTankOxygenFilled = { ent-RMCGasTankOxygen }
+    .suffix = RMC14, Заполненный
+ent-RMCEmergencyOxygenTankFilled = { ent-RMCEmergencyOxygenTank }
+    .suffix = RMC14, Заполненный
+ent-RMCExtendedEmergencyOxygenTankFilled = { ent-RMCExtendedEmergencyOxygenTank }
+    .suffix = RMC14, Заполненный
+ent-RMCDoubleEmergencyOxygenTankFilled = { ent-RMCDoubleEmergencyOxygenTank }
+    .suffix = RMC14, Заполненный
+ent-RMCGasTankPhoronFilled = { ent-RMCGasTankPhoron }
+    .suffix = RMC14, Заполненный

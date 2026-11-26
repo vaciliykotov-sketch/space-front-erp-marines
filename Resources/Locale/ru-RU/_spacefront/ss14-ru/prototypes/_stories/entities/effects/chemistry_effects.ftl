@@ -1,0 +1,1 @@
+ent-STTransparentSmoke = прозрачный дым

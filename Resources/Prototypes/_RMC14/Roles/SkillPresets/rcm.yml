@@ -1,0 +1,123 @@
+# RCM Skills
+- type: entity
+  id: RMCSkillPresetRoyalRifleman
+  name: "Стрелок Королевской морской пехоты"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillConstruction: 1
+      RMCSkillCqc: 2
+      RMCSkillEndurance: 3
+      RMCSkillEngineer: 1
+      RMCSkillFirearms: 1 #Should be 2 post recoil changes
+      RMCSkillFireman: 2
+      RMCSkillJtac: 1
+      RMCSkillMedical: 2
+      RMCSkillPolice: 2
+      RMCSkillVehicles: 1
+
+- type: entity
+  parent: RMCSkillPresetRoyalRifleman
+  id: RMCSkillPresetRoyalMedic
+  name: "Медик Королевской морской пехоты"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillMedical: 3
+      RMCSkillSurgery: 2
+      RMCSkillFireman: 3
+
+- type: entity
+  parent: RMCSkillPresetRoyalRifleman
+  id: RMCSkillPresetRoyalBreacher
+  name: "Королевский морпех-прорывник"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillConstruction: 2
+      RMCSkillEngineer: 3
+      RMCSkillPowerLoader: 1
+
+- type: entity
+  parent: RMCSkillPresetRoyalRifleman
+  id: RMCSkillPresetRoyalMarksman
+  name: "Марксман Королевской морской пехоты"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      #RMCSkillSpecialistWeapons: 1 #TODO give them WS skill for scout rifle
+      RMCSkillFirearms: 2 #Should be 3 post recoil changes
+
+- type: entity
+  parent: RMCSkillPresetRoyalRifleman
+  id: RMCSkillPresetRoyalSmartGunner
+  name: "Оператор умного орудия Королевской морской пехоты"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillSmartGun: 1
+
+- type: entity
+  parent: RMCSkillPresetRoyalRifleman
+  id: RMCSkillPresetRoyalTeamLeader
+  name: "Командир отделения Королевской морской пехоты"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillEngineer: 2
+      RMCSkillFireman: 3
+      RMCSkillJtac: 2
+      RMCSkillLeadership: 1
+      RMCSkillPilot: 1
+      RMCSkillIntel: 1
+      
+- type: entity
+  parent: RMCSkillPresetRoyalRifleman
+  id: RMCSkillPresetRoyalLieutenant
+  name: "Лейтенант Королевской морской пехоты"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillEngineer: 2
+      RMCSkillFireman: 3
+      RMCSkillJtac: 3
+      RMCSkillSurgery: 1
+      RMCSkillLeadership: 2
+      RMCSkillPowerLoader: 1
+      RMCSkillIntel: 1
+      RMCSkillOverwatch: 1
+      RMCSkillPilot: 1
+      RMCSkillVehicles: 2
+
+- type: entity
+  parent: RMCSkillPresetRoyalLieutenant
+  id: RMCSkillPresetRoyalCaptain
+  name: "Капитан Королевской морской пехоты"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillConstruction: 2
+      RMCSkillJtac: 4
+      RMCSkillMedical: 3
+      RMCSkillLeadership: 3
+      RMCSkillPowerLoader: 2
+      RMCSkillIntel: 2
+
+- type: entity
+  parent: RMCSkillPresetRoyalCaptain
+  id: RMCSkillPresetRoyalMajor
+  name: "Майор Королевской морской пехоты"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillSmartGun: 1
+      RMCSkillExecution: 1

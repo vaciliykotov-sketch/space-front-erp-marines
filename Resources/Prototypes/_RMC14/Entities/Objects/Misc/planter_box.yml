@@ -1,0 +1,90 @@
+- type: entity
+  parent: BaseStructure
+  id: RMCPlanterBox
+  name: "ящик для выращивания"
+  description: A root lattice is half buried inside the grow box.
+  suffix: Empty, Red sand, Sand, Water
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: false
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        density: 20
+        mask:
+        - MobMask
+        layer:
+        - WallLayer
+  - type: Sprite
+    noRot: true
+    sprite: _RMC14/Structures/Furniture/planter_box.rsi
+    drawdepth: FloorTiles
+    state: planter_box
+  - type: Appearance
+  - type: Damageable
+    damageModifierSet: null
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+          params:
+            volume: -4
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: RMCPlanterBox
+  id: RMCPlanterBox2
+  suffix: Ice, Grass
+  components:
+  - type: Sprite
+    state: planter_box2
+
+- type: entity
+  parent: RMCPlanterBox
+  id: RMCSoilNet
+  suffix: RMC
+  name: "почвенная сетка"
+  description: Scientists use these suspended nets to superimpose a grid over a patch of ground for study.
+  components:
+  - type: Physics
+    bodyType: Static
+    canCollide: false
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 25
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+          params:
+            volume: -4
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: Sprite
+    state: soil_grid
+  - type: SpriteFade
+
+- type: entity
+  parent: RMCPlanterBox
+  id: RMCPlatedGrowBox
+  name: "покрытый ящик для выращивания"
+  description: The planter box is empty.
+  suffix: Empty
+  components:
+  - type: Sprite
+    state: planter_box_empty

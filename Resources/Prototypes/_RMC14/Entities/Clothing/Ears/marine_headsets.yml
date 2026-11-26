@@ -1,0 +1,506 @@
+- type: entity
+  parent: RMCHeadsetShip
+  id: RMCHeadsetMarine
+  name: "радио-гарнитура отряда морпехов"
+  description: A standard military radio headset.
+  components:
+  - type: GrantSquadLeaderTracker
+    defaultMode: SquadLeader
+    trackerModes:
+    - SquadLeader
+    - FireteamLeader
+    - SeniorEnlistedAdvisor
+    - PrimaryLandingZone
+  - type: GrantTacMapAlert
+  - type: HeadsetAutoSquad
+  - type: RMCStaticDefaultChannel
+
+# Alpha
+- type: entity
+  parent: RMCHeadsetMarine
+  id: CMHeadsetAlpha
+  name: "радиогарнитура отряда «Альфа»"
+  description: This is used by Alpha squad members.
+  components:
+  - type: Sprite
+    state: alpha_headset
+  - type: EncryptionKeyHolder
+    defaultChannel: MarineAlpha
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyAlpha
+      - CMEncryptionKeyBravo
+
+- type: entity
+  parent: CMHeadsetAlpha
+  id: CMHeadsetAlphaLeader
+  name: "радиогарнитура командира отряда «Альфа»"
+  description: This is used by the marine Alpha squad leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyAlpha
+      - CMEncryptionKeyBravo
+  - type: RMCHeadset
+    radioTextIncrease: 3
+  - type: GrantSquadLeaderTracker
+    defaultMode: CommandingOfficer
+    trackerModes:
+    - CommandingOfficer
+    - ExecutiveOfficer
+    - SquadLeader
+    - FireteamLeader
+    - PrimaryLandingZone
+
+- type: entity
+  parent: CMHeadsetAlpha
+  id: CMHeadsetAlphaTeamLeader
+  name: "радиогарнитура лидера группы отряда «Альфа»"
+  description: This is used by the marine Alpha team leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyAlpha
+      - CMEncryptionKeyBravo
+  - type: RMCHeadset
+    radioTextIncrease: 2
+
+- type: entity
+  parent: CMHeadsetAlpha
+  id: CMHeadsetAlphaEngineer
+  name: "радиогарнитура инженера отряда «Альфа»"
+  description: This is used by the marine Alpha combat engineers.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyAlpha
+      - CMEncryptionKeyBravo
+
+- type: entity
+  parent: CMHeadsetAlpha
+  id: CMHeadsetAlphaMedic
+  name: "радиогарнитура санитара отряда «Альфа»"
+  description: This is used by the marine Alpha combat medics.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyAlpha
+      - CMEncryptionKeyBravo
+
+
+# Bravo
+- type: entity
+  parent: RMCHeadsetMarine
+  id: CMHeadsetBravo
+  name: "радиогарнитура отряда «Браво»"
+  description: This is used by Bravo squad members.
+  components:
+  - type: Sprite
+    state: bravo_headset
+  - type: EncryptionKeyHolder
+    defaultChannel: MarineBravo
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyAlpha
+      - CMEncryptionKeyBravo
+
+- type: entity
+  parent: CMHeadsetBravo
+  id: CMHeadsetBravoLeader
+  name: "радиогарнитура командира отряда «Браво»"
+  description: This is used by the marine Bravo squad leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyAlpha
+      - CMEncryptionKeyBravo
+  - type: RMCHeadset
+    radioTextIncrease: 3
+  - type: GrantSquadLeaderTracker
+    defaultMode: CommandingOfficer
+    trackerModes:
+    - CommandingOfficer
+    - ExecutiveOfficer
+    - SquadLeader
+    - FireteamLeader
+    - PrimaryLandingZone
+
+- type: entity
+  parent: CMHeadsetBravo
+  id: CMHeadsetBravoTeamLeader
+  name: "радиогарнитура лидера группы «Браво» морпехов"
+  description: This is used by the marine Bravo team leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyAlpha
+      - CMEncryptionKeyBravo
+  - type: RMCHeadset
+    radioTextIncrease: 2
+
+- type: entity
+  parent: CMHeadsetBravo
+  id: CMHeadsetBravoEngineer
+  name: "радиогарнитура инженера отряда «Браво»"
+  description: This is used by the marine Bravo combat engineers.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyAlpha
+      - CMEncryptionKeyBravo
+
+- type: entity
+  parent: CMHeadsetBravo
+  id: CMHeadsetBravoMedic
+  name: "радиогарнитура санитара отряда «Браво»"
+  description: This is used by the marine Bravo combat medics.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyAlpha
+      - CMEncryptionKeyBravo
+
+
+# Charlie
+- type: entity
+  parent: RMCHeadsetMarine
+  id: CMHeadsetCharlie
+  name: "радиогарнитура группы «Чарли» морпехов"
+  description: This is used by Charlie squad members.
+  components:
+  - type: Sprite
+    state: charlie_headset
+  - type: EncryptionKeyHolder
+    defaultChannel: MarineCharlie
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCharlie
+      - CMEncryptionKeyDelta
+
+- type: entity
+  parent: CMHeadsetCharlie
+  id: CMHeadsetCharlieLeader
+  name: "радиогарнитура лидера группы «Чарли» морпехов"
+  description: This is used by the marine Charlie squad leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCharlie
+      - CMEncryptionKeyDelta
+  - type: RMCHeadset
+    radioTextIncrease: 3
+  - type: GrantSquadLeaderTracker
+    defaultMode: CommandingOfficer
+    trackerModes:
+    - CommandingOfficer
+    - ExecutiveOfficer
+    - SquadLeader
+    - FireteamLeader
+    - PrimaryLandingZone
+
+- type: entity
+  parent: CMHeadsetCharlie
+  id: CMHeadsetCharlieTeamLeader
+  name: "радиогарнитура лидера группы «Чарли» морпехов"
+  description: This is used by the marine Charlie team leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCharlie
+      - CMEncryptionKeyDelta
+  - type: RMCHeadset
+    radioTextIncrease: 2
+
+- type: entity
+  parent: CMHeadsetCharlie
+  id: CMHeadsetCharlieEngineer
+  name: "радиогарнитура инженера группы «Чарли» морпехов"
+  description: This is used by the marine Charlie combat engineers.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCharlie
+      - CMEncryptionKeyDelta
+
+- type: entity
+  parent: CMHeadsetCharlie
+  id: CMHeadsetCharlieMedic
+  name: "радиогарнитура санитара группы «Чарли» морпехов"
+  description: This is used by the marine Charlie combat medics.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCharlie
+      - CMEncryptionKeyDelta
+
+
+# Delta
+- type: entity
+  parent: RMCHeadsetMarine
+  id: CMHeadsetDelta
+  name: "радиогарнитура группы «Дельта» морпехов"
+  description: This is used by Delta squad members.
+  components:
+  - type: Sprite
+    state: delta_headset
+  - type: EncryptionKeyHolder
+    defaultChannel: MarineDelta
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCharlie
+      - CMEncryptionKeyDelta
+
+- type: entity
+  parent: CMHeadsetDelta
+  id: CMHeadsetDeltaLeader
+  name: "радиогарнитура лидера группы «Дельта» морпехов"
+  description: This is used by the marine Delta squad leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCharlie
+      - CMEncryptionKeyDelta
+  - type: RMCHeadset
+    radioTextIncrease: 3
+  - type: GrantSquadLeaderTracker
+    defaultMode: CommandingOfficer
+    trackerModes:
+    - CommandingOfficer
+    - ExecutiveOfficer
+    - SquadLeader
+    - FireteamLeader
+    - PrimaryLandingZone
+
+- type: entity
+  parent: CMHeadsetDelta
+  id: CMHeadsetDeltaTeamLeader
+  name: "радиогарнитура лидера группы «Дельта» морпехов"
+  description: This is used by the marine Delta team leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCharlie
+      - CMEncryptionKeyDelta
+  - type: RMCHeadset
+    radioTextIncrease: 2
+
+- type: entity
+  parent: CMHeadsetDelta
+  id: CMHeadsetDeltaEngineer
+  name: "радиогарнитура инженера группы «Дельта» морпехов"
+  description: This is used by the marine Delta combat engineers.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCharlie
+      - CMEncryptionKeyDelta
+
+- type: entity
+  parent: CMHeadsetDelta
+  id: CMHeadsetDeltaMedic
+  name: "радиогарнитура санитара группы «Дельта» морпехов"
+  description: This is used by the marine Delta combat medics.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCharlie
+      - CMEncryptionKeyDelta
+
+
+# Echo
+- type: entity
+  parent: RMCHeadsetMarine
+  id: CMHeadsetEcho
+  name: "радиогарнитура группы «Эхо» морпехов"
+  description: This is used by Echo squad members.
+  components:
+  - type: Sprite
+    state: echo_headset
+  - type: EncryptionKeyHolder
+    defaultChannel: MarineEcho
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
+
+- type: entity
+  parent: CMHeadsetEcho
+  id: CMHeadsetEchoLeader
+  name: "радиогарнитура лидера группы «Эхо» морпехов"
+  description: This is used by the marine Echo squad leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
+      - CMEncryptionKeySquadLeader
+  - type: RMCHeadset
+    radioTextIncrease: 3
+  - type: GrantSquadLeaderTracker
+    defaultMode: CommandingOfficer
+    trackerModes:
+    - CommandingOfficer
+    - ExecutiveOfficer
+    - SquadLeader
+    - FireteamLeader
+    - PrimaryLandingZone
+
+- type: entity
+  parent: CMHeadsetEcho
+  id: CMHeadsetEchoTeamLeader
+  name: "радиогарнитура лидера группы «Эхо» морпехов"
+  description: This is used by the marine Echo team leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
+      - CMEncryptionKeyJTAC
+  - type: RMCHeadset
+    radioTextIncrease: 2
+
+- type: entity
+  parent: CMHeadsetEcho
+  id: CMHeadsetEchoEngineer
+  name: "радиогарнитура инженера группы «Эхо» морпехов"
+  description: This is used by the marine Echo combat engineers.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyEngineer
+      - CMEncryptionKeyCommon
+
+- type: entity
+  parent: CMHeadsetEcho
+  id: CMHeadsetEchoMedic
+  name: "радиогарнитура санитара группы «Эхо» морпехов"
+  description: This is used by the marine Echo combat medics.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyMedical
+      - CMEncryptionKeyCommon
+
+
+# Foxtrot
+- type: entity
+  parent: RMCHeadsetMarine
+  id: CMHeadsetFoxtrot
+  name: "радиогарнитура группы «Фокстрот» морпехов"
+  description: This is used by Foxtrot squad members.
+  components:
+  - type: Sprite
+    state: cryo_headset
+  - type: EncryptionKeyHolder
+    defaultChannel: MarineFoxtrot
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
+
+- type: entity
+  parent: CMHeadsetFoxtrot
+  id: CMHeadsetFoxtrotLeader
+  name: "радиогарнитура лидера группы «Фокстрот» морпехов"
+  description: This is used by the marine Foxtrot squad leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
+      - CMEncryptionKeySquadLeader
+  - type: RMCHeadset
+    radioTextIncrease: 3
+  - type: GrantSquadLeaderTracker
+    defaultMode: CommandingOfficer
+    trackerModes:
+    - CommandingOfficer
+    - ExecutiveOfficer
+    - SquadLeader
+    - FireteamLeader
+    - PrimaryLandingZone
+
+- type: entity
+  parent: CMHeadsetFoxtrot
+  id: CMHeadsetFoxtrotTeamLeader
+  name: "радиогарнитура лидера группы «Фокстрот» морпехов"
+  description: This is used by the marine Foxtrot team leader.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyCommon
+      - CMEncryptionKeyJTAC
+  - type: RMCHeadset
+    radioTextIncrease: 2
+
+- type: entity
+  parent: CMHeadsetFoxtrot
+  id: CMHeadsetFoxtrotEngineer
+  name: "радиогарнитура инженера группы «Фокстрот» морпехов"
+  description: This is used by the marine Foxtrot combat engineers.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyEngineer
+      - CMEncryptionKeyCommon
+
+- type: entity
+  parent: CMHeadsetFoxtrot
+  id: CMHeadsetFoxtrotMedic
+  name: "радиогарнитура санитара группы «Фокстрот» морпехов"
+  description: This is used by the marine Foxtrot combat medics.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - CMEncryptionKeyMedical
+      - CMEncryptionKeyCommon
+
+# PVE
+
+- type: entity
+  parent: RMCHeadsetShip
+  id: RMCHeadsetGoldenArrow
+  name: "радиогарнитура Sun Riders"
+  description: This is used by the UNMC Sun Riders Platoon.
+  components:
+  - type: Sprite
+    state: delta_headset
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - RMCEncryptionKeySunRiders
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Ears/headset_onmob.rsi
+  - type: GrantSquadLeaderTracker
+    defaultMode: SectionSergeant
+    trackerModes:
+    - SectionSergeant
+    - PVESquadLeader
+    - PrimaryLandingZone
+  - type: GrantTacMapAlert
+  - type: HeadsetAutoSquad

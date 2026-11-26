@@ -1,0 +1,12 @@
+ent-STActionHunterBase = { "" }
+ent-STActionToggleScope = Включить/выключить приближение
+ent-STActionToggleHunterVision = Включить/выключить визор маски
+ent-STActionToggleHunterCloak = Включить/выключить маскировку
+ent-STActionOpenMarkPanel = Панель меток — открыть
+ent-STActionMarkForHunt = Пометить в качестве добычи
+ent-STActionToggleSelfDestruct = Запустить самоуничтожение
+ent-STActionTogglePlasmaCaster = Плазмомёт — развернуть
+ent-STActionCreateHealingCapsule = Лечебная капсула — создать
+ent-STActionCreateStabilizingCrystal = Стабилизирующий кристалл — создать
+ent-STActionToggleBracerAttachments = Лезвия: выдвинуть или убрать
+ent-STActionToggleTranslator = Переводчик — применить

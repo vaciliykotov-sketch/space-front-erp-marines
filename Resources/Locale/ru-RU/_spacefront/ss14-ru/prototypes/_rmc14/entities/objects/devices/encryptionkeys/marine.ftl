@@ -1,0 +1,10 @@
+ent-CMEncryptionKeySquadLeader = ключ шифрования отрядного командира
+ent-CMEncryptionKeyAlpha = ключ шифрования для альфы
+ent-CMEncryptionKeyBravo = ключ шифрования для браво
+ent-CMEncryptionKeyCharlie = ключ шифрования для чарли
+ent-CMEncryptionKeyDelta = ключ шифрования для дельта
+ent-CMEncryptionKeyEcho = ключ шифрования для эхо
+ent-CMEncryptionKeyFoxtrot = ключ шифрования для фокстрот
+ent-CMEncryptionKeySOF = ключ шифрования для ссо
+ent-RMCEncryptionKeyFORECON = ключ шифрования для ФОРКОН
+ent-RMCEncryptionKeySunRiders = ключ шифрования для солнечных рейдеров

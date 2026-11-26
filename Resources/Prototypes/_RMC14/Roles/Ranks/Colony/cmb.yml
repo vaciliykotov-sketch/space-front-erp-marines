@@ -1,0 +1,68 @@
+# Names inspired after police ranks
+# Differs from CM - Deputies stay the same, specialists in their field are Corporals/Sergeants, Riot Control unit leaders are Lieutenants, Marshals are Captains. CMB Synthetics are either ranked Detective/Corporal/Sergeant depending on their speciality
+
+# Deputy
+- type: rank
+  id: RMCRankCMBDeputy
+  name: "Заместитель"
+  prefix: Dep.
+  paygrade: CMB
+
+- type: rank
+  id: RMCRankCMBSeniorDeputy
+  name: "Старший заместитель"
+  prefix: Sr. Dep.
+  paygrade: CMB
+
+# Corporal (Specialists/Very senior deputies)
+- type: rank
+  id: RMCRankCMBCorporal
+  name: "Капрал"
+  prefix: Cpl.
+  paygrade: CMB
+
+# Sergeant (Specialists)
+- type: rank
+  id: RMCRankCMBSergeant
+  name: "Серgeant"
+  prefix: Sgt.
+  paygrade: CMB
+
+# Lieutenant (Team Leaders)
+- type: rank
+  id: RMCRankCMBLieutenant
+  name: "Лейтенант"
+  prefix: Lt.
+  paygrade: CMB
+
+# Captain (Marshal)
+- type: rank
+  id: RMCRankCMBMarshal
+  name: "Капитан"
+  prefix: Capt.
+  paygrade: CMB
+
+# Detective
+- type: rank
+  id: RMCRankCMBDetective
+  name: "Детектив"
+  prefix: Det.
+  paygrade: CMB
+
+# ICB ranks
+- type: rank
+  id: RMCRankICBAgent
+  name: "Агент Межзвёздного торгового бюро"
+  prefix: Agent
+
+- type: rank
+  id: RMCRankICBCorporateLiaison
+  name: "Корпоративный представитель Межзвёздного торгового бюро"
+  prefix: ICB Rep.
+  paygrade: ICBL
+
+- type: rank
+  id: RMCRankIHROObserver
+  name: "Наблюдатель за межзвёздными правами жизни"
+  prefix: "Obsv."
+  paygrade: ILRO

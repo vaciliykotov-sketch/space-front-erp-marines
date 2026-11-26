@@ -1,0 +1,16 @@
+ent-RMCExtinguisherCabinet = шкафчик под огнетушитель
+    .suffix = RMC14
+ent-RMCExtinguisherCabinetOpen = { ent-RMCExtinguisherCabinet }
+    .suffix = RMC14, Открыт
+ent-RMCExtinguisherCabinetFilled = { ent-RMCExtinguisherCabinet }
+    .suffix = RMC14, Заполнен
+ent-RMCExtinguisherCabinetFilledOpen = { ent-RMCExtinguisherCabinetFilled }
+    .suffix = RMC14, Заполнен, Открыт
+ent-RMCExtinguisherCabinetAlt = шкафчик под огнетушитель
+    .suffix = RMC14, Альтернативный
+ent-RMCExtinguisherCabinetAltOpen = { ent-RMCExtinguisherCabinetAlt }
+    .suffix = RMC14, Альтернативный, Открыт
+ent-RMCExtinguisherCabinetAltFilled = { ent-RMCExtinguisherCabinetAlt }
+    .suffix = RMC14, Альтернативный, Заполнен
+ent-RMCExtinguisherCabinetAltFilledOpen = { ent-RMCExtinguisherCabinetAltFilled }
+    .suffix = RMC14, Альтернативный, Заполнен, Открыт

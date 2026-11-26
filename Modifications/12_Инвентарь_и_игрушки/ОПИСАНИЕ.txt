@@ -1,0 +1,19 @@
+МОДИФИКАЦИЯ: 12 Инвентарь и игрушки
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Дополнительные слоты и полоски (Toys-слоты)
+
+ЗАЧЕМ:
+Что делает: доп. слоты на персонаже и полосках, шаблоны инвентаря. Зачем: расширение экипировки.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Shared/_SpaceFront/Inventory/InventorySystem.Slots.cs
+- Content.Shared/_SpaceFront/Strip/SharedStrippableSystem.cs
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Чужие файлы с маркерами:
+- Content.Shared/Inventory/InventorySystem.Slots.cs, Content.Shared/Strip/SharedStrippableSystem.cs
+- ToysSlotDoAfterEvent.cs и ToysStripEmptyDoAfterEvent.cs (наши события в ванильных путях — вынос требует правки _Wega)
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

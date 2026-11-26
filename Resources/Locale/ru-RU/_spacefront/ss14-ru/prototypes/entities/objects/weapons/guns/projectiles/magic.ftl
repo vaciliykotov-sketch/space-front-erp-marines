@@ -1,0 +1,13 @@
+ent-ProjectileFireball = шар огня
+ent-ProjectileDragonsBreath = драконье дыхание
+ent-ProjectileAnomalyFireball = шар огня аномальный
+ent-ProjectileLocker = шкафчик проклятый
+ent-ProjectilePolyboltBase = { ent-BaseBullet }
+ent-ProjectilePolyboltCarp = карповый полизаряд
+ent-ProjectilePolyboltMonkey = обезьяний полизаряд
+ent-ProjectilePolyboltDoor = дверной полизаряд
+ent-ProjectileHealingBolt = заряд исцеления
+ent-BulletInstakillMagic = магический свинцовый цилиндр
+ent-ProjectilePolyboltCluwne = клувневый полизаряд
+ent-ProjectileIcicle = ледяная сосулька
+ent-ProjectilePolyboltBread = хлебный полизаряд

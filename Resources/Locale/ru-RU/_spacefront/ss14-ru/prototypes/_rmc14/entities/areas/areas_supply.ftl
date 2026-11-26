@@ -1,0 +1,10 @@
+ent-RMCAreaSupply = { ent-RMCAreaBase }
+    .suffix = { ent-RMCAreaBase.suffix }
+ent-RMCAreaSupplyStation = Снабженческий шаттл
+    .suffix = { ent-RMCAreaSupply.suffix }
+ent-RMCAreaSupplyDock = Док снабжения
+    .suffix = { ent-RMCAreaSupply.suffix }
+ent-RMCAreaSupplyStationVehicle = ASRS-транспорт
+    .suffix = { ent-RMCAreaSupply.suffix }
+ent-RMCAreaSupplyDockVehicle = ASRS-транспорт
+    .suffix = { ent-RMCAreaSupply.suffix }

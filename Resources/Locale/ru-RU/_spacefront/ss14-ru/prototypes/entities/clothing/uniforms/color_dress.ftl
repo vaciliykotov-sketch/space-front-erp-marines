@@ -1,0 +1,16 @@
+ent-ClothingUniformJumpskirtBlackElegantDress = чёрное элегантное платье
+ent-ClothingUniformJumpskirtRedElegantDress = красное элегантное платье
+ent-ClothingUniformJumpskirtGreenElegantDress = зелёное элегантное платье
+ent-ClothingUniformJumpskirtBlueElegantDress = синее элегантное платье
+ent-ClothingUniformJumpskirtPurpleElegantDress = фиолетовое элегантное платье
+ent-ClothingUniformJumpskirtCyanStripedDress = голубое платье в полоску
+ent-ClothingUniformJumpskirtRedStripedDress = красное платье в полоску
+ent-ClothingUniformJumpskirtGreenStripedDress = зелёное платье в полоску
+ent-ClothingUniformJumpskirtPinkStripedDress = розовое платье в полоску
+ent-ClothingUniformJumpskirtOrangeStripedDress = оранжевое платье в полоску
+ent-ClothingUniformJumpskirtPurpleTurtleneckDress = платье-водолазка фиолетового цвета
+ent-ClothingUniformJumpskirtRedTurtleneckDress = платье-водолазка красного цвета
+ent-ClothingUniformJumpskirtGreenTurtleneckDress = платье-водолазка зелёного цвета
+ent-ClothingUniformJumpskirtBlueTurtleneckDress = платье-водолазка синего цвета
+ent-ClothingUniformJumpskirtYellowTurtleneckDress = платье-водолазка жёлтого цвета
+ent-ClothingUniformJumpskirtYellowOldDress = жёлтое платье старого образца

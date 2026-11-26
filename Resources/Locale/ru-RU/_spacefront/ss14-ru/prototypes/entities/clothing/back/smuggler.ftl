@@ -1,0 +1,14 @@
+ent-BaseSubfloorAnchorStorage = { "" }
+ent-BaseSubfloorAnchorStorageAnchored = { ent-BaseSubfloorAnchorStorage }
+ent-ClothingBackpackSatchelSmuggler = контрабандистская сумка
+    .suffix = Пустой
+ent-ClothingBackpackSatchelSmugglerUnanchored = контрабандистская сумка
+    .suffix = Пустой, Не закреплено
+ent-BriefcaseSmugglerCash = контрабандистский чемодан
+    .suffix = Контрабанда, Не Маппить
+ent-ClothingBackpackDuffelClownSmuggler = контрабандистский клоунский вещмешок
+    .suffix = Контрабанда, Не Маппить
+ent-ClothingBackpackSatchelSmugglerFilled = { ent-ClothingBackpackSatchelSmuggler }
+    .suffix = Контрабанда, Не Маппить
+ent-RandomSatchelSpawner = спавнер случайной контрабандистской сумки
+    .suffix = Не Маппить

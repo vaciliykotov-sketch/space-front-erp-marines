@@ -1,0 +1,180 @@
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateMagazineM96SMixed
+  name: "Ящик смешанных магазинов для снайперской винтовки M96S (марксманские x2, осколочные x2, зажигательные x2)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMMagazineSniperM96S
+      amount: 2
+    - id: CMMagazineSniperM96SFlak
+      amount: 2
+    - id: CMMagazineSniperM96SIncendiary
+      amount: 2
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateMagazineM96SStandard
+  name: "Ящик стандартных магазинов для снайперской винтовки M96S (x5)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMMagazineSniperM96S
+      amount: 5
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateMagazineM96SFlak
+  name: "Ящик магазинов с осколочными патронами для снайперской винтовки M96S (x5)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMMagazineSniperM96SFlak
+      amount: 5
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateMagazineM96SIncendiary
+  name: "Ящик магазинов с зажигательными патронами для снайперской винтовки M96S (x5)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMMagazineSniperM96SIncendiary
+      amount: 5
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateMagazineXM43E1Standard
+  name: "Ящик стандартных магазинов для снайперской винтовки XM43E1 (x3)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineSniperXM43E1AntiMateriel
+      amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateM5DemoSpecMixed
+  name: "Смешанный ящик M5-ATL (ОФ x1, ББ x1, БФ x1)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCRocket84mm
+      amount: 1
+    - id: RMCRocket84mmAntiArmor
+      amount: 1
+    - id: RMCRocket84mmWhitePhosphorus
+      amount: 1
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateM5DemoSpecHighExplosive
+  name: "Ящик фугасных средств M5-ATL (ОФ x3)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCRocket84mm
+      amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateM5DemoSpecAntiArmor
+  name: "Ящик противотанковых средств M5-ATL (ББ x3)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCRocket84mmAntiArmor
+      amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateM5DemoSpecWhitePhosphorus
+  name: "Ящик белого фосфора M5-ATL (БФ x3)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCRocket84mmWhitePhosphorus
+      amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateMagazineM4SPRCustomMixed
+  name: "Ящик смешанных магазинов разведчика M4SPR (обычные x2, зажигательные x2, ударные x2)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineRifleM4SPRA19
+      amount: 2
+    - id: RMCMagazineRifleM4SPRA19Impact
+      amount: 2
+    - id: RMCMagazineRifleM4SPRA19Incendiary
+      amount: 2
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateMagazineM4SPRCustomStandard
+  name: "Ящик магазинов разведчика M4SPR (x5)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineRifleM4SPRA19
+      amount: 5
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateMagazineM4SPRCustomImpact
+  name: "Ящик ударных магазинов разведчика M4SPR (x3)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineRifleM4SPRA19Impact
+      amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCrateMagazineM4SPRCustomIncendiary
+  name: "Ящик зажигательных магазинов разведчика M4SPR (x3)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineRifleM4SPRA19Incendiary
+      amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCratePyroTankMixed
+  name: "Ящик со смешанными топливными баками M34-T (удлинённый x1, тип-B x1, тип-X x1)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCTankFlamerLarge
+    - id: RMCTankFlamerLargeB
+    - id: RMCTankFlamerLargeX
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCratePyroTankExtended
+  name: "Ящик с удлинёнными топливными баками M34-T (x3)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCTankFlamerLarge
+      amount: 3
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCratePyroTankTypeB
+  name: "Ящик с топливным баком типа-B M34-T (x1)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCTankFlamerLargeB
+
+- type: entity
+  parent: RMCCrateAmmo
+  id: RMCCratePyroTankTypeX
+  name: "Ящик с топливным баком типа-X M34-T (x1)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCTankFlamerLargeX

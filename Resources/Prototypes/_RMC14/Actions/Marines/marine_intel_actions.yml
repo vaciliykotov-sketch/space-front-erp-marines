@@ -1,0 +1,10 @@
+- type: entity
+  id: RMCActionViewIntelObjectives
+  name: "Просмотр разведцелей"
+  components:
+  - type: Action
+    checkCanInteract: false
+    icon:
+      entity: CMFolderWhite
+  - type: InstantAction
+    event: !type:ViewIntelObjectivesActionEvent

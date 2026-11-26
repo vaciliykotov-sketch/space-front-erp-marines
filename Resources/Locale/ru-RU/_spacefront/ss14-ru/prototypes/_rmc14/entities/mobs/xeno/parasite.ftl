@@ -1,0 +1,10 @@
+ent-CMXenoParasiteBase = Нападающий на лицо
+    .suffix = Лицехват
+ent-CMXenoParasite = { ent-CMXenoParasiteBase }
+    .suffix = Нормальный
+ent-RMCXenoParasiteWatcher = { ent-CMXenoParasiteBase }
+    .suffix = Наблюдатель
+ent-RMCXenoParasitePrimeHiveAssign = { ent-CMXenoParasite }
+    .suffix = Автоматическое назначение улья
+ent-RMCXenoParasiteObserver = { ent-CMXenoParasiteBase }
+    .suffix = Наблюдатель

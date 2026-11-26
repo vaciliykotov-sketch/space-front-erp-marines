@@ -1,0 +1,9 @@
+ent-WeaponWandPolymorphBase = { ent-WeaponWandBase }
+ent-WeaponWandPolymorphCarp = палочка полиморфа карпа
+ent-WeaponWandPolymorphMonkey = палочка полиморфа обезьяны
+ent-WeaponWandFireball = палочка огненного шара
+ent-WeaponWandLocker = палочка шкафчика
+ent-WeaponWandDeath = палочка мгновенной смерти
+ent-WeaponWandPolymorphDoor = палочка входа
+ent-WeaponWandCluwne = палочка полиморфа клувеня
+ent-WeaponWandPolymorphBread = палочка полиморфа хлеба

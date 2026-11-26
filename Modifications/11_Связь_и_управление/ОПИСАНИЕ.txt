@@ -1,0 +1,24 @@
+МОДИФИКАЦИЯ: 11 Связь и управление
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Телефон, радио-метки планет, уровни тревоги, консоли дропшипов
+
+ЗАЧЕМ:
+Что делает: телефонная связь, радиоканалы планет, уровни тревоги с привязкой к картам, дропшип-консоли (включая комп удалённого управления Авророй). Зачем: связь и управление — каркас командной игры.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Server/_SpaceFront/_RMC14/Telephone/RMCTelephoneSystem.cs
+- Content.Shared/_SpaceFront/Radio/RadioChannelPrototype.cs
+- Content.Shared/_SpaceFront/_RMC14/AlertLevel/RMCAlertLevelComponent.cs
+- Content.Shared/_SpaceFront/_RMC14/AlertLevel/RMCAlertLevelSystem.cs
+- Content.Shared/_SpaceFront/_RMC14/Dropship/DropshipNavigationComputerComponent.cs
+- Content.Shared/_SpaceFront/_RMC14/Telephone/SharedRMCTelephoneSystem.cs
+- Content.Client/_SpaceFront/_RMC14/Telephone/RMCTelephoneBui.cs
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Чужие файлы с маркерами:
+- Content.Shared/_RMC14/AlertLevel/*, _RMC14/Telephone/*, _RMC14/Dropship/DropshipSystem.cs
+Ресурсы: shuttle_console.yml — компы удалённого управления Авророй
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

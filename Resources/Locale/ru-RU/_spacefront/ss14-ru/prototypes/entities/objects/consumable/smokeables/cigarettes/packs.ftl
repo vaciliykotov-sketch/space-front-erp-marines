@@ -1,0 +1,9 @@
+ent-CigPackBase = упаковка сигарет
+ent-CigPackMixedBase = упаковка пропитанных сигарет
+ent-CigPackGreen = упаковка сигарет Spessman's Smokes
+ent-CigPackRed = сигаретная пачка от DromedaryCo
+ent-CigPackBlue = сигаретная пачка производства AcmeCo
+ent-CigPackBlack = сигареты Nomads в пачке
+ent-CigPackSyndicate = Интердайновская пачка трав
+ent-CigPackMixed = пачка сигарет Дэна с пропиткой
+    .suffix = Смешанные

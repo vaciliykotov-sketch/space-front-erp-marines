@@ -1,0 +1,1 @@
+ent-STHunterSarcophagus = саркофаг чужих

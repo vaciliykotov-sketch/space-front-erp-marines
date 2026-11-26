@@ -1,0 +1,74 @@
+- type: job
+  parent: CMSurvivor
+  id: CMSurvivorMiner
+  name: cm-job-name-survivor-miner
+  description: cm-job-description-survivor
+  playTimeTracker: CMJobSurvivor
+  setPreference: false
+  startingGear: RMCGearSurvivorMiner
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorMiner
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetMiner
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+
+- type: startingGear
+  id: RMCGearSurvivorMiner
+  equipment:
+    head: RMCHardhatOrange
+    ears: CMHeadsetColony
+    gloves: RMCHandsBlack
+    jumpsuit: CMJumpsuitLiaisonBlue
+    outerClothing: RMCHazardVestYellow
+    shoes: RMCShoesJackboots
+    back: CMSatchelEngineerMinerSurvivorFill
+    id: CMIDCardColonist
+    pocket1: RMCPouchSurvivalFill
+    pocket2: RMCPouchToolsFill
+  inhand:
+    - RMCPickaxe
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorMiner
+  name: "точка появления шахтёра"
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivor
+  - type: Sprite
+    layers:
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv
+
+- type: entity
+  parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
+  id: RMCSurvivorPresetMiner
+  name: "пресет колониста-шахтёра"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidSurvivorMiner
+  name: "роль призрака колониста-шахтёра"
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCSurvivorMiner
+
+- type: randomHumanoidSettings
+  parent: RMCSettingsGhostRole
+  id: RMCSurvivorMiner
+  components:
+  - type: RMCJobSpawner
+    job: CMSurvivorMiner

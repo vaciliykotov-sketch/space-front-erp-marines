@@ -1,0 +1,10 @@
+ent-VehicleViewport = обзорное окно транспорта
+ent-VehicleViewportUnanchored = обзорное окно транспорта (незакреплённое)
+ent-VehicleViewportSimple = обзорное окно транспорта (упрощённое)
+ent-VehicleHumveeViewportBase = { ent-VehicleHumveeInteriorBase }
+ent-VehicleHumveeViewportLarge = { ent-VehicleHumveeViewportBase }
+ent-VehicleHumveeViewportSmall = { ent-VehicleHumveeViewportBase }
+ent-VehicleHumveeViewportSmallWindow = { ent-VehicleHumveeViewportBase }
+ent-VehicleHumveeViewportFrontNorth = { ent-VehicleHumveeViewportBase }
+ent-VehicleHumveeViewportFrontSouth = { ent-VehicleHumveeViewportBase }
+ent-VehicleHumveeViewportDoor = { ent-VehicleHumveeViewportBase }

@@ -1,0 +1,12 @@
+ent-RMCCrateClothingLargePouches = большие подсумки в ящике (х2 пистолет, магазин, общий)
+ent-RMCCrateClothingMedicalPouches = медицинские подсумки в ящике (х1 аптечка, медицинский комплект, шприц, медицинская сумка)
+ent-RMCCrateClothingWebbing = разгрузки в ящике (x4)
+ent-RMCCrateClothingWebbingBlack = чёрные разгрузки в ящике (x4)
+ent-RMCCrateClothingWebbingVest = разгрузки в ящике (коричневые и чёрные, по x2)
+ent-RMCCrateClothingWebbingKnife = ножевые подсумки в ящике (x3)
+ent-RMCCrateClothingWebbingHolster = плечевые кобуры в ящике (x4)
+ent-RMCCrateClothingWebbingHolsterBlack = чёрные плечевые кобуры в ящике (x4)
+ent-RMCCrateClothingDropPouch = откидные подсумки в ящике (x4)
+ent-RMCCrateClothingDropPouchBlack = чёрные откидные подсумки в ящике (x4)
+ent-RMCCrateClothingOfficerOutfit = офицерская форма в ящике
+ent-RMCCrateClothingWebbingPouch = подсумки для сброса в ящике (x4)

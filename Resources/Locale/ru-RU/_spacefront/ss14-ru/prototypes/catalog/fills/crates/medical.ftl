@@ -1,0 +1,15 @@
+ent-CrateMedicalSupplies = коробка с медицинскими припасами
+ent-CrateChemistrySupplies = коробка с химическим оборудованием
+ent-CrateChemistryVials = коробка с химическими пробирками
+ent-CrateMindShieldImplants = коробка с имплантами "Щит разума"
+ent-CrateMedicalSurgery = коробка с хирургическими инструментами
+ent-CrateMedicalScrubs = коробка с медицинскими робами
+ent-CrateEmergencyBurnKit = аварийный комплект для лечения физических травм
+ent-CrateEmergencyToxinKit = аварийный комплект для лечения токсинов
+ent-CrateEmergencyO2Kit = аварийный комплект для лечения кислородного голодания
+ent-CrateEmergencyBruteKit = аварийный комплект для лечения механических травм
+ent-CrateEmergencyAdvancedKit = усовершенствованный аварийный комплект
+ent-CrateEmergencyRadiationKit = аварийный комплект для выведения радиации
+ent-CrateBodyBags = коробка с мешками для тела
+ent-CrateVirologyBiosuit = ящик биокостюмов для вирусологии
+    .suffix = { ent-CrateMedicalSecure.suffix }

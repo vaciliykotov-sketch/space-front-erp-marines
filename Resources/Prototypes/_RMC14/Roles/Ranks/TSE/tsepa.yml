@@ -1,0 +1,42 @@
+# TSEPA - (Three Suns Empire Policing Authority) - TSE style Police, like the CMB but for heavy TSE focused colonies. Please change when we have a new name for the sector.
+
+- type: rank
+  id: RMCRankTSEPAConstable
+  name: "Констебль"
+  prefix: Cst.
+
+- type: rank
+  id: RMCRankTSEPASeniorConstable
+  name: "Старший констебль"
+  prefix: Sr. Cst.
+
+- type: rank
+  id: RMCRankTSEPASergeant
+  name: "Серgeant"
+  prefix: Sgt.
+
+- type: rank
+  id: RMCRankTSEPAInspector
+  name: "Инспектор"
+  prefix: Insp.
+
+- type: rank
+  id: RMCRankTSEPAChiefInspector
+  name: "Главный инспектор"
+  prefix: Ch. Insp.
+
+- type: rank
+  id: RMCRankTSEPACommander
+  name: "Командир"
+  prefix: Cmdr.
+
+- type: rank
+  id: RMCRankTSEPADeputyCommissioner
+  name: "Заместитель Commissioner"
+  prefix: Dep. Com.
+
+- type: rank
+  id: RMCRankTSEPACommissioner
+  name: "Комиссар"
+  prefix: Com.
+

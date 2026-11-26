@@ -1,0 +1,9 @@
+ent-RMCWeaponRifleM54CE2 = M41AE2: тяжёлая штурмовая винтовка
+ent-CMMagazineRifleM54CE2 = M41AE2: магазин (10x24 мм)
+ent-CMMagazineRifleM54CE2HT = M41AE2 HT: магазин (10x24мм)
+ent-CMCartridgeRifle10x24mmHT = патрон 10x24мм
+ent-BulletRifle10x24mmHT = { ent-BulletRifle10x24mm }
+ent-CMMagazineRifleM54CE2AP = M41AE2: бронебойный магазин (10x24мм)
+ent-RMCMagazineRifleM54CE2HEAP = M41AE2: HEAP-магазин (10x24мм)
+ent-RMCMagazineRifleM54CE2WP = магазин M41AE2 WP (10x24мм)
+ent-RMCMagazineRifleM54CE2Incendiary = магазин M41AE2 с зажигательными (10x24мм)

@@ -1,0 +1,16 @@
+ent-CrateArmorySMG = ящик с пистолетами-пулемётами
+    .suffix = { ent-CrateWeaponSecure.suffix }
+ent-CrateArmoryShotgun = ящик с дробовиками
+    .suffix = { ent-CrateWeaponSecure.suffix }
+ent-CrateTrackingImplants = ящик с имплантами Трекер
+    .suffix = { ent-CrateWeaponSecure.suffix }
+ent-CrateTrainingBombs = контейнер с тренировочными бомбами
+    .suffix = { ent-CrateWeaponSecure.suffix }
+ent-CrateArmoryLaser = контейнер с лазерным оружием
+    .suffix = { ent-CrateWeaponSecure.suffix }
+ent-CrateArmoryPistols = контейнер с пистолетным вооружением
+    .suffix = { ent-CrateWeaponSecure.suffix }
+ent-CrateSecurityRiot = контейнер с экипировкой для подавления мятежей
+    .suffix = { ent-CrateWeaponSecure.suffix }
+ent-CrateArmoryRifle = контейнер с винтовочным вооружением
+    .suffix = { ent-CrateWeaponSecure.suffix }

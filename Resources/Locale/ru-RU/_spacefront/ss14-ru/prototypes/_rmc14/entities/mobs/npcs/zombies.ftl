@@ -1,0 +1,16 @@
+ent-RMCSpawnZombifiedColonist = точка появления зомби
+    .suffix = Колонист
+ent-RMCSpawnZombifiedChef = { ent-RMCSpawnZombifiedColonist }
+    .suffix = Шеф-повар
+ent-RMCSpawnZombifiedDoctor = { ent-RMCSpawnZombifiedColonist }
+    .suffix = Доктор
+ent-RMCSpawnZombifiedEngineer = { ent-RMCSpawnZombifiedColonist }
+    .suffix = Инженер
+ent-RMCSpawnZombifiedSecurity = { ent-RMCSpawnZombifiedColonist }
+    .suffix = Охранник
+ent-RMCSpawnZombifiedLiaison = { ent-RMCSpawnZombifiedColonist }
+    .suffix = Связной
+ent-RMCSpawnZombifiedWeYaGoon = { ent-RMCSpawnZombifiedColonist }
+    .suffix = Боевик Ве-Я
+ent-RMCSpawnZombifiedWeYaPMC = { ent-RMCSpawnZombifiedColonist }
+    .suffix = ЧВК Ве-Я

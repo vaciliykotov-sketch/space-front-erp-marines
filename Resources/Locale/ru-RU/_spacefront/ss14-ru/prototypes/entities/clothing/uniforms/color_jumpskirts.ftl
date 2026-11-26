@@ -1,0 +1,17 @@
+ent-ClothingUniformJumpskirtColorWhite = юбка-комбинезон белого цвета
+ent-ClothingUniformJumpskirtColorGrey = юбка-комбинезон серого цвета
+ent-ClothingUniformJumpskirtColorBlack = юбка-комбинезон чёрного цвета
+ent-ClothingUniformJumpskirtColorBlue = юбка-комбинезон синего цвета
+ent-ClothingUniformJumpskirtColorDarkBlue = юбка-комбинезон тёмно-синего цвета
+ent-ClothingUniformJumpskirtColorTeal = юбка-комбинезон аквамаринового цвета
+ent-ClothingUniformJumpskirtColorGreen = юбка-комбинезон зелёного цвета
+ent-ClothingUniformJumpskirtColorDarkGreen = юбка-комбинезон тёмно-зелёного цвета
+ent-ClothingUniformJumpskirtColorOrange = юбка-комбинезон оранжевого цвета
+ent-ClothingUniformJumpskirtColorPink = юбка-комбинезон розового цвета
+ent-ClothingUniformJumpskirtColorRed = юбка-комбинезон красного цвета
+ent-ClothingUniformJumpskirtColorYellow = юбка-комбинезон жёлтого цвета
+ent-ClothingUniformJumpskirtColorPurple = юбка-комбинезон фиолетового цвета
+ent-ClothingUniformJumpskirtColorLightBrown = юбка-комбинезон светло-коричневого цвета
+ent-ClothingUniformJumpskirtColorBrown = юбка-комбинезон коричневого цвета
+ent-ClothingUniformJumpskirtColorMaroon = юбка-комбинезон бордового цвета
+ent-ClothingUniformJumpskirtColorRainbow = юбка-комбинезон радужного цвета

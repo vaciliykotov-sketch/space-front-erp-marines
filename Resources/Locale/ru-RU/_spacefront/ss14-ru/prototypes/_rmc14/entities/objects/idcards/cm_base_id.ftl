@@ -1,0 +1,9 @@
+ent-CMIDCardStandardDogtag = жетон-бирка
+ent-RMCIDCardStandardDogtagHidden = { ent-CMIDCardStandardDogtag }
+ent-RMCInformationDogtagProp = информационный жетон с потёртостями
+ent-RMCInformationDogtag = жетон с информацией
+ent-RMCDogtagProp = жетон-бирка
+ent-CMIDCardBase = голо-знак идентификации
+ent-CMIDCardGold = голо-знак идентификации золотого образца
+ent-CMIDCardSilver = голо-знак идентификации серебряного образца
+ent-CMIDCardLanyard = голо-знак идентификации

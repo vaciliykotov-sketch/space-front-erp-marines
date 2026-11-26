@@ -1,0 +1,202 @@
+
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechCrewMedicalEquipment
+  name: "Стойка медицинского снаряжения ASRS"
+  description: An automated equipment vendor for the Medical Department.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessMedical" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_equipment.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMNurse
+    - CMDoctor
+    - RMCFieldDoctor
+    - CMResearcher
+    - CMCMO
+    sections:
+    - name: Медикal Set (Mandatory)
+      jobs:
+      - CMDoctor
+      - RMCFieldDoctor
+      - CMResearcher
+      - CMCMO
+      takeAll: CMMedicalSet
+      entries:
+      - id: RMCVendorBundleCrewMedicalEssentialsDoctor
+    - name: Медикal Set (Mandatory)
+      jobs:
+      - CMNurse
+      takeAll: CMMedicalSet
+      entries:
+      - id: CMVendorBundleCrewMedicalEssentialsNurse
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: CMHandsLatex
+      - id: CMHeadsetMedical
+    - name: Eyewear
+      choices: { CMEyewear: 1 }
+      entries:
+      - id: RMCGlassesMedicalHUDGlasses
+    - name: Uniform
+      choices: { CMUniform: 1 }
+      jobs:
+      - CMNurse
+      entries:
+      - id: RMCScrubsPharm
+      - id: CMScrubsPurple
+      - id: RMCScrubsOlive
+      - id: RMCScrubsGrey
+      - id: RMCScrubsBrown
+      - id: RMCScrubsWhite
+      - id: RMCScrubsBlack
+    - name: Uniform
+      choices: { CMUniform: 1 }
+      jobs:
+      - CMDoctor
+      - RMCFieldDoctor
+      - CMCMO
+      - CMResearcher
+      entries:
+      - id: CMScrubsGreen
+        recommended: true
+      - id: RMCScrubsPharm
+        recommended: true
+      - id: CMScrubsPurple
+      - id: RMCScrubsOlive
+      - id: RMCScrubsGrey
+      - id: RMCScrubsBrown
+      - id: RMCScrubsWhite
+      - id: RMCScrubsBlack
+      - id: RMCScrubsLightBlue
+    - name: Suit
+      jobs:
+      - CMNurse
+      choices: { CMSuit: 1 }
+      entries:
+      - id: RMCMedicalApron
+    - name: Suit
+      jobs:
+      - CMDoctor
+      - RMCFieldDoctor
+      - CMCMO
+      - CMResearcher
+      choices: { CMSuit: 1 }
+      entries:
+      - id: RMCLabcoat
+        recommended: true
+      - id: RMCLabcoatShort
+        name: "Лабораторный халат с высоким вырезом"
+      - id: RMCLabcoatLong
+        name: "Лабораторный халат с низким вырезом"
+      - id: RMCLabcoatPharm
+        recommended: true
+      - id: RMCMedicalApron
+    - name: Snow gear (Snow use only)
+      takeAll: CMMedicalSet
+      entries:
+      - id: RMCCoatSnow
+      - id: RMCMaskBalaclava
+      - id: RMCMaskTornScarfBlack
+        name: "Снежный шарф"
+    - name: Headwear
+      choices: { CMHeadwear: 1 }
+      jobs:
+      - CMNurse
+      entries:
+      - id: CMHeadCapSurgLightBlue
+        recommended: true
+      - id: CMHeadCapSurgPharm
+      - id: CMHeadCapSurgPurple
+      - id: CMHeadCapSurgOlive
+      - id: CMHeadCapSurgGrey
+      - id: CMHeadCapSurgBrown
+      - id: CMHeadCapSurgWhite
+      - id: CMHeadCapSurgBlack
+    - name: Headwear
+      choices: { CMHeadwear: 1 }
+      jobs:
+      - CMDoctor
+      - RMCFieldDoctor
+      - CMCMO
+      - CMResearcher
+      entries:
+      - id: CMHeadCapSurgBlue
+        recommended: true
+      - id: CMHeadCapSurgGreen
+        recommended: true
+      - id: CMHeadCapSurgPharm
+        recommended: true
+      - id: CMHeadCapSurgPurple
+      - id: CMHeadCapSurgOlive
+      - id: CMHeadCapSurgGrey
+      - id: CMHeadCapSurgBrown
+      - id: CMHeadCapSurgWhite
+      - id: CMHeadCapSurgBlack
+    - name: Backpack
+      choices: { CMBackpack: 1 }
+      entries:
+      - id: CMBackpackMarine
+        name: "рюкзак"
+        replaceSlot: back
+      - id: CMBackpackMedical
+        replaceSlot: back
+        recommended: true
+      - id: CMSatchelMedical
+        replaceSlot: back
+        recommended: true
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: CMBeltMedicBagFilled
+        name: "Сумка спасателя образца M276 (Full)"
+        recommended: true
+      - id: CMBeltMedicalFilled
+        name: "Снаряжение для хранения медикаментов образца M276 (Full)"
+        recommended: true
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchAutoinjector
+      - id: RMCPouchFirstAidInjectors
+        name: "сумка первой помощи (refillable injectors)"
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "сумка первой помощи (gauze, ointment)" # TODO RMC14 splints comma
+      - id: RMCPouchFirstAidPills
+        name: "сумка первой помощи (pills)"
+      - id: RMCPouchFirstResponder
+      - id: RMCPouchMedical
+        recommended: true
+      - id: RMCPouchMedkit
+        recommended: true
+      - id: RMCPouchReagentCanisterBicaridine
+        recommended: true
+        name: Pressurized Reagent Canister Pouch\n(Bicaridine)
+      - id: RMCPouchReagentCanisterKelotane
+        recommended: true
+        name: Pressurized Reagent Canister Pouch\n(Kelotane)
+      - id: RMCPouchReagentCanisterTricordrazineRevival
+        recommended: true
+        name: Pressurized Reagent Canister Pouch\n(Revival Mix - Tricordrazine)
+      - id: RMCPouchReagentCanisterTricordrazine
+        recommended: true
+        name: Pressurized Reagent Canister Pouch\n(Tricordrazine)
+      - id: RMCPouchReagentCanister
+        recommended: true
+        name: Pressurized Reagent Canister Pouch\n(EMPTY)
+      - id: RMCPouchSling
+    - name: Accessories
+      choices: { CMAccessories: 1 }
+      entries:
+      - id: CMWebbingBrown
+      - id: CMWebbingBlack
+      - id: RMCWebbingLegPouch
+      - id: RMCWebbingLegPouchBlack
+      - id: CMWebbing
+      - id: RMCWebbingBlackSmall
+      - id: RMCWebbingDropPouch
+      - id: RMCWebbingDropPouchBlack

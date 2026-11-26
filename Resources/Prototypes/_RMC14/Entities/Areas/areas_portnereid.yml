@@ -1,0 +1,436 @@
+- type: entity
+  parent: RMCAreaShuttleDrop1
+  id: RMCAreaShuttleDrop1PortNereid
+  name: "Грузовой склад Порт-Нереида AC-170 - LZ1"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_shiva.rsi
+    state: shuttle
+  - type: Area
+    linkedLz: dropship_lz1
+    minimapColor: '#EBE5E5E3'
+    weatherEnabled: true
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+    landingZone: true
+
+- type: entity
+  parent: RMCAreaShuttleDrop1PortNereid
+  id: RMCAreaShuttleDrop2PortNereid
+  name: "Международный космопорт Порт-Нереида - LZ2"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_shiva.rsi
+    state: shuttle2
+  - type: Area
+    linkedLz: dropship_lz2
+    minimapColor: '#EBE5E5E3'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaProtectionOne
+  id: RMCAreaPortNereidCargo
+  name: "Порт Нереида — грузовой склад AC-170"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: req0
+  - type: Area
+    minimapColor: '#a16027'
+    weatherEnabled: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: true
+    medevac: false
+    paradropping: false
+    CAS: true
+    fulton: true
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaPortNereidSecurity
+  id: RMCAreaPortNereidMining
+  name: "Порт Нереида — горнодобывающий аванпост TMCC"
+  components:
+  - type: Sprite
+    state: tunnels0
+    weatherEnabled: false
+  - type: Area
+    minimapColor: '#a16027'
+
+- type: entity
+  parent: RMCAreaProtectionFour
+  id: RMCAreaPortNereidDeepsiteUAS1
+  name: "Порт Нереида — глубинный объект UAS-1"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_kutjevo.rsi
+    state: colony_caves_0
+  - type: Area
+    minimapColor: '#491c75'
+    weatherEnabled: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    CAS: false
+    fulton: false
+    OB: false
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaProtectionTwo
+  id: RMCAreaPortNereidSecurity
+  name: "Порт Нереида — штаб службы безопасности"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: offices4
+  - type: Area
+    minimapColor: '#8c1b0e'
+    weatherEnabled: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    CAS: true
+    fulton: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaPortNereidCargo
+  id: RMCAreaPortNereidEngineering
+  name: "Порт Нереида — инженерный отсек"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: req4
+  - type: Area
+    minimapColor: '#bab714'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaPortNereidCargo
+  id: RMCAreaPortNereidSpaceport
+  name: "Порт Нереида — международный космопорт Порт Нереида"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/hybrisareas.rsi
+    state: wyspaceport
+  - type: Area
+    minimapColor: '#0b7545'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaPortNereidCargo
+  id: RMCAreaPortNereidHeavyHaulter
+  name: "Порт Нереида — грузовик WEYA"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/hybrisareas.rsi
+    state: wyspaceport
+  - type: Area
+    minimapColor: '#19666b'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaPortNereidCargo
+  id: RMCAreaPortNereidShack
+  name: "Порт Нереида — хижина у озера"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: req3
+  - type: Area
+    minimapColor: '#402116'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaProtectionThree
+  id: RMCAreaPortNereidStorage
+  name: "Порт Нереида — склад"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_kutjevo.rsi
+    state: colony_caves_1
+  - type: Area
+    minimapColor: '#5e5b2c'
+    weatherEnabled: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    CAS: false
+    fulton: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaPortNereidCargoComms
+  name: "Порт Нереида — грузовая связь"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: comms2
+  - type: Area
+    weatherEnabled: true
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaPortNereidCargoComms
+  id: RMCAreaPortNereidSouthWestJungle
+  name: "Порт Нереида — юго-западные джунгли"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: varadero1
+  - type: Area
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaPortNereidCargoComms
+  id: RMCAreaPortNereidSouthEastJungle
+  name: "Порт Нереида — юго-восточные джунгли"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: varadero2
+  - type: Area
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaPortNereidSecurity
+  id: RMCAreaPortNereidWeymart
+  name: "Порт Нереида — Веймарт"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/hybrisareas.rsi
+    state: weymart
+  - type: Area
+    minimapColor: '#91BDCFE7'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaPortNereidSecurity
+  id: RMCAreaPortNereidHabitationEast
+  name: "Порт Нереида — восточный жилой комплекс"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: offices2
+  - type: Area
+    minimapColor: '#418896'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaPortNereidSecurity
+  id: RMCAreaPortNereidHabitationWest
+  name: "Порт Нереида — западный жилой комплекс"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: offices1
+  - type: Area
+    minimapColor: '#418896'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaPortNereidSecurity
+  id: RMCAreaPortNereidMedical
+  name: "Порт Нереида — медицинская клиника"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/hybrisareas.rsi
+    state: medical
+  - type: Area
+    minimapColor: '#5c96a1'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaPortNereidSecurity
+  id: RMCAreaPortNereidBotany
+  name: "Порт Нереида — Ботани-Бей"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/hybrisareas.rsi
+    state: botany
+  - type: Area
+    minimapColor: '#35ab50'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaPortNereidSecurity
+  id: RMCAreaPortNereidDisposals
+  name: "Порт Нереида — утилизация и переработка отходов"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/hybrisareas.rsi
+    state: recycling
+  - type: Area
+    minimapColor: '#470f75'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaPortNereidCargo
+  id: RMCAreaPortNereidDam
+  name: "Порт Нереида — речная плотина"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: comms1
+  - type: Area
+    minimapColor: '#67bfcf'
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaPortNereidCargoComms
+  id: RMCAreaPortNereidNorthWestJungle
+  name: "Порт Нереида — северо-западные джунгли"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: varadero3
+  - type: Area
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaPortNereidCargoComms
+  id: RMCAreaPortNereidNorthEastJungle
+  name: "Порт Нереида — северо-восточные джунгли"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: varadero4
+  - type: Area
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaReinforcedMetal
+  id: RMCAreaPortNereidCentralAtmosphericProcessor
+  name: "Порт Нереида — центральный тяжёлый атмосферный процессор PAEK-500 (двигатель атмосферной обработки на двойном синтезе)"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/hybrisareas.rsi
+    state: caves_central
+  - type: Area
+    minimapColor: '#d1b228'
+    weatherEnabled: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    CAS: false
+    fulton: false
+    OB: false
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaReinforcedMetal
+  id: RMCAreaPortNereidWestAtmosphericProcessor
+  name: "Порт Нереида — западный тяжёлый атмосферный процессор PAEK-500 (резервы и контроль охлаждающей жидкости реактора)"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/hybrisareas.rsi
+    state: caves_west
+  - type: Area
+    minimapColor: '#1f6699'
+    weatherEnabled: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    CAS: false
+    fulton: false
+    OB: false
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaReinforcedMetal
+  id: RMCAreaPortNereidEastAtmosphericProcessor
+  name: "Порт Нереида — восточный тяжёлый атмосферный процессор PAEK-500 (основная энергогенерирующая сеть)"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/hybrisareas.rsi
+    state: caves_east
+  - type: Area
+    minimapColor: '#688008'
+    weatherEnabled: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    CAS: false
+    fulton: false
+    OB: false
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaPortNereidCargoComms
+  id: RMCAreaPortNereidRoadSystem
+  name: "Порт Нереида — дорожная система"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: hall2
+  - type: Area
+    minimapColor: '#434544'
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaPortNereidCargoComms
+  id: RMCAreaPortNereidPort
+  name: "Порт Нереида — прибрежный порт"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_varadero.rsi
+    state: tunnels0
+  - type: Area
+    minimapColor: '#636664'
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaVaraderoInteriorOob
+  id: RMCAreaPortNereidOob
+  name: "Порт Нереида — запретная зона"
+  components:
+  - type: Sprite
+    state: oob
+  - type: Area
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: false
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: true
+    weatherEnabled: false

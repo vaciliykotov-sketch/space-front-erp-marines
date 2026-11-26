@@ -1,0 +1,15 @@
+ent-RMCPlanetLV624 = LV-624 Пристань Лазаря
+ent-RMCPlanetSolaris = Ридж Солярис
+ent-RMCPlanetShiva = Шива — ледяной мир
+ent-RMCPlanetFiorina = Фиорина — тюрьма на орбите
+ent-RMCPlanetTrijent = Плотина Триджент
+ent-RMCPlanetVaradero = Варадеро Новое
+ent-RMCPlanetKutjevo = Кутьево (зона посадки)
+ent-RMCPlanetChances = LV-522 — Претензия Шанса
+ent-RMCPlanetHybrisa = LV-759 — Гибриса Проспера
+ent-RMCPlanetSorokyne = LV-976 — Сорокина Страта
+ent-RMCPlanetArcticValley = Арктическая долина
+ent-RMCPlanetJungleDelta = Джунглевая дельта
+ent-RMCPlanetCorsat = КОРСАТ
+ent-RMCPlanetHybrisaRepaired = LV-759 Гибриса Проспера (восстановленный)
+ent-RMCPlanetSorokyneRepaired = LV-976 Сорокина Страта (восстановленный)

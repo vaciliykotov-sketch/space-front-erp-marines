@@ -1,0 +1,1 @@
+ent-CMBarricadeBase = { ent-CMBaseStructureCorrodible }

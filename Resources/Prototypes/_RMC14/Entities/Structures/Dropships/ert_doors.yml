@@ -1,0 +1,74 @@
+# Double Doors
+- type: entity
+  parent: CMAlamoDoorPort
+  id: RMCERTDoorPort
+  name: "Люк экипажа ERT"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/ert_doubledoor.rsi
+
+- type: entity
+  parent: CMAlamoDoorPort
+  id: RMCSPPDoorPort
+  name: "СПП crew hatch"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/spp_doubledoor.rsi
+
+# Cargo Doors
+- type: entity
+  parent: CMAlamoDoorAft
+  id: RMCERTDoorAft
+  name: "Грузовой люк ERT"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/ert_cargo.rsi
+
+- type: entity
+  parent: CMAlamoDoorAft
+  id: RMCSPPDoorAft
+  name: "СПП cargo door"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/spp_cargo.rsi
+
+- type: entity
+  parent: CMAlamoDoorAft
+  id: RMCTSEDoorAft
+  name: "Грузовой люк TSE"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/tse_cargo.rsi
+
+- type: entity
+  parent: CMAlamoDoorAft
+  id: RMCPMCDoorAft
+  name: "Грузовой люк PMC"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/pmc_cargo.rsi
+
+# Single Doors
+- type: entity
+  parent: CMAlamoDoor
+  id: RMCTSECrewHatch
+  name: "Люк экипажа TSE"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/tse_airlock.rsi
+
+- type: entity
+  parent: CMAlamoDoor
+  id: RMCCLFCrewHatch
+  name: "Люк экипажа CLF"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/clf_airlock.rsi
+
+- type: entity
+  parent: CMAlamoDoor
+  id: RMCPMCCrewHatch
+  name: "Люк экипажа PMC"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/pmc_airlock.rsi

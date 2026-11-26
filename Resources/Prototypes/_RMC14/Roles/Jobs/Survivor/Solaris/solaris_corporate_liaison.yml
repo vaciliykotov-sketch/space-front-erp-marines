@@ -1,0 +1,27 @@
+- type: job
+  parent: CMSurvivorCorporate
+  id: CMSurvivorSolarisCorporateLiaison
+  setPreference: false
+  name: rmc-job-name-survivor-solaris-corporate-liaison
+  description: cm-job-description-survivor
+  spawnMenuRoleName: Corporate Liaison (Solaris Survivor)
+  startingGear: RMCGearSurvivorSolarisCorporateLiaison
+
+- type: startingGear
+  parent: RMCGearSurvivorCorporate
+  id: RMCGearSurvivorSolarisCorporateLiaison
+  equipment:
+    jumpsuit: CMJumpsuitLiaisonIvy
+    shoes: RMCShoesLaceupBrown
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorSolarisCorporateLiaison
+  name: "точка появления корпоративного связного выжившего на Соларисе"
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivorSolarisCorporateLiaison
+  - type: Sprite
+    layers:
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv

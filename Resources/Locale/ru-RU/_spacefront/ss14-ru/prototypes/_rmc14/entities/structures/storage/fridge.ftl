@@ -1,0 +1,14 @@
+ent-CMLockerFridge = рефрижератор
+    .suffix = { ent-CMLockerBase.suffix }
+ent-RMCLockerFridgeGroceries = продовольствие
+    .suffix = { ent-CMLockerFridge.suffix }
+ent-RMCLockerFridgeOrganic = органика
+    .suffix = { ent-CMLockerFridge.suffix }
+ent-RMCLockerFridgeDry = сухая провизия
+    .suffix = { ent-CMLockerFridge.suffix }
+ent-RMCLockerFridgeMeat = мясные продукты
+    .suffix = { ent-CMLockerFridge.suffix }
+ent-RMCLockerFridgeFish = рыбные продукты
+    .suffix = { ent-CMLockerFridge.suffix }
+ent-CMLockerFridgeColony = рефрижератор колониальный
+    .suffix = Колония

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/86b617bdfee24d3740dd03f9630ee0d33fa2a164/icons/obj/items/syringe.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "empty_emergency"
+    },
+    {
+      "name": "empty_oneuse"
+    },
+    {
+      "name": "emptyskill"
+    }
+  ]
+}

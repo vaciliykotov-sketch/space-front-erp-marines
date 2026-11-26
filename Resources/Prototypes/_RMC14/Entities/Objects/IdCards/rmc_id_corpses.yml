@@ -1,0 +1,99 @@
+# WEYA
+- type: entity
+  parent: RMCIDCardPMC
+  id: RMCIDCardPMCCorpse
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IdCard
+    jobTitle: rmc-job-name-pmc-operator-corpse
+
+- type: entity
+  parent: RMCIDCardPMC
+  id: RMCIDCardPMCGoonCorpse
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IdCard
+    jobTitle: rmc-job-name-pmc-corporate-goon
+
+- type: entity
+  parent: RMCIDCardPMC
+  id: RMCIDCardPMCGoonLeadCorpse
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IdCard
+    jobTitle: rmc-job-name-pmc-corporate-goon-leader
+
+# FORECON
+- type: entity
+  parent: CMIDCardStandardDogtag
+  id: RMCIDCardFORECONSpotter
+  name: "Жетоны наблюдателя FORECON"
+  components:
+  - type: IdCard
+    jobTitle: rmc-job-name-forecon-spotter
+
+# Tyrargo
+- type: entity
+  parent: CMIDCardStandardDogtag
+  id: RMCIDCardTyrargoTrooper
+  name: "Стрелок's dogtags"
+  components:
+  - type: IdCard
+    jobTitle: cm-job-name-rifleman
+
+- type: entity
+  parent: CMIDCardStandardDogtag
+  id: RMCIDCardTyrargoMedic
+  name: "Медик's dogtags"
+  components:
+  - type: IdCard
+    jobTitle: rmc-job-name-tyrargo-cmt
+
+# Misc
+- type: entity
+  parent: CMIDCardLanyard
+  id: RMCIDCardPrisonerCorpse
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IdCard
+    jobTitle: job-name-prisoner
+
+- type: entity
+  parent: CMIDCardLanyard
+  id: RMCIDCardChefCorpse
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IdCard
+    jobTitle: job-name-chef
+
+- type: entity
+  parent: CMIDCardLanyard
+  id: RMCIDCardMinerCorpse
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IdCard
+    jobTitle: rmc-job-name-survivor-tmcc-miner
+
+- type: entity
+  parent: CMIDCardSilver
+  id: RMCIDCardRiotOfficerCorpse
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: PresetIdCard
+    job: CMSurvivorFiorinaRiotOfficer
+
+- type: entity
+  parent: RMCIDCardTSEPA
+  id: RMCIDCardConstableCorpse
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: PresetIdCard
+    job: RMCSurvivorHybrisaTSEPAConstable
+
+- type: entity
+  parent: CMIDCardStandardDogtag
+  id: CMIDCardBasePolice
+  name: "базовое полицейское удостоверение"
+  components:
+  - type: IdCard
+    jobTitle: rmc-job-name-survivor-varadero-base-police

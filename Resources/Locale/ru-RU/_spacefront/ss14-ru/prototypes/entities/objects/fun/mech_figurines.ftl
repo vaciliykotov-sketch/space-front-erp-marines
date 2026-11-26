@@ -1,0 +1,13 @@
+ent-BaseFigurineMech = статуэтка
+ent-ToyRipley = рипли в миниатюре
+ent-ToyFireRipley = пожарный рипли-игрушка
+ent-ToyDeathRipley = миниатюрный смерть-рипли
+ent-ToyGygax = гайгэкс в виде игрушки
+ent-ToyDurand = дюранд-игрушка
+ent-ToyHonk = х.о.н.к. в миниатюре
+ent-ToyMarauder = мародёр-игрушка
+ent-ToySeraph = серафим в виде игрушки
+ent-ToyMauler = маулер-игрушка
+ent-ToyOdysseus = одиссей в миниатюре
+ent-ToyPhazon = фазон-игрушка
+ent-ToyReticence = молчун в виде игрушки

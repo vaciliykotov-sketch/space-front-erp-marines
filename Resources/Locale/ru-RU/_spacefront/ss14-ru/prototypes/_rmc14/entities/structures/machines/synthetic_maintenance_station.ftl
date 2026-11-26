@@ -1,0 +1,1 @@
+ent-RMCSyntheticMaintenanceStation = пункт техобслуживания синтетиков

@@ -1,0 +1,1 @@
+ent-ClothingBeltQuiver = стрелковый колчан

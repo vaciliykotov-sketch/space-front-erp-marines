@@ -1,0 +1,433 @@
+- type: entity # TODO RMC14 split these into per file categories and inherit all to ASRS
+  abstract: true
+  id: CMCargoCatalog
+  components:
+  - type: Speech
+    speechVerb: Robotic
+  - type: RequisitionsComputer
+    categories:
+    - name: Боеприпасы
+      entries:
+      - cost: 1
+        crate: RMCCrateBoxBulletsSMG
+      - cost: 1
+        crate: RMCCrateBoxBulletsSMGAP
+      - cost: 1
+        crate: RMCCrateBoxBulletsRifle
+      - cost: 1
+        crate: RMCCrateBoxBulletsRifleAP
+      - cost: 1
+        crate: RMCCrateBoxAmmo458
+      - cost: 1
+        crate: RMCCrateBoxMagazineRifleM54C
+      - cost: 1
+        crate: RMCCrateBoxMagazineRifleM54CAP
+      - cost: 1
+        crate: RMCCrateBoxMagazineRifleM54CExt
+      - cost: 1
+        crate: RMCCrateMagazineRifleM54CE2
+      - cost: 1
+        crate: RMCCrateMagazineRifleM54CE2HT
+      - cost: 1
+        crate: RMCCrateBoxMagazineRifleM4SPR
+      - cost: 1
+        crate: RMCCrateBoxMagazineRifleM4SPRAP
+      - cost: 1
+        crate: RMCCrateBoxMagazineSMGM63
+      - cost: 1
+        crate: RMCCrateBoxMagazineSMGM63AP
+      - cost: 1
+        crate: RMCCrateBoxMagazinePistolM1984
+      - cost: 1
+        crate: RMCCrateBoxMagazinePistolM1984AP
+      - cost: 1
+        crate: RMCCrateBoxMagazinePistolM1984HP
+      - cost: 1
+        crate: RMCCrateBoxShellsShotgunSlugs
+      - cost: 1
+        crate: RMCCrateBoxShellsShotgunBuckshot
+      - cost: 1
+        crate: RMCCrateBoxShellsShotgunFlechette
+      - cost: 1
+        crate: RMCCrateBoxShellsShotgunBreaching
+      - cost: 1
+        crate: RMCCrateBoxMagazinePistolM77AP
+      - cost: 1
+        crate: RMCCrateBoxMagazinePistolMK80
+      - cost: 1
+        crate: RMCCrateBatterySmartGun
+      - cost: 1
+        crate: RMCCrateMagazineSmartGun
+      - cost: 1
+        crate: RMCCrateBoxMagazineSmartPistol
+      - cost: 1
+        crate: RMCCrateBoxMagazineBreaching
+      - cost: 1
+        crate: RMCCrateBoxMagazineM54CE2
+      - cost: 1
+        crate: RMCCrateBoxMagazineM44Revolver
+      - cost: 1
+        crate: RMCCrateBoxMagazineRevolverM44Marksman
+      - cost: 1
+        crate: RMCCrateBoxMagazineSentry
+      - cost: 1
+        crate: RMCCrateMagazineNapthalUT
+      - cost: 1
+        crate: RMCCrateMagazineBGel
+      - cost: 1
+        crate: RMCCrateMagazineFlamerMixed
+      - cost: 1
+        crate: RMCCrateBoxMagazineSentryShotgun
+      - cost: 1
+        crate: RMCCrateBoxMagazineSentryFire
+      - cost: 1
+        crate: RMCCrateBoxMagazineSentryFireBlue
+      - cost: 1
+        crate: RMCCrateBoxMagazineSentryFireSmoke
+      - cost: 1
+        crate: RMCCrateMagazineML66DDrum
+      - cost: 1
+        crate: RMCCrateMagazineM2C
+      - cost: 1
+        crate: RMCCrateMagazineAmmoSurplus
+    - name: Обвесы
+      entries:
+      - cost: 1
+        crate: RMCCrateAttachmentSmartScope
+      - cost: 1
+        crate: RMCCrateAttachmentRailFlashlight
+      - cost: 1
+        crate: RMCCrateAttachmentRedDot
+      - cost: 1
+        crate: RMCCrateAttachmentTelescopicScope
+      - cost: 1
+        crate: RMCCrateAttachmentMiniScope
+      - cost: 1
+        crate: RMCCrateAttachmentMagneticHarness
+      - cost: 1
+        crate: RMCCrateAttachmentSuppressor
+      - cost: 1
+        crate: RMCCrateAttachmentExtendedBarrel
+      - cost: 1
+        crate: RMCCrateAttachmentCompensator
+      - cost: 1
+        crate: RMCCrateAttachmentForegrip
+      - cost: 1
+        crate: RMCCrateAttachmentGyro
+      - cost: 1
+        crate: RMCCrateAttachmentBipod
+      - cost: 1
+        crate: RMCCrateAttachmentUnderbarrelShotgun
+      - cost: 1
+        crate: RMCCrateAttachmentUnderbarrelExtinguisher
+      - cost: 1
+        crate: RMCCrateAttachmentUnderbarrelFlamer
+      - cost: 1
+        crate: RMCCrateAttachmentBurstfire
+      - cost: 1
+        crate: RMCCrateAttachmentAllStocks
+      - cost: 1
+        crate: RMCCrateAttachmentRevolverStock
+      - cost: 1
+        crate: RMCCrateAttachmentRifleStock
+      - cost: 1
+        crate: RMCCrateAttachmentShotgunStock
+      - cost: 1
+        crate: RMCCrateAttachmentSmgStock
+    - name: Снаряжение и одежда
+      entries:
+      - cost: 1
+        crate: RMCCrateClothingLargePouches
+      - cost: 1
+        crate: RMCCrateClothingMedicalPouches
+      - cost: 1
+        crate: RMCCrateClothingWebbing
+      - cost: 1
+        crate: RMCCrateClothingWebbingBlack
+      - cost: 1
+        crate: RMCCrateClothingWebbingVest
+      - cost: 1
+        crate: RMCCrateClothingWebbingKnife
+      - cost: 1
+        crate: RMCCrateClothingWebbingHolster
+      - cost: 1
+        crate: RMCCrateClothingWebbingHolsterBlack
+      - cost: 1
+        crate: RMCCrateClothingDropPouch
+      - cost: 1
+        crate: RMCCrateClothingDropPouchBlack
+      - cost: 1
+        crate: RMCCrateClothingOfficerOutfit
+    - name: Инженерное снабжение
+      entries:
+      - cost: 1
+        crate: RMCCrateEmptySandbags
+      - cost: 1
+        crate: RMCCrateSandbagsConstructionKit
+      - cost: 1
+        crate: RMCCrateMetalSheets
+      - cost: 1
+        crate: RMCCratePlasteelSheets
+      - cost: 1
+        crate: RMCCrateGlassSheets
+      - cost: 1
+        crate: RMCCrateWoodenPlanks
+      - cost: 1
+        crate: RMCCrateFoldingBarricades
+#      - cost: 1
+#        crate: RMCCrateSuperconductingMagneticCoil
+      - cost: 1
+        crate: RMCCrateElectricalMaintenance
+      - cost: 1
+        crate: RMCCrateMechanicalMaintenance
+      - cost: 1
+        crate: RMCCrateInflatableBarriers
+      - cost: 1
+        crate: RMCCrateReplacementLights
+      - cost: 1
+        crate: RMCCratePacmanParts
+      - cost: 1
+        crate: RMCCrateSuperPacmanParts
+      - cost: 1
+        crate: RMCCrateFlashlights
+      - cost: 1
+        crate: RMCCrateHighCapacityPowerCell
+    - name: Взрывчатка
+      entries:
+      - cost: 1
+        crate: RMCCrateGrenadesHighExplosive
+      - cost: 1
+        crate: RMCCrateGrenadesIncendiary
+      - cost: 1
+        crate: RMCCrateGrenadesFrag
+      # leaving this commented, as it is not parity, but we might want it in the future
+      #- cost: 1
+      #  crate: RMCCrateGrenadesSmoke
+      - cost: 1
+        crate: RMCCrateExplosiveWhitePhosphorusCompound
+      - cost: 1
+        crate: RMCCrateExplosiveWhitePhosphorusCompoundBox
+      - cost: 1
+        crate: RMCCrateGrenadesFragOld
+      - cost: 1
+        crate: RMCCratePlasticExplosives
+      - cost: 1
+        crate: RMCCrateBreachingCharges
+      - cost: 1
+        crate: RMCCrateGrenadesHighExplosiveBox
+      - cost: 1
+        crate: RMCCrateGrenadesBoxHEFA
+      - cost: 1
+        crate: RMCCrateGrenadesAirburstFragBox
+      - cost: 1
+        crate: RMCCrateBoxAGMI
+      - cost: 1
+        crate: RMCCrateGrenadesAirburstFrag
+      - cost: 1
+        crate: RMCCrateGrenadesAirburstIncendiary
+      - cost: 1
+        crate: RMCCrateGrenadesAirburstSmoke
+      - cost: 1
+        crate: RMCCrateGrenadesAirburstHornet
+      - cost: 1
+        crate: RMCCrateGrenadesAirburstStarShell
+      - cost: 1
+        crate: RMCCrateGrenadesBatonSlug
+      - cost: 1
+        crate: RMCCrateExplosiveClaymoreMine
+      - cost: 1
+        crate: RMCCrateExplosivesSurplus
+    - name: Еда
+      entries:
+      - cost: 1
+        crate: RMCCrateFoodDonuts
+      - cost: 1
+        crate: RMCCrateFoodMRE
+      - cost: 1
+        crate: RMCCrateFoodPizza
+      - cost: 1
+        crate: RMCCrateFoodIngredients
+    - name: Снаряжение
+      entries:
+      - cost: 1
+        crate: RMCCrateGearBinoculars
+      - cost: 1
+        crate: RMCCrateGearPackFlare
+      - cost: 1
+        crate: RMCCrateGearMotionDetector
+      - cost: 1
+        crate: RMCCrateGearPackFlareCAS
+      - cost: 1
+        crate: RMCCrateGearFulton
+      - cost: 1
+        crate: RMCCrateGearParachute
+    - name: Медицина
+      entries:
+      - cost: 1
+        crate: RMCCrateMedicalSurgery
+      - cost: 1
+        crate: RMCCrateFieldDoctor
+        entities:
+        - CMIV # TODO RMC14 Make IV fit in crate.
+      - cost: 1
+        crate: RMCCrateMedicalBodyBag
+      - cost: 1
+        crate: RMCCrateMedicalStasisBag
+      - cost: 1
+        crate: RMCCrateMedicalFirstAid
+      - cost: 1
+        crate: RMCCrateMedicalFilled
+      - cost: 1
+        crate: RMCCrateMedicalPill
+    - name: Миномёты
+      entries:
+      - cost: 1
+        crate: RMCCrateMortarKit
+      - cost: 1
+        crate: RMCCrateMortarShellHE
+      - cost: 1
+        crate: RMCCrateMortarShellIncendiary
+      - cost: 1
+        crate: RMCCrateMortarShellFlare
+    - name: Реагентные баки
+      entries:
+      - cost: 1
+        crate: RMCTankReagentFuel
+    - name: Наука
+      entries:
+      - cost: 1
+        crate: RMCCrateResearchPhoron
+      - cost: 1
+        crate: RMCCrateResearchPlastic
+    - name: Ограниченное снаряжение
+      entries:
+      - cost: 1
+        crate: RMCCrateRestrictedEquipmentArmorM4
+      - cost: 1
+        crate: RMCCrateRestrictedEquipmentArmorB12
+      - cost: 1
+        crate: RMCCrateRestrictedEquipmentIntelSupportKit
+    - name: Припасы
+      entries:
+      - cost: 1
+        crate: RMCCrateSupplyInternals
+      - cost: 1
+        crate: RMCCrateSupplyEvacuation
+      - cost: 1
+        crate: RMCCrateSuppliesBoxes
+      - cost: 1
+        crate: RMCCrateSupplyJanitor
+      - cost: 1
+        crate: RMCCrateSuppliesCrayons
+    - name: Боезапас техники
+      entries:
+      - cost: 1
+        crate: RMCCrateVehicleAmmoLTBCannon
+      - cost: 1
+        crate: RMCCrateVehicleAmmoLTAAAP
+      - cost: 1
+        crate: RMCCrateVehicleAmmoAceAutocannon
+      - cost: 1
+        crate: RMCCrateVehicleAmmoDragonFlamer
+      - cost: 1
+        crate: RMCCrateVehicleAmmoBoyarsDualCannon
+      - cost: 1
+        crate: RMCCrateVehicleAmmoGrenadeLauncher
+      - cost: 1
+        crate: RMCCrateVehicleAmmoSmokeLauncher
+      - cost: 1
+        crate: RMCCrateVehicleAmmoTowLauncher
+      - cost: 1
+        crate: RMCCrateVehicleAmmoCupola
+      - cost: 1
+        crate: RMCCrateVehicleAmmoLZRNFlamer
+      - cost: 1
+        crate: RMCCrateVehicleAmmoFrontalCannon
+      - cost: 1
+        crate: RMCCrateVehicleAmmoFlareLauncher
+      - cost: 1
+        crate: RMCCrateVehicleAmmoRotaryCannon
+    - name: Оружие
+      entries:
+      - cost: 1
+        crate: RMCCrateM54CE2
+      - cost: 1
+        crate: RMCCrateMK80
+      - cost: 1
+        crate: RMCCrateM54CMK1
+      - cost: 1
+        crate: RMCCrateXM88
+      - cost: 1
+        crate: RMCCrateSU6
+      - cost: 1
+        crate: RMCCrateM34
+      - cost: 1
+        crate: RMCCrateMOU53
+      - cost: 1
+        crate: RMCCrateXM51
+      - cost: 1
+        crate: RMCCrateM85A1
+      - cost: 1
+        crate: RMCCrateML66D
+      - cost: 1
+        crate: RMCCrateM2C
+      - cost: 1
+        crate: RMCCrateM5A1SLAW
+    - name: Техника
+      entries:
+      - cost: 1
+        crate: RMCCrateVehicleHumvee
+      - cost: 1
+        crate: RMCCrateVehicleHumveeMedical
+      - cost: 1
+        crate: RMCCrateVehicleHumveeTransport
+      - cost: 1
+        crate: RMCCrateVehicleAPC
+      - cost: 1
+        crate: RMCCrateVehicleAPCMed
+      - cost: 1
+        crate: RMCCrateVehicleAPCCommand
+      - cost: 1
+        crate: RMCCrateVehicleTank
+    - name: Боезапас специалиста по оружию
+      entries:
+      - cost: 1
+        crate: RMCCrateMagazineM96SMixed
+      - cost: 1
+        crate: RMCCrateMagazineM96SStandard
+      - cost: 1
+        crate: RMCCrateMagazineM96SFlak
+      - cost: 1
+        crate: RMCCrateMagazineM96SIncendiary
+      - cost: 1
+        crate: RMCCrateMagazineXM43E1Standard
+      - cost: 1
+        crate: RMCCrateM5DemoSpecMixed
+      - cost: 1
+        crate: RMCCrateM5DemoSpecHighExplosive
+      - cost: 1
+        crate: RMCCrateM5DemoSpecAntiArmor
+      - cost: 1
+        crate: RMCCrateM5DemoSpecWhitePhosphorus
+      - cost: 1
+        crate: RMCCrateMagazineM4SPRCustomMixed
+      - cost: 1
+        crate: RMCCrateMagazineM4SPRCustomStandard
+      - cost: 1
+        crate: RMCCrateMagazineM4SPRCustomImpact
+      - cost: 1
+        crate: RMCCrateMagazineM4SPRCustomIncendiary
+      - cost: 1
+        crate: RMCCratePyroTankMixed
+      - cost: 1
+        crate: RMCCratePyroTankExtended
+      - cost: 1
+        crate: RMCCratePyroTankTypeB
+      - cost: 1
+        crate: RMCCratePyroTankTypeX
+
+
+
+#        Black Market Orders
+#      - cost: 1 We-Ya Funnybucks
+#        crate: RMCCrateD18

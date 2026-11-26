@@ -1,0 +1,38 @@
+- type: entity
+  parent: BaseItem
+  id: RMCVehicleKeyBase
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Misc/vehicle_key.rsi
+    state: key
+  - type: Item
+    size: Tiny
+  - type: VehicleKey
+
+- type: entity
+  parent: RMCVehicleKeyBase
+  id: RMCVehicleKey
+  name: "ключ транспорта"
+  description: A vehicle key cut for a specific lock.
+  components:
+  - type: VehicleKey
+    mode: Normal
+
+- type: entity
+  parent: RMCVehicleKeyBase
+  id: RMCVehicleKeyBlank
+  name: "пустой ключ от техники"
+  description: An unprogrammed vehicle key that can be imprinted to a vehicle.
+  components:
+  - type: VehicleKey
+    mode: Blank
+
+- type: entity
+  parent: RMCVehicleKeyBase
+  id: RMCVehicleKeyDuplicator
+  name: "заготовка дубликата ключа транспортного средства"
+  description: A blank vehicle key designed to copy an existing vehicle key.
+  components:
+  - type: VehicleKey
+    mode: Duplicator

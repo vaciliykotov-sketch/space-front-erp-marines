@@ -1,0 +1,118 @@
+# combat technician
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidUnassignedCombatTech
+  name: "неназначенная роль призрака: боевой техник"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCUnassignedCombatTech
+
+- type: randomHumanoidSettings
+  parent: [RMCCombatTech, RMCUnassignedBase]
+  id: RMCUnassignedCombatTech
+
+# fireteam leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidUnassignedFireteamLeader
+  name: "неназначенная роль призрака: командир огневой группы"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCUnassignedFireteamLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCFireteamLeader, RMCUnassignedBase]
+  id: RMCUnassignedFireteamLeader
+
+# hospital corpsman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidUnassignedHospitalCorpsman
+  name: "неназначенная роль призрака: санитар"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCUnassignedHospitalCorpsman
+
+- type: randomHumanoidSettings
+  parent: [RMCHospitalCorpsman, RMCUnassignedBase]
+  id: RMCUnassignedHospitalCorpsman
+
+# rifleman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidUnassignedRifleman
+  name: "неназначенная роль призрака: стрелок"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCUnassignedRifleman
+
+- type: randomHumanoidSettings
+  parent: [RMCRifleman, RMCUnassignedBase]
+  id: RMCUnassignedRifleman
+
+# smart gun operator
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidUnassignedSmartGunOperator
+  name: "неназначенная роль призрака: оператор умного пулемёта"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCUnassignedSmartGunOperator
+
+- type: randomHumanoidSettings
+  parent: [RMCSmartGunOperator, RMCUnassignedBase]
+  id: RMCUnassignedSmartGunOperator
+
+# squad leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidUnassignedSquadLeader
+  name: "неназначенная роль призрака: командир отряда"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCUnassignedSquadLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCSquadLeader, RMCUnassignedBase]
+  id: RMCUnassignedSquadLeader
+
+# weapons specialist
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidUnassignedWeaponsSpecialist
+  name: "неназначенная роль призрака: специалист по оружию"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCUnassignedWeaponsSpecialist
+
+- type: randomHumanoidSettings
+  parent: [RMCWeaponsSpecialist, RMCUnassignedBase]
+  id: RMCUnassignedWeaponsSpecialist

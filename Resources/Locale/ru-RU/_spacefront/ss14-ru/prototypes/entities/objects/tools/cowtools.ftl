@@ -1,0 +1,10 @@
+ent-Haycutters = резак для сена
+ent-Moodriver = коровокрут
+ent-Wronch = ключ для коров
+ent-Cowbar = коровья монтировка
+ent-Mooltitool = мультитул муу
+ent-Cowelder = сварочник для коров
+ent-Milkalyzer = анализатор молока
+ent-CowToolbox = ящик с инструментами коровы
+ent-CowToolboxFilled = ящик инструментов коровы
+    .suffix = Заполненный

@@ -1,0 +1,1 @@
+ent-RMCAdminObserver = { ent-AdminObserver }

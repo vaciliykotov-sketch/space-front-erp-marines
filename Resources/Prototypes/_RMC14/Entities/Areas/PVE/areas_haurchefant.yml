@@ -1,0 +1,136 @@
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaHF
+  name: "Оршфан"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/hybrisareas.rsi
+    state: base_icon
+  - type: Area
+    buildSpecial: true
+    powerNet: ground
+    minimapColor: '#91BDCFE7'
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: true
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFHypersleepStorageA
+  name: "Хранилище гиперсна"
+  components:
+  - type: Sprite
+    state: medical
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFHypersleepGearLockers
+  name: "Шкафчики для снаряжения гиперсна"
+  components:
+  - type: Sprite
+    state: derelictship
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFMessHall
+  name: "Столовая"
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFBathroom
+  name: "Ванная комната"
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFOffice
+  name: "Офис"
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFEngineering
+  name: "Инженерing"
+
+- type: entity
+  parent: RMCAreaHFEngineering
+  id: RMCAreaHFSyntheticCloset
+  name: "Синтетик Closet"
+
+- type: entity
+  parent: RMCAreaHFEngineering
+  id: RMCAreaHFAICore
+  name: "Ядро ИИ"
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFDisposals
+  name: "Утилизация отходов"
+  components:
+  - type: Sprite
+    state: recycling
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFMedical
+  name: "Медикal"
+  components:
+  - type: Sprite
+    state: medical
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFBriefRoom
+  name: "Брифинг Room"
+  components:
+  - type: Sprite
+    state: caves_central
+
+- type: entity
+  parent: RMCAreaHFBriefRoom
+  id: RMCAreaHFCommandDeck
+  name: "Палуба командования сил"
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFPrep
+  name: "Подготовка сил"
+  components:
+  - type: Sprite
+    state: security_hub
+
+- type: entity
+  parent: RMCAreaHFPrep
+  id: RMCAreaHFArmoury
+  name: "Силовой арсенал"
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFHangar
+  name: "ангар"
+  components:
+  - type: Sprite
+    state: lz
+
+- type: entity
+  parent: RMCAreaHFHangar
+  id: RMCAreaHFHangar2
+  name: "Нижний ангар"
+
+- type: entity
+  parent: RMCAreaHF
+  id: RMCAreaHFOOB
+  name: "За пределами игровой зоны"
+  components:
+  - type: Sprite
+    state: oob
+  - type: Area
+    alwaysPowered: true

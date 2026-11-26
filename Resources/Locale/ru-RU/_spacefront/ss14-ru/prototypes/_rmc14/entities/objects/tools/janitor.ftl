@@ -1,0 +1,11 @@
+ent-CMMop = инструмент для мытья полов
+ent-CMWetSign = табличка «мокрый пол»
+ent-CMWarningCone = сигнальный конус
+ent-RMCLightReplacer = приспособление для смены ламп
+ent-RMCLightReplacerEmpty = { ent-RMCLightReplacer }
+    .suffix = Пустой
+ent-RMCSprayBottleSpaceCleaner = { ent-SprayBottleSpaceCleaner }
+    .suffix = RMC
+ent-CMLightReplacer = сменщик лампочек
+ent-CMLightReplacerEmpty = { ent-CMLightReplacer }
+    .suffix = Пустой

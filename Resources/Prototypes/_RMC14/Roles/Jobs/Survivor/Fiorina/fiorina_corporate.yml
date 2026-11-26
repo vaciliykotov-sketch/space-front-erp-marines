@@ -1,0 +1,31 @@
+- type: job
+  parent: CMSurvivorCorporate
+  id: CMSurvivorFiorinaCorporateLiaison
+  setPreference: false
+  name: cm-job-name-survivor-fiorina-corporate-liaison
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorFiorinaCorporateLiaison
+  accessGroups:
+  - ColonistCorporate
+  spawnMenuRoleName: Corporate Liaison (Fiorina Survivor)
+
+- type: startingGear
+  parent: RMCGearSurvivorCorporate
+  id: RMCGearSurvivorFiorinaCorporateLiaison
+  equipment:
+    jumpsuit: CMJumpsuitLiaison
+    eyes: RMCHipsterGlasses
+    outerClothing: RMCArmorVestWeYa
+    shoes: RMCShoesLaceupBrown
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorFiorinaCorporateLiaison
+  name: "точка появления корпоративного представителя Фьорины"
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivorFiorinaCorporateLiaison
+  - type: Sprite
+    layers:
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv

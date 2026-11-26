@@ -1,0 +1,140 @@
+# combat technician
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidFoxtrotCombatTech
+  name: "роль-призрак «Фокстрот»: боевой техник"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCFoxtrotCombatTech
+
+- type: randomHumanoidSettings
+  parent: [RMCCombatTech, RMCFoxtrotBase]
+  id: RMCFoxtrotCombatTech
+  components:
+  - type: RespawnOnCryo
+    spawner: RMCRandomHumanoidFoxtrotCombatTech
+
+# fireteam leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidFoxtrotFireteamLeader
+  name: "роль-призрак «Фокстрот»: командир огневой группы"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCFoxtrotFireteamLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCFireteamLeader, RMCFoxtrotBase]
+  id: RMCFoxtrotFireteamLeader
+  components:
+  - type: RespawnOnCryo
+    spawner: RMCRandomHumanoidFoxtrotFireteamLeader
+
+# hospital corpsman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidFoxtrotHospitalCorpsman
+  name: "роль-призрак «Фокстрот»: санитар"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCFoxtrotHospitalCorpsman
+
+- type: randomHumanoidSettings
+  parent: [RMCHospitalCorpsman, RMCFoxtrotBase]
+  id: RMCFoxtrotHospitalCorpsman
+  components:
+  - type: RespawnOnCryo
+    spawner: RMCRandomHumanoidFoxtrotHospitalCorpsman
+
+# rifleman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidFoxtrotRifleman
+  name: "роль-призрак «Фокстрот»: стрелок"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCFoxtrotRifleman
+
+- type: randomHumanoidSettings
+  parent: [RMCRifleman, RMCFoxtrotBase]
+  id: RMCFoxtrotRifleman
+  components:
+  - type: RespawnOnCryo
+    spawner: RMCRandomHumanoidFoxtrotRifleman
+
+# smart gun operator
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidFoxtrotSmartGunOperator
+  name: "роль-призрак «Фокстрот»: оператор смартгана"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCFoxtrotSmartGunOperator
+
+- type: randomHumanoidSettings
+  parent: [RMCSmartGunOperator, RMCFoxtrotBase]
+  id: RMCFoxtrotSmartGunOperator
+  components:
+  - type: RespawnOnCryo
+    spawner: RMCRandomHumanoidFoxtrotSmartGunOperator
+
+# squad leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidFoxtrotSquadLeader
+  name: "роль-призрак «Фокстрот»: командир отделения"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCFoxtrotSquadLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCSquadLeader, RMCFoxtrotBase]
+  id: RMCFoxtrotSquadLeader
+  components:
+  - type: RespawnOnCryo
+    spawner: RMCRandomHumanoidFoxtrotSquadLeader
+
+# weapons specialist
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidFoxtrotWeaponsSpecialist
+  name: "роль-призрак «Фокстрот»: специалист по вооружению"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCFoxtrotWeaponsSpecialist
+
+- type: randomHumanoidSettings
+  parent: [RMCWeaponsSpecialist, RMCFoxtrotBase]
+  id: RMCFoxtrotWeaponsSpecialist
+  components:
+  - type: IgnoreSpecLimits
+  - type: RespawnOnCryo
+    spawner: RMCRandomHumanoidFoxtrotWeaponsSpecialist

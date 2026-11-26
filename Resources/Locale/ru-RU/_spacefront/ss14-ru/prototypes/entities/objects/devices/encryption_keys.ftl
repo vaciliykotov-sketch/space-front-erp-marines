@@ -1,0 +1,17 @@
+ent-EncryptionKey = ключ шифровки
+ent-EncryptionKeyCommon = ключ шифровки общего канала
+ent-EncryptionKeyCargo = ключ шифровки снабжения
+ent-EncryptionKeyCentCom = ключ шифровки центрального командования
+ent-EncryptionKeyStationMaster = ключ шифровки руководства станции
+ent-EncryptionKeyCommand = ключ шифровки командования
+ent-EncryptionKeyEngineering = ключ шифровки инженерного отдела
+ent-EncryptionKeyMedical = ключ шифровки медицинского отдела
+ent-EncryptionKeyMedicalScience = ключ шифровки медико-научный
+ent-EncryptionKeyScience = ключ шифровки научного отдела
+ent-EncryptionKeyRobo = ключ шифровки робототехники
+ent-EncryptionKeySecurity = ключ шифровки службы безопасности
+ent-EncryptionKeyService = ключ шифровки сервисного отдела
+ent-EncryptionKeySyndie = кроваво-красный ключ шифровки
+ent-EncryptionKeyBinary = ключ для двоичного перевода
+ent-EncryptionKeyBinarySyndicate = ключ для двоичного перевода
+ent-EncryptionKeyFreelance = ключ шифровки фрилансеров

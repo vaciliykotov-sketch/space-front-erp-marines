@@ -1,0 +1,6001 @@
+# Space Front: уникальные IFF-фракции жетонов (каждому игроку своя — пули бьют всех).
+- type: entity
+  id: FactionSquadWar1
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar2
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar3
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar4
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar5
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar6
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar7
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar8
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar9
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar10
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar11
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar12
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar13
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar14
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar15
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar16
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar17
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar18
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar19
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar20
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar21
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar22
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar23
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar24
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar25
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar26
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar27
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar28
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar29
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar30
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar31
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar32
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar33
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar34
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar35
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar36
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar37
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar38
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar39
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar40
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar41
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar42
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar43
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar44
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar45
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar46
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar47
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar48
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar49
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar50
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar51
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar52
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar53
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar54
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar55
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar56
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar57
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar58
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar59
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar60
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar61
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar62
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar63
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar64
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar65
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar66
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar67
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar68
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar69
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar70
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar71
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar72
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar73
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar74
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar75
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar76
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar77
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar78
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar79
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar80
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar81
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar82
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar83
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar84
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar85
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar86
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar87
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar88
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar89
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar90
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar91
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar92
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar93
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar94
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar95
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar96
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar97
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar98
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar99
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar100
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar101
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar102
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar103
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar104
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar105
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar106
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar107
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar108
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar109
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar110
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar111
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar112
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar113
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar114
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar115
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar116
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar117
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar118
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar119
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar120
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar121
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar122
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar123
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar124
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar125
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar126
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar127
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar128
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar129
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar130
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar131
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar132
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar133
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar134
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar135
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar136
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar137
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar138
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar139
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar140
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar141
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar142
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar143
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar144
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar145
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar146
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar147
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar148
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar149
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar150
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar151
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar152
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar153
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar154
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar155
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar156
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar157
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar158
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar159
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar160
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar161
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar162
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar163
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar164
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar165
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar166
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar167
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar168
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar169
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar170
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar171
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar172
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar173
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar174
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar175
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar176
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar177
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar178
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar179
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar180
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar181
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar182
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar183
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar184
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar185
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar186
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar187
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar188
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar189
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar190
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar191
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar192
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar193
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar194
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar195
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar196
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar197
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar198
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar199
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar200
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar201
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar202
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar203
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar204
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar205
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar206
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar207
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar208
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar209
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar210
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar211
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar212
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar213
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar214
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar215
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar216
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar217
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar218
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar219
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar220
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar221
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar222
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar223
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar224
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar225
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar226
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar227
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar228
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar229
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar230
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar231
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar232
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar233
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar234
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar235
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar236
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar237
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar238
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar239
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar240
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar241
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar242
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar243
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar244
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar245
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar246
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar247
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar248
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar249
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar250
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar251
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar252
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar253
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar254
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar255
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar256
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar257
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar258
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar259
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar260
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar261
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar262
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar263
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar264
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar265
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar266
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar267
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar268
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar269
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar270
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar271
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar272
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar273
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar274
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar275
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar276
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar277
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar278
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar279
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar280
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar281
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar282
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar283
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar284
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar285
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar286
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar287
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar288
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar289
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar290
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar291
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar292
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar293
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar294
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar295
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar296
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar297
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar298
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar299
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar300
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar301
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar302
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar303
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar304
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar305
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar306
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar307
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar308
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar309
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar310
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar311
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar312
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar313
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar314
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar315
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar316
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar317
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar318
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar319
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar320
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar321
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar322
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar323
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar324
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar325
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar326
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar327
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar328
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar329
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar330
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar331
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar332
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar333
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar334
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar335
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar336
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar337
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar338
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar339
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar340
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar341
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar342
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar343
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar344
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar345
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar346
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar347
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar348
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar349
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar350
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar351
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar352
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar353
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar354
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar355
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar356
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar357
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar358
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar359
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar360
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar361
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar362
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar363
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar364
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar365
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar366
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar367
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar368
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar369
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar370
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar371
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar372
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar373
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar374
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar375
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar376
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar377
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar378
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar379
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar380
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar381
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar382
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar383
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar384
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar385
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar386
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar387
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar388
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar389
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar390
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar391
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar392
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar393
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar394
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar395
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar396
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar397
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar398
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar399
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar400
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar401
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar402
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar403
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar404
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar405
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar406
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar407
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar408
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar409
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar410
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar411
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar412
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar413
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar414
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar415
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar416
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar417
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar418
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar419
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar420
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar421
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar422
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar423
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar424
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar425
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar426
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar427
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar428
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar429
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar430
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar431
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar432
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar433
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar434
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar435
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar436
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar437
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar438
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar439
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar440
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar441
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar442
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar443
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar444
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar445
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar446
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar447
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar448
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar449
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar450
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar451
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar452
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar453
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar454
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar455
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar456
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar457
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar458
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar459
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar460
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar461
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar462
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar463
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar464
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar465
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar466
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar467
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar468
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar469
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar470
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar471
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar472
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar473
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar474
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar475
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar476
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar477
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar478
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar479
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar480
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar481
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar482
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar483
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar484
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar485
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar486
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar487
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar488
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar489
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar490
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar491
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar492
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar493
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar494
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar495
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar496
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar497
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar498
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar499
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar500
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar501
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar502
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar503
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar504
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar505
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar506
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar507
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar508
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar509
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar510
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar511
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar512
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar513
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar514
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar515
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar516
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar517
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar518
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar519
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar520
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar521
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar522
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar523
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar524
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar525
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar526
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar527
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar528
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar529
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar530
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar531
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar532
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar533
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar534
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar535
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar536
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar537
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar538
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar539
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar540
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar541
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar542
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar543
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar544
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar545
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar546
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar547
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar548
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar549
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar550
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar551
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar552
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar553
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar554
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar555
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar556
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar557
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar558
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar559
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar560
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar561
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar562
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar563
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar564
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar565
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar566
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar567
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar568
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar569
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar570
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar571
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar572
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar573
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar574
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar575
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar576
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar577
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar578
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar579
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar580
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar581
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar582
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar583
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar584
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar585
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar586
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar587
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar588
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar589
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar590
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar591
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar592
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar593
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar594
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar595
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar596
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar597
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar598
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar599
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar600
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar601
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar602
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar603
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar604
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar605
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar606
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar607
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar608
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar609
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar610
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar611
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar612
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar613
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar614
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar615
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar616
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar617
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar618
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar619
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar620
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar621
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar622
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar623
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar624
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar625
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar626
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar627
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar628
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar629
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar630
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar631
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar632
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar633
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar634
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar635
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar636
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar637
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar638
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar639
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar640
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar641
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar642
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar643
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar644
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar645
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar646
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar647
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar648
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar649
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar650
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar651
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar652
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar653
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar654
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar655
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar656
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar657
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar658
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar659
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar660
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar661
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar662
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar663
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar664
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar665
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar666
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar667
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar668
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar669
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar670
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar671
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar672
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar673
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar674
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar675
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar676
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar677
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar678
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar679
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar680
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar681
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar682
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar683
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar684
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar685
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar686
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar687
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar688
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar689
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar690
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar691
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar692
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar693
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar694
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar695
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar696
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar697
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar698
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar699
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar700
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar701
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar702
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar703
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar704
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar705
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar706
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar707
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar708
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar709
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar710
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar711
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar712
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar713
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar714
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar715
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar716
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar717
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar718
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar719
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar720
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar721
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar722
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar723
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar724
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar725
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar726
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar727
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar728
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar729
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar730
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar731
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar732
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar733
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar734
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar735
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar736
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar737
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar738
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar739
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar740
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar741
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar742
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar743
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar744
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar745
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar746
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar747
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar748
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar749
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar750
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar751
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar752
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar753
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar754
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar755
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar756
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar757
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar758
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar759
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar760
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar761
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar762
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar763
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar764
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar765
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar766
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar767
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar768
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar769
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar770
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar771
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar772
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar773
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar774
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar775
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar776
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar777
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar778
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar779
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar780
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar781
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar782
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar783
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar784
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar785
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar786
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar787
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar788
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar789
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar790
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar791
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar792
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar793
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar794
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar795
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar796
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar797
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar798
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar799
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar800
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar801
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar802
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar803
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar804
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar805
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar806
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar807
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar808
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar809
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar810
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar811
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar812
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar813
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar814
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar815
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar816
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar817
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar818
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar819
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar820
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar821
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar822
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar823
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar824
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar825
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar826
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar827
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar828
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar829
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar830
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar831
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar832
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar833
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar834
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar835
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar836
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar837
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar838
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar839
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar840
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar841
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar842
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar843
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar844
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar845
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar846
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar847
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar848
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar849
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar850
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar851
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar852
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar853
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar854
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar855
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar856
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar857
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar858
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar859
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar860
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar861
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar862
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar863
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar864
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar865
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar866
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar867
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar868
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar869
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar870
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar871
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar872
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar873
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar874
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar875
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar876
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar877
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar878
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar879
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar880
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar881
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar882
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar883
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar884
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar885
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar886
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar887
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar888
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar889
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar890
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar891
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar892
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar893
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar894
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar895
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar896
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar897
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar898
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar899
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar900
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar901
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar902
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar903
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar904
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar905
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar906
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar907
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar908
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar909
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar910
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar911
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar912
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar913
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar914
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar915
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar916
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar917
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar918
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar919
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar920
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar921
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar922
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar923
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar924
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar925
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar926
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar927
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar928
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar929
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar930
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar931
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar932
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar933
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar934
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar935
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar936
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar937
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar938
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar939
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar940
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar941
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar942
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar943
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar944
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar945
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar946
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar947
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar948
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar949
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar950
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar951
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar952
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar953
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar954
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar955
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar956
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar957
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar958
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar959
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar960
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar961
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar962
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar963
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar964
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar965
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar966
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar967
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar968
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar969
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar970
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar971
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar972
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar973
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar974
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar975
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar976
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar977
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar978
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar979
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar980
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar981
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar982
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar983
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar984
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar985
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar986
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar987
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar988
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar989
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar990
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar991
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar992
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar993
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar994
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar995
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar996
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar997
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar998
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar999
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+
+- type: entity
+  id: FactionSquadWar1000
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: IFFFaction
+

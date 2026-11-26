@@ -1,0 +1,14 @@
+ent-CMSpawnPointSquadLeader = место возрождения главы отряда
+    .suffix = { ent-CMSpawnPointJobBase.suffix }
+ent-CMSpawnPointSquadLeaderAlpha = { ent-CMSpawnPointSquadLeader }
+    .suffix = Альфа
+ent-CMSpawnPointSquadLeaderBravo = { ent-CMSpawnPointSquadLeader }
+    .suffix = Браво
+ent-CMSpawnPointSquadLeaderCharlie = { ent-CMSpawnPointSquadLeader }
+    .suffix = Чарли
+ent-CMSpawnPointSquadLeaderDelta = { ent-CMSpawnPointSquadLeader }
+    .suffix = Дельта
+ent-RMCGuidebookRoleSL = Лидер Отряда
+ent-RMCGuidebookActionMove = Команда на движение
+ent-RMCGuidebookActionHold = Команда на удержание
+ent-RMCGuidebookActionFocus = Команда на концентрацию

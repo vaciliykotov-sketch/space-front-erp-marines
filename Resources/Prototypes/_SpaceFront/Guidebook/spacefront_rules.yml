@@ -1,0 +1,6 @@
+- type: guideEntry
+  id: SpaceFrontRules
+  name: guide-entry-rules
+  ruleEntry: true
+  priority: 10
+  text: "/ServerInfo/Guidebook/_SpaceFront/SpaceFrontRules.xml"

@@ -1,0 +1,223 @@
+# Meats
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxFish
+  name: "коробка of fish"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCFoodMeatFish
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxMeat
+  name: "коробка of meat"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMeat
+      amount: 7
+
+# Milk
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxMilk
+  name: "коробка of milk"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCDrinkMilkCarton
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxSoyMilk
+  name: "коробка of soy milk"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCDrinkSoyMilkCarton
+      amount: 7
+
+# Condiments
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxEnzyme
+  name: "коробка of enzyme"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCCondimentEnzyme
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxFlour
+  name: "коробка of flour"
+  components:
+  - type: StorageFill
+    contents:
+    - id: ReagentContainerFlour
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxSugar
+  name: "коробка of sugar"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCCondimentSugar
+      amount: 7
+
+# Fruit and Veg
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxApple
+  name: "коробка of apples"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodApple
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxBanana
+  name: "коробка of bananas"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodBanana
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxChanterelle
+  name: "коробка of chanterelles"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodMushroom
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxCherries
+  name: "коробка of cherries"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodCherry
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxChili
+  name: "коробка of chili"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodChiliPepper
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxCabbage
+  name: "коробка of cabbages"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodCabbage
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxCarrot
+  name: "коробка of carrots"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodCarrot
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxCorn
+  name: "коробка of corn"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodCorn
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxEggplant
+  name: "коробка of eggplants"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodEggplant
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxLemon
+  name: "коробка of lemons"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodLemon
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxLime
+  name: "коробка of limes"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodLime
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxOrange
+  name: "коробка of oranges"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodOrange
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxPotato
+  name: "коробка of potatoes"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodPotato
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxTomato
+  name: "коробка of tomatoes"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodTomato
+      amount: 7
+
+- type: entity
+  parent: RMCBoxCardboard
+  id: RMCBoxWhiteBeet
+  name: "коробка of whitebeet"
+  components:
+  - type: StorageFill
+    contents:
+    - id: FoodWhiteBeet
+      amount: 7

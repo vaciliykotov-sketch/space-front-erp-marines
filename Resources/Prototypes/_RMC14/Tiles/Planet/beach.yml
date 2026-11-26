@@ -1,0 +1,128 @@
+# Coast/Beach
+
+- type: tile
+  parent: CMPlanetBase
+  id: CMPlanetBeachBase
+  abstract: true
+  blockAnchoring: true
+  blockConstruction: true
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetBeachGrassNorth
+  name: "пляжная трава северная"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/grassbeach_0.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetBeachGrassSouth
+  name: "пляжная трава южная"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/grassbeach_1.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetBeachGrassWest
+  name: "пляжная трава западная"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/grassbeach_2.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetBeachGrassEast
+  name: "пляжная трава восточная"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/grassbeach_3.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetBeachGrassSE
+  name: "угол пляжной травы ЮВ"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/gbcorner_0.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetBeachGrassNW
+  name: "угол пляжной травы СЗ"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/gbcorner_1.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetBeachGrassNE
+  name: "угол пляжной травы СВ"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/gbcorner_2.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetBeachGrassSW
+  name: "угол пляжной травы ЮЗ"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/gbcorner_3.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastNorth
+  name: "северное побережье"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beach_0.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastEast
+  name: "восточное побережье"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beach_24.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastSouth
+  name: "южное побережье"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beach_8.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastWest
+  name: "западное побережье"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beach_16.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastCornerNW
+  name: "береговой угол СЗ"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner_0.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastCornerNE
+  name: "береговой угол СВ"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner_8.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastCornerSE
+  name: "береговой угол ЮВ"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner_16.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastCornerSW
+  name: "юго-западный угол побережья"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner_24.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastCornerNW2
+  name: "береговой угол СЗ"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner2_0.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastCornerNE2
+  name: "береговой угол СВ"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner2_8.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastCornerSW2
+  name: "береговой угол ЮВ"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner2_16.png
+
+- type: tile
+  parent: CMPlanetBeachBase
+  id: CMPlanetCoastCornerSE2
+  name: "юго-западный угол побережья"
+  sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner2_24.png

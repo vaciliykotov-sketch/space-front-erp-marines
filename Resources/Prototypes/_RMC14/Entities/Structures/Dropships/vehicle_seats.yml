@@ -1,0 +1,298 @@
+- type: entity
+  parent: CMSeatBase
+  id: CMSeatPassenger
+  name: "пассажирское сиденье"
+  description: A sturdy chair with a brace that lowers over your body. Prevents being flung around in vehicle during crash being injured as a result. Fasten your seatbelts, kids! Fix with welding tool in case of damage.
+  placement:
+    mode: PlaceFree
+  components:
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: _RMC14/Structures/Furniture/vehicle_seats.rsi
+    state: base
+
+- type: entity
+  parent: CMSeatBase
+  id: CMSeatPilot
+  name: "кресло пилота"
+  description: A specially designed chair for pilots to sit in.
+  placement:
+    mode: PlaceFree
+  components:
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: _RMC14/Structures/Furniture/vehicle_seats.rsi
+    state: pilot_chair
+  - type: RemoveComponents
+    components:
+    - type: Damageable
+
+- type: entity
+  parent: CMSeatBase
+  id: RMCSeatDriver
+  name: "кресло водителя"
+  description: A specially designed chair for driver to sit in.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: _RMC14/Structures/Furniture/vehicle_seats.rsi
+    state: pilot_chair
+  - type: VehicleDriverSeat
+    skills:
+      all:
+        RMCSkillVehicles: 1
+  - type: RemoveComponents
+    components:
+    - type: Damageable
+    - type: Destructible
+    - type: Corrodible
+
+- type: entity
+  parent: RMCSeatDriver
+  id: RMCSeatVanDriver
+  name: "фургон driver seat"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Furniture/chairs.rsi
+    state: comfychair
+
+- type: entity
+  parent: CMSeatBase
+  id: RMCSeatHunter
+  name: "стул охотника"
+  description: An exquisitely crafted chair for a large humanoid hunter.
+  placement:
+    mode: PlaceFree
+  components:
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: _RMC14/Structures/Furniture/vehicle_seats.rsi
+    state: chair
+
+- type: entity
+  parent: CMSeatBase
+  id: RMCSeatWhite
+  name: "пассажирское сиденье"
+  description: A sturdy chair with a brace that lowers over your body. Prevents being flung around in vehicle during crash being injured as a result. Fasten your seatbelts, kids! Fix with welding tool in case of damage.
+  placement:
+    mode: PlaceFree
+  components:
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: _RMC14/Structures/Furniture/vehicle_seats.rsi
+    state: vehicle_seat
+
+- type: entity
+  parent: CMSeatBase
+  id: RMCSeatDark
+  name: "пассажирское сиденье"
+  description: A sturdy chair with a brace that lowers over your body. Prevents being flung around in vehicle during crash being injured as a result. Fasten your seatbelts, kids! Fix with welding tool in case of damage.
+  placement:
+    mode: PlaceFree
+  components:
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: _RMC14/Structures/Furniture/hotseat.rsi
+    state: base
+
+- type: entity
+  abstract: true
+  parent: CMSeatBase
+  id: RMCSeatArmoredBase
+  name: "бронированное сиденье"
+  description: A reinforced chair designed for vehicle interiors.
+  placement:
+    mode: PlaceFree
+  components:
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: _RMC14/Structures/Vehicles/Interiors/general.rsi
+    state: armor_chair
+  - type: RemoveComponents
+    components:
+    - type: Damageable
+    - type: Destructible
+    - type: Corrodible
+
+- type: entity
+  parent: RMCSeatArmoredBase
+  id: RMCSeatArmored
+  name: "бронированное сиденье"
+
+- type: entity
+  parent: RMCSeatArmoredBase
+  id: RMCSeatArmoredDriver
+  name: "бронированное сиденье водителя"
+  components:
+  - type: VehicleDriverSeat
+    skills:
+      all:
+        RMCSkillVehicles: 2
+
+- type: entity
+  parent: RMCSeatArmoredBase
+  id: RMCSeatArmoredWeaponsOperator
+  name: "бронированное сиденье оператора вооружения"
+  components:
+  - type: VehicleWeaponsSeat
+    skills:
+      all:
+        RMCSkillVehicles: 2
+    isPrimaryOperatorSeat: true
+    allowUiSelection: true
+    allowHotbarSelection: true
+  - type: UserInterface
+    interfaces:
+      enum.VehicleWeaponsUiKey.Key:
+        type: VehicleWeaponsBoundUserInterface
+
+- type: entity
+  parent: RMCSeatArmoredBase
+  id: RMCSeatArmoredPortGunOperator
+  name: "бронированное сиденье оператора бортового орудия"
+  components:
+  - type: VehiclePortGunSeat
+    skills:
+      all: {}
+
+- type: entity
+  parent: RMCSeatArmoredBase
+  id: RMCSeatTankDriver
+  name: "танк driver seat"
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: VehicleDriverSeat
+    skills:
+      all:
+        RMCSkillVehicles: 3
+  - type: VehicleWeaponsSeat
+    skills:
+      all: {}
+    isPrimaryOperatorSeat: false
+    allowUiSelection: false
+    allowHotbarSelection: true
+    allowedHardpointTypes:
+    - HardpointTypeSupport
+  - type: UserInterface
+    interfaces:
+      enum.VehicleWeaponsUiKey.Key:
+        type: VehicleWeaponsBoundUserInterface
+
+- type: entity
+  parent: RMCSeatArmoredBase
+  id: RMCSeatTankGunner
+  name: "танк gunner seat"
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: VehicleWeaponsSeat
+    skills:
+      all:
+        RMCSkillVehicles: 3
+    isPrimaryOperatorSeat: true
+    allowUiSelection: true
+    allowHotbarSelection: true
+  - type: UserInterface
+    interfaces:
+      enum.VehicleWeaponsUiKey.Key:
+        type: VehicleWeaponsBoundUserInterface
+
+- type: entity
+  parent: RMCSeatArmoredBase
+  id: RMCSeatTankCommander
+  name: "танк commander seat"
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: VehicleWeaponsSeat
+    skills:
+      all: {}
+    isPrimaryOperatorSeat: false
+    allowUiSelection: true
+    allowHotbarSelection: true
+    baseViewPvsScale: 0.35
+    baseViewCursorMaxOffset: 5
+    baseViewCursorPvsIncrease: 0.5
+    allowedHardpointTypes:
+    - HardpointTypeSecondary
+    - HardpointTypeLauncher
+  - type: UserInterface
+    interfaces:
+      enum.VehicleWeaponsUiKey.Key:
+        type: VehicleWeaponsBoundUserInterface
+
+- type: entity
+  abstract: true
+  parent: CMSeatBase
+  id: RMCSeatHumveeBase
+  name: "хамви seat"
+  placement:
+    mode: PlaceFree
+  components:
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    sprite: _RMC14/Structures/Vehicles/Interiors/general_humvee.rsi
+    state: car_seat
+    drawdepth: BelowMobs
+  - type: Strap
+    modifyBuckleDrawDepth: false
+  - type: RMCStrapNoDrawDepthChange
+  - type: RemoveComponents
+    components:
+    - type: Damageable
+    - type: Destructible
+    - type: Corrodible
+
+
+- type: entity
+  parent: RMCSeatHumveeBase
+  id: RMCSeatHumveePassenger
+  name: "хамви passenger seat"
+
+- type: entity
+  parent: RMCSeatHumveeBase
+  id: RMCSeatHumveeDriver
+  name: "хамви driver seat"
+  components:
+  - type: VehicleDriverSeat
+    skills:
+      all:
+        RMCSkillVehicles: 2
+
+- type: entity
+  parent: RMCSeatHumveeBase
+  id: RMCSeatHumveeARCDriver
+  name: "Сиденье водителя ARC"
+  components:
+  - type: VehicleDriverSeat
+    skills:
+      all:
+        RMCSkillVehicles: 2
+
+- type: entity
+  parent: RMCSeatHumveeBase
+  id: RMCSeatHumveeWeaponsOperator
+  name: "хамви gunner seat"
+  components:
+  - type: VehicleWeaponsSeat
+    skills:
+      all:
+        RMCSkillVehicles: 2
+    isPrimaryOperatorSeat: true
+    allowUiSelection: true
+    allowHotbarSelection: true
+  - type: UserInterface
+    interfaces:
+      enum.VehicleWeaponsUiKey.Key:
+        type: VehicleWeaponsBoundUserInterface

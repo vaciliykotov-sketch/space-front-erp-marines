@@ -1,0 +1,299 @@
+- type: entity
+  parent: ColMarTechSurplus
+  id: RMCColMarTechSurplusPVE
+  suffix: PVE, Marine
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/squad_prep.rsi
+  - type: CMAutomatedVendor
+    access:
+    - "CMAccessMarinePrep"
+    hackable: true
+    sections:
+    - name: Standard Equipment
+      entries:
+      - id: CMBootsBlack
+        amount: 15
+        name: "Морпех Combat Boots"
+      - id: RMCJumpsuitSunRiders
+        amount: 15
+        name: "Морпех Uniform"
+      - id: CMHandsBlackMarine
+        amount: 15
+        name: "Морпех Combat Gloves"
+      - id: RMCHeadsetGoldenArrow
+        name: "Морпех Radio Headset"
+      - id: RMCM5CameraGear
+        amount: 15
+        name: "Гарнитура с камерой образца M5"
+      - id: RMCHeadCapFlippable
+        amount: 15
+        name: "Служебная кепка"
+      - id: RMCBoonie
+        amount: 15
+        name: "Шляпа-буни"
+    - name: Webbings
+      entries:
+      - id: CMWebbingBlack
+        amount: 5
+        name: "Стропа, чёрная"
+      - id: CMWebbingBrown
+        amount: 5
+        name: "Стропа, коричневая"
+      - id: RMCWebbingLegPouch
+        amount: 5
+        name: "Набедренный подсумок, камуфляжный"
+      - id: RMCWebbingLegPouchBlack
+        amount: 5
+        name: "Набедренный подсумок, чёрный"
+      - id: RMCWebbingDropPouch
+        amount: 5
+      - id: RMCWebbingDropPouchBlack
+        amount: 5
+    - name: Броня
+      entries:
+      - id: RMCPVEArmorCaseM3
+        amount: 15
+        name: "Стандартный комплект брони образца M3"
+      - id: RMCPVEArmorCaseM3Smooth
+        amount: 15
+        name: "Комплект гладкой брони образца M3"
+      - id: RMCPVEArmorCaseM3Ridged
+        amount: 15
+        name: "Комплект ребристого доспеха образца M3"
+    - name: Броня Webbings
+      entries:
+      - id: RMCArmorWebbingDrum
+        amount: 5
+        name: "Ременная система для барабанов брони M3"
+      - id: RMCArmorWebbingMag
+        amount: 5
+        name: "Ременная система для магазинов образца M3"
+      - id: RMCArmorWebbingGrenade
+        amount: 5
+        name: "Ременная система гранатомётчика брони M3"
+      - id: RMCArmorWebbingPouch
+        amount: 5
+        name: "Ременная система для подсумков образца M3"
+      - id: RMCArmorWebbingShell
+        amount: 5
+        name: "Ременная система для патронов к дробовику образца M3"
+    - name: Backpack
+      entries:
+      - id: CMBackpackMarine
+        amount: 15
+      - id: CMBackpackMarineTech
+        amount: 15
+      - id: RMCSatchelMarineChestrigPVE
+        amount: 15
+      - id: CMSatchelMarine
+        amount: 15
+      - id: RMCSatchelWelder
+        amount: 15
+      - id: RMCSatchelWelderChestrig
+        amount: 15
+    - name: Отдыхricted Backpack
+      entries:
+      - id: RMCBackpackRTO
+        amount: 1
+    - name: Belts
+      entries:
+      - id: CMBeltMarine
+        amount: 15
+      - id: RMCBeltGrenade
+        amount: 10
+      - id: RMCBeltHolsterPistol
+        amount: 15
+      - id: RMCBeltHolsterRevolver
+        amount: 15
+      - id: RMCM82FHolster
+        amount: 5
+      - id: RMCBeltUtilityGeneral
+        amount: 5
+    - name: Отдыхricted Belts
+      entries:
+      - id: RMCScabbardShotgunWaist
+        amount: 1
+    - name: Подсумокes
+      entries:
+      - id: RMCPouchFirstAid
+        amount: 15
+      - id: RMCPouchFlareFilled
+        amount: 15
+        name: "сигнальная ракета pouch (Full)"
+      - id: RMCPouchMagazine
+        amount: 15
+      - id: RMCPouchGeneralMedium
+        amount: 15
+      - id: RMCPouchMagazinePistol
+        amount: 15
+      - id: RMCPouchPistol
+        amount: 15
+    - name: Отдыхricted Pouches
+      entries:
+      - id: RMCPouchConstruction
+        amount: 1
+      - id: RMCPouchExplosive
+        amount: 1
+      - id: RMCPouchFirstResponder
+        amount: 2
+      - id: RMCPouchMagazinePistolLarge
+        amount: 2
+      - id: RMCPouchToolsFill
+        amount: 1
+      - id: RMCPouchFuelTank
+        amount: 1
+      - id: RMCPouchShotgun
+        amount: 1
+    - name: Mask
+      entries:
+      - id: CMMaskGas
+        amount: 15
+      - id: RMCMaskScarfGray
+        amount: 10
+      - id: RMCMaskScarfGreen
+        amount: 10
+      - id: RMCMaskScarfTan
+        amount: 10
+      - id: RMCMaskScarfRed
+        amount: 10
+      - id: CMMaskCoif
+        amount: 10
+      - id: RMCMaskKeffiyehBlack
+        amount: 10
+    - name: Miscellaneous
+      entries:
+      - id: RMCGogglesBallistic
+        amount: 10
+        name: "баллистические очки"
+      - id: RMCGogglesBallisticBlack
+        amount: 10
+        name: "баллистические очки, sun shaded"
+      - id: RMCGogglesM1A1Ballistic
+        amount: 10
+        name: "баллистические очки, laser-shaded (brown)"
+      - id: RMCWeldingGoggles
+        amount: 10
+      - id: RMCPatchSolarDevils
+        amount: 15
+      - id: RMCPatchUNMC
+        amount: 15
+
+- type: entity
+  parent: ColMarTechUtilities
+  id: RMCColMarTechUtilitiesPVE
+  suffix: PVE, Marine
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/prep.rsi
+  - type: CMAutomatedVendor
+    access:
+    - "CMAccessMarinePrep"
+    hackable: true
+    sections:
+    - name: Food
+      entries:
+      - id: CMMRE
+        amount: 5
+        name: "ИРП"
+      - id: RMCBoxMRE
+        amount: 1
+        name: "ИРП Box"
+    - name: Медикal
+      entries:
+      - id: CMGauze10
+        amount: 15
+      - id: CMOintment10
+        amount: 15
+      - id: CMEmergencyAutoInjector
+        amount: 15
+        name: "Аварийный автоинъектор"
+      - id: CMBicaridineAutoInjector
+        amount: 15
+      - id: CMKelotaneAutoInjector
+        amount: 15
+      - id: CMTricordrazineAutoInjector
+        amount: 15
+    - name: Tools
+      entries:
+      - id: CMEntrenchingTool
+        amount: 2
+      - id: CMScrewdriver
+        amount: 5
+      - id: CMWirecutter
+        amount: 5
+      - id: CMCrowbar
+        amount: 5
+      - id: CMWrench
+        amount: 5
+      - id: CMMultitool
+        amount: 5
+        name: "Мультитул"
+      - id: RMCWelderPVE
+        amount: 2
+        name: "Паяльная лампа"
+      - id: RMCBinocularsPVE
+        amount: 1
+    - name: Explosives
+      entries:
+      - id: RMCExplosivePlastic
+        amount: 2
+      - id: RMCExplosiveBreachingCharge
+        amount: 2
+    - name: Фальшфейер and Light
+      entries:
+      - id: RMCFlashlight
+        amount: 5
+      - id: RMCBoxFlashlights
+        amount: 1
+        name: "Коробка фонариков"
+      - id: RMCBoxPackFlare
+        amount: 1
+        name: "Коробка фальшфейеров"
+      - id: CMPackFlare
+        amount: 10
+      - id: RMCBoxPackFlareCAS
+        amount: 1
+    - name: Sidearms
+      entries:
+      - id: RMCWeaponPistolM77
+        amount: 5
+      - id: CMWeaponPistolM1984
+        amount: 5
+      - id: RMCWeaponPistolM82F
+        amount: 3
+    - name: Attachments
+      entries:
+      - id: RMCAttachmentRailFlashlight
+        amount: 5
+      - id: RMCAttachmentExtendedCompensator
+        amount: 5
+      - id: RMCAttachmentAngledGrip
+        amount: 5
+      - id: RMCAttachmentVerticalGrip
+        amount: 5
+      - id: RMCAttachmentLaserSight
+        amount: 5
+      - id: RMCAttachmentS6ReflexSight
+        amount: 5
+      - id: RMCAttachmentS42xTelescopicMiniscope
+        amount: 2
+      - id: RMCAttachmentM42A2CollapsibleStock
+        amount: 1
+      - id: RMCAttachmentTwoPointSling
+        amount: 15
+    - name: Miscellaneous
+      entries:
+      - id: CMFireExtinguisher
+        amount: 5
+        name: "Огнетушитель"
+      - id: CMFireExtinguisherPortable
+        amount: 1
+        name: "Огнетушитель (портативный)"
+      - id: CMRollerBed
+        amount: 2
+      - id: RMCScabbardMacheteFilled
+        amount: 5
+        name: "Мачете Scabbard (Full)"
+      - id: RMCM5Bayonet
+        amount: 25

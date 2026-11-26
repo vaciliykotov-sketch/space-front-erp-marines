@@ -1,0 +1,1 @@
+ent-WeaponSprayNozzle = распылительная форсунка

@@ -1,0 +1,1 @@
+ent-RMCEffectShieldBlue = { ent-RMCBaseEffect }

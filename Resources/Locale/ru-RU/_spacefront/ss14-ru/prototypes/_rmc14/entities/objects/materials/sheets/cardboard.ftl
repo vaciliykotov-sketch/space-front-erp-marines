@@ -1,0 +1,10 @@
+ent-RMCSheetCardboard = картонные листы
+    .suffix = Заполненный, RMC
+ent-RMCSheetCardboard30 = { ent-RMCSheetCardboard }
+    .suffix = 30, RMC
+ent-RMCSheetCardboard25 = { ent-RMCSheetCardboard }
+    .suffix = 25, RMC
+ent-RMCSheetCardboard10 = { ent-RMCSheetCardboard }
+    .suffix = 10, RMC
+ent-RMCSheetCardboard1 = { ent-RMCSheetCardboard }
+    .suffix = Один, RMC

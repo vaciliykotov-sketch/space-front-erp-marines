@@ -1,0 +1,10 @@
+ent-RMCWeaponLauncherDisposable = M5A1 SLAW
+    .suffix = Бронебойный
+ent-RMCWeaponLauncherDisposableExpended = { ent-RMCWeaponLauncherDisposable }
+    .suffix = Использованный
+ent-RMCWeaponLauncherDisposableFolded = M5A1 SLAW (в сложенном виде)
+    .suffix = Сложенный
+ent-RMCWeaponLauncherDisposableHE = M5A2 SHEL
+    .suffix = Фугасный
+ent-RMCWeaponLauncherDisposableHEFolded = M5A2 SHEL (сложенный)
+    .suffix = Фугасный, сложенный

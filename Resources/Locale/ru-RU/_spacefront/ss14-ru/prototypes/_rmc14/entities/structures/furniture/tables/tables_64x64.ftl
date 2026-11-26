@@ -1,0 +1,14 @@
+ent-RMCTableCardsTable = стол для карточных игр
+    .suffix = Фиолетовый
+ent-RMCTableCardsRed = { ent-RMCTableCardsTable }
+    .suffix = Красный
+ent-RMCTablePoolTable = стол для бильярда
+    .suffix = Коричневый
+ent-RMCTablePoolTableBlack = { ent-RMCTablePoolTable }
+    .suffix = Чёрный
+ent-RMCTableLargeMetalTableComputer = крупный металлический стол
+    .suffix = Компьютер
+ent-RMCTableLargeMetalTableComputer1 = { ent-RMCTableLargeMetalTableComputer }
+    .suffix = { ent-RMCTableLargeMetalTableComputer.suffix }
+ent-RMCTableLargeMetalTable = { ent-RMCTableLargeMetalTableComputer }
+    .suffix = RMC

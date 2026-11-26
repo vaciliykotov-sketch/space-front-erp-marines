@@ -1,0 +1,14 @@
+ent-RMCRandomHumanoidFoxtrotCombatTech = роль призрака боевого техника "Фокстрот"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidFoxtrotFireteamLeader = роль призрака лидера огневой группы "Фокстрот"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidFoxtrotHospitalCorpsman = роль призрака госпитального санитара "Фокстрот"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidFoxtrotRifleman = роль призрака рядового стрелка "Фокстрот"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidFoxtrotSmartGunOperator = роль призрака оператора смартгана "Фокстрот"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidFoxtrotSquadLeader = роль призрака лидера отряда "Фокстрот"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidFoxtrotWeaponsSpecialist = роль призрака оружейного специалиста "Фокстрот"
+    .suffix = Спавнер, Игрок

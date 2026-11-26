@@ -1,0 +1,17 @@
+ent-RMCGuidebookCorpseColonistBurst = погибший колонист
+ent-RMCHumanCorpsePrisoner = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseChef = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseDoctor = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseEngineer = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseScientist = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseMiner = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseSecurity = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseDeputy = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseLiaison = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpsePrisonGuard = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseColonist = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseColonistBurst = { ent-RMCHumanCorpseColonist }
+ent-RMCHumanCorpseColonistKutjevo = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseColonistKutjevoBurst = { ent-RMCHumanCorpseColonistKutjevo }
+ent-RMCHumanCorpseWeYaGoon = { ent-RMCHumanCorpse }
+ent-RMCHumanCorpseWeYaGoonKutjevo = { ent-RMCHumanCorpse }

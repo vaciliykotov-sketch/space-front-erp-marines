@@ -1,0 +1,48 @@
+- type: entity
+  abstract: true
+  parent: MarkerBase
+  id: RMCSpawnerIntelBase
+  name: "спавнер разведданных"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Markers/landmarks.rsi
+
+- type: entity
+  parent: RMCSpawnerIntelBase
+  id: RMCSpawnerIntelClose
+  name: "ориентир близко"
+  components:
+  - type: Sprite
+    state: intel_close
+  - type: IntelSpawner
+    intelType: Close
+
+- type: entity
+  parent: RMCSpawnerIntelBase
+  id: RMCSpawnerIntelMedium
+  name: "ориентир средне"
+  components:
+  - type: Sprite
+    state: intel_medium
+  - type: IntelSpawner
+    intelType: Medium
+
+- type: entity
+  parent: RMCSpawnerIntelBase
+  id: RMCSpawnerIntelFar
+  name: "ориентир далеко"
+  components:
+  - type: Sprite
+    state: intel_far
+  - type: IntelSpawner
+    intelType: Far
+
+- type: entity
+  parent: RMCSpawnerIntelBase
+  id: RMCSpawnerIntelScience
+  name: "научный ориентир"
+  components:
+  - type: Sprite
+    state: intel_sci
+  - type: IntelSpawner
+    intelType: Science

@@ -1,0 +1,15 @@
+ent-BaseGenerator = электрогенератор
+ent-BaseGeneratorWallmount = генератор настенного монтажа
+ent-BaseGeneratorWallmountFrame = каркас генератора настенного монтажа
+ent-GeneratorBasic = { ent-BaseGenerator }
+    .suffix = Базовый, 3кВт
+ent-GeneratorBasic15kW = { ent-BaseGenerator }
+    .suffix = Базовый, 15кВт
+ent-GeneratorWallmountBasic = { ent-BaseGeneratorWallmount }
+    .suffix = Базовый, 3кВт
+ent-GeneratorWallmountAPU = вспомогательная силовая установка шаттла
+    .suffix = ВСУ, 6кВт
+ent-GeneratorRTG = радиоизотопный термоэлектрический генератор
+    .suffix = 10кВт
+ent-GeneratorRTGDamaged = РИТЭГ с повреждениями
+    .suffix = 10кВт

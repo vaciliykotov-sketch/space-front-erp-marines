@@ -1,0 +1,28 @@
+- type: entity
+  parent: STDoubleDoorAlamoSolidRight
+  id: STDoubleDoorNormandySolidRight
+  name: дверь Авроры
+  description: "Модифицированный десантный шаттл. Корпус перекрашен в глубокий матовый чёрный, остекление полностью затонировано, подвеска занижена — силуэт стал ниже и агрессивнее серийной модели. В полевых условиях переоборудован под перевозку наземной техники: половину десантного отсека занимает грузовая аппарель с креплениями."
+
+  components:
+  - type: Sprite
+    sprite: _SpaceFront/Structures/Doors/NormandyBlack/normandy_dropship_solid_right.rsi
+
+- type: entity
+  parent: STDoubleDoorAlamoSolidLeft
+  id: STDoubleDoorNormandySolidLeft
+  name: дверь Авроры
+  description: "Модифицированный десантный шаттл. Корпус перекрашен в глубокий матовый чёрный, остекление полностью затонировано, подвеска занижена — силуэт стал ниже и агрессивнее серийной модели. В полевых условиях переоборудован под перевозку наземной техники: половину десантного отсека занимает грузовая аппарель с креплениями."
+
+  components:
+  - type: Sprite
+    sprite: _SpaceFront/Structures/Doors/NormandyBlack/normandy_dropship_solid_left.rsi
+
+- type: entity
+  parent: STCargoAirlockAlamo
+  id: STCargoAirlockNormandy
+  name: грузовой шлюз Авроры
+  description: "Модифицированный десантный шаттл. Корпус перекрашен в глубокий матовый чёрный, остекление полностью затонировано, подвеска занижена — силуэт стал ниже и агрессивнее серийной модели. В полевых условиях переоборудован под перевозку наземной техники: половину десантного отсека занимает грузовая аппарель с креплениями."
+  components:
+  - type: Sprite
+    sprite: _SpaceFront/Structures/Doors/NormandyBlack/normandy_doors.rsi

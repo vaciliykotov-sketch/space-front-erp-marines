@@ -1,0 +1,27 @@
+- type: entity
+  id: RMCCrateRestrictedEquipmentArmorM4
+  parent: RMCCrateBase
+  name: "Броня морпеха образца M4 crate (x1 helmet, x1 armor)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMArmorM4
+    - id: CMArmorHelmetM12
+
+- type: entity
+  id: RMCCrateRestrictedEquipmentArmorB12
+  parent: RMCCrateBase
+  name: "броня морпеха образца B12 crate (x1 helmet, x1 armor)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMArmorB12
+    - id: CMArmorHelmetM11
+- type: entity
+  id: RMCCrateRestrictedEquipmentIntelSupportKit
+  parent: RMCCrateBase
+  name: "Ящик комплекта полевой разведподдержки (x1 фултон, x1 детектор данных, 1x разведброшюра, 1x большой портфель для документов, 1x ключ разведрадио)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCKitIntel

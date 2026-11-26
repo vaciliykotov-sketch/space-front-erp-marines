@@ -1,0 +1,17 @@
+- type: job
+  parent: RMCSurvivorShivasDoctor
+  id: RMCSurvivorShivasPanicRoomDoctor
+  name: rmc-job-name-survivor-shivas-doctor
+  playTimeTracker: CMJobSurvivorDoctor
+  setPreference: false
+  startingGear: RMCGearSurvivorShivasDoctor
+  spawnMenuRoleName: Doctor (Shivas Special Survivor)
+  greeting: rmc-job-greeting-shivas-panic-room-doctor
+
+- type: entity
+  parent: RMCSpawnPointSurvivorShivasDoctor
+  id: RMCSpawnPointSurvivorShivasPanicRoomDoctor
+  name: "точка появления врача особого выжившего в комнате паники Шивы"
+  components:
+  - type: SpawnPoint
+    job_id: RMCSurvivorShivasPanicRoomDoctor

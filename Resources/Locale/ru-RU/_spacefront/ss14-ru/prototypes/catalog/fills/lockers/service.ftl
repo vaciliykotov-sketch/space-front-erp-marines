@@ -1,0 +1,14 @@
+ent-LockerBoozeFilled = { ent-LockerBooze }
+    .suffix = Заполненный
+ent-ClosetChefFilled = { ent-ClosetChef }
+    .suffix = Заполненный
+ent-ClosetJanitorFilled = { ent-ClosetJanitor }
+    .suffix = Заполненный
+ent-ClosetLegalFilled = { ent-ClosetLegal }
+    .suffix = Заполненный
+ent-LockerBotanistFilled = { ent-LockerBotanist }
+    .suffix = Заполненный
+ent-LockerBotanistLoot = { ent-LockerBotanist }
+    .suffix = Лут
+ent-ClosetJanitorBombFilled = { ent-ClosetJanitorBomb }
+    .suffix = Заполненный, НЕ МАППИТЬ

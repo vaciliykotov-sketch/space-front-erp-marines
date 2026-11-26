@@ -1,0 +1,39 @@
+- type: rank
+  id: RMCRankFLFreelancer
+  name: "Наёмник"
+  prefix: Merc.
+
+- type: rank
+  id: RMCRankFLMedic
+  name: "Медик"
+  prefix: Med.
+
+- type: rank
+  id: RMCRankFLLeader
+  name: "Лидер"
+  prefix: Warlord
+
+- type: rank
+  id: RMCRankFLEliteFreelancer
+  name: "Элита"
+  prefix: Merc.
+
+- type: rank
+  id: RMCRankFLEliteHeavy
+  name: "Элита Heavy"
+  prefix: Hvy.
+
+- type: rank
+  id: RMCRankFLEliteEngineer
+  name: "Элита Engineer"
+  prefix: Eng.
+
+- type: rank
+  id: RMCRankFLEliteMedic
+  name: "Элита Medic"
+  prefix: Med.
+
+- type: rank
+  id: RMCRankFLEliteLeader
+  name: "Элита Leader"
+  prefix: Warlord

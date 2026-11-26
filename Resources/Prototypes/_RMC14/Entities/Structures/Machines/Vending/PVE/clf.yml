@@ -1,0 +1,242 @@
+- type: entity
+  parent: ColMarTechSurplus
+  id: RMCCLFSurplusPVE
+  name: "Стойка для одежды CLF"
+  description: A sturdy metal rack made by local friends of the front, filled to the brim with all the load-bearing gear and clothing a rebel could want, coincidentally also made by local friends of the front.
+  suffix: PVE, CLF
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clf_surplus.rsi
+  - type: CMAutomatedVendor
+    access:
+    - "CMAccessMarinePrep"
+    hackable: true
+    sections:
+    - name: Standard Equipment
+      entries:
+      - id: RMCShoesJackboots
+        amount: 15
+        name: "Сапоги"
+      - id: RMCJumpsuitCLFSoldier
+        amount: 15
+        name: "Комбинезон CLF"
+      - id: RMCHandsLeatherBlack
+        amount: 15
+        name: "Кожаные перчатки"
+      - id: RMCHeadsetDistressCLF
+        amount: 15
+        name: "Радиогарнитура"
+      - id: RMCHeadCapTruckerBlue
+        amount: 15
+        name: "Кепка дальнобойщика"
+      - id: RMCHeadBeanie
+        amount: 15
+        name: "Шапка-бини"
+    - name: Webbings
+      entries:
+      - id: CMWebbingBlack
+        amount: 5
+        name: "Стропа, чёрная"
+      - id: CMWebbingBrown
+        amount: 5
+        name: "Стропа, коричневая"
+      - id: RMCWebbingLegPouch
+        amount: 5
+        name: "Набедренный подсумок, камуфляжный"
+      - id: RMCWebbingLegPouchBlack
+        amount: 5
+        name: "Набедренный подсумок, чёрный"
+      - id: RMCWebbingDropPouch
+        amount: 5
+    - name: Броня
+      entries:
+      - id: RMCHeadMilitiaHood
+        amount: 15
+        name: "Капюшон ополчения"
+      - id: RMCCoatMilitia
+        amount: 15
+        name: "Броня ополчения"
+    - name: Backpack
+      entries:
+      - id: CMBackpack
+        amount: 15
+      - id: CMBackpackEngineer
+        amount: 15
+      - id: CMSatchel
+        amount: 15
+      - id: RMCSatchelLightpackWelder
+        amount: 15
+    - name: Отдыхricted Backpack
+      entries:
+      - id: RMCBackpackRTO
+        amount: 1
+    - name: Belts
+      entries:
+      - id: CMBeltMarine
+        amount: 15
+      - id: RMCBeltGrenade
+        amount: 10
+      - id: RMCBeltHolsterPistol
+        amount: 15
+      - id: RMCBeltHolsterRevolver
+        amount: 15
+      - id: RMCM82FHolster
+        amount: 5
+      - id: RMCBeltUtilityGeneral
+        amount: 5
+    - name: Подсумокes
+      entries:
+      - id: RMCPouchFirstAid
+        amount: 15
+      - id: RMCPouchFlareFilled
+        amount: 15
+        name: "сигнальная ракета pouch (Full)"
+      - id: RMCPouchMagazine
+        amount: 15
+      - id: RMCPouchGeneralMedium
+        amount: 15
+      - id: RMCPouchMagazinePistol
+        amount: 15
+      - id: RMCPouchPistol
+        amount: 15
+    - name: Отдыхricted Pouches
+      entries:
+      - id: RMCPouchConstruction
+        amount: 1
+      - id: RMCPouchExplosive
+        amount: 1
+      - id: RMCPouchFirstResponder
+        amount: 2
+      - id: RMCPouchMagazinePistolLarge
+        amount: 2
+      - id: RMCPouchToolsFill
+        amount: 1
+      - id: RMCPouchFuelTank
+        amount: 1
+      - id: RMCPouchShotgun
+        amount: 1
+    - name: Mask
+      entries:
+      - id: CMMaskGas
+        amount: 15
+      - id: RMCMaskScarfGray
+        amount: 10
+      - id: CMMaskCoif
+        amount: 10
+    - name: Miscellaneous
+      entries:
+      - id: RMCGogglesBallistic
+        amount: 10
+        name: "баллистические очки"
+      - id: RMCGogglesBallisticBlack
+        amount: 10
+        name: "баллистические очки, sun shaded"
+      - id: RMCGogglesM1A1Ballistic
+        amount: 10
+        name: "баллистические очки, laser-shaded (brown)"
+      - id: RMCCLFArmband
+        amount: 15
+      - id: RMCPatchCLF
+        amount: 15
+
+- type: entity
+  parent: ColMarTechUtilities
+  id: RMCCLFUtilitiesPVE
+  name: "Стойка для снаряжения CLF"
+  description: A sturdy metal rack taken from a captured UN military shipment loaded with all the gear a rebel could ever want.
+  suffix: PVE, CLF
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/prep.rsi
+  - type: CMAutomatedVendor
+    access:
+    - "CMAccessMarinePrep"
+    hackable: true
+    sections:
+    - name: Food
+      entries:
+      - id: CMMRE
+        amount: 5
+        name: "ИРП"
+      - id: RMCBoxMRE
+        amount: 1
+        name: "ИРП Box"
+    - name: Медикal
+      entries:
+      - id: CMGauze10
+        amount: 15
+      - id: CMOintment10
+        amount: 15
+      - id: CMEmergencyAutoInjector
+        amount: 15
+        name: "Аварийный автоинъектор"
+      - id: CMBicaridineAutoInjector
+        amount: 15
+      - id: CMKelotaneAutoInjector
+        amount: 15
+      - id: CMTricordrazineAutoInjector
+        amount: 15
+    - name: Tools
+      entries:
+      - id: CMEntrenchingTool
+        amount: 2
+      - id: CMScrewdriver
+        amount: 5
+      - id: CMWirecutter
+        amount: 5
+      - id: CMCrowbar
+        amount: 5
+      - id: CMWrench
+        amount: 5
+      - id: CMMultitool
+        amount: 5
+        name: "Мультитул"
+      - id: RMCWelderPVE
+        amount: 1
+    - name: Explosives
+      entries:
+      - id: RMCExplosivePlastic
+        amount: 2
+      - id: RMCExplosiveBreachingCharge
+        amount: 2
+    - name: Фальшфейер and Light
+      entries:
+      - id: RMCFlashlight
+        amount: 5
+      - id: RMCBoxFlashlights
+        amount: 1
+        name: "Коробка фонариков"
+      - id: RMCBoxPackFlare
+        amount: 1
+        name: "Коробка фальшфейеров"
+      - id: CMPackFlare
+        amount: 10
+      - id: RMCBoxPackFlareCAS
+        amount: 1
+    - name: Sidearms
+      entries:
+      - id: RMCWeaponPistolMK45
+        amount: 2
+      - id: RMCWeaponPistolB92FS
+        amount: 2
+      - id: RMCWeaponPistolM82F
+        amount: 1
+    - name: Miscellaneous
+      entries:
+      - id: CMFireExtinguisher
+        amount: 5
+        name: "Огнетушитель"
+      - id: CMFireExtinguisherPortable
+        amount: 1
+        name: "Огнетушитель (портативный)"
+      - id: CMRollerBedSpawnFolded
+        amount: 2
+      - id: RMCScabbardMacheteFilled
+        amount: 5
+        name: "Мачете Scabbard (Full)"
+      - id: RMCAttachmentRailFlashlight
+        amount: 5
+      - id: RMCAttachmentTwoPointSling
+        amount: 5
+      - id: RMCM5Bayonet
+        amount: 25

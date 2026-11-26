@@ -1,0 +1,14 @@
+ent-RMCMarkerAreaLabel = зона
+    .suffix = Метка области тактической карты
+ent-RMCMarkerAreaLabelRed = { ent-RMCMarkerAreaLabel }
+    .suffix = Метка области тактической карты, красный текст
+ent-RMCMarkerAreaLabelBlue = { ent-RMCMarkerAreaLabel }
+    .suffix = Метка области тактической карты, синий текст
+ent-RMCMarkerAreaLabelGreen = { ent-RMCMarkerAreaLabel }
+    .suffix = Метка области тактической карты, зеленый текст
+ent-RMCMarkerAreaLabelCyan = { ent-RMCMarkerAreaLabel }
+    .suffix = Метка области тактической карты, голубой текст
+ent-RMCMarkerAreaLabelPurple = { ent-RMCMarkerAreaLabel }
+    .suffix = Метка области тактической карты, пурпурный текст
+ent-RMCMarkerAreaLabelOrange = { ent-RMCMarkerAreaLabel }
+    .suffix = Метка области тактической карты, оранжевый текст

@@ -1,0 +1,15 @@
+ent-CMBaseStructure = { ent-BaseStructure }
+ent-CMBaseStructureCorrodible = { ent-CMBaseStructure }
+ent-CMBaseXenoStructure = { ent-BaseStructure }
+ent-CMCorrodible = { "" }
+ent-RMCBaseWallInvincibleNoIcon = { "" }
+ent-CMBaseWallInvincible = { ent-RMCBaseWallInvincibleNoIcon }
+ent-CMBaseWall = { ent-CMBaseWallInvincible }
+ent-CMBaseWallXeno = стена из смолы
+ent-RMCWallInvisibleBulletPassible = стены блокиратор
+    .suffix = Пассивный снаряд
+ent-RMCWallInvisibleBulletBlocker = стен блокиратор
+    .suffix = Блокировщик снарядов
+ent-RMCWallInvisibleBulletLightBlocker = стен блокировщик
+    .suffix = Блокировщик снарядов + света
+ent-RMCBlockerAirtight = блокиратор герметичный

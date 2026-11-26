@@ -1,0 +1,14 @@
+ent-CMShellShotgunBuckshot = пачка картечных патронов
+ent-CMShellShotgunBuckshot1 = { ent-CMShellShotgunBuckshot }
+    .suffix = 1
+ent-RMCShellShotgunBreaching = пачка разрывных дробовых зарядов
+ent-RMCShellShotgunBreaching1 = { ent-RMCShellShotgunBreaching }
+ent-CMShellShotgunSlugs = пачка пулевых зарядов
+ent-CMShellShotgunIncendiary = пачка зажигательных зарядов
+ent-CMShellShotgunBeanbag = пачка травматических пуль-мешков
+ent-CMShellShotgunFlechette = пачка флешеттных зарядов
+ent-CMShellShotgunIncendiaryBuckshot = пачка зажигательных картечных зарядов
+ent-RMCShellShotgunL49B = пачка боеприпасов L49B
+    .suffix = PVE, Королевский
+ent-RMCShellShotgunL49B1 = { ent-RMCShellShotgunL49B }
+    .suffix = { ent-RMCShellShotgunL49B.suffix }

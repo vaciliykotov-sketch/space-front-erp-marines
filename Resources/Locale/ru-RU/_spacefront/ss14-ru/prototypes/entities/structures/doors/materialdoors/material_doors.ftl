@@ -1,0 +1,10 @@
+ent-BaseMaterialDoor = дверное полотно
+ent-BaseMaterialDoorNavMap = { ent-BaseMaterialDoor }
+ent-MetalDoor = дверь из металла
+ent-WoodDoor = дверь из дерева
+ent-PaperDoor = дверь из бумаги
+ent-PlasmaDoor = дверь из плазмы
+ent-GoldDoor = дверь из золота
+ent-SilverDoor = дверь из серебра
+ent-BananiumDoor = дверь из бананиума
+ent-WebDoor = дверь из паутины

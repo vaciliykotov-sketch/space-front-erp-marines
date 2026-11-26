@@ -1,0 +1,1 @@
+ent-ClothingEyesGlassesMonocle = окуляр-монокль

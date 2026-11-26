@@ -1,0 +1,16 @@
+ent-CrateSalvageEquipment = ящик для утилизационного снаряжения
+    .suffix = Заполненный
+ent-CrateSalvageAssortedGoodies = { ent-CrateGenericSteel }
+    .suffix = Заполненный, Случайный утиль
+ent-CrateCrusherDagger = ящик с кинжалами-крушителями
+ent-CrateSeismicCharge = ящик сейсмических зарядов
+ent-CrateDoubleEmergencyTank = двойные аварийные баллоны в ящике
+ent-CrateCrusher = ящик с крушителями
+ent-CrateFulton = фултоны в ящике
+ent-CrateVoidJetpack = пустотный джетпак в ящике
+ent-CrateSalvageHardsuit = утилизаторский скафандр в ящике
+ent-CrateCrusherGlaive = глефа-крушитель в ящике
+ent-CrateSupremeSalvagerCloak = плащ верхновного утилизатора в ящике
+ent-CratePartsT3 = компоненты 3 уровня в ящике
+ent-CratePartsT3T4 = компоненты 3/4 уровня в ящике
+ent-CratePartsT4 = компоненты 4 уровня в ящике

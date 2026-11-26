@@ -1,0 +1,10 @@
+ent-RMCAPCHardpointBase = { ent-BaseItem }
+ent-RMCAPCWheel = колёса бронетранспортёра
+ent-RMCAPCFrontCannon = спаренное фронтальное орудие Bleihagel RE-RE700
+ent-RMCAPCDualCannon = пушка с двумя стволами PARS-159 "Боярин"
+ent-RMCAPCCommsRelay = коммуникационный ретранслятор БТР
+ent-RMCAPCFlareLauncher = установка для запуска осветительных ракет M-87F
+ent-RMCAPCFreightStorage = отсек для грузов БТР
+ent-VehicleAPCM56FPWPortGunBase = M56 FPW пулемет
+ent-VehicleAPCM56FPWPortGunRight = M56 FPW пулемет (по правому борту)
+ent-VehicleAPCM56FPWPortGunLeft = M56 FPW пулемет (по левому борту)

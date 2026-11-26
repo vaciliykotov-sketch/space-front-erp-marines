@@ -1,0 +1,9 @@
+ent-MobRobotic = { ent-BaseMob }
+ent-MobSiliconBase = { ent-MobRobotic }
+ent-MobFireBot = робот-пожарный
+ent-MobHonkBot = робот-хонкер
+ent-MobJonkBot = робот-кринж
+ent-MobCleanBot = робот-уборщик
+ent-MobMedibot = робот-медик
+ent-MobMimeBot = робот-мим
+ent-MobSupplyBot = робот-курьер

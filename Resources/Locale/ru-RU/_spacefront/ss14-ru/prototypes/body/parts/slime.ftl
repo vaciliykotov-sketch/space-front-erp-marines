@@ -1,0 +1,11 @@
+ent-PartSlime = фрагмент тела слаймолюда
+ent-TorsoSlime = корпус слаймолюда
+ent-HeadSlime = голова слаймолюда
+ent-LeftArmSlime = левая рука слаймолюда
+ent-RightArmSlime = правая рука слаймолюда
+ent-LeftHandSlime = левая кисть слаймолюда
+ent-RightHandSlime = правая кисть слаймолюда
+ent-LeftLegSlime = левая нога слаймолюда
+ent-RightLegSlime = правая нога слаймолюда
+ent-LeftFootSlime = левая стопа слаймолюда
+ent-RightFootSlime = правая стопа слаймолюда

@@ -1,0 +1,17 @@
+ent-CMMedilinkSupplyPort = медлинк-порт снабжения
+ent-RMCMedilinkSupplyPortGrey = { ent-CMMedilinkSupplyPort }
+ent-CMVendorMedicalAllAccess = Вей-Мед Плюс
+    .suffix = Все Доступы
+ent-CMVendorMedical = { ent-CMVendorMedicalAllAccess }
+ent-RMCVendorMedicalPVE = { ent-CMVendorMedical }
+    .suffix = PVE
+ent-CMVendorChemistry = Вей-Хим Плюс
+    .suffix = { ent-CMVendorMedical.suffix }
+ent-ColMarTechMarineMedical = МедШкаф КолМорТех
+ent-ColMarTechMarineMedicalPowered = { ent-ColMarTechMarineMedical }
+    .suffix = Запитанный
+ent-RMCNanoMed = НаноМед
+ent-RMCNanoMedLimited = { ent-RMCNanoMed }
+    .suffix = Ограниченный
+ent-RMCBobdaMed = БобдаМед
+ent-CMVendorBlood = кровераздатчик MM

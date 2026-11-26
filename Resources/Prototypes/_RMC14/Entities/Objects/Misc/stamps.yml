@@ -1,0 +1,275 @@
+# Base
+
+- type: entity
+  parent: RubberStampBase
+  id: CMStampBase
+  abstract: true
+  name: "резиновая печать"
+  description: A rubber stamp for stamping important documents.
+  components:
+  - type: Item
+    heldPrefix: stamp
+  - type: Sprite
+    sprite: _RMC14/Objects/Misc/paper.rsi
+    state: stamp-def
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-default
+    stampState: "paper_stamp-def"
+
+# Heads
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampXO
+  name: "печать старшего офицера"
+  components:
+  - type: Sprite
+    state: stamp-hop
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-xo
+    stampedColor: "#3681bb"
+    stampState: "paper_stamp-cap"
+
+- type: entity
+  parent: CMStampXO
+  id: CMStampCO
+  name: "печать командующего офицера"
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-co
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampASO
+  name: "печать офицера вспомогательной поддержки"
+  components:
+  - type: Sprite
+    state: stamp-ce
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-aso
+    stampedColor: "#b0901b"
+    stampState: "paper_stamp-hop"
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampCMP
+  name: "Главный военный полицейский's rubber stamp"
+  components:
+  - type: Sprite
+    state: stamp-hos
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-cmp
+    stampedColor: "#b34444"
+    stampState: "paper_stamp-hos"
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampMW
+  name: "Военный надзиратель's rubber stamp"
+  components:
+  - type: Sprite
+    state: stamp-mw
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-mw
+    stampedColor: "#ac0316"
+    stampState: "paper_stamp-mw"
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampCMO
+  name: "печать главного врача"
+  components:
+  - type: Sprite
+    state: stamp-cmo
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-cmo
+    stampedColor: "#4e806a"
+    stampState: "paper_stamp-cmo"
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampQM
+  name: "Офицер снабжения's rubber stamp"
+  components:
+  - type: Sprite
+    state: stamp-ro
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-qm
+    stampedColor: "#725c0e"
+    stampState: "paper_stamp-ro"
+
+- type: entity
+  parent: CMStampASO
+  id: CMStampCE
+  name: "печать главного инженера"
+  components:
+  - type: Sprite
+    state: stamp-ce
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-ce
+    stampState: "paper_stamp-ce"
+
+- type: entity
+  parent: CMStampBase
+  id: RMCStampSEA
+  name: "печать старшего военного советника"
+  components:
+  - type: Sprite
+    state: stamp-sea
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-sea
+    stampedColor: "#d19f2a"
+    stampState: "paper_stamp-sea"
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampLiaison
+  name: "резиновая печать корпоративного связного"
+  components:
+  - type: Sprite
+    state: stamp-we_ya
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-cl
+    stampedColor: "#996600"
+    stampState: "paper_stamp-we_ya"
+
+- type: entity
+  parent: CMStampBase
+  id: RMCStampProvostInspector
+  name: "резиновая печать инспектора провоста"
+  components:
+  - type: Sprite
+    state: stamp-provost
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-pvi
+    stampedColor: "#cb0000"
+    stampState: "paper_stamp-provost-inspector"
+
+
+# Simple
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampApproved
+  name: "Штамп \"ОДОБРЕНО\""
+  components:
+  - type: Sprite
+    state: stamp-approve
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-approve
+    stampedColor: "#164600"
+    stampState: "paper_stamp-approve"
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampDenied
+  name: "Резиновая печать «ОТКАЗАНО»"
+  components:
+  - type: Sprite
+    state: stamp-deny
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-deny
+    stampedColor: "#660000"
+    stampState: "paper_stamp-deny"
+
+# Admin Only
+
+- type: entity
+  parent: CMStampLiaison
+  id: CMStampWeYa
+  name: "Резиновая печать Weston-Yamada"
+  suffix: Admin
+  components:
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-we-ya
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampMarine
+  name: "резиновая печать морпеха"
+  suffix: Admin, UNMC
+  components:
+  - type: Sprite
+    state: stamp-marine
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-marine
+    stampedColor: "#4e806a"
+    stampState: "paper_stamp-marine"
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampCMB
+  name: "печать бюро маршала колонии"
+  suffix: Admin, CMB
+  components:
+  - type: Sprite
+    state: stamp-cmb
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-cmb
+    stampedColor: "#b0901b"
+    stampState: "paper_stamp-cmb"
+
+- type: entity
+  parent: CMStampBase
+  id: CMStampProvost
+  name: "резиновая печать провоста"
+  suffix: Admin, Provost
+  components:
+  - type: Sprite
+    state: stamp-provost # RMC14 Todo: update sprite
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-provost
+    stampedColor: "#cb0000"
+    stampState: "paper_stamp-provost"
+
+- type: entity
+  parent: CMStampBase
+  id: RMCStampCLF
+  name: "печать Фронта освобождения колонии"
+  suffix: Admin, CLF
+  components:
+  - type: Sprite
+    state: stamp-clf
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-clf
+    stampedColor: "#6B6B6B"
+    stampState: "paper_stamp-clf"
+
+- type: entity
+  parent: CMStampBase
+  id: RMCStampSPP
+  name: "резиновая печать социалистического прогрессивного народа"
+  suffix: Admin, SPP
+  components:
+  - type: Sprite
+    state: stamp-spp
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-spp
+    stampedColor: "#A70707"
+    stampState: "paper_stamp-spp"
+
+- type: entity
+  parent: CMStampBase
+  id: RMCStampTSE
+  name: "резиновая печать Империи Трёх Солнц"
+  suffix: Admin, TSE
+  components:
+  - type: Sprite
+    state: stamp-tse
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-tse
+    stampedColor: "#BE601B"
+    stampState: "paper_stamp-tse"
+
+- type: entity
+  parent: CMStampBase
+  id: RMCStampFreePress
+  name: "резиновая печать свободной прессы"
+  suffix: Admin, Press
+  components:
+  - type: Sprite
+    state: stamp-free-press
+  - type: Stamp
+    stampedName: stamp-component-stamped-name-cm-free-press
+    stampedColor: "#1e5bd2"
+    stampState: "paper_stamp-free-press"

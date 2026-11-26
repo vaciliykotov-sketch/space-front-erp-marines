@@ -1,0 +1,11 @@
+ent-TreasureDatadiskEncrypted = диск с зашифрованными данными
+ent-TreasureHardDiskDrive = HDD-накопитель
+ent-TreasureFlopDiskDrive = флоппи-дисковод
+ent-TreasureCDDrive = привод для компакт-дисков
+ent-TreasureCPUSupercharged = процессор с суперразгоном
+ent-TreasureSampleTube = трубка с образцом
+ent-TreasureCoinIron = железная монета
+ent-TreasureCoinSilver = { ent-TreasureCoinIron }
+ent-TreasureCoinGold = { ent-TreasureCoinIron }
+ent-TreasureCoinAdamantine = { ent-TreasureCoinIron }
+ent-TreasureCoinDiamond = { ent-TreasureCoinIron }

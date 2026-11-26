@@ -1,0 +1,35 @@
+МОДИФИКАЦИЯ: 03 TTS озвучка
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Озвучка чата, радио, объявлений и брифинга синтезом речи + выбор голоса в редакторе персонажа
+
+ЗАЧЕМ:
+Что делает: озвучивает сообщения чата/радио/объявления через TTS-сервер; добавляет вкладку «Голос» в редактор персонажа; анти-спам (пока играет реплика — новые не запускаются). Зачем: отличительная фича сервера — озвучка повышает вовлечённость.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Server/_SpaceFront/TTS/TTSAnnounceSystem.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Server/_SpaceFront/TTS/TTSSystem.cs
+- Content.Server/_SpaceFront/TTS/TTSRadioAnnounceSystem.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Server/_SpaceFront/TTS/TTSVoiceSetupSystem.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Server/_SpaceFront/TTS/TTSServer.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Server/_SpaceFront/TTS/TTSEventSystem.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Shared/_SpaceFront/TTS/SharedTTSSystem.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Shared/_SpaceFront/TTS/Components/TTSComponent.cs
+- Content.Shared/_SpaceFront/TTS/Enums/VoiceRequestType.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Shared/_SpaceFront/TTS/Enums/VoiceSetupType.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Shared/_SpaceFront/TTS/Events/TTSEvents.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Client/_SpaceFront/TTS/TTSAnnouncerSystem.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Client/_SpaceFront/TTS/TTSClient.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Client/_SpaceFront/TTS/TTSVoiceSetupUIController.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Client/_SpaceFront/TTS/TTSVoiceSetupUI.cs  (НЕ НАЙДЕН — см. PATCHES.md!)
+- Content.Server/_SpaceFront/VoiceMask/VoiceMaskComponent.cs
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Чужие файлы с маркерами:
+- Content.Server/VoiceMask/VoiceMaskSystem.cs + VoiceMaskComponent.cs — голос маски
+- Content.Shared/Humanoid/HumanoidAppearanceComponent.cs + SharedHumanoidAppearanceSystem.cs — поле голоса
+- Content.Shared/Preferences/HumanoidCharacterProfile.cs — голос в профиле
+- Content.Shared/Radio/RadioChannelPrototype.cs — показ в настройках TTS
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

@@ -1,0 +1,12 @@
+ent-CMXenoPraetorianBase = Особь-преторианец
+ent-CMXenoPraetorian = { ent-CMXenoPraetorianBase }
+ent-RMCXenoPraetorianValkyrie = { ent-CMXenoPraetorianBase }
+    .suffix = Валькирия
+ent-RMCXenoPraetorianDancer = { ent-CMXenoPraetorianBase }
+    .suffix = Танцор
+ent-RMCXenoPraetorianVanguard = { ent-CMXenoPraetorianBase }
+    .suffix = Авангард
+ent-RMCXenoPraetorianOppressor = { ent-CMXenoPraetorianBase }
+    .suffix = Угнетатель
+ent-RMCXenoPraetorianWarden = { ent-CMXenoPraetorianBase }
+    .suffix = Смотритель

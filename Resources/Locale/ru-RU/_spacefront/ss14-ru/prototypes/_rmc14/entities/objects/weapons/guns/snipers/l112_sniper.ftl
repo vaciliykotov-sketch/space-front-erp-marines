@@ -1,0 +1,14 @@
+ent-RMCL112SniperRifle = винтовка марксманская L112A2
+    .suffix = PVE
+ent-RMCL112SniperRifleSuppressed = винтовка марксманская L112A1
+    .suffix = PVE, С глушителем
+ent-RMCL112SniperRifleSH = { ent-RMCL112SniperRifle }
+    .suffix = Заполненный, Squash-Head
+ent-RMCL112SniperRifleSuppressedSH = { ent-RMCL112SniperRifleSuppressed }
+    .suffix = Заполненный, Squash-Head
+ent-RMCMagazineSniperL112 = магазин для L112 (калибр 7.7x56mmR)
+ent-RMCMagazineSniperL112SH = магазин для L112 Squash-Head (калибр 7.7x56mmR)
+ent-RMCCartridgeSniper77x56mmR = боеприпас 7.7x56mmR
+ent-RMCCartridgeSniper77x56mmRSH = боеприпас Squash-Head 7.7x56mmR
+ent-RMCBulletSniper77x56mmR = боеприпас пуля 7.7x56mmR
+ent-RMCBulletSniper77x56mmRSH = снайперская пуля Squash-Head калибра 7.7x56mmR

@@ -1,0 +1,97 @@
+# SUPPLIES
+# code/datums/supply_packs/misc.dm
+
+# /datum/supply_packs/internals
+- type: entity
+  parent: RMCCrateSupply
+  id: RMCCrateSupplyInternals
+  name: "ящик кислородного снаряжения (x3 маски, x3 баллона)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: CMMaskGas
+      amount: 3
+    - id: RMCGasTankOxygenFilled
+      amount: 3
+
+# /datum/supply_packs/evacuation
+- type: entity
+  parent: RMCCrateSupply
+  id: RMCCrateSupplyEvacuation
+  name: "аварийное снаряжение (x2 ящика для инструментов, x2 сигнальных жилета, x5 кислородных баллонов, x5 масок)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCToolboxEmergencyFilled
+      amount: 2
+    - id: RMCHazardVest
+      amount: 2
+    - id: RMCEmergencyOxygenTankFilled
+      amount: 5
+    - id: CMMaskGas
+      amount: 5
+
+# /datum/supply_packs/boxes
+- type: entity
+  id: RMCCrateSuppliesBoxes
+  parent: RMCCrateSupply
+  name: "картон sheets (x50)" #empty boxes (x10)
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCSheetCardboard #CMBoxCardboard
+        amount: 1 #10
+
+# /datum/supply_packs/janitor
+- type: entity
+  parent: RMCCrateSupply
+  id: RMCCrateSupplyJanitor
+  name: "разные принадлежности уборщика"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCBucket
+      amount: 5
+    - id: CMMop
+      amount: 1
+    - id: CMWetSign
+      amount: 3
+    - id: TrashBag
+      amount: 1
+    - id: SprayBottleSpaceCleaner
+      amount: 1
+    - id: RagItem
+      amount: 1
+    - id: CleanerGrenade
+      amount: 3
+    - id: CMBucketMop
+      amount: 1
+
+# /datum/supply_packs/poster
+# /obj/item/poster x 5
+
+# /datum/supply_packs/crayons
+- type: entity
+  id: RMCCrateSuppliesCrayons
+  parent: RMCCrateSupply
+  name: "коробкаes of crayons"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCCrayonBox
+        amount: 5
+
+# /datum/supply_packs/presents
+# /datum/supply_packs/wrapping_supplies
+
+# AEGIS Lobby Event Crate
+- type: entity
+  parent: RMCCrateSupply
+  id: RMCCrateAegisLobby
+  name: "Ящик оборудования слежения AEGIS (x3 пеленгатора, x1 брошюра)"
+  description: A supply crate containing AEGIS ID tracking equipment and documentation.
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCPinpointerAegisID
+      amount: 3

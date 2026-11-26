@@ -1,0 +1,11 @@
+ent-RMCPouchGeneralLarge = подсумок общего назначения, большой
+ent-RMCPouchGeneralLargeFilledSmartGunDrums = { ent-RMCPouchGeneralLarge }
+    .suffix = Заполненный, барабаны для смартгана
+ent-RMCPouchGeneralLargeFilledRCM = { ent-RMCPouchGeneralLarge }
+    .suffix = Королевский, Заполненный
+ent-RMCPouchGeneralLargeFilledSPPCommand = { ent-RMCPouchGeneralLarge }
+    .suffix = Заполненный, СПН
+ent-RMCPouchGeneralLargeFilledParaCO = { ent-RMCPouchGeneralLarge }
+    .suffix = Выживший, Парамарин, Заполненный, Командир
+ent-RMCPouchGeneralLargeFilledRoyalCommando = { ent-RMCPouchGeneralLarge }
+    .suffix = Заполненный, Королевский коммандос

@@ -1,0 +1,9 @@
+ent-CMArmorFreelancer = доспех фрилансера-наемника
+ent-RMCArmorFreelancerVestBlack = плитник чёрного цвета
+    .suffix = Без фонаря
+ent-RMCArmorFreelancerVestBlackLamp = { ent-RMCArmorFreelancerVestBlack }
+    .suffix = С фонарём
+ent-RMCArmorFreelancerVestBeige = плитник в бежевом цвете
+    .suffix = Без фонаря
+ent-RMCArmorFreelancerVestBeigeLamp = плитник бежевого цвета
+    .suffix = С фонарём

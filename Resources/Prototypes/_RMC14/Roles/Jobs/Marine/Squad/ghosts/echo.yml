@@ -1,0 +1,118 @@
+# combat technician
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidEchoCombatTech
+  name: "роль призрака «Эхо»: боевой техник"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCEchoCombatTech
+
+- type: randomHumanoidSettings
+  parent: [RMCCombatTech, RMCEchoBase]
+  id: RMCEchoCombatTech
+
+# fireteam leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidEchoFireteamLeader
+  name: "роль призрака «Эхо»: командир огневой группы"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCEchoFireteamLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCFireteamLeader, RMCEchoBase]
+  id: RMCEchoFireteamLeader
+
+# hospital corpsman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidEchoHospitalCorpsman
+  name: "роль призрака «Эхо»: санитар госпиталя"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCEchoHospitalCorpsman
+
+- type: randomHumanoidSettings
+  parent: [RMCHospitalCorpsman, RMCEchoBase]
+  id: RMCEchoHospitalCorpsman
+
+# rifleman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidEchoRifleman
+  name: "роль призрака «Эхо»: стрелок"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCEchoRifleman
+
+- type: randomHumanoidSettings
+  parent: [RMCRifleman, RMCEchoBase]
+  id: RMCEchoRifleman
+
+# smart gun operator
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidEchoSmartGunOperator
+  name: "роль призрака «Эхо»: оператор смартгана"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCEchoSmartGunOperator
+
+- type: randomHumanoidSettings
+  parent: [RMCSmartGunOperator, RMCEchoBase]
+  id: RMCEchoSmartGunOperator
+
+# squad leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidEchoSquadLeader
+  name: "роль призрака «Эхо»: командир отделения"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCEchoSquadLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCSquadLeader, RMCEchoBase]
+  id: RMCEchoSquadLeader
+
+# weapons specialist
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidEchoWeaponsSpecialist
+  name: "роль призрака «Эхо»: специалист по вооружению"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCEchoWeaponsSpecialist
+
+- type: randomHumanoidSettings
+  parent: [RMCWeaponsSpecialist, RMCEchoBase]
+  id: RMCEchoWeaponsSpecialist

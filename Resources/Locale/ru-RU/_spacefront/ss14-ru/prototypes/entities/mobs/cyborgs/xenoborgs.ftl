@@ -1,0 +1,16 @@
+ent-XenoborgEngi = ксеноборг-инженер
+    .suffix = с мозгом
+ent-XenoborgHeavy = ксеноборг тяжёлого класса
+    .suffix = с мозгом
+ent-XenoborgScout = ксеноборг-разведчик
+    .suffix = с мозгом
+ent-XenoborgStealth = ксеноборг-невидимка
+    .suffix = с мозгом
+ent-XenoborgEngiPrinted = { ent-XenoborgEngi }
+    .suffix = без мозга
+ent-XenoborgHeavyPrinted = { ent-XenoborgHeavy }
+    .suffix = без мозга
+ent-XenoborgScoutPrinted = { ent-XenoborgScout }
+    .suffix = без мозга
+ent-XenoborgStealthPrinted = { ent-XenoborgStealth }
+    .suffix = без мозга

@@ -1,0 +1,1 @@
+ent-ReagentDispenserBase = { ent-SmallConstructibleMachine }

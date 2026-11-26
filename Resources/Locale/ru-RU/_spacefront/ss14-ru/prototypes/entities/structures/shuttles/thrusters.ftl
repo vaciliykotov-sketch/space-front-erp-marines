@@ -1,0 +1,12 @@
+ent-BaseThruster = двигатель ракетного типа
+ent-Thruster = двигатель ракетного типа
+ent-ThrusterUnanchored = { ent-Thruster }
+    .suffix = Незакреплённый
+ent-DebugThruster = { ent-BaseThruster }
+    .suffix = DEBUG
+ent-Gyroscope = гироскопическое устройство
+ent-GyroscopeUnanchored = { ent-Gyroscope }
+    .suffix = Незакреплённый
+ent-DebugGyroscope = { ent-BaseThruster }
+    .suffix = DEBUG
+ent-RustedThruster = ракетный двигатель, покрытый ржавчиной

@@ -1,0 +1,12 @@
+ent-AnomalyScanner = устройство сканирования аномалий
+ent-AnomalyLocatorUnpowered = поисковик аномалий
+    .suffix = Всегда запитан
+ent-AnomalyLocator = { ent-AnomalyLocatorUnpowered }
+ent-AnomalyLocatorEmpty = { ent-AnomalyLocator }
+    .suffix = Пустой
+ent-AnomalyLocatorWideUnpowered = широкоспектральный локатор аномалий
+    .suffix = Всегда запитан
+ent-AnomalyLocatorWide = { ent-AnomalyLocatorWideUnpowered }
+ent-AnomalyLocatorWideEmpty = { ent-AnomalyLocatorWide }
+    .suffix = Пустой
+ent-WeaponGauntletGorilla = рукавица Г.О.Р.И.Л.Л.А.

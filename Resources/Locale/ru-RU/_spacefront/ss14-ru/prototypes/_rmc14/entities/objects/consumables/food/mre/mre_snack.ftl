@@ -1,0 +1,14 @@
+ent-CMMRESnackComponentBase = { ent-CMMREComponentBase }
+ent-CMMREComponentBiscuit = ИРП-компонент (бисквитное печенье)
+ent-CMMREComponentMeatballs = ИРП-компонент (шарики мясные)
+ent-RMCMREComponentMeatzels = ИРП-компонент (мясные волокна)
+ent-CMMREComponentPretzels = ИРП-компонент (крендельки)
+ent-CMMREComponentPeanuts = ИРП-компонент: арахис
+ent-CMMREComponentSushi = ИРП-компонент: суши
+ent-CMMREFoodSnack = { ent-CMMREFoodBase }
+ent-CMMREFoodBiscuit = бисквитное печенье
+ent-CMMREFoodMeatballs = шарики из мяса
+ent-RMCMREFoodMeatzels = волокна мяса
+ent-CMMREFoodPretzels = солёные крендели
+ent-CMMREFoodPeanuts = земляной орех
+ent-CMMREFoodSushi = роллы суши

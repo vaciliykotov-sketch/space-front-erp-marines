@@ -1,0 +1,12 @@
+ent-RMCTargetHuman = мишень с человеком
+    .suffix = RMC
+ent-RMCTargetXeno = мишень с ксеноморфом
+    .suffix = { ent-RMCTargetHuman.suffix }
+ent-RMCTargetArmored = мишень с ксеноморфом
+    .suffix = { ent-RMCTargetHuman.suffix }
+ent-RMCTargetSyndicate = мишень с синдикатом
+    .suffix = { ent-RMCTargetHuman.suffix }
+ent-RMCTargetClown = мишень с клоуном
+    .suffix = { ent-RMCTargetHuman.suffix }
+ent-RMCTargetStrange = мишень с феленидом
+    .suffix = { ent-RMCTargetHuman.suffix }

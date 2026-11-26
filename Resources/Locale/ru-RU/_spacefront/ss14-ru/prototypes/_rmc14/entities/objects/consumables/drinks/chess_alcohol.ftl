@@ -1,0 +1,13 @@
+ent-RMCDrinkAlcoholVodkaChess = водка «Красная звезда»
+ent-RMCDrinkAlcoholVodkaChessBlackBishop = бутыль «Черный слон»
+ent-RMCDrinkAlcoholVodkaChessBlackKing = бутыль «Черный король»
+ent-RMCDrinkAlcoholVodkaChessBlackKnight = бутыль «Черный конь»
+ent-RMCDrinkAlcoholVodkaChessBlackPawn = бутыль «Черная пешка»
+ent-RMCDrinkAlcoholVodkaChessBlackQueen = бутыль «Черная королева»
+ent-RMCDrinkAlcoholVodkaChessBlackRook = бутыль «Черная ладья»
+ent-RMCDrinkAlcoholVodkaChessWhiteKing = бутыль «Белый король»
+ent-RMCDrinkAlcoholVodkaChessWhiteKnight = бутыль «Белый конь»
+ent-RMCDrinkAlcoholVodkaChessWhitePawn = бутыль «Белая пешка»
+ent-RMCDrinkAlcoholVodkaChessWhiteBishop = бутыль «Белый слон»
+ent-RMCDrinkAlcoholVodkaChessWhiteQueen = бутыль «Белая королева»
+ent-RMCDrinkAlcoholVodkaChessWhiteRook = бутыль «Белая ладья»

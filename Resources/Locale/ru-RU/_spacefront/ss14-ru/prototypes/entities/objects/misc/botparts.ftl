@@ -1,0 +1,1 @@
+ent-ProximitySensor = сенсор движения

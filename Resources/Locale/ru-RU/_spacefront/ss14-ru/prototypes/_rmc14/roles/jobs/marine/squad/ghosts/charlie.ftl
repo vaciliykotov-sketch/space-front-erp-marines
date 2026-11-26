@@ -1,0 +1,14 @@
+ent-RMCRandomHumanoidCharlieCombatTech = роль призрака боевого техника чарли
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidCharlieFireteamLeader = роль призрака лидера огневой группы "Чарли"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidCharlieHospitalCorpsman = роль призрака госпитального санитара "Чарли"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidCharlieRifleman = роль призрака рядового стрелка "Чарли"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidCharlieSmartGunOperator = роль призрака оператора смартгана "Чарли"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidCharlieSquadLeader = роль призрака лидера отряда "Чарли"
+    .suffix = Спавнер, Игрок
+ent-RMCRandomHumanoidCharlieWeaponsSpecialist = роль призрака оружейного специалиста "Чарли"
+    .suffix = Спавнер, Игрок

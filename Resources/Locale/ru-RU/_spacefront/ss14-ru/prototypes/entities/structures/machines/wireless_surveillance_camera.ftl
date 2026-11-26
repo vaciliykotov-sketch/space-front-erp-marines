@@ -1,0 +1,13 @@
+ent-SurveillanceWirelessCameraBase = камера беспроводная
+ent-SurveillanceWirelessCameraAnchoredBase = { ent-SurveillanceWirelessCameraBase }
+    .suffix = Anchored
+ent-SurveillanceWirelessCameraMovableBase = { ent-SurveillanceWirelessCameraBase }
+    .suffix = Movable
+ent-SurveillanceWirelessCameraAnchoredConstructed = { ent-SurveillanceWirelessCameraAnchoredBase }
+    .suffix = Constructed, Anchored
+ent-SurveillanceWirelessCameraMovableConstructed = { ent-SurveillanceWirelessCameraMovableBase }
+    .suffix = Constructed, Movable
+ent-SurveillanceWirelessCameraAnchoredEntertainment = { ent-SurveillanceWirelessCameraAnchoredBase }
+    .suffix = Entertainment, Anchored
+ent-SurveillanceWirelessCameraMovableEntertainment = { ent-SurveillanceWirelessCameraMovableBase }
+    .suffix = Entertainment, Movable

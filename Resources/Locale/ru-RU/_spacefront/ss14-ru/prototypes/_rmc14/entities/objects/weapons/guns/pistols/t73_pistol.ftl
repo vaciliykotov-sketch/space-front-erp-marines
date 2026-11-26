@@ -1,0 +1,10 @@
+ent-RMCWeaponPistolT73 = Тип 73, пистолет
+ent-RMCWeaponPistolT74 = Тип 74, пистолет
+ent-RMCWeaponPistolT73Empty = { ent-RMCWeaponPistolT73 }
+    .suffix = Пустой
+ent-RMCMagazinePistolT73 = магазин Тип 73 под 7,62x25 мм
+ent-RMCMagazinePistolT74Impact = магазин с ударными патронами для Тип 74 (7,62x25 мм)
+ent-RMCBulletPistolT73 = пуля 7,62x25 мм
+ent-RMCCartridgePistolT73 = патрон 7,62x25 мм
+ent-RMCBulletPistolT74Impact = ударная пуля 7,62x25 мм
+ent-RMCCartridgePistolT74Impact = ударный патрон 7,62x25 мм

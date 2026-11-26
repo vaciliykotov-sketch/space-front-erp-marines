@@ -1,0 +1,1 @@
+ent-RMCSurvivorPresetHybrisaSynthExecBodyguard = набор выжившего синтетика-телохранителя руководства Гибриса

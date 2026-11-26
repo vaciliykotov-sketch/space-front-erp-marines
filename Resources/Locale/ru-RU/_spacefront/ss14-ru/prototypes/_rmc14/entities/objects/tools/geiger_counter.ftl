@@ -1,0 +1,1 @@
+ent-RMCGeigerCounter = дозиметр Гейгера

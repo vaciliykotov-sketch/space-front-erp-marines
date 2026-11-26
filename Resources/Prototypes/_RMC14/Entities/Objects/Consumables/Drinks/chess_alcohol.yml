@@ -1,0 +1,101 @@
+- type: entity
+  parent: RMCDrinkAlcoholVodka
+  id: RMCDrinkAlcoholVodkaChess
+  name: "водка «Красная звезда»"
+  description: A promotional chess themed bottle of Red Star Vodka.
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessBlackBishop
+  name: "бутылка чёрного епископа"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/black_bishop_vodka.rsi
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessBlackKing
+  name: "чёрная бутылка короля"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/black_king_vodka.rsi
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessBlackKnight
+  name: "чёрная бутылка рыцаря"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/black_knight_vodka.rsi
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessBlackPawn
+  name: "чёрная бутылка пешки"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/black_pawn_vodka.rsi
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessBlackQueen
+  name: "чёрная бутылка королевы"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/black_queen_vodka.rsi
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessBlackRook
+  name: "чёрная бутылка ладьи"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/black_rook_vodka.rsi
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessWhiteKing
+  name: "белая бутылка короля"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/white_king_vodka.rsi
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessWhiteKnight
+  name: "белая бутылка коня"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/white_knight_vodka.rsi
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessWhitePawn
+  name: "белая бутылка пешки"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/white_pawn_vodka.rsi
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessWhiteBishop
+  name: "белая бутылка слона"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/white_bishop_vodka.rsi
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessWhiteQueen
+  name: "белая бутылка королевы"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/white_queen_vodka.rsi
+
+- type: entity
+  parent: RMCDrinkAlcoholVodkaChess
+  id: RMCDrinkAlcoholVodkaChessWhiteRook
+  name: "белая бутылка ладьи"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Drinks/white_rook_vodka.rsi

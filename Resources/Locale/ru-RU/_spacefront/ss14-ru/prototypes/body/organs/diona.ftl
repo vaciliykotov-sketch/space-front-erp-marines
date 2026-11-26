@@ -1,0 +1,14 @@
+ent-BaseDionaOrgan = { ent-BaseItem }
+ent-OrganDionaBrain = мозг
+ent-OrganDionaEyes = глаза
+ent-OrganDionaStomach = желудок
+ent-OrganDionaLungs = лёгкие
+ent-OrganDionaBrainNymph = мозг
+ent-OrganDionaStomachNymph = желудок
+ent-OrganDionaLungsNymph = лёгкие
+ent-OrganDionaNymphBrain = нимфа дионы
+    .suffix = Мозг
+ent-OrganDionaNymphStomach = нимфа дионы
+    .suffix = Желудок
+ent-OrganDionaNymphLungs = нимфа дионы
+    .suffix = Лёгкие

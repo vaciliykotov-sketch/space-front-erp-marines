@@ -1,0 +1,219 @@
+- type: entity
+  id: RMCCrateAttachmentRedDot
+  parent: RMCCrateBase
+  name: "ящик с креплением для коллиматорного прицела (x8)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentS5RedDotSight
+        amount: 8
+
+- type: entity
+  id: RMCCrateAttachmentSmartScope
+  parent: RMCCrateBase
+  name: "умный прицел B8 attachment crate (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentB8SmartScope
+        amount: 4
+
+- type: entity
+  id: RMCCrateAttachmentRailFlashlight
+  parent: RMCCrateBase
+  name: "рельсовый фонарь crate (x8)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentRailFlashlight
+        amount: 8
+
+- type: entity
+  id: RMCCrateAttachmentTelescopicScope
+  parent: RMCCrateBase
+  name: "рельсыcope attachment crate (x2)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentS84xTelescopicScope
+        amount: 2
+
+- type: entity
+  id: RMCCrateAttachmentMiniScope
+  parent: RMCCrateBase
+  name: "ящик с мини-рельсовым прицелом (x2)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentS42xTelescopicMiniscope
+        amount: 2
+
+- type: entity
+  id: RMCCrateAttachmentMagneticHarness
+  parent: RMCCrateBase
+  name: "магнитная упряжь attachment crate (x6)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentMagneticHarness
+        amount: 6
+
+- type: entity
+  id: RMCCrateAttachmentSuppressor
+  parent: RMCCrateBase
+  name: "глушитель attachment crate (x8)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentSuppressor
+        amount: 8
+
+- type: entity
+  id: RMCCrateAttachmentExtendedBarrel
+  parent: RMCCrateBase
+  name: "удлинённый ствол attachment crate (x6)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentExtendedBarrel
+        amount: 6
+
+- type: entity
+  id: RMCCrateAttachmentCompensator
+  parent: RMCCrateBase
+  name: "ящик с компенсаторами (x6)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentRecoilCompensator
+        amount: 6
+
+- type: entity
+  id: RMCCrateAttachmentForegrip
+  parent: RMCCrateBase
+  name: "ящик с насадкой-рукоятью (x8)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentVerticalGrip
+        amount: 4
+      - id: RMCAttachmentAngledGrip
+        amount: 4
+
+- type: entity
+  id: RMCCrateAttachmentGyro
+  parent: RMCCrateBase
+  name: "гироскопический стабилизатор attachment crate (x2)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentGyroscopicStabilizer
+        amount: 2
+
+- type: entity
+  id: RMCCrateAttachmentBipod
+  parent: RMCCrateBase
+  name: "сошка attachment crate (x6)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentBipod
+        amount: 6
+
+- type: entity
+  id: RMCCrateAttachmentUnderbarrelShotgun
+  parent: RMCCrateBase
+  name: "ящик с подствольными дробовиками (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentU7UnderbarrelShotgun
+        amount: 4
+
+- type: entity
+  id: RMCCrateAttachmentUnderbarrelExtinguisher
+  parent: RMCCrateBase
+  name: "ящик с подствольными огнетушителями (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentUnderbarrelExtinguisher
+        amount: 4
+
+- type: entity
+  id: RMCCrateAttachmentUnderbarrelFlamer
+  parent: RMCCrateBase
+  name: "ящик с подствольными огнемётами (x4)"
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCAttachmentMiniFlamethrower
+      amount: 4
+
+- type: entity
+  id: RMCCrateAttachmentBurstfire
+  parent: RMCCrateBase
+  name: "ящик с насадкой для стрельбы очередями (x2)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentBurstFireAssembly
+        amount: 2
+
+- type: entity
+  id: RMCCrateAttachmentAllStocks
+  parent: RMCCrateBase
+  name: "ящик стандартных насадок (x3 каждого, x1 десантники)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentM44MagnumSharpshooterStock
+        amount: 3
+      - id: RMCAttachmentM54CStockSolid
+        amount: 3
+      - id: RMCAttachmentM63Stock
+        amount: 3
+      - id: RMCAttachmentM42A2CollapsibleStock
+        amount: 3
+      - id: RMCAttachmentM63ArmBrace
+        amount: 1
+
+- type: entity
+  id: RMCCrateAttachmentRevolverStock
+  parent: RMCCrateBase
+  name: "ящик с прикладом для револьвера (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentM44MagnumSharpshooterStock
+        amount: 4
+
+- type: entity
+  id: RMCCrateAttachmentRifleStock
+  parent: RMCCrateBase
+  name: "ящик с прикладом для винтовки (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentM54CStockSolid
+        amount: 4
+
+- type: entity
+  id: RMCCrateAttachmentShotgunStock
+  parent: RMCCrateBase
+  name: "ящик приклада для дробовика (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentM42A2CollapsibleStock
+        amount: 4
+
+- type: entity
+  id: RMCCrateAttachmentSmgStock
+  parent: RMCCrateBase
+  name: "цельный приклад для пистолета-пулемёта attachment crate (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCAttachmentM63Stock
+        amount: 4

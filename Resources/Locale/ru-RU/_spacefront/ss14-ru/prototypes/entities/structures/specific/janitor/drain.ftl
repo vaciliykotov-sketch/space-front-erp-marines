@@ -1,0 +1,1 @@
+ent-FloorDrain = напольный слив

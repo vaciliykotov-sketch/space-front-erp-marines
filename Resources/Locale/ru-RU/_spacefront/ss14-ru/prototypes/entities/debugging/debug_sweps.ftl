@@ -1,0 +1,14 @@
+ent-WeaponPistolDebug = бах, мёртв
+    .suffix = DEBUG
+ent-MagazinePistolDebug = магазин бах, мёртв
+    .suffix = DEBUG
+ent-BulletDebug = пуля бах, мёртв
+    .suffix = DEBUG
+ent-CartridgeDebug = патрон бах, мёртв
+    .suffix = DEBUG
+ent-MeleeDebugGib = дубина-разрыватель
+    .suffix = DEBUG
+ent-MeleeDebug100 = дубина 100 урона
+    .suffix = { ent-MeleeDebugGib.suffix }
+ent-MeleeDebug200 = дубина 200 урона
+    .suffix = { ent-MeleeDebugGib.suffix }

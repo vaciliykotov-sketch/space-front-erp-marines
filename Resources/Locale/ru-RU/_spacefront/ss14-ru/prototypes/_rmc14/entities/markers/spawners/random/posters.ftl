@@ -1,0 +1,10 @@
+ent-CMRandomPosterAny = плакат на случайную тематику
+    .suffix = RMC14, Все
+ent-CMRandomPosterUN = плакат на случайную тематику
+    .suffix = RMC14, США
+ent-CMRandomPosterSPP = плакат на случайную тематику
+    .suffix = RMC14, СПН
+ent-RMCRandomPosterWeYa = плакат на случайную тематику
+    .suffix = RMC14, Ве-Я
+ent-RMCRandomPosterTSEPA = плакат на случайную тематику
+    .suffix = RMC14, ИТСПД

@@ -1,0 +1,9 @@
+ent-CMSurgicalCase = чемодан хирурга
+ent-CMSurgicalCaseFilled = { ent-CMSurgicalCase }
+    .suffix = Наполнение
+ent-RMCSurgicalCaseRCM = хирургический набор Королевской Морской Пехоты
+    .suffix = Королевский
+ent-RMCSurgicalCaseRCMFilled = { ent-RMCSurgicalCaseRCM }
+    .suffix = Заполненный
+ent-CMSurgicalCaseFilledAllTools = { ent-CMSurgicalCase }
+    .suffix = Заполненный, все инструменты

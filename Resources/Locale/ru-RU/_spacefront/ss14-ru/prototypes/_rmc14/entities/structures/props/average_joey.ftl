@@ -1,0 +1,1 @@
+ent-RMCPropAverageJoey = Джоуи обыкновенный

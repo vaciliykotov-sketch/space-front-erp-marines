@@ -1,0 +1,15 @@
+ent-RMCBaseSentry = турель оборонительная
+ent-RMCEngineeringUpgrade = набор для модернизации сторожевой системы
+ent-RMCSentryConstruct = турель автоматическая UN 571-C
+ent-RMCSentry = { ent-RMCSentryConstruct }
+ent-RMCSentryMini = мини-турель США 512-M
+ent-RMCSentryMiniWeYa = мини-турель Ве-Я 512-M
+ent-RMCSentryMiniSPP = турель лёгкого типа SPP SDS-R8
+ent-RMCSentrySniper = турель снайперского типа US 725-D
+ent-RMCSentryOmni = турель многоцелевого назначения US 571-D
+ent-RMCSentryShotgun = турель с дробовиком US 12-G
+ent-RMCTurretGaussDumb = гаусс-турель US 577 (неисправная)
+ent-RMCSentryMiniFire = мини-турель US 45-FM
+ent-RMCSentryFire = штурмовая турель US 55-FA с огнемётом
+ent-RMCSentrySniperFire = плазменная снайперская турель US 60-FP
+ent-RMCTurretGaussModifiedCLF = гаусс-турель UN-577 (модифицированная)

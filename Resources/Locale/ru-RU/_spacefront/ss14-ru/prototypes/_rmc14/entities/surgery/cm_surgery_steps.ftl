@@ -1,0 +1,15 @@
+ent-CMSurgeryStepBase = { "" }
+ent-CMSurgeryStepOpenIncisionScalpel = Сделать Разрез (скальпель)
+ent-CMSurgeryStepClampBleeders = Пережать Сосуды (гемостат)
+ent-CMSurgeryStepRetractSkin = Оттянуть Кожу (ретрактор)
+ent-CMSurgeryStepSawBones = Перепилить Кости (циркулярная пила)
+ent-CMSurgeryStepPriseOpenBones = Разжать Кости (ретрактор)
+ent-CMSurgeryStepCutLarvaRoots = Перерезать Корни Личинки (скальпель)
+ent-CMSurgeryStepRemoveLarva = Извлечь Личинку (гемостат)
+ent-CMSurgeryStepCloseBones = Свести Кости (ретрактор)
+ent-CMSurgeryStepMendRibcage = Восстановить грудную клетку (гель для костей)
+ent-CMSurgeryStepCloseIncision = Зашить надрез (термокаутер)
+ent-RMCSurgeryCutExoskeleton = Рассечь наружный скелет
+ent-RMCSurgeryOpenExoskeleton = Открыть экзоскелет
+ent-RMCSurgerySevereXenoConnections = Перерезать связи внутренних органов
+ent-RMCSurgeryRemoveXenoOrgan = Извлечь орган ксеноморфа

@@ -1,0 +1,10 @@
+ent-SignalButtonExt1 = внешняя кнопка 1
+    .suffix = Автолинк, Внеш1
+ent-SignalButtonExt2 = внешняя кнопка 2
+    .suffix = Автолинк, Внеш2
+ent-SignalButtonExt3 = внешняя кнопка 3
+    .suffix = Автолинк, Внеш3
+ent-SignalButtonBridge = кнопка для окон мостика
+    .suffix = Автолинк, Мостик
+ent-SignalButtonWindows = кнопка наружных окон
+    .suffix = Автолинк, Окна

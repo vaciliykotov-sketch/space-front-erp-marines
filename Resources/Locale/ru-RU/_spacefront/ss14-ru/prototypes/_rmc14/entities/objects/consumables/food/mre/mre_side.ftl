@@ -1,0 +1,10 @@
+ent-CMMRESideComponentBase = { ent-CMMREComponentBase }
+ent-CMMREComponentCracker = ИРП-компонент (крекер)
+ent-CMMREComponentRiceOnigiri = ИРП-компонент (онигири с рисом)
+ent-CMMREComponentMashedPotatoes = ИРП-компонент (пюре картофельное)
+ent-CMMREComponentRisotto = ИРП-компонент (ризотто)
+ent-CMMREFoodSide = { ent-CMMREFoodBase }
+ent-CMMREFoodCracker = крекер
+ent-CMMREFoodRiceOnigiri = онигири с рисом
+ent-CMMREFoodMashedPotatoes = пюре картофельное
+ent-CMMREFoodRisotto = ризотто

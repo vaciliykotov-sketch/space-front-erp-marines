@@ -1,0 +1,11 @@
+ent-XenoAcidNormal = кислота обычная
+ent-XenoAcidWeak = кислота ослабленная
+ent-XenoAcidStrong = кислота мощная
+ent-XenoAcidSprayWeak = брызги слабые
+ent-XenoAcidSprayStrong = брызги мощные
+ent-XenoAcidSprayAcidStacks = кислотные брызги
+ent-XenoAcidSprayTrap = кислотные брызги
+ent-XenoAcidSprayTrapWeak = брызги ослабленные
+ent-XenoAcidSprayTrapStrong = брызги мощные
+ent-XenoAcidExtinguishEffect = { ent-RMCBaseEffect }
+ent-RMCAcidHole = дыра от кислоты

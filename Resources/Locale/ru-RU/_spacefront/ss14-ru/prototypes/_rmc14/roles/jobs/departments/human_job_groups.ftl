@@ -1,0 +1,14 @@
+ent-CMDepartmentsHuman = { "" }
+ent-CMJobsMedical = { "" }
+ent-CMJobsEngineering = { "" }
+ent-CMJobsDropship = { "" }
+ent-CMJobsDropshipPilot = { "" }
+ent-RMCJobsCorporate = { "" }
+ent-RMCJobsSurvivor = { "" }
+ent-CMJobsSurvivorCivilian = { "" }
+ent-CMJobsSurvivorEngineer = { "" }
+ent-CMJobsSurvivorMedical = { "" }
+ent-CMJobsSurvivorCorporate = { "" }
+ent-CMJobsSurvivorSecurity = { "" }
+ent-CMJobsSurvivorScientist = { "" }
+ent-CMJobsSurvivorCommander = { "" }

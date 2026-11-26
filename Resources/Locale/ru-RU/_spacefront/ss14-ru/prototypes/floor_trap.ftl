@@ -1,0 +1,14 @@
+ent-CollideFloorTrap = { "" }
+ent-CollideFloorTrapSpawn = спавнер напольных ловушек
+ent-FloorTrapExplosion = взрывная напольная ловушка
+ent-SpawnFloorTrapCarp = { ent-CollideFloorTrapSpawn }
+    .suffix = Карп
+ent-SpawnFloorTrapBear = { ent-CollideFloorTrapSpawn }
+    .suffix = Медведь
+ent-SpawnFloorTrapKangaroo = { ent-CollideFloorTrapSpawn }
+    .suffix = Кенгуру
+ent-SpawnFloorTrapXenoDrone = { ent-CollideFloorTrapSpawn }
+    .suffix = Ксено. Дрон
+ent-SpawnFloorTrapXenoBurrower = { ent-CollideFloorTrapSpawn }
+    .suffix = Ксено. Бурильщик
+ent-FloorTrapEMP = напольная ЭМИ-ловушка

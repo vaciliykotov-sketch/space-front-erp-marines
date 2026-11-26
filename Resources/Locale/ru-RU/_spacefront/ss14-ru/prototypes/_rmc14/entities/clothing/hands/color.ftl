@@ -1,0 +1,12 @@
+ent-RMCHandsBlack = перчатки чёрного цвета
+ent-RMCHandsCombat = перчатки боевого назначения
+ent-CMHandsInsulated = перчатки с изоляцией
+ent-CMHandsInsulatedPilot = перчатки для лётного состава
+    .suffix = Пилот
+ent-CMHandsBrown = перчатки коричневого цвета
+ent-CMHandsLightBrown = перчатки светло-коричневого цвета
+ent-CMHandsWhite = перчатки белого цвета
+ent-CMHandsWhiteDress = перчатки для парадной формы
+ent-RMCHandsPurple = перчатки фиолетового цвета
+ent-CMHandsBlackInsulated = перчатки чёрные с изоляцией
+ent-RMCHandsLeatherBlack = кожаные перчатки чёрного цвета

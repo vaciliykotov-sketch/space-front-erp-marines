@@ -1,0 +1,9 @@
+ent-CrateEmergencyExplosive = контейнер с экипировкой для сапёров
+    .suffix = { ent-CrateSecgear.suffix }
+ent-CrateEmergencyFire = контейнер с противопожарным снаряжением
+ent-CrateEmergencyInternals = контейнер с аварийным запасом
+ent-CrateEmergencyInternalsLarge = контейнер с аварийным запасом (крупный)
+ent-CrateNitrogenInternals = контейнер с аварийным запасом (азот)
+ent-CrateEmergencyRadiation = контейнер с экипировкой от радиации
+ent-CrateEmergencyInflatablewall = контейнер с надувными стенами
+ent-CrateGenericBiosuit = контейнер с аварийными биокостюмами

@@ -1,0 +1,11 @@
+ent-RMCTentBodyBase = армейская палатка КМП США
+ent-RMCTentRoofBase = армейская палатка КМП США
+    .suffix = Крыша
+ent-RMCTentBodyStandard = { ent-RMCTentBodyBase }
+    .suffix = Только для отображения на карте
+ent-RMCTentRoofStandard = { ent-RMCTentRoofBase }
+    .suffix = Только для отображения на карте (Крыша)
+ent-RMCTentBodyExtended = палатка КМП США увеличенного размера
+    .suffix = Только для отображения на карте
+ent-RMCTentRoofExtended = палатка КМП США увеличенного размера
+    .suffix = Только для отображения на карте (Крыша)

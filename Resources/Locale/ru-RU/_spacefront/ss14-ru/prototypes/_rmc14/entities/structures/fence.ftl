@@ -1,0 +1,14 @@
+ent-CMFence = ограждение
+ent-RMCFenceBroken = поврежденное ограждение
+ent-RMCFenceHybrisa = { ent-CMFence }
+ent-RMCFenceHybrisaBroken = { ent-RMCFenceBroken }
+ent-RMCFenceHybrisaElectric = { ent-CMFence }
+    .suffix = электрический
+ent-RMCFenceHybrisaElectricBroken = { ent-RMCFenceBroken }
+    .suffix = электрический
+ent-RMCFenceOvergrown = ограждение, поросшее растительностью
+ent-RMCFenceOvergrownBroken = заросший забор в неисправном состоянии
+ent-RMCFenceSPP = { ent-CMFence }
+    .suffix = СПН
+ent-RMCFenceSPPBroken = { ent-RMCFenceBroken }
+    .suffix = СПН

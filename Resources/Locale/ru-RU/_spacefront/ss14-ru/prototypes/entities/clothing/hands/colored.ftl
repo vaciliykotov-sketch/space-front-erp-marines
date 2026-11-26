@@ -1,0 +1,15 @@
+ent-ClothingHandsGlovesColorPurple = перчатки фиолетового цвета
+ent-ClothingHandsGlovesColorRed = перчатки красного цвета
+ent-ClothingHandsGlovesColorBlue = перчатки синего цвета
+ent-ClothingHandsGlovesColorTeal = перчатки цвета аквамарин
+ent-ClothingHandsGlovesColorBrown = перчатки коричневого цвета
+ent-ClothingHandsGlovesColorGray = перчатки серого цвета
+ent-ClothingHandsGlovesColorGreen = перчатки зелёного цвета
+ent-ClothingHandsGlovesColorLightBrown = перчатки светлого коричневого тона
+ent-ClothingHandsGlovesColorOrange = перчатки оранжевого цвета
+ent-ClothingHandsGlovesColorWhite = перчатки белого цвета
+ent-ClothingHandsGlovesColorBlack = перчатки чёрного цвета
+ent-ClothingHandsGlovesColorYellow = перчатки-изоляторы
+ent-ClothingHandsGlovesColorYellowBudget = бюджетные перчатки-изоляторы
+ent-ClothingHandsGlovesConducting = { ent-ClothingHandsGlovesColorYellow }
+    .suffix = Проводящий

@@ -1,0 +1,118 @@
+# combat technician
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidAlphaCombatTech
+  name: "роль призрака «Альфа»: боевой техник"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCAlphaCombatTech
+
+- type: randomHumanoidSettings
+  parent: [RMCCombatTech, RMCAlphaBase]
+  id: RMCAlphaCombatTech
+
+# fireteam leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidAlphaFireteamLeader
+  name: "роль призрака «Альфа»: командир огневой группы"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCAlphaFireteamLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCFireteamLeader, RMCAlphaBase]
+  id: RMCAlphaFireteamLeader
+
+# hospital corpsman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidAlphaHospitalCorpsman
+  name: "роль призрака «Альфа»: санитар"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCAlphaHospitalCorpsman
+
+- type: randomHumanoidSettings
+  parent: [RMCHospitalCorpsman, RMCAlphaBase]
+  id: RMCAlphaHospitalCorpsman
+
+# rifleman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidAlphaRifleman
+  name: "роль призрака «Альфа»: стрелок"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCAlphaRifleman
+
+- type: randomHumanoidSettings
+  parent: [RMCRifleman, RMCAlphaBase]
+  id: RMCAlphaRifleman
+
+# smart gun operator
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidAlphaSmartGunOperator
+  name: "роль призрака «Альфа»: оператор умного пулемёта"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCAlphaSmartGunOperator
+
+- type: randomHumanoidSettings
+  parent: [RMCSmartGunOperator, RMCAlphaBase]
+  id: RMCAlphaSmartGunOperator
+
+# squad leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidAlphaSquadLeader
+  name: "роль призрака «Альфа»: командир отряда"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCAlphaSquadLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCSquadLeader, RMCAlphaBase]
+  id: RMCAlphaSquadLeader
+
+# weapons specialist
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidAlphaWeaponsSpecialist
+  name: "роль призрака «Альфа»: специалист по вооружению"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCAlphaWeaponsSpecialist
+
+- type: randomHumanoidSettings
+  parent: [RMCWeaponsSpecialist, RMCAlphaBase]
+  id: RMCAlphaWeaponsSpecialist

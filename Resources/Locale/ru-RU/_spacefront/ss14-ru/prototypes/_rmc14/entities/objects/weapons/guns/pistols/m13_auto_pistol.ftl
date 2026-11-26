@@ -1,0 +1,13 @@
+ent-RMCWeaponPistolM13 = пистолет автоматический M10
+ent-RMCWeaponPistolM13Empty = { ent-RMCWeaponPistolM13 }
+    .suffix = Пустой
+ent-RMCMagazinePistolM13 = магазин для M10 HV (калибр 10x20 мм)
+ent-RMCMagazinePistolM13AP = магазин для M10 ББ (калибр 10x20мм БПК)
+ent-RMCMagazinePistolM13Ext = магазин M10 HV повышенной ёмкости (калибр 10x20 мм)
+ent-RMCMagazinePistolM13ExtAP = магазин M10 ББ повышенной ёмкости (калибр 10x20мм БПК)
+ent-RMCMagazinePistolM13Drum = барабан на M10 HV (калибр 10x20 мм)
+ent-RMCMagazinePistolM13DrumAP = барабан на M10 ББ (калибр 10x20мм БПК)
+ent-RMCCartridgeAutoPistol = боеприпас (10x20мм БПК)
+ent-RMCCartridgeAutoPistolAP = боеприпас бронебойный (10x20мм БПК)
+ent-RMCBulletAutoPistol = { ent-RMCBaseBullet }
+ent-RMCBulletAutoPistolAP = { ent-RMCBulletAutoPistol }

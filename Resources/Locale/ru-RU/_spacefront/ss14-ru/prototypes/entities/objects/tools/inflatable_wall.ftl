@@ -1,0 +1,10 @@
+ent-InflatableWallStack = надувное заграждение
+    .suffix = Полный
+ent-InflatableDoorStack = надувные двери
+    .suffix = Полный
+ent-InflatableWallStack5 = { ent-InflatableWallStack }
+    .suffix = 5
+ent-InflatableWallStack1 = { ent-InflatableWallStack }
+    .suffix = 1
+ent-InflatableDoorStack1 = { ent-InflatableDoorStack }
+    .suffix = 1

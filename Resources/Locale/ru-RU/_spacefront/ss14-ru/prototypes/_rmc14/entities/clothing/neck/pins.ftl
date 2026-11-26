@@ -1,0 +1,14 @@
+ent-RMCPridePinBase = значок с символикой гордости
+ent-RMCClothingNeckLGBTPin = { ent-ClothingNeckLGBTPin }
+ent-RMCClothingNeckAromanticPin = { ent-ClothingNeckAromanticPin }
+ent-RMCClothingNeckAsexualPin = { ent-ClothingNeckAsexualPin }
+ent-RMCClothingNeckBisexualPin = { ent-ClothingNeckBisexualPin }
+ent-RMCClothingNeckGayPin = { ent-ClothingNeckGayPin }
+ent-RMCClothingNeckIntersexPin = { ent-ClothingNeckIntersexPin }
+ent-RMCClothingNeckLesbianPin = { ent-ClothingNeckLesbianPin }
+ent-RMCClothingNeckNonBinaryPin = { ent-ClothingNeckNonBinaryPin }
+ent-RMCClothingNeckPansexualPin = { ent-ClothingNeckPansexualPin }
+ent-RMCClothingNeckOmnisexualPin = { ent-ClothingNeckOmnisexualPin }
+ent-RMCClothingNeckTransPin = { ent-ClothingNeckTransPin }
+ent-RMCClothingNeckAutismPin = { ent-ClothingNeckAutismPin }
+ent-RMCClothingNeckGoldAutismPin = { ent-ClothingNeckGoldAutismPin }

@@ -1,0 +1,1 @@
+ent-RMCEffectSlam = { ent-RMCBaseEffect }

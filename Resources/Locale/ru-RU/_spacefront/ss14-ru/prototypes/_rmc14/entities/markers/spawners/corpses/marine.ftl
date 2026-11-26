@@ -1,0 +1,14 @@
+ent-RMCSpawnerCorpseUNMCMarineUnarmed = трупный спавнер — безоружный морпех КМП США
+    .suffix = { ent-RMCSpawnerCorpse.suffix }
+ent-RMCSpawnerCorpseUNMCMarineRandom = трупный спавнер — морпех КМП США
+    .suffix = { ent-RMCSpawnerCorpse.suffix }
+ent-RMCSpawnerCorpseUNMCMedicRandom = трупный спавнер — медик КМП США
+    .suffix = { ent-RMCSpawnerCorpse.suffix }
+ent-RMCSpawnerCorpseUNMCMedicalTechnicianRandom = трупный спавнер — медтехник КМП США
+    .suffix = { ent-RMCSpawnerCorpse.suffix }
+ent-RMCSpawnerCorpseUNMCMilitaryPoliceRandom = трупный спавнер — военполиция базы КМП США
+    .suffix = { ent-RMCSpawnerCorpse.suffix }
+ent-RMCSpawnerCorpseUNMCPilot = трупный спавнер — лётчик КМП США
+    .suffix = { ent-RMCSpawnerCorpse.suffix }
+ent-RMCSpawnerCorpseUNMCCrewman = трупный спавнер — член экипажа КМП США
+    .suffix = { ent-RMCSpawnerCorpse.suffix }

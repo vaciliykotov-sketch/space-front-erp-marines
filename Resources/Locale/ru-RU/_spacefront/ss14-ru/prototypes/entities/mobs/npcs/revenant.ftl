@@ -1,0 +1,1 @@
+ent-MobRevenant = призрак-ревенант

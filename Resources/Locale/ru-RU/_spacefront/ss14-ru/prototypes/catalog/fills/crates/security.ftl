@@ -1,0 +1,16 @@
+ent-CrateSecurityArmor = броня в ящике
+    .suffix = { ent-CrateSecgear.suffix }
+ent-CrateSecurityHelmet = шлемы в ящике
+    .suffix = { ent-CrateSecgear.suffix }
+ent-CrateSecurityNonlethal = нелетальное снаряжение в ящике
+    .suffix = { ent-CrateSecgear.suffix }
+ent-CrateSecuritySupplies = припасы СБ в ящике
+    .suffix = { ent-CrateSecgear.suffix }
+ent-CrateRestraints = наручники в ящике
+    .suffix = { ent-CrateSecgear.suffix }
+ent-CrateSecurityBiosuit = биозащитные костюмы СБ в ящике
+    .suffix = { ent-CrateSecgear.suffix }
+ent-CrateSecurityTrackingMindshieldImplants = имплантеры в ящике
+    .suffix = { ent-CrateSecgear.suffix }
+ent-CrateSecNonlethalThrowables = нелетальное метательное снаряжение в ящике
+    .suffix = { ent-CrateSecgear.suffix }

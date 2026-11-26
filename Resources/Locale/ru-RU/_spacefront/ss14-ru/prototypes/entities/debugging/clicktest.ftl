@@ -1,0 +1,14 @@
+ent-ClickTestBase = { "" }
+    .suffix = DEBUG
+ent-ClickTestRotatingCornerVisible = ClickTestRotatingCornerVisible
+    .suffix = { ent-ClickTestBase.suffix }
+ent-ClickTestRotatingCornerVisibleNoRot = ClickTestRotatingCornerVisibleNoRot
+    .suffix = { ent-ClickTestRotatingCornerVisible.suffix }
+ent-ClickTestRotatingCornerInvisible = ClickTestRotatingCornerInvisible
+    .suffix = { ent-ClickTestBase.suffix }
+ent-ClickTestRotatingCornerInvisibleNoRot = ClickTestRotatingCornerInvisibleNoRot
+    .suffix = { ent-ClickTestRotatingCornerInvisible.suffix }
+ent-ClickTestFixedCornerVisible = ClickTestFixedCornerVisible
+    .suffix = { ent-ClickTestBase.suffix }
+ent-ClickTestFixedCornerInvisible = ClickTestFixedCornerInvisible
+    .suffix = { ent-ClickTestBase.suffix }

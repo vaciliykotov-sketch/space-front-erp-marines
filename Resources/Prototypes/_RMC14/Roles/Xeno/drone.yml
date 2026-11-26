@@ -1,0 +1,10 @@
+- type: job
+  parent: CMJobXenoBase
+  id: CMXenoDrone
+  setPreference: false
+  name: cm-job-name-xeno-drone
+  playTimeTracker: CMJobXenoDrone
+
+- type: playTimeTracker
+  id: CMJobXenoDrone
+  isXeno: true

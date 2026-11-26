@@ -1,0 +1,16 @@
+ent-RMCOverwatchConsoleSPP = { ent-RMCOverwatchConsole }
+    .suffix = СПН
+ent-RMCOverwatchConsoleSPPRotating = { ent-RMCOverwatchConsoleSPP }
+    .suffix = СПН, Вращающиеся
+ent-RMCOverwatchConsoleAdmin = { ent-RMCOverwatchConsole }
+    .suffix = Админ
+ent-RMCOverwatchConsoleAdminRotating = { ent-RMCOverwatchConsoleAdmin }
+    .suffix = Админ, Вращающиеся
+ent-RMCOverwatchConsoleWeYa = { ent-RMCOverwatchConsole }
+    .suffix = ВеЯ
+ent-RMCOverwatchConsoleWeYaRotating = { ent-RMCOverwatchConsoleWeYa }
+    .suffix = ВеЯ, Вращающиеся
+ent-RMCOverwatchConsoleRCM = { ent-RMCOverwatchConsole }
+    .suffix = Королевский
+ent-RMCOverwatchConsoleRCMRotating = { ent-RMCOverwatchConsoleRCM }
+    .suffix = RCM, Вращающиеся

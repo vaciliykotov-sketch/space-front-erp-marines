@@ -1,0 +1,10 @@
+ent-RMCMK80 = VP78 пистолет
+ent-RMCMK80Survivor = { ent-RMCMK80 }
+    .suffix = Выживший
+ent-RMCMK80RCM = L189 наступательный пистолет
+    .suffix = PVE, Заполненный, Королевский
+ent-CMMagazinePistolMK80 = VP78 магазин (9 мм Squash-Head)
+ent-RMCMagazinePistolMK80Empty = { ent-CMMagazinePistolMK80 }
+    .suffix = Пустой
+ent-RMCCartridgePistol9mmSquashHead = патрон 9 мм Squash-Head
+ent-RCMBulletPistol9mmSquashHead = 9 мм Squash-Head пуля

@@ -1,0 +1,9 @@
+ent-CMIDCardStaffOfficer = ID-карта штабного офицера
+ent-RMCIDCardPlatoonCommander = ID-карта командира взвода
+ent-CMIDCardCommandingOfficer = ID-карта командира
+ent-RMCIDCardCommandingOfficerPlus = ID-карта командира
+ent-CMIDCardExecutiveOfficer = ID-карта офицера исполнительной власти
+ent-CMIDCardHighCommand = ID-карта верховного командования
+    .suffix = Админ
+ent-CMIDCardProvostSectorMarshal = ID-карта секторального маршала-провоста
+    .suffix = Администратор

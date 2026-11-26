@@ -1,0 +1,2 @@
+ent-BaseHiveStructure = { "" }
+ent-BaseHiveStructureNode = { "" }

@@ -1,0 +1,135 @@
+- type: entity
+  id: CMFloorShallowWaterEntity
+  name: "мелководье"
+  description: ""
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: Sprite
+    drawdepth: BelowFloor
+    sprite: _RMC14/Tiles/planet/water.rsi
+    layers:
+    - state: seashallow
+  - type: FloorOccluder
+  - type: Transform
+    anchored: true
+  - type: SyncSprite
+  - type: Clickable
+  - type: SolutionContainerManager
+    solutions:
+      pool:
+        maxVol: 9999999 #.inf seems to break the whole yaml file, but would definitely be preferable.
+        reagents:
+        - ReagentId: Water
+          Quantity: 9999999
+  - type: DrainableSolution
+    solution: pool
+  - type: SpeedModifierContacts
+    walkSpeedModifier: 0.5
+    sprintSpeedModifier: 0.5
+  - type: VehicleWaterSlowTile
+    speedFactors:
+      Weak: 0.4
+      Light: 0.55
+      Medium: 0.7
+      Heavy: 0.85
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.4,0.4,0.4"
+        layer:
+        - SlipLayer
+        mask:
+        - ItemMask
+        density: 1000
+        hard: false
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepWater
+      params:
+        volume: 8
+  - type: BlockWeeds
+  - type: BlockXenoConstruction
+  - type: MinimapColor
+    color: "#94b0d59c"
+  - type: RMCWater
+    cover:
+      tags:
+      - Catwalk
+
+- type: entity
+  parent: CMFloorShallowWaterEntity
+  id: CMFloorDeepWaterEntity
+  name: "глубокая вода"
+  description: ""
+  components:
+  - type: Sprite
+    sprite: _RMC14/Tiles/planet/water.rsi
+    layers:
+    - state: seadeep
+  - type: SpeedModifierContacts
+    walkSpeedModifier: 0.25
+    sprintSpeedModifier: 0.25
+  - type: VehicleWaterSlowTile
+    speedFactors:
+      Weak: 0.2
+      Light: 0.35
+      Medium: 0.55
+      Heavy: 0.75
+
+- type: entity
+  parent: CMFloorShallowWaterEntity
+  id: RMCRiverSorokyne
+  name: "река"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Tiles/planet/sorokyne/sorokyne_water.rsi
+
+- type: entity
+  parent: RMCRiverSorokyne
+  id: RMCRiverSorokyneBoiling
+  name: "кипящая река"
+  description: This water is bubbling and you can feel the heat emanating off of it.
+  components:
+  - type: DamageOverTime
+    affectsDead: false
+    cover:
+      tags:
+      - Catwalk
+    armorPiercingDamage:
+      types:
+        Heat: 1.25 # TODO RMC14: meant to be 0.25 to both feet and both legs when stood up, or 1.25 damage when lying down
+    emotes:
+    popup: "The water is scalding hot!"
+    sound:
+      collection: ToxicWaterSizzle
+
+- type: entity
+  parent: CMFloorShallowWaterEntity
+  id: RMCFloorShallowWaterEntityRed
+  suffix: Red
+  components:
+  - type: Sprite
+    color: "#995555"
+
+- type: entity
+  parent: RMCFloorShallowWaterEntityRed
+  id: RMCFloorShallowWaterEntityDarkRed
+  suffix: Dark Red
+  components:
+  - type: Sprite
+    color: "#990000"
+
+- type: entity
+  parent: CMFloorShallowWaterEntity
+  id: RMCFloorShallowWaterEntityBelowPipes
+  suffix: Below Pipes
+  components:
+  - type: Sprite
+    drawdepth: LowFloors

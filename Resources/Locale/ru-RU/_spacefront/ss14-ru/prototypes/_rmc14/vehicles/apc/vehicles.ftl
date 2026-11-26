@@ -1,0 +1,11 @@
+ent-VehicleAPCBase = БТР M577
+ent-VehicleAPC = { ent-VehicleAPCBase }
+    .suffix = Управляемый, БТР, Базовый
+ent-VehicleAPCTracked = { ent-VehicleAPC }
+    .suffix = Управляемый, БТР, Базовый, Отслеживаемый
+ent-VehicleAPCMed = бронетранспортер медицинский M577-МЕД
+    .suffix = Управляемый, БТР, Базовый, Медицинский, Отслеживаемый
+ent-VehicleAPCCommand = бронетранспортер командный M577-КОМ
+    .suffix = Управляемый, БТР, Базовый, Командный, Отслеживаемый
+ent-VehicleSPPAPC = БТР СПН
+    .suffix = Управляемый, БТР, Базовый, СПН

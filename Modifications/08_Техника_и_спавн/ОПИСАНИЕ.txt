@@ -1,0 +1,18 @@
+МОДИФИКАЦИЯ: 08 Техника и спавн
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Спавн техники по заказу (КолМорТех)
+
+ЗАЧЕМ:
+Что делает: система спавна техники (БТР, хамви и т.п.) по заказам. Зачем: техника — часть снабжения в бою.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Server/_SpaceFront/Vehicle/RMCSpawnVehicleOnUseSystem.cs
+- Content.Shared/_SpaceFront/Vehicle/RMCSpawnVehicleOnUseComponent.cs
+- Content.Shared/_SpaceFront/Vehicle/RMCSpawnVehicleOnOrderComponent.cs
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Ресурсы: Resources/Prototypes/_SpaceFront/Entities — прототипы техники; Maps/_SpaceFront — интерьеры
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

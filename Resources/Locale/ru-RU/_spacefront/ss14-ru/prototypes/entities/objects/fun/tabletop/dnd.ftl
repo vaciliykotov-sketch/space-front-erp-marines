@@ -1,0 +1,11 @@
+ent-BaseBattlemap = боевая карта
+ent-GrassBattlemap = боевая карта: травяная
+ent-MoonBattlemap = боевая карта: лунная
+ent-SandBattlemap = боевая карта: песчаная
+ent-SnowBattlemap = боевая карта: снежная
+ent-ShipBattlemap = боевая карта: корабельная
+ent-GrassBoardTabletop = настольная карта: трава
+ent-MoonBoardTabletop = настольная карта: луна
+ent-SandBoardTabletop = настольная карта: песок
+ent-SnowBoardTabletop = настольная карта: снег
+ent-ShipBoardTabletop = настольная карта: корабль

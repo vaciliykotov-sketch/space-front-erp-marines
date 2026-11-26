@@ -1,0 +1,9 @@
+ent-ClothingShoesColorBlack = туфли чёрного цвета
+ent-ClothingShoesColorWhite = туфли белого цвета
+ent-ClothingShoesColorBlue = туфли синего цвета
+ent-ClothingShoesColorBrown = туфли коричневого цвета
+ent-ClothingShoesColorGreen = туфли зелёного цвета
+ent-ClothingShoesColorOrange = туфли оранжевого цвета
+ent-ClothingShoesColorRed = туфли красного цвета
+ent-ClothingShoesColorYellow = туфли жёлтого цвета
+ent-ClothingShoesColorPurple = туфли фиолетового цвета

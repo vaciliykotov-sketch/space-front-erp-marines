@@ -1,0 +1,11 @@
+ent-DecalSpawnerDirtBase = { ent-DecalSpawnerBase }
+ent-DecalSpawnerDirtSingle = { ent-DecalSpawnerDirtBase }
+    .suffix = Грязь, 0 радиус
+ent-DecalSpawnerDirtNear = { ent-DecalSpawnerDirtBase }
+    .suffix = Грязь, 1.5 радиус
+ent-DecalSpawnerDirtWide = { ent-DecalSpawnerDirtBase }
+    .suffix = Грязь, 3 радиус
+ent-DecalSpawnerDirtMonospace = { ent-DecalSpawnerDirtBase }
+    .suffix = Грязь, Monospace, 1 радиус
+ent-DecalSpawnerBurns = { ent-DecalSpawnerDirtMonospace }
+    .suffix = Копоть, 1 радиус

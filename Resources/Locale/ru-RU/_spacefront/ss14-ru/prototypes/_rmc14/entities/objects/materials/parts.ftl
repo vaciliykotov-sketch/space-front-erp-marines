@@ -1,0 +1,12 @@
+ent-CMRodMetal = стержень из металла
+    .suffix = Полный
+ent-CMRodMetal10 = стержень из металла
+    .suffix = 10
+ent-CMRodMetal1 = стержень из металла
+    .suffix = Одиночный
+ent-CMRodPlasteel = стержень из пластали
+    .suffix = Полный
+ent-CMRodPlasteel10 = стержень из пластали
+    .suffix = 10
+ent-CMRodPlasteel1 = стержень из пластали
+    .suffix = Одиночный

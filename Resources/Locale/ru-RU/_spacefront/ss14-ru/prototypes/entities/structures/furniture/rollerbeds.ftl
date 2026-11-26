@@ -1,0 +1,9 @@
+ent-RollerBed = медицинские носилки на колёсах
+ent-RollerBedSpawnFolded = { ent-RollerBed }
+    .suffix = Сложенный
+ent-CheapRollerBed = дешёвая каталка
+ent-CheapRollerBedSpawnFolded = { ent-CheapRollerBed }
+    .suffix = Сложенный
+ent-EmergencyRollerBed = аварийная каталка
+ent-EmergencyRollerBedSpawnFolded = { ent-EmergencyRollerBed }
+    .suffix = Сложенный

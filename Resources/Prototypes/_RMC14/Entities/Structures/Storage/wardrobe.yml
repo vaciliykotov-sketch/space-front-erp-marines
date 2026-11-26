@@ -1,0 +1,77 @@
+- type: entity
+  parent: CMClosetBase
+  id: CMWardrobeBase
+  abstract: true
+  description: It's a storage unit for standard-issue attire.
+
+- type: entity
+  parent: CMWardrobeBase
+  id: CMWardrobeBlack
+  name: "чёрный шкаф"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Storage/Closets/black.rsi
+
+- type: entity
+  parent: CMWardrobeBase
+  id: CMWardrobeBlue
+  name: "синий шкаф"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Storage/Closets/blue.rsi
+
+- type: entity
+  parent: CMWardrobeBase
+  id: CMWardrobeGreen
+  name: "зелёный шкаф"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Storage/Closets/green.rsi
+
+- type: entity
+  parent: CMWardrobeBase
+  id: CMWardrobeOrange
+  name: "оранжевый шкаф"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Storage/Closets/orange.rsi
+
+- type: entity
+  parent: CMWardrobeBase
+  id: CMWardrobePink
+  name: "розовый шкаф"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Storage/Closets/pink.rsi
+
+- type: entity
+  parent: CMWardrobeBase
+  id: CMWardrobePurple
+  name: "фиолетовый шкаф"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Storage/Closets/purple.rsi
+
+- type: entity
+  parent: CMWardrobeBase
+  id: CMWardrobeRed
+  name: "красный шкаф"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Storage/Closets/red.rsi
+
+- type: entity
+  parent: CMWardrobeBase
+  id: CMWardrobeWhite
+  name: "белый шкаф"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Storage/Closets/white.rsi
+
+- type: entity
+  parent: CMWardrobeBase
+  id: CMWardrobeYellow
+  name: "жёлтый шкаф"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Storage/Closets/yellow.rsi

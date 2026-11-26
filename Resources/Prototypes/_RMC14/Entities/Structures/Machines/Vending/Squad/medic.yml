@@ -1,0 +1,551 @@
+
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechMedicalGear
+  name: "Стойка медицинской экипировки отряда ASRS"
+  description: An automated gear rack for hospital corpsmen.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessMedPrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_gear.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMHospitalCorpsman
+    sections:
+    - name: Медикal Set (Mandatory)
+      takeAll: CMMedicalSet
+      entries:
+      - id: CMVendorBundleSquadMedicalEssentials
+    - name: Field Supplies
+      entries:
+      - id: CMBurnKit10
+        points: 1
+        recommended: true
+      - id: CMTraumaKit10
+        points: 1
+        recommended: true
+      - id: CMBloodPackFull # TODO RMC14 O-
+        points: 1
+        name: "кровь bag (O-)"
+    - name: Firstaid Kits
+      entries:
+      - id: CMAdvFirstAidKitFilled
+        points: 1
+        recommended: true
+      - id: CMFirstAidKitFilled
+        points: 1
+      - id: CMBurnAidKitFilled
+        points: 1
+      - id: CMToxinAidKitFilled
+        points: 1
+      - id: CMFirstAidO2KitFilled
+        points: 1
+      - id: RMCRadiationAidKitFilled
+        points: 1
+    - name: Таблетка Bottles
+      entries:
+      - id: CMPillCanisterBicaridine
+        points: 1
+        recommended: true
+      - id: CMPillCanisterDexalin
+        points: 1
+      - id: CMPillCanisterDylovene
+        points: 1
+      - id: CMPillCanisterInaprovaline
+        points: 1
+      - id: CMPillCanisterKelotane
+        points: 1
+        recommended: true
+    - name: Autoinjectors
+      entries:
+      - id: CMBicaridineAutoInjector
+        points: 1
+      - id: CMDexalinPlusAutoInjector
+        points: 1
+      - id: CMEpinephrineAutoInjector
+        points: 1
+      - id: CMInaprovalineAutoInjector
+        points: 1
+      - id: CMKelotaneAutoInjector
+        points: 1
+      - id: CMTricordrazineAutoInjector
+        points: 1
+    - name: Медикal Utilities
+      entries:
+      - id: CMMiniTank
+        points: 1
+      - id: CMRollerBedSpawnFolded
+        points: 1
+      - id: CMHealthAnalyzer
+        points: 1
+      - id: CMStasisBagFolded
+        points: 1
+    - name: Explosives
+      entries:
+      - id: CMPacketGrenadeHighExplosiveFilled
+        points: 1
+      - id: RMCPacketGrenadeIncendiaryFilled
+        points: 1
+      - id: RMCPacketGrenadeWhitePhosphorusFilled
+        points: 1
+      - id: RMCPacketGrenadeSmokeFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMFFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMIFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMSFilled
+        points: 1
+      - id: RMCPacketGrenadeM74AGMSHornetFilled
+        points: 1
+      - id: RMCBoxClaymoreMineFilled
+        points: 1
+    - name: Primary Ammunition
+      entries:
+      - id: CMMagazineRifleM4SPRAP
+        points: 1
+      - id: CMMagazineRifleM4SPRExt
+        points: 1
+      - id: CMMagazineSMGM63AP
+        points: 1
+      - id: CMMagazineSMGM63Ext
+        points: 1
+      - id: CMMagazineRifleM54CAP
+        points: 1
+      - id: CMMagazineRifleM54CExt
+        points: 1
+    - name: Sidearm Ammunition
+      entries:
+      - id: RMCMagazinePistolM13Ext
+        points: 1
+      - id: RMCSpeedLoader44Marksman
+        points: 1
+      - id: RMCMagazinePistolM1984HP
+        points: 1
+      - id: RMCMagazinePistolM1984AP
+        points: 1
+      - id: CMMagazinePistolMK80
+        points: 1
+      - id: RMCMagazinePistolSU6
+        points: 1
+    - name: Броняs
+      entries:
+      - id: CMArmorB12
+        points: 1
+      - id: CMArmorM4
+        points: 1
+    - name: Отдыхricted Firearms
+      entries:
+      - id: RMCGunCasePistolMK80
+        points: 1
+      - id: RMCGunCasePistolSmart
+        points: 1
+    - name: Clothing Items
+      entries:
+      - id: RMCPouchMacheteFilled
+        points: 1
+        name: "подсумок для мачете (полный)"
+      - id: RMCBackpackRTO
+        points: 1
+        replaceSlot: back
+      - id: RMCWeldingGoggles
+        points: 1
+    - name: Utilities
+      entries:
+      - id: CMFireExtinguisherPortable
+        points: 1
+      - id: RMCMotionDetector
+        points: 1
+      - id: RMCWhistle
+        points: 1
+    - name: Binoculars
+      entries:
+      - id: RMCBinoculars
+        points: 1
+      - id: RMCRangefinder
+        points: 1
+      - id: RMCLaserDesignator
+        points: 1
+    - name: Helmet Optics
+      entries:
+      - id: RMCVisorWelding
+        points: 1
+    - name: Pamphlets
+      entries:
+      - id: CMPamphletEngineer
+        points: 1
+    - name: Radio Keys
+      entries: []
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechMedicalEquipment
+  name: "Стойка медицинского снаряжения отряда ASRS"
+  description: An automated rack hooked up to a colossal storage of hospital corpsman standard-issue equipment.
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessMedPrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMHospitalCorpsman
+    - CMPVEHospitalCorpsman
+    sections:
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: CMVendorBundleSquadMedicalApparel
+      - id: RMCHandsLatexMarine
+        name: "боевые стерильные перчатки"
+      - id: CMMRE
+    - name: Броня
+      choices: { CMArmor: 1 }
+      entries:
+      - id: RMCArmorVestSquad
+      - id: RMCArmorM3LightVariants
+        name: "лёгкая броня"
+      - id: RMCArmorM3MediumVariants
+        name: "средняя броня"
+        recommended: true
+      - id: RMCArmorM3HeavyVariants
+        name: "тяжёлая броня"
+    - name: Helmet
+      choices: { CMHelmet: 1 }
+      entries:
+      - id: CMArmorHelmetM10Medic
+      - id: RMCArmorHelmetM10MedicWhite
+        recommended: true
+    - name: Backpack
+      choices: { CMBackpack: 1 }
+      entries:
+      - id: CMBackpackMarineMedic
+        replaceSlot: back
+      - id: CMSatchelMarineMedic
+        replaceSlot: back
+        recommended: true
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: CMBeltMedicBagFilled
+        name: "Сумка спасателя M276 (полная)"
+      - id: CMBeltMedicalFilled
+        name: "Снаряжение для хранения медикаментов M276 (полное)"
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchReagentCanisterTricordrazineRevival
+        name: Pressurized Reagent Canister Pouch\n(Revival Mix - Tricordrazine)
+        recommended: true
+      - id: RMCPouchMedkit
+        recommended: true
+      - id: RMCPouchAutoinjector
+      - id: RMCPouchFirstResponder
+      - id: RMCPouchReagentCanisterBicaridine
+        name: Pressurized Reagent Canister Pouch\n(Bicaridine)
+      - id: RMCPouchReagentCanisterKelotane
+        name: Pressurized Reagent Canister Pouch\n(Kelotane)
+      - id: RMCPouchReagentCanisterTricordrazine
+        name: Pressurized Reagent Canister Pouch\n(Tricordrazine)
+      - id: RMCPouchReagentCanister
+        name: Pressurized Reagent Canister Pouch\n(EMPTY)
+      - id: RMCPouchVialFill
+        name: "флакон pouch (Full)"
+      - id: RMCPouchMedical
+      - id: RMCPouchFirstAidInjectors
+        name: "аптечка (заправляемые инъекторы)"
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "аптечка (марля, мазь)" # TODO RMC14 splints comma
+      - id: RMCPouchFirstAidPills
+        name: "аптечка (таблетки)"
+      - id: RMCPouchFlareFilled
+        name: "Фальшфейер pouch (Full)"
+      - id: RMCPouchGeneralLarge
+      - id: RMCPouchSling
+      - id: RMCPouchMagazinePistolLarge
+      - id: RMCPouchMagazine
+      - id: RMCPouchShotgun
+      - id: RMCPouchPistol
+    - name: Accessories
+      choices: { CMAccessories: 1 }
+      entries:
+      - id: CMWebbingBrown
+        recommended: true
+      - id: CMWebbingBlack
+        recommended: true
+      - id: RMCWebbingLegPouch
+      - id: RMCWebbingLegPouchBlack
+      - id: CMWebbing
+      - id: RMCWebbingBlackSmall
+      - id: RMCWebbingDropPouch
+      - id: RMCWebbingDropPouchBlack
+      - id: CMWebbingHolster
+      - id: RMCWebbingHolsterBlack
+    - name: Mask
+      choices: { CMMask: 1 }
+      entries:
+      - id: CMMaskSterile
+      - id: CMMaskGas
+      - id: CMMaskCoif
+      - id: RMCMaskRebreather
+
+
+- type: entity
+  parent: ColMarTechBase
+  id: RMCColMarTechMedicalEquipmentPVE
+  name: "Стойка медицинского снаряжения отряда ASRS"
+  description: An automated rack hooked up to a colossal storage of hospital corpsman standard-issue equipment.
+  suffix: PVE
+  components:
+  - type: AccessReader
+    access:
+    - [ "CMAccessMedPrep" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_gear.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - CMHospitalCorpsman
+    - CMPVEHospitalCorpsman
+    - CMPMCCorpsmanPVE
+    - RMCSPPCorpsmanPVE
+    - RMCFORECONPVECorpsman
+    - RMCCLFDoctorPVE
+    sections:
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: RMCHandsLatexMarine
+        name: "боевые стерильные перчатки"
+      - id: CMMaskSterile
+    - name: Helmet
+      choices: { CMHelmet: 1 }
+      entries:
+      - id: CMArmorHelmetM10Medic
+      - id: RMCArmorHelmetM10MedicWhite
+        recommended: true
+    - name: Backpack
+      choices: { CMBackpack: 1 }
+      entries:
+      - id: CMBackpackMarineMedic
+      - id: CMSatchelMarineMedic
+        recommended: true
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: CMBeltMedicBagFilled
+        name: "Сумка спасателя M276 (полная)"
+      - id: CMBeltMedicalFilled
+        name: "Снаряжение для хранения медикаментов M276 (полное)"
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchReagentCanisterMeraBic
+        name: Pressurized Reagent Canister Pouch\n(Meralyne-Bicaridine)
+        recommended: true
+      - id: RMCPouchReagentCanisterKeloDerm
+        name: Pressurized Reagent Canister Pouch\n(Kelotane-Dermaline)
+        recommended: true
+      - id: RMCPouchReagentCanisterTricordrazineRevival
+        name: Pressurized Reagent Canister Pouch\n(Revival Mix - Tricordrazine)
+        recommended: true
+      - id: RMCPouchMedkit
+        recommended: true
+      - id: RMCPouchAutoinjector
+      - id: RMCPouchFirstResponder
+      - id: RMCPouchReagentCanisterTricordrazine
+        name: Pressurized Reagent Canister Pouch\n(Tricordrazine)
+      - id: RMCPouchReagentCanister
+        name: Pressurized Reagent Canister Pouch\n(EMPTY)
+      - id: RMCPouchVialFill
+        name: "флакон pouch (Full)"
+      - id: RMCPouchMedical
+      - id: RMCPouchFirstAidInjectors
+        name: "аптечка (заправляемые инъекторы)"
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "аптечка (марля, мазь)" # TODO RMC14 splints comma
+      - id: RMCPouchFirstAidPills
+        name: "аптечка (таблетки)"
+
+- type: entity
+  parent: RMCColMarTechMedicalEquipmentPVE
+  id: RMCPMCMedicalEquipmentPVE
+  name: "Стеллаж медицинского оборудования отряда We-Ya"
+  description: An automated rack hooked up to a colossal storage of corporate medic standard-issue equipment.
+  suffix: PVE, PMC
+  components:
+  - type: CMAutomatedVendor
+    sections:
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: RMCHandsLatexMarine
+        name: "боевые стерильные перчатки"
+      - id: CMMaskSterile
+      - id: RMCSatchelPMCMedic
+        recommended: true
+      - id: ArmorHelmetPMC
+        recommended: true
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: RMCBeltMedicBagPMCFilled
+        name: "Снаряжение для хранения медикаментов M276 (полное)"
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchReagentCanisterMeraBic
+        name: Pressurized Reagent Canister Pouch\n(Meralyne-Bicaridine)
+        recommended: true
+      - id: RMCPouchReagentCanisterKeloDerm
+        name: Pressurized Reagent Canister Pouch\n(Kelotane-Dermaline)
+        recommended: true
+      - id: RMCPouchReagentCanisterTricordrazineRevival
+        name: Pressurized Reagent Canister Pouch\n(Revival Mix - Tricordrazine)
+        recommended: true
+      - id: RMCPouchMedkit
+        recommended: true
+      - id: RMCPouchAutoinjector
+      - id: RMCPouchFirstResponder
+      - id: RMCPouchReagentCanisterTricordrazine
+        name: Pressurized Reagent Canister Pouch\n(Tricordrazine)
+      - id: RMCPouchReagentCanister
+        name: Pressurized Reagent Canister Pouch\n(EMPTY)
+      - id: RMCPouchVialFill
+        name: "флакон pouch (Full)"
+      - id: RMCPouchMedical
+      - id: RMCPouchFirstAidInjectors
+        name: "аптечка (заправляемые инъекторы)"
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "аптечка (марля, мазь)" # TODO RMC14 splints comma
+      - id: RMCPouchFirstAidPills
+        name: "аптечка (таблетки)"
+
+- type: entity
+  parent: RMCColMarTechMedicalEquipmentPVE
+  id: RMCSPPMedicalEquipmentPVE
+  name: "Стойка медицинского оборудования отряда H-Tech"
+  description: An automated rack hooked up to a colossal storage of SPP corpsman standard-issue equipment.
+  suffix: PVE, SPP
+  components:
+  - type: CMAutomatedVendor
+    sections:
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: RMCHandsLatexMarine
+        name: "боевые стерильные перчатки"
+      - id: CMMaskSterile
+    - name: Backpack
+      choices: { CMBackpack: 1 }
+      entries:
+      - id: CMBackpackMarine # RMC14 TODO: SPP Medic Backpack
+      - id: RMCSatchelSPP # RMC14 TODO: SPP Medic Satchel
+        recommended: true
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: RMCBeltMedicBagSPPFilled
+        name: "Спасательная сумка образца Тип 41 (Full)"
+      - id: CMBeltMedicalFilled
+        name: "Снаряжение для хранения медикаментов M276 (полное)" # RMC14 TODO: SPP Medical Storage Rig
+    - name: Подсумокes
+      choices: { RMCPouch: 2 }
+      entries:
+      - id: RMCPouchReagentCanisterMeraBic
+        name: Pressurized Reagent Canister Pouch\n(Meralyne-Bicaridine)
+        recommended: true
+      - id: RMCPouchReagentCanisterKeloDerm
+        name: Pressurized Reagent Canister Pouch\n(Kelotane-Dermaline)
+        recommended: true
+      - id: RMCPouchReagentCanisterTricordrazineRevival
+        name: Pressurized Reagent Canister Pouch\n(Revival Mix - Tricordrazine)
+        recommended: true
+      - id: RMCPouchMedkit
+        recommended: true
+      - id: RMCPouchAutoinjector
+      - id: RMCPouchFirstResponder
+      - id: RMCPouchReagentCanisterTricordrazine
+        name: Pressurized Reagent Canister Pouch\n(Tricordrazine)
+      - id: RMCPouchReagentCanister
+        name: Pressurized Reagent Canister Pouch\n(EMPTY)
+      - id: RMCPouchVialFill
+        name: "флакон pouch (Full)"
+      - id: RMCPouchMedical
+      - id: RMCPouchFirstAidInjectors
+        name: "аптечка (заправляемые инъекторы)"
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "аптечка (марля, мазь)" # TODO RMC14 splints comma
+      - id: RMCPouchFirstAidPills
+        name: "аптечка (таблетки)"
+
+- type: entity
+  parent: RMCColMarTechMedicalEquipmentPVE
+  id: ColMarTechMedicalChemicalPVE
+  suffix: PVE
+  name: "Стойка медицинских химикатов отряда ASRS"
+  description: An automated gear rack for specialized chemicals for the hospital corpsman.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_chemical.rsi
+  - type: CMAutomatedVendor
+    pointsType: Chemicals
+    sections:
+    - name: Таблетка Bottles
+      entries:
+      - id: RMCPillCanisterMeralyneBicaridine
+        points: 1
+      - id: CMPillCanisterKelotaneDermaline
+        points: 1
+      - id: RMCPillCanisterDexalinPlus
+        points: 1
+      - id: RMCPillCanisterIron
+        points: 1
+    - name: Liquid Bottles
+      entries:
+      - id: RMCLargeBottleMeralyneBicaridine
+        points: 1
+      - id: RMCLargeBottleKelotaneDermaline
+        points: 1
+      - id: RMCLargeBottleDexalinPlus
+        points: 1
+    - name: Injectors
+      entries:
+      - id: CMMiniTank
+        points: 1
+
+- type: entity
+  parent: ColMarTechMedicalChemicalPVE
+  id: RMCRCMMedicalChemicalPVE
+  suffix: PVE, RCM
+  name: "Стеллаж медицинских химикатов отдела We-Ya"
+  description: An automated gear rack for specialized chemicals for the medical assistants.
+  components:
+  - type: CMAutomatedVendor
+    jobs:
+    - CMRoyalMarinesMedicPVE
+    pointsType: Chemicals
+    sections:
+    - name: Таблетка Bottles
+      entries:
+      - id: RMCPillCanisterMeralyneBicaridine
+        points: 1
+      - id: CMPillCanisterKelotaneDermaline
+        points: 1
+      - id: RMCPillCanisterDexalinPlus
+        points: 1
+      - id: RMCPillCanisterIron
+        points: 1
+    - name: Liquid Bottles
+      entries:
+      - id: RMCLargeBottleMeralyneBicaridine
+        points: 1
+      - id: RMCLargeBottleKelotaneDermaline
+        points: 1
+      - id: RMCLargeBottleDexalinPlus
+        points: 1
+    - name: Injectors
+      entries:
+      - id: CMMiniTank
+        points: 1

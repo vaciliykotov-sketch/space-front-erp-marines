@@ -1,0 +1,101 @@
+- type: entity
+  parent: CMIDCardSilver
+  id: CMIDCardStaffOfficer
+  name: ID-карта штабного офицера
+  components:
+  - type: PresetIdCard
+    job: CMStaffOfficer
+
+- type: entity
+  parent: CMIDCardSilver
+  id: RMCIDCardPlatoonCommander
+  name: "удостоверение командира взвода"
+  components:
+  - type: PresetIdCard
+    job: CMPVEPlatoonCommander
+
+- type: entity
+  parent: CMIDCardGold
+  id: CMIDCardCommandingOfficer
+  name: "удостоверение командующего офицера"
+  components:
+  - type: PresetIdCard
+    job: CMCommandingOfficer
+
+- type: entity
+  parent: CMIDCardGold
+  id: RMCIDCardCommandingOfficerPlus
+  name: "удостоверение командующего офицера"
+  description: Top brass of the top brass. Issued to only the most dedicated.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/CMIDs/general.rsi
+    state: general
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _RMC14/Objects/CMIDs/general.rsi
+  - type: PresetIdCard
+    job: CMCommandingOfficer
+
+- type: entity
+  parent: CMIDCardSilver
+  id: CMIDCardExecutiveOfficer
+  name: "удостоверение старшего офицера"
+  components:
+  - type: PresetIdCard
+    job: CMExecutiveOfficer
+
+- type: entity
+  parent: IDCardStandard # Deliberately parenting off of upstream ID card cause it needs to work with admin access configurator.
+  id: CMIDCardHighCommand
+  name: "удостоверение генерального офицера"
+  suffix: Admin
+  description: Top brass of the top brass. Issued to only the most dedicated.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/CMIDs/general.rsi
+    state: general
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _RMC14/Objects/CMIDs/general.rsi
+  - type: Item
+    heldPrefix: green
+  - type: Access
+    groups:
+    - ShipMasterAccess
+    - Colony
+    - Corp
+    - RMCWeYa
+    - Synth
+    tags:
+    - CMAccessHighCommand
+    - CMAccessXenoQueen
+    - CMAccessXeno
+
+- type: entity
+  parent: IDCardStandard # Is more-or-less a copy of the admin ID due to being for High-Ranked Provost-Marshal types that should be only used by admins.
+  id: CMIDCardProvostSectorMarshal
+  name: "Провост Sector Marshal ID card"
+  suffix: Admin
+  description: Issued to members of the Provost Office.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/CMIDs/provost.rsi
+    state: provost
+  - type: Clothing
+    slots:
+    - idcard
+    sprite: _RMC14/Objects/CMIDs/provost.rsi
+  - type: Item
+    heldPrefix: green
+  - type: Access
+    groups:
+    - ShipMasterAccess
+    - Colony
+    - Corp
+    - RMCWeYa
+    - Synth
+    tags:
+    - CMAccessHighCommand

@@ -1,0 +1,31 @@
+- type: job
+  parent: CMSurvivorEngineer
+  id: RMCSurvivorShivasEngineer
+  name: rmc-job-name-survivor-shivas-engineer
+  playTimeTracker: CMJobSurvivorEngineer
+  setPreference: false
+  startingGear: RMCGearSurvivorShivasEngineer
+  spawnMenuRoleName: Engineer (Shivas Survivor)
+  camouflageStartingGear: null
+
+- type: startingGear
+  parent: RMCGearSurvivorEngineer
+  id: RMCGearSurvivorShivasEngineer
+  equipment:
+    head: RMCHeadUshanka
+    mask: CMMaskCoif
+    outerClothing: RMCCoatSnowSurvivorYellow
+    shoes: RMCShoesSnow
+    jumpsuit: CMJumpsuitLiaisonBlack
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorShivasEngineer
+  name: "точка появления инженера Шивы"
+  components:
+  - type: SpawnPoint
+    job_id: RMCSurvivorShivasEngineer
+  - type: Sprite
+    layers:
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv

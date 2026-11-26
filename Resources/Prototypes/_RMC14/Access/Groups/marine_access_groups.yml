@@ -1,0 +1,61 @@
+# marines will be given squad access when they spawn, based on assignment.
+
+- type: accessGroup
+  id: SquadLeader
+  parent: RMCBaseMarinesJob
+  name: "Командир отряда"
+  tags:
+  - CMAccessMarinePrep
+  - CMAccessSquadLeaderPrep
+  - CMAccessDropship
+
+- type: accessGroup
+  id: FTL
+  parent: RMCBaseMarinesJob
+  name: "Командир отделения"
+  tags:
+  - CMAccessMarinePrep
+  - CMAccessFTLPrep
+
+- type: accessGroup
+  id: WeaponSpec
+  parent: RMCBaseMarinesJob
+  name: "Специалист по оружию"
+  tags:
+  - CMAccessMarinePrep
+  - CMAccessSpecPrep
+
+- type: accessGroup
+  id: SmartGunOperator
+  parent: RMCBaseMarinesJob
+  name: "Умный пулемётner"
+  tags:
+  - CMAccessMarinePrep
+  - CMAccessSmartPrep
+
+- type: accessGroup
+  id: HospitalCorpsman
+  parent: RMCBaseMarinesJob
+  name: "Госпиталь Corpsman"
+  tags:
+  - CMAccessMarinePrep
+  - CMAccessMedPrep
+  - CMAccessMedical
+
+- type: accessGroup
+  id: CombatTech
+  parent: RMCBaseMarinesJob
+  name: "Боевой техник"
+  tags:
+  - CMAccessMarinePrep
+  - CMAccessCombatTechPrep
+  - CMAccessColonyEngineering
+
+# this exists because other squad members will have their own equipment vendors.
+- type: accessGroup
+  id: Rifleman
+  parent: RMCBaseMarinesJob
+  name: "Стрелок"
+  tags:
+  - CMAccessMarineRifleman
+  - CMAccessMarinePrep

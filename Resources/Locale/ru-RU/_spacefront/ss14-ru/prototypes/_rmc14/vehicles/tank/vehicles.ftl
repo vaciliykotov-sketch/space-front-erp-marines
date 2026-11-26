@@ -1,0 +1,9 @@
+ent-VehicleTankBase = лёгкий танк M34A2 "Лонгстрит"
+ent-VehicleTankTest = танк для тестов (автоуправление)
+    .suffix = Отладка
+ent-VehicleTank = { ent-VehicleTankBase }
+    .suffix = Управляемый, Танк, Базовый, Отслеживаемый
+ent-VehicleSPPTank = танк СПН
+    .suffix = Управляемый, Танк, СПН
+ent-VehicleSPPTankCommand = командирская машина СПН
+    .suffix = Управляемый, Танк, СПН, Командный интерьер

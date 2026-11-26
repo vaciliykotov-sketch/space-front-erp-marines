@@ -1,0 +1,1 @@
+ent-RMCAncientObelisk = обелиск древних

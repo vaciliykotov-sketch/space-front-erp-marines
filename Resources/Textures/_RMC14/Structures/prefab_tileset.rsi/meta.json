@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/3ec1c912b94ec64ad2f754ef3d9ccef907372b04/icons/obj/structures/props/ice_colony/fabs_tileset.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "fab_1"
+    },
+    {
+      "name": "fab_2"
+    },
+    {
+      "name": "fab_3"
+    },
+    {
+      "name": "fab_4"
+    },
+    {
+      "name": "fab_5"
+    },
+    {
+      "name": "fab_6"
+    },
+    {
+      "name": "fab_7"
+    },
+    {
+      "name": "fab_8"
+    },
+    {
+      "name": "fab_9"
+    },
+    {
+      "name": "fab_10"
+    },
+    {
+      "name": "fab_11"
+    },
+    {
+      "name": "fab_12"
+    },
+    {
+      "name": "fab_13"
+    },
+    {
+      "name": "fab_14"
+    }
+  ]
+}

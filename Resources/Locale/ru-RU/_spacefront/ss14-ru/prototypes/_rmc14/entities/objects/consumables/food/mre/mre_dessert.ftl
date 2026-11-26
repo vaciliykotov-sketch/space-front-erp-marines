@@ -1,0 +1,14 @@
+ent-CMMREDessertComponentBase = { ent-CMMREComponentBase }
+ent-CMMREComponentSpicedApples = составляющая ИРП (яблоки в специях)
+ent-CMMREComponentChocolateBrownie = составляющая ИРП (брауни с шоколадом)
+ent-CMMREComponentSugarCookie = составляющая ИРП (печенье сахарное)
+ent-CMMREComponentCocoBar = составляющая ИРП (батончик кокоса)
+ent-CMMREComponentFlan = составляющая ИРП (флан)
+ent-CMMREComponentHoneyFlan = составляющая ИРП (флан с мёдом)
+ent-CMMREFoodDessert = { ent-CMMREFoodBase }
+ent-CMMREFoodSpicedApples = яблоки в специях
+ent-CMMREFoodChocolateBrownie = брауни с шоколадом
+ent-CMMREFoodSugarCookie = печенье сахарное
+ent-CMMREFoodCocoBar = батончик кокоса
+ent-CMMREFoodFlan = флан
+ent-CMMREFoodHoneyFlan = флан с мёдом

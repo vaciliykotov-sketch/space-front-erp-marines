@@ -1,0 +1,13 @@
+ent-VehicleCartridgeLTBCannon = снарядный корпус (орудие LTB)
+ent-VehicleCartridgeAceAutocannon = снарядный корпус (ACE автопушка)
+ent-VehicleCartridgeDragonFlame = снарядный корпус (DRGN-огнемет)
+ent-VehicleCartridgeTankFlamer = снарядный корпус (танковый огнемет)
+ent-VehicleCartridgeLTAAAP = снарядный корпус (10x20мм-APC)
+ent-VehicleLTBCannonImpact = удар снаряда орудия LTB
+ent-RMCProjectileAceAutocannonFlak = снаряд ACE с зенитным подрывом
+ent-VehicleProjectileDragonFlame = пламенный поток DRGN
+ent-VehicleBulletLTAAAP = пулевой боеприпас (10x20мм-APC)
+ent-VehicleDragonFlameImpact = удар потока DRGN
+ent-VehicleProjectileDragonFlameShard = осколок пламени DRGN
+ent-VehicleProjectileTankFlamer = поток пламени из танкового огнемета
+ent-VehicleTankFlamerImpact = удар танкового пламени

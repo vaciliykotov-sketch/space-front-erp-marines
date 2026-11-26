@@ -1,0 +1,13 @@
+ent-BaseMech = { "" }
+ent-MechRipley = Рипли АВП
+ent-MechRipleyBattery = { ent-MechRipley }
+    .suffix = Батарея
+ent-MechHonker = Х.О.Н.К.
+ent-MechHonkerBattery = { ent-MechHonker }
+    .suffix = Батарея
+ent-MechHamtr = ХАМЯК
+ent-MechHamtrBattery = { ent-MechHamtr }
+    .suffix = Батарея
+ent-MechVim = ВИМ
+ent-MechVimBattery = { ent-MechVim }
+    .suffix = Батарея

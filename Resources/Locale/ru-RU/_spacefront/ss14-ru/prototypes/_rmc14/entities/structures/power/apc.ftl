@@ -1,0 +1,17 @@
+ent-CMApcBase = контроллер питания зоны
+ent-CMApcFrame = { ent-APCFrame }
+ent-CMApcFrameWired = каркас ЛКП с проложенной проводкой
+ent-CMApcFrameElectronics = каркас ЛКП с установленной электроникой
+ent-CMApcConstructed = { ent-CMApcBase }
+ent-CMApc = { ent-CMApcBase }
+    .suffix = Нет энергии
+ent-CMApcNoPower = { ent-CMApcBase }
+    .suffix = Нет энергии
+ent-CMApcAlmayer = { ent-CMApcBase }
+    .suffix = Алмайер
+ent-CMApcLowCapacity = { ent-CMApcBase }
+    .suffix = ЛКП, Малый, 50 кВт
+ent-CMApcMediumCapacity = { ent-CMApcBase }
+    .suffix = ЛКП, Средний, 100 кВт
+ent-CMApcHighCapacity = { ent-CMApcBase }
+    .suffix = ЛКП, Большой, 150 кВт

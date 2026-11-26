@@ -1,0 +1,127 @@
+- type: entity
+  id: RMCCrateClothingLargePouches
+  parent: RMCCrateBase
+  name: "большой ящик подсумков (2x пистолетный, магазинный, общего назначения)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCPouchGeneralLarge
+        amount: 2
+      - id: RMCPouchMagazineLarge
+        amount: 2
+      - id: RMCPouchMagazinePistolLarge
+        amount: 2
+
+- type: entity
+  id: RMCCrateClothingMedicalPouches
+  parent: RMCCrateBase
+  name: "медицинский подсумокes crate (1x firstaid, medical, syringe, medkit)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCPouchFirstAid
+        amount: 1
+      - id: RMCPouchMedical
+        amount: 1
+      - id: RMCPouchAutoinjector
+        amount: 1
+      - id: RMCPouchSyringe
+        amount: 1
+      - id: RMCPouchMedkit
+        amount: 1
+
+- type: entity
+  id: RMCCrateClothingWebbing
+  parent: RMCCrateBase
+  name: "разгрузочный ремень crate (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMWebbing
+        amount: 4
+
+- type: entity
+  id: RMCCrateClothingWebbingBlack
+  parent: RMCCrateBase
+  name: "чёрный тканевый ящик (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCWebbingBlackSmall
+        amount: 4
+
+- type: entity
+  id: RMCCrateClothingWebbingVest
+  parent: RMCCrateBase
+  name: "ящик коричневой и чёрной разгрузочной ленты (по x2 каждой)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMWebbingBrown
+        amount: 2
+      - id: CMWebbingBlack
+        amount: 2
+
+- type: entity
+  id: RMCCrateClothingWebbingKnife
+  parent: RMCCrateBase
+  name: "нож vest crate (x3)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMWebbingKnivesFilled
+        amount: 3
+
+- type: entity
+  id: RMCCrateClothingWebbingHolster
+  parent: RMCCrateBase
+  name: "ящик плечевой кобуры (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMWebbingHolster
+        amount: 4
+
+- type: entity
+  id: RMCCrateClothingWebbingHolsterBlack
+  parent: RMCCrateBase
+  name: "чёрная наплечная кобура crate (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCWebbingHolsterBlack
+        amount: 4
+
+- type: entity
+  id: RMCCrateClothingDropPouch
+  parent: RMCCrateBase
+  name: "сбросной подсумок crate (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCWebbingDropPouch
+        amount: 4
+
+- type: entity
+  id: RMCCrateClothingDropPouchBlack
+  parent: RMCCrateBase
+  name: "чёрный сбросной подсумок crate (x4)"
+  components:
+  - type: StorageFill
+    contents:
+      - id: RMCWebbingDropPouchBlack
+        amount: 4
+
+- type: entity
+  id: RMCCrateClothingOfficerOutfit
+  parent: RMCCrateBase
+  name: "ящик с экипировкой офицера"
+  components:
+  - type: StorageFill
+    contents:
+      - id: CMJumpsuitQM
+        amount: 1
+      - id: CMJumpsuitChiefEngineer
+        amount: 1
+      - id: CMJumpsuitBO
+        amount: 3 # executive officer and staff officer have the same uniform

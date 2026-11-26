@@ -1,0 +1,16 @@
+ent-Stairs = лестница
+    .suffix = Стальной
+ent-StairStage = { ent-Stairs }
+    .suffix = Стальной, Одна ступень
+ent-StairWhite = { ent-Stairs }
+    .suffix = Белый
+ent-StairStageWhite = { ent-Stairs }
+    .suffix = Белый, Одна ступень
+ent-StairDark = { ent-Stairs }
+    .suffix = Тёмный
+ent-StairStageDark = { ent-Stairs }
+    .suffix = Тёмный, Одна ступень
+ent-StairWood = { ent-Stairs }
+    .suffix = Деревянный
+ent-StairStageWood = { ent-Stairs }
+    .suffix = Деревянный, Одна ступень

@@ -1,0 +1,338 @@
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechCrewSynthetic
+  name: "Стеллаж синтетического снаряжения ASRS"
+  description: An automated rack hooked up to a colossal storage of various equipment. Can be accessed only by synthetic units.
+  components:
+  - type: AccessReader
+    access:
+    - [ "RMCAccessSynth" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - RMCJobSynthetic
+    sections:
+    - name: Standard Equipment
+      takeAll: CMStandard
+      entries:
+      - id: RMCSynthResetKey
+      - id: RMCHeadsetSynth
+    - name: Uniform
+      choices: { CMUniform: 1 }
+      entries:
+      - id: RMCJumpsuitSynthetic
+      - id: JumpsuitMarine
+      - id: CMJumpsuitMarineMedic
+    - name: Webbing
+      choices: { CMAccessories: 1 }
+      entries:
+      - id: CMWebbingBrown
+        recommended: true
+      - id: CMWebbingBlack
+      - id: RMCWebbingLegPouch
+      - id: RMCWebbingLegPouchBlack
+      - id: RMCWebbingDropPouch
+      - id: RMCWebbingDropPouchBlack
+      - id: CMWebbing
+      - id: RMCWebbingBlackSmall
+      - id: CMWebbingHolster
+      - id: RMCWebbingHolsterBlack
+    - name: Shoes
+      choices: { RMCShoes: 1 }
+      entries:
+      - id: RMCShoesWhite
+        recommended: true
+      - id: CMBootsBlackFilled
+    - name: Helmet
+      choices: { CMHelmet: 1 }
+      entries:
+      - id: RMCHardhatOrange
+        name: "оранжевая каска"
+      - id: RMCHelmetWelding
+      - id: CMHeadFlapCap
+    - name: Suit # Parity Vendor Fill has one for the map's camo, then still lets the synth choose from any of the options. Hence why this has so many options.
+      choices: { CMSuit: 1 }
+      entries:
+      - id: CMArmorM3VLSynth
+        recommended: true
+      - id: CMArmorM3VLSynthJungle
+      - id: CMArmorM3VLSynthDesert
+      - id: CMArmorM3VLSynthSnow
+      - id: CMArmorM3VLSynthClassic
+      - id: CMArmorM3VLSynthUrban
+    - name: Gloves
+      choices: { CMGloves: 1 }
+      entries:
+      - id: CMHandsInsulated
+        recommended: true
+      - id: CMHandsBlackInsulated
+        recommended: true
+      - id: CMHandsBlackMarine
+      - id: CMHandsLatex
+    - name: Backpack
+      choices: { CMBackpack: 1 }
+      entries:
+      - id: RMCSmartpack
+        name: "Умный рюкзак S-V42, синий"
+        recommended: true
+      - id: RMCSmartpackBlack
+        name: "Умный рюкзак S-V42, чёрный"
+      - id: RMCSmartpackGreen
+        name: "Умный рюкзак S-V42, зелёный"
+      - id: RMCSmartpackTan
+        name: "Умный рюкзак S-V42, песочный"
+      - id: RMCSmartpackWhite
+        name: "Умный рюкзак S-V42, белый"
+      - id: RMCSmartpackA1
+        name: "Умный рюкзак S-V42A1, синий"
+      - id: RMCSmartpackA1Black
+        name: "Умный рюкзак S-V42A1, чёрный"
+      - id: RMCSmartpackA1Green
+        name: "Умный рюкзак S-V42A1, зелёный"
+      - id: RMCSmartpackA1Tan
+        name: "Умный рюкзак S-V42A1, песочный"
+      - id: RMCSmartpackA1White
+        name: "Умный рюкзак S-V42A1, белый"
+    - name: Belt
+      choices: { CMBelt: 1 }
+      entries:
+      - id: RMCBeltUtilityGeneral
+      - id: CMBeltMedicBagFilled
+        name: "Сумка спасателя образца M276 (Full)"
+      - id: CMBeltMedicalFilled
+        name: "Снаряжение для хранения медикаментов M276 (полное)"
+      - id: CMBeltUtilityFilled
+        name: "Снаряжение с поясом для инструментов M276 (полное)"
+    - name: Подсумокes
+      choices: { CMPouch: 2 }
+      entries:
+      - id: RMCPouchAutoinjector
+      - id: RMCPouchConstruction
+      - id: RMCPouchDocument
+      - id: RMCPouchElectronicsFill
+        name: "подсумок для электроники (Full)"
+      - id: RMCPouchFirstAidInjectors
+        name: "сумка первой помощи (refillable injectors)"
+      - id: RMCPouchFirstAidSplintsGauzeOintment
+        name: "сумка первой помощи (gauze, ointment)" # TODO RMC14 splints comma
+      - id: RMCPouchFirstAidPills
+        name: "сумка первой помощи (pills)"
+      - id: RMCPouchFlareFilled
+        name: "Фальшфейер pouch (Full)"
+      - id: RMCPouchGeneralLarge
+      - id: RMCPouchSling
+      - id: RMCPouchMedical
+      - id: RMCPouchMedkit
+      - id: RMCPouchReagentCanisterTricordrazineRevival
+        name: Pressurized Reagent Canister Pouch\n(Revival Mix - Tricordrazine)
+      - id: RMCPouchReagentCanisterBicaridine
+        name: Pressurized Reagent Canister Pouch\n(Bicaridine)
+      - id: RMCPouchReagentCanisterKelotane
+        name: Pressurized Reagent Canister Pouch\n(Kelotane)
+      - id: RMCPouchReagentCanisterTricordrazine
+        name: Pressurized Reagent Canister Pouch\n(Tricordrazine)
+      - id: RMCPouchReagentCanister
+        name: Pressurized Reagent Canister Pouch\n(EMPTY)
+      - id: RMCPouchToolsFill
+        name: "сумка для инструментов (Full)"
+      - id: RMCPouchMacheteFilled
+        name: "подсумок для мачете (полный)"
+    - name: Подсумокes
+      choices: { CMMask: 1 }
+      entries:
+      - id: CMMaskSterile
+
+- type: entity
+  parent: ColMarTechCrewSynthetic
+  id: ColMarTechCrewSyntheticColony
+  name: "Стеллаж синтетического снаряжения ASRS"
+  suffix: Colony Synth Access
+  components:
+  - type: CMAutomatedVendor
+    jobs:
+    - RMCSyntheticColony
+
+- type: entity
+  parent: ColMarTechBase
+  id: ColMarTechCrewSyntheticGear
+  name: "Стойка экипировки синтетического вспомогательного персонала ASRS"
+  description: An automated gear rack hooked up to a colossal storage of various medical and engineering supplies. Can be accessed only by synthetic units.
+  components:
+  - type: AccessReader
+    access:
+    - [ "RMCAccessSynth" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/gear.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - RMCJobSynthetic
+    sections:
+    - name: Инженер Supplies
+      entries:
+      - id: CMAPCElectronics
+        points: 1
+      - id: CMEntrenchingTool
+        points: 1
+      - id: RMCPowerCellHigh
+        points: 1
+      - id: RMCLightReplacer
+        points: 1
+      - id: CMSheetMetal10
+        points: 1
+        name: "металл x10"
+      - id: CMMultitool
+        points: 1
+      - id: CMSheetPlasteel10
+        points: 1
+        name: "пласталь x10"
+      - id: CMSandbagEmpty25
+        points: 1
+        name: "песокbags x25"
+      - id: RMCExplosivePlastic
+        points: 1
+      - id: RMCEngineerKit
+        points: 1
+      - id: RMCTacticalPrybar
+        points: 1
+    - name: Firstaid Kits
+      entries:
+      - id: CMAdvFirstAidKitFilled
+        points: 1
+      - id: CMFirstAidKitFilled
+        points: 1
+      - id: CMBurnAidKitFilled
+        points: 1
+      - id: CMToxinAidKitFilled
+        points: 1
+      - id: CMFirstAidO2KitFilled
+        points: 1
+      - id: RMCRadiationAidKit
+        points: 1
+    - name: Медикal Supplies
+      entries:
+      - id: CMBurnKit1
+        points: 1
+      - id: CMTraumaKit1
+        points: 1
+      - id: RMCMedevacStretcherFolded
+        points: 1
+      - id: CMRollerBedSpawnFolded
+        points: 1
+      - id: CMStasisBagFolded
+        points: 1
+      - id: CMMiniTank
+        points: 1
+      - id: CMBloodPackFull
+        points: 1
+      - id: CMPortableSurgicalBedSpawnFolded
+        points: 1
+      - id: CMPillCanisterBicaridine
+        points: 1
+        recommended: true
+      - id: CMPillCanisterDexalin
+        points: 1
+      - id: CMPillCanisterDylovene
+        points: 1
+      - id: CMPillCanisterInaprovaline
+        points: 1
+      - id: CMPillCanisterKelotane
+        points: 1
+      - id: CMBicaridineAutoInjector
+        points: 1
+      - id: CMDexalinPlusAutoInjector
+        points: 1
+      - id: CMEpinephrineAutoInjector
+        points: 1
+      - id: CMKelotaneAutoInjector
+        points: 1
+      - id: CMTricordrazineAutoInjector
+        points: 1
+      - id: CMDefibrillator
+        points: 1
+      - id: CMHealthAnalyzer
+        points: 1
+      - id: CMSurgicalLine
+        points: 1
+      - id: CMSynthGraft
+        points: 1
+    - name: Other Supplies
+      entries:
+      - id: RMCBinoculars
+        points: 1
+      - id: RMCRangefinder
+        points: 1
+      - id: RMCLaserDesignator
+        points: 1
+        recommended: true
+      - id: RMCIntelDetector
+        points: 1
+      - id: RMCFlashlight
+        points: 1
+        recommended: true
+      - id: RMCFulton20
+        points: 1
+      - id: RMCMotionDetector
+        points: 1
+      - id: RMCSprayBottleSpaceCleaner
+        points: 1
+      - id: RMCWhistle
+        points: 1
+      - id: RMCScabbardMacheteFilled
+        points: 1
+        name: "ножны для мачете (полные)"
+      - id: RMCStethoscope
+        points: 1
+      - id: RMCFlashlightPen
+        points: 1
+
+- type: entity
+  parent: ColMarTechBase
+  id: WeYaExperimentalToolsVendor
+  name: We-Ya автомат экспериментальных инструментов
+  description: A smaller vendor hooked up to a cache of specially provisioned, experimental tools and equipment provided by the We-Ya Research and Development Division(TM). Handle with care.
+  components:
+  - type: AccessReader
+    access:
+    - [ "RMCAccessSynth" ]
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/experimental.rsi
+  - type: CMAutomatedVendor
+    jobs:
+    - RMCJobSynthetic
+    pointsType: ExperimentalTools
+    sections:
+    - name: Experimental Tools
+      entries:
+      - id: RMCSynthBreachingHammer
+        points: 1
+      - id: RMCDefibrillatorCompact
+        points: 1
+      - id: RMCVendorBundleCompactNailgunKit
+        points: 1
+      - id: RMCTelescopicBaton
+        points: 1
+      - id: RMCWebbingSurgicalGreen
+        points: 1
+      - id: RMCWebbingSurgicalBlue
+        points: 1
+      - id: CMSatchelMarineLogistics
+        points: 1
+      - id: RMCSatchelMarineIntelChestrig
+        points: 1
+
+- type: entity
+  parent: CMVendorBundleRiflemanApparel
+  id: RMCVendorBundleCompactNailgunKit
+  name: "компактный гвоздомёт kit"
+  description: Contains a compact nailgun, two magazines and a nailgun holster.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Weapons/Guns/SMGs/nailgun_compact.rsi
+    state: icon
+  - type: CMVendorBundle
+    bundle:
+    - RMCNailgunCompact
+    - RMCMagazineSMGNailgun
+    - RMCMagazineSMGNailgun
+    - RMCBeltHolsterNailgun

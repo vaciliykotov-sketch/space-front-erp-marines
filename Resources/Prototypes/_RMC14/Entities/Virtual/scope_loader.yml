@@ -1,0 +1,10 @@
+# Used for PVS loading
+- type: entity
+  id: CMScopingChunkLoader
+  name: "ЗАГРУЗЧИК ЧАНКОВ ОБЛАСТИ ВИДИМОСТИ, ВЫ НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Eye
+    - type: Tag
+      tags:
+        - HideContextMenu

@@ -1,0 +1,204 @@
+using System.Numerics;
+using Content.Client._RMC14.NightVision;
+using Content.Shared.DoAfter;
+using Content.Client.UserInterface.Systems;
+using Content.Shared._RMC14.Stealth;
+using Content.Shared._RMC14.Xenonids;
+using Robust.Client.GameObjects;
+using Robust.Client.Graphics;
+using Robust.Shared.Enums;
+using Robust.Client.Player;
+using Robust.Shared.Prototypes;
+using Robust.Shared.Timing;
+using Robust.Shared.Utility;
+using Robust.Shared.Containers;
+using Content.Client.Examine;
+
+namespace Content.Client.DoAfter;
+
+public sealed class DoAfterOverlay : Overlay
+{
+    private static readonly ProtoId<ShaderPrototype> UnshadedShader = "unshaded";
+
+    private readonly IEntityManager _entManager;
+    private readonly IGameTiming _timing;
+    private readonly IPlayerManager _player;
+    private readonly SharedTransformSystem _transform;
+    private readonly MetaDataSystem _meta;
+    private readonly ProgressColorSystem _progressColor;
+    private readonly SharedContainerSystem _container;
+    private readonly SpriteSystem _sprite;
+    private readonly IOverlayManager _overlay;
+    private readonly ExamineSystem _examine;
+
+    private readonly Texture _barTexture;
+    private readonly ShaderInstance _unshadedShader;
+
+    /// <summary>
+    ///     Flash time for cancelled DoAfters
+    /// </summary>
+    private const float FlashTime = 0.125f;
+
+    // Hardcoded width of the progress bar because it doesn't match the texture.
+    private const float StartX = 2;
+    private const float EndX = 22f;
+
+    public override OverlaySpace Space => _overlay.HasOverlay<NightVisionOverlay>()
+        ? OverlaySpace.WorldSpace
+        : OverlaySpace.WorldSpaceBelowFOV;
+
+    public DoAfterOverlay(IEntityManager entManager, IPrototypeManager protoManager, IGameTiming timing, IPlayerManager player, IOverlayManager overlay, ExamineSystem examine)
+    {
+        _entManager = entManager;
+        _timing = timing;
+        _player = player;
+        _overlay = overlay;
+        _examine = examine;
+        ZIndex = 1;
+        _transform = _entManager.EntitySysManager.GetEntitySystem<SharedTransformSystem>();
+        _meta = _entManager.EntitySysManager.GetEntitySystem<MetaDataSystem>();
+        _container = _entManager.EntitySysManager.GetEntitySystem<SharedContainerSystem>();
+        _progressColor = _entManager.System<ProgressColorSystem>();
+        _sprite = _entManager.System<SpriteSystem>();
+        var sprite = new SpriteSpecifier.Rsi(new("/Textures/Interface/Misc/progress_bar.rsi"), "icon");
+        _barTexture = _entManager.EntitySysManager.GetEntitySystem<SpriteSystem>().Frame0(sprite);
+
+        _unshadedShader = protoManager.Index(UnshadedShader).Instance();
+    }
+
+    protected override void Draw(in OverlayDrawArgs args)
+    {
+        var handle = args.WorldHandle;
+        var rotation = args.Viewport.Eye?.Rotation ?? Angle.Zero;
+        var xformQuery = _entManager.GetEntityQuery<TransformComponent>();
+
+        // If you use the display UI scale then need to set max(1f, displayscale) because 0 is valid.
+        const float scale = 1f;
+        var scaleMatrix = Matrix3Helpers.CreateScale(new Vector2(scale, scale));
+        var rotationMatrix = Matrix3Helpers.CreateRotation(-rotation);
+
+        var curTime = _timing.CurTime;
+
+        var bounds = args.WorldAABB.Enlarged(5f);
+        var localEnt = _player.LocalSession?.AttachedEntity;
+
+        var metaQuery = _entManager.GetEntityQuery<MetaDataComponent>();
+        var enumerator = _entManager.AllEntityQueryEnumerator<ActiveDoAfterComponent, DoAfterComponent, SpriteComponent, TransformComponent>();
+        while (enumerator.MoveNext(out var uid, out _, out var comp, out var sprite, out var xform))
+        {
+            if (xform.MapID != args.MapId)
+                continue;
+
+            if (comp.DoAfters.Count == 0)
+                continue;
+
+            var worldPosition = _transform.GetWorldPosition(xform, xformQuery);
+            if (!bounds.Contains(worldPosition))
+                continue;
+
+            // shades the do-after bar if the do-after bar belongs to other players
+            // does not shade do-afters belonging to the local player
+            if (uid != localEnt)
+                handle.UseShader(null);
+            else
+                handle.UseShader(_unshadedShader);
+
+            // If the entity is paused, we will draw the do-after as it was when the entity got paused.
+            var meta = metaQuery.GetComponent(uid);
+            var time = meta.EntityPaused
+                ? curTime - _meta.GetPauseTime(uid, meta)
+                : curTime;
+
+            var worldMatrix = Matrix3Helpers.CreateTranslation(worldPosition);
+            var scaledWorld = Matrix3x2.Multiply(scaleMatrix, worldMatrix);
+            var matty = Matrix3x2.Multiply(rotationMatrix, scaledWorld);
+            handle.SetTransform(matty);
+
+            var offset = 0f;
+
+            var isInContainer = _container.IsEntityOrParentInContainer(uid, meta, xform);
+
+            foreach (var doAfter in comp.DoAfters.Values)
+            {
+                // Hide some DoAfters from other players for stealthy actions (ie: thieving gloves)
+                var alpha = 1f;
+                if (doAfter.Args.Hidden || isInContainer)
+                {
+                    if (uid != localEnt)
+                        continue;
+
+                    // Hints to the local player that this do-after is not visible to other players.
+                    alpha = 0.5f;
+                }
+
+                //RMC14
+                if (!doAfter.Args.ForceVisible)
+                {
+                    // Don't show the doafter bar to other clients if the entity's sprite isn't visible.
+                    if(!sprite.Visible && uid != localEnt)
+                       continue;
+
+                    // RMC:14 If the entity is a xeno and the target isn't, and target is hidden behind FOV shadow, don't show the doafter bar.
+                    if(_entManager.HasComponent<XenoComponent>(localEnt) && !_entManager.HasComponent<XenoComponent>(uid) && !_examine.InRangeUnOccluded(uid, localEnt.Value))
+                        continue;
+
+                    // Set the doafter bar alpha to the alpha of the sprite.
+                    alpha = sprite.Color.A;
+
+                    // The system using this component does not edit the sprite alpha, so we use separate logic for it.
+                    var invisibleQuery = _entManager.GetEntityQuery<EntityActiveInvisibleComponent>();
+                    invisibleQuery.TryGetComponent(uid, out var invisible);
+
+                    // Make the doafter bar alpha the same as the opacity of the invisibility.
+                    if (invisible != null)
+                        alpha = invisible.Opacity;
+                }
+
+                // Use the sprite itself if we know its bounds. This means short or tall sprites don't get overlapped
+                // by the bar.
+                var yOffset = _sprite.GetLocalBounds((uid, sprite)).Height / 2f + 0.05f;
+
+                // Position above the entity (we've already applied the matrix transform to the entity itself)
+                // Offset by the texture size for every do_after we have.
+                var position = new Vector2(-_barTexture.Width / 2f / EyeManager.PixelsPerMeter,
+                    yOffset / scale + offset / EyeManager.PixelsPerMeter * scale);
+
+                // Draw the underlying bar texture
+                handle.DrawTexture(_barTexture, position, Color.White.WithAlpha(alpha));
+
+                Color color;
+                float elapsedRatio;
+
+                // if we're cancelled then flick red / off.
+                if (doAfter.CancelledTime != null)
+                {
+                    var elapsed = doAfter.CancelledTime.Value - doAfter.StartTime;
+                    elapsedRatio = (float)Math.Min(1, elapsed.TotalSeconds / doAfter.Args.Delay.TotalSeconds);
+                    var cancelElapsed = (time - doAfter.CancelledTime.Value).TotalSeconds;
+                    var flash = Math.Floor(cancelElapsed / FlashTime) % 2 == 0;
+                    color = GetProgressColor(0, flash ? alpha : 0);
+                }
+                else
+                {
+                    var elapsed = time - doAfter.StartTime;
+                    elapsedRatio = (float)Math.Min(1, elapsed.TotalSeconds / doAfter.Args.Delay.TotalSeconds);
+                    color = GetProgressColor(elapsedRatio, alpha);
+                }
+
+                var xProgress = (EndX - StartX) * elapsedRatio + StartX;
+                var box = new Box2(new Vector2(StartX, 3f) / EyeManager.PixelsPerMeter, new Vector2(xProgress, 4f) / EyeManager.PixelsPerMeter);
+                box = box.Translated(position);
+                handle.DrawRect(box, color);
+                offset += _barTexture.Height / scale;
+            }
+        }
+
+        handle.UseShader(null);
+        handle.SetTransform(Matrix3x2.Identity);
+    }
+
+    public Color GetProgressColor(float progress, float alpha = 1f)
+    {
+        return _progressColor.GetProgressColor(progress).WithAlpha(alpha);
+    }
+}

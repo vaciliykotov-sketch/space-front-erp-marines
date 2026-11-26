@@ -1,0 +1,9 @@
+ent-BaseToilet = туалет
+ent-ToiletEmpty = туалет
+    .suffix = Пустой
+ent-ToiletDirtyWater = { ent-ToiletEmpty }
+    .suffix = Грязная вода
+ent-ToiletGoldenEmpty = туалет из золота
+    .suffix = Пустой
+ent-ToiletGoldenDirtyWater = { ent-ToiletGoldenEmpty }
+    .suffix = Грязная вода, Цель кражи

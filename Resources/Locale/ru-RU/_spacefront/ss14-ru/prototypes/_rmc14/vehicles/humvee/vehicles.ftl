@@ -1,0 +1,9 @@
+ent-VehicleHumveeBase = СТММ-ТНВ M2420 «Хамви»
+ent-VehicleHumvee = { ent-VehicleHumveeBase }
+    .suffix = Управляемый, Хамви, Базовый, Отслеживаемый
+ent-VehicleHumveeMedical = СТММ-С M2421 «Хамви» медслужбы
+    .suffix = Управляемый, Хамви, Базовый, Медицинский, Отслеживаемый
+ent-VehicleHumveeTransport = СТММ-У M2422 «Хамви» общего назначения
+    .suffix = Управляемый, Хамви, Базовый, Транспортный, Отслеживаемый
+ent-VehicleHumveeARC = СТММ-Р M2423 «Хамви» разведки
+    .suffix = Управляемый, Хамви, Базовый, БРМ, Отслеживаемый

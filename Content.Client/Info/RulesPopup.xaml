@@ -1,0 +1,52 @@
+<Control xmlns="https://spacestation14.io"
+         xmlns:parallax="clr-namespace:Content.Client.Parallax"
+         xmlns:info="clr-namespace:Content.Client.Info"
+         VerticalExpand="True" HorizontalExpand="True"
+         MouseFilter="Stop">
+    <parallax:ParallaxControl SpeedX="20"/>
+    <Control VerticalExpand="True"
+             MaxWidth="1200"
+             MaxHeight="900">
+        <PanelContainer StyleClasses="windowPanel" VerticalExpand="True" HorizontalExpand="True" />
+        <BoxContainer Orientation="Vertical" SeparationOverride="8" Margin="10 10 5 10" VerticalExpand="True">
+            <BoxContainer Name="PageDisclaimer" Orientation="Vertical" SeparationOverride="8" VerticalExpand="True">
+                <Label Text="ВНИМАНИЕ! ПОЛНЫЙ ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ"
+                       FontColorOverride="#ff5555"
+                       StyleClasses="LabelBig" />
+                <RichTextLabel Name="DisclaimerText1" />
+                <RichTextLabel Name="DisclaimerText2" />
+                <RichTextLabel Name="DisclaimerText3" />
+                <Control VerticalExpand="True" MinHeight="30"/>
+                <Label Name="WaitLabel2"
+                       Text="Для продолжения отметьте ВСЕ пункты ниже:"
+                       FontColorOverride="#ff5555" />
+                <BoxContainer Name="CheckboxContainer" Orientation="Vertical" HorizontalExpand="True" Margin="0 0 12 0"/>
+                <BoxContainer Orientation="Horizontal" HorizontalAlignment="Right" SeparationOverride="10">
+                    <Button Name="QuitButton"
+                            Text="{Loc 'ui-escape-quit'}" />
+                    <Button Name="DisclaimerContinueButton"
+                            Text="Далее"
+                            Disabled="True" />
+                </BoxContainer>
+            </BoxContainer>
+            <BoxContainer Name="PageRules" Orientation="Vertical" SeparationOverride="10" Visible="False" VerticalExpand="True">
+                <Label Text="!!!Мы собираемся на этом сервере - каждый день в 17:00 по мск!!!"
+                       FontColorOverride="#ff5555" />
+                <RichTextLabel Name="RulesText1" />
+                <RichTextLabel Name="RulesText2" />
+                <RichTextLabel Name="RulesText3" />
+                <RichTextLabel Name="RulesText4" />
+                <Control VerticalExpand="True" MinHeight="20"/>
+                <Label Name="WaitLabel" />
+                <BoxContainer Orientation="Horizontal">
+                    <Button Name="AcceptButton"
+                            Text="{Loc 'ui-rules-accept'}"
+                            Disabled="True" />
+                    <Button Name="QuitButton2"
+                            StyleClasses="Caution"
+                            Text="{Loc 'ui-escape-quit'}" />
+                </BoxContainer>
+            </BoxContainer>
+        </BoxContainer>
+    </Control>
+</Control>

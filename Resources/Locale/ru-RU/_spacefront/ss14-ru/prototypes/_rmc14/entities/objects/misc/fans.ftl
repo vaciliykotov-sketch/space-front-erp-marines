@@ -1,0 +1,1 @@
+ent-RMCDeskFanTan = вентилятор настольный

@@ -1,0 +1,58 @@
+# SquadWar: многоэтапный крафт корабельной стены Алмаера.
+# Призрак -> 2 металла -> Каркас -> 2 пластали -> Усиленный каркас -> 2 пластали -> Стена.
+
+- type: construction
+  parent: RMC
+  id: RMCWallMetalAlmayer
+  name: "Стена"
+  description: "Корабельная стена. Шаг 1: добавьте 2 металла — получится каркас. Шаг 2: добавьте 2 пластали — усиленный каркас. Шаг 3: добавьте ещё 2 пластали — стена."
+  graph: CMWallMetalAlmayerGraph
+  startNode: start
+  targetNode: wall
+  category: construction-category-cm-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+
+- type: constructionGraph
+  parent: RMC
+  id: CMWallMetalAlmayerGraph
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: frame
+      completed:
+      - !type:SnapToGrid
+        southRotation: true
+      steps:
+      - material: CMSteel
+        amount: 2
+        doAfter: 4
+
+  - node: frame
+    entity: CMWallFrameMetalAlmayer
+    edges:
+    - to: reinforcedFrame
+      completed:
+      - !type:SnapToGrid
+        southRotation: true
+      steps:
+      - material: CMPlasteel
+        amount: 2
+        doAfter: 4
+
+  - node: reinforcedFrame
+    entity: CMWallFrameReinforcedAlmayer
+    edges:
+    - to: wall
+      completed:
+      - !type:SnapToGrid
+        southRotation: true
+      steps:
+      - material: CMPlasteel
+        amount: 2
+        doAfter: 4
+
+  - node: wall
+    entity: CMWallMetalAlmayer

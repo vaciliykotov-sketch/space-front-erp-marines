@@ -1,0 +1,52 @@
+- type: entity
+  parent: RMCDropshipDoorBase
+  id: CMNormandyDoor
+  name: "люк экипажа Aurora"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/normandy.rsi
+
+- type: entity
+  parent: RMCDropshipDoorAftBase
+  id: CMNormandyDoorAft
+  name: "грузовой люк Aurora"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/normandy_cargo.rsi
+
+- type: entity
+  parent: RMCDropshipDoorPortBase
+  id: CMNormandyDoorPort
+  name: "люк экипажа Aurora"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/normandy_doubledoor.rsi
+
+- type: entity
+  parent: RMCDropshipDoorStarboardBase
+  id: CMNormandyDoorStarboard
+  name: "люк экипажа Aurora"
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/Airlocks/normandy_doubledoor.rsi
+
+- type: entity
+  parent: RMCDropshipCockpitBase
+  id: CMNormandyCockpit
+
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Dropships/NormandyBlack/normandy.rsi
+  - type: RemoveComponents
+    components:
+    - type: DoorBolt
+
+- type: entity
+  parent: CMNormandyCockpit
+  id: CMNormandyCockpitCargo
+  name: "грузовой шлюз «Авроры»"
+  components:
+  - type: RemoveComponents
+    components:
+    - type: AccessReader
+

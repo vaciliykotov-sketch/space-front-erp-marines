@@ -1,0 +1,12 @@
+ent-BaseHumanOrganUnGibbable = { ent-BaseItem }
+ent-BaseHumanOrgan = { ent-BaseHumanOrganUnGibbable }
+ent-OrganHumanBrain = мозг
+ent-OrganHumanEyes = глаза
+ent-OrganHumanTongue = язык
+ent-OrganHumanAppendix = аппендикс
+ent-OrganHumanEars = уши
+ent-OrganHumanLungs = лёгкие
+ent-OrganHumanHeart = сердечная мышца
+ent-OrganHumanStomach = орган пищеварения
+ent-OrganHumanLiver = печёночная ткань
+ent-OrganHumanKidneys = органы выделения

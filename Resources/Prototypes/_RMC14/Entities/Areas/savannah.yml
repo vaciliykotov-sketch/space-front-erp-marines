@@ -1,0 +1,481 @@
+# Structure:
+# . Maints
+# . Corridors
+# . Brig
+# . Command
+# . Medical
+# . Auxiliary
+# . Prep
+# . Engi
+# . Other
+
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaSavannah
+  suffix: Savannah Area
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/savannah.rsi
+    state: savannah
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: false # TODO RMC14 true
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: true
+    powerNet: savannah
+    hijackEvacuationArea: false
+    hijackEvacuationWeight: 0
+    hijackEvacuationType: None
+  - type: IntelRescueSurvivorArea
+
+# MAINTS
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahMaints
+  abstract: true
+  name: "Техобслуживание"
+  components:
+  - type: Sprite
+    state: other
+
+- type: entity
+  parent: RMCAreaSavannahMaints
+  id: RMCAreaSavannahMaintsStarboardBow
+  name: "Правый технический коридор в носу"
+
+- type: entity
+  parent: RMCAreaSavannahMaints
+  id: RMCAreaSavannahMaintsPortBow
+  name: "Порт Боу — техобслуживание"
+
+- type: entity
+  parent: RMCAreaSavannahMaints
+  id: RMCAreaSavannahMaintsStarboardBeam
+  name: "Правый технический коридор по борту"
+
+- type: entity
+  parent: RMCAreaSavannahMaints
+  id: RMCAreaSavannahMaintsPortBeam
+  name: "Порт Бим — техобслуживание"
+
+- type: entity
+  parent: RMCAreaSavannahMaints
+  id: RMCAreaSavannahMaintsStarboardQuarter
+  name: "Правый технический коридор в корме"
+
+- type: entity
+  parent: RMCAreaSavannahMaints
+  id: RMCAreaSavannahMaintsPortQuarter
+  name: "Технический отсек левого борта"
+
+# Corridors
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahCorridorAmidship
+  name: "Коридор мидель"
+  components:
+  - type: Sprite
+    state: other
+
+- type: entity
+  parent: RMCAreaSavannahCorridorAmidship
+  id: RMCAreaSavannahCorridorEngineering
+  name: "Инженерing Corridor"
+
+- type: entity
+  parent: RMCAreaSavannahCorridorAmidship
+  id: RMCAreaSavannahCorridorEscape
+  name: "Спасательная капсулаs Corridor"
+
+- type: entity
+  parent: RMCAreaSavannahCorridorAmidship
+  id: RMCAreaSavannahCorridorBriefingStarboard
+  name: "Брифинг Starboard Corridor"
+
+- type: entity
+  parent: RMCAreaSavannahCorridorAmidship
+  id: RMCAreaSavannahCorridorBriefingPort
+  name: "Брифинг Port Corridor"
+
+# BRIG
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahBrig
+  abstract: true
+  components:
+  - type: Sprite
+    state: security
+
+- type: entity
+  parent: RMCAreaSavannahBrig
+  id: RMCAreaSavannahBrigCMP
+  name: "Кабинет CMP"
+
+- type: entity
+  parent: RMCAreaSavannahBrig
+  id: RMCAreaSavannahBrigWarden
+  name: "Кабинет смотрителя"
+
+- type: entity
+  parent: RMCAreaSavannahBrig
+  id: RMCAreaSavannahBrigRange
+  name: "Бриг Shooting Range"
+
+- type: entity
+  parent: RMCAreaSavannahBrig
+  id: RMCAreaSavannahBrigOB
+  name: "Комната орбитальной пушки"
+
+- type: entity
+  parent: RMCAreaSavannahBrig
+  id: RMCAreaSavannahBrigCorridor
+  name: "Бриг Main Corridor"
+
+- type: entity
+  parent: RMCAreaSavannahBrig
+  id: RMCAreaSavannahBrigBow
+  name: "Бриг Bow Corridor"
+
+- type: entity
+  parent: RMCAreaSavannahBrig
+  id: RMCAreaSavannahBrigPrison
+  name: "Бриг Prison"
+
+- type: entity
+  parent: RMCAreaSavannahBrig
+  id: RMCAreaSavannahBrigPrep
+  name: "Бриг Preparations"
+
+- type: entity
+  parent: RMCAreaSavannahBrig
+  id: RMCAreaSavannahStarboardPointDefense
+  name: "Правый точечный рубеж обороны"
+
+- type: entity
+  parent: RMCAreaSavannahBrig
+  id: RMCAreaSavannahPortPointDefense
+  name: "Точечная оборона порта"
+
+# COMMAND
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahCommand
+  abstract: true
+  components:
+  - type: Sprite
+    state: command
+  - type: Area
+    minimapColor: '#2D3FA2EE'
+    avoidBioscan: False
+    noTunnel: True
+    unweedable: False
+
+- type: entity
+  parent: RMCAreaSavannahCommand
+  id: RMCAreaSavannahLiaison
+  name: "Офис связи"
+
+- type: entity
+  parent: RMCAreaSavannahCommand
+  id: RMCAreaSavannahPilotBunks
+  name: "Пилот Bunks"
+
+- type: entity
+  parent: RMCAreaSavannahCommand
+  id: RMCAreaSavannahOfficerBunks
+  name: "Офисr Bunks"
+
+- type: entity
+  parent: RMCAreaSavannahCommand
+  id: RMCAreaSavannahCommandingOfficer
+  name: "Командующий офицер Bunks"
+
+- type: entity
+  parent: RMCAreaSavannahCommand
+  id: RMCAreaSavannahCICCorridorPort
+  name: "Левый коридор CIC"
+
+- type: entity
+  parent: RMCAreaSavannahCommand
+  id: RMCAreaSavannahCICCorridorStarboard
+  name: "Правый коридор CIC"
+
+- type: entity
+  parent: RMCAreaSavannahCommand
+  id: RMCAreaSavannahCIC
+  name: "Боевой информационный центр"
+  components:
+  - type: Area
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: False
+
+- type: entity
+  parent: RMCAreaSavannahCommand
+  id: RMCAreaSavannahASO
+  name: "Криокапсулы ASO и командования"
+
+- type: entity
+  parent: RMCAreaSavannahCommand
+  id: RMCAreaSavannahTComms
+  name: "Телекоммуникации"
+
+- type: entity
+  parent: RMCAreaSavannahCommand
+  id: RMCAreaSavannahIO
+  name: "Офис IO"
+  components:
+  - type: Area
+    retrieveItemObjective: true
+
+# MEDICAL
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahMedical
+  name: "Медикal"
+  components:
+  - type: Sprite
+    state: medical
+  - type: IntelRecoverCorpsesArea
+
+- type: entity
+  parent: RMCAreaSavannahMedical
+  id: RMCAreaSavannahMedicalSurgery
+  name: "Хирургия Room"
+
+- type: entity
+  parent: RMCAreaSavannahMedical
+  id: RMCAreaSavannahMedicalChemistry
+  name: "Химия Room"
+
+- type: entity
+  parent: RMCAreaSavannahMedical
+  id: RMCAreaSavannahMedicalPreparation
+  name: "Медикal Preparation"
+
+- type: entity
+  parent: RMCAreaSavannahMedical
+  id: RMCAreaSavannahMedicalResearch
+  name: "Исследования"
+  components:
+  - type: Area
+    retrieveItemObjective: true
+
+# Auxiliary
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahAuxiliary
+  abstract: true
+  components:
+  - type: Sprite
+    state: requi
+
+- type: entity
+  parent: RMCAreaSavannahAuxiliary
+  id: RMCAreaSavannahHangarPort
+  name: "ангар Port"
+
+- type: entity
+  parent: RMCAreaSavannahAuxiliary
+  id: RMCAreaSavannahHangarStarboard
+  name: "ангар Starboard"
+
+- type: entity
+  parent: RMCAreaSavannahAuxiliary
+  id: RMCAreaSavannahPilotsRoom
+  name: "Пилотs Room"
+
+- type: entity
+  parent: RMCAreaSavannahAuxiliary
+  id: RMCAreaSavannahRequisitions
+  name: "Снабжение"
+
+- type: entity
+  parent: RMCAreaSavannahRequisitions
+  id: RMCAreaSavannahQuartermaster
+  name: "Офицер снабжения Office"
+
+- type: entity
+  parent: RMCAreaSavannahAuxiliary
+  id: RMCAreaSavannahCanteen
+  name: "Столовая"
+
+# PREP
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahAlphaBravo
+  name: "Альфа-Bravo Preparation"
+  components:
+  - type: Sprite
+    state: alpha_bravo
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahAlpha
+  name: "Альфа Preparation"
+  components:
+  - type: Sprite
+    state: alpha
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahBravo
+  name: "Браво Preparation"
+  components:
+  - type: Sprite
+    state: bravo
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahCharlieDelta
+  name: "Чарли-Delta Preparation"
+  components:
+  - type: Sprite
+    state: charlie_delta
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahCharlie
+  name: "Чарли Preparation"
+  components:
+  - type: Sprite
+    state: charlie
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahDelta
+  name: "Дельта Preparation"
+  components:
+  - type: Sprite
+    state: delta
+
+# ENGI
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahEngineering
+  name: "Инженерing"
+  components:
+  - type: Sprite
+    state: engineering
+  - type: Area
+    minimapColor: '#C19504E7'
+
+- type: entity
+  parent: RMCAreaSavannahEngineering
+  id: RMCAreaSavannahEngineeringGenerator
+  name: "Инженерing Generator"
+  components:
+  - type: Area
+    hijackEvacuationArea: true
+    hijackEvacuationWeight: 0.2
+    hijackEvacuationType: Add
+
+- type: entity
+  parent: RMCAreaSavannahEngineering
+  id: RMCAreaSavannahChiefEngineer
+  name: "Главный инженер Room"
+
+- type: entity
+  parent: RMCAreaSavannahEngineering
+  id: RMCAreaSavannahEngineeringPreparations
+  name: "Инженерing Preparations"
+
+- type: entity
+  parent: RMCAreaSavannahEngineering
+  id: RMCAreaSavannahAtmosStarboard
+  name: "Правый атмосферный отсек"
+
+- type: entity
+  parent: RMCAreaSavannahEngineering
+  id: RMCAreaSavannahAtmosPort
+  name: "Порт Атмос"
+
+- type: entity
+  parent: RMCAreaSavannahEngineering
+  id: RMCAreaSavannahSynthetic
+  name: "Синтетик Storage"
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahPumpBase
+  abstract: true
+  components:
+  - type: Area
+    hijackEvacuationArea: true
+    hijackEvacuationWeight: 0.1
+    hijackEvacuationType: Add
+
+- type: entity
+  parent: RMCAreaSavannahPumpBase
+  id: RMCAreaSavannahPumpStarboardBow
+  name: "Правый носовой насос"
+
+- type: entity
+  parent: RMCAreaSavannahPumpBase
+  id: RMCAreaSavannahPumpStarboardQuarter
+  name: "Правый кормовой насос"
+
+- type: entity
+  parent: RMCAreaSavannahPumpBase
+  id: RMCAreaSavannahPumpPortBow
+  name: "Порт Боу — насосная"
+
+- type: entity
+  parent: RMCAreaSavannahPumpBase
+  id: RMCAreaSavannahPumpPortQuarter
+  name: "Насос левого борта"
+
+# OTHER
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahSEA
+  name: "Управление вооружения и офисы МПБ"
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahBriefing
+  name: "Брифинг"
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahLifeboatAmidship
+  name: "Спасательная шлюпка Docking Amidship"
+  components:
+  - type: Area
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: false
+
+- type: entity
+  parent: RMCAreaSavannahLifeboatAmidship
+  id: RMCAreaSavannahLifeboatStarboard
+  name: "Спасательная шлюпка Docking Starboard"
+
+- type: entity
+  parent: RMCAreaSavannahLifeboatAmidship
+  id: RMCAreaSavannahLifeboatPort
+  name: "Спасательная шлюпка Docking Port"
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahMemorial
+  name: "Мемориал"
+
+- type: entity
+  parent: RMCAreaSavannah
+  id: RMCAreaSavannahChurch
+  name: "Церковь"

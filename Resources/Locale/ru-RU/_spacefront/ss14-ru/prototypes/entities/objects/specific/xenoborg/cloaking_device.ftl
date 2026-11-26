@@ -1,0 +1,1 @@
+ent-CloakingDevice = прибор невидимости

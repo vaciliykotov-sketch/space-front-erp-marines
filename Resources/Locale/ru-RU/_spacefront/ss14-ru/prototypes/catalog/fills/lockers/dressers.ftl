@@ -1,0 +1,16 @@
+ent-DresserCaptainFilled = { ent-Dresser }
+    .suffix = Заполненный, Капитан
+ent-DresserChiefEngineerFilled = { ent-Dresser }
+    .suffix = Заполненный, Старший инженер
+ent-DresserChiefMedicalOfficerFilled = { ent-Dresser }
+    .suffix = Заполненный, Главный врач
+ent-DresserHeadOfPersonnelFilled = { ent-Dresser }
+    .suffix = Заполненный, Глава персонала
+ent-DresserHeadOfSecurityFilled = { ent-Dresser }
+    .suffix = Заполненный, Глава службы безопасности
+ent-DresserQuarterMasterFilled = { ent-Dresser }
+    .suffix = Заполненный, Квартирмейстер
+ent-DresserResearchDirectorFilled = { ent-Dresser }
+    .suffix = Заполненный, Научный руководитель
+ent-DresserWardenFilled = { ent-Dresser }
+    .suffix = Заполненный, Смотритель

@@ -1,0 +1,9 @@
+ent-RMCWeaponRifleL88A1 = L88A1 — булл-пап винтовка
+ent-RMCWeaponRifleL88A2 = L88A2 — булл-пап винтовка
+ent-RMCWeaponRifleL88A1Filled = { ent-RMCWeaponRifleL88A1 }
+    .suffix = Заполненный
+ent-RMCWeaponRifleL88A2Filled = { ent-RMCWeaponRifleL88A2 }
+    .suffix = Заполненный
+ent-RMCMagazineRifleL88 = L88 — магазин (10x24 мм)
+ent-RMCMagazineRifleL88AP = L88 — бронебойный магазин (10x24 мм)
+    .suffix = Бронебойный

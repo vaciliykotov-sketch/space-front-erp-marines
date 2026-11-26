@@ -1,0 +1,6 @@
+ent-BaseCartridgeMagnum = боеприпас (.45 магнум)
+ent-CartridgeMagnum = боеприпас (.45 магнум)
+ent-CartridgeMagnumPractice = боеприпас (.45 магнум тренировочный)
+ent-CartridgeMagnumIncendiary = боеприпас (.45 магнум поджигающий)
+ent-CartridgeMagnumAP = боеприпас (.45 магнум пробивной)
+ent-CartridgeMagnumUranium = боеприпас (.45 магнум радиоактивный)

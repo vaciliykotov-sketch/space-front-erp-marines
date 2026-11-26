@@ -1,0 +1,12 @@
+ent-RMCWatchCase = чехол для наручных часов
+    .suffix = Пустой
+ent-RMCWatchCaseBasic = чехол для наручных часов с пульсометром Сейкаку
+    .suffix = { ent-RMCWatchCase.suffix }
+ent-RMCWatchCaseSynth = чехол для наручных часов Сейкаку 13B6-2000
+    .suffix = { ent-RMCWatchCase.suffix }
+ent-RMCWatchCaseSurv = чехол для наручных часов Сейкаку 13B6-3000
+    .suffix = { ent-RMCWatchCase.suffix }
+ent-RMCWatchCaseLiaison = чехол для наручных часов Сейкаку H487-9098
+    .suffix = { ent-RMCWatchCase.suffix }
+ent-RMCWatchCasePilot = чехол для наручных часов Венити E-338
+    .suffix = { ent-RMCWatchCase.suffix }

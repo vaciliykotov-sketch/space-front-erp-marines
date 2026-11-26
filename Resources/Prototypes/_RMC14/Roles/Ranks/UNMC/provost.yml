@@ -1,0 +1,67 @@
+# Whisper
+- type: rank
+  id: RMCRankProvostSectorMarshal
+  name: "Маршал сектора"
+  prefix: PvSM.
+  paygrade: O9
+
+# Admin
+- type: rank
+  id: RMCRankProvostSeniorMarshal
+  name: "Старший маршал"
+  prefix: PvSnM.
+  paygrade: O8
+
+# Admin
+- type: rank
+  id: RMCRankProvostMarshal
+  name: "Маршал"
+  prefix: PvM.
+  paygrade: O7
+
+# Admin
+- type: rank
+  id: RMCRankProvostDeputyMarshal
+  name: "Заместитель Marshal"
+  prefix: PvDM.
+  paygrade: O6
+
+- type: rank
+  id: RMCRankProvostChiefInspector
+  name: "Главный инспектор"
+  prefix: PvCI.
+  paygrade: O5
+
+- type: rank
+  id: RMCRankProvostInspector
+  name: "Провост Inspector"
+  prefix: PvI.
+  paygrade: O4
+
+# Fax responder
+- type: rank
+  id: RMCRankProvostCommunicationsOfficer
+  name: "Офицер связи"
+  prefix: ComOff.
+  paygrade: O2
+
+# Any player with low law understanding, with guidance
+- type: rank
+  id: RMCRankProvostAdvisor
+  name: "Серgeant Major"
+  prefix: SgtMaj.
+  paygrade: E9E
+
+# Any player with given objective, possible team leader
+- type: rank
+  id: RMCRankProvostProvostTeamLeader
+  name: "Старшина"
+  prefix: MSgt.
+  paygrade: E8
+
+# Any player with given objective, squad member
+- type: rank
+  id: RMCRankProvostProvostEnforcer
+  name: "Штаб-сержант"
+  prefix: SSgt.
+  paygrade: E6

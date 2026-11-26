@@ -1,0 +1,32 @@
+- type: job
+  parent: CMSurvivorGoon
+  id: CMSurvivorLV624CorporateDomeGoon
+  name: rmc-job-name-pmc-corporate-goon
+  description: cm-job-description-survivor
+  playTimeTracker: CMJobSurvivor
+  setPreference: false
+  spawnMenuRoleName: We-Ya Goon (LV624 Special Survivor)
+  icon: "RMCJobIconPMCGoonStandard"
+  ranks:
+    RMCRankCivilianOfficer: []
+  greeting: rmc-job-greeting-corporate-dome-goon
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorLV624CorporateDomeGoon
+  name: "точка появления головореза особого выжившего ур.624"
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivorLV624CorporateDomeGoon
+  - type: Sprite # TODO: Replace with landmark sprite
+    layers:
+    - sprite: Markers/jobs.rsi
+      state: green
+    - sprite: _RMC14/Markers/landmarks.rsi
+      state: surv_wy
+
+- type: entity
+  parent: RMCSurvivorPresetSecurity
+  id: RMCGearSurvivorPresetLV624CorporateDomeGoon
+  categories: [ HideSpawnMenu ]
+  name: "пресет колониста LV624"

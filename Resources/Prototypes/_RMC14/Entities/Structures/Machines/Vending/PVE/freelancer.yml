@@ -1,0 +1,168 @@
+- type: entity
+  parent: ColMarTechSurplus
+  id: RMCFreelancerSurplusPVE
+  name: "стойка для одежды фрилансера"
+  description: A mass-produced clothing rack containing a large amount of equipment for any .
+  suffix: PVE, Freelancer
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/squad_prep.rsi
+  - type: CMAutomatedVendor
+    hackable: true
+    sections:
+    - name: Miscellaneous Equipment
+      entries:
+      - id: RMCShoesJackboots
+        amount: 15
+        name: "Сапоги"
+      - id: RMCHandsLeatherBlack
+        amount: 15
+      - id: RMCHandsBlack
+        amount: 15
+      - id: RMCHeadsetDistressDukes
+        amount: 15
+        name: "Радиогарнитура"
+    - name: Uniforms
+      entries:
+      - id: RMCJumpsuitFreelancerBluePants
+        amount: 15
+        name: "Синие штаны"
+      - id: RMCJumpsuitFreelancerGreenPants
+        amount: 15
+        name: "Зелёные штаны"
+      - id: RMCJumpsuitFreelancerBlackPants
+        amount: 15
+        name: "Чёрные штаны"
+    - name: Hats
+      entries:
+      - id: RMCHeadCapFlippable
+        amount: 15
+      - id: RMCHeadBeanie
+        amount: 15
+      - id: RMCBoonie
+        amount: 15
+    - name: Masks
+      entries:
+      - id: RMCMaskScarfTan
+        amount: 15
+      - id: RMCMaskScarfGray
+        amount: 15
+      - id: CMMaskGas
+        amount: 15
+      - id: RMCMaskKeffiyehBlack
+        amount: 15
+      - id: RMCMaskGasSPP
+        amount: 15
+      - id: RMCMaskRebreather
+        amount: 15
+      - id: RMCMaskBalaclava
+        amount: 15
+    - name: Glasses
+      entries:
+      - id: RMCGogglesM1A1Ballistic
+        amount: 15
+      - id: RMCGogglesBallistic
+        amount: 15
+      - id: RMCGogglesBallisticBlack
+        amount: 15
+      - id: RMCSunglassesBig
+        amount: 15
+      - id: RMCGlassesTriMaxYellow
+        amount: 15
+    - name: Webbings
+      entries:
+      - id: CMWebbingBlack
+        amount: 5
+        name: "Стропа, чёрная"
+      - id: CMWebbingBrown
+        amount: 5
+        name: "Стропа, коричневая"
+      - id: RMCWebbingLegPouch
+        amount: 5
+        name: "Набедренный подсумок, камуфляжный"
+      - id: RMCWebbingLegPouchBlack
+        amount: 5
+        name: "Набедренный подсумок, чёрный"
+      - id: RMCWebbingDropPouch
+        amount: 5
+    - name: Броня
+      entries:
+      - id: RMCArmorFreelancerVestBlackLamp
+        amount: 15
+        name: "Чёрный бронежилет (Lamp)"
+      - id: RMCArmorFreelancerVestBlack
+        amount: 15
+        name: "Чёрный бронежилет"
+      - id: RMCArmorFreelancerVestBeigeLamp
+        amount: 15
+        name: "Бежевый бронежилет (Lamp)"
+      - id: RMCArmorFreelancerVestBeige
+        amount: 15
+        name: "Бежевый бронежилет"
+    - name: Backpack
+      entries:
+      - id: CMBackpack
+        amount: 15
+      - id: CMBackpackEngineer
+        amount: 15
+      - id: CMSatchel
+        amount: 15
+      - id: RMCSatchelLightpackWelder
+        amount: 15
+      - id: RMCSatchelLightpack
+        amount: 15
+    - name: Отдыхricted Backpack
+      entries:
+      - id: RMCBackpackRTO
+        amount: 1
+    - name: Belts
+      entries:
+      - id: CMBeltMarine
+        amount: 15
+      - id: RMCBeltGrenade
+        amount: 10
+      - id: RMCBeltHolsterPistol
+        amount: 15
+      - id: RMCBeltHolsterRevolver
+        amount: 15
+      - id: RMCM82FHolster
+        amount: 5
+      - id: RMCBeltUtilityGeneral
+        amount: 5
+    - name: Подсумокes
+      entries:
+      - id: RMCPouchFirstAid
+        amount: 15
+      - id: RMCPouchFlareFilled
+        amount: 15
+        name: "сигнальная ракета pouch (Full)"
+      - id: RMCPouchMagazine
+        amount: 15
+      - id: RMCPouchGeneralMedium
+        amount: 15
+      - id: RMCPouchMagazinePistol
+        amount: 15
+      - id: RMCPouchPistol
+        amount: 15
+    - name: Отдыхricted Pouches
+      entries:
+      - id: RMCPouchConstruction
+        amount: 1
+      - id: RMCPouchExplosive
+        amount: 1
+      - id: RMCPouchFirstResponder
+        amount: 2
+      - id: RMCPouchMagazinePistolLarge
+        amount: 2
+      - id: RMCPouchToolsFill
+        amount: 1
+      - id: RMCPouchFuelTank
+        amount: 1
+      - id: RMCPouchShotgun
+        amount: 1
+    - name: Miscellaneous
+      entries:
+      - id: RMCPatchFreelancer
+        amount: 15
+      - id: RMCPatchFreelancerAlt
+        amount: 15

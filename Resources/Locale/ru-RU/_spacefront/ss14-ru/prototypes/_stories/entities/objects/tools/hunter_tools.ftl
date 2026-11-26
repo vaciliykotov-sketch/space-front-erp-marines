@@ -1,0 +1,9 @@
+ent-STHunterScrewdriver = отвёртка чужих
+ent-STHunterWirecutter = кусачки чужих
+ent-STHunterWrench = гаечный ключ чужих
+ent-STHunterMultitool = мультитул чужих
+    .suffix = { ent-CMMultitool.suffix }
+ent-STHunterCrowbar = лом чужака
+ent-STHunterWelder = хим-сварщик чужих
+ent-STHunterCleanerVial = флакон чистящего геля
+ent-STHunterDissolvingGel = гель для растворения

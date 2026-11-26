@@ -1,0 +1,17 @@
+ent-ClothingEyesGlassesGar = очки в мужицком стиле
+ent-ClothingEyesGlassesGarOrange = мужицкие очки оранжевого цвета
+ent-ClothingEyesGlassesGarGiga = очки гигамужика
+ent-ClothingEyesGlassesMeson = очки для инженеров
+ent-ClothingEyesGlasses = обычные очки
+ent-ClothingEyesGlassesJensen = очки в стиле Дженсена
+ent-ClothingEyesGlassesJamjar = очки с толстыми линзами
+ent-ClothingEyesGlassesOutlawGlasses = очки разбойника
+ent-ClothingEyesGlassesCheapSunglasses = недорогие солнечные очки
+ent-ClothingEyesGlassesSunglasses = солнечные очки
+ent-ClothingEyesGlassesSecurity = очки службы охраны
+ent-ClothingEyesGlassesCommand = очки администрации
+ent-ClothingEyesGlassesMercenary = очки наёмника
+ent-ClothingEyesGlassesThermal = термальный оптический сканер
+ent-ClothingEyesGlassesChemical = очки для химического анализа
+ent-ClothingEyesVisorNinja = визор ниндзя
+ent-ClothingEyesGlassesNoir = очки в стиле нуар

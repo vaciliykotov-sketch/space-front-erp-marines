@@ -1,0 +1,12 @@
+ent-RMCTyrargoStick01 = деревянная палка
+    .suffix = 1
+ent-RMCTyrargoStick02 = { ent-RMCTyrargoStick01 }
+    .suffix = 2
+ent-RMCTyrargoStick03 = { ent-RMCTyrargoStick01 }
+    .suffix = 3
+ent-RMCTyrargoStick04 = { ent-RMCTyrargoStick01 }
+    .suffix = 4
+ent-RMCTyrargoTrunk01 = древесный ствол
+    .suffix = 1
+ent-RMCTyrargoTrunk02 = { ent-RMCTyrargoTrunk01 }
+    .suffix = 2

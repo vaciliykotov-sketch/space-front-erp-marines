@@ -1,0 +1,13 @@
+ent-RMCWeaponRifleType77 = винтовка штурмовая Тип 77
+ent-RMCWeaponRifleType77Tactical = { ent-RMCWeaponRifleType77 }
+    .suffix = Тактический
+ent-RMCMagazineRifleType77 = магазин для Типа 77 (10x24mm)
+ent-RMCMagazineRifleType77Empty = { ent-RMCMagazineRifleType77 }
+    .suffix = Пустой
+ent-RMCMagazineRifleType77AP = магазин бронебойный для Типа 77 (10x24mm)
+    .suffix = Бронебойный
+ent-RMCMagazineRifleType77Incendiary = магазин зажигательный для Типа 77 (10x24mm)
+    .suffix = Зажигательный
+ent-RMCMagazineRifleType77HEAP = магазин HEAP для Типа 77 (10x24mm)
+    .suffix = HEAP
+ent-RMCMagazineRifleType77Rubber = магазин резиновый для Типа 77 (10x24mm)

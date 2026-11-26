@@ -1,0 +1,10 @@
+ent-BaseMagazineLightRifle = магазин лёгкой винтовки (.30)
+ent-MagazineLightRifleBox = патронный короб L6 SAW (.30 винтовочные)
+ent-MagazineLightRifle = винтовочный магазин (.30)
+ent-MagazineLightRifleEmpty = винтовочный магазин под любые (.30)
+    .suffix = Пустой
+ent-MagazineLightRiflePractice = винтовочный магазин с учебными (.30)
+ent-MagazineLightRifleUranium = винтовочный магазин с урановыми (.30)
+ent-MagazineLightRifleIncendiary = винтовочный магазин с зажигательными (.30)
+ent-MagazineLightRifleMaxim = дисковый винтовочный магазин (.30)
+ent-MagazineLightRiflePkBox = патронный короб ПК (.30 винтовочные)

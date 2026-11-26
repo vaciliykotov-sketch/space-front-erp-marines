@@ -1,0 +1,1044 @@
+# Sorokyne Strata Areas
+
+- type: entity
+  parent: RMCAreaBase
+  id: RMCAreaStrata
+  name: "Пласты Сорокино"
+  suffix: Sorokyne Strata
+  components:
+  - type: Sprite
+    sprite: _RMC14/Areas/areas_strata.rsi
+    state: strata
+  - type: Area
+    powerNet: ground
+    buildSpecial: true
+    minimapColor: "#6c6767d8"
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorOutOfBounds
+  name: "За пределами игровой зоны"
+  components:
+  - type: Sprite
+    state: ag_i
+  - type: Area
+    CAS: false
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: false
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: true
+    weatherEnabled: false
+    alwaysPowered: true
+
+- type: entity
+  parent: RMCAreaStrata
+  id: RMCAreaStrataExterior
+  name: "Экстерьер"
+  components:
+  - type: Sprite
+    state: ag_e
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    OB: true
+    supplyDrop: true
+    weatherEnabled: true
+
+- type: entity
+  parent: RMCAreaStrata
+  id: RMCAreaStrataInterior
+  name: "Интерьер"
+  components:
+  - type: Sprite
+    state: ag_i
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: false
+    mortarFire: true
+    lasing: false
+    medevac: false
+    OB: true
+    supplyDrop: true
+    weatherEnabled: false
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorLandingZones
+  name: "Не использовать."
+  components:
+  - type: Sprite
+    state: landingzone_2
+  - type: Area
+    minimapColor: "#ebe5e5e3"
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorLandingZones
+  name: "Не использовать."
+  components:
+  - type: Sprite
+    state: landingzone_1
+  - type: Area
+    minimapColor: "#ebe5e5e3"
+
+- type: entity
+  parent: RMCAreaStrataExteriorLandingZones
+  id: RMCAreaStrataExteriorLandingZonesLz2
+  name: "Зона посадки 2 Pad - Rocky Fields"
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataExteriorLandingZones
+  id: RMCAreaStrataExteriorLandingZonesNearLz2
+  name: "Зона посадки 2 - Rocky Fields"
+  components:
+  - type: Sprite
+    state: nearlz2
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataInteriorLandingZones
+  id: RMCAreaStrataInteriorLandingZonesLz1
+  name: "Зона посадки 1 Pad - Mining Aerodrome"
+  components:
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaStrataInteriorLandingZones
+  id: RMCAreaStrataInteriorLandingZonesNearLz1
+  name: "Зона посадки 1 - Mining Aerodrome"
+  components:
+  - type: Sprite
+    state: nearlz1
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorShedFiveCaves
+  name: "Наземная дорожка к терминалу пять"
+  components:
+  - type: Sprite
+    state: lzcaves
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorLzCaves
+  name: "Внешний путь к горнодобывающему аэродрому"
+  components:
+  - type: Sprite
+    state: lzcaves
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorMarsh
+  name: "Не использовать."
+  components:
+  - type: Sprite
+    state: marsh
+
+- type: entity
+  parent: RMCAreaStrataExteriorMarsh
+  id: RMCAreaStrataExteriorMarshSpringMarshes
+  name: "Геотермальные источники Marshes"
+  components:
+  - type: Area
+    linkedLz: dropship_lz1, dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataExteriorMarsh
+  id: RMCAreaStrataExteriorMarshWaterMarshes
+  name: "Геотермальная вода Marshes"
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataExteriorMarsh
+  id: RMCAreaStrataExteriorMarshIslandMarshes
+  name: "Геотермальные островные болота"
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataExteriorMarsh
+  id: RMCAreaStrataExteriorMarshRelayMarshes
+  name: "Геотермальные болота реле"
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataExteriorMarsh
+  id: RMCAreaStrataExteriorMarshCenter
+  name: "Геотермальные источники"
+  components:
+  - type: Sprite
+    state: marshcenter
+  - type: Area
+    linkedLz: dropship_lz1, dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataExteriorMarsh
+  id: RMCAreaStrataExteriorMarshRiver
+  name: "Геотермальная река"
+  components:
+  - type: Sprite
+    state: marshriver
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaStrataExteriorMarsh
+  id: RMCAreaStrataExteriorMarshCrash
+  name: "Геотермальный рухнувший десантный корабль"
+  components:
+  - type: Sprite
+    state: marshship
+  - type: Area
+    linkedLz: dropship_lz1, dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataExteriorMarsh
+  id: RMCAreaStrataExteriorMarshWater
+  name: "Геотермальная вода"
+  components:
+  - type: Sprite
+    state: marshwater
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorVanyard
+  name: "Площадка техники диспетчерской"
+  components:
+  - type: Sprite
+    state: garage
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorOutpostDecks
+  name: "Аванпост — Палубы"
+  components:
+  - type: Sprite
+    state: rdecks
+  - type: Area
+    minimapColor: "#3f3c3cef"
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorFlightControlExterior
+  name: "Внешняя часть диспетчерской"
+  components:
+  - type: Sprite
+    state: path
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorMiningOutpostExterior
+  name: "Шахтёрский аванпост — Снаружи"
+  components:
+  - type: Sprite
+    state: path
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorNorthOutpost
+  name: "Аванпост — Северный проход"
+  components:
+  - type: Sprite
+    state: path
+  - type: Area
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorFarNorthOutpost
+  name: "Дальний север аванпоста"
+  components:
+  - type: Sprite
+    state: path
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorSouthOutpost
+  name: "К югу от аванпоста"
+  components:
+  - type: Sprite
+    state: path
+
+# TComms
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorTcommsMiningCaves
+  name: "Реле шахтёрского пути"
+  components:
+  - type: Sprite
+    state: tcomms1
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorTcommsVehicleYard
+  name: "Ретранслятор технического двора"
+  components:
+  - type: Sprite
+    state: tcomms1
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorTcommsCrashedDropship
+  name: "Релей crashed десантного корабля"
+  components:
+  - type: Sprite
+    state: tcomms1
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorTcommsGeosprings
+  name: "Геотермальные источники Relay"
+  components:
+  - type: Sprite
+    state: tcomms1
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorTcommsEngineeringPartsStorage
+  name: "Инженерing - Parts Storage Platform Relay"
+  components:
+  - type: Sprite
+    state: tcomms1
+
+
+# Interior
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorOutpost
+  name: "Аванпост Сорокино"
+  components:
+  - type: Sprite
+    state: shed_x_ag
+  - type: Area
+    minimapColor: "#3f3c3cef"
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpost
+  id: RMCAreaStrataInteriorOutpostFoyer
+  name: "Аванпост — Главное фойе"
+  components:
+  - type: Sprite
+    state: outpost_gen_1
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpost
+  id: RMCAreaStrataInteriorOutpostMaint
+  name: "Аванпост — Столовая - Eastern Maintenance"
+  components:
+  - type: Sprite
+    state: outpost_maint
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpost
+  id: RMCAreaStrataInteriorOutpostMed
+  name: "Аванпост — Медицинский отсек"
+  components:
+  - type: Sprite
+    state: outpost_med
+  - type: Area
+    minimapColor: "#3dbf75ee"
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpost
+  id: RMCAreaStrataInteriorOutpostEngi
+  name: "Аванпост — Инженерный отсек"
+  components:
+  - type: Sprite
+    state: outpost_engi_0
+  - type: Area
+    minimapColor: "#c19504e7"
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpostEngi
+  id: RMCAreaStrataInteriorOutpostEngiDrome
+  name: "Аванпост — Аэродром"
+  components:
+  - type: Sprite
+    state: outpost_engi_4
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpostEngiDrome
+  id: RMCAreaStrataInteriorOutpostEngiDromeShuttle
+  name: "Разобранный VDVK Eagle Mk 4"
+  components:
+  - type: Sprite
+    state: outpost_engi_3
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpostEngiDrome
+  id: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
+  name: VDVK Eagle Mk 3
+  components:
+  - type: Sprite
+    state: outpost_engi_3
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorShuttleSof
+  name: "СПП-DS-3 'Voron'"
+  components:
+  - type: Sprite
+    state: outpost_engi_3
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorSupplyShuttleSof
+  name: "СПП-DS-3 'Volk'"
+  components:
+  - type: Sprite
+    state: outpost_engi_3
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpost
+  id: RMCAreaStrataInteriorOutpostSecurity
+  name: "Аванпост — Служба безопасности"
+  components:
+  - type: Sprite
+    state: outpost_sec_0
+  - type: Area
+    minimapColor: "#a22d2dee"
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpost
+  id: RMCAreaStrataInteriorOutpostAdmin
+  name: "Аванпост — Администрация"
+  components:
+  - type: Sprite
+    state: outpost_admin_0
+  - type: Area
+    minimapColor: "#2d3fa2ee"
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpost
+  id: RMCAreaStrataInteriorOutpostCanteen
+  name: "Аванпост — Столовая"
+  components:
+  - type: Sprite
+    state: outpost_canteen_0
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpostCanteen
+  id: RMCAreaStrataInteriorOutpostCanteenBar
+  name: "Аванпост — Бар"
+  components:
+  - type: Sprite
+    state: outpost_canteen_2
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorMiningOutpost
+  name: "Шахтёрский аванпост — Центр"
+  components:
+  - type: Sprite
+    state: dorms_0
+  - type: Area
+    minimapColor: "#4d3619e7"
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaStrataInteriorMiningOutpost
+  id: RMCAreaStrataInteriorMiningOutpostSouthDormitories
+  name: "Шахтёрский аванпост — Южные общежития"
+  components:
+  - type: Sprite
+    state: dorms_3
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaStrataInteriorMiningOutpost
+  id: RMCAreaStrataInteriorMiningOutpostMaintenance
+  name: "Шахтёрский аванпост — Техобслуживание общежития"
+  components:
+  - type: Sprite
+    state: outpost_maint
+
+- type: entity
+  parent: RMCAreaStrataInteriorMiningOutpost
+  id: RMCAreaStrataInteriorMiningOutpostHive
+  name: "Шахтёрский аванпост — Геотермальный склад общежития"
+  components:
+  - type: Sprite
+    state: dorms_beno
+
+- type: entity
+  parent: RMCAreaStrataInteriorMiningOutpost
+  id: RMCAreaStrataInteriorMiningOutpostCanteen
+  name: "Шахтёрский аванпост — Столовая общежития"
+  components:
+  - type: Sprite
+    state: dorms_canteen
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaStrataInteriorMiningOutpost
+  id: RMCAreaStrataInteriorMiningOutpostFlightControl
+  name: "Шахтёрский аванпост — Управление полётами"
+  components:
+  - type: Sprite
+    state: dorms_lobby
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorAdministration
+  name: "Офисы диспетчерской"
+  components:
+  - type: Sprite
+    state: offices
+  - type: Area
+    minimapColor: "#2d3fa2ee"
+    linkedLz: dropship_lz1
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorWoodenHospital
+  name: "Деревянный госпиталь - Больничное отделение"
+  components:
+  - type: Sprite
+    state: cabin3
+  - type: Area
+    minimapColor: "#3f3c3cef"
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorWoodenRuins
+  name: "Старое деревянное здание"
+  components:
+  - type: Sprite
+    state: cabin3
+  - type: Area
+    minimapColor: "#3f3c3cef"
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorCheckpoints
+  components:
+  - type: Sprite
+    state: security_station
+  - type: Area
+    minimapColor: "#a22d2dee"
+
+- type: entity
+  parent: RMCAreaStrataInteriorCheckpoints
+  id: RMCAreaStrataInteriorCheckpointsNorthArmor
+  name: "Северный бронированный КПП охраны"
+
+- type: entity
+  parent: RMCAreaStrataInteriorCheckpoints
+  id: RMCAreaStrataInteriorCheckpointsNorth
+  name: "Зона посадки North Security Checkpoint"
+
+- type: entity
+  parent: RMCAreaStrataInteriorCheckpoints
+  id: RMCAreaStrataInteriorCheckpointsWest
+  name: "Зона посадки West Security Checkpoint"
+
+- type: entity
+  parent: RMCAreaStrataInteriorCheckpoints
+  id: RMCAreaStrataInteriorCheckpointsSouth
+  name: "Зона посадки South Security Checkpoint"
+  components:
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataInteriorCheckpoints
+  id: RMCAreaStrataInteriorCheckpointsOutpost
+  name: "Аванпост — КПП палубы"
+  components:
+  - type: Sprite
+    state: rdecks_sec
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorPartsStorage
+  name: "Инженерing - Parts Storage"
+  components:
+  - type: Sprite
+    state: outpost_engi_1
+  - type: Area
+    linkedLz: dropship_lz2
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorGeneratorSubstation
+  name: "Инженерing - Generator Substation"
+  components:
+  - type: Sprite
+    state: outpost_engi_1
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorPartsStorageExterior
+  name: "Инженерing - Parts Storage Exterior"
+  components:
+  - type: Sprite
+    state: outpost_engi_4
+  - type: Area
+    linkedLz: dropship_lz2
+    CAS: true
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorPartsStorageCave
+  name: "Инженерing - Parts Storage Exterior"
+  components:
+  - type: Sprite
+    state: outpost_engi_4
+  - type: Area
+    minimapColor: "#5a4501e7"
+    CAS: true
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorBball
+  name: "Аванпост — Баскетбольная площадка"
+  components:
+  - type: Sprite
+    state: outpost_gen_4
+  - type: Area
+    minimapColor: "#3f3c3cef"
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorBballCave
+  name: "Аванпост — Пещеры для баскетбола"
+  components:
+  - type: Sprite
+    state: hive_1
+  - type: Area
+    minimapColor: "#272525ef"
+    CAS: false
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorSecureCheckpoint
+  name: "Проход охраняемого КПП"
+  components:
+  - type: Sprite
+    state: outpost_engi_0
+  - type: Area
+    minimapColor: "#272525ef"
+    CAS: false
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorUndergroundDorms
+  name: "Не использовать."
+  components:
+  - type: Sprite
+    state: ug_jung_dorm
+  - type: Area
+    minimapColor: "#5b5757"
+    CAS: false
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaStrataInteriorUndergroundDorms
+  id: RMCAreaStrataInteriorUndergroundDormsSec1
+  name: Deep Jungle - Security Dorm \#1
+
+- type: entity
+  parent: RMCAreaStrataInteriorUndergroundDorms
+  id: RMCAreaStrataInteriorUndergroundDormsSec2
+  name: Deep Jungle - Security Dorm \#2
+
+- type: entity
+  parent: RMCAreaStrataInteriorUndergroundDorms
+  id: RMCAreaStrataInteriorUndergroundDormsAdmin1
+  name: Deep Jungle - General Staff Dorm \#1
+
+- type: entity
+  parent: RMCAreaStrataInteriorUndergroundDorms
+  id: RMCAreaStrataInteriorUndergroundDormsAdmin2
+  name: Deep Jungle - General Staff Dorm \#2
+
+- type: entity
+  parent: RMCAreaStrataInteriorUndergroundDorms
+  id: RMCAreaStrataInteriorUndergroundDormsAdmin3
+  name: Deep Jungle - General Staff Dorm \#3
+
+- type: entity
+  parent: RMCAreaStrataInteriorUndergroundDorms
+  id: RMCAreaStrataInteriorUndergroundDormsAdmin4
+  name: Deep Jungle - General Staff Dorm \#4
+
+- type: entity
+  parent: RMCAreaStrataInteriorUndergroundDorms
+  id: RMCAreaStrataInteriorUndergroundDormsMed1
+  name: Deep Jungle - Medical Dorm \#1
+
+- type: entity
+  parent: RMCAreaStrataInteriorUndergroundDorms
+  id: RMCAreaStrataInteriorUndergroundDormsMed2
+  name: Deep Jungle - Medical Dorm \#2
+
+- type: entity
+  parent: RMCAreaStrataInteriorUndergroundDorms
+  id: RMCAreaStrataInteriorUndergroundDormsBotany
+  name: "Ботаническая исследовательская станция"
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorOutpostPlatform
+  name: "Глубокие джунгли - Платформа"
+  components:
+  - type: Sprite
+    state: ug_jung_1
+  - type: Area
+    minimapColor: "#17472cee"
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorCarplakeCenter
+  name: "Глубокие джунгли - Остров в центре озера"
+  components:
+  - type: Sprite
+    state: ug_jung_1
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorDeepJungle
+  name: "Не использовать."
+  components:
+  - type: Sprite
+    state: ug_jung_0
+  - type: Area
+    minimapColor: "#2b5b2bee"
+    CAS: false
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJungleCarplakeNorth
+  name: "Глубокие джунгли - Севернее Карпового озера"
+  components:
+  - type: Sprite
+    state: ug_jung_6
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJungleCarplakeEast
+  name: "Глубокие джунгли - Восточнее Карпового озера"
+  components:
+  - type: Sprite
+    state: ug_jung_5
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJunglePlatform
+  name: "Глубокие джунгли - Южнее платформы"
+  components:
+  - type: Sprite
+    state: ug_jung_4
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJunglePlatformEast
+  name: "Глубокие джунгли - Восточнее платформы"
+  components:
+  - type: Sprite
+    state: ug_jung_0
+  - type: Area
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJungleHotSprings
+  name: "Глубокие джунгли - Горячие источники"
+  components:
+  - type: Sprite
+    state: ug_jung_4
+  - type: Area
+    minimapColor: "#2b5b2bee"
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJungleOldTunnels
+  name: "Глубокие джунгли - Старая тропа - Западнее засекреченной исследовательской станции"
+  components:
+  - type: Sprite
+    state: ug_jung_mine_1
+  - type: Area
+    minimapColor: "#2b5b2bee"
+    CAS: true
+    fulton: true
+    mortarPlacement: true
+    mortarFire: true
+    lasing: true
+    medevac: true
+    paradropping: true
+    OB: true
+    supplyDrop: true
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJungleNorth
+  name: "Глубокие джунгли - Южнее засекреченной исследовательской станции"
+  components:
+  - type: Sprite
+    state: ug_jung_6
+  - type: Area
+    minimapColor: "#2b5b2bee"
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJungleWest
+  name: "Глубокие джунгли - Западнее мониторинга планетарного ядра"
+  components:
+  - type: Sprite
+    state: ug_jung_6
+  - type: Area
+    minimapColor: "#2b5b2bee"
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJungleSouth
+  name: "Глубокие джунгли - Южнее мониторинга планетарного ядра"
+  components:
+  - type: Sprite
+    state: ug_jung_7
+  - type: Area
+    minimapColor: "#2b5b2bee"
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJungleEast
+  name: "Глубокие джунгли - Восточнее мониторинга планетарного ядра"
+  components:
+  - type: Sprite
+    state: ug_jung_8
+  - type: Area
+    minimapColor: "#2b5b2bee"
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJunglePlanetCoreResearchStationExterior
+  name: "Глубокие джунгли - Исследовательская станция мониторинга планетарного ядра"
+  components:
+  - type: Sprite
+    state: ug_jung_8
+  - type: Area
+    minimapColor: "#2b5b2bee"
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJungleRuin
+  name: "Глубокие джунгли - Древние бараки"
+  components:
+  - type: Sprite
+    state: ug_jung_mine_4
+
+- type: entity
+  parent: RMCAreaStrataExteriorDeepJungle
+  id: RMCAreaStrataExteriorDeepJungleTearlake
+  name: "Глубокие джунгли - Плачущий водоём"
+  components:
+  - type: Sprite
+    state: ug_jung_3
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorPlanetCoreResearchStation
+  name: "Глубокие джунгли - Исследовательская станция мониторинга планетарного ядра"
+  components:
+  - type: Sprite
+    state: ug_jung_5
+  - type: Area
+    minimapColor: "#5b5757"
+    CAS: false
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaStrataInterior
+  id: RMCAreaStrataInteriorResearch
+  name: "Глубокие джунгли - Засекреченная исследовательская станция"
+  components:
+  - type: Sprite
+    state: ug_jung_2
+  - type: Area
+    minimapColor: "#812da2ee"
+    CAS: false
+    fulton: false
+    mortarPlacement: false
+    mortarFire: false
+    lasing: false
+    medevac: false
+    paradropping: false
+    OB: true
+    supplyDrop: false
+
+- type: entity
+  parent: RMCAreaStrataExterior
+  id: RMCAreaStrataExteriorRestricted
+  name: "Суперсекретная комната кредитов"
+  components:
+  - type: Sprite
+    state: marshwater
+  - type: Area
+    alwaysPowered: true
+    CAS: false
+    fulton: false
+    lasing: false
+    mortarPlacement: false
+    mortarFire: false
+    medevac: false
+    OB: false
+    supplyDrop: false
+    resinAllowed: false
+    avoidBioscan: false
+    noTunnel: true
+    unweedable: true
+    weatherEnabled: false
+    paradropping: false
+
+- type: entity
+  parent: RMCAreaStrataInteriorCheckpoints
+  id: RMCAreaStrataInteriorCheckpointsClf
+  name: "Дальний северный бронированный КПП"
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpost
+  id: RMCAreaStrataInteriorOutpostClfDorms
+  name: "Дальняя северная казарма"
+
+- type: entity
+  parent: RMCAreaStrataInteriorOutpost
+  id: RMCAreaStrataInteriorOutpostClfOffice
+  name: "Офис Крайнего Севера"

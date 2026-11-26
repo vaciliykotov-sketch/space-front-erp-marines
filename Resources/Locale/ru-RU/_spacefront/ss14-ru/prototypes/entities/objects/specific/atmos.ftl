@@ -1,0 +1,1 @@
+ent-GasAnalyzer = анализатор газов

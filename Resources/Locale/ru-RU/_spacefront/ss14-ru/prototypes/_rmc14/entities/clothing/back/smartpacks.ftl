@@ -1,0 +1,14 @@
+ent-RMCSmartpackBase = ранец S-V42
+ent-RMCSmartpackA1Base = ранец S-V42A1
+ent-RMCSmartpack = { ent-RMCSmartpackBase }
+ent-RMCSmartpackBlack = { ent-RMCSmartpackBase }
+ent-RMCSmartpackGreen = { ent-RMCSmartpackBase }
+ent-RMCSmartpackTan = { ent-RMCSmartpackBase }
+ent-RMCSmartpackWhite = { ent-RMCSmartpackBase }
+ent-RMCSmartpackA1 = { ent-RMCSmartpackA1Base }
+ent-RMCSmartpackA1Black = { ent-RMCSmartpackA1Base }
+ent-RMCSmartpackA1Green = { ent-RMCSmartpackA1Base }
+ent-RMCSmartpackA1Tan = { ent-RMCSmartpackA1Base }
+ent-RMCSmartpackA1White = { ent-RMCSmartpackA1Base }
+ent-RMCPMCSyntheticSmartpack = { ent-RMCSmartpackA1White }
+    .suffix = Заполненный, Синтетик ЧВК

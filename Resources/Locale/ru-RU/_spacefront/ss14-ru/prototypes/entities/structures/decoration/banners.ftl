@@ -1,0 +1,13 @@
+ent-BannerBase = знамя-основа
+ent-BannerNanotrasen = полотнище Nanotrasen
+ent-BannerCargo = стяг отдела снабжения
+ent-BannerEngineering = стяг инженерного отдела
+ent-BannerMedical = стяг медицинского отдела
+ent-BannerRevolution = стяг революции
+ent-BannerSyndicate = стяг Синдиката
+ent-BannerScience = стяг научного отдела
+ent-BannerSecurity = стяг службы безопасности
+ent-BannerBlue = знамя синего цвета
+ent-BannerRed = знамя красного цвета
+ent-BannerYellow = знамя жёлтого цвета
+ent-BannerGreen = знамя зелёного цвета

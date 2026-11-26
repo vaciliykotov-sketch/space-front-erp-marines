@@ -1,0 +1,17 @@
+ent-RMCPouchMedkit = сумка под аптечку
+ent-RMCPouchMedkitFill = { ent-RMCPouchMedkit }
+    .suffix = Заполненный
+ent-RMCPouchMedkitFillAdvanced = { ent-RMCPouchMedkit }
+    .suffix = Заполненный, Продвинутый
+ent-RMCPouchMedkitFillSPP = { ent-RMCPouchMedkit }
+    .suffix = Заполненный, СПН
+ent-RMCPouchMedkitPMC = { ent-RMCPouchMedkit }
+    .suffix = ЧВК
+ent-RMCPouchMedkitPMCFilled = { ent-RMCPouchMedkitPMC }
+    .suffix = Заполненный, ЧВК
+ent-RMCPouchMedkitPMCFullAdvanced = { ent-RMCPouchMedkitPMC }
+    .suffix = Заполненный, Полный продвинутый, ЧВК
+ent-RMCPouchMedkitFillRoyal = { ent-RMCPouchMedkit }
+    .suffix = Заполненный, Королевские
+ent-RMCPouchMedkitFillRoyalMedic = { ent-RMCPouchMedkit }
+    .suffix = Заполненный, Королевский медик

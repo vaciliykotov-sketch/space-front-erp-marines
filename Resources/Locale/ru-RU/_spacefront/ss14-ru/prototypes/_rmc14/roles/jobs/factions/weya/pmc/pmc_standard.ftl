@@ -1,0 +1,12 @@
+ent-RMCRandomHumanoidPMCStandardM63B2 = призрачная роль: стандартный боец ЧВК Ве-Я с m39b2
+    .suffix = Спавнер, Игрок
+ent-RMCSpawnPointPMCStandardM63B2 = место появления стандартного бойца ЧВК Ве-Я с m39b2
+    .suffix = M63B2
+ent-RMCRandomHumanoidPMCStandardSSG45 = призрачная роль: стандартный боец ЧВК Ве-Я с ssg45
+    .suffix = Спавнер, Игрок
+ent-RMCSpawnPointPMCStandardSSG45 = место появления стандартного бойца ЧВК Ве-Я с ssg45
+    .suffix = SSG45
+ent-RMCRandomHumanoidPMCStandardM54C2 = призрачная роль: стандартный боец ЧВК Ве-Я с m41a2
+    .suffix = Спавнер, Игрок
+ent-RMCPMCStandardM54C2 = место появления стандартного бойца ЧВК Ве-Я с m41a2
+    .suffix = M41A2

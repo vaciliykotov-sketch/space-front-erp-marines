@@ -1,0 +1,9 @@
+ent-CMHandsBlackMarine = чёрные боевые перчатки
+ent-RMCHandsLatexMarine = стерильные боевые перчатки
+ent-RMCHandsDeluxeMarine = боевые перчатки люксового класса
+ent-RMCHandsM3G4 = гренадёрские перчатки M3-G4
+ent-RMCHandsBrownMarine = тактические перчатки морпеха коричневого цвета
+ent-RMCHandsGreyMarine = тактические перчатки морпеха серого цвета
+ent-RMCHandsBlackFireResistance = чёрные огнестойкие перчатки
+ent-RMCHandsFingerlessMarine = перчатки морпеха боевые без пальцев
+ent-RMCHandsCOGloves = перчатки командира-офицера

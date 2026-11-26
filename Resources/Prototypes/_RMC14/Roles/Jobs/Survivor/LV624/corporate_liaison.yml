@@ -1,0 +1,29 @@
+- type: job
+  parent: CMSurvivorCorporate
+  id: CMSurvivorLV624CorporateLiaison
+  setPreference: false
+  name: rmc-job-name-survivor-lv624-corporate-liaison
+  description: cm-job-description-survivor
+  spawnMenuRoleName: Corporate Liaison (LV624 Survivor)
+  startingGear: RMCGearSurvivorLV624CorporateLiaison
+
+- type: startingGear
+  parent: RMCGearSurvivorCorporate
+  id: RMCGearSurvivorLV624CorporateLiaison
+  equipment:
+    jumpsuit: CMJumpsuitLiaisonField
+    eyes: RMCSunglasses
+
+- type: entity
+  parent: CMSpawnPointJobBase
+  id: RMCSpawnPointSurvivorLV624CorporateLiaison
+  name: "точка появления корпоративного представителя LV624"
+  components:
+  - type: SpawnPoint
+    job_id: CMSurvivor
+  - type: Sprite # TODO: Replace with landmark sprite
+    layers:
+    - sprite: Markers/jobs.rsi
+      state: green
+    - sprite: _RMC14/Markers/cm_jobs.rsi
+      state: survivor

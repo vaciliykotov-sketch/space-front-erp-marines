@@ -1,0 +1,12 @@
+ent-RMCPouchExplosive = подсумок для взрывчатки
+ent-RMCPouchExplosiveFilledPlasticExplosives = { ent-RMCPouchExplosive }
+    .suffix = C4
+ent-RMCPouchExplosiveFilledHEFA = подсумок с ОППГ
+ent-RMCPouchExplosiveFilledHEDP = { ent-RMCPouchExplosive }
+    .suffix = ОКГ
+ent-RMCPouchExplosiveFilledSPP = { ent-RMCPouchExplosive }
+    .suffix = СПН, M15
+ent-RMCPouchExplosiveFilledC4SPP = { ent-RMCPouchExplosive }
+    .suffix = СПН, C4
+ent-RMCPouchExplosiveFilledHIRR = { ent-RMCPouchExplosive }
+    .suffix = РПУВ

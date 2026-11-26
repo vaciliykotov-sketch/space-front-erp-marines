@@ -1,0 +1,12 @@
+ent-RMCIDCardPMCCorpse = { ent-RMCIDCardPMC }
+ent-RMCIDCardPMCGoonCorpse = { ent-RMCIDCardPMC }
+ent-RMCIDCardPMCGoonLeadCorpse = { ent-RMCIDCardPMC }
+ent-RMCIDCardFORECONSpotter = ID-карта наводчика ФОРКОН
+ent-RMCIDCardTyrargoTrooper = жетон бойца
+ent-RMCIDCardTyrargoMedic = жетон санитара
+ent-RMCIDCardPrisonerCorpse = { ent-CMIDCardLanyard }
+ent-RMCIDCardChefCorpse = { ent-CMIDCardLanyard }
+ent-RMCIDCardMinerCorpse = { ent-CMIDCardLanyard }
+ent-RMCIDCardRiotOfficerCorpse = { ent-CMIDCardSilver }
+ent-RMCIDCardConstableCorpse = { ent-RMCIDCardTSEPA }
+ent-CMIDCardBasePolice = ID-карта базовая полицейская

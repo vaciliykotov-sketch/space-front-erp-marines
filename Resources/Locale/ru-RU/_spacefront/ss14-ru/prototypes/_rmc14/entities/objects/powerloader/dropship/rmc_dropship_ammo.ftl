@@ -1,0 +1,15 @@
+ent-RMCDropshipAttachmentAmmo = { ent-RMCDropshipAttachmentBase }
+ent-RMCDropshipAttachmentAmmoGAU = боеприпасный ящик 30-мм ПСУ-100
+ent-RMCDropshipAttachmentAmmoGAUAP = боеприпасный ящик 30-мм бронебойных ПСУ-105
+ent-RMCEffectExplosionParticle = взрыв
+ent-RMCDropshipAttachmentAmmoRocket = ракета (абстрактная)
+ent-RMCDropshipAttachmentAmmoRocketWidowmaker = РВВ-224B "Вдоводел"
+ent-RMCDropshipAttachmentAmmoRocketKeeper = КАБ-67 "Хранитель II"
+ent-RMCDropshipAttachmentAmmoRocketNapalm = РВЗ-99 "Напалм"
+ent-RMCDropshipAttachmentAmmoRocketHarpoon = РВЗ-184 "Гарпун II"
+ent-RMCDropshipAttachmentAmmoRocketThermobaric = ОДАБ-200 "Дыхание дракона"
+ent-RMCDropshipAttachmentAmmoRocketBanshee = РВЗ-227 "Банши"
+ent-RMCDropshipAttachmentAmmoMiniRocket = { ent-RMCDropshipAttachmentAmmo }
+ent-RMCDropshipAttachmentAmmoRocketMiniMike = НАР-59 "Мини-Майк"
+ent-RMCDropshipAttachmentAmmoRocketMiniMikeIncendiary = НАР-59-З "Мини-Майк"
+ent-RMCDropshipAttachmentAmmoLaunchableSentry = турель A/C-49-P (сбрасываемая)

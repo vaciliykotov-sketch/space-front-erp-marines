@@ -1,0 +1,9 @@
+ent-ColMarTechCrewSynthetic = Стойка синтетической экипировки КолМорТех
+ent-ColMarTechCrewSyntheticColony = Стойка экипировки колониальных синтетиков КолМорТех
+    .suffix = Доступ Синта Колонии
+ent-ColMarTechCrewSyntheticGear = Стойка вспомогательного снаряжения для синтетиков КолМорТех
+ent-WeYaExperimentalToolsVendor = Ве-Я: торговец экспериментальным инструментом
+ent-RMCVendorBundleCompactNailgunKit = комплект компактного гвоздомёта
+ent-WeYaK9SynthVendor = Снаряжение синтетиков K9 от Ве-Я
+ent-RMCVendorBundleK9HandlerCorpsman = комплект санитара-кинолога K9
+ent-RMCVendorBundleK9HandlerMP = комплект военного полицейского-кинолога K9

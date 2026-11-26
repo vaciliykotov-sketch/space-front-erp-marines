@@ -1,0 +1,100 @@
+# Маяки техники — при использовании спавнят машину рядом.
+# Продаются в карго за 1 доллар.
+
+- type: entity
+  parent: BaseItem
+  id: RMCVehicleBeaconHumvee
+  name: "Маяк техники: Хамви"
+  description: Портативный маяк десантирования техники. Используйте на открытом месте, чтобы вызвать Хамви.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/asrs_console.rsi
+    state: on
+  - type: Item
+    size: Normal
+  - type: RMCSpawnVehicleOnUse
+    vehicle: VehicleHumvee
+
+- type: entity
+  parent: BaseItem
+  id: RMCVehicleBeaconHumveeMedical
+  name: "Маяк техники: Хамви (медицинский)"
+  description: Портативный маяк десантирования техники. Используйте на открытом месте, чтобы вызвать медицинский Хамви.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/asrs_console.rsi
+    state: on
+  - type: Item
+    size: Normal
+  - type: RMCSpawnVehicleOnUse
+    vehicle: VehicleHumveeMedical
+
+- type: entity
+  parent: BaseItem
+  id: RMCVehicleBeaconHumveeTransport
+  name: "Маяк техники: Хамви (транспортный)"
+  description: Портативный маяк десантирования техники. Используйте на открытом месте, чтобы вызвать транспортный Хамви.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/asrs_console.rsi
+    state: on
+  - type: Item
+    size: Normal
+  - type: RMCSpawnVehicleOnUse
+    vehicle: VehicleHumveeTransport
+
+- type: entity
+  parent: BaseItem
+  id: RMCVehicleBeaconAPC
+  name: "Маяк техники: БТР"
+  description: Портативный маяк десантирования техники. Используйте на открытом месте, чтобы вызвать БТР.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/asrs_console.rsi
+    state: on
+  - type: Item
+    size: Normal
+  - type: RMCSpawnVehicleOnUse
+    vehicle: VehicleAPCTracked
+
+- type: entity
+  parent: BaseItem
+  id: RMCVehicleBeaconAPCMed
+  name: "Маяк техники: БТР (медицинский)"
+  description: Портативный маяк десантирования техники. Используйте на открытом месте, чтобы вызвать медицинский БТР.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/asrs_console.rsi
+    state: on
+  - type: Item
+    size: Normal
+  - type: RMCSpawnVehicleOnUse
+    vehicle: VehicleAPCMed
+
+- type: entity
+  parent: BaseItem
+  id: RMCVehicleBeaconAPCCommand
+  name: "Маяк техники: БТР (командный)"
+  description: Портативный маяк десантирования техники. Используйте на открытом месте, чтобы вызвать командный БТР.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/asrs_console.rsi
+    state: on
+  - type: Item
+    size: Normal
+  - type: RMCSpawnVehicleOnUse
+    vehicle: VehicleAPCCommand
+
+- type: entity
+  parent: BaseItem
+  id: RMCVehicleBeaconTank
+  name: "Маяк техники: Танк"
+  description: Портативный маяк десантирования техники. Используйте на открытом месте, чтобы вызвать танк.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/asrs_console.rsi
+    state: on
+  - type: Item
+    size: Normal
+  - type: RMCSpawnVehicleOnUse
+    vehicle: VehicleTank

@@ -1,0 +1,1 @@
+ent-IceCrust = корка льда

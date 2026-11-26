@@ -1,0 +1,13 @@
+ent-GasBinaryBase = { ent-GasPipeBase }
+ent-GasPressurePump = насос газового давления
+ent-GasVolumePump = насос объёмной перекачки газа
+ent-GasPressureRegulator = устройство регулировки давления на входе
+ent-GasPassiveGate = клапан пассивного типа
+ent-GasValve = клапан с ручным управлением
+ent-SignalControlledValve = клапан, управляемый сигналом
+ent-GasPort = порт подключения
+ent-GasDualPortVentPump = вентиляционный насос с двумя портами
+ent-GasRecycler = установка переработки газа
+ent-HeatExchanger = теплообменник-радиатор
+ent-HeatExchangerBend = { ent-HeatExchanger }
+    .suffix = Угол

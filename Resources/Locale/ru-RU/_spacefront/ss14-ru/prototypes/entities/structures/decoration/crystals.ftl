@@ -1,0 +1,16 @@
+ent-CrystalGreen = кристалл
+    .suffix = Зелёный
+ent-CrystalPink = { ent-CrystalGreen }
+    .suffix = Розовый
+ent-CrystalGrey = { ent-CrystalGreen }
+    .suffix = Красный
+ent-CrystalOrange = { ent-CrystalGreen }
+    .suffix = Оранжевый
+ent-CrystalBlack = { ent-CrystalGreen }
+    .suffix = Чёрный
+ent-CrystalBlue = { ent-CrystalGreen }
+    .suffix = Синий
+ent-CrystalYellow = { ent-CrystalGreen }
+    .suffix = Жёлтый
+ent-CrystalCyan = { ent-CrystalGreen }
+    .suffix = Голубой

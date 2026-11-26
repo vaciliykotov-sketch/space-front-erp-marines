@@ -1,0 +1,9 @@
+ent-RMCBaseWindowFrame = рама для окна
+ent-RMCWindowFrameAlmayer = { ent-RMCBaseWindowFrame }
+ent-RMCWindowFrameWhite = { ent-RMCBaseWindowFrame }
+ent-RMCWindowFrameAI = { ent-RMCBaseWindowFrame }
+ent-RMCWindowFrameColony = { ent-RMCBaseWindowFrame }
+ent-RMCWindowFrameColonyReinforced = { ent-RMCBaseWindowFrame }
+ent-RMCWindowFrameHunterReinforced = { ent-RMCBaseWindowFrame }
+    .suffix = охотник
+ent-RMCWindowFrameWood = { ent-RMCBaseWindowFrame }

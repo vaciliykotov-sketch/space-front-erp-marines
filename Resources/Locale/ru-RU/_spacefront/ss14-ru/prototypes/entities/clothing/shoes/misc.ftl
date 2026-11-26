@@ -1,0 +1,12 @@
+ent-ClothingShoesFlippers = плавательные ласты
+ent-ClothingShoesLeather = ботинки из кожи
+ent-ClothingShoesSlippers = домашние тапочки
+ent-ClothingShoeSlippersDuck = тапочки в виде уточек
+ent-ClothingShoeSlippersLizard = плюшевые тапки-ящерицы
+ent-ClothingShoesTourist = обувь туриста
+ent-ClothingShoesDameDane = якудзские туфли
+ent-ClothingShoesSnakeskinBoots = змеиные кожаные сапоги
+ent-ClothingShoesBootsSpeed = обувь скорости
+ent-ActionToggleSpeedBoots = Вкл/выкл скоростные ботинки
+ent-ClothingShoesBootsMoon = лунные ботинки
+ent-ClothingShoesBootsJump = прыжковые ботинки

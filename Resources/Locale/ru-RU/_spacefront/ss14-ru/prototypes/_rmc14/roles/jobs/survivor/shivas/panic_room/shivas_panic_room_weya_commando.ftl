@@ -1,0 +1,16 @@
+ent-CMArmorM4PMCCommandoSurvivorFilled = { ent-CMArmorM4PMCCommandoSurvivor }
+    .suffix = Заполненный
+ent-CMFirstAidKitFilledCommando = { ent-CMFirstAidKit }
+    .suffix = Заполненный, Коммандо
+ent-RMCSurgicalCaseFilledCommandoElite = { ent-CMSurgicalCase }
+    .suffix = Заполненный, Коммандо, Элитный
+ent-RMCSyringeCaseFilledCommando = { ent-RMCSyringeCase }
+    .suffix = Заполненный, Коммандо
+ent-CMMedicalUpgradeKitFilledCommando = { ent-CMMedicalUpgradeKit }
+    .suffix = Заполненный, Коммандо
+ent-RMCBeltPMCFilledCommando = { ent-RMCBeltPMC }
+    .suffix = Заполненный, Коммандо, Выживший
+ent-RMCSatchelPMCCommandoFilled = { ent-RMCSatchelPMCCommando }
+    .suffix = Заполненный
+ent-RMCSpawnPointSurvivorPanicRoomCommando = точка спавна спец. выжившего бойца спецназа (бункер)
+    .suffix = { ent-CMSpawnPointJobBase.suffix }

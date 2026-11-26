@@ -1,0 +1,179 @@
+- type: entity
+  abstract: true
+  id: RMCSkillBase
+  components:
+  - type: SkillDefinition
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillAntagonist
+  name: "Антагонист"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillConstruction
+  name: "Строительство"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillDefinition
+    delayMultipliers: [ 1, 1, 0.5 ]
+# Based on barricade weld times, 1 and 0 are full second, 2 is half
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillCqc
+  name: "Ближний бой"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillDefinition
+    delayMultipliers: [ 0.75, 0.5, 0.5, 0.5, 0.25 ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillDomestics
+  name: "Домашние дела"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillDefinition
+    delayMultipliers: [ 1, .9, 0.5 ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillEndurance
+  name: "Выносливость"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillEngineer
+  name: "Инженер"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillDefinition
+    delayMultipliers: [ 1, 0.75, 0.5, 0.375, 0.25 ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillExecution
+  name: "Казнь"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillFirearms
+  name: "Огнестрельное оружие"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillFireman
+  name: "Пожарный"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillDefinition
+    delayMultipliers: [ 1, 0.75, 0.5 ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillIntel
+  name: "Разведданные"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillDefinition
+    delayMultipliers: [ 1, 0.75, 0.5, 0.25, 0.1 ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillJtac
+  name: JTAC
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillLeadership
+  name: "Лидерship"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillMedical
+  name: "Медикal"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillDefinition
+    delayMultipliers: [ 1, 1, 1, 0.75, 0.35 ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillMeleeWeapons
+  name: "Ближний бой"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillNavigations
+  name: "Навигация"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillOverwatch
+  name: "Наблюдение"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillPilot
+  name: "Пилот"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillPolice
+  name: "Полиция"
+  categories: [ HideSpawnMenu ]
+
+# Forklift certified
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillPowerLoader
+  name: "Силовой погрузчик"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillResearch
+  name: "Исследования"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillSmartGun
+  name: "Умный пулемёт"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillSpecialistWeapons
+  name: "Оружие специалиста"
+  categories: [ HideSpawnMenu ]
+
+# No longer a week away
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillSurgery
+  name: "Хирургия"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillVehicles
+  name: "Техника"
+  categories: [ HideSpawnMenu ]
+
+- type: entity
+  parent: RMCSkillBase
+  id: RMCSkillVulture
+  name: "Стервятник"
+  categories: [ HideSpawnMenu ]

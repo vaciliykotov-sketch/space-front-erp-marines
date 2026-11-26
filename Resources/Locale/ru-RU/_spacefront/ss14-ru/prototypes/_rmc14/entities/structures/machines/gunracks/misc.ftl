@@ -1,0 +1,16 @@
+ent-RMCGunRackM34IncineratorEmpty = стойка под огнемёты M240
+    .suffix = Огнемет M240, Пустая
+ent-RMCGunRackM34IncineratorFilled = { ent-RMCGunRackM34IncineratorEmpty }
+    .suffix = Огнемет M240, Заполненная
+ent-RMCGunRackLPO80IncineratorEmpty = стойка под огнемёты LPO80
+    .suffix = Огнемёт LPO80, Пустой
+ent-RMCGunRackLPO80IncineratorFilled = { ent-RMCGunRackLPO80IncineratorEmpty }
+    .suffix = Огнемёт LPO80, Заполненный
+ent-RMCGunRackMAR50WallEmpty = настенная деревянная стойка под MAR-50
+    .suffix = MAR-50, Пустой
+ent-RMCGunRackMAR50WallFilled = { ent-RMCGunRackMAR50WallEmpty }
+    .suffix = MAR-50, Заполненный
+ent-RMCGunRackM357WallEmpty = настенная деревянная стойка под M357 Rival
+    .suffix = M357 Rival, Пустой
+ent-RMCGunRackM357WallFilled = { ent-RMCGunRackM357WallEmpty }
+    .suffix = M357 Rival, Заполненный

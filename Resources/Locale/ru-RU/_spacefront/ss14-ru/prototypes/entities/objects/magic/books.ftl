@@ -1,0 +1,12 @@
+ent-BaseSpellbook = книга с заклинаниями
+ent-WizardsGrimoire = волшебный гримуар
+    .suffix = Волшебник
+ent-WizardsGrimoireNoRefund = волшебный гримуар
+    .suffix = Волшебник, Без возврата средств
+ent-SpawnSpellbook = книга заклинания «призыв»
+ent-ForceWallSpellbook = книга заклинания «силовой барьер»
+ent-BlinkBook = книга заклинания «прыжок»
+ent-SmiteBook = книга заклинания «кара»
+ent-KnockSpellbook = книга заклинания «стук»
+ent-FireballSpellbook = книга заклинания «огненный шар»
+ent-ScrollRunes = рунический свиток

@@ -1,0 +1,9 @@
+ent-MopItem = швабра для уборки
+ent-AdvMopItem = усовершенствованная швабра
+ent-WetFloorSign = табличка "мокрый пол"
+ent-WetFloorSignMineExplosive = { ent-WetFloorSign }
+    .suffix = Взрывчатка
+ent-Plunger = сантехнический вантуз
+ent-GoldenPlunger = вантуз из золота
+ent-RagItem = ветошь
+ent-WireBrush = проволочная щётка

@@ -1,0 +1,10 @@
+ent-VibratorMagicwand = жезл волшебный
+ent-VibratorGreen = вибратор зеленого цвета
+ent-VibratorTeal = вибратор бирюзового цвета
+ent-VibratorPink = вибратор розового цвета
+ent-VibratorRed = вибратор красного цвета
+ent-VibratorYellow = вибратор желтого цвета
+ent-VibratorEggPink = вибратор-яйцо розового цвета
+ent-VibratorEggTeal = вибратор-яйцо бирюзового цвета
+ent-VibratorRingPink = вибратор-кольцо розового цвета
+ent-VibratorRingTeal = вибратор-кольцо бирюзового цвета

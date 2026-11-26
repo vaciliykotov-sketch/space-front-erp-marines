@@ -1,0 +1,10 @@
+ent-ShuttleGunSvalinnMachineGunCircuitboard = машинная плата LSE-400c "Свалинн" (пулемёт)
+    .suffix = НЕ МАППИТЬ, Машинная плата
+ent-ShuttleGunPerforatorCircuitboard = машинная плата LSE-1200c "Перфоратор"
+    .suffix = НЕ МАППИТЬ, Машинная плата
+ent-ShuttleGunFriendshipCircuitboard = машинная плата EXP-320g "Дружба"
+    .suffix = НЕ МАППИТЬ, Машинная плата
+ent-ShuttleGunDusterCircuitboard = машинная плата EXP-2100g "Дастер"
+    .suffix = НЕ МАППИТЬ, Машинная плата
+ent-ShuttleGunKineticCircuitboard = машинная плата PTK-800 "Дематериализатор материи"
+    .suffix = НЕ МАППИТЬ, Машинная плата

@@ -1,0 +1,15 @@
+- type: job
+  parent: CMSurvivor
+  id: CMSurvivorHost
+  setPreference: false
+  name: cm-job-name-survivor
+  description: cm-job-description-survivor
+  startingGear: RMCGearHostSurvivorBase
+  spawnMenuRoleName: Civilian Survivor (Xenonid Host)
+
+- type: startingGear
+  parent: RMCGearSurvivorBaseNoBackpack
+  id: RMCGearHostSurvivorBase
+  equipment:
+    pocket1: RMCPouchSurvivalFillRadioOff
+

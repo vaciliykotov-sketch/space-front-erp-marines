@@ -1,0 +1,118 @@
+# combat technician
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidCharlieCombatTech
+  name: "роль призрака боевого техника «Чарли»"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCCharlieCombatTech
+
+- type: randomHumanoidSettings
+  parent: [RMCCombatTech, RMCCharlieBase]
+  id: RMCCharlieCombatTech
+
+# fireteam leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidCharlieFireteamLeader
+  name: "роль призрака лидера огневой группы «Чарли»"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCCharlieFireteamLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCFireteamLeader, RMCCharlieBase]
+  id: RMCCharlieFireteamLeader
+
+# hospital corpsman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidCharlieHospitalCorpsman
+  name: "роль призрака санитара госпиталя «Чарли»"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCCharlieHospitalCorpsman
+
+- type: randomHumanoidSettings
+  parent: [RMCHospitalCorpsman, RMCCharlieBase]
+  id: RMCCharlieHospitalCorpsman
+
+# rifleman
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidCharlieRifleman
+  name: "роль призрака стрелка «Чарли»"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCCharlieRifleman
+
+- type: randomHumanoidSettings
+  parent: [RMCRifleman, RMCCharlieBase]
+  id: RMCCharlieRifleman
+
+# smart gun operator
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidCharlieSmartGunOperator
+  name: "роль призрака оператора умного орудия «Чарли»"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCCharlieSmartGunOperator
+
+- type: randomHumanoidSettings
+  parent: [RMCSmartGunOperator, RMCCharlieBase]
+  id: RMCCharlieSmartGunOperator
+
+# squad leader
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidCharlieSquadLeader
+  name: "роль призрака лидера отряда «Чарли»"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCCharlieSquadLeader
+
+- type: randomHumanoidSettings
+  parent: [RMCSquadLeader, RMCCharlieBase]
+  id: RMCCharlieSquadLeader
+
+# weapons specialist
+- type: entity
+  parent: MarkerBase
+  id: RMCRandomHumanoidCharlieWeaponsSpecialist
+  name: "роль призрака специалиста по оружию «Чарли»"
+  suffix: Spawner, Player
+  components:
+  - type: Sprite
+    layers:
+    - state: red
+  - type: RandomHumanoidSpawner
+    settings: RMCCharlieWeaponsSpecialist
+
+- type: randomHumanoidSettings
+  parent: [RMCWeaponsSpecialist, RMCCharlieBase]
+  id: RMCCharlieWeaponsSpecialist

@@ -1,0 +1,11 @@
+ent-RMCWallSPPReinforced = стены с армированием
+    .suffix = СПН
+ent-RMCWallSPPGreyReinforced = { ent-RMCWallSPPReinforced }
+    .suffix = Серая
+ent-RMCWallSPPWhiteReinforced = { ent-RMCWallSPPReinforced }
+    .suffix = Белая
+ent-RMCWallSPPHull = корпус с ребристой поверхностью
+ent-RMCWallSPPGreyHull = { ent-RMCWallSPPHull }
+    .suffix = Серая
+ent-RMCWallSPPWhiteHull = { ent-RMCWallSPPHull }
+    .suffix = Белая

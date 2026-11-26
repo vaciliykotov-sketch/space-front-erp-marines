@@ -1,0 +1,14 @@
+ent-ClothingNeckScarfLongWhite = шарф белый удлинённый
+ent-ClothingNeckScarfLongPurple = шарф пурпурный удлинённый
+ent-ClothingNeckScarfLongGreen = шарф зелёный удлинённый
+ent-ClothingNeckScarfLongOrange = шарф оранжевый удлинённый
+ent-ClothingNeckScarfLongYellow = шарф жёлтый удлинённый
+ent-ClothingNeckScarfLongBlue = шарф синий удлинённый
+ent-ClothingNeckScarfLongRed = красный шарф удлинённого кроя
+ent-ClothingNeckScarfLongPink = розовый шарф длинного формата
+ent-ClothingNeckScarfLongBlack = чёрный шарф удлинённого покроя
+ent-ClothingNeckScarfStripedWhite = белый шарф в полоску
+ent-ClothingNeckScarfUnrobust = анробастный шарф
+ent-ClothingNeckScarfWindy = шарф «Ветреный»
+    .suffix = { "" }
+ent-ClothingNeckGoldTie = галстук золотого оттенка

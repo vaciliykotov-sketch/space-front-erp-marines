@@ -1,0 +1,15 @@
+- type: job
+  parent: CMSurvivor
+  id: RMCSurvivorShivasPanicRoomCivilian
+  name: cm-job-name-survivor
+  spawnMenuRoleName: Civilian (Shivas Special Survivor)
+  playTimeTracker: CMJobSurvivor
+  setPreference: false
+
+- type: entity
+  parent: CMSpawnPointSurvivor
+  id: CMSpawnPointPanicRoomSurvivor
+  name: "точка появления особого гражданского выжившего из панической комнаты"
+  components:
+  - type: SpawnPoint
+    job_id: RMCSurvivorShivasPanicRoomCivilian

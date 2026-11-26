@@ -1,0 +1,20 @@
+МОДИФИКАЦИЯ: 07 Только люди
+============================================================
+
+ЧТО ДЕЛАЕТ:
+Режим «только люди»: кнопка выбора вида убрана
+
+ЗАЧЕМ:
+Что делает: убирает кнопку выбора расы из редактора персонажа, чистит список видов. Зачем: лор Space Front — люди против людей; лишние расы ломают баланс.
+
+ФАЙЛЫ МОДИФИКАЦИИ (в этой папке; имя файла = путь проекта с подчёркиваниями):
+- Content.Shared/_SpaceFront/Humanoid/HumanoidAppearanceComponent.cs
+- Content.Shared/_SpaceFront/Humanoid/SharedHumanoidAppearanceSystem.cs
+- Content.Shared/_SpaceFront/_RMC14/Humanoid/RMCHumanoidAppearanceSystem.cs
+
+СВЯЗАННЫЕ ЧУЖИЕ ФАЙЛЫ (не копируются — правки отмечены Stories-маркерами):
+Чужие файлы с маркерами:
+- Content.Client/Lobby/UI/HumanoidProfileEditor.xaml.cs — убрана SpeciesButton
+Ресурсы: Resources/Prototypes/Species/** — только человек
+
+Полный реестр всех изменений — PATCHES.md в корне репозитория.

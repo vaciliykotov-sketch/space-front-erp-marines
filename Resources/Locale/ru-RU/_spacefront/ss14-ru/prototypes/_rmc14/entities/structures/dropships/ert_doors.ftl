@@ -1,0 +1,15 @@
+ent-RMCERTDoorPort = боковой люк ОБР для экипажа
+    .suffix = { ent-CMAlamoDoorPort.suffix }
+ent-RMCSPPDoorPort = боковой люк СПН для экипажа
+    .suffix = { ent-CMAlamoDoorPort.suffix }
+ent-RMCERTDoorAft = кормовой грузовой люк ОБР
+    .suffix = { ent-CMAlamoDoorAft.suffix }
+ent-RMCSPPDoorAft = кормовой грузовой люк СПН
+    .suffix = { ent-CMAlamoDoorAft.suffix }
+ent-RMCTSEDoorAft = кормовой грузовой люк ИТС
+    .suffix = { ent-CMAlamoDoorAft.suffix }
+ent-RMCPMCDoorAft = кормовой грузовой люк ЧВК
+    .suffix = { ent-CMAlamoDoorAft.suffix }
+ent-RMCTSECrewHatch = люк для экипажа ИТС
+ent-RMCCLFCrewHatch = люк для экипажа КОФ
+ent-RMCPMCCrewHatch = люк для экипажа ЧВК

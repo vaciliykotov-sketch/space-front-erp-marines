@@ -1,0 +1,9 @@
+ent-Dart = дротик
+ent-DartBlue = { ent-Dart }
+ent-DartPurple = { ent-Dart }
+ent-DartYellow = { ent-Dart }
+ent-HypoDart = { ent-Dart }
+    .suffix = Гиподротик
+ent-TargetDarts = мишень для дартса
+ent-HypoDartBox = чехол для гиподротика
+    .suffix = Гиподротик

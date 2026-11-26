@@ -1,0 +1,17 @@
+ent-CMBottleEmpty = { ent-BaseChemistryEmptyBottle }
+ent-CMBottleFilled = { ent-CMBottleEmpty }
+ent-CMBottleBicaridine = флакон бикаридина
+ent-CMBottleKelotane = флакон келотана
+ent-CMBottleDylovene = флакон диловена
+ent-CMBottleDexalin = флакон дексалина
+ent-CMBottleInaprovaline = флакон инапровалина
+ent-CMBottleTricordrazine = флакон трикордразина
+ent-RMCBottleAntiZed = флакон препарата против 'Патогена'
+    .suffix = НЕ МАППИТЬ
+ent-RMCBottleMindbreaker = флакон мозголома
+ent-RMCBottleEpinephrine = флакон эпинефрина
+ent-RMCLargeBottleEmpty = крупный флакон
+ent-RMCLargeBottleFilled = { ent-RMCLargeBottleEmpty }
+ent-RMCLargeBottleDexalinPlus = крупный флакон дексалина плюс
+ent-RMCLargeBottleMeralyneBicaridine = крупный флакон мералина-бикаридина
+ent-RMCLargeBottleKelotaneDermaline = крупный флакон келотана-дермалина

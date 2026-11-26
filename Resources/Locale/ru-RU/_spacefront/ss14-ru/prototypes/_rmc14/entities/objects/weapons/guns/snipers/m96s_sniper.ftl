@@ -1,0 +1,12 @@
+ent-CMM96SSniperRifle = винтовка снайперская M96S
+ent-CMMagazineSniperM96S = M96S: магазин (10x28 мм)
+ent-CMMagazineSniperM96SIncendiary = M96S: магазин с зажигательными (10x28 мм)
+ent-CMMagazineSniperM96SFlak = M96S: магазин противовоздушный (10x28 мм)
+ent-CMCartridgeSniper10x28mmIncendiary = зажигательный патрон 10x28 мм
+ent-CMCartridgeSniper10x28mmFlak = противовоздушный патрон (10x28 мм)
+ent-CMBulletSniper10x28mm = пуля калибра 10x28 мм
+ent-CMBulletSniper10x28mmIncendiary = пуля зажигательного действия (10x28 мм)
+ent-CMBulletSniper10x28mmFlak = пуля с эффектом "воздушный удар" калибра 10x28 мм
+ent-CMMagazineSniperM96SAntiMateriel = магазин марксманский XM43E1 калибра 10x99 мм
+ent-CMCartridgeSniper10x99mmAntiMateriel = патрон антиматериальный 10x99 мм
+ent-CMBulletSniper10x99mmAntiMateriel = пуля калибра 10x99 мм

@@ -1,0 +1,13 @@
+ent-RMCFlashlightBase = { ent-BaseItem }
+ent-RMCBoxFlashlightsEmpty = ящик фонариков
+ent-RMCBoxFlashlights = { ent-RMCBoxFlashlightsEmpty }
+    .suffix = Заполненный
+ent-RMCFlashlight = ручной фонарь
+ent-RMCFlashlightPen = фонарь-ручка
+ent-RMCLamp = лампа настольного типа
+ent-RMCLampGreen = { ent-RMCLamp }
+ent-RMCLampMenorah = Менора
+ent-RMCLampCandelabra = канделябр
+ent-RMCLampTripod = лампа на штативе
+ent-RMCLampTripodGrey = { ent-RMCLampTripod }
+ent-RMCFlashlightLantern = фонарь-лампа

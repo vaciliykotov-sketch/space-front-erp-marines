@@ -1,0 +1,1 @@
+ent-ActionSpawnMagicarpSpell = Вызвать мэджикарпа

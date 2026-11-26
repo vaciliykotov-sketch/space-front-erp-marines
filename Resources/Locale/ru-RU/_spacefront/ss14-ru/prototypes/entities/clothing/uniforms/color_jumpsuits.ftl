@@ -1,0 +1,17 @@
+ent-ClothingUniformJumpsuitColorWhite = комбинезон белого цвета
+ent-ClothingUniformJumpsuitColorGrey = комбинезон серого цвета
+ent-ClothingUniformJumpsuitColorBlack = комбинезон чёрного цвета
+ent-ClothingUniformJumpsuitColorBlue = комбинезон синего цвета
+ent-ClothingUniformJumpsuitColorDarkBlue = комбинезон тёмно-синего цвета
+ent-ClothingUniformJumpsuitColorTeal = комбинезон аквамаринового цвета
+ent-ClothingUniformJumpsuitColorGreen = комбинезон зелёного цвета
+ent-ClothingUniformJumpsuitColorDarkGreen = комбинезон тёмно-зелёного цвета
+ent-ClothingUniformJumpsuitColorOrange = комбинезон оранжевого цвета
+ent-ClothingUniformJumpsuitColorPink = комбинезон розового цвета
+ent-ClothingUniformJumpsuitColorRed = комбинезон красного цвета
+ent-ClothingUniformJumpsuitColorYellow = комбинезон жёлтого цвета
+ent-ClothingUniformJumpsuitColorPurple = комбинезон фиолетового цвета
+ent-ClothingUniformJumpsuitColorLightBrown = комбинезон светло-коричневого цвета
+ent-ClothingUniformJumpsuitColorBrown = комбинезон коричневого цвета
+ent-ClothingUniformJumpsuitColorMaroon = комбинезон бордового цвета
+ent-ClothingUniformColorRainbow = комбинезон радужного цвета

@@ -1,0 +1,1 @@
+ent-CMRadioHandheld = рация портативная
