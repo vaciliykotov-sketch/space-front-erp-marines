@@ -1,4 +1,4 @@
-﻿<Control xmlns="https://spacestation14.io"
+<Control xmlns="https://spacestation14.io"
          MouseFilter="Stop">
     <PanelContainer Name="Panel"
                     StyleClasses="windowPanel">
@@ -17,8 +17,6 @@
                 <Button Name="LeaveNowButton"
                         Text="Уйти сразу в лобби!"
                         StyleClasses="Caution" />
-                <Button Name="GhostRolesButton"
-                        StyleClasses="OpenRight" />
             </BoxContainer>
         </BoxContainer>
     </PanelContainer>

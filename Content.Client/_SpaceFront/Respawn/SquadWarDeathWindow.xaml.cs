@@ -29,13 +29,6 @@ public sealed partial class SquadWarDeathWindow : Control
             BorderThickness = new Thickness(4),
         };
 
-        GhostRolesButton.Text = Loc.GetString("ghost-gui-ghost-roles-button", ("count", 0));
-
-        GhostRolesButton.OnPressed += _ =>
-        {
-            IoCManager.Resolve<Robust.Client.Console.IClientConsoleHost>().RemoteExecuteCommand(null, "ghostroles");
-        };
-
         LeaveNowButton.OnPressed += _ =>
         {
             IoCManager.Resolve<IEntityManager>().RaisePredictiveEvent(new SquadWarLeaveNowEvent());
